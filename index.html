@@ -450,6 +450,11 @@
                 font-size: 2rem;
             }
 
+            .song-links {
+                flex-direction: column;
+                gap: 10px;
+            }
+
             .link-btn {
                 width: 100%;
                 padding: 15px 20px;
@@ -547,11 +552,8 @@
         <div class="song-item">
             <div class="song-title">Revive Us Again</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/Revive-Us-Again.pdf', 'audio/Revive-Us-Again.mp3', 'Revive Us Again')">
-                    📄 Sheet Music
-                </button>
-                <button class="link-btn audio" onclick="openAudio('audio/Revive-Us-Again.mp3', 'Revive Us Again - Audio')">
-                    🎵 Sing with Mark
+                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/Revive-Us-Again.pdf', 'audio/1-Revive-Us-Again.mp3', 'Revive Us Again')">
+                    📄 Sheet music and audio
                 </button>
             </div>
         </div>
@@ -559,11 +561,8 @@
         <div class="song-item">
             <div class="song-title">Soon and Very Soon</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/Soon-And-Very-Soon.pdf', 'audio/Soon-And-Very-Soon.mp3', 'Soon and Very Soon')">
-                    📄 Sheet Music
-                </button>
-                <button class="link-btn audio" onclick="openAudio('audio/Soon-And-Very-Soon.mp3', 'Soon and Very Soon - Audio')">
-                    🎵 Sing with Mark
+                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/Soon-And-Very-Soon.pdf', 'audio/2-Soon-And-Very-Soon.mp3', 'Soon and Very Soon')">
+                    📄 Sheet music and audio
                 </button>
             </div>
         </div>
@@ -571,11 +570,8 @@
         <div class="song-item">
             <div class="song-title">Great Is the Lord</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/Great-Is-the-Lord.pdf', 'audio/Great-Is-the-Lord.mp3', 'Great Is the Lord')">
-                    📄 Sheet Music
-                </button>
-                <button class="link-btn audio" onclick="openAudio('audio/Great-Is-the-Lord.mp3', 'Great Is the Lord - Audio')">
-                    🎵 Sing with Mark
+                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/Great-Is-the-Lord.pdf', 'audio/3-Great-Is-the-Lord.mp3', 'Great Is the Lord')">
+                    📄 Sheet music and audio
                 </button>
             </div>
         </div>
@@ -583,11 +579,8 @@
         <div class="song-item">
             <div class="song-title">My Country 'Tis of Thee</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/My-Country-Tis-Of-Thee.pdf', 'audio/My-Country-Tis-Of-Thee.mp3', 'My Country Tis of Thee')">
-                    📄 Sheet Music
-                </button>
-                <button class="link-btn audio" onclick="openAudio('audio/My-Country-Tis-Of-Thee.mp3', 'My Country Tis of Thee - Audio')">
-                    🎵 Sing with Mark
+                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/My-Country-Tis-Of-Thee.pdf', 'audio/4-My-Country-Tis-Of-Thee.mp3', 'My Country Tis of Thee')">
+                    📄 Sheet music and audio
                 </button>
             </div>
         </div>
@@ -596,16 +589,7 @@
             <div class="song-title">CHOIR SPECIAL: Mine Eyes Have Seen the Glory</div>
             <div class="song-links">
                 <button class="link-btn sheet-music" onclick="openMultiVoicePDF()">
-                    📄 Sheet Music
-                </button>
-                <button class="link-btn audio" onclick="openAudio('audio/Mine-Eyes-Have-Seen-the-Glory.mp3', 'Mine Eyes Have Seen the Glory - Audio')">
-                    🎵 Sing MELODY with Mark
-                </button>
-                <button class="link-btn audio" onclick="openAudio('audio/Mine-Eyes-ALTO.mp3', 'Mine Eyes Have Seen the Glory - Audio')">
-                    🎵 Sing ALTO with Mark
-                </button>
-                <button class="link-btn audio" onclick="openAudio('audio/Mine-Eyes-BASS.mp3', 'Mine Eyes Have Seen the Glory - Audio')">
-                    🎵 Sing BASS with Mark
+                    📄 Sheet music and audio
                 </button>
             </div>
         </div>
@@ -613,11 +597,8 @@
         <div class="song-item">
             <div class="song-title">Turn Your Eyes Upon Jesus</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/Turn-Your-Eyes-Upon-Jesus.pdf', 'audio/Turn-Your-Eyes-Upon-Jesus.mp3', 'Turn Your Eyes Upon Jesus')">
-                    📄 Sheet Music
-                </button>
-                <button class="link-btn audio" onclick="openAudio('audio/Turn-Your-Eyes-Upon-Jesus.mp3', 'Turn Your Eyes Upon Jesus - Audio')">
-                    🎵 Sing with Mark
+                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/Turn-Your-Eyes-Upon-Jesus.pdf', 'audio/6-Turn-Your-Eyes-Upon-Jesus.mp3', 'Turn Your Eyes Upon Jesus')">
+                    📄 Sheet music and audio
                 </button>
             </div>
         </div>
@@ -676,20 +657,6 @@
     </div>
 </div>
 
-<!-- Audio Only Modal -->
-<div id="audioModal" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeAudioModal()">&times;</span>
-        <h2 id="audioTitle"></h2>
-        <div class="audio-controls">
-            <audio id="audioPlayer" controls preload="metadata">
-                <source id="audioSource" src="" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-        </div>
-    </div>
-</div>
-
 <script>
     // PDF.js setup
     pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
@@ -701,6 +668,94 @@
     let scale = 1.5;
     let canvas = document.getElementById('pdfCanvas');
     let ctx = canvas.getContext('2d');
+
+    // Playlist functionality
+    const playlistSongs = [
+        { title: 'Revive Us Again', src: 'audio/1-Revive-Us-Again.mp3' },
+        { title: 'Soon and Very Soon', src: 'audio/2-Soon-And-Very-Soon.mp3' },
+        { title: 'Great Is the Lord', src: 'audio/3-Great-Is-the-Lord.mp3' },
+        { title: 'My Country \'Tis of Thee', src: 'audio/4-My-Country-Tis-Of-Thee.mp3' },
+        { title: 'Mine Eyes Have Seen the Glory', src: 'audio/5-Mine-Eyes-Have-Seen-the-Glory.mp3' },
+        { title: 'Turn Your Eyes Upon Jesus', src: 'audio/6-Turn-Your-Eyes-Upon-Jesus.mp3' }
+    ];
+
+    let currentPlaylistIndex = 0;
+    let isPlaylistActive = false;
+
+    function playAllSongs() {
+        isPlaylistActive = true;
+        currentPlaylistIndex = 0;
+
+        document.getElementById('playlistControls').style.display = 'block';
+
+        const player = document.getElementById('playlistPlayer');
+        const source = document.getElementById('playlistSource');
+        const titleSpan = document.getElementById('currentSongTitle');
+
+        // Load first song
+        source.src = playlistSongs[currentPlaylistIndex].src;
+        titleSpan.textContent = playlistSongs[currentPlaylistIndex].title;
+        player.load();
+
+        // Auto-play
+        player.play().catch(e => {
+            console.log('Autoplay prevented. Please click play button.');
+        });
+
+        // Setup event listener for when song ends
+        player.addEventListener('ended', playNextSong);
+    }
+
+    function playNextSong() {
+        if (!isPlaylistActive) return;
+
+        currentPlaylistIndex++;
+
+        if (currentPlaylistIndex < playlistSongs.length) {
+            const player = document.getElementById('playlistPlayer');
+            const source = document.getElementById('playlistSource');
+            const titleSpan = document.getElementById('currentSongTitle');
+
+            source.src = playlistSongs[currentPlaylistIndex].src;
+            titleSpan.textContent = playlistSongs[currentPlaylistIndex].title;
+            player.load();
+            player.play().catch(e => {
+                console.log('Autoplay prevented for next song.');
+            });
+        } else {
+            // Playlist finished
+            stopPlaylist();
+        }
+    }
+
+    function stopPlaylist() {
+        isPlaylistActive = false;
+        currentPlaylistIndex = 0;
+
+        const player = document.getElementById('playlistPlayer');
+        player.pause();
+        player.currentTime = 0;
+
+        // Remove event listener
+        player.removeEventListener('ended', playNextSong);
+
+        document.getElementById('playlistControls').style.display = 'none';
+    }
+
+    function sendSuggestion() {
+        const suggestion = document.getElementById('songSuggestion').value.trim();
+        if (suggestion) {
+            const subject = 'Song Suggestion from Choir Member';
+            const body = `Hi Mark,\n\nI'd like to suggest this song for our choir:\n\n${suggestion}\n\nThanks!\n`;
+            const mailtoLink = `mailto:memery1446@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+            window.location.href = mailtoLink;
+
+            // Clear the input
+            document.getElementById('songSuggestion').value = '';
+        } else {
+            alert('Please enter a song suggestion first.');
+        }
+    }
 
     function openPDF(pdfPath, audioPath, title) {
         // Setup single audio
@@ -719,13 +774,13 @@
         // Setup multi-voice selector
         document.getElementById('voiceSelector').innerHTML = `
             <div class="voice-selector">
-                <button class="voice-btn active" onclick="switchVoice('audio/Mine-Eyes-Have-Seen-the-Glory.mp3', 0)">MELODY</button>
-                <button class="voice-btn" onclick="switchVoice('audio/Mine-Eyes-ALTO.mp3', 1)">ALTO</button>
-                <button class="voice-btn" onclick="switchVoice('audio/Mine-Eyes-BASS.mp3', 2)">BASS</button>
+                <button class="voice-btn active" onclick="switchVoice('audio/5-Mine-Eyes-Have-Seen-the-Glory.mp3', 0)">MELODY</button>
+                <button class="voice-btn" onclick="switchVoice('audio/7-Mine-Eyes-ALTO.mp3', 1)">ALTO</button>
+                <button class="voice-btn" onclick="switchVoice('audio/8-Mine-Eyes-BASS.mp3', 2)">BASS</button>
             </div>
         `;
 
-        document.getElementById('modalAudioSource').src = 'audio/Mine-Eyes-Have-Seen-the-Glory.mp3';
+        document.getElementById('modalAudioSource').src = 'audio/5-Mine-Eyes-Have-Seen-the-Glory.mp3';
         document.getElementById('modalAudioPlayer').load();
 
         // Load PDF
@@ -813,14 +868,6 @@
         });
     }
 
-    function openAudio(audioPath, title) {
-        document.getElementById('audioTitle').textContent = title;
-        document.getElementById('audioSource').src = audioPath;
-        document.getElementById('audioPlayer').load();
-        document.getElementById('audioModal').style.display = 'block';
-        document.body.style.overflow = 'hidden';
-    }
-
     function closeModal() {
         document.getElementById('pdfModal').style.display = 'none';
         document.body.style.overflow = 'auto';
@@ -831,26 +878,12 @@
         audio.currentTime = 0;
     }
 
-    function closeAudioModal() {
-        document.getElementById('audioModal').style.display = 'none';
-        document.body.style.overflow = 'auto';
-
-        // Stop audio
-        const audio = document.getElementById('audioPlayer');
-        audio.pause();
-        audio.currentTime = 0;
-    }
-
     // Close modal when clicking outside
     window.onclick = function(event) {
         const pdfModal = document.getElementById('pdfModal');
-        const audioModal = document.getElementById('audioModal');
 
         if (event.target === pdfModal) {
             closeModal();
-        }
-        if (event.target === audioModal) {
-            closeAudioModal();
         }
     }
 
@@ -858,7 +891,6 @@
     document.addEventListener('keydown', function(event) {
         if (event.key === 'Escape') {
             closeModal();
-            closeAudioModal();
         }
     });
 
