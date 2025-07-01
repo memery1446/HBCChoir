@@ -250,16 +250,16 @@
 
         .audio-controls {
             background: #f8f9fa;
-            padding: 20px;
+            padding: 15px;
             border-radius: 10px;
-            margin-top: 20px;
+            margin-bottom: 15px;
             text-align: center;
         }
 
         .audio-controls h3 {
             color: #2c3e50;
-            margin-bottom: 15px;
-            font-size: 1.3rem;
+            margin-bottom: 10px;
+            font-size: 1.2rem;
         }
 
         #modalAudioPlayer {
@@ -272,7 +272,7 @@
             display: flex;
             gap: 10px;
             justify-content: center;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
             flex-wrap: wrap;
         }
 
@@ -444,18 +444,6 @@
     <div class="modal-content">
         <span class="close" onclick="closeModal()">&times;</span>
 
-        <div class="pdf-viewer">
-            <canvas id="pdfCanvas"></canvas>
-        </div>
-
-        <div class="pdf-controls">
-            <button class="pdf-btn" id="prevBtn" onclick="prevPage()">Previous</button>
-            <span class="page-info">
-                Page <span id="pageNum">1</span> of <span id="pageCount">1</span>
-            </span>
-            <button class="pdf-btn" id="nextBtn" onclick="nextPage()">Next</button>
-        </div>
-
         <div class="audio-controls">
             <h3>🎵 Practice with Mark</h3>
             <div id="voiceSelector"></div>
@@ -463,6 +451,18 @@
                 <source id="modalAudioSource" src="" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
+        </div>
+
+        <div class="pdf-viewer">
+            <canvas id="pdfCanvas"></canvas>
+        </div>
+
+        <div class="pdf-controls" id="pdfControls" style="display: none;">
+            <button class="pdf-btn" id="prevBtn" onclick="prevPage()">Previous</button>
+            <span class="page-info">
+                Page <span id="pageNum">1</span> of <span id="pageCount">1</span>
+            </span>
+            <button class="pdf-btn" id="nextBtn" onclick="nextPage()">Next</button>
         </div>
     </div>
 </div>
@@ -530,6 +530,14 @@
         pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
             pdfDoc = pdfDoc_;
             document.getElementById('pageCount').textContent = pdfDoc.numPages;
+
+            // Show/hide page controls based on page count
+            const pdfControls = document.getElementById('pdfControls');
+            if (pdfDoc.numPages > 1) {
+                pdfControls.style.display = 'block';
+            } else {
+                pdfControls.style.display = 'none';
+            }
 
             // Initial page render
             pageNum = 1;
