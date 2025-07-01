@@ -126,6 +126,165 @@
             box-shadow: 0 5px 15px rgba(231, 76, 60, 0.4);
         }
 
+        .playlist-section {
+            background: #e8f5e8;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border: 2px solid #27ae60;
+        }
+
+        .song-order {
+            margin-bottom: 20px;
+        }
+
+        .song-order h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+
+        .song-order ol {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-left: 20px;
+        }
+
+        .song-order li {
+            padding: 8px 0;
+            font-size: 1.1rem;
+            color: #2c3e50;
+        }
+
+        .play-all-section {
+            text-align: center;
+        }
+
+        .play-all-btn {
+            background: #e74c3c;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin-bottom: 15px;
+        }
+
+        .play-all-btn:hover {
+            background: #c0392b;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(231, 76, 60, 0.4);
+        }
+
+        .instructions {
+            color: #34495e;
+            font-style: italic;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .playlist-controls {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .current-song {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+
+        #playlistPlayer {
+            width: 100%;
+            max-width: 500px;
+            margin-bottom: 15px;
+        }
+
+        .playlist-btn {
+            background: #95a5a6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .playlist-btn:hover {
+            background: #7f8c8d;
+        }
+
+        .suggestion-section {
+            background: #fff3cd;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 30px 0;
+            border: 2px solid #f39c12;
+        }
+
+        .suggestion-section h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+            text-align: center;
+        }
+
+        .suggestion-form {
+            text-align: center;
+        }
+
+        .suggestion-input {
+            width: 100%;
+            max-width: 400px;
+            padding: 12px;
+            border: 2px solid #f39c12;
+            border-radius: 8px;
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        .suggestion-btn {
+            background: #f39c12;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin-right: 10px;
+        }
+
+        .suggestion-btn:hover {
+            background: #e67e22;
+            transform: translateY(-1px);
+        }
+
+        .email-link {
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        .email-link:hover {
+            background: #2980b9;
+            transform: translateY(-1px);
+        }
+
         .next-songs-list {
             background: #f8f9fa;
             padding: 25px;
@@ -334,6 +493,32 @@
                 width: 100%;
                 padding: 12px;
             }
+
+            .song-order ol {
+                margin-left: 10px;
+                padding: 15px;
+            }
+
+            .play-all-btn {
+                width: 100%;
+                padding: 15px;
+                font-size: 1.1rem;
+            }
+
+            .suggestion-input {
+                width: 95%;
+                margin-bottom: 15px;
+            }
+
+            .email-link {
+                display: block;
+                margin-top: 10px;
+                text-align: center;
+            }
+
+            .current-song {
+                font-size: 1rem;
+            }
         }
     </style>
 </head>
@@ -341,11 +526,37 @@
 <div class="container">
     <header>
         <h1>🎵 Harmony Baptist Church Choir</h1>
-        <p class="subtitle">Practice Sundays 4:45-5:45 PM</p>
+        <p class="subtitle">All Are Welcome ~ Practice Sundays 4:45-5:45 PM</p>
     </header>
 
     <div class="section">
         <h2>🎵 Songs for Sunday July 6, 2025</h2>
+
+        <div class="playlist-section">
+            <div class="song-order">
+                <h3>Today's Song Order:</h3>
+                <ol>
+                    <li>Revive Us Again</li>
+                    <li>Soon and Very Soon</li>
+                    <li>Great Is the Lord</li>
+                    <li>My Country 'Tis of Thee</li>
+                    <li>CHOIR SPECIAL: Mine Eyes Have Seen the Glory</li>
+                    <li>Turn Your Eyes Upon Jesus</li>
+                </ol>
+            </div>
+
+            <div class="play-all-section">
+                <button class="play-all-btn" onclick="playAllSongs()">🎵 Play All Songs In Order</button>
+                <p class="instructions">Push this button to play through all the songs. Scroll down to see music and to hear one song at a time. You'll find ALTO and BASS practice audio tracks for the Choir Special.</p>
+                <div class="playlist-controls" id="playlistControls" style="display: none;">
+                    <div class="current-song">Now Playing: <span id="currentSongTitle">Revive Us Again</span></div>
+                    <audio id="playlistPlayer" controls>
+                        <source id="playlistSource" src="" type="audio/mpeg">
+                    </audio>
+                    <button class="playlist-btn" onclick="stopPlaylist()">Stop Playlist</button>
+                </div>
+            </div>
+        </div>
 
         <div class="song-item">
             <div class="song-title">Revive Us Again</div>
@@ -422,6 +633,18 @@
                 <button class="link-btn audio" onclick="openAudio('audio/Turn-Your-Eyes-Upon-Jesus.mp3', 'Turn Your Eyes Upon Jesus - Audio')">
                     🎵 Sing with Mark
                 </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="suggestion-section">
+            <h3>🎤 Suggest Your Favorite Song!</h3>
+            <div class="suggestion-form">
+                <input type="text" id="songSuggestion" class="suggestion-input" placeholder="What's your favorite hymn or song?" maxlength="100">
+                <br>
+                <button class="suggestion-btn" onclick="sendSuggestion()">Send Suggestion</button>
+                <a href="mailto:memery1446@gmail.com?subject=Song Suggestion from Choir Member" class="email-link">📧 Email Mark</a>
             </div>
         </div>
     </div>
