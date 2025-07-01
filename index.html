@@ -117,15 +117,6 @@
             box-shadow: 0 5px 15px rgba(39, 174, 96, 0.4);
         }
 
-        .link-btn.audio {
-            background: #e74c3c;
-        }
-
-        .link-btn.audio:hover {
-            background: #c0392b;
-            box-shadow: 0 5px 15px rgba(231, 76, 60, 0.4);
-        }
-
         .playlist-section {
             background: #e8f5e8;
             padding: 25px;
@@ -459,11 +450,6 @@
                 font-size: 2rem;
             }
 
-            .song-links {
-                flex-direction: column;
-                gap: 10px;
-            }
-
             .link-btn {
                 width: 100%;
                 padding: 15px 20px;
@@ -561,10 +547,10 @@
         <div class="song-item">
             <div class="song-title">Revive Us Again</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/Revive-Us-Again.pdf', 'audio/1-Revive-Us-Again.mp3', 'Revive Us Again')">
+                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/Revive-Us-Again.pdf', 'audio/Revive-Us-Again.mp3', 'Revive Us Again')">
                     📄 Sheet Music
                 </button>
-                <button class="link-btn audio" onclick="openAudio('audio/1-Revive-Us-Again.mp3', 'Revive Us Again - Audio')">
+                <button class="link-btn audio" onclick="openAudio('audio/Revive-Us-Again.mp3', 'Revive Us Again - Audio')">
                     🎵 Sing with Mark
                 </button>
             </div>
@@ -573,10 +559,10 @@
         <div class="song-item">
             <div class="song-title">Soon and Very Soon</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/Soon-And-Very-Soon.pdf', 'audio/2-Soon-And-Very-Soon.mp3', 'Soon and Very Soon')">
+                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/Soon-And-Very-Soon.pdf', 'audio/Soon-And-Very-Soon.mp3', 'Soon and Very Soon')">
                     📄 Sheet Music
                 </button>
-                <button class="link-btn audio" onclick="openAudio('audio/2-Soon-And-Very-Soon.mp3', 'Soon and Very Soon - Audio')">
+                <button class="link-btn audio" onclick="openAudio('audio/Soon-And-Very-Soon.mp3', 'Soon and Very Soon - Audio')">
                     🎵 Sing with Mark
                 </button>
             </div>
@@ -585,10 +571,10 @@
         <div class="song-item">
             <div class="song-title">Great Is the Lord</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/Great-Is-the-Lord.pdf', 'audio/3-Great-Is-the-Lord.mp3', 'Great Is the Lord')">
+                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/Great-Is-the-Lord.pdf', 'audio/Great-Is-the-Lord.mp3', 'Great Is the Lord')">
                     📄 Sheet Music
                 </button>
-                <button class="link-btn audio" onclick="openAudio('audio/3-Great-Is-the-Lord.mp3', 'Great Is the Lord - Audio')">
+                <button class="link-btn audio" onclick="openAudio('audio/Great-Is-the-Lord.mp3', 'Great Is the Lord - Audio')">
                     🎵 Sing with Mark
                 </button>
             </div>
@@ -597,10 +583,10 @@
         <div class="song-item">
             <div class="song-title">My Country 'Tis of Thee</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/My-Country-Tis-Of-Thee.pdf', 'audio/4-My-Country-Tis-Of-Thee.mp3', 'My Country Tis of Thee')">
+                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/My-Country-Tis-Of-Thee.pdf', 'audio/My-Country-Tis-Of-Thee.mp3', 'My Country Tis of Thee')">
                     📄 Sheet Music
                 </button>
-                <button class="link-btn audio" onclick="openAudio('audio/4-My-Country-Tis-Of-Thee.mp3', 'My Country Tis of Thee - Audio')">
+                <button class="link-btn audio" onclick="openAudio('audio/My-Country-Tis-Of-Thee.mp3', 'My Country Tis of Thee - Audio')">
                     🎵 Sing with Mark
                 </button>
             </div>
@@ -612,13 +598,13 @@
                 <button class="link-btn sheet-music" onclick="openMultiVoicePDF()">
                     📄 Sheet Music
                 </button>
-                <button class="link-btn audio" onclick="openAudio('audio/5-Mine-Eyes-Have-Seen-the-Glory.mp3', 'Mine Eyes Have Seen the Glory - Audio')">
+                <button class="link-btn audio" onclick="openAudio('audio/Mine-Eyes-Have-Seen-the-Glory.mp3', 'Mine Eyes Have Seen the Glory - Audio')">
                     🎵 Sing MELODY with Mark
                 </button>
-                <button class="link-btn audio" onclick="openAudio('audio/7-Mine-Eyes-ALTO.mp3', 'Mine Eyes Have Seen the Glory - Audio')">
+                <button class="link-btn audio" onclick="openAudio('audio/Mine-Eyes-ALTO.mp3', 'Mine Eyes Have Seen the Glory - Audio')">
                     🎵 Sing ALTO with Mark
                 </button>
-                <button class="link-btn audio" onclick="openAudio('audio/8-Mine-Eyes-BASS.mp3', 'Mine Eyes Have Seen the Glory - Audio')">
+                <button class="link-btn audio" onclick="openAudio('audio/Mine-Eyes-BASS.mp3', 'Mine Eyes Have Seen the Glory - Audio')">
                     🎵 Sing BASS with Mark
                 </button>
             </div>
@@ -627,10 +613,10 @@
         <div class="song-item">
             <div class="song-title">Turn Your Eyes Upon Jesus</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/Turn-Your-Eyes-Upon-Jesus.pdf', 'audio/6-Turn-Your-Eyes-Upon-Jesus.mp3', 'Turn Your Eyes Upon Jesus')">
+                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/Turn-Your-Eyes-Upon-Jesus.pdf', 'audio/Turn-Your-Eyes-Upon-Jesus.mp3', 'Turn Your Eyes Upon Jesus')">
                     📄 Sheet Music
                 </button>
-                <button class="link-btn audio" onclick="openAudio('audio/6-Turn-Your-Eyes-Upon-Jesus.mp3', 'Turn Your Eyes Upon Jesus - Audio')">
+                <button class="link-btn audio" onclick="openAudio('audio/Turn-Your-Eyes-Upon-Jesus.mp3', 'Turn Your Eyes Upon Jesus - Audio')">
                     🎵 Sing with Mark
                 </button>
             </div>
@@ -733,13 +719,13 @@
         // Setup multi-voice selector
         document.getElementById('voiceSelector').innerHTML = `
             <div class="voice-selector">
-                <button class="voice-btn active" onclick="switchVoice('audio/5-Mine-Eyes-Have-Seen-the-Glory.mp3', 0)">MELODY</button>
-                <button class="voice-btn" onclick="switchVoice('audio/7-Mine-Eyes-ALTO.mp3', 1)">ALTO</button>
-                <button class="voice-btn" onclick="switchVoice('audio/8-Mine-Eyes-BASS.mp3', 2)">BASS</button>
+                <button class="voice-btn active" onclick="switchVoice('audio/Mine-Eyes-Have-Seen-the-Glory.mp3', 0)">MELODY</button>
+                <button class="voice-btn" onclick="switchVoice('audio/Mine-Eyes-ALTO.mp3', 1)">ALTO</button>
+                <button class="voice-btn" onclick="switchVoice('audio/Mine-Eyes-BASS.mp3', 2)">BASS</button>
             </div>
         `;
 
-        document.getElementById('modalAudioSource').src = 'audio/5-Mine-Eyes-Have-Seen-the-Glory.mp3';
+        document.getElementById('modalAudioSource').src = 'audio/Mine-Eyes-Have-Seen-the-Glory.mp3';
         document.getElementById('modalAudioPlayer').load();
 
         // Load PDF
