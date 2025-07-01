@@ -221,16 +221,56 @@
             border-radius: 10px;
         }
 
-        .file-container {
+        .pdf-container {
             margin-top: 20px;
             text-align: center;
         }
 
-        .file-container iframe {
+        .pdf-container iframe {
             width: 100%;
             height: 600px;
             border: none;
             border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .audio-container {
+            margin-top: 30px;
+            text-align: center;
+            padding: 30px;
+            background: #f8f9fa;
+            border-radius: 15px;
+        }
+
+        #audioPlayer {
+            width: 100%;
+            max-width: 500px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        .audio-controls {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .audio-btn {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            min-width: 120px;
+        }
+
+        .audio-btn:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
         }
 
         .expand-btn {
@@ -289,6 +329,19 @@
             .section {
                 padding: 20px 15px;
             }
+
+            .pdf-container iframe {
+                height: 400px;
+            }
+
+            .audio-controls {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .audio-btn {
+                width: 100%;
+            }
         }
     </style>
 </head>
@@ -296,80 +349,86 @@
 <div class="container">
     <header>
         <h1>🎵 Harmony Baptist Church Choir</h1>
-        <p class="subtitle">Lifting voices in praise and worship</p>
+        <p class="subtitle">All Are Welcome ~ Practice Sundays 4:45-5:45 PM</p>
     </header>
 
     <div class="section">
-        <h2>🎵 Songs for This Sunday</h2>
+        <h2>🎵 Songs for Sunday July 6, 2025</h2>
 
         <div class="song-item">
-            <div class="song-title">Amazing Grace</div>
+            <div class="song-title">Revive Us Again</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openFile('1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms', 'Amazing Grace - Sheet Music')">
+                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/Revive Us Again.pdf', 'Revive Us Again - Sheet Music')">
                     📄 Sheet Music
                 </button>
-                <button class="link-btn audio" onclick="openAudio('dQw4w9WgXcQ', 'Amazing Grace - Audio')">
-                    🎵 Audio
+                <button class="link-btn audio" onclick="openAudio('audio/Revive Us Again.mp3', 'Revive Us Again - Audio')">
+                    🎵 Sing with Mark
                 </button>
             </div>
         </div>
 
         <div class="song-item">
-            <div class="song-title">How Great Thou Art</div>
+            <div class="song-title">Soon and Very Soon</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openFile('1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms', 'How Great Thou Art - Sheet Music')">
+                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/Soon And Very Soon.pdf', 'Soon and Very Soon - Sheet Music')">
                     📄 Sheet Music
                 </button>
-                <button class="link-btn audio" onclick="openAudio('dQw4w9WgXcQ', 'How Great Thou Art - Audio')">
-                    🎵 Audio
+                <button class="link-btn audio" onclick="openAudio('audio/Soon and Very Soon.mp3', 'Soon and Very Soon - Audio')">
+                    🎵 Sing with Mark
                 </button>
             </div>
         </div>
 
         <div class="song-item">
-            <div class="song-title">Holy, Holy, Holy</div>
+            <div class="song-title">Great Is the Lord</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openFile('1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms', 'Holy, Holy, Holy - Sheet Music')">
+                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/Great Is the Lord.pdf', 'Great Is the Lord - Sheet Music')">
                     📄 Sheet Music
                 </button>
-                <button class="link-btn audio" onclick="openAudio('dQw4w9WgXcQ', 'Holy, Holy, Holy - Audio')">
-                    🎵 Audio
+                <button class="link-btn audio" onclick="openAudio('audio/Great Is the Lord.mp3', 'Great Is the Lord - Audio')">
+                    🎵 Sing with Mark
                 </button>
             </div>
         </div>
 
         <div class="song-item">
-            <div class="song-title">Blessed Assurance</div>
+            <div class="song-title">My Country 'Tis of Thee</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openFile('1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms', 'Blessed Assurance - Sheet Music')">
+                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/My Country Tis Of Thee.pdf', 'My Country Tis of Thee - Sheet Music')">
                     📄 Sheet Music
                 </button>
-                <button class="link-btn audio" onclick="openAudio('dQw4w9WgXcQ', 'Blessed Assurance - Audio')">
-                    🎵 Audio
+                <button class="link-btn audio" onclick="openAudio('audio/My Country Tis Of Thee.mp3', 'My Country Tis of Thee - Audio')">
+                    🎵 Sing with Mark
                 </button>
             </div>
         </div>
 
         <div class="song-item">
-            <div class="song-title">Great Is Thy Faithfulness</div>
+            <div class="song-title">CHOIR SPECIAL: Mine Eyes Have Seen the Glory</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openFile('1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms', 'Great Is Thy Faithfulness - Sheet Music')">
+                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/Mine Eyes Have Seen The Glory.pdf', 'Mine Eyes Have Seen the Glory - Sheet Music')">
                     📄 Sheet Music
                 </button>
-                <button class="link-btn audio" onclick="openAudio('dQw4w9WgXcQ', 'Great Is Thy Faithfulness - Audio')">
-                    🎵 Audio
+                <button class="link-btn audio" onclick="openAudio('audio/Mine Eyes Have Seen the Glory.mp3', 'Mine Eyes Have Seen the Glory - Audio')">
+                    🎵 Sing MELODY with Mark
+                </button>
+                <button class="link-btn audio" onclick="openAudio('audio/Mine Eyes ALTO.mp3', 'Mine Eyes Have Seen the Glory - Audio')">
+                    🎵 Sing ALTO with Mark
+                </button>
+                <button class="link-btn audio" onclick="openAudio('audio/Mine Eyes BASS.mp3', 'Mine Eyes Have Seen the Glory - Audio')">
+                    🎵 Sing BASS with Mark
                 </button>
             </div>
         </div>
 
         <div class="song-item">
-            <div class="song-title">When I Survey the Wondrous Cross</div>
+            <div class="song-title">Turn Your Eyes Upon Jesus</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openFile('1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms', 'When I Survey the Wondrous Cross - Sheet Music')">
+                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/Turn Your Eyes Upon Jesus.pdf', 'Turn Your Eyes Upon Jesus - Sheet Music')">
                     📄 Sheet Music
                 </button>
-                <button class="link-btn audio" onclick="openAudio('dQw4w9WgXcQ', 'When I Survey the Wondrous Cross - Audio')">
-                    🎵 Audio
+                <button class="link-btn audio" onclick="openAudio('audio/Turn Your Eyes Upon Jesus.mp3', 'Turn Your Eyes Upon Jesus - Audio')">
+                    🎵 Sing with Mark
                 </button>
             </div>
         </div>
@@ -379,12 +438,24 @@
         <h2>📅 Next Sunday's Songs</h2>
         <div class="next-songs-list">
             <ul>
-                <li>Be Thou My Vision</li>
-                <li>It Is Well With My Soul</li>
-                <li>Crown Him With Many Crowns</li>
-                <li>Jesus Paid It All</li>
+                <li>Coming soon...</li>
+                <li></li>
+                <li></li>
+                <li></li>
             </ul>
         </div>
+    </div>
+</div>
+
+<!-- PDF Modal -->
+<div id="pdfModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('pdfModal')">&times;</span>
+        <h2 id="pdfTitle"></h2>
+        <div class="pdf-container">
+            <iframe id="pdfFrame" src=""></iframe>
+        </div>
+        <button class="expand-btn" onclick="expandPDF()">Download PDF</button>
     </div>
 </div>
 
@@ -393,113 +464,120 @@
     <div class="modal-content">
         <span class="close" onclick="closeModal('audioModal')">&times;</span>
         <h2 id="audioTitle"></h2>
-        <div class="video-container">
-            <iframe id="audioFrame" src="" allowfullscreen></iframe>
+        <div class="audio-container">
+            <audio id="audioPlayer" controls preload="metadata">
+                <source id="audioSource" src="" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <div class="audio-controls">
+                <button class="audio-btn" onclick="playPause()">▶️ Play</button>
+                <button class="audio-btn" onclick="restartAudio()">🔄 Restart</button>
+            </div>
         </div>
-        <button class="expand-btn" onclick="expandAudio()">Open in YouTube</button>
-    </div>
-</div>
-
-<!-- Video Modal -->
-<div id="videoModal" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal('videoModal')">&times;</span>
-        <h2 id="videoTitle"></h2>
-        <div class="video-container">
-            <iframe id="videoFrame" src="" allowfullscreen></iframe>
-        </div>
-        <button class="expand-btn" onclick="expandVideo()">Open in YouTube</button>
-    </div>
-</div>
-
-<!-- File Modal -->
-<div id="fileModal" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal('fileModal')">&times;</span>
-        <h2 id="fileTitle"></h2>
-        <div class="file-container">
-            <iframe id="fileFrame" src=""></iframe>
-        </div>
-        <button class="expand-btn" onclick="expandFile()">Open in Google Drive</button>
+        <button class="expand-btn" onclick="expandAudio()">Download Audio</button>
     </div>
 </div>
 
 <script>
-    let currentVideoId = '';
-    let currentFileId = '';
-    let currentAudioId = '';
+    let currentPDFPath = '';
+    let currentAudioPath = '';
 
-    function openVideo(videoId, title) {
-        currentVideoId = videoId;
-        document.getElementById('videoTitle').textContent = title;
-        document.getElementById('videoFrame').src = `https://www.youtube.com/embed/${videoId}`;
-        document.getElementById('videoModal').style.display = 'block';
+    function openPDF(pdfPath, title) {
+        currentPDFPath = pdfPath;
+        document.getElementById('pdfTitle').textContent = title;
+        document.getElementById('pdfFrame').src = pdfPath;
+        document.getElementById('pdfModal').style.display = 'block';
         document.body.style.overflow = 'hidden';
     }
 
-    function openAudio(audioId, title) {
-        currentAudioId = audioId;
+    function openAudio(audioPath, title) {
+        currentAudioPath = audioPath;
         document.getElementById('audioTitle').textContent = title;
-        document.getElementById('audioFrame').src = `https://www.youtube.com/embed/${audioId}`;
+        document.getElementById('audioSource').src = audioPath;
+        document.getElementById('audioPlayer').load(); // Reload the audio element
         document.getElementById('audioModal').style.display = 'block';
         document.body.style.overflow = 'hidden';
     }
 
-    function openFile(fileId, title) {
-        currentFileId = fileId;
-        document.getElementById('fileTitle').textContent = title;
-        document.getElementById('fileFrame').src = `https://docs.google.com/spreadsheets/d/${fileId}/edit?usp=sharing&embedded=true`;
-        document.getElementById('fileModal').style.display = 'block';
-        document.body.style.overflow = 'hidden';
+    function playPause() {
+        const audio = document.getElementById('audioPlayer');
+        const btn = event.target;
+
+        if (audio.paused) {
+            audio.play();
+            btn.textContent = '⏸️ Pause';
+        } else {
+            audio.pause();
+            btn.textContent = '▶️ Play';
+        }
+    }
+
+    function restartAudio() {
+        const audio = document.getElementById('audioPlayer');
+        audio.currentTime = 0;
+        audio.play();
+        document.querySelector('.audio-btn').textContent = '⏸️ Pause';
     }
 
     function closeModal(modalId) {
         document.getElementById(modalId).style.display = 'none';
         document.body.style.overflow = 'auto';
 
-        // Stop playback when closing
-        if (modalId === 'videoModal') {
-            document.getElementById('videoFrame').src = '';
-        } else if (modalId === 'audioModal') {
-            document.getElementById('audioFrame').src = '';
+        // Stop audio playback and reset button when closing
+        if (modalId === 'audioModal') {
+            const audio = document.getElementById('audioPlayer');
+            audio.pause();
+            audio.currentTime = 0;
+            document.querySelector('.audio-btn').textContent = '▶️ Play';
         }
     }
 
-    function expandVideo() {
-        window.open(`https://www.youtube.com/watch?v=${currentVideoId}`, '_blank');
+    function expandPDF() {
+        window.open(currentPDFPath, '_blank');
     }
 
     function expandAudio() {
-        window.open(`https://www.youtube.com/watch?v=${currentAudioId}`, '_blank');
+        const link = document.createElement('a');
+        link.href = currentAudioPath;
+        link.download = currentAudioPath.split('/').pop();
+        link.click();
     }
 
-    function expandFile() {
-        window.open(`https://docs.google.com/spreadsheets/d/${currentFileId}/edit`, '_blank');
-    }
+    // Update audio button text based on audio state
+    document.addEventListener('DOMContentLoaded', function() {
+        const audio = document.getElementById('audioPlayer');
+
+        audio.addEventListener('play', function() {
+            document.querySelector('.audio-btn').textContent = '⏸️ Pause';
+        });
+
+        audio.addEventListener('pause', function() {
+            document.querySelector('.audio-btn').textContent = '▶️ Play';
+        });
+
+        audio.addEventListener('ended', function() {
+            document.querySelector('.audio-btn').textContent = '▶️ Play';
+        });
+    });
 
     // Close modal when clicking outside of it
     window.onclick = function(event) {
-        const videoModal = document.getElementById('videoModal');
+        const pdfModal = document.getElementById('pdfModal');
         const audioModal = document.getElementById('audioModal');
-        const fileModal = document.getElementById('fileModal');
 
-        if (event.target === videoModal) {
-            closeModal('videoModal');
+        if (event.target === pdfModal) {
+            closeModal('pdfModal');
         }
         if (event.target === audioModal) {
             closeModal('audioModal');
-        }
-        if (event.target === fileModal) {
-            closeModal('fileModal');
         }
     }
 
     // Close modal with Escape key
     document.addEventListener('keydown', function(event) {
         if (event.key === 'Escape') {
-            closeModal('videoModal');
+            closeModal('pdfModal');
             closeModal('audioModal');
-            closeModal('fileModal');
         }
     });
 </script>
