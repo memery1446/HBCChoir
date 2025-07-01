@@ -203,24 +203,6 @@
             color: #e74c3c;
         }
 
-        .video-container {
-            position: relative;
-            width: 100%;
-            height: 0;
-            padding-bottom: 56.25%; /* 16:9 aspect ratio */
-            margin-top: 20px;
-        }
-
-        .video-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: none;
-            border-radius: 10px;
-        }
-
         .pdf-container {
             margin-top: 20px;
             text-align: center;
@@ -232,6 +214,25 @@
             border: none;
             border-radius: 10px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .pdf-fallback {
+            display: none;
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .pdf-fallback.show {
+            display: block;
+        }
+
+        .fallback-message {
+            font-size: 1.1rem;
+            color: #2c3e50;
+            margin-bottom: 20px;
         }
 
         .audio-container {
@@ -280,7 +281,7 @@
             padding: 10px 20px;
             border-radius: 5px;
             cursor: pointer;
-            margin-top: 15px;
+            margin: 10px 15px;
             font-size: 1rem;
             transition: background 0.3s;
         }
@@ -289,15 +290,12 @@
             background: #2980b9;
         }
 
-        .demo-note {
-            background: #fff3cd;
-            border: 1px solid #ffeaa7;
-            color: #856404;
-            padding: 15px;
-            border-radius: 8px;
-            margin: 20px 0;
-            text-align: center;
-            font-style: italic;
+        .expand-btn.download {
+            background: #27ae60;
+        }
+
+        .expand-btn.download:hover {
+            background: #229954;
         }
 
         @media (max-width: 768px) {
@@ -455,7 +453,13 @@
         <div class="pdf-container">
             <iframe id="pdfFrame" src=""></iframe>
         </div>
-        <button class="expand-btn" onclick="expandPDF()">Download PDF</button>
+        <div class="pdf-fallback" id="pdfFallback">
+            <div class="fallback-message">
+                📱 Having trouble viewing? Try downloading the PDF instead.
+            </div>
+            <button class="expand-btn download" onclick="downloadPDF()">📄 Download PDF</button>
+            <button class="expand-btn" onclick="openPDFNewTab()">🔗 Open in New Tab</button>
+        </div>
     </div>
 </div>
 
@@ -474,7 +478,7 @@
                 <button class="audio-btn" onclick="restartAudio()">🔄 Restart</button>
             </div>
         </div>
-        <button class="expand-btn" onclick="expandAudio()">Download Audio</button>
+        <button class="expand-btn download" onclick="expandAudio()">📱 Download Audio</button>
     </div>
 </div>
 
@@ -482,19 +486,46 @@
     let currentPDFPath = '';
     let currentAudioPath = '';
 
+    // Detect if user is on mobile
+    function isMobileDevice() {
+        return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+    }
+
     function openPDF(pdfPath, title) {
         currentPDFPath = pdfPath;
         document.getElementById('pdfTitle').textContent = title;
-        document.getElementById('pdfFrame').src = pdfPath;
+
+        // Properly encode the URL for spaces and special characters
+        const encodedPath = encodeURI(pdfPath);
+
+        // Try to load in iframe first
+        const iframe = document.getElementById('pdfFrame');
+        iframe.src = encodedPath;
+
         document.getElementById('pdfModal').style.display = 'block';
         document.body.style.overflow = 'hidden';
+
+        // Check if PDF loads properly (especially on mobile)
+        iframe.onload = function() {
+            // If iframe loaded but shows encoded filename, show fallback
+            if (isMobileDevice()) {
+                setTimeout(() => {
+                    document.getElementById('pdfFallback').classList.add('show');
+                }, 1000);
+            }
+        };
+
+        iframe.onerror = function() {
+            // If iframe fails to load, show fallback immediately
+            document.getElementById('pdfFallback').classList.add('show');
+        };
     }
 
     function openAudio(audioPath, title) {
         currentAudioPath = audioPath;
         document.getElementById('audioTitle').textContent = title;
-        document.getElementById('audioSource').src = audioPath;
-        document.getElementById('audioPlayer').load(); // Reload the audio element
+        document.getElementById('audioSource').src = encodeURI(audioPath);
+        document.getElementById('audioPlayer').load();
         document.getElementById('audioModal').style.display = 'block';
         document.body.style.overflow = 'hidden';
     }
@@ -523,6 +554,9 @@
         document.getElementById(modalId).style.display = 'none';
         document.body.style.overflow = 'auto';
 
+        // Reset fallback display
+        document.getElementById('pdfFallback').classList.remove('show');
+
         // Stop audio playback and reset button when closing
         if (modalId === 'audioModal') {
             const audio = document.getElementById('audioPlayer');
@@ -532,7 +566,14 @@
         }
     }
 
-    function expandPDF() {
+    function downloadPDF() {
+        const link = document.createElement('a');
+        link.href = currentPDFPath;
+        link.download = currentPDFPath.split('/').pop();
+        link.click();
+    }
+
+    function openPDFNewTab() {
         window.open(currentPDFPath, '_blank');
     }
 
