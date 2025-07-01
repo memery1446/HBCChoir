@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harmony Baptist Church Choir</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
     <style>
         * {
             margin: 0;
@@ -172,9 +173,9 @@
             margin: 2% auto;
             padding: 20px;
             border-radius: 15px;
-            width: 90%;
+            width: 95%;
             max-width: 1000px;
-            max-height: 90vh;
+            max-height: 95vh;
             overflow-y: auto;
             animation: modalSlideIn 0.3s ease-out;
         }
@@ -203,20 +204,51 @@
             color: #e74c3c;
         }
 
-        .pdf-container {
-            margin-top: 20px;
+        .pdf-viewer {
             text-align: center;
+            margin: 20px 0;
         }
 
-        .pdf-container iframe {
-            width: 100%;
-            height: 600px;
-            border: none;
+        #pdfCanvas {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
             border-radius: 10px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
 
-        .pdf-audio-controls {
+        .pdf-controls {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .pdf-btn {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            margin: 0 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        .pdf-btn:hover {
+            background: #2980b9;
+        }
+
+        .pdf-btn:disabled {
+            background: #bdc3c7;
+            cursor: not-allowed;
+        }
+
+        .page-info {
+            margin: 0 15px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .audio-controls {
             background: #f8f9fa;
             padding: 20px;
             border-radius: 10px;
@@ -224,13 +256,13 @@
             text-align: center;
         }
 
-        .pdf-audio-controls h3 {
+        .audio-controls h3 {
             color: #2c3e50;
             margin-bottom: 15px;
             font-size: 1.3rem;
         }
 
-        #pdfAudioPlayer {
+        #modalAudioPlayer {
             width: 100%;
             max-width: 500px;
             border-radius: 10px;
@@ -263,61 +295,6 @@
             transform: translateY(-1px);
         }
 
-        .audio-container {
-            margin-top: 30px;
-            text-align: center;
-            padding: 30px;
-            background: #f8f9fa;
-            border-radius: 15px;
-        }
-
-        #audioPlayer {
-            width: 100%;
-            max-width: 500px;
-            margin-bottom: 20px;
-            border-radius: 10px;
-        }
-
-        .audio-controls {
-            display: flex;
-            gap: 15px;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-
-        .audio-btn {
-            background: #3498db;
-            color: white;
-            border: none;
-            padding: 12px 20px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 1rem;
-            transition: all 0.3s ease;
-            min-width: 120px;
-        }
-
-        .audio-btn:hover {
-            background: #2980b9;
-            transform: translateY(-2px);
-        }
-
-        .expand-btn {
-            background: #3498db;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            margin: 10px 15px;
-            font-size: 1rem;
-            transition: background 0.3s;
-        }
-
-        .expand-btn:hover {
-            background: #2980b9;
-        }
-
         @media (max-width: 768px) {
             h1 {
                 font-size: 2rem;
@@ -339,26 +316,13 @@
             }
 
             .modal-content {
-                width: 95%;
-                margin: 5% auto;
+                width: 98%;
+                margin: 1% auto;
                 padding: 15px;
             }
 
             .section {
                 padding: 20px 15px;
-            }
-
-            .pdf-container iframe {
-                height: 400px;
-            }
-
-            .audio-controls {
-                flex-direction: column;
-                gap: 10px;
-            }
-
-            .audio-btn {
-                width: 100%;
             }
 
             .voice-selector {
@@ -386,7 +350,7 @@
         <div class="song-item">
             <div class="song-title">Revive Us Again</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openSimplePDF('sheet-music/Revive-Us-Again.pdf', 'audio/Revive-Us-Again.mp3', 'Revive Us Again')">
+                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/Revive-Us-Again.pdf', 'audio/Revive-Us-Again.mp3', 'Revive Us Again')">
                     📄 Sheet Music
                 </button>
                 <button class="link-btn audio" onclick="openAudio('audio/Revive-Us-Again.mp3', 'Revive Us Again - Audio')">
@@ -398,7 +362,7 @@
         <div class="song-item">
             <div class="song-title">Soon and Very Soon</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openSimplePDF('sheet-music/Soon-And-Very-Soon.pdf', 'audio/Soon-And-Very-Soon.mp3', 'Soon and Very Soon')">
+                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/Soon-And-Very-Soon.pdf', 'audio/Soon-And-Very-Soon.mp3', 'Soon and Very Soon')">
                     📄 Sheet Music
                 </button>
                 <button class="link-btn audio" onclick="openAudio('audio/Soon-And-Very-Soon.mp3', 'Soon and Very Soon - Audio')">
@@ -410,7 +374,7 @@
         <div class="song-item">
             <div class="song-title">Great Is the Lord</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openSimplePDF('sheet-music/Great-Is-the-Lord.pdf', 'audio/Great-Is-the-Lord.mp3', 'Great Is the Lord')">
+                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/Great-Is-the-Lord.pdf', 'audio/Great-Is-the-Lord.mp3', 'Great Is the Lord')">
                     📄 Sheet Music
                 </button>
                 <button class="link-btn audio" onclick="openAudio('audio/Great-Is-the-Lord.mp3', 'Great Is the Lord - Audio')">
@@ -422,7 +386,7 @@
         <div class="song-item">
             <div class="song-title">My Country 'Tis of Thee</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openSimplePDF('sheet-music/My-Country-Tis-Of-Thee.pdf', 'audio/My-Country-Tis-Of-Thee.mp3', 'My Country Tis of Thee')">
+                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/My-Country-Tis-Of-Thee.pdf', 'audio/My-Country-Tis-Of-Thee.mp3', 'My Country Tis of Thee')">
                     📄 Sheet Music
                 </button>
                 <button class="link-btn audio" onclick="openAudio('audio/My-Country-Tis-Of-Thee.mp3', 'My Country Tis of Thee - Audio')">
@@ -452,7 +416,7 @@
         <div class="song-item">
             <div class="song-title">Turn Your Eyes Upon Jesus</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openSimplePDF('sheet-music/Turn-Your-Eyes-Upon-Jesus.pdf', 'audio/Turn-Your-Eyes-Upon-Jesus.mp3', 'Turn Your Eyes Upon Jesus')">
+                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/Turn-Your-Eyes-Upon-Jesus.pdf', 'audio/Turn-Your-Eyes-Upon-Jesus.mp3', 'Turn Your Eyes Upon Jesus')">
                     📄 Sheet Music
                 </button>
                 <button class="link-btn audio" onclick="openAudio('audio/Turn-Your-Eyes-Upon-Jesus.mp3', 'Turn Your Eyes Upon Jesus - Audio')">
@@ -475,182 +439,228 @@
     </div>
 </div>
 
-<!-- PDF Modal with Audio -->
+<!-- PDF Modal -->
 <div id="pdfModal" class="modal">
     <div class="modal-content">
-        <span class="close" onclick="closeModal('pdfModal')">&times;</span>
+        <span class="close" onclick="closeModal()">&times;</span>
         <h2 id="pdfTitle"></h2>
-        <div class="pdf-container">
-            <iframe id="pdfFrame" src=""></iframe>
+
+        <div class="pdf-viewer">
+            <canvas id="pdfCanvas"></canvas>
         </div>
-        <div class="pdf-audio-controls">
+
+        <div class="pdf-controls">
+            <button class="pdf-btn" id="prevBtn" onclick="prevPage()">Previous</button>
+            <span class="page-info">
+                Page <span id="pageNum">1</span> of <span id="pageCount">1</span>
+            </span>
+            <button class="pdf-btn" id="nextBtn" onclick="nextPage()">Next</button>
+        </div>
+
+        <div class="audio-controls">
             <h3>🎵 Practice with Mark</h3>
-            <div id="audioControlsContainer">
-                <audio id="pdfAudioPlayer" controls preload="metadata">
-                    <source id="pdfAudioSource" src="" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </div>
+            <div id="voiceSelector"></div>
+            <audio id="modalAudioPlayer" controls preload="metadata">
+                <source id="modalAudioSource" src="" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
         </div>
     </div>
 </div>
 
-<!-- Audio Modal -->
+<!-- Audio Only Modal -->
 <div id="audioModal" class="modal">
     <div class="modal-content">
-        <span class="close" onclick="closeModal('audioModal')">&times;</span>
+        <span class="close" onclick="closeAudioModal()">&times;</span>
         <h2 id="audioTitle"></h2>
-        <div class="audio-container">
+        <div class="audio-controls">
             <audio id="audioPlayer" controls preload="metadata">
                 <source id="audioSource" src="" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
-            <div class="audio-controls">
-                <button class="audio-btn" onclick="playPause()">▶️ Play</button>
-                <button class="audio-btn" onclick="restartAudio()">🔄 Restart</button>
-            </div>
         </div>
     </div>
 </div>
 
 <script>
-    let currentPDFPath = '';
-    let currentAudioPath = '';
+    // PDF.js setup
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
 
-    // Detect if user is on mobile
-    function isMobileDevice() {
-        return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
-    }
+    let pdfDoc = null;
+    let pageNum = 1;
+    let pageRendering = false;
+    let pageNumPending = null;
+    let scale = 1.5;
+    let canvas = document.getElementById('pdfCanvas');
+    let ctx = canvas.getContext('2d');
 
-    function openPDF(pdfPath, title) {
-        currentPDFPath = pdfPath;
-        document.getElementById('pdfTitle').textContent = title;
+    function openPDF(pdfPath, audioPath, title) {
+        document.getElementById('pdfTitle').textContent = title + ' - Sheet Music';
 
-        // Properly encode the URL for spaces and special characters
-        const encodedPath = encodeURI(pdfPath);
+        // Setup single audio
+        document.getElementById('voiceSelector').innerHTML = '';
+        document.getElementById('modalAudioSource').src = audioPath;
+        document.getElementById('modalAudioPlayer').load();
 
-        // Try to load in iframe first
-        const iframe = document.getElementById('pdfFrame');
-        iframe.src = encodedPath;
+        // Load PDF
+        loadPDF(pdfPath);
 
         document.getElementById('pdfModal').style.display = 'block';
         document.body.style.overflow = 'hidden';
+    }
 
-        // Check if PDF loads properly (especially on mobile)
-        iframe.onload = function() {
-            // If iframe loaded but shows encoded filename, show fallback
-            if (isMobileDevice()) {
-                setTimeout(() => {
-                    document.getElementById('pdfFallback').classList.add('show');
-                }, 1000);
-            }
-        };
+    function openMultiVoicePDF() {
+        document.getElementById('pdfTitle').textContent = 'Mine Eyes Have Seen the Glory - Sheet Music';
 
-        iframe.onerror = function() {
-            // If iframe fails to load, show fallback immediately
-            document.getElementById('pdfFallback').classList.add('show');
-        };
+        // Setup multi-voice selector
+        document.getElementById('voiceSelector').innerHTML = `
+            <div class="voice-selector">
+                <button class="voice-btn active" onclick="switchVoice('audio/Mine-Eyes-Have-Seen-the-Glory.mp3', 0)">MELODY</button>
+                <button class="voice-btn" onclick="switchVoice('audio/Mine-Eyes-ALTO.mp3', 1)">ALTO</button>
+                <button class="voice-btn" onclick="switchVoice('audio/Mine-Eyes-BASS.mp3', 2)">BASS</button>
+            </div>
+        `;
+
+        document.getElementById('modalAudioSource').src = 'audio/Mine-Eyes-Have-Seen-the-Glory.mp3';
+        document.getElementById('modalAudioPlayer').load();
+
+        // Load PDF
+        loadPDF('sheet-music/Mine-Eyes-Have-Seen-The-Glory.pdf');
+
+        document.getElementById('pdfModal').style.display = 'block';
+        document.body.style.overflow = 'hidden';
+    }
+
+    function loadPDF(url) {
+        pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+            pdfDoc = pdfDoc_;
+            document.getElementById('pageCount').textContent = pdfDoc.numPages;
+
+            // Initial page render
+            pageNum = 1;
+            renderPage(pageNum);
+        });
+    }
+
+    function renderPage(num) {
+        pageRendering = true;
+
+        pdfDoc.getPage(num).then(function(page) {
+            // Adjust scale for mobile
+            const viewport = page.getViewport({scale: window.innerWidth < 768 ? 1.2 : 1.5});
+            canvas.height = viewport.height;
+            canvas.width = viewport.width;
+
+            const renderContext = {
+                canvasContext: ctx,
+                viewport: viewport
+            };
+
+            const renderTask = page.render(renderContext);
+
+            renderTask.promise.then(function() {
+                pageRendering = false;
+                if (pageNumPending !== null) {
+                    renderPage(pageNumPending);
+                    pageNumPending = null;
+                }
+            });
+        });
+
+        document.getElementById('pageNum').textContent = num;
+    }
+
+    function queueRenderPage(num) {
+        if (pageRendering) {
+            pageNumPending = num;
+        } else {
+            renderPage(num);
+        }
+    }
+
+    function prevPage() {
+        if (pageNum <= 1) return;
+        pageNum--;
+        queueRenderPage(pageNum);
+    }
+
+    function nextPage() {
+        if (pageNum >= pdfDoc.numPages) return;
+        pageNum++;
+        queueRenderPage(pageNum);
+    }
+
+    function switchVoice(audioPath, buttonIndex) {
+        document.getElementById('modalAudioSource').src = audioPath;
+        document.getElementById('modalAudioPlayer').load();
+
+        // Update active button
+        const buttons = document.querySelectorAll('.voice-btn');
+        buttons.forEach((btn, index) => {
+            btn.classList.toggle('active', index === buttonIndex);
+        });
     }
 
     function openAudio(audioPath, title) {
-        currentAudioPath = audioPath;
         document.getElementById('audioTitle').textContent = title;
-        document.getElementById('audioSource').src = encodeURI(audioPath);
+        document.getElementById('audioSource').src = audioPath;
         document.getElementById('audioPlayer').load();
         document.getElementById('audioModal').style.display = 'block';
         document.body.style.overflow = 'hidden';
     }
 
-    function playPause() {
-        const audio = document.getElementById('audioPlayer');
-        const btn = event.target;
-
-        if (audio.paused) {
-            audio.play();
-            btn.textContent = '⏸️ Pause';
-        } else {
-            audio.pause();
-            btn.textContent = '▶️ Play';
-        }
-    }
-
-    function restartAudio() {
-        const audio = document.getElementById('audioPlayer');
-        audio.currentTime = 0;
-        audio.play();
-        document.querySelector('.audio-btn').textContent = '⏸️ Pause';
-    }
-
-    function closeModal(modalId) {
-        document.getElementById(modalId).style.display = 'none';
+    function closeModal() {
+        document.getElementById('pdfModal').style.display = 'none';
         document.body.style.overflow = 'auto';
 
-        // Reset fallback display
-        document.getElementById('pdfFallback').classList.remove('show');
-
-        // Stop audio playback and reset button when closing
-        if (modalId === 'audioModal') {
-            const audio = document.getElementById('audioPlayer');
-            audio.pause();
-            audio.currentTime = 0;
-            document.querySelector('.audio-btn').textContent = '▶️ Play';
-        }
+        // Stop audio
+        const audio = document.getElementById('modalAudioPlayer');
+        audio.pause();
+        audio.currentTime = 0;
     }
 
-    function downloadPDF() {
-        const link = document.createElement('a');
-        link.href = currentPDFPath;
-        link.download = currentPDFPath.split('/').pop();
-        link.click();
-    }
+    function closeAudioModal() {
+        document.getElementById('audioModal').style.display = 'none';
+        document.body.style.overflow = 'auto';
 
-    function openPDFNewTab() {
-        window.open(currentPDFPath, '_blank');
-    }
-
-    function expandAudio() {
-        const link = document.createElement('a');
-        link.href = currentAudioPath;
-        link.download = currentAudioPath.split('/').pop();
-        link.click();
-    }
-
-    // Update audio button text based on audio state
-    document.addEventListener('DOMContentLoaded', function() {
+        // Stop audio
         const audio = document.getElementById('audioPlayer');
+        audio.pause();
+        audio.currentTime = 0;
+    }
 
-        audio.addEventListener('play', function() {
-            document.querySelector('.audio-btn').textContent = '⏸️ Pause';
-        });
-
-        audio.addEventListener('pause', function() {
-            document.querySelector('.audio-btn').textContent = '▶️ Play';
-        });
-
-        audio.addEventListener('ended', function() {
-            document.querySelector('.audio-btn').textContent = '▶️ Play';
-        });
-    });
-
-    // Close modal when clicking outside of it
+    // Close modal when clicking outside
     window.onclick = function(event) {
         const pdfModal = document.getElementById('pdfModal');
         const audioModal = document.getElementById('audioModal');
 
         if (event.target === pdfModal) {
-            closeModal('pdfModal');
+            closeModal();
         }
         if (event.target === audioModal) {
-            closeModal('audioModal');
+            closeAudioModal();
         }
     }
 
     // Close modal with Escape key
     document.addEventListener('keydown', function(event) {
         if (event.key === 'Escape') {
-            closeModal('pdfModal');
-            closeModal('audioModal');
+            closeModal();
+            closeAudioModal();
         }
+    });
+
+    // Update page controls
+    document.addEventListener('DOMContentLoaded', function() {
+        // Update button states when pages change
+        const updateButtons = () => {
+            document.getElementById('prevBtn').disabled = (pageNum <= 1);
+            document.getElementById('nextBtn').disabled = (pageNum >= (pdfDoc ? pdfDoc.numPages : 1));
+        };
+
+        // Call updateButtons whenever page changes
+        const observer = new MutationObserver(updateButtons);
+        observer.observe(document.getElementById('pageNum'), { childList: true });
     });
 </script>
 </body>
