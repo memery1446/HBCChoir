@@ -534,8 +534,8 @@
                     <li>Be Thou My Vision (Mrs. Jennifer)</li>
                     <li>Open the Eyes of My Heart (Mrs. Jennifer)</li>
                     <li>Heavenly Sunlight (Mrs. Jennifer)</li>
-                    <li>CHOIR: O Mighty God, When I Behold the Wonder [melody of How Great Thou Art] (Mrs. Shirley)</li>
-                    <li>INVITATION: Open Our Eyes, Lord</li>
+                    <li>CHOIR: O Mighty God [melody: How Great Thou Art] (Mrs. Shirley)</li>
+                    <li>INVITATION: Open Our Eyes, Lord (Jennifer/Mark)</li>
                 </ol>
             </div>
 
@@ -597,15 +597,15 @@
             </div>
         </div>
 
-        <div class="song-item">
-            <div class="song-title">Open Our Eyes, Lord</div>
-            <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/6-Open-Our-Eyes-Lord.pdf', 'audio/6-Open-Our-Eyes-Lord.mp3', 'Open Our Eyes, Lord')">
-                    📄 Sheet music and audio
-                </button>
-            </div>
-        </div>
-    </div>
+<!--        <div class="song-item">-->
+<!--            <div class="song-title">Open Our Eyes, Lord</div>-->
+<!--            <div class="song-links">-->
+<!--                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/6-Open-Our-Eyes-Lord.pdf', 'audio/6-Open-Our-Eyes-Lord.mp3', 'Open Our Eyes, Lord')">-->
+<!--                    📄 Sheet music and audio-->
+<!--                </button>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
 
     <div class="section">
         <div class="suggestion-section">
@@ -676,11 +676,11 @@
 
     // Playlist functionality
     const playlistSongs = [
-        { title: 'Revive Us Again', src: 'audio/1-Revive-Us-Again.mp3' },
-        { title: 'Soon and Very Soon', src: 'audio/2-Soon-And-Very-Soon.mp3' },
-        { title: 'Great Is the Lord', src: 'audio/3-Great-Is-the-Lord.mp3' },
-        { title: 'My Country \'Tis of Thee', src: 'audio/4-My-Country-Tis-Of-Thee.mp3' },
-        { title: 'Mine Eyes Have Seen the Glory', src: 'audio/5-Mine-Eyes-Have-Seen-the-Glory.mp3' },
+        { title: 'Revive Us Again', src: 'audio/1-Sunshine-In-My-Soul.mp3' },
+        { title: 'Soon and Very Soon', src: 'audio/2-Be-Thou-My-Vision.mp3' },
+        { title: 'Great Is the Lord', src: 'audio/3-Open-The-Eyes-Of-My-Heart.mp3' },
+        { title: 'My Country \'Tis of Thee', src: 'audio/4-Heavenly-Sunlight.mp3' },
+        { title: 'Mine Eyes Have Seen the Glory', src: 'audio/5-O-Mighty-God-Melody.mp3' },
         { title: 'Turn Your Eyes Upon Jesus', src: 'audio/6-Turn-Your-Eyes-Upon-Jesus.mp3' }
     ];
 
@@ -779,17 +779,18 @@
         // Setup multi-voice selector
         document.getElementById('voiceSelector').innerHTML = `
             <div class="voice-selector">
-                <button class="voice-btn active" onclick="switchVoice('audio/5-Mine-Eyes-Have-Seen-the-Glory.mp3', 0)">MELODY</button>
-                <button class="voice-btn" onclick="switchVoice('audio/7-Mine-Eyes-ALTO.mp3', 1)">ALTO</button>
-                <button class="voice-btn" onclick="switchVoice('audio/8-Mine-Eyes-BASS.mp3', 2)">BASS</button>
+                <button class="voice-btn active" onclick="switchVoice('audio/5-O-Mighty-God-Melody.mp3', 0)">MELODY</button>
+                <button class="voice-btn" onclick="switchVoice('audio/5a-O-Mighty-God-ALTO.mp3', 1)">ALTO</button>
+                <button class="voice-btn" onclick="switchVoice('audio/5b-O-Mighty-God-TENOR.mp3', 1)">TENOR</button>
+                <button class="voice-btn" onclick="switchVoice('audio/5c-O-Mighty-God-BASS.mp3', 2)">BASS</button>
             </div>
         `;
 
-        document.getElementById('modalAudioSource').src = 'audio/5-Mine-Eyes-Have-Seen-the-Glory.mp3';
+        document.getElementById('modalAudioSource').src = 'audio/5-O-Mighty-God-Melody.mp3';
         document.getElementById('modalAudioPlayer').load();
 
         // Load PDF
-        loadPDF('sheet-music/Mine-Eyes-Have-Seen-The-Glory.pdf');
+        loadPDF('sheet-music/5-O-Mighty-God.pdf');
 
         document.getElementById('pdfModal').style.display = 'block';
         document.body.style.overflow = 'hidden';
