@@ -520,23 +520,23 @@
         <p class="subtitle">Practice Sundays 4:45-5:45 PM</p>
         <p class="subtitle">All are welcome.</p>
         <p class="subtitle">Maybe you like to sing but don't read music?</p>
-        <p class="subtitle">No problem, use our sing-along-tracks during the week with one click!</p>
+        <p class="subtitle">No problem! You're one click away from sing-along practice tracks.</p>
     </header>
 
     <div class="section">
-        <h2>🎵 Songs for Sunday July 13, 2025</h2>
+        <h2>🎵 Songs for Sunday July 20, 2025</h2>
 
         <div class="playlist-section">
             <div class="song-order">
                 <h3>Sunday's Song Order:</h3>
                 <ol>
-                    <li>Sunshine in My Soul (Mrs. Shirley)</li>
-                    <li>Be Thou My Vision (Mrs. Jennifer)</li>
-                    <li>Open the Eyes of My Heart (Mrs. Jennifer)</li>
-                    <li>Heavenly Sunlight (Mrs. Jennifer)</li>
-                    <li>CHOIR: O Mighty God [melody: How Great Thou Art] (Mrs. Shirley)</li>
-                    <li>INVITATION: Open Our Eyes, Lord (Mrs. Shirley)</li>
-                    <p>Invitation song is very familiar and therefore not included this week.</p>
+                    <li>Savior, Like a Shepherd Lead Us</li>
+                    <li>Just When I Need Him Most</li>
+                    <li>I Need Thee Every Hour</li>
+                    <li>Lord, I Need You</li>
+                    <li>CHOIR: People Need The Lord</li>
+                    <li>INVITATION: Wherever He Leads I'll Go</li>
+<!--                    <p>Invitation song is very familiar and therefore not included this week.</p>-->
                 </ol>
             </div>
 
@@ -544,7 +544,7 @@
                 <button class="play-all-btn" onclick="playAllSongs()">🎵 Play All Songs In Order</button>
                 <p class="instructions">Push this button to play through all the songs. Scroll down to see music and to hear one song at a time. You'll find ALTO and BASS practice audio tracks for the Choir Special.</p>
                 <div class="playlist-controls" id="playlistControls" style="display: none;">
-                    <div class="current-song">Now Playing: <span id="currentSongTitle">Sunshine In My Soul</span></div>
+                    <div class="current-song">Now Playing: <span id="currentSongTitle">Savior, Like a Shepherd Lead Us</span></div>
                     <audio id="playlistPlayer" controls>
                         <source id="playlistSource" src="" type="audio/mpeg">
                     </audio>
@@ -554,59 +554,69 @@
         </div>
 
         <div class="song-item">
-            <div class="song-title">Sunshine In My Soul</div>
+            <div class="song-title">Savior, Like a Shepherd Lead Us</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/1-Sunshine-In-My-Soul.pdf', 'audio/1-Sunshine-In-My-Soul.mp3', 'Sunshine In My Soul')">
+                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/1-Savior-Like-A-Shepherd-Lead-Us.pdf', 'audio/1-Savior-Like-A-Shepherd-Lead-Us.mp3', 'Savior Like A Shepherd Lead Us')">
                     📄 Sheet music and audio
                 </button>
             </div>
         </div>
 
         <div class="song-item">
-            <div class="song-title">Be Thou My Vision</div>
+            <div class="song-title">Just When I Need Him Most</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/2-Be-Thou-My-Vision.pdf', 'audio/2-Be-Thou-My-Vision.mp3', 'Be Thou My Vision')">
+                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/2-Just-When-I-Need-Him-Most.pdf', 'audio/2-Just-When-I-Need-Him-Most.mp3', 'Just When I Need Him Most')">
                     📄 Sheet music and audio
                 </button>
             </div>
         </div>
 
         <div class="song-item">
-            <div class="song-title">Open the Eyes Of My Heart</div>
+            <div class="song-title">I Need Thee Every Hour</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/3-Open-The-Eyes-Of-My-Heart.pdf', 'audio/3-Open-The-Eyes-Of-My-Heart.mp3', 'Open The Eyes Of My Heart')">
+                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/3-I-Need-Thee-Every-Hour.pdf', 'audio/3-I-Need-Thee-Every-Hour.mp3', 'I Need Thee Every Hour')">
                     📄 Sheet music and audio
                 </button>
             </div>
         </div>
 
         <div class="song-item">
-            <div class="song-title">Heavenly Sunlight</div>
+            <div class="song-title">Lord, I Need You</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/4-Heavenly-Sunlight.pdf', 'audio/4-Heavenly-Sunlight.mp3', 'Heavenly Sunlight')">
+                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/4-Lord-I-Need-You.pdf', 'audio/4-Lord-I-Need-You.mp3', 'Lord I Need You')">
                     📄 Sheet music and audio
                 </button>
             </div>
         </div>
 
         <div class="song-item">
-            <div class="song-title">CHOIR SPECIAL: O Mighty God, When I Behold the Wonder</div>
+            <div class="song-title">CHOIR: People Need The Lord</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openMultiVoicePDF()">
+                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/5-People-Need-The-Lord.pdf', 'audio/5-People-Need-The-Lord.mp3', 'People Need The Lord')">
                     📄 Sheet music and audio
                 </button>
             </div>
         </div>
+
 
 <!--        <div class="song-item">-->
-<!--            <div class="song-title">Open Our Eyes, Lord</div>-->
+<!--            <div class="song-title">CHOIR SPECIAL: People Need The Lord</div>-->
 <!--            <div class="song-links">-->
-<!--                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/6-Open-Our-Eyes-Lord.pdf', 'audio/6-Open-Our-Eyes-Lord.mp3', 'Open Our Eyes, Lord')">-->
+<!--                <button class="link-btn sheet-music" onclick="openMultiVoicePDF()">-->
 <!--                    📄 Sheet music and audio-->
 <!--                </button>-->
 <!--            </div>-->
 <!--        </div>-->
-<!--    </div>-->
+
+        <div class="song-item">
+            <div class="song-title">Wherever He Leads I'll Go</div>
+            <div class="song-links">
+                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/6-Wherever-He-Leads-Ill-Go.pdf', 'audio/6-Wherever-He-Leads-Ill-Go.mp3', 'Wherever He Leads Ill Go')">
+                    📄 Sheet music and audio
+                </button>
+            </div>
+        </div>
+    </div>
 
     <div class="section">
         <div class="suggestion-section">
@@ -621,13 +631,13 @@
     </div>
 
     <div class="section">
-        <h2>📅 Next Sunday's Songs - July 20, 2025</h2>
+        <h2>📅 Next Sunday's Songs - July 27, 2025</h2>
         <div class="next-songs-list">
             <ul>
                 <li>tbd</li>
                 <li>tbd</li>
                 <li>tbd</li>
-                <li>CHOIR: People Need the Lord #557</li>
+                <li>tdb</li>
                 <li>tbd</li>
                 <li>tbd</li>
             </ul>
@@ -677,12 +687,12 @@
 
     // Playlist functionality
     const playlistSongs = [
-        { title: 'Sunshine In My Soul', src: 'audio/1-Sunshine-In-My-Soul.mp3' },
-        { title: 'Be Thou My Vision', src: 'audio/2-Be-Thou-My-Vision.mp3' },
-        { title: 'Open The Eyes Of My Heart', src: 'audio/3-Open-The-Eyes-Of-My-Heart.mp3' },
-        { title: 'Heavenly Sunlight', src: 'audio/4-Heavenly-Sunlight.mp3' },
-        { title: 'O Mighty God', src: 'audio/5-O-Mighty-God-Melody.mp3' },
-        // { title: 'Open Our Eyes, Lord', src: 'audio/6-Turn-Your-Eyes-Upon-Jesus.mp3' }
+        { title: 'Savior, Like a Shepherd Lead Us', src: 'audio/1-Savior-Like-A-Shepherd-Lead-Us.mp3' },
+        { title: 'Just When I Need Him Most', src: 'audio/2-Just-When-I-Need-Him-Most.mp3' },
+        { title: 'I Need Thee Every Hour', src: 'audio/3-I-Need-Thee-Every-Hour.mp3' },
+        { title: 'Lord, I Need You', src: 'audio/4-Lord-I-Need-You.mp3' },
+        { title: 'People Need The Lord', src: 'audio/5-People-Need-The-Lord.mp3' },
+        { title: 'Wherever He Leads Ill Go', src: 'audio/6-Wherever-He-Leads-Ill-Go.mp3' }
     ];
 
     let currentPlaylistIndex = 0;
@@ -780,18 +790,18 @@
         // Setup multi-voice selector
         document.getElementById('voiceSelector').innerHTML = `
             <div class="voice-selector">
-                <button class="voice-btn active" onclick="switchVoice('audio/5-O-Mighty-God-Melody.mp3', 0)">MELODY</button>
-                <button class="voice-btn" onclick="switchVoice('audio/5a-O-Mighty-God-ALTO.mp3', 1)">ALTO</button>
-                <button class="voice-btn" onclick="switchVoice('audio/5b-O-Mighty-God-TENOR.mp3', 1)">TENOR</button>
-                <button class="voice-btn" onclick="switchVoice('audio/5c-O-Mighty-God-BASS.mp3', 2)">BASS</button>
+                <button class="voice-btn active" onclick="switchVoice('audio/5-People-Need-The-Lord.mp3', 0)">MELODY</button>
+                <button class="voice-btn" onclick="switchVoice('audio/5a-People-Need-The-Lord-ALTO.mp3', 1)">ALTO</button>
+                <button class="voice-btn" onclick="switchVoice('audio/5b-People-Need-The-Lord-TENOR.mp3', 1)">TENOR</button>
+                <button class="voice-btn" onclick="switchVoice('audio/5c-People-Need-The-Lord-BASS.mp3', 2)">BASS</button>
             </div>
         `;
 
-        document.getElementById('modalAudioSource').src = 'audio/5-O-Mighty-God-Melody.mp3';
+        document.getElementById('modalAudioSource').src = 'audio/5-People-Need-The-Lord.mp3';
         document.getElementById('modalAudioPlayer').load();
 
         // Load PDF
-        loadPDF('sheet-music/5-O-Mighty-God.pdf');
+        loadPDF('sheet-music/5-People-Need-The-Lord.pdf');
 
         document.getElementById('pdfModal').style.display = 'block';
         document.body.style.overflow = 'hidden';
