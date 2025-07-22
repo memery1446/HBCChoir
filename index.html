@@ -63,6 +63,34 @@
             padding-bottom: 10px;
         }
 
+        .song-order {
+            background: #e8f5e8;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border: 2px solid #27ae60;
+        }
+
+        .song-order h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+            text-align: center;
+        }
+
+        .song-order ol {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-left: 20px;
+        }
+
+        .song-order li {
+            padding: 8px 0;
+            font-size: 1.1rem;
+            color: #2c3e50;
+        }
+
         .song-item {
             background: #f8f9fa;
             margin: 15px 0;
@@ -121,31 +149,8 @@
             background: #e8f5e8;
             padding: 25px;
             border-radius: 10px;
-            margin-bottom: 30px;
+            margin-top: 30px;
             border: 2px solid #27ae60;
-        }
-
-        .song-order {
-            margin-bottom: 20px;
-        }
-
-        .song-order h3 {
-            color: #2c3e50;
-            margin-bottom: 15px;
-            font-size: 1.3rem;
-        }
-
-        .song-order ol {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            margin-left: 20px;
-        }
-
-        .song-order li {
-            padding: 8px 0;
-            font-size: 1.1rem;
-            color: #2c3e50;
         }
 
         .play-all-section {
@@ -276,32 +281,48 @@
             transform: translateY(-1px);
         }
 
-        .next-songs-list {
-            background: #f8f9fa;
+        .news-section {
+            background: #e8f4fd;
             padding: 25px;
             border-radius: 10px;
-            margin-top: 20px;
+            margin: 30px 0;
+            border: 2px solid #3498db;
         }
 
-        .next-songs-list ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        .next-songs-list li {
+        .news-item {
             background: white;
-            margin: 10px 0;
-            padding: 15px 20px;
-            border-radius: 8px;
-            border-left: 4px solid #f39c12;
-            font-size: 1.1rem;
-            color: #2c3e50;
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #3498db;
             transition: all 0.3s ease;
         }
 
-        .next-songs-list li:hover {
-            background: #fff9e6;
+        .news-item:hover {
+            background: #f8fdff;
             transform: translateX(5px);
+        }
+
+        .news-item h4 {
+            color: #2c3e50;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .news-item p {
+            color: #34495e;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .video-placeholder {
+            background: #f8f9fa;
+            border: 2px dashed #3498db;
+            border-radius: 10px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #7f8c8d;
+            font-style: italic;
         }
 
         /* Modal Styles */
@@ -522,37 +543,21 @@
         <p class="subtitle">Sunday 10:15AM - All, Final Check-In/Warm Up</p>
         <p class="subtitle">Sunday 4:30-5:45PM - Choir Practice</p>
         <p class="subtitle">ALL ARE WELCOME TO JOIN IN ANY PART OF THE ABOVE SCHEDULE</p>
-
     </header>
 
     <div class="section">
         <h2>🎵 Songs for Sunday July 27, 2025</h2>
 
-        <div class="playlist-section">
-            <div class="song-order">
-                <h3>Sunday's Song Order:</h3>
-                <ol>
-
-                    <li>Call to Worship: THERE IS A FOUNTAIN</li>
-                    <li>SHINE JESUS SHINE</li>
-                    <li>ALL WHO ARE THIRSTY</li>
-                    <li>IVE GOT PEACE LIKE A RIVER</li>
-                    <li>Choir Special: SHOUT TO THE LORD</li>
-                    <li>Invitation: SHALL WE GATHER AT THE RIVER</li>
-                </ol>
-            </div>
-
-            <div class="play-all-section">
-                <button class="play-all-btn" onclick="playAllSongs()">🎵 Play All Songs In Order</button>
-                <p class="instructions">Push this button to play through all the songs. Scroll down to see music and to hear one song at a time. Extra ALTO and COUNTING helper tracks are below as well.</p>
-                <div class="playlist-controls" id="playlistControls" style="display: none;">
-                    <div class="current-song">Now Playing: <span id="currentSongTitle">THERE IS A FOUNTAIN</span></div>
-                    <audio id="playlistPlayer" controls>
-                        <source id="playlistSource" src="" type="audio/mpeg">
-                    </audio>
-                    <button class="playlist-btn" onclick="stopPlaylist()">Stop Playlist</button>
-                </div>
-            </div>
+        <div class="song-order">
+            <h3>Sunday's Song Order:</h3>
+            <ol>
+                <li>Call to Worship: THERE IS A FOUNTAIN</li>
+                <li>SHINE JESUS SHINE</li>
+                <li>ALL WHO ARE THIRSTY</li>
+                <li>IVE GOT PEACE LIKE A RIVER</li>
+                <li>Choir Special: SHOUT TO THE LORD</li>
+                <li>Invitation: SHALL WE GATHER AT THE RIVER</li>
+            </ol>
         </div>
 
         <div class="song-item">
@@ -600,22 +605,27 @@
             </div>
         </div>
 
-
-<!--        <div class="song-item">-->
-<!--            <div class="song-title">CHOIR SPECIAL: People Need The Lord</div>-->
-<!--            <div class="song-links">-->
-<!--                <button class="link-btn sheet-music" onclick="openMultiVoicePDF()">-->
-<!--                    📄 Sheet music and audio-->
-<!--                </button>-->
-<!--            </div>-->
-<!--        </div>-->
-
         <div class="song-item">
             <div class="song-title">SHALL WE GATHER AT THE RIVER</div>
             <div class="song-links">
                 <button class="link-btn sheet-music" onclick="openPDF('sheet-music/6-Shall-We-Gather-at-the-River.pdf', 'audio/SHALL-WE-GATHER-AT-THE-RIVER.mp3', 'SHALL WE GATHER AT THE RIVER')">
                     📄 Sheet music and audio
                 </button>
+            </div>
+        </div>
+
+        <!-- Moved playlist section to bottom -->
+        <div class="playlist-section">
+            <div class="play-all-section">
+                <button class="play-all-btn" onclick="playAllSongs()">🎵 Play All Songs In Order</button>
+                <p class="instructions">Push this button to play through all the songs in order. Extra ALTO and COUNTING helper tracks are available in the individual song sections above.</p>
+                <div class="playlist-controls" id="playlistControls" style="display: none;">
+                    <div class="current-song">Now Playing: <span id="currentSongTitle">THERE IS A FOUNTAIN</span></div>
+                    <audio id="playlistPlayer" controls>
+                        <source id="playlistSource" src="" type="audio/mpeg">
+                    </audio>
+                    <button class="playlist-btn" onclick="stopPlaylist()">Stop Playlist</button>
+                </div>
             </div>
         </div>
     </div>
@@ -632,17 +642,18 @@
         </div>
     </div>
 
+    <!-- New News and Notes section -->
     <div class="section">
-        <h2>📅 Next Sunday's Songs - August 3, 2025</h2>
-        <div class="next-songs-list">
-            <ul>
-                <li>tbd</li>
-                <li>tbd</li>
-                <li>tbd</li>
-                <li>tdb</li>
-                <li>tbd</li>
-                <li>tbd</li>
-            </ul>
+        <h2>📰 News and Notes</h2>
+        <div class="news-section">
+            <div class="news-item">
+                <h4>🎬 Featured Video: "Think About His Love"</h4>
+                <p>Check out this beautiful rendition of "Think About His Love" - a wonderful hymn that reminds us of God's amazing grace and love.</p>
+                <div class="video-placeholder">
+                    📹 YouTube video will be embedded here<br>
+                    <small>Placeholder for "Think About His Love" video link</small>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -687,14 +698,14 @@
     let canvas = document.getElementById('pdfCanvas');
     let ctx = canvas.getContext('2d');
 
-    // Playlist functionality
+    // Updated playlist to match current week's songs - STREAMLINING: This now matches the actual Sunday order
     const playlistSongs = [
-        { title: 'Savior, Like a Shepherd Lead Us', src: 'audio/1-Savior-Like-A-Shepherd-Lead-Us.mp3' },
-        { title: 'Just When I Need Him Most', src: 'audio/2-Just-When-I-Need-Him-Most.mp3' },
-        { title: 'I Need Thee Every Hour', src: 'audio/3-I-Need-Thee-Every-Hour.mp3' },
-        { title: 'Lord, I Need You', src: 'audio/4-Lord-I-Need-You.mp3' },
-        { title: 'People Need The Lord', src: 'audio/5-People-Need-The-Lord.mp3' },
-        { title: 'Wherever He Leads Ill Go', src: 'audio/6-Wherever-He-Leads-Ill-Go.mp3' }
+        { title: 'THERE IS A FOUNTAIN', src: 'audio/THERE-IS-A-FOUNTAIN.mp3' },
+        { title: 'SHINE JESUS SHINE', src: 'audio/SHINE-JESUS-SHINE.mp3' },
+        { title: 'ALL WHO ARE THIRSTY', src: 'audio/COME-LORD-JESUS-COME.mp3' },
+        { title: 'IVE GOT PEACE LIKE A RIVER', src: 'audio/IVE-GOT-PEACE-LIKE-A-RIVER.mp3' },
+        { title: 'SHOUT TO THE LORD', src: 'audio/SHOUT-TO-THE-LORD.mp3' },
+        { title: 'SHALL WE GATHER AT THE RIVER', src: 'audio/SHALL-WE-GATHER-AT-THE-RIVER.mp3' }
     ];
 
     let currentPlaylistIndex = 0;
@@ -928,3 +939,4 @@
 </script>
 </body>
 </html>
+
