@@ -563,54 +563,67 @@
         <div class="song-item">
             <div class="song-title">THERE IS A FOUNTAIN</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/1-There-Is-a-Fountain.pdf', 'audio/THERE-IS-A-FOUNTAIN.mp3', 'THERE IS A FOUNTAIN')">
+                <button class="link-btn sheet-music" onclick="openSinglePDF('sheet-music/1-There-Is-a-Fountain.pdf', 'audio/THERE-IS-A-FOUNTAIN.mp3', 'THERE IS A FOUNTAIN')">
                     📄 Sheet music and audio
                 </button>
+                <!-- Uncomment line below to add ALTO track -->
+                <!-- <button class="link-btn sheet-music" onclick="openMultiTrackPDF('sheet-music/1-There-Is-a-Fountain.pdf', 'THERE IS A FOUNTAIN', [{'name': 'MELODY', 'src': 'audio/THERE-IS-A-FOUNTAIN.mp3'}, {'name': 'ALTO', 'src': 'audio/THERE-IS-A-FOUNTAIN-ALTO.mp3'}])">📄 Sheet music with ALTO</button> -->
             </div>
         </div>
 
         <div class="song-item">
             <div class="song-title">SHINE JESUS SHINE</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/2-Shine-Jesus-Shine.pdf', 'audio/SHINE-JESUS-SHINE.mp3', 'SHINE JESUS SHINE')">
+                <button class="link-btn sheet-music" onclick="openSinglePDF('sheet-music/2-Shine-Jesus-Shine.pdf', 'audio/SHINE-JESUS-SHINE.mp3', 'SHINE JESUS SHINE')">
                     📄 Sheet music and audio
                 </button>
+                <!-- Uncomment line below to add TENOR track -->
+                <!-- <button class="link-btn sheet-music" onclick="openMultiTrackPDF('sheet-music/2-Shine-Jesus-Shine.pdf', 'SHINE JESUS SHINE', [{'name': 'MELODY', 'src': 'audio/SHINE-JESUS-SHINE.mp3'}, {'name': 'TENOR', 'src': 'audio/SHINE-JESUS-SHINE-TENOR.mp3'}])">📄 Sheet music with TENOR</button> -->
             </div>
         </div>
 
         <div class="song-item">
             <div class="song-title">ALL WHO ARE THIRSTY</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/3-All-Who-Are-Thirsty.pdf', 'audio/COME-LORD-JESUS-COME.mp3', 'ALL WHO ARE THIRSTY')">
+                <button class="link-btn sheet-music" onclick="openSinglePDF('sheet-music/3-All-Who-Are-Thirsty.pdf', 'audio/COME-LORD-JESUS-COME.mp3', 'ALL WHO ARE THIRSTY')">
                     📄 Sheet music and audio
                 </button>
+
+                 <button class="link-btn sheet-music" onclick="openMultiTrackPDF('sheet-music/3-All-Who-Are-Thirsty.pdf', 'ALL WHO ARE THIRSTY', [{'name': 'MELODY', 'src': 'audio/COME-LORD-JESUS-COME.mp3'}, {'name': 'COUNTING HELPER', 'src': 'audio/COME-LORD-JESUS-COUNTING-PART.mp3'}])">📄 Counting Helper</button>
             </div>
         </div>
 
         <div class="song-item">
             <div class="song-title">IVE GOT PEACE LIKE A RIVER</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/4-Ive-Got-Peace-Like-a-River.pdf', 'audio/IVE-GOT-PEACE-LIKE-A-RIVER.mp3', 'IVE GOT PEACE LIKE A RIVER')">
+                <button class="link-btn sheet-music" onclick="openSinglePDF('sheet-music/4-Ive-Got-Peace-Like-a-River.pdf', 'audio/IVE-GOT-PEACE-LIKE-A-RIVER.mp3', 'IVE GOT PEACE LIKE A RIVER')">
                     📄 Sheet music and audio
                 </button>
+                <!-- Uncomment line below to add ALTO track -->
+                <!-- <button class="link-btn sheet-music" onclick="openMultiTrackPDF('sheet-music/4-Ive-Got-Peace-Like-a-River.pdf', 'IVE GOT PEACE LIKE A RIVER', [{'name': 'MELODY', 'src': 'audio/IVE-GOT-PEACE-LIKE-A-RIVER.mp3'}, {'name': 'ALTO', 'src': 'audio/IVE-GOT-PEACE-LIKE-A-RIVER-ALTO.mp3'}])">📄 Sheet music with ALTO</button> -->
             </div>
         </div>
 
         <div class="song-item">
             <div class="song-title">CHOIR: SHOUT TO THE LORD</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/5-Shout-to-the-Lord.pdf', 'audio/SHOUT-TO-THE-LORD.mp3', 'SHOUT TO THE LORD')">
-                    📄 Sheet music and audio
+                <!-- Example with MULTIPLE tracks already enabled -->
+                <button class="link-btn sheet-music" onclick="openMultiTrackPDF('sheet-music/5-Shout-to-the-Lord.pdf', 'SHOUT TO THE LORD', [{'name': 'MELODY', 'src': 'audio/SHOUT-TO-THE-LORD.mp3'}, {'name': 'ALTO', 'src': 'audio/SHOUT-TO-THE-LORD-ALTO.mp3'}, {'name': 'TENOR', 'src': 'audio/SHOUT-TO-THE-LORD-TENOR.mp3'}, {'name': 'BASS', 'src': 'audio/SHOUT-TO-THE-LORD-BASS.mp3'}])">
+                    📄 Sheet music with all parts
                 </button>
+                <!-- Uncomment line below for single track version -->
+                <!-- <button class="link-btn sheet-music" onclick="openSinglePDF('sheet-music/5-Shout-to-the-Lord.pdf', 'audio/SHOUT-TO-THE-LORD.mp3', 'SHOUT TO THE LORD')">📄 Sheet music (melody only)</button> -->
             </div>
         </div>
 
         <div class="song-item">
             <div class="song-title">SHALL WE GATHER AT THE RIVER</div>
             <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openPDF('sheet-music/6-Shall-We-Gather-at-the-River.pdf', 'audio/SHALL-WE-GATHER-AT-THE-RIVER.mp3', 'SHALL WE GATHER AT THE RIVER')">
+                <button class="link-btn sheet-music" onclick="openSinglePDF('sheet-music/6-Shall-We-Gather-at-the-River.pdf', 'audio/SHALL-WE-GATHER-AT-THE-RIVER.mp3', 'SHALL WE GATHER AT THE RIVER')">
                     📄 Sheet music and audio
                 </button>
+                <!-- Uncomment line below to add ALTO track -->
+                <!-- <button class="link-btn sheet-music" onclick="openMultiTrackPDF('sheet-music/6-Shall-We-Gather-at-the-River.pdf', 'SHALL WE GATHER AT THE RIVER', [{'name': 'MELODY', 'src': 'audio/SHALL-WE-GATHER-AT-THE-RIVER.mp3'}, {'name': 'ALTO', 'src': 'audio/SHALL-WE-GATHER-AT-THE-RIVER-ALTO.mp3'}])">📄 Sheet music with ALTO</button> -->
             </div>
         </div>
 
@@ -630,19 +643,7 @@
         </div>
     </div>
 
-    <div class="section">
-        <div class="suggestion-section">
-            <h3>🎤 Suggest Your Favorite Song!</h3>
-            <div class="suggestion-form">
-                <input type="text" id="songSuggestion" class="suggestion-input" placeholder="What's your favorite hymn or song?" maxlength="100">
-                <br>
-                <button class="suggestion-btn" onclick="sendSuggestion()">Send Suggestion</button>
-                <a href="mailto:memery1446@gmail.com?subject=Song Suggestion from Choir Member" class="email-link">📧 Email Mark</a>
-            </div>
-        </div>
-    </div>
-
-    <!-- New News and Notes section -->
+    <!-- News and Notes section moved up -->
     <div class="section">
         <h2>📰 News and Notes</h2>
         <div class="news-section">
@@ -653,6 +654,19 @@
                     📹 YouTube video will be embedded here<br>
                     <small>Placeholder for "Think About His Love" video link</small>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Suggestion section moved down -->
+    <div class="section">
+        <div class="suggestion-section">
+            <h3>🎤 Suggest Your Favorite Song!</h3>
+            <div class="suggestion-form">
+                <input type="text" id="songSuggestion" class="suggestion-input" placeholder="What's your favorite hymn or song?" maxlength="100">
+                <br>
+                <button class="suggestion-btn" onclick="sendSuggestion()">Send Suggestion</button>
+                <a href="mailto:memery1446@gmail.com?subject=Song Suggestion from Choir Member" class="email-link">📧 Email Mark</a>
             </div>
         </div>
     </div>
@@ -786,8 +800,8 @@
         }
     }
 
-    function openPDF(pdfPath, audioPath, title) {
-        // Setup single audio
+    function openSinglePDF(pdfPath, audioPath, title) {
+        // Setup single audio track
         document.getElementById('voiceSelector').innerHTML = '';
         document.getElementById('modalAudioSource').src = audioPath;
         document.getElementById('modalAudioPlayer').load();
@@ -799,22 +813,23 @@
         document.body.style.overflow = 'hidden';
     }
 
-    function openMultiVoicePDF() {
-        // Setup multi-voice selector
-        document.getElementById('voiceSelector').innerHTML = `
-            <div class="voice-selector">
-                <button class="voice-btn active" onclick="switchVoice('audio/5-People-Need-The-Lord.mp3', 0)">MELODY</button>
-                <button class="voice-btn" onclick="switchVoice('audio/5a-People-Need-The-Lord-ALTO.mp3', 1)">ALTO</button>
-                <button class="voice-btn" onclick="switchVoice('audio/5b-People-Need-The-Lord-TENOR.mp3', 1)">TENOR</button>
-                <button class="voice-btn" onclick="switchVoice('audio/5c-People-Need-The-Lord-BASS.mp3', 2)">BASS</button>
-            </div>
-        `;
+    function openMultiTrackPDF(pdfPath, title, tracks) {
+        // Setup multi-track selector
+        let voiceSelectorHTML = '<div class="voice-selector">';
+        tracks.forEach((track, index) => {
+            const activeClass = index === 0 ? 'active' : '';
+            voiceSelectorHTML += `<button class="voice-btn ${activeClass}" onclick="switchVoice('${track.src}', ${index})">${track.name}</button>`;
+        });
+        voiceSelectorHTML += '</div>';
 
-        document.getElementById('modalAudioSource').src = 'audio/5-People-Need-The-Lord.mp3';
+        document.getElementById('voiceSelector').innerHTML = voiceSelectorHTML;
+
+        // Load first track by default
+        document.getElementById('modalAudioSource').src = tracks[0].src;
         document.getElementById('modalAudioPlayer').load();
 
         // Load PDF
-        loadPDF('sheet-music/5-People-Need-The-Lord.pdf');
+        loadPDF(pdfPath);
 
         document.getElementById('pdfModal').style.display = 'block';
         document.body.style.overflow = 'hidden';
@@ -939,4 +954,3 @@
 </script>
 </body>
 </html>
-
