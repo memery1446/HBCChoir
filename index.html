@@ -29,7 +29,7 @@
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
-            padding-top: 220px;  /* space for the fixed header + subtitles */
+            padding-top: var(--header-offset, 220px);
         }
 
         header {
@@ -484,9 +484,6 @@
 
         @media (max-width: 768px) {
             /* Give room for the fixed header on small screens */
-            .container {
-                padding-top: 170px;   /* was 220px; adjust to taste */
-            }
 
             header {
                 padding: 16px 0;      /* a bit tighter on mobile */
@@ -515,7 +512,7 @@
             .current-song { font-size: 1rem; }
         }
 
-        }
+
     </style>
 </head>
 <body>
@@ -956,6 +953,29 @@
         // Call updateButtons whenever page changes
         const observer = new MutationObserver(updateButtons);
         observer.observe(document.getElementById('pageNum'), { childList: true });
+    });
+
+    function setHeaderOffset() {
+        const header = document.querySelector('header');
+        if (!header) return;
+        const height = header.getBoundingClientRect().height;
+        const extra = 12; // small breathing room so content isn’t tight
+        document.documentElement.style.setProperty('--header-offset', (height + extra) + 'px');
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        setHeaderOffset();
+
+        // Recalculate after fonts/images settle
+        window.addEventListener('load', setHeaderOffset);
+        window.addEventListener('resize', setHeaderOffset);
+
+        // Best: react to any header size change automatically
+        if ('ResizeObserver' in window) {
+            const header = document.querySelector('header');
+            const ro = new ResizeObserver(setHeaderOffset);
+            if (header) ro.observe(header);
+        }
     });
 </script>
 </body>
