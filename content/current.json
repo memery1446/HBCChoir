@@ -1,5 +1,5 @@
 {
-  "serviceDate": "2025-09-14",
+  "serviceDate": "2025-09-21",
   "headerNotes": [
     "Wednesday after Church - Singing Circle",
     "Sunday 10:15AM - All, Check-In/Warm Up",
@@ -7,55 +7,71 @@
     "ALL ARE WELCOME TO JOIN IN ANY PART OF THE ABOVE SCHEDULE"
   ],
   "order": [
-    "KID'S CHOIR: Call To Worship - Open the Eyes of My Heart / This Little Light of Mine",
-    "Holy Holy Holy",
-    "Shine On Us",
-    "God of Wonders",
-    "OFFERTORY: Think About His Love",
-    "Choir Special: When We All Get To Heaven",
-    "Invitation: Hymn of Heaven (not incl. at this time)"
+    "Call To Worship - I Sing the Mighty Power of God",
+    "Shout to the North",
+    "Indescribable",
+    "Shout to the Lord",
+    "OFFERTORY: The Heart of Worship",
+    "Choir Special: Shoutin' Time",
+    "Invitation: O How He Loves You and Me"
   ],
   "songs": [
     {
-      "title": "HOLY HOLY HOLY",
-      "pdf": "sheet-music/1.Holy.Holy.Holy.pdf",
+      "title": "I SING THE MIGHTY POWER OF GOD",
+      "pdf": "sheet-music/I.Sing.the.Mighty.Power.of.God.pdf",
       "tracks": [
-        {"name": "MELODY", "src": "audio/Holy.Holy.Holy.mp3"},
-        {"name": "ALTO", "src": "audio/Holy3.ALTO.mp3"},
-        {"name": "TENOR", "src": "audio/Holy3.TENOR.mp3"},
-        {"name": "BASS", "src": "audio/Holy3.BASS.mp3"}
+        {"name": "MELODY", "src": "audio/I.Sing.the.Mighty.Power.of.God.mp3"},
+        {"name": "ALTO", "src": "audio/I.Sing.the.Mighty.Power.of.God.ALTO.mp3"},
+        {"name": "TENOR", "src": "audio/I.Sing.the.Mighty.Power.of.God.TENOR.mp3"},
+        {"name": "BASS", "src": "audio/I.Sing.the.Mighty.Power.of.God.BASS.mp3"}
       ]
     },
     {
-      "title": "SHINE ON US",
-      "pdf": "sheet-music/2.Shine.on.Us.pdf",
+      "title": "SHOUT TO THE NORTH",
+      "pdf": "sheet-music/Shout.to.the.North.pdf",
       "tracks": [
-        {"name": "MELODY", "src": "audio/Shine.On.Us.mp3"},
-        {"name": "HARMONY", "src": "audio/Shine.On.Us.ALTO.mp3"}
+        {"name": "MELODY", "src": "audio/Shout.to.the.North.mp3"},
+        {"name": "HARMONY", "src": "audio/Shout.to.the.North.ALTO.mp3"}
       ]
     },
     {
-      "title": "GOD OF WONDERS",
-      "pdf": "sheet-music/3.God.of.Wonders.pdf",
+      "title": "INDESCRIBABLE",
+      "pdf": "sheet-music/Indescribable.pdf",
       "tracks": [
-        {"name": "MELODY", "src": "audio/God.Of.Wonders.mp3"},
-        {"name": "HARMONY", "src": "audio/God.Of.Wonders.ALTO.mp3"}
+        {"name": "MELODY", "src": "audio/Indescribable.mp3"},
+        {"name": "HARMONY", "src": "audio/Indescribable.ALTO.mp3"}
       ]
     },
     {
-      "title": "THINK ABOUT HIS LOVE",
-      "pdf": "sheet-music/4.Think.About.His.Love.pdf",
+      "title": "SHOUT TO THE LORD",
+      "pdf": "sheet-music/Shout.to.the.Lord.pdf",
       "single": {
-        "audio": "audio/Think.About.His.Love.mp3",
+        "audio": "audio/Shout.to.the.Lord.mp3",
         "label": "Sheet music and audio"
       }
     },
     {
-      "title": "CHOIR: WHEN WE ALL GET TO HEAVEN",
-      "pdf": "sheet-music/5.When.We.All.Get.to.Heaven.pdf",
+      "title": "OFFERING: THE HEART OF WORSHIP",
+      "pdf": "sheet-music/The.Heart.of.Worship.pdf",
+      "tracks": [
+        {"name": "MELODY", "src": "audio/The.Heart.of.Worship.mp3"},
+        {"name": "HARMONY", "src": "audio/The.Heart.of.Worship.ALTO.mp3"}
+      ]
+    },
+    {
+      "title": "CHOIR: SHOUTIN' TIME",
+      "pdf": "sheet-music/Shoutin.Time.pdf",
       "single": {
-        "audio": "audio/When.We.All.Get.To.Heaven.mp3",
+        "audio": "audio/Shoutin.Time.mp3",
         "label": "Sheet music"
+      }
+    },
+    {
+      "title": "INVITATION: O HOW HE LOVES YOU AND ME",
+      "pdf": "sheet-music/O.How.He.Loves.You.and.Me.pdf",
+      "single": {
+        "audio": "audio/O.How.He.Loves.You.and.Me.mp3",
+        "label": "Sheet music and audio"
       }
     }
   ],
