@@ -18,49 +18,48 @@
   "songs": [
     {
       "title": "I SING THE MIGHTY POWER OF GOD",
-      "pdf": "sheet-music/I.Sing.the.Mighty.Power.of.God.pdf",
+      "pdf": "sheet-music/1-I-Sing-the-Mighty-Power-of-God.pdf",
       "tracks": [
         {"name": "MELODY", "src": "audio/I.Sing.the.Mighty.Power.of.God.mp3"},
         {"name": "ALTO", "src": "audio/I.Sing.the.Mighty.Power.of.God.ALTO.mp3"},
-        {"name": "TENOR", "src": "audio/I.Sing.the.Mighty.Power.of.God.TENOR.mp3"},
-        {"name": "BASS", "src": "audio/I.Sing.the.Mighty.Power.of.God.BASS.mp3"}
+//        {"name": "TENOR", "src": "audio/I.Sing.the.Mighty.Power.of.God.TENOR.mp3"},
+//        {"name": "BASS", "src": "audio/I.Sing.the.Mighty.Power.of.God.BASS.mp3"}
       ]
     },
     {
       "title": "SHOUT TO THE NORTH",
-      "pdf": "sheet-music/Shout.to.the.North.pdf",
+      "pdf": "sheet-music/2-Shout-to-the-North.pdf",
       "tracks": [
         {"name": "MELODY", "src": "audio/Shout.to.the.North.mp3"},
-        {"name": "HARMONY", "src": "audio/Shout.to.the.North.ALTO.mp3"}
+//        {"name": "HARMONY", "src": "audio/Shout.to.the.North.ALTO.mp3"}
       ]
     },
     {
       "title": "INDESCRIBABLE",
-      "pdf": "sheet-music/Indescribable.pdf",
+      "pdf": "sheet-music/3-Indescribable.pdf",
       "tracks": [
         {"name": "MELODY", "src": "audio/Indescribable.mp3"},
-        {"name": "HARMONY", "src": "audio/Indescribable.ALTO.mp3"}
+//        {"name": "HARMONY", "src": "audio/Indescribable.ALTO.mp3"}
       ]
     },
     {
       "title": "SHOUT TO THE LORD",
-      "pdf": "sheet-music/Shout.to.the.Lord.pdf",
+      "pdf": "sheet-music/4-Shout-to-the-Lord.pdf",
       "single": {
         "audio": "audio/Shout.to.the.Lord.mp3",
-        "label": "Sheet music and audio"
       }
     },
     {
       "title": "OFFERING: THE HEART OF WORSHIP",
-      "pdf": "sheet-music/The.Heart.of.Worship.pdf",
+      "pdf": "sheet-music/5-The-Heart-of-Worship.pdf",
       "tracks": [
-        {"name": "MELODY", "src": "audio/The.Heart.of.Worship.mp3"},
-        {"name": "HARMONY", "src": "audio/The.Heart.of.Worship.ALTO.mp3"}
+        {"name": "MELODY", "src": "audio/Heart.of.Worship.redo.mp3"},
+//        {"name": "HARMONY", "src": "audio/The.Heart.of.Worship.ALTO.mp3"}
       ]
     },
     {
       "title": "CHOIR: SHOUTIN' TIME",
-      "pdf": "sheet-music/Shoutin.Time.pdf",
+      "pdf": "sheet-music/6-Shoutin.Time.pdf",
       "single": {
         "audio": "audio/Shoutin.Time.mp3",
         "label": "Sheet music"
@@ -68,7 +67,7 @@
     },
     {
       "title": "INVITATION: O HOW HE LOVES YOU AND ME",
-      "pdf": "sheet-music/O.How.He.Loves.You.and.Me.pdf",
+      "pdf": "sheet-music/7-Oh-How-He-Loves-You-and-Me.pdf",
       "single": {
         "audio": "audio/O.How.He.Loves.You.and.Me.mp3",
         "label": "Sheet music and audio"
