@@ -1,0 +1,61 @@
+{
+  "serviceDate": "2025-09-21",
+  "headerNotes": [
+    "Wednesday after Church - Singing Circle",
+    "Sunday 10:15AM - All, Check-In/Warm Up",
+    "NO AFTERNOON REHEARSAL THIS SUNDAY",
+    "ALL ARE WELCOME TO JOIN IN ANY PART OF THE ABOVE SCHEDULE"
+  ],
+  "order": [
+    "Amazing Grace",
+    "How Great Thou Art",
+    "Blessed Assurance",
+    "OFFERTORY: In Christ Alone",
+    "Choir Special: Great Is Thy Faithfulness"
+  ],
+  "songs": [
+    {
+      "title": "AMAZING GRACE",
+      "pdf": "sheet-music/Amazing.Grace.pdf",
+      "tracks": [
+        {"name": "MELODY", "src": "audio/Amazing.Grace.mp3"},
+        {"name": "HARMONY", "src": "audio/Amazing.Grace.ALTO.mp3"}
+      ]
+    },
+    {
+      "title": "HOW GREAT THOU ART",
+      "pdf": "sheet-music/How.Great.Thou.Art.pdf",
+      "single": {
+        "audio": "audio/How.Great.Thou.Art.mp3",
+        "label": "Sheet music and audio"
+      }
+    },
+    {
+      "title": "BLESSED ASSURANCE",
+      "pdf": "sheet-music/Blessed.Assurance.pdf",
+      "tracks": [
+        {"name": "MELODY", "src": "audio/Blessed.Assurance.mp3"},
+        {"name": "ALTO", "src": "audio/Blessed.Assurance.ALTO.mp3"},
+        {"name": "TENOR", "src": "audio/Blessed.Assurance.TENOR.mp3"},
+        {"name": "BASS", "src": "audio/Blessed.Assurance.BASS.mp3"}
+      ]
+    },
+    {
+      "title": "IN CHRIST ALONE",
+      "pdf": "sheet-music/In.Christ.Alone.pdf",
+      "single": {
+        "audio": "audio/In.Christ.Alone.mp3",
+        "label": "Sheet music and audio"
+      }
+    },
+    {
+      "title": "CHOIR: GREAT IS THY FAITHFULNESS",
+      "pdf": "sheet-music/Great.Is.Thy.Faithfulness.pdf",
+      "single": {
+        "audio": "audio/Great.Is.Thy.Faithfulness.mp3",
+        "label": "Sheet music"
+      }
+    }
+  ],
+  "allSongsPdf": "sheet-music/All-Songs-09.21.25.pdf"
+}

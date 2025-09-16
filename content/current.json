@@ -1,0 +1,63 @@
+{
+  "serviceDate": "2025-09-14",
+  "headerNotes": [
+    "Wednesday after Church - Singing Circle",
+    "Sunday 10:15AM - All, Check-In/Warm Up",
+    "Sunday 4:30-5:45PM - Choir Practice",
+    "ALL ARE WELCOME TO JOIN IN ANY PART OF THE ABOVE SCHEDULE"
+  ],
+  "order": [
+    "KID'S CHOIR: Call To Worship - Open the Eyes of My Heart / This Little Light of Mine",
+    "Holy Holy Holy",
+    "Shine On Us",
+    "God of Wonders",
+    "OFFERTORY: Think About His Love",
+    "Choir Special: When We All Get To Heaven",
+    "Invitation: Hymn of Heaven (not incl. at this time)"
+  ],
+  "songs": [
+    {
+      "title": "HOLY HOLY HOLY",
+      "pdf": "sheet-music/1.Holy.Holy.Holy.pdf",
+      "tracks": [
+        {"name": "MELODY", "src": "audio/Holy.Holy.Holy.mp3"},
+        {"name": "ALTO", "src": "audio/Holy3.ALTO.mp3"},
+        {"name": "TENOR", "src": "audio/Holy3.TENOR.mp3"},
+        {"name": "BASS", "src": "audio/Holy3.BASS.mp3"}
+      ]
+    },
+    {
+      "title": "SHINE ON US",
+      "pdf": "sheet-music/2.Shine.on.Us.pdf",
+      "tracks": [
+        {"name": "MELODY", "src": "audio/Shine.On.Us.mp3"},
+        {"name": "HARMONY", "src": "audio/Shine.On.Us.ALTO.mp3"}
+      ]
+    },
+    {
+      "title": "GOD OF WONDERS",
+      "pdf": "sheet-music/3.God.of.Wonders.pdf",
+      "tracks": [
+        {"name": "MELODY", "src": "audio/God.Of.Wonders.mp3"},
+        {"name": "HARMONY", "src": "audio/God.Of.Wonders.ALTO.mp3"}
+      ]
+    },
+    {
+      "title": "THINK ABOUT HIS LOVE",
+      "pdf": "sheet-music/4.Think.About.His.Love.pdf",
+      "single": {
+        "audio": "audio/Think.About.His.Love.mp3",
+        "label": "Sheet music and audio"
+      }
+    },
+    {
+      "title": "CHOIR: WHEN WE ALL GET TO HEAVEN",
+      "pdf": "sheet-music/5.When.We.All.Get.to.Heaven.pdf",
+      "single": {
+        "audio": "audio/When.We.All.Get.To.Heaven.mp3",
+        "label": "Sheet music"
+      }
+    }
+  ],
+  "allSongsPdf": null
+}

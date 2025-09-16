@@ -482,6 +482,13 @@
             transform: translateY(-1px);
         }
 
+        .loading {
+            text-align: center;
+            color: #666;
+            font-style: italic;
+            padding: 20px;
+        }
+
         @media (max-width: 768px) {
             /* Give room for the fixed header on small screens */
 
@@ -519,126 +526,24 @@
 <div class="container">
     <header>
         <h1>🎵 Harmony Baptist Church Choir</h1>
-        <p class="subtitle">Wednesday after Church - Singing Circle</p>
-        <p class="subtitle">Sunday 10:15AM - All, Check-In/Warm Up</p>
-<!--        <p class="subtitle">NO AFTERNOON REHEARSAL THIS SUNDAY</p>-->
-        <p class="subtitle">Sunday 4:30-5:45PM - Choir Practice</p>
-        <p class="subtitle">ALL ARE WELCOME TO JOIN IN ANY PART OF THE ABOVE SCHEDULE</p>
+        <div id="headerNotes">
+            <div class="loading">Loading...</div>
+        </div>
     </header>
 
     <div class="section">
-        <h2>🎵 Songs for Sunday, September 14, 2025</h2>
+        <h2 id="sectionTitle">🎵 Loading...</h2>
 
         <div class="song-order">
             <h3>Sunday's Song Order:</h3>
-            <ol>
-                <li>KID'S CHOIR: Call To Worship - Open the Eyes of My Heart / This Little Light of Mine</li>
-<!--                <li>Kids Choir returns to seats singing This Little Light of Mine</li>-->
-<!--                <li>Praise Set</li>-->
-                <li>Holy Holy Holy</li>
-                <li>Shine On Us</li>
-                <li>God of Wonders</li>
-                <li>OFFERTORY: Think About His Love</li>
-                <li>Choir Special: When We All Get To Heaven</li>
-                <li>Invitation: Hymn of Heaven (not incl. at this time)</li>
+            <ol id="songOrderList">
+                <li class="loading">Loading song order...</li>
             </ol>
         </div>
 
-<!--            <div class="song-item">-->
-<!--                <div class="song-title">SIX-WEEK INTROSPECTIVE INTO THE WILL OF GOD FOR MUSIC AT HARMONY BAPTIST CHURCH</div>-->
-<!--                <div class="song-links">-->
-<!--                    <a class="link-btn devotional" href="devotional/Part-2b.pdf" target="_blank">-->
-<!--                        📄 Part 2: New Wine, New Expectations – Rising to the Challenge-->
-<!--                    </a>-->
-<!--                </div>-->
-<!--            </div>-->
-
-<!--            <div class="song-item">-->
-<!--                <div class="song-title">PRINT ALL MUSIC IN ONE PDF</div>-->
-<!--                <div class="song-links">-->
-<!--                    <a class="link-btn sheet-music" href="sheet-music/All-Songs-08.24.25.pdf" target="_blank">-->
-<!--                        📄 Sheet music for all songs-->
-<!--                    </a>-->
-<!--                </div>-->
-<!--            </div>-->
-
-        <div class="song-item">
-            <div class="song-title">HOLY HOLY HOLY</div>
-            <div class="song-links">
-<!--                <button class="link-btn sheet-music" onclick="openSinglePDF('sheet-music/At-Calvary.pdf', 'audio/At-Calvary.mp3', 'AT CALVARY')">-->
-<!--                    📄 Sheet music and audio-->
-<!--                </button>-->
-                <!-- Uncomment line below to add ALTO track -->
-                 <button class="link-btn sheet-music" onclick="openMultiTrackPDF('sheet-music/1.Holy.Holy.Holy.pdf', 'HOLY HOLY HOLY', [{'name': 'MELODY', 'src': 'audio/Holy.Holy.Holy.mp3'}, {'name': 'ALTO', 'src': 'audio/Holy3.ALTO.mp3'}, {'name': 'TENOR', 'src': 'audio/Holy3.TENOR.mp3'}, {'name': 'BASS', 'src': 'audio/Holy3.BASS.mp3'}])">📄 Sheet music with all parts</button>
-            </div>
+        <div id="songsContainer">
+            <div class="loading">Loading songs...</div>
         </div>
-
-        <div class="song-item">
-            <div class="song-title">SHINE ON US</div>
-            <div class="song-links">
-<!--                <button class="link-btn sheet-music" onclick="openSinglePDF('sheet-music/Come.Now.Is.the.Time.to.Worship.pdf', 'audio/Come.mp3', 'COME NOW IS THE TIME TO WORSHIP')">-->
-<!--                    📄 Sheet music and audio-->
-<!--                </button>-->
-                <!-- Uncomment line below to add TENOR track -->
-                 <button class="link-btn sheet-music" onclick="openMultiTrackPDF('sheet-music/2.Shine.on.Us.pdf', 'SHINE ON US', [{'name': 'MELODY', 'src': 'audio/Shine.On.Us.mp3'}, {'name': 'HARMONY', 'src': 'audio/Shine.On.Us.ALTO.mp3'}])">📄 Sheet music with MELODY and HARMONY</button>
-            </div>
-        </div>
-
-        <div class="song-item">
-            <div class="song-title">GOD OF WONDERS</div>
-            <div class="song-links">
-<!--                <button class="link-btn sheet-music" onclick="openSinglePDF('sheet-music/3.God.of.Wonders.pdf', 'audio/In-Christ-Alone.mp3', 'IN CHRIST ALONE')">-->
-<!--                    📄 Sheet music and audio-->
-<!--                </button>-->
-
-                 <button class="link-btn sheet-music" onclick="openMultiTrackPDF('sheet-music/3.God.of.Wonders.pdf', 'GOD OF WONDERS', [{'name': 'MELODY', 'src': 'audio/God.Of.Wonders.mp3'}, {'name': 'HARMONY', 'src': 'audio/God.Of.Wonders.ALTO.mp3'}])">📄 Sheet music with MELODY and HARMONY</button>
-            </div>
-        </div>
-
-        <div class="song-item">
-            <div class="song-title">THINK ABOUT HIS LOVE</div>
-            <div class="song-links">
-                <button class="link-btn sheet-music" onclick="openSinglePDF('sheet-music/4.Think.About.His.Love.pdf', 'audio/Think.About.His.Love.mp3', 'THINK ABOUT HIS LOVE')">
-                    📄 Sheet music and audio
-                </button>
-
-                <!--                 <button class="link-btn sheet-music" onclick="openMultiTrackPDF('sheet-music/Build-My-Life.pdf', 'BUILD MY LIFE', [{'name': 'MELODY', 'src': 'audio/blm-new-balanced.mp3'}, {'name': 'HARMONY', 'src': 'audio/blm-new-harm-heavy.mp3'}])"> 📄 Sheet music with MELODY and HARMONY</button>-->
-            </div>
-        </div>
-
-<!--        <div class="song-item">-->
-<!--            <div class="song-title">OFFERING</div>-->
-<!--            <div class="song-links">-->
-<!--                <button class="link-btn sheet-music" onclick="openSinglePDF('sheet-music/Offering.pdf', 'audio/Offering.mp3', 'OFFERING')">-->
-<!--                    📄 Sheet music and audio-->
-<!--                </button>-->
-
-<!--                &lt;!&ndash;                 <button class="link-btn sheet-music" onclick="openMultiTrackPDF('sheet-music/4-How-Great-Thou-Art.pdf', 'HOW GREAT THOU ART', [{'name': 'MELODY', 'src': 'audio/IVE-GOT-PEACE-LIKE-A-RIVER.mp3'}, {'name': 'JUST FOR FUN!', 'src': 'audio/IVE-GOT-PEACE-FOR-FUN.mp3'}])">📄 Sheet music with MELODY and a JUST-FOR-FUN extra track!</button>&ndash;&gt;-->
-<!--            </div>-->
-<!--        </div>-->
-
-        <div class="song-item">
-            <div class="song-title">CHOIR: WHEN WE ALL GET TO HEAVEN</div>
-            <div class="song-links">
-                <!-- Example with MULTIPLE tracks already enabled -->
-<!--                <button class="link-btn sheet-music" onclick="openMultiTrackPDF('sheet-music/The.Lighthouse.pdf', 'THE LIGHTHOUSE', [{'name': 'MELODY', 'src': 'audio/Lighthouse-Melody.mp3'}, {'name': 'ALTO', 'src': 'audio/Lighthouse-ALTO-Heavy.mp3'}])">-->
-<!--                    📄 Sheet music with CHOIR and ALTO-HEAVY tracks-->
-<!--                </button>-->
-<!--                 Uncomment line below for single track version-->
-                 <button class="link-btn sheet-music" onclick="openSinglePDF('sheet-music/5.When.We.All.Get.to.Heaven.pdf', 'audio/When.We.All.Get.To.Heaven.mp3', 'WHEN WE ALL GET TO HEAVEN')">📄 Sheet music</button>
-            </div>
-        </div>
-
-<!--        <div class="song-item">-->
-<!--            <div class="song-title">WHEREVER HE LEADS I'LL GO</div>-->
-<!--            <div class="song-links">-->
-<!--                <button class="link-btn sheet-music" onclick="openSinglePDF('sheet-music/Wherever-He-Leads.pdf', 'audio/Wherever-He-Leads.mp3', 'WHEREVER HE LEADS ILL GO')">-->
-<!--                    📄 Sheet music and audio-->
-<!--                </button>-->
-<!--                &lt;!&ndash; Uncomment line below to add ALTO track &ndash;&gt;-->
-<!--&lt;!&ndash;                 <button class="link-btn sheet-music" onclick="openMultiTrackPDF('sheet-music/6-Shall-We-Gather-at-the-River.pdf', 'SHALL WE GATHER AT THE RIVER', [{'name': 'MELODY', 'src': 'audio/SHALL-WE-GATHER-AT-THE-RIVER.mp3'}, {'name': 'ALTO', 'src': 'audio/SHALL-WE-GATHER-ALTO.mp3'}])">📄 Sheet music with MELODY and ALTO audio tracks</button>&ndash;&gt;-->
-<!--            </div>-->
-<!--        </div>-->
 
         <!-- Moved playlist section to bottom -->
         <div class="playlist-section">
@@ -646,7 +551,7 @@
                 <button class="play-all-btn" onclick="playAllSongs()">🎵 Play All Songs In Order</button>
                 <p class="instructions">Push this button to play through all the songs in order.</p>
                 <div class="playlist-controls" id="playlistControls" style="display: none;">
-                    <div class="current-song">Now Playing: <span id="currentSongTitle">HOLY HOLY HOLY</span></div>
+                    <div class="current-song">Now Playing: <span id="currentSongTitle">Loading...</span></div>
                     <audio id="playlistPlayer" controls>
                         <source id="playlistSource" src="" type="audio/mpeg">
                     </audio>
@@ -655,24 +560,6 @@
             </div>
         </div>
     </div>
-
-<!--    &lt;!&ndash; News and Notes section moved up &ndash;&gt;-->
-<!--    <div class="section">-->
-<!--        <h2>📰 News and Notes</h2>-->
-<!--        <div class="news-section">-->
-<!--            <div class="news-item">-->
-<!--                <h4>🎬 Featured Video: "Think About His Love"</h4>-->
-<!--                <p>Check out YOUR beautiful rendition of "Think About His Love"</p>-->
-<!--                <div class="video-embed">-->
-<!--                    <iframe src="https://www.youtube.com/embed/I0qWgSNod8c"-->
-<!--                            frameborder="0"-->
-<!--                            allowfullscreen-->
-<!--                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">-->
-<!--                    </iframe>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
 
     <!-- Suggestion section moved down -->
     <div class="section">
@@ -728,21 +615,175 @@
     let canvas = document.getElementById('pdfCanvas');
     let ctx = canvas.getContext('2d');
 
-    // Updated playlist to match current week's songs - STREAMLINING: This now matches the actual Sunday order
-    const playlistSongs = [
-        { title: 'HOLY HOLY HOLY', src: 'audio/Holy.Holy.Holy.mp3' },
-        { title: 'SHINE ON US', src: 'audio/Shine.On.Us.mp3' },
-        { title: 'GOD OF WONDERS', src: 'audio/God.Of.Wonders.mp3' },
-        { title: 'THINK ABOUT HIS LOVE', src: 'audio/Think.About.His.Love.mp3' },
-        // { title: 'OFFERING', src: 'audio/Offering.mp3' },
-        { title: 'WHEN WE ALL GET TO HEAVEN', src: 'audio/When.We.All.Get.To.Heaven.mp3' },
-
-    ];
+    // Variables to hold loaded content
+    let currentContent = null;
+    let playlistSongs = [];
 
     let currentPlaylistIndex = 0;
     let isPlaylistActive = false;
 
+    // Load content from JSON file
+    async function loadContent() {
+        try {
+            const response = await fetch('content/current.json');
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            currentContent = await response.json();
+
+            // Update the page content
+            updateHeaderNotes();
+            updateSectionTitle();
+            updateSongOrder();
+            updateSongsContainer();
+            updatePlaylistSongs();
+
+        } catch (error) {
+            console.error('Error loading content:', error);
+            showError('Unable to load song content. Please refresh the page.');
+        }
+    }
+
+    function updateHeaderNotes() {
+        const headerNotesContainer = document.getElementById('headerNotes');
+        headerNotesContainer.innerHTML = '';
+
+        if (currentContent.headerNotes && currentContent.headerNotes.length > 0) {
+            currentContent.headerNotes.forEach(note => {
+                const subtitle = document.createElement('p');
+                subtitle.className = 'subtitle';
+                subtitle.textContent = note;
+                headerNotesContainer.appendChild(subtitle);
+            });
+        }
+    }
+
+    function updateSectionTitle() {
+        const sectionTitle = document.getElementById('sectionTitle');
+        const date = new Date(currentContent.serviceDate);
+        const formattedDate = date.toLocaleDateString('en-US', {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+        sectionTitle.textContent = `🎵 Songs for ${formattedDate}`;
+    }
+
+    function updateSongOrder() {
+        const songOrderList = document.getElementById('songOrderList');
+        songOrderList.innerHTML = '';
+
+        if (currentContent.order && currentContent.order.length > 0) {
+            currentContent.order.forEach(songTitle => {
+                const li = document.createElement('li');
+                li.textContent = songTitle;
+                songOrderList.appendChild(li);
+            });
+        }
+    }
+
+    function updateSongsContainer() {
+        const songsContainer = document.getElementById('songsContainer');
+        songsContainer.innerHTML = '';
+
+        if (currentContent.songs && currentContent.songs.length > 0) {
+            currentContent.songs.forEach(song => {
+                const songItem = createSongItem(song);
+                songsContainer.appendChild(songItem);
+            });
+        }
+    }
+
+    function createSongItem(song) {
+        const songItem = document.createElement('div');
+        songItem.className = 'song-item';
+
+        const title = document.createElement('div');
+        title.className = 'song-title';
+        title.textContent = song.title;
+
+        const links = document.createElement('div');
+        links.className = 'song-links';
+
+        if (song.tracks && song.tracks.length > 0) {
+            // Multi-track song
+            const button = document.createElement('button');
+            button.className = 'link-btn sheet-music';
+
+            if (song.tracks.length === 1) {
+                button.textContent = '📄 Sheet music and audio';
+            } else if (song.tracks.some(t => t.name.toLowerCase().includes('alto') ||
+                t.name.toLowerCase().includes('tenor') ||
+                t.name.toLowerCase().includes('bass'))) {
+                button.textContent = '📄 Sheet music with all parts';
+            } else {
+                button.textContent = '📄 Sheet music with MELODY and HARMONY';
+            }
+
+            const tracksJson = JSON.stringify(song.tracks).replace(/"/g, '&quot;');
+            button.setAttribute('onclick', `openMultiTrackPDF('${song.pdf}', '${song.title}', ${tracksJson.replace(/&quot;/g, '"')})`);
+
+            links.appendChild(button);
+
+        } else if (song.single) {
+            // Single track song
+            const button = document.createElement('button');
+            button.className = 'link-btn sheet-music';
+            button.textContent = `📄 ${song.single.label}`;
+            button.setAttribute('onclick', `openSinglePDF('${song.pdf}', '${song.single.audio}', '${song.title}')`);
+
+            links.appendChild(button);
+        }
+
+        songItem.appendChild(title);
+        songItem.appendChild(links);
+
+        return songItem;
+    }
+
+    function updatePlaylistSongs() {
+        playlistSongs = [];
+
+        if (currentContent.songs) {
+            currentContent.songs.forEach(song => {
+                let audioSrc = null;
+
+                if (song.tracks && song.tracks.length > 0) {
+                    // Use first track (usually melody)
+                    audioSrc = song.tracks[0].src;
+                } else if (song.single && song.single.audio) {
+                    audioSrc = song.single.audio;
+                }
+
+                if (audioSrc) {
+                    playlistSongs.push({
+                        title: song.title,
+                        src: audioSrc
+                    });
+                }
+            });
+        }
+    }
+
+    function showError(message) {
+        const headerNotes = document.getElementById('headerNotes');
+        const sectionTitle = document.getElementById('sectionTitle');
+        const songOrderList = document.getElementById('songOrderList');
+        const songsContainer = document.getElementById('songsContainer');
+
+        headerNotes.innerHTML = '<p class="subtitle" style="color: #e74c3c;">Error loading content</p>';
+        sectionTitle.textContent = '⚠️ Error Loading Songs';
+        songOrderList.innerHTML = `<li style="color: #e74c3c;">${message}</li>`;
+        songsContainer.innerHTML = `<div class="loading" style="color: #e74c3c;">${message}</div>`;
+    }
+
     function playAllSongs() {
+        if (playlistSongs.length === 0) {
+            alert('No songs available to play.');
+            return;
+        }
+
         isPlaylistActive = true;
         currentPlaylistIndex = 0;
 
@@ -958,6 +999,9 @@
 
     // Update page controls
     document.addEventListener('DOMContentLoaded', function() {
+        // Load content when page loads
+        loadContent();
+
         // Update button states when pages change
         const updateButtons = () => {
             document.getElementById('prevBtn').disabled = (pageNum <= 1);
@@ -973,7 +1017,7 @@
         const header = document.querySelector('header');
         if (!header) return;
         const height = header.getBoundingClientRect().height;
-        const extra = 12; // small breathing room so content isn’t tight
+        const extra = 12; // small breathing room so content isn't tight
         document.documentElement.style.setProperty('--header-offset', (height + extra) + 'px');
     }
 
