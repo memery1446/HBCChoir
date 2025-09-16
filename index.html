@@ -724,7 +724,7 @@
             }
 
             const tracksJson = JSON.stringify(song.tracks).replace(/"/g, '&quot;');
-            button.setAttribute('onclick', `openMultiTrackPDF('${song.pdf}', '${song.title}', ${tracksJson.replace(/&quot;/g, '"')})`);
+            button.setAttribute('onclick', `openMultiTrackPDF('${song.pdf}', '${song.title.replace(/'/g, "\\'")}', ${tracksJson.replace(/&quot;/g, '"')})`);
 
             links.appendChild(button);
 
@@ -733,7 +733,7 @@
             const button = document.createElement('button');
             button.className = 'link-btn sheet-music';
             button.textContent = `📄 ${song.single.label}`;
-            button.setAttribute('onclick', `openSinglePDF('${song.pdf}', '${song.single.audio}', '${song.title}')`);
+            button.setAttribute('onclick', `openSinglePDF('${song.pdf}', '${song.single.audio}', '${song.title.replace(/'/g, "\\'")}')`);
 
             links.appendChild(button);
         }
