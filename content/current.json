@@ -29,7 +29,7 @@
       "title": "SHOUT TO THE NORTH",
       "pdf": "sheet-music/2-Shout-to-the-North.pdf",
       "tracks": [
-        {"name": "MELODY", "src": "audio/shout.to.the.north.mp3"},
+        {"name": "MELODY", "src": "audio/shout.north.mp3"},
         {"name": "ALTO", "src": "audio/shout.to.the.north.ALTO.mp3"}
       ]
     },
