@@ -21,14 +21,16 @@
       "pdf": "sheet-music/1-I-Sing-the-Mighty-Power-of-God.pdf",
       "tracks": [
         {"name": "MELODY", "src": "audio/I.Sing.the.Mighty.Power.of.God.mp3"},
-        {"name": "ALTO", "src": "audio/I.Sing.the.Mighty.Power.of.God.ALTO.mp3"}
+        {"name": "ALTO", "src": "audio/I.Sing.the.Mighty.Power.of.God.ALTO.mp3"},
+        {"name": "TENOR", "src": "audio/I.Sing.the.Mighty.TENOR.mp3"}
       ]
     },
     {
       "title": "SHOUT TO THE NORTH",
       "pdf": "sheet-music/2-Shout-to-the-North.pdf",
       "tracks": [
-        {"name": "MELODY", "src": "audio/Shout.to.the.North.mp3"}
+        {"name": "MELODY", "src": "audio/shout.to.the.north.mp3"},
+        {"name": "ALTO", "src": "audio/shout.to.the.north.ALTO.mp3"}
       ]
     },
     {
@@ -50,16 +52,19 @@
       "title": "THE HEART OF WORSHIP",
       "pdf": "sheet-music/5-The-Heart-of-Worship.pdf",
       "tracks": [
-        {"name": "MELODY", "src": "audio/Heart.of.Worship.redo.mp3"}
+        {"name": "MELODY", "src": "audio/Heart.of.worship.mp3"},
+        {"name": "ALTO", "src": "audio/heart.of.worship.alto.mp3"}
       ]
     },
     {
-      "title": "CHOIR: SHOUTIN TIME",
+      "title": "SHOUTIN TIME",
       "pdf": "sheet-music/6-Shoutin-Time.pdf",
-      "single": {
-        "audio": "audio/shoutin.redo.mp3",
-        "label": "Sheet music"
-      }
+      "tracks": [
+        {"name": "MELODY", "src": "audio/shoutin.time.mp3"},
+        {"name": "ALTO", "src": "audio/shoutin.ALTO.mp3"},
+        {"name": "TENOR", "src": "audio/shoutin.tenor.mp3"},
+        {"name": "BASS", "src": "audio/shoutin.bass.mp3"}
+      ]
     },
     {
       "title": "O HOW HE LOVES YOU AND ME",
