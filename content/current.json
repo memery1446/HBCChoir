@@ -60,7 +60,7 @@
       "title": "SHOUTIN TIME",
       "pdf": "sheet-music/6-Shoutin-Time.pdf",
       "tracks": [
-        {"name": "MELODY", "src": "audio/shoutin.time.mp3"},
+        {"name": "MELODY", "src": "audio/shoutin.redo2.mp3"},
         {"name": "ALTO", "src": "audio/shoutin.ALTO.mp3"},
         {"name": "TENOR", "src": "audio/shoutin.tenor.mp3"},
         {"name": "BASS", "src": "audio/shoutin.bass.mp3"}
