@@ -28,7 +28,7 @@
     },
     {
       "title": "GREAT IS THE LORD",
-      "pdf": "sheet-music/2-Great-is-the-Lord.pdf",
+      "pdf": "sheet-music/2-Great-Is-the-Lord.pdf",
       "tracks": [
         {"name": "MELODY", "src": "audio/Great.Is.the.Lord.mp3"},
         {"name": "ALTO", "src": "audio/Great.Is.the.Lord.ALTO.mp3"}
