@@ -53,8 +53,8 @@
       "title": "YOU ARE MY ALL IN ALL",
       "pdf": "sheet-music/5-You-Are-My-All-in-All.pdf",
       "tracks": [
-        {"name": "MELODY", "src": "audio/You.Are.My.All.In.All.mp3"},
-        {"name": "ALTO", "src": "audio/You.Are.My.All.In.All.ALTO.mp3"}
+        {"name": "MELODY", "src": "audio/You.Are.My.All.In.All.ALTO.mp3"},
+        {"name": "ALTO", "src": "audio/You.Are.My.All.In.All.mp3"}
       ]
     },
     {
