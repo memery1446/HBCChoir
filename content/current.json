@@ -62,18 +62,10 @@
       "pdf": "sheet-music/6-I-Believe-in-a-Hill-Called-Mount-Calvary.pdf",
       "tracks": [
         {"name": "MELODY", "src": "audio/I.Believe.Old.Rugged.mp3"},
-        {"name": "ALTO", "src": "audio/I.Believe.Old.Rugged.ALTO.mp3"},
-        {"name": "TENOR", "src": "audio/I.Believe.Old.Rugged.TENOR.mp3"},
+        {"name": "ALTO", "src": "audio/I.Believe.Old.Rugged.TENOR.mp3"},
+        {"name": "TENOR", "src": "audio/I.Believe.Old.Rugged.ALTO.mp3"},
         {"name": "BASS", "src": "audio/I.Believe.Old.Rugged.BASS.mp3"}
       ]
-    },
-    {
-      "title": "O HOW HE LOVES YOU AND ME",
-      "pdf": "sheet-music/7-Oh-How-He-Loves-You-and-Me.pdf",
-      "single": {
-        "audio": "audio/O.How.He.Loves.You.and.Me.mp3",
-        "label": "Sheet music and audio"
-      }
     }
   ],
   "allSongsPdf": null
