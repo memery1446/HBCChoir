@@ -1,5 +1,5 @@
 {
-  "serviceDate": "2025-09-21",
+  "serviceDate": "2025-09-28",
   "headerNotes": [
     "Wednesday after Church - Singing Circle",
     "Sunday 10:15AM - All, Check-In/Warm Up",
@@ -7,63 +7,64 @@
     "ALL ARE WELCOME TO JOIN IN ANY PART OF THE ABOVE SCHEDULE"
   ],
   "order": [
-    "CALL TO WORSHIP - I Sing the Mighty Power of God",
-    "Shout to the North",
-    "Indescribable",
-    "Shout to the Lord",
-    "OFFERTORY: The Heart of Worship",
-    "CHOIR: Shoutin' Time",
-    "INVITATION: O How He Loves You and Me"
+    "CALL TO WORSHIP - Praise to the Lord the Almighty",
+    "Great is the Lord",
+    "I Know a Name",
+    "He Keeps Me Singing",
+    "OFFERTORY: You Are My All in All",
+    "CHOIR: I Believe in a Hill Called Mount Calvary",
+    "INVITATION: Have Thine Own Way (not included)"
   ],
   "songs": [
     {
-      "title": "I SING THE MIGHTY POWER OF GOD",
-      "pdf": "sheet-music/1-I-Sing-the-Mighty-Power-of-God.pdf",
+      "title": "PRAISE TO THE LORD THE ALMIGHTY",
+      "pdf": "sheet-music/1-Praise-to-the-Lord-the-Almighty.pdf",
       "tracks": [
-        {"name": "MELODY", "src": "audio/I.Sing.the.Mighty.Power.of.God.mp3"},
-        {"name": "ALTO", "src": "audio/I.Sing.the.Mighty.Power.of.God.ALTO.mp3"},
-        {"name": "TENOR", "src": "audio/I.Sing.the.Mighty.TENOR.mp3"}
+        {"name": "MELODY", "src": "audio/Praise.to.the.Lord.mp3"},
+        {"name": "ALTO", "src": "audio/Praise.to.the.Lord.ALTO.mp3"},
+        {"name": "TENOR", "src": "audio/Praise.to.the.Lord.TENOR.mp3"},
+        {"name": "BASS", "src": "audio/Praise.to.the.Lord.BASS.mp3"}
       ]
     },
     {
-      "title": "SHOUT TO THE NORTH",
-      "pdf": "sheet-music/2-Shout-to-the-North.pdf",
+      "title": "GREAT IS THE LORD",
+      "pdf": "sheet-music/2-Great-is-the-Lord.pdf",
       "tracks": [
-        {"name": "MELODY", "src": "audio/shout.north.mp3"},
-        {"name": "ALTO", "src": "audio/shout.to.the.north.ALTO.mp3"}
+        {"name": "MELODY", "src": "audio/Great.Is.the.Lord.mp3"},
+        {"name": "ALTO", "src": "audio/Great.Is.the.Lord.ALTO.mp3"}
       ]
     },
     {
-      "title": "INDESCRIBABLE",
-      "pdf": "sheet-music/3-Indescribable.pdf",
+      "title": "I KNOW A NAME",
+      "pdf": "sheet-music/3-I-Know-a-Name.pdf",
       "tracks": [
-        {"name": "MELODY", "src": "audio/Indescribable.mp3"}
+        {"name": "MELODY", "src": "audio/I.Know.a.Name.mp3"}
       ]
     },
     {
-      "title": "SHOUT TO THE LORD",
-      "pdf": "sheet-music/4-Shout-to-the-Lord.pdf",
+      "title": "HE KEEPS ME SINGING",
+      "pdf": "sheet-music/4-He-Keeps-Me-Singing.pdf",
       "single": {
-        "audio": "audio/Shout.to.the.Lord.mp3",
+        "audio": "audio/He.Keeps.Me.Singing.mp3",
         "label": "Sheet music and audio"
       }
     },
     {
-      "title": "THE HEART OF WORSHIP",
-      "pdf": "sheet-music/5-The-Heart-of-Worship.pdf",
+      "title": "YOU ARE MY ALL IN ALL",
+      "pdf": "sheet-music/5-You-Are-My-All-in-All.pdf",
       "tracks": [
-        {"name": "MELODY", "src": "audio/Heart.of.worship.mp3"},
-        {"name": "ALTO", "src": "audio/heart.of.worship.alto.mp3"}
+        {"name": "MELODY", "src": "audio/You.Are.My.All.In.All.mp3"},
+        {"name": "ALTO", "src": "audio/You.Are.My.All.In.All.ALTO.mp3"}
       ]
     },
     {
-      "title": "SHOUTIN TIME",
-      "pdf": "sheet-music/6-Shoutin-Time.pdf",
+      "title": "I BELIEVE IN A HILL CALLED MOUT CALVARY",
+      "pdf": "sheet-music/6-I-Believe-in-a-Hill-Called-Mount-Calvary.pdf",
       "tracks": [
-        {"name": "MELODY", "src": "audio/shoutin.final2.mp3"},
-        {"name": "ALTO", "src": "audio/shoutin.alto2.mp3"},
-        {"name": "TENOR", "src": "audio/shoutin.tenor2.mp3"},
-        {"name": "BASS", "src": "audio/shoutin.bass2.mp3"}
+        {"name": "MELODY", "src": "audio/I.Believe.Old.Rugged.mp3"},
+        {"name": "ALTO", "src": "audio/I.Believe.Old.Rugged.ALTO.mp3"},
+        {"name": "TENOR", "src": "audio/I.Believe.Old.Rugged.TENOR.mp3"},
+        {"name": "BASS", "src": "audio/I.Believe.Old.Rugged.BASS.mp3"}
       ]
     },
     {
