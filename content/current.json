@@ -63,8 +63,7 @@
       "tracks": [
         {"name": "MELODY", "src": "audio/I.Believe.Old.Rugged.mp3"},
         {"name": "ALTO", "src": "audio/I.Believe.Old.Rugged.6.5.Sus.mp3"},
-        {"name": "TENOR", "src": "audio/I.Believe.Old.Rugged.Db.mp3"},
-        {"name": "BASS", "src": "audio/I.Believe.Old.Rugged.LOW.Db.mp3"}
+        {"name": "TENOR", "src": "audio/I.Believe.Old.Rugged.Db.mp3"}
       ]
     }
   ],
