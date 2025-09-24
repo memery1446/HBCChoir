@@ -917,15 +917,25 @@
         links.className = 'song-links';
 
         // Check if this song should use images instead of PDFs
-        if (song.useImages) {
+        if (song.useImages && (song.imageFiles || song.imageBaseName)) {
             // IMAGE-BASED SONG
             const button = document.createElement('button');
             button.className = 'link-btn sheet-music';
 
-            // Update button text based on page count
+            // Determine image files to use
+            let imageFiles;
+            if (song.imageFiles) {
+                // Use explicit imageFiles array
+                imageFiles = song.imageFiles;
+            } else if (song.imageBaseName) {
+                // Create single-item array from imageBaseName
+                imageFiles = [song.imageBaseName + '.png'];
+            }
+
+            // Update button text based on number of image files
             let buttonText = '';
-            if (song.pageCount && song.pageCount > 1) {
-                buttonText = `🎼 High-Quality Sheet Music (${song.pageCount} pages)`;
+            if (imageFiles.length > 1) {
+                buttonText = `🎼 High-Quality Sheet Music (${imageFiles.length} pages)`;
             } else if (song.tracks && song.tracks.length > 1) {
                 const partTypes = song.tracks.map(t => t.name.toLowerCase());
                 if (partTypes.some(p => p.includes('alto') || p.includes('tenor') || p.includes('bass'))) {
@@ -942,8 +952,7 @@
             button.textContent = buttonText;
 
             button.addEventListener('click', () => {
-                const pageCount = song.pageCount || 1;
-                openImagePDF(song.imageBaseName, song.title, song.tracks || [], pageCount);
+                openImagePDF(imageFiles, song.title, song.tracks || []);
             });
 
             links.appendChild(button);
@@ -1035,16 +1044,11 @@
         songsContainer.innerHTML = `<div class="loading" style="color: #e74c3c;">${message}</div>`;
     }
 
-    // Image viewer functions - Updated for multi-page support
-    function openImagePDF(baseName, title, tracks, pageCount = 1) {
-        // Handle multi-page images - ImageMagick creates 0-based indexing
-        currentImages = [];
+    // Image viewer functions - Updated for explicit image file lists
+    function openImagePDF(imageFiles, title, tracks) {
+        // Use the explicit list of image files provided in JSON
+        currentImages = imageFiles.map(filename => `sheet-music-images/${filename}`);
         currentImageIndex = 0;
-
-        // Build array of image paths for all pages
-        for (let i = 0; i < pageCount; i++) {
-            currentImages.push(`sheet-music-images/${baseName}-${i}.png`);
-        }
 
         // Setup audio tracks
         setupImageAudio(tracks);
@@ -1099,15 +1103,7 @@
         img.onerror = function() {
             if (loadingIndicator) loadingIndicator.style.display = 'none';
             console.error('Failed to load image:', img.src);
-
-            // Try alternative naming patterns for fallback
-            if (img.src.includes('-0.png') && currentImages.length === 1) {
-                // Try -1.png instead of -0.png for single page
-                img.src = img.src.replace('-0.png', '-1.png');
-            } else if (img.src.includes('-1.png') && currentImages.length === 1) {
-                // Try without page number for single page
-                img.src = img.src.replace('-1.png', '.png');
-            }
+            alert(`Could not load image: ${img.src.split('/').pop()}`);
         };
 
         img.src = currentImages[currentImageIndex];
