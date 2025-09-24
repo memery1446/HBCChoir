@@ -19,7 +19,7 @@
     {
       "title": "PRAISE TO THE LORD THE ALMIGHTY",
       "useImages": true,
-      "imageBaseName": "1-Praise-to-the-Lord-the-Almighty",
+      "imageBaseName": "1-Praise-to-the-Lord-the-Almighty-0",
       "tracks": [
         {"name": "MELODY", "src": "audio/Praise.to.the.Lord.mp3"},
         {"name": "ALTO", "src": "audio/Praise.to.the.Lord.ALTO.mp3"},
@@ -30,7 +30,7 @@
     {
       "title": "GREAT IS THE LORD",
       "useImages": true,
-      "imageBaseName": "2-Great-Is-the-Lord",
+      "imageBaseName": "2-Great-Is-the-Lord-0",
       "tracks": [
         {"name": "MELODY", "src": "audio/Great.Is.the.Lord.mp3"},
         {"name": "ALTO", "src": "audio/Great.Is.the.Lord.ALTO.mp3"}
@@ -39,7 +39,7 @@
     {
       "title": "I KNOW A NAME",
       "useImages": true,
-      "imageBaseName": "3-I-Know-a-Name",
+      "imageBaseName": "3-I-Know-a-Name-0",
       "tracks": [
         {"name": "MELODY", "src": "audio/I.Know.a.Name.mp3"}
       ]
@@ -47,7 +47,7 @@
     {
       "title": "HE KEEPS ME SINGING",
       "useImages": true,
-      "imageBaseName": "4-He-Keeps-Me-Singing",
+      "imageBaseName": "4-He-Keeps-Me-Singing-0",
       "single": {
         "audio": "audio/He.Keeps.Me.Singing.mp3",
         "label": "Sheet music and audio"
@@ -56,7 +56,7 @@
     {
       "title": "YOU ARE MY ALL IN ALL",
       "useImages": true,
-      "imageBaseName": "5-You-Are-My-All-in-All",
+      "imageBaseName": "5-You-Are-My-All-in-All-0",
       "tracks": [
         {"name": "MELODY", "src": "audio/You.Are.My.All.In.All.ALTO.mp3"},
         {"name": "ALTO", "src": "audio/You.Are.My.All.In.All.mp3"}
@@ -65,7 +65,7 @@
     {
       "title": "I BELIEVE IN A HILL CALLED MOUNT CALVARY",
       "useImages": true,
-      "imageBaseName": "6-I-Believe-in-a-Hill-Called-Mount-Calvary",
+      "imageBaseName": "6-I-Believe-in-a-Hill-Called-Mount-Calvary-0",
       "tracks": [
         {"name": "MELODY", "src": "audio/I.Believe.Old.Rugged.mp3"},
         {"name": "ALTO", "src": "audio/I.Believe.Old.Rugged.6.5.Sus.mp3"},
