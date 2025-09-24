@@ -1102,8 +1102,10 @@
 
         img.onerror = function() {
             if (loadingIndicator) loadingIndicator.style.display = 'none';
-            console.error('Failed to load image:', img.src);
-            alert(`Could not load image: ${img.src.split('/').pop()}`);
+            // Only log error if src is not empty (avoid error when intentionally clearing image)
+            if (img.src && img.src !== '') {
+                console.error('Failed to load image:', img.src);
+            }
         };
 
         img.src = currentImages[currentImageIndex];
