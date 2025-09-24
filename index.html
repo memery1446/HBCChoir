@@ -24,7 +24,6 @@
                     url('Harmony-Aireal.jpg') center / cover no-repeat fixed;
         }
 
-
         .container {
             max-width: 1200px;
             margin: 0 auto;
@@ -46,7 +45,6 @@
             background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35));
             backdrop-filter: blur(2px);
         }
-
 
         h1 {
             font-size: 3rem;
@@ -449,7 +447,7 @@
             font-size: 1.2rem;
         }
 
-        #modalAudioPlayer {
+        #modalAudioPlayer, #imageModalAudioPlayer {
             width: 100%;
             max-width: 500px;
             border-radius: 10px;
@@ -502,9 +500,116 @@
             z-index: 10;
         }
 
+        /* Image Modal Styles */
+        .image-modal-content {
+            display: flex;
+            flex-direction: column;
+            height: 95vh;
+            max-height: 95vh;
+        }
+
+        .image-viewer {
+            flex: 1;
+            overflow: auto;
+            -webkit-overflow-scrolling: touch;
+            background: #f8f9fa;
+            border-radius: 10px;
+            margin: 10px 0;
+            position: relative;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+            min-height: 100%;
+        }
+
+        #sheetMusicImage {
+            max-width: 100%;
+            height: auto;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+            border-radius: 10px;
+            background: white;
+            border: 2px solid #e9ecef;
+
+            /* Enable native mobile zoom and pan */
+            touch-action: pinch-zoom;
+            cursor: grab;
+            transition: transform 0.2s ease;
+        }
+
+        #sheetMusicImage:active {
+            cursor: grabbing;
+        }
+
+        #sheetMusicImage:hover {
+            box-shadow: 0 12px 32px rgba(0,0,0,0.2);
+        }
+
+        .image-controls {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: auto;
+            border: 1px solid #e9ecef;
+        }
+
+        .image-btn {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 8px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .image-btn:hover {
+            background: #2980b9;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+        }
+
+        .image-btn:disabled {
+            background: #bdc3c7;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        /* Smooth image loading */
+        #sheetMusicImage {
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        #sheetMusicImage.loaded {
+            opacity: 1;
+        }
+
+        /* Loading indicator for images */
+        .image-container .loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px 30px;
+            border-radius: 10px;
+            font-weight: bold;
+            color: #2c3e50;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            z-index: 10;
+        }
+
         @media (max-width: 768px) {
             /* Give room for the fixed header on small screens */
-
             header {
                 padding: 16px 0;      /* a bit tighter on mobile */
             }
@@ -530,9 +635,55 @@
             .suggestion-input { width: 95%; margin-bottom: 15px; }
             .email-link { display: block; margin-top: 10px; text-align: center; }
             .current-song { font-size: 1rem; }
+
+            /* Image modal mobile optimizations */
+            .image-modal-content {
+                width: 100vw !important;
+                height: 100vh !important;
+                margin: 0 !important;
+                border-radius: 0 !important;
+                padding: 8px !important;
+                max-height: 100vh !important;
+            }
+
+            .image-container {
+                padding: 10px;
+            }
+
+            .audio-controls {
+                position: sticky;
+                top: 0;
+                z-index: 20;
+                background: white;
+                border-radius: 10px;
+                margin-bottom: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                border: 1px solid #e9ecef;
+            }
+
+            .image-controls {
+                position: sticky;
+                bottom: 0;
+                margin-top: 8px;
+                box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
+            }
+
+            #sheetMusicImage {
+                /* Critical: Allow image to be larger than viewport for zooming */
+                width: auto;
+                max-width: none;
+                min-width: 100%;
+                /* Enable smooth zooming on mobile */
+                image-rendering: -webkit-optimize-contrast;
+                image-rendering: crisp-edges;
+            }
+
+            .image-btn {
+                padding: 12px 16px;
+                font-size: 1rem;
+                margin: 0 4px;
+            }
         }
-
-
     </style>
 </head>
 <body>
@@ -617,6 +768,37 @@
     </div>
 </div>
 
+<!-- Image Modal -->
+<div id="imageModal" class="modal">
+    <div class="modal-content image-modal-content">
+        <span class="close" onclick="closeImageModal()">&times;</span>
+
+        <div class="audio-controls">
+            <h3>🎵 Sing-Along</h3>
+            <div id="imageVoiceSelector"></div>
+            <audio id="imageModalAudioPlayer" controls preload="metadata">
+                <source id="imageModalAudioSource" src="" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <div class="image-viewer">
+            <div id="imageLoadingIndicator" class="loading" style="display: none;">Loading sheet music...</div>
+            <div class="image-container">
+                <img id="sheetMusicImage" src="" alt="Sheet Music" />
+            </div>
+        </div>
+
+        <div class="image-controls" id="imageControls" style="display: none;">
+            <button class="image-btn" id="prevImageBtn" onclick="prevImagePage()">Previous</button>
+            <span class="page-info">
+                Page <span id="imagePageNum">1</span> of <span id="imagePageCount">1</span>
+            </span>
+            <button class="image-btn" id="nextImageBtn" onclick="nextImagePage()">Next</button>
+        </div>
+    </div>
+</div>
+
 <script>
     // PDF.js setup
     pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
@@ -636,6 +818,10 @@
     let canvas = document.getElementById('pdfCanvas');
     let ctx = canvas.getContext('2d');
     let currentPdfUrl = null; // Track current PDF to prevent unnecessary reloads
+
+    // Image viewer variables
+    let currentImages = [];
+    let currentImageIndex = 0;
 
     // Variables to hold loaded content
     let currentContent = null;
@@ -730,8 +916,33 @@
         const links = document.createElement('div');
         links.className = 'song-links';
 
-        if (song.tracks && song.tracks.length > 0) {
-            // Multi-track song
+        // Check if this song should use images instead of PDFs
+        if (song.useImages) {
+            // IMAGE-BASED SONG
+            const button = document.createElement('button');
+            button.className = 'link-btn sheet-music';
+
+            if (song.tracks && song.tracks.length > 1) {
+                const partTypes = song.tracks.map(t => t.name.toLowerCase());
+                if (partTypes.some(p => p.includes('alto') || p.includes('tenor') || p.includes('bass'))) {
+                    button.textContent = '🎼 High-Quality Sheet Music with All Parts';
+                } else {
+                    button.textContent = '🎼 High-Quality Sheet Music with Multiple Tracks';
+                }
+            } else if (song.single) {
+                button.textContent = '🎼 High-Quality Sheet Music and Audio';
+            } else {
+                button.textContent = '🎼 High-Quality Sheet Music';
+            }
+
+            button.addEventListener('click', () => {
+                openImagePDF(song.imageBaseName, song.title, song.tracks || []);
+            });
+
+            links.appendChild(button);
+
+        } else if (song.tracks && song.tracks.length > 0) {
+            // MULTI-TRACK PDF (existing code)
             const button = document.createElement('button');
             button.className = 'link-btn sheet-music';
 
@@ -745,10 +956,6 @@
                 button.textContent = '📄 Sheet music with MELODY and HARMONY';
             }
 
-            // Use data attributes instead of onclick for better reliability
-            button.dataset.pdfPath = song.pdf;
-            button.dataset.songTitle = song.title;
-            button.dataset.tracks = JSON.stringify(song.tracks);
             button.addEventListener('click', () => {
                 openMultiTrackPDF(song.pdf, song.title, song.tracks);
             });
@@ -756,15 +963,11 @@
             links.appendChild(button);
 
         } else if (song.single) {
-            // Single track song
+            // SINGLE TRACK PDF (existing code)
             const button = document.createElement('button');
             button.className = 'link-btn sheet-music';
             button.textContent = `📄 ${song.single.label}`;
 
-            // Use data attributes instead of onclick for better reliability
-            button.dataset.pdfPath = song.pdf;
-            button.dataset.audioPath = song.single.audio;
-            button.dataset.songTitle = song.title;
             button.addEventListener('click', () => {
                 openSinglePDF(song.pdf, song.single.audio, song.title);
             });
@@ -785,13 +988,24 @@
             currentContent.songs.forEach(song => {
                 let audioSrc = null;
 
-                if (song.tracks && song.tracks.length > 0) {
+                // Handle image-based songs
+                if (song.useImages) {
+                    if (song.tracks && song.tracks.length > 0) {
+                        // Use first track (usually melody) for playlist
+                        audioSrc = song.tracks[0].src;
+                    } else if (song.single && song.single.audio) {
+                        audioSrc = song.single.audio;
+                    }
+                }
+                // Handle PDF-based songs (existing logic)
+                else if (song.tracks && song.tracks.length > 0) {
                     // Use first track (usually melody)
                     audioSrc = song.tracks[0].src;
                 } else if (song.single && song.single.audio) {
                     audioSrc = song.single.audio;
                 }
 
+                // Add to playlist if we found audio
                 if (audioSrc) {
                     playlistSongs.push({
                         title: song.title,
@@ -812,6 +1026,135 @@
         sectionTitle.textContent = '⚠️ Error Loading Songs';
         songOrderList.innerHTML = `<li style="color: #e74c3c;">${message}</li>`;
         songsContainer.innerHTML = `<div class="loading" style="color: #e74c3c;">${message}</div>`;
+    }
+
+    // Image viewer functions
+    function openImagePDF(baseName, title, tracks) {
+        // Find all images for this song (handles multi-page sheets)
+        // The conversion creates files like: baseName-1.png, baseName-2.png, etc.
+        currentImages = [];
+        currentImageIndex = 0;
+
+        // For now, assume single page and use the -1.png naming pattern from ImageMagick
+        currentImages.push(`sheet-music-images/${baseName}-1.png`);
+
+        // Setup audio tracks
+        setupImageAudio(tracks);
+
+        // Show the image
+        showCurrentImage();
+
+        // Show modal
+        document.getElementById('imageModal').style.display = 'block';
+        document.body.style.overflow = 'hidden';
+    }
+
+    function setupImageAudio(tracks) {
+        if (tracks && tracks.length > 1) {
+            // Multi-track setup
+            let voiceSelectorHTML = '<div class="voice-selector">';
+            tracks.forEach((track, index) => {
+                const activeClass = index === 0 ? 'active' : '';
+                voiceSelectorHTML += `<button class="voice-btn ${activeClass}" onclick="switchImageVoice('${track.src}', ${index})">${track.name}</button>`;
+            });
+            voiceSelectorHTML += '</div>';
+
+            document.getElementById('imageVoiceSelector').innerHTML = voiceSelectorHTML;
+            document.getElementById('imageModalAudioSource').src = tracks[0].src;
+        } else if (tracks && tracks.length === 1) {
+            // Single track setup
+            document.getElementById('imageVoiceSelector').innerHTML = '';
+            document.getElementById('imageModalAudioSource').src = tracks[0].src;
+        } else {
+            // No tracks
+            document.getElementById('imageVoiceSelector').innerHTML = '';
+            document.getElementById('imageModalAudioSource').src = '';
+        }
+
+        document.getElementById('imageModalAudioPlayer').load();
+    }
+
+    function showCurrentImage() {
+        const img = document.getElementById('sheetMusicImage');
+        const loadingIndicator = document.getElementById('imageLoadingIndicator');
+
+        // Show loading
+        if (loadingIndicator) loadingIndicator.style.display = 'block';
+        img.classList.remove('loaded');
+
+        // Set up image loading
+        img.onload = function() {
+            if (loadingIndicator) loadingIndicator.style.display = 'none';
+            img.classList.add('loaded');
+        };
+
+        img.onerror = function() {
+            if (loadingIndicator) loadingIndicator.style.display = 'none';
+            console.error('Failed to load image:', img.src);
+            // Try alternative naming pattern (without the -1)
+            if (img.src.includes('-1.png')) {
+                img.src = img.src.replace('-1.png', '.png');
+            }
+        };
+
+        img.src = currentImages[currentImageIndex];
+
+        // Update page controls
+        const pageNum = document.getElementById('imagePageNum');
+        const pageCount = document.getElementById('imagePageCount');
+        const controls = document.getElementById('imageControls');
+
+        if (pageNum) pageNum.textContent = currentImageIndex + 1;
+        if (pageCount) pageCount.textContent = currentImages.length;
+
+        // Show/hide controls based on page count
+        if (currentImages.length > 1) {
+            controls.style.display = 'block';
+            document.getElementById('prevImageBtn').disabled = (currentImageIndex <= 0);
+            document.getElementById('nextImageBtn').disabled = (currentImageIndex >= currentImages.length - 1);
+        } else {
+            controls.style.display = 'none';
+        }
+    }
+
+    function prevImagePage() {
+        if (currentImageIndex > 0) {
+            currentImageIndex--;
+            showCurrentImage();
+        }
+    }
+
+    function nextImagePage() {
+        if (currentImageIndex < currentImages.length - 1) {
+            currentImageIndex++;
+            showCurrentImage();
+        }
+    }
+
+    function switchImageVoice(audioPath, buttonIndex) {
+        document.getElementById('imageModalAudioSource').src = audioPath;
+        document.getElementById('imageModalAudioPlayer').load();
+
+        // Update active button
+        const buttons = document.querySelectorAll('#imageModal .voice-btn');
+        buttons.forEach((btn, index) => {
+            btn.classList.toggle('active', index === buttonIndex);
+        });
+    }
+
+    function closeImageModal() {
+        document.getElementById('imageModal').style.display = 'none';
+        document.body.style.overflow = 'auto';
+
+        // Stop audio
+        const audio = document.getElementById('imageModalAudioPlayer');
+        audio.pause();
+        audio.currentTime = 0;
+
+        // Reset image
+        const img = document.getElementById('sheetMusicImage');
+        img.src = '';
+        img.classList.remove('loaded');
     }
 
     function playAllSongs() {
@@ -1078,9 +1421,13 @@
     // Close modal when clicking outside
     window.onclick = function(event) {
         const pdfModal = document.getElementById('pdfModal');
+        const imageModal = document.getElementById('imageModal');
 
         if (event.target === pdfModal) {
             closeModal();
+        }
+        if (event.target === imageModal) {
+            closeImageModal();
         }
     }
 
@@ -1088,6 +1435,7 @@
     document.addEventListener('keydown', function(event) {
         if (event.key === 'Escape') {
             closeModal();
+            closeImageModal();
         }
     });
 

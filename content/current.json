@@ -18,7 +18,8 @@
   "songs": [
     {
       "title": "PRAISE TO THE LORD THE ALMIGHTY",
-      "pdf": "sheet-music/1-Praise-to-the-Lord-the-Almighty.pdf",
+      "useImages": true,
+      "imageBaseName": "1-Praise-to-the-Lord-the-Almighty",
       "tracks": [
         {"name": "MELODY", "src": "audio/Praise.to.the.Lord.mp3"},
         {"name": "ALTO", "src": "audio/Praise.to.the.Lord.ALTO.mp3"},
@@ -28,7 +29,8 @@
     },
     {
       "title": "GREAT IS THE LORD",
-      "pdf": "sheet-music/2-Great-Is-the-Lord.pdf",
+      "useImages": true,
+      "imageBaseName": "2-Great-Is-the-Lord",
       "tracks": [
         {"name": "MELODY", "src": "audio/Great.Is.the.Lord.mp3"},
         {"name": "ALTO", "src": "audio/Great.Is.the.Lord.ALTO.mp3"}
@@ -36,14 +38,16 @@
     },
     {
       "title": "I KNOW A NAME",
-      "pdf": "sheet-music/3-I-Know-a-Name.pdf",
+      "useImages": true,
+      "imageBaseName": "3-I-Know-a-Name",
       "tracks": [
         {"name": "MELODY", "src": "audio/I.Know.a.Name.mp3"}
       ]
     },
     {
       "title": "HE KEEPS ME SINGING",
-      "pdf": "sheet-music/4-He-Keeps-Me-Singing.pdf",
+      "useImages": true,
+      "imageBaseName": "4-He-Keeps-Me-Singing",
       "single": {
         "audio": "audio/He.Keeps.Me.Singing.mp3",
         "label": "Sheet music and audio"
@@ -51,7 +55,8 @@
     },
     {
       "title": "YOU ARE MY ALL IN ALL",
-      "pdf": "sheet-music/5-You-Are-My-All-in-All.pdf",
+      "useImages": true,
+      "imageBaseName": "5-You-Are-My-All-in-All",
       "tracks": [
         {"name": "MELODY", "src": "audio/You.Are.My.All.In.All.ALTO.mp3"},
         {"name": "ALTO", "src": "audio/You.Are.My.All.In.All.mp3"}
@@ -59,7 +64,8 @@
     },
     {
       "title": "I BELIEVE IN A HILL CALLED MOUNT CALVARY",
-      "pdf": "sheet-music/6-I-Believe-in-a-Hill-Called-Mount-Calvary.pdf",
+      "useImages": true,
+      "imageBaseName": "6-I-Believe-in-a-Hill-Called-Mount-Calvary",
       "tracks": [
         {"name": "MELODY", "src": "audio/I.Believe.Old.Rugged.mp3"},
         {"name": "ALTO", "src": "audio/I.Believe.Old.Rugged.6.5.Sus.mp3"},

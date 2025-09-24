@@ -6,5 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "pdf2pic": "^3.2.0",
+    "sharp": "^0.34.4"
+  }
 }
