@@ -31,6 +31,7 @@
       "title": "GREAT IS THE LORD",
       "useImages": true,
       "imageBaseName": "2-Great-Is-the-Lord-0",
+      "pageCount": 2,
       "tracks": [
         {"name": "MELODY", "src": "audio/Great.Is.the.Lord.mp3"},
         {"name": "ALTO", "src": "audio/Great.Is.the.Lord.ALTO.mp3"}
@@ -40,6 +41,7 @@
       "title": "I KNOW A NAME",
       "useImages": true,
       "imageBaseName": "3-I-Know-a-Name-0",
+      "pageCount": 2,
       "tracks": [
         {"name": "MELODY", "src": "audio/I.Know.a.Name.mp3"}
       ]
@@ -66,6 +68,7 @@
       "title": "I BELIEVE IN A HILL CALLED MOUNT CALVARY",
       "useImages": true,
       "imageBaseName": "6-I-Believe-in-a-Hill-Called-Mount-Calvary-0",
+      "pageCount": 7,
       "tracks": [
         {"name": "MELODY", "src": "audio/I.Believe.Old.Rugged.mp3"},
         {"name": "ALTO", "src": "audio/I.Believe.Old.Rugged.6.5.Sus.mp3"},
