@@ -53,11 +53,12 @@
     {
       "title": "HE KEEPS ME SINGING",
       "useImages": true,
-      "imageBaseName": "4-He-Keeps-Me-Singing-0",
-      "single": {
-        "audio": "audio/He.Keeps.Me.Singing.mp3",
-        "label": "Sheet music and audio"
-      }
+      "imageFiles": [
+        "4-He-Keeps-Me-Singing-0"
+      ],
+      "tracks": [
+        {"name": "MELODY", "src": "audio/He.Keeps.Me.Singing.mp3"}
+      ]
     },
     {
       "title": "YOU ARE MY ALL IN ALL",
