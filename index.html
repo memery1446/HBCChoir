@@ -1034,7 +1034,7 @@
             // Update button text based on number of image files
             let buttonText = '';
             if (imageFiles.length > 1) {
-                buttonText = `🎼 Sheet Music (${imageFiles.length} pages)`;
+                buttonText = `🎼 Sheet Music and Audio (${imageFiles.length} pages)`;
             } else if (song.tracks && song.tracks.length > 1) {
                 const partTypes = song.tracks.map(t => t.name.toLowerCase());
                 if (partTypes.some(p => p.includes('alto') || p.includes('tenor') || p.includes('bass'))) {
