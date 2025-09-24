@@ -987,25 +987,23 @@
         pageRendering = true;
 
         pdfDoc.getPage(num).then(function(page) {
-            // Calculate viewport with proper scaling for device
+            // Use consistent scaling across all devices
             let viewport = page.getViewport({scale: scale});
 
-            // iOS Safari specific scaling adjustments
-            if (isIOSSafari) {
-                const devicePixelRatio = window.devicePixelRatio || 1;
-                const adjustedScale = scale / devicePixelRatio;
-                viewport = page.getViewport({scale: adjustedScale});
-            }
+            // For high-DPI displays, we want to render at higher resolution, not lower
+            const devicePixelRatio = window.devicePixelRatio || 1;
+            const outputScale = devicePixelRatio;
 
-            // Set canvas dimensions
-            canvas.height = viewport.height;
-            canvas.width = viewport.width;
+            // Set logical canvas size (CSS pixels)
+            canvas.style.width = viewport.width + 'px';
+            canvas.style.height = viewport.height + 'px';
 
-            // Additional iOS Safari fixes
-            if (isIOSSafari) {
-                canvas.style.width = viewport.width + 'px';
-                canvas.style.height = viewport.height + 'px';
-            }
+            // Set actual canvas size in device pixels
+            canvas.width = Math.floor(viewport.width * outputScale);
+            canvas.height = Math.floor(viewport.height * outputScale);
+
+            // Scale the drawing context so everything draws at the correct size
+            ctx.scale(outputScale, outputScale);
 
             const renderContext = {
                 canvasContext: ctx,
