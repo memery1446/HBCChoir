@@ -516,6 +516,8 @@
             border-radius: 10px;
             margin: 10px 0;
             position: relative;
+            /* Ensure viewer takes available height */
+            height: calc(100% - 160px);
         }
 
         .image-container {
@@ -524,6 +526,7 @@
             align-items: flex-start;
             padding: 20px;
             min-height: 100%;
+            width: 100%;
         }
 
         #sheetMusicImage {
@@ -538,6 +541,10 @@
             touch-action: pinch-zoom;
             cursor: grab;
             transition: transform 0.2s ease;
+
+            /* Critical for mobile: Ensure image fits screen first */
+            object-fit: contain;
+            width: 100%;
         }
 
         #sheetMusicImage:active {
@@ -644,10 +651,26 @@
                 border-radius: 0 !important;
                 padding: 8px !important;
                 max-height: 100vh !important;
+                display: flex !important;
+                flex-direction: column !important;
+            }
+
+            .image-viewer {
+                flex: 1 !important;
+                height: auto !important;
+                margin: 8px 0 !important;
+                overflow: auto !important;
+                /* Calculate height: full screen minus audio controls and navigation */
+                height: calc(100vh - 200px) !important;
+                max-height: calc(100vh - 200px) !important;
             }
 
             .image-container {
-                padding: 10px;
+                padding: 5px !important;
+                height: 100% !important;
+                display: flex !important;
+                align-items: center !important;
+                justify-content: center !important;
             }
 
             .audio-controls {
@@ -659,6 +682,7 @@
                 margin-bottom: 8px;
                 box-shadow: 0 2px 8px rgba(0,0,0,0.1);
                 border: 1px solid #e9ecef;
+                flex-shrink: 0 !important;
             }
 
             .image-controls {
@@ -677,14 +701,22 @@
                 width: auto !important;
                 min-width: 280px !important;
                 text-align: center !important;
+                flex-shrink: 0 !important;
             }
 
             #sheetMusicImage {
-                /* Critical: Allow image to be larger than viewport for zooming */
-                width: auto;
-                max-width: none;
-                min-width: 100%;
+                /* CRITICAL: Make image fit the available container completely */
+                width: 100% !important;
+                height: auto !important;
+                max-width: 100% !important;
+                max-height: calc(100vh - 220px) !important;
+                object-fit: contain !important;
+
+                /* Remove min-width that was forcing cropping */
+                min-width: unset !important;
+
                 /* Enable smooth zooming on mobile */
+                touch-action: pinch-zoom;
                 image-rendering: -webkit-optimize-contrast;
                 image-rendering: crisp-edges;
             }
