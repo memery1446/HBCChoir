@@ -1038,14 +1038,14 @@
             } else if (song.tracks && song.tracks.length > 1) {
                 const partTypes = song.tracks.map(t => t.name.toLowerCase());
                 if (partTypes.some(p => p.includes('alto') || p.includes('tenor') || p.includes('bass'))) {
-                    buttonText = '🎼 Sheet Music with All Parts';
+                    buttonText = '🎼 Sheet Music and Audio';
                 } else {
-                    buttonText = '🎼 Sheet Music with Multiple Tracks';
+                    buttonText = '🎼 Sheet Music and Audio';
                 }
             } else if (song.single) {
                 buttonText = '🎼 Sheet Music and Audio';
             } else {
-                buttonText = '🎼 Sheet Music';
+                buttonText = '🎼 Sheet Music and Audio';
             }
 
             button.textContent = buttonText;
