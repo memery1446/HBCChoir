@@ -516,6 +516,7 @@
             border-radius: 10px;
             margin: 10px 0;
             position: relative;
+            /* Ensure viewer takes available height */
             height: calc(100% - 160px);
         }
 
@@ -554,43 +555,6 @@
             box-shadow: 0 12px 32px rgba(0,0,0,0.2);
         }
 
-        /* Page controls inline with audio controls */
-        .page-controls-inline {
-            display: none;
-            justify-content: center;
-            align-items: center;
-            margin-top: 8px;
-            gap: 10px;
-            flex-wrap: wrap;
-        }
-
-        .control-btn {
-            background: #3498db;
-            color: white;
-            border: none;
-            padding: 8px 12px;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 0.9rem;
-            transition: all 0.3s ease;
-        }
-
-        .control-btn:hover {
-            background: #2980b9;
-        }
-
-        .control-btn:disabled {
-            background: #bdc3c7;
-            cursor: not-allowed;
-        }
-
-        .page-info-compact {
-            font-size: 0.9rem;
-            font-weight: bold;
-            color: #2c3e50;
-        }
-
-        /* Legacy image controls (hidden on desktop, removed on mobile) */
         .image-controls {
             background: white;
             padding: 15px;
@@ -655,7 +619,46 @@
             /* Give room for the fixed header on small screens */
             header {
                 padding: 16px 0;      /* a bit tighter on mobile */
+            /* Consolidated compact controls for mobile */
+            .audio-controls {
+                padding: 8px !important;
+                margin-bottom: 4px !important;
             }
+            
+            .voice-btn {
+                padding: 6px 10px !important;
+                font-size: 0.8rem !important;
+                margin: 2px !important;
+            }
+            
+            .page-controls-inline {
+                display: flex !important;
+                justify-content: center !important;
+                align-items: center !important;
+                margin-top: 8px !important;
+                gap: 10px !important;
+            }
+            
+            .control-btn {
+                background: #3498db !important;
+                color: white !important;
+                border: none !important;
+                padding: 8px 12px !important;
+                border-radius: 6px !important;
+                font-size: 0.9rem !important;
+            }
+            
+            .page-info-compact {
+                font-size: 0.9rem !important;
+                font-weight: bold !important;
+                color: #2c3e50 !important;
+            }
+            
+            #imageModalAudioPlayer {
+                height: 35px !important;
+            }
+
+        }
 
             h1 {
                 font-size: 1.75rem;   /* smaller title on phones */
@@ -672,12 +675,7 @@
             .modal-content { width: 98%; margin: 1% auto; padding: 15px; }
             .section { padding: 20px 15px; }
             .voice-selector { flex-direction: column; gap: 8px; }
-            .voice-btn {
-                width: 100%;
-                padding: 6px 10px !important;
-                font-size: 0.8rem !important;
-                margin: 2px !important;
-            }
+            .voice-btn { width: 100%; padding: 12px; }
             .song-order ol { margin-left: 10px; padding: 15px; }
             .play-all-btn { width: 100%; padding: 15px; font-size: 1.1rem; }
             .suggestion-input { width: 95%; margin-bottom: 15px; }
@@ -698,10 +696,12 @@
 
             .image-viewer {
                 flex: 1 !important;
+                height: auto !important;
+                margin: 8px 0 !important;
+                overflow: auto !important;
+                /* Calculate height: full screen minus audio controls and navigation */
                 height: calc(100vh - 120px) !important;
                 max-height: calc(100vh - 120px) !important;
-                margin: 4px 0 !important;
-                overflow: auto !important;
             }
 
             .image-container {
@@ -718,44 +718,29 @@
                 z-index: 20;
                 background: white;
                 border-radius: 10px;
-                margin-bottom: 4px;
+                margin-bottom: 8px;
                 box-shadow: 0 2px 8px rgba(0,0,0,0.1);
                 border: 1px solid #e9ecef;
                 flex-shrink: 0 !important;
-                padding: 8px !important;
             }
 
-            /* Show inline page controls on mobile */
-            .page-controls-inline {
-                display: flex !important;
-                justify-content: center !important;
-                align-items: center !important;
-                margin-top: 8px !important;
-                gap: 10px !important;
-            }
-
-            .control-btn {
-                background: #3498db !important;
-                color: white !important;
-                border: none !important;
-                padding: 8px 12px !important;
-                border-radius: 6px !important;
-                font-size: 0.9rem !important;
-            }
-
-            .page-info-compact {
-                font-size: 0.9rem !important;
-                font-weight: bold !important;
-                color: #2c3e50 !important;
-            }
-
-            #imageModalAudioPlayer {
-                height: 35px !important;
-            }
-
-            /* Hide the separate floating image controls on mobile */
             .image-controls {
-                display: none !important;
+                position: fixed !important;
+                bottom: 20px !important;
+                left: 50% !important;
+                transform: translateX(-50%) !important;
+                background: rgba(255, 255, 255, 0.95) !important;
+                backdrop-filter: blur(10px) !important;
+                border-radius: 15px !important;
+                padding: 12px 20px !important;
+                box-shadow: 0 4px 20px rgba(0,0,0,0.3) !important;
+                border: 2px solid #e9ecef !important;
+                z-index: 1001 !important;
+                margin: 0 !important;
+                width: auto !important;
+                min-width: 280px !important;
+                text-align: center !important;
+                flex-shrink: 0 !important;
             }
 
             #sheetMusicImage {
@@ -773,6 +758,14 @@
                 touch-action: pinch-zoom;
                 image-rendering: -webkit-optimize-contrast;
                 image-rendering: crisp-edges;
+            }
+
+            .image-btn {
+                padding: 14px 20px !important;
+                font-size: 1.1rem !important;
+                margin: 0 8px !important;
+                font-weight: bold !important;
+                border-radius: 10px !important;
             }
         }
     </style>
@@ -871,13 +864,13 @@
                 <source id="imageModalAudioSource" src="" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
-
-            <!-- Inline page controls (consolidated with audio controls) -->
+            <!-- ADD PAGE CONTROLS HERE -->
             <div class="page-controls-inline" id="imageControlsInline" style="display: none;">
                 <button class="control-btn" id="prevImageBtnInline" onclick="prevImagePage()">◀ Prev</button>
                 <span class="page-info-compact">Page <span id="imagePageNumInline">1</span>/<span id="imagePageCountInline">1</span></span>
                 <button class="control-btn" id="nextImageBtnInline" onclick="nextImagePage()">Next ▶</button>
             </div>
+
         </div>
 
         <div class="image-viewer">
@@ -886,16 +879,7 @@
                 <img id="sheetMusicImage" src="" alt="Sheet Music" />
             </div>
         </div>
-
-        <!-- Legacy desktop controls (hidden on mobile) -->
-        <div class="image-controls" id="imageControls" style="display: none;">
-            <button class="image-btn" id="prevImageBtn" onclick="prevImagePage()">Previous</button>
-            <span class="page-info">
-                Page <span id="imagePageNum">1</span> of <span id="imagePageCount">1</span>
-            </span>
-            <button class="image-btn" id="nextImageBtn" onclick="nextImagePage()">Next</button>
-        </div>
-    </div>
+</div>
 </div>
 
 <script>
@@ -1185,6 +1169,7 @@
         document.getElementById('imageModalAudioPlayer').load();
     }
 
+    
     function showCurrentImage() {
         const img = document.getElementById('sheetMusicImage');
         const loadingIndicator = document.getElementById('imageLoadingIndicator');
@@ -1209,45 +1194,51 @@
 
         img.src = currentImages[currentImageIndex];
 
-        // Update both desktop and mobile controls
-        updateImagePageControls();
+        // Use inline controls instead of floating ones
+        const controls = document.getElementById('imageControlsInline');
+        const pageNum = document.getElementById('imagePageNumInline');
+        const pageCount = document.getElementById('imagePageCountInline');
+
+        if (pageNum) pageNum.textContent = currentImageIndex + 1;
+        if (pageCount) pageCount.textContent = currentImages.length;
+
+        if (currentImages.length > 1) {
+            controls.style.display = 'flex';
+            const prevBtn = document.getElementById('prevImageBtnInline');
+            const nextBtn = document.getElementById('nextImageBtnInline');
+            if (prevBtn) prevBtn.disabled = (currentImageIndex <= 0);
+            if (nextBtn) nextBtn.disabled = (currentImageIndex >= currentImages.length - 1);
+        } else {
+            controls.style.display = 'none';
+        }
     }
+    ;
 
-    function updateImagePageControls() {
-        // Mobile inline controls
-        const inlineControls = document.getElementById('imageControlsInline');
-        const inlinePageNum = document.getElementById('imagePageNumInline');
-        const inlinePageCount = document.getElementById('imagePageCountInline');
+        img.onerror = function() {
+            if (loadingIndicator) loadingIndicator.style.display = 'none';
+            // Only log error if src is not empty (avoid error when intentionally clearing image)
+            if (img.src && img.src !== '') {
+                console.error('Failed to load image:', img.src);
+            }
+        };
 
-        // Desktop separate controls
-        const desktopControls = document.getElementById('imageControls');
-        const desktopPageNum = document.getElementById('imagePageNum');
-        const desktopPageCount = document.getElementById('imagePageCount');
+        img.src = currentImages[currentImageIndex];
 
-        // Update page numbers
-        if (inlinePageNum) inlinePageNum.textContent = currentImageIndex + 1;
-        if (inlinePageCount) inlinePageCount.textContent = currentImages.length;
-        if (desktopPageNum) desktopPageNum.textContent = currentImageIndex + 1;
-        if (desktopPageCount) desktopPageCount.textContent = currentImages.length;
+        // Update page controls
+        const pageNum = document.getElementById('imagePageNum');
+        const pageCount = document.getElementById('imagePageCount');
+        const controls = document.getElementById('imageControls');
+
+        if (pageNum) pageNum.textContent = currentImageIndex + 1;
+        if (pageCount) pageCount.textContent = currentImages.length;
 
         // Show/hide controls based on page count
         if (currentImages.length > 1) {
-            if (inlineControls) inlineControls.style.display = 'flex';
-            if (desktopControls) desktopControls.style.display = 'block';
-
-            // Update button states
-            const prevBtnInline = document.getElementById('prevImageBtnInline');
-            const nextBtnInline = document.getElementById('nextImageBtnInline');
-            const prevBtnDesktop = document.getElementById('prevImageBtn');
-            const nextBtnDesktop = document.getElementById('nextImageBtn');
-
-            if (prevBtnInline) prevBtnInline.disabled = (currentImageIndex <= 0);
-            if (nextBtnInline) nextBtnInline.disabled = (currentImageIndex >= currentImages.length - 1);
-            if (prevBtnDesktop) prevBtnDesktop.disabled = (currentImageIndex <= 0);
-            if (nextBtnDesktop) nextBtnDesktop.disabled = (currentImageIndex >= currentImages.length - 1);
+            controls.style.display = 'block';
+            document.getElementById('prevImageBtn').disabled = (currentImageIndex <= 0);
+            document.getElementById('nextImageBtn').disabled = (currentImageIndex >= currentImages.length - 1);
         } else {
-            if (inlineControls) inlineControls.style.display = 'none';
-            if (desktopControls) desktopControls.style.display = 'none';
+            controls.style.display = 'none';
         }
     }
 
