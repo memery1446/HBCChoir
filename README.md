@@ -19,3 +19,7 @@ json{
 "pageCount": 1,
 "tracks": [...]
 }
+
+
+### for pdfs to jpg:
+node convert-pdfs.js

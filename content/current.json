@@ -66,7 +66,16 @@
       "useImages": true,
       "imageFiles": [
         "5-Soon-and-Very-Soon-0.png",
-
+        "5-Soon-and-Very-Soon-1.png",
+        "5-Soon-and-Very-Soon-2.png",
+        "5-Soon-and-Very-Soon-3.png",
+        "5-Soon-and-Very-Soon-4.png",
+        "5-Soon-and-Very-Soon-5.png",
+        "5-Soon-and-Very-Soon-6.png",
+        "5-Soon-and-Very-Soon-7.png",
+        "5-Soon-and-Very-Soon-8.png",
+        "5-Soon-and-Very-Soon-9.png",
+        "5-Soon-and-Very-Soon-10.png"
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/Soon.and.Very.Soon.mp3"},
