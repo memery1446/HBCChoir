@@ -1,90 +1,76 @@
 {
   "serviceDate": "2025-09-28",
   "headerNotes": [
-    "Wednesday after Church - Singing Circle",
+    "Wednesday after Church - CHRISTMAS PRACTICE",
     "Sunday 10:15AM - All, Check-In/Warm Up",
     "Sunday 4:30-5:45PM - Choir Practice",
     "ALL ARE WELCOME TO JOIN IN ANY PART OF THE ABOVE SCHEDULE"
   ],
   "order": [
-    "CALL TO WORSHIP - Praise to the Lord the Almighty",
-    "Great is the Lord",
-    "I Know a Name",
-    "He Keeps Me Singing",
-    "OFFERTORY: You Are My All in All",
-    "CHOIR: I Believe in a Hill Called Mount Calvary",
-    "INVITATION: Have Thine Own Way (not included)"
+    "CALL TO WORSHIP - Worthy of Worship",
+    "House of the Lord",
+    "Joyful, Joyful We Adore Thee",
+    "Holy Forever",
+    "OFFERTORY: Mrs. Lynn Butler, special - TBD",
+    "CHOIR: Soon and Very Soon",
   ],
   "songs": [
     {
-      "title": "PRAISE TO THE LORD THE ALMIGHTY",
+      "title": "WORTHY OF WORSHIP",
       "useImages": true,
-      "imageBaseName": "1-Praise-to-the-Lord-the-Almighty-0",
+      "imageBaseName": "1-Worthy-of-Worship-0",
       "tracks": [
-        {"name": "MELODY", "src": "audio/Praise.to.the.Lord.mp3"},
-        {"name": "ALTO", "src": "audio/Praise.to.the.Lord.ALTO.mp3"},
-        {"name": "TENOR", "src": "audio/Praise.to.the.Lord.TENOR.mp3"},
-        {"name": "BASS", "src": "audio/Praise.to.the.Lord.BASS.mp3"}
+        {"name": "MELODY", "src": "audio/Worthy.of.Worship.mp3"},
+        {"name": "PIANO ONLY", "src": "audio/Worthy.of.Worship.piano.mp3"}
       ]
     },
     {
-      "title": "GREAT IS THE LORD",
+      "title": "HOUSE OF THE LORD",
       "useImages": true,
       "imageFiles": [
-        "2-Great-Is-the-Lord-0.png",
-        "2-Great-Is-the-Lord-1.png"
+        "2-House-of-the-Lord-0.png",
+        "2-House-of-the-Lord-1.png",
+        "2-House-of-the-Lord-2.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Great.Is.the.Lord.mp3"},
-        {"name": "ALTO", "src": "audio/Great.Is.the.Lord.ALTO.mp3"}
+        {"name": "MELODY", "src": "audio/House.of.the.Lord.mp3"},
+        {"name": "PIANO ONLY", "src": "audio/House.of.the.Lord.piano.mp3"}
       ]
     },
     {
-      "title": "I KNOW A NAME",
+      "title": "JOYFUL, JOYFUL WE ADORE THEE",
       "useImages": true,
       "imageFiles": [
-        "3-I-Know-a-Name-0.png",
-        "3-I-Know-a-Name-1.png"
+        "3-Joyful-Joyful-0.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/I.Know.a.Name.mp3"}
+        {"name": "MELODY", "src": "audio/Joyful.Joyful.mp3"},
+        {"name": "PIANO ONLY", "src": "audio/Joyful.Joyful.piano.mp3"}
       ]
     },
     {
-      "title": "HE KEEPS ME SINGING",
+      "title": "HOLY FOREVER",
       "useImages": true,
       "imageFiles": [
-        "4-He-Keeps-Me-Singing-0"
+        "4-Holy-Forever-0",
+        "4-Holy-Forever-1",
+        "4-Holy-Forever-2"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/He.Keeps.Me.Singing.mp3"}
+        {"name": "MELODY", "src": "audio/Holy.Forever.mp3"},
+        {"name": "PIANO ONLY", "src": "audio/Holy.Forever.piano.mp3"}
       ]
     },
     {
-      "title": "YOU ARE MY ALL IN ALL",
-      "useImages": true,
-      "imageBaseName": "5-You-Are-My-All-in-All-0",
-      "tracks": [
-        {"name": "MELODY", "src": "audio/You.Are.My.All.In.All.ALTO.mp3"},
-        {"name": "ALTO", "src": "audio/You.Are.My.All.In.All.mp3"}
-      ]
-    },
-    {
-      "title": "I BELIEVE IN A HILL CALLED MOUNT CALVARY",
+      "title": "SOON AND VERY SOON",
       "useImages": true,
       "imageFiles": [
-        "6-I-Believe-in-a-Hill-Called-Mount-Calvary-0.png",
-        "6-I-Believe-in-a-Hill-Called-Mount-Calvary-1.png",
-        "6-I-Believe-in-a-Hill-Called-Mount-Calvary-2.png",
-        "6-I-Believe-in-a-Hill-Called-Mount-Calvary-3.png",
-        "6-I-Believe-in-a-Hill-Called-Mount-Calvary-4.png",
-        "6-I-Believe-in-a-Hill-Called-Mount-Calvary-5.png",
-        "6-I-Believe-in-a-Hill-Called-Mount-Calvary-6.png"
+        "5-Soon-and-Very-Soon-0.png",
+
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/I.Believe.Old.Rugged.mp3"},
-        {"name": "ALTO", "src": "audio/I.Believe.Old.Rugged.6.5.Sus.mp3"},
-        {"name": "TENOR", "src": "audio/I.Believe.Old.Rugged.Db.mp3"}
+        {"name": "MELODY", "src": "audio/Soon.and.Very.Soon.mp3"},
+        {"name": "PIANO ONLY", "src": "audio/Soon.and.Very.Soon.piano.mp3"}
       ]
     }
   ],
