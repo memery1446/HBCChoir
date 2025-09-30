@@ -1,5 +1,5 @@
 {
-  "serviceDate": "2025-09-28",
+  "serviceDate": "2025-10-5",
   "headerNotes": [
     "Wednesday after Church - CHRISTMAS PRACTICE",
     "Sunday 10:15AM - All, Check-In/Warm Up",
@@ -52,9 +52,9 @@
       "title": "HOLY FOREVER",
       "useImages": true,
       "imageFiles": [
-        "4-Holy-Forever-0",
-        "4-Holy-Forever-1",
-        "4-Holy-Forever-2"
+        "4-Holy-Forever-0.png",
+        "4-Holy-Forever-1.png",
+        "4-Holy-Forever-2.png"
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/Holy.Forever.mp3"},
