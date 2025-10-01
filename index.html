@@ -1214,40 +1214,27 @@
     }
 
     function updateImagePageControls() {
-        // Mobile inline controls
+        // Only use inline controls (at top with audio)
         const inlineControls = document.getElementById('imageControlsInline');
         const inlinePageNum = document.getElementById('imagePageNumInline');
         const inlinePageCount = document.getElementById('imagePageCountInline');
 
-        // Desktop separate controls
-        const desktopControls = document.getElementById('imageControls');
-        const desktopPageNum = document.getElementById('imagePageNum');
-        const desktopPageCount = document.getElementById('imagePageCount');
-
         // Update page numbers
         if (inlinePageNum) inlinePageNum.textContent = currentImageIndex + 1;
         if (inlinePageCount) inlinePageCount.textContent = currentImages.length;
-        if (desktopPageNum) desktopPageNum.textContent = currentImageIndex + 1;
-        if (desktopPageCount) desktopPageCount.textContent = currentImages.length;
 
         // Show/hide controls based on page count
         if (currentImages.length > 1) {
             if (inlineControls) inlineControls.style.display = 'flex';
-            if (desktopControls) desktopControls.style.display = 'block';
 
             // Update button states
             const prevBtnInline = document.getElementById('prevImageBtnInline');
             const nextBtnInline = document.getElementById('nextImageBtnInline');
-            const prevBtnDesktop = document.getElementById('prevImageBtn');
-            const nextBtnDesktop = document.getElementById('nextImageBtn');
 
             if (prevBtnInline) prevBtnInline.disabled = (currentImageIndex <= 0);
             if (nextBtnInline) nextBtnInline.disabled = (currentImageIndex >= currentImages.length - 1);
-            if (prevBtnDesktop) prevBtnDesktop.disabled = (currentImageIndex <= 0);
-            if (nextBtnDesktop) nextBtnDesktop.disabled = (currentImageIndex >= currentImages.length - 1);
         } else {
             if (inlineControls) inlineControls.style.display = 'none';
-            if (desktopControls) desktopControls.style.display = 'none';
         }
     }
 
