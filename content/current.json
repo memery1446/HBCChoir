@@ -58,6 +58,7 @@
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/Holy.Forever.mp3"},
+        {"name": "LOWER HARMONIES", "src": "audio/Holy.Forever.Lower.Harmonies.mp3"},
         {"name": "PIANO ONLY", "src": "audio/Holy.Forever.piano.mp3"}
       ]
     },
