@@ -7,81 +7,83 @@
     "ALL ARE WELCOME TO JOIN IN ANY PART OF THE ABOVE SCHEDULE"
   ],
   "order": [
-    "CALL TO WORSHIP - Worthy of Worship",
-    "House of the Lord",
-    "Joyful, Joyful We Adore Thee",
-    "Holy Forever",
-    "OFFERTORY: Mrs. Lynn Butler, For Those Tears I Died",
-    "CHOIR: Soon and Very Soon",
-    "INVITATION: Just as I Am"
+    "CALL TO WORSHIP - KIDS CHOIR - Lord I Lift Your Name On High",
+    "At the Cross",
+    "Jesus Is My Healer",
+    "This Is Amazing Grace",
+    "OFFERTORY: Let It Be Said of Us",
+    "CHOIR: My Tribute",
+    "INVITATION: TBD"
   ],
   "songs": [
     {
-      "title": "WORTHY OF WORSHIP",
+      "title": "AT THE CROSS",
       "useImages": true,
-      "imageBaseName": "1-Worthy-of-Worship-0",
+      "imageBaseName": "1.At.the.Cross-0.png",
       "tracks": [
-        {"name": "MELODY", "src": "audio/Worthy.of.Worship.mp3"},
-        {"name": "PIANO ONLY", "src": "audio/Worthy.of.Worship.piano.mp3"}
+        {"name": "MELODY", "src": "audio/At.the.Cross.mp3"},
+        {"name": "PIANO ONLY", "src": "audio/At.the.Cross.piano.mp3"},
+        {"name": "ALTO", "src": "audio/At.the.Cross.alto.mp3"},
+        {"name": "TENOR", "src": "audio/At.the.Cross.tenor.mp3"},
+        {"name": "BASS", "src": "audio/At.the.Cross.bass.mp3"}
       ]
     },
     {
-      "title": "HOUSE OF THE LORD",
+      "title": "JESUS IS MY HEALER",
       "useImages": true,
       "imageFiles": [
-        "2-House-of-the-Lord-0.png",
-        "2-House-of-the-Lord-1.png",
-        "2-House-of-the-Lord-2.png"
+        "2.Jesus.Is.My.Healer-0.png",
+        "2.Jesus.Is.My.Healer-1.png",
+        "2.Jesus.Is.My.Healer-2.png",
+        "2.Jesus.Is.My.Healer-3.png"
+
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/House.of.the.Lord.mp3"},
-        {"name": "PIANO ONLY", "src": "audio/House.of.the.Lord.piano.mp3"}
+        {"name": "MELODY", "src": "audio/Jesus.Is.My.Healer.with.harm.mp3"},
+        {"name": "PIANO ONLY", "src": "audio/Jesus.Is.My.Healer.piano.mp3"}
       ]
     },
     {
-      "title": "JOYFUL, JOYFUL WE ADORE THEE",
+      "title": "THIS IS AMAZING GRACE",
       "useImages": true,
       "imageFiles": [
-        "3-Joyful-Joyful-0.png"
+        "3.This.Is.Amazing.Grace-0.png",
+        "3.This.Is.Amazing.Grace-1.png",
+        "3.This.Is.Amazing.Grace-2.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Joyful.Joyful.mp3"},
-        {"name": "PIANO ONLY", "src": "audio/Joyful.Joyful.piano.mp3"}
+        {"name": "MELODY", "src": "audio/This.Is.Amazing.Grace.new.mp3"},
+        {"name": "PIANO ONLY", "src": "audio/This.Is.Amazing.Grace.piano.mp3"}
       ]
     },
     {
-      "title": "HOLY FOREVER",
+      "title": "LET IT BE SAID OF US",
       "useImages": true,
       "imageFiles": [
-        "4-Holy-Forever-0.png",
-        "4-Holy-Forever-1.png",
-        "4-Holy-Forever-2.png"
+        "4.Let.It.Be.Said.of.Us-0.png",
+        "4.Let.It.Be.Said.of.Us-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Holy.Forever.mp3"},
-        {"name": "LOWER HARMONIES", "src": "audio/Holy.Forever.Lower.Harmonies.mp3"},
-        {"name": "PIANO ONLY", "src": "audio/Holy.Forever.piano.mp3"}
+        {"name": "MELODY", "src": "audio/Let.It.Be.Said.Of.Us.all.mp3"},
+        {"name": "PIANO ONLY", "src": "audio/Let.It.Be.Said.Piano.mp3"},
+        {"name": "ALTO", "src": "audio/Let.It.Be.Said.Alto.mp3"},
+        {"name": "TENOR", "src": "audio/Let.It.Be.Said.Tenor.mp3"},
+        {"name": "BASS", "src": "audio/Let.It.Be.Said.bass.mp3"}
       ]
     },
     {
-      "title": "SOON AND VERY SOON",
+      "title": "MY TRIBUTE",
       "useImages": true,
       "imageFiles": [
-        "5-Soon-and-Very-Soon-0.png",
-        "5-Soon-and-Very-Soon-1.png",
-        "5-Soon-and-Very-Soon-2.png",
-        "5-Soon-and-Very-Soon-3.png",
-        "5-Soon-and-Very-Soon-4.png",
-        "5-Soon-and-Very-Soon-5.png",
-        "5-Soon-and-Very-Soon-6.png",
-        "5-Soon-and-Very-Soon-7.png",
-        "5-Soon-and-Very-Soon-8.png",
-        "5-Soon-and-Very-Soon-9.png",
-        "5-Soon-and-Very-Soon-10.png"
+        "5.My.Tribute-0.png".
+        "5.My.Tribute-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Soon.and.Very.Soon.mp3"},
-        {"name": "PIANO ONLY", "src": "audio/Soon.and.Very.Soon.piano.mp3"}
+        {"name": "MELODY", "src": "audio/My.Tribute.all.mp3"},
+        {"name": "PIANO ONLY", "src": "audio/My.Tribute.piano.mp3"},
+        {"name": "ALTO", "src": "audio/My.Tribute.alto.mp3"},
+        {"name": "TENOR", "src": "audio/My.Tribute.tenor.mp3"},
+        {"name": "BASS", "src": "audio/My.Tribute.bass.mp3"}
       ]
     }
   ],
