@@ -75,7 +75,7 @@
       "title": "MY TRIBUTE",
       "useImages": true,
       "imageFiles": [
-        "5.My.Tribute-0.png".
+        "5.My.Tribute-0.png",
         "5.My.Tribute-1.png"
       ],
       "tracks": [
@@ -84,6 +84,14 @@
         {"name": "ALTO", "src": "audio/My.Tribute.alto.mp3"},
         {"name": "TENOR", "src": "audio/My.Tribute.tenor.mp3"},
         {"name": "BASS", "src": "audio/My.Tribute.bass.mp3"}
+      ]
+    },
+    {
+      "title": "GOOD OL' RHETT AND DUSTY",
+      "useImages": false,
+      "notes": "Just for fun - Listen only!",
+      "tracks": [
+        {"name": "LISTEN", "src": "audio/Good.Ol.Rhett.and.Dusty.mp3"}
       ]
     }
   ],
