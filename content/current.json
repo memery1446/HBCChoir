@@ -91,7 +91,7 @@
       "useImages": false,
       "notes": "Just for fun - Listen only!",
       "tracks": [
-        {"name": "LISTEN", "src": "audio/Good.Ol.Rhett.and.Dusty.mp3"}
+        {"name": "LISTEN", "src": "audio/Good.ol.Rhett.and.Dusty.mp3"}
       ]
     }
   ],
