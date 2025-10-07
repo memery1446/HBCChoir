@@ -852,10 +852,44 @@
         const title = document.createElement('div');
         title.className = 'song-title';
         title.textContent = song.title;
+
+        // Add notes if present
+        if (song.notes) {
+            const notes = document.createElement('div');
+            notes.style.fontStyle = 'italic';
+            notes.style.color = '#666';
+            notes.style.marginTop = '5px';
+            notes.style.fontSize = '0.9rem';
+            notes.textContent = song.notes;
+            title.appendChild(notes);
+        }
+
         const links = document.createElement('div');
         links.className = 'song-links';
 
-        if (song.useImages && (song.imageFiles || song.imageBaseName)) {
+        // Check if this is a listen-only song (has tracks but no sheet music)
+        const isListenOnly = !song.useImages && !song.pdf && song.tracks && song.tracks.length > 0;
+
+        if (isListenOnly) {
+            // Create inline audio player for listen-only songs
+            const audioContainer = document.createElement('div');
+            audioContainer.style.width = '100%';
+            audioContainer.style.marginTop = '10px';
+
+            const audio = document.createElement('audio');
+            audio.controls = true;
+            audio.preload = 'metadata';
+            audio.style.width = '100%';
+            audio.style.maxWidth = '500px';
+
+            const source = document.createElement('source');
+            source.src = song.tracks[0].src;
+            source.type = 'audio/mpeg';
+
+            audio.appendChild(source);
+            audioContainer.appendChild(audio);
+            links.appendChild(audioContainer);
+        } else if (song.useImages && (song.imageFiles || song.imageBaseName)) {
             const button = document.createElement('button');
             button.className = 'link-btn sheet-music';
             let imageFiles;
