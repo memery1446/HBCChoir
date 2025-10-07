@@ -19,7 +19,7 @@
     {
       "title": "AT THE CROSS",
       "useImages": true,
-      "imageBaseName": "1.At.the.Cross-0.png",
+      "imageBaseName": "1.At.the.Cross-0",
       "tracks": [
         {"name": "MELODY", "src": "audio/At.the.Cross.mp3"},
         {"name": "PIANO ONLY", "src": "audio/At.the.Cross.piano.mp3"},
