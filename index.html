@@ -155,6 +155,125 @@
             box-shadow: 0 5px 15px rgba(39, 174, 96, 0.4);
         }
 
+        /* Custom Audio Player Styles */
+        .custom-audio-player {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 15px;
+            width: 100%;
+            max-width: 500px;
+            border: 1px solid #dee2e6;
+        }
+
+        .audio-controls-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .play-pause-btn {
+            background: #3498db;
+            color: white;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            transition: all 0.2s ease;
+        }
+
+        .play-pause-btn:hover {
+            background: #2980b9;
+            transform: scale(1.05);
+        }
+
+        .play-pause-btn:active {
+            transform: scale(0.95);
+        }
+
+        .progress-container {
+            flex: 1;
+            height: 6px;
+            background: #dee2e6;
+            border-radius: 3px;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: #3498db;
+            width: 0%;
+            border-radius: 3px;
+            transition: width 0.1s linear;
+        }
+
+        .time-display {
+            font-size: 0.85rem;
+            color: #6c757d;
+            min-width: 90px;
+            text-align: right;
+            flex-shrink: 0;
+        }
+
+        .volume-container {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .volume-btn {
+            background: none;
+            border: none;
+            color: #6c757d;
+            cursor: pointer;
+            font-size: 18px;
+            padding: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .volume-btn:hover {
+            color: #3498db;
+        }
+
+        .volume-slider {
+            width: 80px;
+            height: 4px;
+            -webkit-appearance: none;
+            appearance: none;
+            background: #dee2e6;
+            border-radius: 2px;
+            outline: none;
+        }
+
+        .volume-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 14px;
+            height: 14px;
+            background: #3498db;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .volume-slider::-moz-range-thumb {
+            width: 14px;
+            height: 14px;
+            background: #3498db;
+            border-radius: 50%;
+            cursor: pointer;
+            border: none;
+        }
+
         .playlist-section {
             background: #e8f5e8;
             padding: 25px;
@@ -198,6 +317,9 @@
             padding: 20px;
             border-radius: 10px;
             margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         .current-song {
@@ -205,12 +327,6 @@
             color: #2c3e50;
             margin-bottom: 15px;
             font-size: 1.1rem;
-        }
-
-        #playlistPlayer {
-            width: 100%;
-            max-width: 500px;
-            margin-bottom: 15px;
         }
 
         .playlist-btn {
@@ -221,6 +337,7 @@
             border-radius: 6px;
             cursor: pointer;
             font-size: 1rem;
+            margin-top: 10px;
         }
 
         .playlist-btn:hover {
@@ -386,7 +503,7 @@
 
         .audio-controls {
             background: #f8f9fa;
-            padding: 8px;
+            padding: 12px;
             border-radius: 8px;
             margin-bottom: 8px;
             text-align: center;
@@ -394,22 +511,15 @@
 
         .audio-controls h3 {
             color: #2c3e50;
-            margin-bottom: 6px;
+            margin-bottom: 10px;
             font-size: 1rem;
-        }
-
-        #modalAudioPlayer, #imageModalAudioPlayer {
-            width: 100%;
-            max-width: 500px;
-            border-radius: 8px;
-            height: 36px;
         }
 
         .voice-selector {
             display: flex;
             gap: 6px;
             justify-content: center;
-            margin-bottom: 6px;
+            margin-bottom: 10px;
             flex-wrap: wrap;
         }
 
@@ -587,6 +697,19 @@
             .email-link { display: block; margin-top: 10px; text-align: center; }
             .current-song { font-size: 1rem; }
 
+            .custom-audio-player {
+                max-width: 100%;
+            }
+
+            .volume-container {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .volume-slider {
+                width: 100%;
+            }
+
             .image-modal-content {
                 width: 100vw !important;
                 height: 100vh !important;
@@ -642,11 +765,6 @@
                 font-size: 0.75rem !important;
             }
 
-            #imageModalAudioPlayer {
-                height: 28px !important;
-                max-width: 100% !important;
-            }
-
             #sheetMusicImage {
                 width: 100% !important;
                 height: auto !important;
@@ -690,9 +808,7 @@
                 <p class="instructions">Push this button to play through all the songs in order.</p>
                 <div class="playlist-controls" id="playlistControls" style="display: none;">
                     <div class="current-song">Now Playing: <span id="currentSongTitle">Loading...</span></div>
-                    <audio id="playlistPlayer" controls>
-                        <source id="playlistSource" src="" type="audio/mpeg">
-                    </audio>
+                    <div id="playlistPlayerContainer"></div>
                     <button class="playlist-btn" onclick="stopPlaylist()">Stop Playlist</button>
                 </div>
             </div>
@@ -719,9 +835,7 @@
         <div class="audio-controls">
             <h3>🎵 Sing-Along</h3>
             <div id="voiceSelector"></div>
-            <audio id="modalAudioPlayer" controls preload="metadata">
-                <source id="modalAudioSource" src="" type="audio/mpeg">
-            </audio>
+            <div id="modalAudioContainer"></div>
         </div>
 
         <div class="pdf-viewer">
@@ -746,9 +860,7 @@
         <div class="audio-controls">
             <h3>🎵 Sing-Along</h3>
             <div id="imageVoiceSelector"></div>
-            <audio id="imageModalAudioPlayer" controls preload="metadata">
-                <source id="imageModalAudioSource" src="" type="audio/mpeg">
-            </audio>
+            <div id="imageModalAudioContainer"></div>
 
             <div class="page-controls-inline" id="imageControlsInline" style="display: none;">
                 <button class="control-btn" id="prevImageBtnInline" onclick="prevImagePage()">◀ Prev</button>
@@ -780,6 +892,149 @@
     let currentImages = [], currentImageIndex = 0;
     let currentContent = null, playlistSongs = [];
     let currentPlaylistIndex = 0, isPlaylistActive = false;
+
+    // Custom Audio Player Class
+    class CustomAudioPlayer {
+        constructor(containerId, audioSrc = '') {
+            this.container = document.getElementById(containerId);
+            this.audioElement = new Audio(audioSrc);
+            this.isPlaying = false;
+            this.isMuted = false;
+            this.createPlayer();
+            this.attachEvents();
+        }
+
+        createPlayer() {
+            this.container.innerHTML = `
+                <div class="custom-audio-player">
+                    <div class="audio-controls-row">
+                        <button class="play-pause-btn" data-action="play">▶</button>
+                        <div class="progress-container">
+                            <div class="progress-bar"></div>
+                        </div>
+                        <div class="time-display">
+                            <span class="current-time">0:00</span> / <span class="duration">0:00</span>
+                        </div>
+                    </div>
+                    <div class="audio-controls-row volume-container">
+                        <button class="volume-btn" data-action="mute">🔊</button>
+                        <input type="range" class="volume-slider" min="0" max="100" value="100">
+                    </div>
+                </div>
+            `;
+
+            this.playPauseBtn = this.container.querySelector('.play-pause-btn');
+            this.progressContainer = this.container.querySelector('.progress-container');
+            this.progressBar = this.container.querySelector('.progress-bar');
+            this.currentTimeDisplay = this.container.querySelector('.current-time');
+            this.durationDisplay = this.container.querySelector('.duration');
+            this.volumeBtn = this.container.querySelector('.volume-btn');
+            this.volumeSlider = this.container.querySelector('.volume-slider');
+        }
+
+        attachEvents() {
+            // Play/Pause
+            this.playPauseBtn.addEventListener('click', () => this.togglePlay());
+
+            // Progress bar
+            this.progressContainer.addEventListener('click', (e) => this.seek(e));
+
+            // Volume
+            this.volumeBtn.addEventListener('click', () => this.toggleMute());
+            this.volumeSlider.addEventListener('input', (e) => this.setVolume(e.target.value));
+
+            // Audio events
+            this.audioElement.addEventListener('timeupdate', () => this.updateProgress());
+            this.audioElement.addEventListener('loadedmetadata', () => this.updateDuration());
+            this.audioElement.addEventListener('ended', () => this.onEnded());
+            this.audioElement.addEventListener('play', () => this.onPlay());
+            this.audioElement.addEventListener('pause', () => this.onPause());
+        }
+
+        togglePlay() {
+            if (this.isPlaying) {
+                this.audioElement.pause();
+            } else {
+                this.audioElement.play().catch(e => console.log('Playback prevented:', e));
+            }
+        }
+
+        onPlay() {
+            this.isPlaying = true;
+            this.playPauseBtn.textContent = '⏸';
+        }
+
+        onPause() {
+            this.isPlaying = false;
+            this.playPauseBtn.textContent = '▶';
+        }
+
+        updateProgress() {
+            const percent = (this.audioElement.currentTime / this.audioElement.duration) * 100;
+            this.progressBar.style.width = percent + '%';
+            this.currentTimeDisplay.textContent = this.formatTime(this.audioElement.currentTime);
+        }
+
+        updateDuration() {
+            this.durationDisplay.textContent = this.formatTime(this.audioElement.duration);
+        }
+
+        seek(e) {
+            const rect = this.progressContainer.getBoundingClientRect();
+            const percent = (e.clientX - rect.left) / rect.width;
+            this.audioElement.currentTime = percent * this.audioElement.duration;
+        }
+
+        toggleMute() {
+            this.isMuted = !this.isMuted;
+            this.audioElement.muted = this.isMuted;
+            this.volumeBtn.textContent = this.isMuted ? '🔇' : '🔊';
+        }
+
+        setVolume(value) {
+            this.audioElement.volume = value / 100;
+            this.isMuted = value == 0;
+            this.volumeBtn.textContent = this.isMuted ? '🔇' : '🔊';
+        }
+
+        formatTime(seconds) {
+            if (isNaN(seconds)) return '0:00';
+            const mins = Math.floor(seconds / 60);
+            const secs = Math.floor(seconds % 60);
+            return `${mins}:${secs.toString().padStart(2, '0')}`;
+        }
+
+        setSrc(src) {
+            this.audioElement.src = src;
+            this.audioElement.load();
+            this.progressBar.style.width = '0%';
+            this.currentTimeDisplay.textContent = '0:00';
+        }
+
+        onEnded() {
+            this.isPlaying = false;
+            this.playPauseBtn.textContent = '▶';
+            this.progressBar.style.width = '0%';
+            this.audioElement.currentTime = 0;
+        }
+
+        pause() {
+            this.audioElement.pause();
+        }
+
+        play() {
+            return this.audioElement.play();
+        }
+
+        get ended() {
+            return this.audioElement.ended;
+        }
+    }
+
+    // Global audio players
+    let modalAudioPlayer = null;
+    let imageModalAudioPlayer = null;
+    let playlistAudioPlayer = null;
 
     async function loadContent() {
         try {
@@ -853,7 +1108,6 @@
         title.className = 'song-title';
         title.textContent = song.title;
 
-        // Add notes if present
         if (song.notes) {
             const notes = document.createElement('div');
             notes.style.fontStyle = 'italic';
@@ -867,28 +1121,19 @@
         const links = document.createElement('div');
         links.className = 'song-links';
 
-        // Check if this is a listen-only song (has tracks but no sheet music)
         const isListenOnly = !song.useImages && !song.pdf && song.tracks && song.tracks.length > 0;
 
         if (isListenOnly) {
-            // Create inline audio player for listen-only songs
             const audioContainer = document.createElement('div');
             audioContainer.style.width = '100%';
             audioContainer.style.marginTop = '10px';
-
-            const audio = document.createElement('audio');
-            audio.controls = true;
-            audio.preload = 'metadata';
-            audio.style.width = '100%';
-            audio.style.maxWidth = '500px';
-
-            const source = document.createElement('source');
-            source.src = song.tracks[0].src;
-            source.type = 'audio/mpeg';
-
-            audio.appendChild(source);
-            audioContainer.appendChild(audio);
+            const playerId = 'inline-player-' + Math.random().toString(36).substr(2, 9);
+            audioContainer.innerHTML = `<div id="${playerId}"></div>`;
             links.appendChild(audioContainer);
+
+            setTimeout(() => {
+                new CustomAudioPlayer(playerId, song.tracks[0].src);
+            }, 0);
         } else if (song.useImages && (song.imageFiles || song.imageBaseName)) {
             const button = document.createElement('button');
             button.className = 'link-btn sheet-music';
@@ -980,6 +1225,10 @@
     }
 
     function setupImageAudio(tracks) {
+        if (!imageModalAudioPlayer) {
+            imageModalAudioPlayer = new CustomAudioPlayer('imageModalAudioContainer');
+        }
+
         if (tracks && tracks.length > 1) {
             let voiceSelectorHTML = '<div class="voice-selector">';
             tracks.forEach((track, index) => {
@@ -988,15 +1237,14 @@
             });
             voiceSelectorHTML += '</div>';
             document.getElementById('imageVoiceSelector').innerHTML = voiceSelectorHTML;
-            document.getElementById('imageModalAudioSource').src = tracks[0].src;
+            imageModalAudioPlayer.setSrc(tracks[0].src);
         } else if (tracks && tracks.length === 1) {
             document.getElementById('imageVoiceSelector').innerHTML = '';
-            document.getElementById('imageModalAudioSource').src = tracks[0].src;
+            imageModalAudioPlayer.setSrc(tracks[0].src);
         } else {
             document.getElementById('imageVoiceSelector').innerHTML = '';
-            document.getElementById('imageModalAudioSource').src = '';
+            imageModalAudioPlayer.setSrc('');
         }
-        document.getElementById('imageModalAudioPlayer').load();
     }
 
     function showCurrentImage() {
@@ -1050,8 +1298,7 @@
     }
 
     function switchImageVoice(audioPath, buttonIndex) {
-        document.getElementById('imageModalAudioSource').src = audioPath;
-        document.getElementById('imageModalAudioPlayer').load();
+        imageModalAudioPlayer.setSrc(audioPath);
         const buttons = document.querySelectorAll('#imageModal .voice-btn');
         buttons.forEach((btn, index) => {
             btn.classList.toggle('active', index === buttonIndex);
@@ -1061,9 +1308,9 @@
     function closeImageModal() {
         document.getElementById('imageModal').style.display = 'none';
         document.body.style.overflow = 'auto';
-        const audio = document.getElementById('imageModalAudioPlayer');
-        audio.pause();
-        audio.currentTime = 0;
+        if (imageModalAudioPlayer) {
+            imageModalAudioPlayer.pause();
+        }
         const img = document.getElementById('sheetMusicImage');
         img.src = '';
         img.classList.remove('loaded');
@@ -1076,30 +1323,29 @@
         }
         isPlaylistActive = true;
         currentPlaylistIndex = 0;
-        document.getElementById('playlistControls').style.display = 'block';
-        const player = document.getElementById('playlistPlayer');
-        const source = document.getElementById('playlistSource');
+        document.getElementById('playlistControls').style.display = 'flex';
+
+        if (!playlistAudioPlayer) {
+            playlistAudioPlayer = new CustomAudioPlayer('playlistPlayerContainer');
+            playlistAudioPlayer.audioElement.addEventListener('ended', playNextSong);
+        }
+
         const titleSpan = document.getElementById('currentSongTitle');
-        source.src = playlistSongs[currentPlaylistIndex].src;
+        playlistAudioPlayer.setSrc(playlistSongs[currentPlaylistIndex].src);
         titleSpan.textContent = playlistSongs[currentPlaylistIndex].title;
-        player.load();
-        player.play().catch(e => {
+        playlistAudioPlayer.play().catch(e => {
             console.log('Autoplay prevented. Please click play button.');
         });
-        player.addEventListener('ended', playNextSong);
     }
 
     function playNextSong() {
         if (!isPlaylistActive) return;
         currentPlaylistIndex++;
         if (currentPlaylistIndex < playlistSongs.length) {
-            const player = document.getElementById('playlistPlayer');
-            const source = document.getElementById('playlistSource');
             const titleSpan = document.getElementById('currentSongTitle');
-            source.src = playlistSongs[currentPlaylistIndex].src;
+            playlistAudioPlayer.setSrc(playlistSongs[currentPlaylistIndex].src);
             titleSpan.textContent = playlistSongs[currentPlaylistIndex].title;
-            player.load();
-            player.play().catch(e => {
+            playlistAudioPlayer.play().catch(e => {
                 console.log('Autoplay prevented for next song.');
             });
         } else {
@@ -1110,10 +1356,9 @@
     function stopPlaylist() {
         isPlaylistActive = false;
         currentPlaylistIndex = 0;
-        const player = document.getElementById('playlistPlayer');
-        player.pause();
-        player.currentTime = 0;
-        player.removeEventListener('ended', playNextSong);
+        if (playlistAudioPlayer) {
+            playlistAudioPlayer.pause();
+        }
         document.getElementById('playlistControls').style.display = 'none';
     }
 
@@ -1131,15 +1376,21 @@
     }
 
     function openSinglePDF(pdfPath, audioPath, title) {
+        if (!modalAudioPlayer) {
+            modalAudioPlayer = new CustomAudioPlayer('modalAudioContainer');
+        }
         document.getElementById('voiceSelector').innerHTML = '';
-        document.getElementById('modalAudioSource').src = audioPath;
-        document.getElementById('modalAudioPlayer').load();
+        modalAudioPlayer.setSrc(audioPath);
         loadPDF(pdfPath);
         document.getElementById('pdfModal').style.display = 'block';
         document.body.style.overflow = 'hidden';
     }
 
     function openMultiTrackPDF(pdfPath, title, tracks) {
+        if (!modalAudioPlayer) {
+            modalAudioPlayer = new CustomAudioPlayer('modalAudioContainer');
+        }
+
         let voiceSelectorHTML = '<div class="voice-selector">';
         tracks.forEach((track, index) => {
             const activeClass = index === 0 ? 'active' : '';
@@ -1147,8 +1398,7 @@
         });
         voiceSelectorHTML += '</div>';
         document.getElementById('voiceSelector').innerHTML = voiceSelectorHTML;
-        document.getElementById('modalAudioSource').src = tracks[0].src;
-        document.getElementById('modalAudioPlayer').load();
+        modalAudioPlayer.setSrc(tracks[0].src);
         loadPDF(pdfPath);
         document.getElementById('pdfModal').style.display = 'block';
         document.body.style.overflow = 'hidden';
@@ -1240,8 +1490,7 @@
     }
 
     function switchVoice(audioPath, buttonIndex) {
-        document.getElementById('modalAudioSource').src = audioPath;
-        document.getElementById('modalAudioPlayer').load();
+        modalAudioPlayer.setSrc(audioPath);
         const buttons = document.querySelectorAll('.voice-btn');
         buttons.forEach((btn, index) => {
             btn.classList.toggle('active', index === buttonIndex);
@@ -1251,9 +1500,9 @@
     function closeModal() {
         document.getElementById('pdfModal').style.display = 'none';
         document.body.style.overflow = 'auto';
-        const audio = document.getElementById('modalAudioPlayer');
-        audio.pause();
-        audio.currentTime = 0;
+        if (modalAudioPlayer) {
+            modalAudioPlayer.pause();
+        }
         if (isIOSSafari) {
             pdfDoc = null;
             currentPdfUrl = null;
