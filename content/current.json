@@ -86,14 +86,14 @@
         {"name": "BASS", "src": "audio/My.Tribute.bass.mp3"}
       ]
     },
-    {
-      "title": "GOOD OL' RHETT AND DUSTY",
-      "useImages": false,
-      "notes": "Just for fun - Listen only!",
-      "tracks": [
-        {"name": "LISTEN", "src": "audio/Good.ol.Rhett.and.Dusty.mp3"}
-      ]
-    }
+//    {
+//      "title": "GOOD OL' RHETT AND DUSTY",
+//      "useImages": false,
+//      "notes": "Just for fun - Listen only!",
+//      "tracks": [
+//        {"name": "LISTEN", "src": "audio/Good.ol.Rhett.and.Dusty.mp3"}
+//      ]
+//    }
   ],
   "allSongsPdf": null
 }
