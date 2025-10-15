@@ -24,7 +24,7 @@
         {"name": "MELODY", "src": "audio/We.Have.Come.Final.all.mp3"},
         {"name": "PIANO ONLY", "src": "audio/We.Have.Come.piano2.mp3"},
         {"name": "ALTO", "src": "audio/We.Have.Come.Into.His.House.alto2.mp3"},
-        {"name": "TENOR", "src": "audio/We.Have.Come.Into.His.House.tenor.tenor.mp3"},
+        {"name": "TENOR", "src": "audio/We.Have.Come.Into.His.House.tenor.mp3"},
         {"name": "BASS", "src": "audio/We.Have.Come.Into.His.House.bass.mp3"}
       ]
     },
