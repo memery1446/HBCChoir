@@ -97,7 +97,7 @@
         "7.Sacred.Silence-0.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Sacred.Silence.all.mp3"},
+        {"name": "MELODY", "src": "audio/Sacred.Silence.fix.all.mp3"},
         {"name": "PIANO ONLY", "src": "audio/Sacred.Silence.piano.mp3"}
       ]
     }
