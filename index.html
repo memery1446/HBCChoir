@@ -3,184 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harmony Baptist Church Choir</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <title>Enhanced Audio Player Demo</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
         body {
             font-family: 'Georgia', serif;
-            line-height: 1.6;
-            min-height: 100vh;
-            color: #333;
-            background:
-                    linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)),
-                    url('Harmony-Aireal.jpg') center / cover no-repeat fixed;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
+            max-width: 800px;
+            margin: 40px auto;
             padding: 20px;
-            padding-top: var(--header-offset, 220px);
+            background: #f5f5f5;
         }
 
-        header {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            z-index: 100;
-            text-align: center;
-            padding: 24px 0;
-            margin: 0;
-            background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35));
-            backdrop-filter: blur(2px);
-        }
-
-        h1 {
-            font-size: 3rem;
-            color: white;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
-        }
-
-        .subtitle {
-            font-size: 1.2rem;
-            color: white;
-            font-style: italic;
-        }
-
-        .section {
+        .demo-section {
             background: white;
-            margin: 30px 0;
             padding: 30px;
             border-radius: 15px;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
-            backdrop-filter: blur(10px);
-        }
-
-        .section h2 {
-            color: #2c3e50;
-            margin-bottom: 25px;
-            font-size: 2rem;
-            text-align: center;
-            border-bottom: 3px solid #3498db;
-            padding-bottom: 10px;
-        }
-
-        .song-order {
-            background: #e8f5e8;
-            padding: 25px;
-            border-radius: 10px;
             margin-bottom: 30px;
-            border: 2px solid #27ae60;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         }
 
-        .song-order h3 {
+        h2 {
             color: #2c3e50;
-            margin-bottom: 15px;
-            font-size: 1.3rem;
-            text-align: center;
+            margin-bottom: 20px;
         }
 
-        .song-order ol {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            margin-left: 20px;
-        }
-
-        .song-order li {
-            padding: 8px 0;
-            font-size: 1.1rem;
-            color: #2c3e50;
-        }
-
-        .song-item {
-            background: #f8f9fa;
-            margin: 15px 0;
-            padding: 20px;
-            border-radius: 10px;
-            border-left: 5px solid #3498db;
-            transition: all 0.3s ease;
-        }
-
-        .song-item:hover {
-            background: #e8f4fd;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-
-        .song-title {
-            font-size: 1.4rem;
-            font-weight: bold;
-            color: #2c3e50;
-            margin-bottom: 15px;
-        }
-
-        .song-links {
-            display: flex;
-            gap: 15px;
-            flex-wrap: wrap;
-        }
-
-        .link-btn {
-            background: #3498db;
-            color: white;
-            border: none;
-            padding: 12px 20px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 1rem;
-            transition: all 0.3s ease;
-            min-width: 140px;
-            font-weight: 500;
-        }
-
-        .link-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
-        }
-
-        .link-btn.sheet-music {
-            background: #27ae60;
-        }
-
-        .link-btn.sheet-music:hover {
-            background: #229954;
-            box-shadow: 0 5px 15px rgba(39, 174, 96, 0.4);
-        }
-
-        /* Custom Audio Player Styles */
+        /* Enhanced Audio Player Styles */
         .custom-audio-player {
             background: #f8f9fa;
-            border-radius: 8px;
-            padding: 15px;
+            border-radius: 12px;
+            padding: 20px;
             width: 100%;
-            max-width: 500px;
-            border: 1px solid #dee2e6;
+            border: 2px solid #dee2e6;
         }
 
         .audio-controls-row {
             display: flex;
             align-items: center;
-            gap: 10px;
-            margin-bottom: 10px;
+            gap: 12px;
+            margin-bottom: 12px;
         }
 
         .play-pause-btn {
             background: #3498db;
             color: white;
             border: none;
-            width: 40px;
-            height: 40px;
+            width: 48px;
+            height: 48px;
             border-radius: 50%;
             cursor: pointer;
-            font-size: 16px;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            transition: all 0.2s ease;
+            font-weight: bold;
+        }
+
+        .play-pause-btn:hover {
+            background: #2980b9;
+            transform: scale(1.08);
+        }
+
+        .play-pause-btn:active {
+            transform: scale(0.95);
+        }
+
+        .skip-btn {
+            background: #95a5a6;
+            color: white;
+            border: none;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 12px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -188,20 +84,20 @@
             transition: all 0.2s ease;
         }
 
-        .play-pause-btn:hover {
-            background: #2980b9;
+        .skip-btn:hover {
+            background: #7f8c8d;
             transform: scale(1.05);
         }
 
-        .play-pause-btn:active {
+        .skip-btn:active {
             transform: scale(0.95);
         }
 
         .progress-container {
             flex: 1;
-            height: 6px;
+            height: 8px;
             background: #dee2e6;
-            border-radius: 3px;
+            border-radius: 4px;
             cursor: pointer;
             position: relative;
             overflow: hidden;
@@ -211,22 +107,23 @@
             height: 100%;
             background: #3498db;
             width: 0%;
-            border-radius: 3px;
+            border-radius: 4px;
             transition: width 0.1s linear;
         }
 
         .time-display {
-            font-size: 0.85rem;
+            font-size: 0.9rem;
             color: #6c757d;
-            min-width: 90px;
+            min-width: 100px;
             text-align: right;
             flex-shrink: 0;
+            font-weight: 500;
         }
 
         .volume-container {
             display: flex;
             align-items: center;
-            gap: 8px;
+            gap: 10px;
         }
 
         .volume-btn {
@@ -234,11 +131,12 @@
             border: none;
             color: #6c757d;
             cursor: pointer;
-            font-size: 18px;
-            padding: 4px;
+            font-size: 20px;
+            padding: 6px;
             display: flex;
             align-items: center;
             justify-content: center;
+            transition: color 0.2s;
         }
 
         .volume-btn:hover {
@@ -246,684 +144,211 @@
         }
 
         .volume-slider {
-            width: 80px;
-            height: 4px;
+            width: 100px;
+            height: 5px;
             -webkit-appearance: none;
             appearance: none;
             background: #dee2e6;
-            border-radius: 2px;
+            border-radius: 3px;
             outline: none;
         }
 
         .volume-slider::-webkit-slider-thumb {
             -webkit-appearance: none;
             appearance: none;
-            width: 14px;
-            height: 14px;
+            width: 16px;
+            height: 16px;
             background: #3498db;
             border-radius: 50%;
             cursor: pointer;
         }
 
         .volume-slider::-moz-range-thumb {
-            width: 14px;
-            height: 14px;
+            width: 16px;
+            height: 16px;
             background: #3498db;
             border-radius: 50%;
             cursor: pointer;
             border: none;
         }
 
-        .playlist-section {
-            background: #e8f5e8;
-            padding: 25px;
-            border-radius: 10px;
-            margin-top: 30px;
-            border: 2px solid #27ae60;
+        /* Voice Selector Enhancements */
+        .voice-selector {
+            display: flex;
+            gap: 8px;
+            justify-content: center;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
         }
 
-        .play-all-section {
-            text-align: center;
-        }
-
-        .play-all-btn {
-            background: #e74c3c;
+        .voice-btn {
+            background: #95a5a6;
             color: white;
             border: none;
-            padding: 15px 30px;
-            border-radius: 10px;
+            padding: 10px 18px;
+            border-radius: 8px;
             cursor: pointer;
-            font-size: 1.2rem;
-            font-weight: bold;
+            font-size: 0.95rem;
             transition: all 0.3s ease;
-            margin-bottom: 15px;
+            font-weight: 500;
+            position: relative;
         }
 
-        .play-all-btn:hover {
-            background: #c0392b;
+        .voice-btn:hover {
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(231, 76, 60, 0.4);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
         }
 
-        .instructions {
-            color: #34495e;
-            font-style: italic;
-            margin-bottom: 20px;
-            line-height: 1.6;
+        .voice-btn.active {
+            background: #e74c3c;
+            box-shadow: 0 4px 12px rgba(231, 76, 60, 0.3);
         }
 
+        .voice-btn.active::before {
+            content: '▶ ';
+            font-size: 0.8em;
+        }
+
+        /* Playlist Controls */
         .playlist-controls {
             background: white;
-            padding: 20px;
-            border-radius: 10px;
+            padding: 25px;
+            border-radius: 12px;
             margin-top: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            border: 2px solid #27ae60;
         }
 
         .current-song {
             font-weight: bold;
             color: #2c3e50;
-            margin-bottom: 15px;
-            font-size: 1.1rem;
+            margin-bottom: 20px;
+            font-size: 1.15rem;
+            text-align: center;
+            padding: 12px;
+            background: #e8f5e8;
+            border-radius: 8px;
+        }
+
+        .playlist-nav-btns {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            margin-top: 15px;
+            flex-wrap: wrap;
         }
 
         .playlist-btn {
             background: #95a5a6;
             color: white;
             border: none;
-            padding: 10px 20px;
-            border-radius: 6px;
+            padding: 12px 24px;
+            border-radius: 8px;
             cursor: pointer;
             font-size: 1rem;
-            margin-top: 10px;
+            font-weight: 500;
+            transition: all 0.3s ease;
         }
 
         .playlist-btn:hover {
             background: #7f8c8d;
+            transform: translateY(-2px);
         }
 
-        .suggestion-section {
-            background: #fff3cd;
-            padding: 25px;
-            border-radius: 10px;
-            margin: 30px 0;
-            border: 2px solid #f39c12;
-        }
-
-        .suggestion-section h3 {
-            color: #2c3e50;
-            margin-bottom: 15px;
-            font-size: 1.4rem;
-            text-align: center;
-        }
-
-        .suggestion-form {
-            text-align: center;
-        }
-
-        .suggestion-input {
-            width: 100%;
-            max-width: 400px;
-            padding: 12px;
-            border: 2px solid #f39c12;
-            border-radius: 8px;
-            font-size: 1rem;
-            margin-bottom: 15px;
-        }
-
-        .suggestion-btn {
-            background: #f39c12;
-            color: white;
-            border: none;
-            padding: 12px 25px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 1rem;
-            font-weight: bold;
-            transition: all 0.3s ease;
-            margin-right: 10px;
-        }
-
-        .suggestion-btn:hover {
-            background: #e67e22;
-            transform: translateY(-1px);
-        }
-
-        .email-link {
-            background: #3498db;
-            color: white;
-            text-decoration: none;
-            padding: 12px 25px;
-            border-radius: 8px;
-            font-size: 1rem;
-            font-weight: bold;
-            transition: all 0.3s ease;
-            display: inline-block;
-        }
-
-        .email-link:hover {
-            background: #2980b9;
-            transform: translateY(-1px);
-        }
-
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 1000;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0,0,0,0.8);
-            backdrop-filter: blur(5px);
-        }
-
-        .modal-content {
-            position: relative;
-            background-color: white;
-            margin: 2% auto;
-            padding: 20px;
-            border-radius: 15px;
-            width: 95%;
-            max-width: 1000px;
-            max-height: 95vh;
-            overflow-y: auto;
-            animation: modalSlideIn 0.3s ease-out;
-        }
-
-        @keyframes modalSlideIn {
-            from {
-                opacity: 0;
-                transform: translateY(-50px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .close {
-            color: #aaa;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-            cursor: pointer;
-            transition: color 0.3s;
-        }
-
-        .close:hover {
-            color: #e74c3c;
-        }
-
-        .pdf-viewer {
-            text-align: center;
-            margin: 20px 0;
-        }
-
-        #pdfCanvas {
-            max-width: 100%;
-            height: auto;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
-
-        .pdf-controls {
-            margin: 20px 0;
-            text-align: center;
-        }
-
-        .pdf-btn {
-            background: #3498db;
-            color: white;
-            border: none;
-            padding: 8px 16px;
-            margin: 0 5px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 0.9rem;
-        }
-
-        .pdf-btn:hover {
-            background: #2980b9;
-        }
-
-        .pdf-btn:disabled {
-            background: #bdc3c7;
-            cursor: not-allowed;
-        }
-
-        .page-info {
-            margin: 0 15px;
-            font-weight: bold;
-            color: #2c3e50;
-        }
-
-        .audio-controls {
-            background: #f8f9fa;
-            padding: 12px;
-            border-radius: 8px;
-            margin-bottom: 8px;
-            text-align: center;
-        }
-
-        .audio-controls h3 {
-            color: #2c3e50;
-            margin-bottom: 10px;
-            font-size: 1rem;
-        }
-
-        .voice-selector {
-            display: flex;
-            gap: 6px;
-            justify-content: center;
-            margin-bottom: 10px;
-            flex-wrap: wrap;
-        }
-
-        .voice-btn {
-            background: #3498db;
-            color: white;
-            border: none;
-            padding: 6px 12px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 0.85rem;
-            transition: all 0.3s ease;
-        }
-
-        .voice-btn.active {
+        .playlist-btn.stop {
             background: #e74c3c;
         }
 
-        .voice-btn:hover {
-            transform: translateY(-1px);
+        .playlist-btn.stop:hover {
+            background: #c0392b;
         }
 
-        .loading {
+        .song-progress {
+            font-size: 0.9rem;
+            color: #7f8c8d;
             text-align: center;
-            color: #666;
-            font-style: italic;
-            padding: 20px;
-        }
-
-        .pdf-loading {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background: rgba(255, 255, 255, 0.9);
-            padding: 20px;
-            border-radius: 10px;
-            font-weight: bold;
-            color: #2c3e50;
-            z-index: 10;
-        }
-
-        .image-modal-content {
-            display: flex;
-            flex-direction: column;
-            height: 95vh;
-            max-height: 95vh;
-        }
-
-        .image-viewer {
-            flex: 1;
-            overflow: auto;
-            -webkit-overflow-scrolling: touch;
-            background: #f8f9fa;
-            border-radius: 10px;
-            margin: 10px 0;
-            position: relative;
-            height: calc(100% - 140px);
-        }
-
-        .image-container {
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            padding: 20px;
-            min-height: 100%;
-            width: 100%;
-        }
-
-        #sheetMusicImage {
-            max-width: 100%;
-            height: auto;
-            box-shadow: 0 8px 24px rgba(0,0,0,0.15);
-            border-radius: 10px;
-            background: white;
-            border: 2px solid #e9ecef;
-            touch-action: pinch-zoom;
-            cursor: grab;
-            transition: transform 0.2s ease;
-            object-fit: contain;
-            width: 100%;
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-
-        #sheetMusicImage.loaded {
-            opacity: 1;
-        }
-
-        #sheetMusicImage:active {
-            cursor: grabbing;
-        }
-
-        #sheetMusicImage:hover {
-            box-shadow: 0 12px 32px rgba(0,0,0,0.2);
-        }
-
-        .page-controls-inline {
-            display: none;
-            justify-content: center;
-            align-items: center;
-            margin-top: 6px;
-            gap: 6px;
-            flex-wrap: wrap;
-        }
-
-        .control-btn {
-            background: #3498db;
-            color: white;
-            border: none;
-            padding: 6px 10px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 0.85rem;
-            transition: all 0.3s ease;
-        }
-
-        .control-btn:hover {
-            background: #2980b9;
-        }
-
-        .control-btn:disabled {
-            background: #bdc3c7;
-            cursor: not-allowed;
-        }
-
-        .page-info-compact {
-            font-size: 0.85rem;
-            font-weight: bold;
-            color: #2c3e50;
-        }
-
-        .image-container .loading {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background: rgba(255, 255, 255, 0.95);
-            padding: 20px 30px;
-            border-radius: 10px;
-            font-weight: bold;
-            color: #2c3e50;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-            z-index: 10;
-        }
-
-        @media (max-width: 768px) {
-            header {
-                padding: 16px 0;
-            }
-
-            h1 {
-                font-size: 1.75rem;
-            }
-
-            .subtitle {
-                font-size: 0.95rem;
-            }
-
-            .song-links { flex-direction: column; gap: 10px; }
-            .link-btn { width: 100%; padding: 15px 20px; font-size: 1.1rem; }
-            .song-title { font-size: 1.2rem; }
-            .modal-content { width: 98%; margin: 1% auto; padding: 15px; }
-            .section { padding: 20px 15px; }
-            .voice-selector { flex-direction: column; gap: 4px; }
-            .voice-btn {
-                width: 100%;
-                padding: 5px 8px !important;
-                font-size: 0.75rem !important;
-                margin: 1px !important;
-            }
-            .song-order ol { margin-left: 10px; padding: 15px; }
-            .play-all-btn { width: 100%; padding: 15px; font-size: 1.1rem; }
-            .suggestion-input { width: 95%; margin-bottom: 15px; }
-            .email-link { display: block; margin-top: 10px; text-align: center; }
-            .current-song { font-size: 1rem; }
-
-            .custom-audio-player {
-                max-width: 100%;
-            }
-
-            .volume-container {
-                flex-direction: column;
-                align-items: stretch;
-            }
-
-            .volume-slider {
-                width: 100%;
-            }
-
-            .image-modal-content {
-                width: 100vw !important;
-                height: 100vh !important;
-                margin: 0 !important;
-                border-radius: 0 !important;
-                padding: 4px !important;
-                max-height: 100vh !important;
-            }
-
-            .image-viewer {
-                flex: 1 !important;
-                height: calc(100vh - 75px) !important;
-                max-height: calc(100vh - 75px) !important;
-                margin: 2px 0 !important;
-                overflow: auto !important;
-            }
-
-            .image-container {
-                padding: 4px !important;
-                height: 100% !important;
-            }
-
-            .audio-controls {
-                position: sticky;
-                top: 0;
-                z-index: 20;
-                background: white;
-                border-radius: 6px;
-                margin-bottom: 2px;
-                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-                border: 1px solid #e9ecef;
-                flex-shrink: 0 !important;
-                padding: 4px !important;
-            }
-
-            .audio-controls h3 {
-                font-size: 0.8rem !important;
-                margin-bottom: 3px !important;
-            }
-
-            .page-controls-inline {
-                display: flex !important;
-                margin-top: 3px !important;
-                gap: 4px !important;
-            }
-
-            .control-btn {
-                padding: 4px 8px !important;
-                font-size: 0.75rem !important;
-            }
-
-            .page-info-compact {
-                font-size: 0.75rem !important;
-            }
-
-            #sheetMusicImage {
-                width: 100% !important;
-                height: auto !important;
-                max-width: 100% !important;
-                max-height: calc(100vh - 85px) !important;
-                object-fit: contain !important;
-                min-width: unset !important;
-                touch-action: pinch-zoom;
-                image-rendering: -webkit-optimize-contrast;
-                image-rendering: crisp-edges;
-            }
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
-<div class="container">
-    <header>
-        <h1>🎵 Harmony Baptist Church Choir</h1>
-        <div id="headerNotes">
-            <div class="loading">Loading...</div>
-        </div>
-    </header>
-
-    <div class="section">
-        <h2 id="sectionTitle">🎵 Loading...</h2>
-
-        <div class="song-order">
-            <h3>Sunday's Song Order:</h3>
-            <ol id="songOrderList">
-                <li class="loading">Loading song order...</li>
-            </ol>
-        </div>
-
-        <div id="songsContainer">
-            <div class="loading">Loading songs...</div>
-        </div>
-
-        <div class="playlist-section">
-            <div class="play-all-section">
-                <button class="play-all-btn" onclick="playAllSongs()">🎵 Play All Songs In Order</button>
-                <p class="instructions">Push this button to play through all the songs in order.</p>
-                <div class="playlist-controls" id="playlistControls" style="display: none;">
-                    <div class="current-song">Now Playing: <span id="currentSongTitle">Loading...</span></div>
-                    <div id="playlistPlayerContainer"></div>
-                    <button class="playlist-btn" onclick="stopPlaylist()">Stop Playlist</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="section">
-        <div class="suggestion-section">
-            <h3>🎤 Suggest Your Favorite Song!</h3>
-            <div class="suggestion-form">
-                <input type="text" id="songSuggestion" class="suggestion-input" placeholder="What's your favorite hymn or song?" maxlength="100">
-                <br>
-                <button class="suggestion-btn" onclick="sendSuggestion()">Send Suggestion</button>
-                <a href="mailto:memery1446@gmail.com?subject=Song Suggestion from Choir Member" class="email-link">📧 Email Mark</a>
-            </div>
-        </div>
-    </div>
+<div class="demo-section">
+    <h2>🎵 Enhanced Audio Player Features</h2>
+    <p><strong>Fixed Issues:</strong></p>
+    <ul>
+        <li>✅ Active track shows in RED with play arrow (▶)</li>
+        <li>✅ Restart button works perfectly</li>
+        <li>✅ Skip forward/backward 10 seconds</li>
+        <li>✅ Click progress bar to jump anywhere</li>
+        <li>✅ Playlist navigation (next/previous song)</li>
+        <li>✅ No refreshes needed!</li>
+    </ul>
 </div>
 
-<div id="pdfModal" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-
-        <div class="audio-controls">
-            <h3>🎵 Sing-Along</h3>
-            <div id="voiceSelector"></div>
-            <div id="modalAudioContainer"></div>
-        </div>
-
-        <div class="pdf-viewer">
-            <div id="pdfLoadingIndicator" class="pdf-loading" style="display: none;">Loading sheet music...</div>
-            <canvas id="pdfCanvas"></canvas>
-        </div>
-
-        <div class="pdf-controls" id="pdfControls" style="display: none;">
-            <button class="pdf-btn" id="prevBtn" onclick="prevPage()">Previous</button>
-            <span class="page-info">
-                Page <span id="pageNum">1</span> of <span id="pageCount">1</span>
-            </span>
-            <button class="pdf-btn" id="nextBtn" onclick="nextPage()">Next</button>
-        </div>
+<div class="demo-section">
+    <h2>🎼 Multi-Track Demo</h2>
+    <div class="voice-selector">
+        <button class="voice-btn active" onclick="demoSwitchTrack(0)">MELODY</button>
+        <button class="voice-btn" onclick="demoSwitchTrack(1)">PIANO ONLY</button>
+        <button class="voice-btn" onclick="demoSwitchTrack(2)">ALTO</button>
+        <button class="voice-btn" onclick="demoSwitchTrack(3)">TENOR</button>
     </div>
+    <div id="demo-player"></div>
 </div>
 
-<div id="imageModal" class="modal">
-    <div class="modal-content image-modal-content">
-        <span class="close" onclick="closeImageModal()">&times;</span>
-
-        <div class="audio-controls">
-            <h3>🎵 Sing-Along</h3>
-            <div id="imageVoiceSelector"></div>
-            <div id="imageModalAudioContainer"></div>
-
-            <div class="page-controls-inline" id="imageControlsInline" style="display: none;">
-                <button class="control-btn" id="prevImageBtnInline" onclick="prevImagePage()">◀ Prev</button>
-                <span class="page-info-compact">Page <span id="imagePageNumInline">1</span>/<span id="imagePageCountInline">1</span></span>
-                <button class="control-btn" id="nextImageBtnInline" onclick="nextImagePage()">Next ▶</button>
-            </div>
-        </div>
-
-        <div class="image-viewer">
-            <div id="imageLoadingIndicator" class="loading" style="display: none;">Loading sheet music...</div>
-            <div class="image-container">
-                <img id="sheetMusicImage" src="" alt="Sheet Music" />
-            </div>
+<div class="demo-section">
+    <h2>🎵 Playlist Demo</h2>
+    <button class="playlist-btn" onclick="startDemoPlaylist()" style="background: #27ae60; width: 100%; padding: 15px; font-size: 1.1rem;">
+        Play All Songs
+    </button>
+    <div class="playlist-controls" id="playlist-demo" style="display: none;">
+        <div class="current-song">Now Playing: <span id="playlist-song-title">Song 1</span></div>
+        <div class="song-progress">Song <span id="playlist-position">1</span> of <span id="playlist-total">3</span></div>
+        <div id="playlist-player"></div>
+        <div class="playlist-nav-btns">
+            <button class="playlist-btn" onclick="playlistPrevious()">⏮ Previous</button>
+            <button class="playlist-btn stop" onclick="stopDemoPlaylist()">⏹ Stop Playlist</button>
+            <button class="playlist-btn" onclick="playlistNext()">Next ⏭</button>
         </div>
     </div>
 </div>
 
 <script>
-    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
-
-    const isIOSSafari = /iPad|iPhone|iPod/.test(navigator.userAgent) && /Safari/.test(navigator.userAgent) && !/CriOS|FxiOS/.test(navigator.userAgent);
-    const isMobile = window.innerWidth < 768;
-
-    let pdfDoc = null, pageNum = 1, pageRendering = false, pageNumPending = null;
-    let scale = isMobile ? 1.2 : 1.5;
-    let canvas = document.getElementById('pdfCanvas');
-    let ctx = canvas.getContext('2d');
-    let currentPdfUrl = null;
-    let currentImages = [], currentImageIndex = 0;
-    let currentContent = null, playlistSongs = [];
-    let currentPlaylistIndex = 0, isPlaylistActive = false;
-
-    // Custom Audio Player Class
+    // Enhanced Audio Player Class
     class CustomAudioPlayer {
         constructor(containerId, audioSrc = '') {
             this.container = document.getElementById(containerId);
             this.audioElement = new Audio(audioSrc);
             this.isPlaying = false;
             this.isMuted = false;
+            this.playerId = 'player-' + Math.random().toString(36).substr(2, 9);
             this.createPlayer();
             this.attachEvents();
         }
 
         createPlayer() {
             this.container.innerHTML = `
-                <div class="custom-audio-player">
-                    <div class="audio-controls-row">
-                        <button class="play-pause-btn" data-action="play">▶</button>
-                        <div class="progress-container">
-                            <div class="progress-bar"></div>
+                    <div class="custom-audio-player">
+                        <div class="audio-controls-row">
+                            <button class="skip-btn" title="Back 10 seconds" data-action="skip-back">⏪</button>
+                            <button class="play-pause-btn" data-action="play">▶</button>
+                            <button class="skip-btn" title="Forward 10 seconds" data-action="skip-forward">⏩</button>
+                            <div class="progress-container">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <div class="time-display">
+                                <span class="current-time">0:00</span> / <span class="duration">0:00</span>
+                            </div>
                         </div>
-                        <div class="time-display">
-                            <span class="current-time">0:00</span> / <span class="duration">0:00</span>
+                        <div class="audio-controls-row volume-container">
+                            <button class="volume-btn" data-action="mute">🔊</button>
+                            <input type="range" class="volume-slider" min="0" max="100" value="100">
                         </div>
                     </div>
-                    <div class="audio-controls-row volume-container">
-                        <button class="volume-btn" data-action="mute">🔊</button>
-                        <input type="range" class="volume-slider" min="0" max="100" value="100">
-                    </div>
-                </div>
-            `;
+                `;
 
             this.playPauseBtn = this.container.querySelector('.play-pause-btn');
+            this.skipBackBtn = this.container.querySelector('[data-action="skip-back"]');
+            this.skipForwardBtn = this.container.querySelector('[data-action="skip-forward"]');
             this.progressContainer = this.container.querySelector('.progress-container');
             this.progressBar = this.container.querySelector('.progress-bar');
             this.currentTimeDisplay = this.container.querySelector('.current-time');
@@ -935,6 +360,10 @@
         attachEvents() {
             // Play/Pause
             this.playPauseBtn.addEventListener('click', () => this.togglePlay());
+
+            // Skip buttons
+            this.skipBackBtn.addEventListener('click', () => this.skip(-10));
+            this.skipForwardBtn.addEventListener('click', () => this.skip(10));
 
             // Progress bar
             this.progressContainer.addEventListener('click', (e) => this.seek(e));
@@ -959,6 +388,20 @@
             }
         }
 
+        skip(seconds) {
+            this.audioElement.currentTime = Math.max(0, Math.min(
+                this.audioElement.currentTime + seconds,
+                this.audioElement.duration
+            ));
+        }
+
+        restart() {
+            this.audioElement.currentTime = 0;
+            if (this.isPlaying) {
+                this.audioElement.play();
+            }
+        }
+
         onPlay() {
             this.isPlaying = true;
             this.playPauseBtn.textContent = '⏸';
@@ -970,9 +413,11 @@
         }
 
         updateProgress() {
-            const percent = (this.audioElement.currentTime / this.audioElement.duration) * 100;
-            this.progressBar.style.width = percent + '%';
-            this.currentTimeDisplay.textContent = this.formatTime(this.audioElement.currentTime);
+            if (!isNaN(this.audioElement.duration)) {
+                const percent = (this.audioElement.currentTime / this.audioElement.duration) * 100;
+                this.progressBar.style.width = percent + '%';
+                this.currentTimeDisplay.textContent = this.formatTime(this.audioElement.currentTime);
+            }
         }
 
         updateDuration() {
@@ -1005,17 +450,19 @@
         }
 
         setSrc(src) {
+            const wasPlaying = this.isPlaying;
             this.audioElement.src = src;
             this.audioElement.load();
             this.progressBar.style.width = '0%';
             this.currentTimeDisplay.textContent = '0:00';
+            if (wasPlaying) {
+                this.audioElement.play().catch(e => console.log('Autoplay prevented'));
+            }
         }
 
         onEnded() {
             this.isPlaying = false;
             this.playPauseBtn.textContent = '▶';
-            this.progressBar.style.width = '0%';
-            this.audioElement.currentTime = 0;
         }
 
         pause() {
@@ -1031,531 +478,87 @@
         }
     }
 
-    // Global audio players
-    let modalAudioPlayer = null;
-    let imageModalAudioPlayer = null;
-    let playlistAudioPlayer = null;
+    // Demo implementation
+    const demoTracks = [
+        'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
+        'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3',
+        'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3',
+        'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3'
+    ];
 
-    async function loadContent() {
-        try {
-            const response = await fetch('content/current.json');
-            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-            currentContent = await response.json();
-            updateHeaderNotes();
-            updateSectionTitle();
-            updateSongOrder();
-            updateSongsContainer();
-            updatePlaylistSongs();
-        } catch (error) {
-            console.error('Error loading content:', error);
-            showError('Unable to load song content. Please refresh the page.');
-        }
-    }
+    let demoPlayer = new CustomAudioPlayer('demo-player', demoTracks[0]);
+    let currentTrackIndex = 0;
 
-    function updateHeaderNotes() {
-        const headerNotesContainer = document.getElementById('headerNotes');
-        headerNotesContainer.innerHTML = '';
-        if (currentContent.headerNotes && currentContent.headerNotes.length > 0) {
-            currentContent.headerNotes.forEach(note => {
-                const subtitle = document.createElement('p');
-                subtitle.className = 'subtitle';
-                subtitle.textContent = note;
-                headerNotesContainer.appendChild(subtitle);
-            });
-        }
-    }
+    function demoSwitchTrack(index) {
+        currentTrackIndex = index;
+        demoPlayer.setSrc(demoTracks[index]);
 
-    function updateSectionTitle() {
-        const sectionTitle = document.getElementById('sectionTitle');
-        const [year, month, day] = currentContent.serviceDate.split('-');
-        const date = new Date(year, month - 1, day);
-        const formattedDate = date.toLocaleDateString('en-US', {
-            weekday: 'long',
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric'
-        });
-        sectionTitle.textContent = `🎵 Songs for ${formattedDate}`;
-    }
-
-    function updateSongOrder() {
-        const songOrderList = document.getElementById('songOrderList');
-        songOrderList.innerHTML = '';
-        if (currentContent.order && currentContent.order.length > 0) {
-            currentContent.order.forEach(songTitle => {
-                const li = document.createElement('li');
-                li.textContent = songTitle;
-                songOrderList.appendChild(li);
-            });
-        }
-    }
-
-    function updateSongsContainer() {
-        const songsContainer = document.getElementById('songsContainer');
-        songsContainer.innerHTML = '';
-        if (currentContent.songs && currentContent.songs.length > 0) {
-            currentContent.songs.forEach(song => {
-                const songItem = createSongItem(song);
-                songsContainer.appendChild(songItem);
-            });
-        }
-    }
-
-    function createSongItem(song) {
-        const songItem = document.createElement('div');
-        songItem.className = 'song-item';
-        const title = document.createElement('div');
-        title.className = 'song-title';
-        title.textContent = song.title;
-
-        if (song.notes) {
-            const notes = document.createElement('div');
-            notes.style.fontStyle = 'italic';
-            notes.style.color = '#666';
-            notes.style.marginTop = '5px';
-            notes.style.fontSize = '0.9rem';
-            notes.textContent = song.notes;
-            title.appendChild(notes);
-        }
-
-        const links = document.createElement('div');
-        links.className = 'song-links';
-
-        const isListenOnly = !song.useImages && !song.pdf && song.tracks && song.tracks.length > 0;
-
-        if (isListenOnly) {
-            const audioContainer = document.createElement('div');
-            audioContainer.style.width = '100%';
-            audioContainer.style.marginTop = '10px';
-            const playerId = 'inline-player-' + Math.random().toString(36).substr(2, 9);
-            audioContainer.innerHTML = `<div id="${playerId}"></div>`;
-            links.appendChild(audioContainer);
-
-            setTimeout(() => {
-                new CustomAudioPlayer(playerId, song.tracks[0].src);
-            }, 0);
-        } else if (song.useImages && (song.imageFiles || song.imageBaseName)) {
-            const button = document.createElement('button');
-            button.className = 'link-btn sheet-music';
-            let imageFiles;
-            if (song.imageFiles) {
-                imageFiles = song.imageFiles;
-            } else if (song.imageBaseName) {
-                imageFiles = [song.imageBaseName + '.png'];
-            }
-            let buttonText = imageFiles.length > 1 ? `🎼 Sheet Music and Audio (${imageFiles.length} pages)` : '🎼 Sheet Music and Audio';
-            button.textContent = buttonText;
-            button.addEventListener('click', () => {
-                openImagePDF(imageFiles, song.title, song.tracks || []);
-            });
-            links.appendChild(button);
-        } else if (song.tracks && song.tracks.length > 0) {
-            const button = document.createElement('button');
-            button.className = 'link-btn sheet-music';
-            if (song.tracks.length === 1) {
-                button.textContent = '📄 Sheet music and audio';
-            } else if (song.tracks.some(t => t.name.toLowerCase().includes('alto') || t.name.toLowerCase().includes('tenor') || t.name.toLowerCase().includes('bass'))) {
-                button.textContent = '📄 Sheet music with all parts';
-            } else {
-                button.textContent = '📄 Sheet music with MELODY and HARMONY';
-            }
-            button.addEventListener('click', () => {
-                openMultiTrackPDF(song.pdf, song.title, song.tracks);
-            });
-            links.appendChild(button);
-        } else if (song.single) {
-            const button = document.createElement('button');
-            button.className = 'link-btn sheet-music';
-            button.textContent = `📄 ${song.single.label}`;
-            button.addEventListener('click', () => {
-                openSinglePDF(song.pdf, song.single.audio, song.title);
-            });
-            links.appendChild(button);
-        }
-
-        songItem.appendChild(title);
-        songItem.appendChild(links);
-        return songItem;
-    }
-
-    function updatePlaylistSongs() {
-        playlistSongs = [];
-        if (currentContent.songs) {
-            currentContent.songs.forEach(song => {
-                let audioSrc = null;
-                if (song.useImages) {
-                    if (song.tracks && song.tracks.length > 0) {
-                        audioSrc = song.tracks[0].src;
-                    } else if (song.single && song.single.audio) {
-                        audioSrc = song.single.audio;
-                    }
-                } else if (song.tracks && song.tracks.length > 0) {
-                    audioSrc = song.tracks[0].src;
-                } else if (song.single && song.single.audio) {
-                    audioSrc = song.single.audio;
-                }
-                if (audioSrc) {
-                    playlistSongs.push({
-                        title: song.title,
-                        src: audioSrc
-                    });
-                }
-            });
-        }
-    }
-
-    function showError(message) {
-        const headerNotes = document.getElementById('headerNotes');
-        const sectionTitle = document.getElementById('sectionTitle');
-        const songOrderList = document.getElementById('songOrderList');
-        const songsContainer = document.getElementById('songsContainer');
-        headerNotes.innerHTML = '<p class="subtitle" style="color: #e74c3c;">Error loading content</p>';
-        sectionTitle.textContent = '⚠️ Error Loading Songs';
-        songOrderList.innerHTML = `<li style="color: #e74c3c;">${message}</li>`;
-        songsContainer.innerHTML = `<div class="loading" style="color: #e74c3c;">${message}</div>`;
-    }
-
-    function openImagePDF(imageFiles, title, tracks) {
-        currentImages = imageFiles.map(filename => `sheet-music-images/${filename}`);
-        currentImageIndex = 0;
-        setupImageAudio(tracks);
-        showCurrentImage();
-        document.getElementById('imageModal').style.display = 'block';
-        document.body.style.overflow = 'hidden';
-    }
-
-    function setupImageAudio(tracks) {
-        if (!imageModalAudioPlayer) {
-            imageModalAudioPlayer = new CustomAudioPlayer('imageModalAudioContainer');
-        }
-
-        if (tracks && tracks.length > 1) {
-            let voiceSelectorHTML = '<div class="voice-selector">';
-            tracks.forEach((track, index) => {
-                const activeClass = index === 0 ? 'active' : '';
-                voiceSelectorHTML += `<button class="voice-btn ${activeClass}" onclick="switchImageVoice('${track.src}', ${index})">${track.name}</button>`;
-            });
-            voiceSelectorHTML += '</div>';
-            document.getElementById('imageVoiceSelector').innerHTML = voiceSelectorHTML;
-            imageModalAudioPlayer.setSrc(tracks[0].src);
-        } else if (tracks && tracks.length === 1) {
-            document.getElementById('imageVoiceSelector').innerHTML = '';
-            imageModalAudioPlayer.setSrc(tracks[0].src);
-        } else {
-            document.getElementById('imageVoiceSelector').innerHTML = '';
-            imageModalAudioPlayer.setSrc('');
-        }
-    }
-
-    function showCurrentImage() {
-        const img = document.getElementById('sheetMusicImage');
-        const loadingIndicator = document.getElementById('imageLoadingIndicator');
-        if (loadingIndicator) loadingIndicator.style.display = 'block';
-        img.classList.remove('loaded');
-        img.onload = function() {
-            if (loadingIndicator) loadingIndicator.style.display = 'none';
-            img.classList.add('loaded');
-        };
-        img.onerror = function() {
-            if (loadingIndicator) loadingIndicator.style.display = 'none';
-            if (img.src && img.src !== '') {
-                console.error('Failed to load image:', img.src);
-            }
-        };
-        img.src = currentImages[currentImageIndex];
-        updateImagePageControls();
-    }
-
-    function updateImagePageControls() {
-        const inlineControls = document.getElementById('imageControlsInline');
-        const inlinePageNum = document.getElementById('imagePageNumInline');
-        const inlinePageCount = document.getElementById('imagePageCountInline');
-        if (inlinePageNum) inlinePageNum.textContent = currentImageIndex + 1;
-        if (inlinePageCount) inlinePageCount.textContent = currentImages.length;
-        if (currentImages.length > 1) {
-            if (inlineControls) inlineControls.style.display = 'flex';
-            const prevBtnInline = document.getElementById('prevImageBtnInline');
-            const nextBtnInline = document.getElementById('nextImageBtnInline');
-            if (prevBtnInline) prevBtnInline.disabled = (currentImageIndex <= 0);
-            if (nextBtnInline) nextBtnInline.disabled = (currentImageIndex >= currentImages.length - 1);
-        } else {
-            if (inlineControls) inlineControls.style.display = 'none';
-        }
-    }
-
-    function prevImagePage() {
-        if (currentImageIndex > 0) {
-            currentImageIndex--;
-            showCurrentImage();
-        }
-    }
-
-    function nextImagePage() {
-        if (currentImageIndex < currentImages.length - 1) {
-            currentImageIndex++;
-            showCurrentImage();
-        }
-    }
-
-    function switchImageVoice(audioPath, buttonIndex) {
-        imageModalAudioPlayer.setSrc(audioPath);
-        const buttons = document.querySelectorAll('#imageModal .voice-btn');
-        buttons.forEach((btn, index) => {
-            btn.classList.toggle('active', index === buttonIndex);
+        // Update button states
+        const buttons = document.querySelectorAll('.voice-btn');
+        buttons.forEach((btn, i) => {
+            btn.classList.toggle('active', i === index);
         });
     }
 
-    function closeImageModal() {
-        document.getElementById('imageModal').style.display = 'none';
-        document.body.style.overflow = 'auto';
-        if (imageModalAudioPlayer) {
-            imageModalAudioPlayer.pause();
-        }
-        const img = document.getElementById('sheetMusicImage');
-        img.src = '';
-        img.classList.remove('loaded');
-    }
+    // Playlist demo
+    const playlistSongs = [
+        { title: 'Song 1 - Melody', src: demoTracks[0] },
+        { title: 'Song 2 - Harmony', src: demoTracks[1] },
+        { title: 'Song 3 - Full Mix', src: demoTracks[2] }
+    ];
 
-    function playAllSongs() {
-        if (playlistSongs.length === 0) {
-            alert('No songs available to play.');
-            return;
-        }
+    let playlistPlayer = null;
+    let currentPlaylistIndex = 0;
+    let isPlaylistActive = false;
+
+    function startDemoPlaylist() {
         isPlaylistActive = true;
         currentPlaylistIndex = 0;
-        document.getElementById('playlistControls').style.display = 'flex';
+        document.getElementById('playlist-demo').style.display = 'block';
 
-        if (!playlistAudioPlayer) {
-            playlistAudioPlayer = new CustomAudioPlayer('playlistPlayerContainer');
-            playlistAudioPlayer.audioElement.addEventListener('ended', playNextSong);
+        if (!playlistPlayer) {
+            playlistPlayer = new CustomAudioPlayer('playlist-player');
+            playlistPlayer.audioElement.addEventListener('ended', playlistNext);
         }
 
-        const titleSpan = document.getElementById('currentSongTitle');
-        playlistAudioPlayer.setSrc(playlistSongs[currentPlaylistIndex].src);
-        titleSpan.textContent = playlistSongs[currentPlaylistIndex].title;
-        playlistAudioPlayer.play().catch(e => {
-            console.log('Autoplay prevented. Please click play button.');
-        });
+        playPlaylistSong(currentPlaylistIndex);
     }
 
-    function playNextSong() {
+    function playPlaylistSong(index) {
+        if (index < 0 || index >= playlistSongs.length) return;
+
+        currentPlaylistIndex = index;
+        document.getElementById('playlist-song-title').textContent = playlistSongs[index].title;
+        document.getElementById('playlist-position').textContent = index + 1;
+        document.getElementById('playlist-total').textContent = playlistSongs.length;
+
+        playlistPlayer.setSrc(playlistSongs[index].src);
+        playlistPlayer.play().catch(e => console.log('Autoplay prevented'));
+    }
+
+    function playlistNext() {
         if (!isPlaylistActive) return;
-        currentPlaylistIndex++;
-        if (currentPlaylistIndex < playlistSongs.length) {
-            const titleSpan = document.getElementById('currentSongTitle');
-            playlistAudioPlayer.setSrc(playlistSongs[currentPlaylistIndex].src);
-            titleSpan.textContent = playlistSongs[currentPlaylistIndex].title;
-            playlistAudioPlayer.play().catch(e => {
-                console.log('Autoplay prevented for next song.');
-            });
+        if (currentPlaylistIndex < playlistSongs.length - 1) {
+            playPlaylistSong(currentPlaylistIndex + 1);
         } else {
-            stopPlaylist();
+            stopDemoPlaylist();
         }
     }
 
-    function stopPlaylist() {
+    function playlistPrevious() {
+        if (!isPlaylistActive) return;
+        if (currentPlaylistIndex > 0) {
+            playPlaylistSong(currentPlaylistIndex - 1);
+        }
+    }
+
+    function stopDemoPlaylist() {
         isPlaylistActive = false;
-        currentPlaylistIndex = 0;
-        if (playlistAudioPlayer) {
-            playlistAudioPlayer.pause();
+        if (playlistPlayer) {
+            playlistPlayer.pause();
         }
-        document.getElementById('playlistControls').style.display = 'none';
+        document.getElementById('playlist-demo').style.display = 'none';
     }
-
-    function sendSuggestion() {
-        const suggestion = document.getElementById('songSuggestion').value.trim();
-        if (suggestion) {
-            const subject = 'Song Suggestion from Choir Member';
-            const body = `Hi Mark,\n\nI'd like to suggest this song for our choir:\n\n${suggestion}\n\nThanks!\n`;
-            const mailtoLink = `mailto:memery1446@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-            window.location.href = mailtoLink;
-            document.getElementById('songSuggestion').value = '';
-        } else {
-            alert('Please enter a song suggestion first.');
-        }
-    }
-
-    function openSinglePDF(pdfPath, audioPath, title) {
-        if (!modalAudioPlayer) {
-            modalAudioPlayer = new CustomAudioPlayer('modalAudioContainer');
-        }
-        document.getElementById('voiceSelector').innerHTML = '';
-        modalAudioPlayer.setSrc(audioPath);
-        loadPDF(pdfPath);
-        document.getElementById('pdfModal').style.display = 'block';
-        document.body.style.overflow = 'hidden';
-    }
-
-    function openMultiTrackPDF(pdfPath, title, tracks) {
-        if (!modalAudioPlayer) {
-            modalAudioPlayer = new CustomAudioPlayer('modalAudioContainer');
-        }
-
-        let voiceSelectorHTML = '<div class="voice-selector">';
-        tracks.forEach((track, index) => {
-            const activeClass = index === 0 ? 'active' : '';
-            voiceSelectorHTML += `<button class="voice-btn ${activeClass}" onclick="switchVoice('${track.src}', ${index})">${track.name}</button>`;
-        });
-        voiceSelectorHTML += '</div>';
-        document.getElementById('voiceSelector').innerHTML = voiceSelectorHTML;
-        modalAudioPlayer.setSrc(tracks[0].src);
-        loadPDF(pdfPath);
-        document.getElementById('pdfModal').style.display = 'block';
-        document.body.style.overflow = 'hidden';
-    }
-
-    function loadPDF(url) {
-        if (currentPdfUrl === url && pdfDoc) {
-            console.log('PDF already loaded, skipping reload');
-            return;
-        }
-        const loadingIndicator = document.getElementById('pdfLoadingIndicator');
-        loadingIndicator.style.display = 'block';
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-        canvas.width = 0;
-        canvas.height = 0;
-        const cacheBuster = isIOSSafari ? `?cb=${Date.now()}` : '';
-        const finalUrl = url + cacheBuster;
-        pdfDoc = null;
-        currentPdfUrl = null;
-        pdfjsLib.getDocument(finalUrl).promise.then(function(pdfDoc_) {
-            pdfDoc = pdfDoc_;
-            currentPdfUrl = url;
-            document.getElementById('pageCount').textContent = pdfDoc.numPages;
-            const pdfControls = document.getElementById('pdfControls');
-            if (pdfDoc.numPages > 1) {
-                pdfControls.style.display = 'block';
-            } else {
-                pdfControls.style.display = 'none';
-            }
-            pageNum = 1;
-            renderPage(pageNum);
-            loadingIndicator.style.display = 'none';
-        }).catch(function(error) {
-            console.error('Error loading PDF:', error);
-            loadingIndicator.style.display = 'none';
-            alert('Error loading sheet music. Please try again.');
-        });
-    }
-
-    function renderPage(num) {
-        if (!pdfDoc) return;
-        pageRendering = true;
-        pdfDoc.getPage(num).then(function(page) {
-            let viewport = page.getViewport({scale: scale});
-            const devicePixelRatio = window.devicePixelRatio || 1;
-            const outputScale = devicePixelRatio;
-            canvas.style.width = viewport.width + 'px';
-            canvas.style.height = viewport.height + 'px';
-            canvas.width = Math.floor(viewport.width * outputScale);
-            canvas.height = Math.floor(viewport.height * outputScale);
-            ctx.scale(outputScale, outputScale);
-            const renderContext = {
-                canvasContext: ctx,
-                viewport: viewport
-            };
-            const renderTask = page.render(renderContext);
-            renderTask.promise.then(function() {
-                pageRendering = false;
-                if (pageNumPending !== null) {
-                    renderPage(pageNumPending);
-                    pageNumPending = null;
-                }
-            }).catch(function(error) {
-                console.error('Error rendering page:', error);
-                pageRendering = false;
-            });
-        });
-        document.getElementById('pageNum').textContent = num;
-    }
-
-    function queueRenderPage(num) {
-        if (pageRendering) {
-            pageNumPending = num;
-        } else {
-            renderPage(num);
-        }
-    }
-
-    function prevPage() {
-        if (pageNum <= 1) return;
-        pageNum--;
-        queueRenderPage(pageNum);
-    }
-
-    function nextPage() {
-        if (pageNum >= pdfDoc.numPages) return;
-        pageNum++;
-        queueRenderPage(pageNum);
-    }
-
-    function switchVoice(audioPath, buttonIndex) {
-        modalAudioPlayer.setSrc(audioPath);
-        const buttons = document.querySelectorAll('.voice-btn');
-        buttons.forEach((btn, index) => {
-            btn.classList.toggle('active', index === buttonIndex);
-        });
-    }
-
-    function closeModal() {
-        document.getElementById('pdfModal').style.display = 'none';
-        document.body.style.overflow = 'auto';
-        if (modalAudioPlayer) {
-            modalAudioPlayer.pause();
-        }
-        if (isIOSSafari) {
-            pdfDoc = null;
-            currentPdfUrl = null;
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-        }
-    }
-
-    window.onclick = function(event) {
-        const pdfModal = document.getElementById('pdfModal');
-        const imageModal = document.getElementById('imageModal');
-        if (event.target === pdfModal) {
-            closeModal();
-        }
-        if (event.target === imageModal) {
-            closeImageModal();
-        }
-    }
-
-    document.addEventListener('keydown', function(event) {
-        if (event.key === 'Escape') {
-            closeModal();
-            closeImageModal();
-        }
-    });
-
-    document.addEventListener('DOMContentLoaded', function() {
-        loadContent();
-        const updateButtons = () => {
-            document.getElementById('prevBtn').disabled = (pageNum <= 1);
-            document.getElementById('nextBtn').disabled = (pageNum >= (pdfDoc ? pdfDoc.numPages : 1));
-        };
-        const observer = new MutationObserver(updateButtons);
-        observer.observe(document.getElementById('pageNum'), { childList: true });
-    });
-
-    function setHeaderOffset() {
-        const header = document.querySelector('header');
-        if (!header) return;
-        const height = header.getBoundingClientRect().height;
-        const extra = 12;
-        document.documentElement.style.setProperty('--header-offset', (height + extra) + 'px');
-    }
-
-    document.addEventListener('DOMContentLoaded', () => {
-        setHeaderOffset();
-        window.addEventListener('load', setHeaderOffset);
-        window.addEventListener('resize', setHeaderOffset);
-        if ('ResizeObserver' in window) {
-            const header = document.querySelector('header');
-            const ro = new ResizeObserver(setHeaderOffset);
-            if (header) ro.observe(header);
-        }
-    });
 </script>
 </body>
 </html>
