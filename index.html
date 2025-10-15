@@ -740,6 +740,29 @@
 
             .custom-audio-player {
                 max-width: 100%;
+                padding: 8px !important;
+            }
+
+            .audio-controls-row {
+                gap: 6px !important;
+                margin-bottom: 6px !important;
+            }
+
+            .play-pause-btn {
+                width: 34px !important;
+                height: 34px !important;
+                font-size: 14px !important;
+            }
+
+            .skip-btn {
+                width: 28px !important;
+                height: 28px !important;
+                font-size: 10px !important;
+            }
+
+            .time-display {
+                font-size: 0.7rem !important;
+                min-width: 70px !important;
             }
 
             .volume-container {
@@ -749,6 +772,7 @@
 
             .volume-slider {
                 width: 100%;
+                height: 3px !important;
             }
 
             .image-modal-content {
@@ -762,16 +786,18 @@
 
             .image-viewer {
                 flex: 1 !important;
-                height: calc(100vh - 140px) !important;
-                max-height: calc(100vh - 140px) !important;
+                height: calc(100vh - 110px) !important;
+                max-height: none !important;
                 margin: 2px 0 !important;
-                overflow: auto !important;
+                overflow-y: auto !important;
+                overflow-x: hidden !important;
                 -webkit-overflow-scrolling: touch !important;
             }
 
             .image-container {
                 padding: 4px !important;
-                height: 100% !important;
+                height: auto !important;
+                min-height: 100% !important;
             }
 
             .audio-controls {
@@ -784,12 +810,12 @@
                 box-shadow: 0 2px 8px rgba(0,0,0,0.1);
                 border: 1px solid #e9ecef;
                 flex-shrink: 0 !important;
-                padding: 4px !important;
+                padding: 6px 8px !important;
             }
 
             .audio-controls h3 {
-                font-size: 0.8rem !important;
-                margin-bottom: 3px !important;
+                font-size: 0.75rem !important;
+                margin-bottom: 4px !important;
             }
 
             .page-controls-inline {
@@ -811,10 +837,10 @@
                 width: 100% !important;
                 height: auto !important;
                 max-width: 100% !important;
-                max-height: calc(100vh - 85px) !important;
+                max-height: none !important;
                 object-fit: contain !important;
                 min-width: unset !important;
-                touch-action: pinch-zoom;
+                touch-action: pan-y pinch-zoom !important;
             }
         }
     </style>
