@@ -19,7 +19,7 @@
     {
       "title": "WE HAVE COME INTO HIS HOUSE",
       "useImages": true,
-      "imageBaseName": "1.We.Have.Come.Into.His.House-0",
+      "imageBaseName": "1.We.Have.Come.into.His.House-0",
       "tracks": [
         {"name": "MELODY", "src": "audio/We.Have.Come.Into.His.House.all.mp3"},
         {"name": "PIANO ONLY", "src": "audio/We.Have.Come.piano2.mp3"},
