@@ -74,7 +74,7 @@
         "5.Give.Thanks-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Give.Thanks.all.mp3"},
+        {"name": "MELODY", "src": "audio/Give.Thanks.fix.all.mp3"},
         {"name": "PIANO ONLY", "src": "audio/Give.Thanks.piano.mp3"}
       ]
     },
