@@ -36,8 +36,11 @@
         "2.There.Is.Power.in.the.Blood.EDIT-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Power.In.The.Blood.melody.mp3"},
-        {"name": "PIANO ONLY", "src": "audio/Power.In.The.Blood.final.piano.mp3"}
+        {"name": "MELODY", "src": "audio/Power.In.Blood.four.voice.mp3"},
+        {"name": "PIANO ONLY", "src": "audio/Power.In.The.Blood.final.piano.mp3"},
+        {"name": "ALTO", "src": "audio/Power.In.Blood.alto.mp3"},
+        {"name": "TENOR", "src": "audio/Power.In.Blood.tenor.mp3"},
+        {"name": "BASS", "src": "audio/Power.In.Blood.bass.mp3"}
       ]
     },
     {
@@ -86,8 +89,11 @@
         "6.God.Will.Make.a.Way-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/God.Will.Make.A.Way.isolated.solo.mp3"},
-        {"name": "PIANO ONLY", "src": "audio/God.Will.Make.A.Way.piano.mp3"}
+        {"name": "MELODY", "src": "audio/God.Will.Make.latest.new.mp3"},
+        {"name": "PIANO ONLY", "src": "audio/God.Will.Make.A.Way.piano.mp3"},
+        {"name": "ALTO", "src": "audio/God.Will.Make.alto.mp3"},
+        {"name": "TENOR", "src": "audio/God.Will.Make.tenor.mp3"},
+        {"name": "BASS", "src": "audio/God.Will.Make.bass.mp3"}
       ]
     },
     {
