@@ -16,9 +16,9 @@
       "title": "HOW GREAT THOU ART",
       "useImages": true,
       "imageFiles": [
-      "1.How.Great.Thou.Art-0.png",
-      "1.How.Great.Thou.Art-1.png"
-    ],
+        "1.How.Great.Thou.Art-0.png",
+        "1.How.Great.Thou.Art-1.png"
+      ],
       "tracks": [
         {"name": "MELODY", "src": "audio/How.Great.Thou.Art.new.all.mp3"},
         {"name": "PIANO ONLY", "src": "audio/How.Great.Thou.Art.piano.mp3"},
@@ -67,58 +67,7 @@
         {"name": "MELODY", "src": "audio/Offering.all.mp3"},
         {"name": "PIANO ONLY", "src": "audio/Offering.piano.mp3"}
       ]
-    },
-//    {
-//      "title": "WAY MAKER",
-//      "useImages": true,
-//      "imageFiles": [
-//        "4.Way.Maker-0.png",
-//        "4.Way.Maker-1.png",
-//        "4.Way.Maker-2.png"
-//      ],
-//      "tracks": [
-//        {"name": "MELODY", "src": "audio/Waymaker.all.mp3"},
-//        {"name": "PIANO ONLY", "src": "audio/Waymaker.piano.mp3"}
-//      ]
-//    },
-//    {
-//      "title": "GIVE THANKS",
-//      "useImages": true,
-//      "imageFiles": [
-//        "5.Give.Thanks-0.png",
-//        "5.Give.Thanks-1.png"
-//      ],
-//      "tracks": [
-//        {"name": "MELODY", "src": "audio/Give.Thanks.fix.all.mp3"},
-//        {"name": "PIANO ONLY", "src": "audio/Give.Thanks.piano.mp3"}
-//      ]
-//    },
-//    {
-//      "title": "GOD WILL MAKE A WAY",
-//      "useImages": true,
-//      "imageFiles": [
-//        "6.God.Will.Make.a.Way-0.png",
-//        "6.God.Will.Make.a.Way-1.png"
-//      ],
-//      "tracks": [
-//        {"name": "MELODY", "src": "audio/God.Will.Make.latest.new.mp3"},
-//        {"name": "PIANO ONLY", "src": "audio/God.Will.Make.A.Way.piano.mp3"},
-//        {"name": "ALTO", "src": "audio/God.Will.Make.alto.mp3"},
-//        {"name": "TENOR", "src": "audio/God.Will.Make.tenor.mp3"},
-//        {"name": "BASS", "src": "audio/God.Will.Make.bass.mp3"}
-//      ]
-//    },
-//    {
-//      "title": "SACRED SILENCE",
-//      "useImages": true,
-//      "imageFiles": [
-//        "7.Sacred.Silence-0.png"
-//      ],
-//      "tracks": [
-//        {"name": "MELODY", "src": "audio/Sacred.Silence.new.melody.mp3"},
-//        {"name": "PIANO ONLY", "src": "audio/Sacred.Silence.piano.mp3"}
-//      ]
-//    }
+    }
   ],
   "allSongsPdf": null
 }
