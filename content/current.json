@@ -1,112 +1,124 @@
 {
-  "serviceDate": "2025-10-19",
+  "serviceDate": "2025-10-26",
   "headerNotes": [
-    "Wednesday after Church - CHRISTMAS PRACTICE",
     "Sunday 10:15AM - All, Check-In/Warm Up",
     "Sunday 4:30-5:45PM - Choir Practice",
     "ALL ARE WELCOME TO JOIN IN ANY PART OF THE ABOVE SCHEDULE"
   ],
   "order": [
-    "CALL TO WORSHIP - We Have Come Into His House",
-    "There Is Power in the Blood",
-    "What an Awesome God",
-    "Way Maker",
-    "OFFERTORY: Give Thanks",
-    "CHOIR: God Will Make a Way",
-    "INVITATION: Sacred Silence"
+    "How Great Thou Art",
+    "Throwback Medly",
+    "OFFERTORY: Offering",
+    "INVITATION: Nothing But The Blood"
   ],
   "songs": [
     {
-      "title": "WE HAVE COME INTO HIS HOUSE",
+      "title": "HOW GREAT THOU ART",
       "useImages": true,
-      "imageBaseName": "1.We.Have.Come.into.His.House-0",
+      "imageFiles": [
+      "1.How.Great.Thou.Art-0.png",
+      "1.How.Great.Thou.Art-1.png"
+    ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/We.Have.Come.Final.all.mp3"},
-        {"name": "PIANO ONLY", "src": "audio/We.Have.Come.piano2.mp3"},
-        {"name": "ALTO", "src": "audio/We.Have.Come.Into.His.House.alto2.mp3"},
-        {"name": "TENOR", "src": "audio/We.Have.Come.Into.His.House.tenor.mp3"},
-        {"name": "BASS", "src": "audio/We.Have.Come.Into.His.House.bass.mp3"}
+        {"name": "MELODY", "src": "audio/How.Great.Thou.Art.new.all.mp3"},
+        {"name": "PIANO ONLY", "src": "audio/How.Great.Thou.Art.piano.mp3"},
+        {"name": "ALTO", "src": "audio/How.Great.Thou.Art.alto.mp3"},
+        {"name": "TENOR", "src": "audio/How.Great.Thou.Art.tenor.mp3"},
+        {"name": "BASS", "src": "audio/How.Great.Thou.Art.bass.mp3"}
       ]
     },
     {
-      "title": "THERE IS POWER IN THE BLOOD",
+      "title": "THROWBACK MEDLEY",
       "useImages": true,
       "imageFiles": [
-        "2.There.Is.Power.in.the.Blood.EDIT-0.png",
-        "2.There.Is.Power.in.the.Blood.EDIT-1.png"
+        "2.Throw.Back.Worship.Medley-0.png",
+        "2.Throw.Back.Worship.Medley-1.png",
+        "2.Throw.Back.Worship.Medley-2.png",
+        "2.Throw.Back.Worship.Medley-3.png",
+        "2.Throw.Back.Worship.Medley-4.png",
+        "2.Throw.Back.Worship.Medley-5.png",
+        "2.Throw.Back.Worship.Medley-6.png",
+        "2.Throw.Back.Worship.Medley-7.png",
+        "2.Throw.Back.Worship.Medley-8.png",
+        "2.Throw.Back.Worship.Medley-9.png",
+        "2.Throw.Back.Worship.Medley-10.png",
+        "2.Throw.Back.Worship.Medley-11.png",
+        "2.Throw.Back.Worship.Medley-12.png",
+        "2.Throw.Back.Worship.Medley-13.png",
+        "2.Throw.Back.Worship.Medley-14.png",
+        "2.Throw.Back.Worship.Medley-15.png",
+        "2.Throw.Back.Worship.Medley-16.png",
+        "2.Throw.Back.Worship.Medley-17.png",
+        "2.Throw.Back.Worship.Medley-18.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Power.In.Blood.four.voice.mp3"},
-        {"name": "PIANO ONLY", "src": "audio/Power.In.The.Blood.final.piano.mp3"},
-        {"name": "ALTO", "src": "audio/Power.In.Blood.alto.mp3"},
-        {"name": "TENOR", "src": "audio/Power.In.Blood.tenor.mp3"},
-        {"name": "BASS", "src": "audio/Power.In.Blood.bass.mp3"}
+        {"name": "MELODY", "src": "audio/Medley.all.mp3"},
+        {"name": "PIANO ONLY", "src": "audio/Medley.piano.mp3"}
       ]
     },
     {
-      "title": "WHAT AN AWESOME GOD",
+      "title": "OFFERING",
       "useImages": true,
       "imageFiles": [
-        "3.What.an.Awesome.God-0.png",
-        "3.What.an.Awesome.God-1.png",
-        "3.What.an.Awesome.God-2.png"
+        "3.Offering-0.png",
+        "3.Offering-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Our.God.Fix.Final.mp3"},
-        {"name": "PIANO ONLY", "src": "audio/Our.God.Is.An.Awesome.God.piano.mp3"}
+        {"name": "MELODY", "src": "audio/Offering.all.mp3"},
+        {"name": "PIANO ONLY", "src": "audio/Offering.piano.mp3"}
       ]
     },
-    {
-      "title": "WAY MAKER",
-      "useImages": true,
-      "imageFiles": [
-        "4.Way.Maker-0.png",
-        "4.Way.Maker-1.png",
-        "4.Way.Maker-2.png"
-      ],
-      "tracks": [
-        {"name": "MELODY", "src": "audio/Waymaker.all.mp3"},
-        {"name": "PIANO ONLY", "src": "audio/Waymaker.piano.mp3"}
-      ]
-    },
-    {
-      "title": "GIVE THANKS",
-      "useImages": true,
-      "imageFiles": [
-        "5.Give.Thanks-0.png",
-        "5.Give.Thanks-1.png"
-      ],
-      "tracks": [
-        {"name": "MELODY", "src": "audio/Give.Thanks.fix.all.mp3"},
-        {"name": "PIANO ONLY", "src": "audio/Give.Thanks.piano.mp3"}
-      ]
-    },
-    {
-      "title": "GOD WILL MAKE A WAY",
-      "useImages": true,
-      "imageFiles": [
-        "6.God.Will.Make.a.Way-0.png",
-        "6.God.Will.Make.a.Way-1.png"
-      ],
-      "tracks": [
-        {"name": "MELODY", "src": "audio/God.Will.Make.latest.new.mp3"},
-        {"name": "PIANO ONLY", "src": "audio/God.Will.Make.A.Way.piano.mp3"},
-        {"name": "ALTO", "src": "audio/God.Will.Make.alto.mp3"},
-        {"name": "TENOR", "src": "audio/God.Will.Make.tenor.mp3"},
-        {"name": "BASS", "src": "audio/God.Will.Make.bass.mp3"}
-      ]
-    },
-    {
-      "title": "SACRED SILENCE",
-      "useImages": true,
-      "imageFiles": [
-        "7.Sacred.Silence-0.png"
-      ],
-      "tracks": [
-        {"name": "MELODY", "src": "audio/Sacred.Silence.new.melody.mp3"},
-        {"name": "PIANO ONLY", "src": "audio/Sacred.Silence.piano.mp3"}
-      ]
-    }
+//    {
+//      "title": "WAY MAKER",
+//      "useImages": true,
+//      "imageFiles": [
+//        "4.Way.Maker-0.png",
+//        "4.Way.Maker-1.png",
+//        "4.Way.Maker-2.png"
+//      ],
+//      "tracks": [
+//        {"name": "MELODY", "src": "audio/Waymaker.all.mp3"},
+//        {"name": "PIANO ONLY", "src": "audio/Waymaker.piano.mp3"}
+//      ]
+//    },
+//    {
+//      "title": "GIVE THANKS",
+//      "useImages": true,
+//      "imageFiles": [
+//        "5.Give.Thanks-0.png",
+//        "5.Give.Thanks-1.png"
+//      ],
+//      "tracks": [
+//        {"name": "MELODY", "src": "audio/Give.Thanks.fix.all.mp3"},
+//        {"name": "PIANO ONLY", "src": "audio/Give.Thanks.piano.mp3"}
+//      ]
+//    },
+//    {
+//      "title": "GOD WILL MAKE A WAY",
+//      "useImages": true,
+//      "imageFiles": [
+//        "6.God.Will.Make.a.Way-0.png",
+//        "6.God.Will.Make.a.Way-1.png"
+//      ],
+//      "tracks": [
+//        {"name": "MELODY", "src": "audio/God.Will.Make.latest.new.mp3"},
+//        {"name": "PIANO ONLY", "src": "audio/God.Will.Make.A.Way.piano.mp3"},
+//        {"name": "ALTO", "src": "audio/God.Will.Make.alto.mp3"},
+//        {"name": "TENOR", "src": "audio/God.Will.Make.tenor.mp3"},
+//        {"name": "BASS", "src": "audio/God.Will.Make.bass.mp3"}
+//      ]
+//    },
+//    {
+//      "title": "SACRED SILENCE",
+//      "useImages": true,
+//      "imageFiles": [
+//        "7.Sacred.Silence-0.png"
+//      ],
+//      "tracks": [
+//        {"name": "MELODY", "src": "audio/Sacred.Silence.new.melody.mp3"},
+//        {"name": "PIANO ONLY", "src": "audio/Sacred.Silence.piano.mp3"}
+//      ]
+//    }
   ],
   "allSongsPdf": null
 }
