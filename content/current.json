@@ -1,5 +1,5 @@
 {
-  "serviceDate": "2025-10-26",
+  "serviceDate": "2025-11-02",
   "headerNotes": [
     "Wednesday after church - Christmas Cantata Run-through",
     "Sunday 10:15AM - All, Check-In/Warm Up",
@@ -7,66 +7,84 @@
     "ALL ARE WELCOME TO JOIN IN ANY PART OF THE ABOVE SCHEDULE"
   ],
   "order": [
-    "How Great Thou Art",
-    "Throwback Medley",
-    "OFFERTORY: Offering",
-    "INVITATION: Nothing But The Blood"
+    "Standing On the Promises",
+    "Holy Ground",
+    "Better Is One Day",
+    "How Great Is Our God",
+    "OFFERTORY: Holy Spirit Rain Down",
+    "CHOIR SPECIAL: Our God Reigns"
   ],
   "songs": [
     {
-      "title": "HOW GREAT THOU ART",
+      "title": "STANDING ON THE PROMISES",
       "useImages": true,
       "imageFiles": [
-        "1.How.Great.Thou.Art-0.png",
-        "1.How.Great.Thou.Art-1.png"
+        "1.Standing.on.the.Promises-0.png",
+        "1.Standing.on.the.Promises-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/How.Great.Thou.Art.new.all.mp3"},
-        {"name": "PIANO ONLY", "src": "audio/How.Great.Thou.Art.piano.mp3"},
-        {"name": "ALTO", "src": "audio/How.Great.Thou.Art.alto.mp3"},
-        {"name": "TENOR", "src": "audio/How.Great.Thou.Art.tenor.mp3"},
-        {"name": "BASS", "src": "audio/How.Great.Thou.Art.bass.mp3"}
+        {"name": "MELODY", "src": "audio/Standing.On.The.Promises.all.mp3"},
+        {"name": "PIANO ONLY", "src": "audio/Standing.On.The.Promises.piano.mp3"},
+        {"name": "ALTO", "src": "audio/Standing.On.The.Promises.alto.mp3"},
+        {"name": "TENOR", "src": "audio/Standing.On.The.Promises.tenor.mp3"},
+        {"name": "BASS", "src": "audio/Standing.On.The.Promises.bass.mp3"}
       ]
     },
     {
-      "title": "THROWBACK MEDLEY",
+      "title": "HOLY GROUND",
       "useImages": true,
       "imageFiles": [
-        "2.Throw.Back.Worship.Medley-0.png",
-        "2.Throw.Back.Worship.Medley-1.png",
-        "2.Throw.Back.Worship.Medley-2.png",
-        "2.Throw.Back.Worship.Medley-3.png",
-        "2.Throw.Back.Worship.Medley-4.png",
-        "2.Throw.Back.Worship.Medley-5.png",
-        "2.Throw.Back.Worship.Medley-6.png",
-        "2.Throw.Back.Worship.Medley-7.png",
-        "2.Throw.Back.Worship.Medley-8.png",
-        "2.Throw.Back.Worship.Medley-9.png",
-        "2.Throw.Back.Worship.Medley-10.png",
-        "2.Throw.Back.Worship.Medley-11.png",
-        "2.Throw.Back.Worship.Medley-12.png",
-        "2.Throw.Back.Worship.Medley-13.png",
-        "2.Throw.Back.Worship.Medley-14.png",
-        "2.Throw.Back.Worship.Medley-15.png",
-        "2.Throw.Back.Worship.Medley-16.png",
-        "2.Throw.Back.Worship.Medley-17.png",
-        "2.Throw.Back.Worship.Medley-18.png"
+        "2.Holy.Ground-0.png",
+        "2.Holy.Ground-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Medley.all.mp3"},
-        {"name": "PIANO ONLY", "src": "audio/Medley.piano.mp3"}
+        {"name": "MELODY", "src": "audio/Holy.Ground.mp3"}
       ]
     },
     {
-      "title": "OFFERING",
+      "title": "BETTER IS ONE DAY",
       "useImages": true,
       "imageFiles": [
-        "3.Offering-0.png",
-        "3.Offering-1.png"
+        "4.Better.Is.One.Day-0.png",
+        "4.Better.Is.One.Day-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Offering.all.mp3"},
-        {"name": "PIANO ONLY", "src": "audio/Offering.piano.mp3"}
+        {"name": "MELODY", "src": "audio/Better.Is.One.Day.mp3"}
+      ]
+    },
+    {
+      "title": "HOW GREAT IS OUR GOD",
+      "useImages": true,
+      "imageFiles": [
+        "5.How.Great.Is.Our.God-0.png",
+        "5.How.Great.Is.Our.God-1.png"
+      ],
+      "tracks": [
+        {"name": "MELODY", "src": "audio/How.Great.Is.Our.God.mp3"}
+      ]
+    },
+    {
+      "title": "HOLY SPIRIT RAIN DOWN",
+      "useImages": true,
+      "imageFiles": [
+        "6.Holy.Spirit.Rain.Down-0.png",
+        "6.Holy.Spirit.Rain.Down-1.png"
+      ],
+      "tracks": [
+        {"name": "MELODY", "src": "audio/Holy.Spirit.Rain.Down.mp3"}
+      ]
+    },
+    {
+      "title": "OUR GOD REIGNS",
+      "useImages": true,
+      "imageFiles": [
+        "7.Our.God.Reigns-0.png",
+        "7.Our.God.Reigns-1.png"
+      ],
+      "tracks": [
+        {"name": "MELODY", "src": "audio/Our.God.Reigns.all.mp3"},
+        {"name": "PIANO ONLY", "src": "audio/Our.God.Reigns.piano.mp3"},
+        {"name": "HARMONY", "src": "audio/Our.God.Reigns.harmony.mp3"}
       ]
     }
   ],
