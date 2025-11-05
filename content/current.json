@@ -96,8 +96,12 @@
         "6.Of.Thee.I.Sing.Medley-13.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Patriotic.Choir.Special.melody.mp3"},
-        {"name": "PIANO", "src": "audio/Patriotic.Choir.Special.piano.mp3"}
+        {"name": "MELODY", "src": "audio/Of.Thee.I.Sing.all.melody.mp3"},
+        {"name": "PIANO", "src": "audio/Of.Thee.I.Sing.piano.mp3"},
+        {"name": "ALTO", "src": "audio/Of.Thee.I.Sing.alto.mp3"},
+        {"name": "TENOR", "src": "audio/Of.Thee.I.Sing.tenor.mp3"},
+        {"name": "BASS", "src": "audio/Of.Thee.I.Sing.bass.mp3"}
+
       ]
     }
   ],
