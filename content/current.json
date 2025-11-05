@@ -7,84 +7,97 @@
     "ALL ARE WELCOME TO JOIN IN ANY PART OF THE ABOVE SCHEDULE"
   ],
   "order": [
-    "Standing On the Promises",
-    "Holy Ground",
-    "Better Is One Day",
-    "How Great Is Our God",
-    "OFFERTORY: Holy Spirit Rain Down",
-    "CHOIR SPECIAL: Our God Reigns"
+    "10,000 Reasons -- Bless the Lord",
+    "Open the Eyes Of My Heart",
+    "Here I Am to Worship",
+    "My Jesus",
+    "OFFERTORY: Worthy of Worship",
+    "CHOIR SPECIAL: Of Thee I Sing"
   ],
   "songs": [
     {
-      "title": "STANDING ON THE PROMISES",
+      "title": "10,000 REASONS",
       "useImages": true,
       "imageFiles": [
-        "1.Standing.on.the.Promises-0.png",
-        "1.Standing.on.the.Promises-1.png"
+        "1.10,000.Reasons-0.png",
+        "1.10,000.Reasons-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Standing.On.The.Promises.all.mp3"},
-        {"name": "PIANO ONLY", "src": "audio/Standing.On.The.Promises.piano.mp3"},
-        {"name": "ALTO", "src": "audio/Standing.On.The.Promises.alto.mp3"},
-        {"name": "TENOR", "src": "audio/Standing.On.The.Promises.tenor.mp3"},
-        {"name": "BASS", "src": "audio/Standing.On.The.Promises.bass.mp3"}
+        {"name": "MELODY", "src": "audio/10k.Reasons.Bless.the.Lord.melody.mp3"},
+        {"name": "PIANO", "src": "audio/10k.Reasons.Bless.the.Lord.piano.mp3"}
       ]
     },
     {
-      "title": "HOLY GROUND",
+      "title": "OPEN THE EYES OF MY HEART",
       "useImages": true,
       "imageFiles": [
-        "2.Holy.Ground-0.png",
-        "2.Holy.Ground-1.png"
+        "2.Open.the.Eyes.of.My.Heart-0.png",
+        "2.Open.the.Eyes.of.My.Heart-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Holy.Ground.mp3"}
+        {"name": "MELODY", "src": "audio/Open.the.Eyes.Of.My.Heart.melody.mp3"},
+        {"name": "PIANO", "src": "audio/Open.the.Eyes.Of.My.Heart.piano.mp3"}
       ]
     },
     {
-      "title": "BETTER IS ONE DAY",
+      "title": "HERE I AM TO WORSHIP",
       "useImages": true,
       "imageFiles": [
-        "4.Better.Is.One.Day-0.png",
-        "4.Better.Is.One.Day-1.png"
+        "3.Here.I.Am.to.Worship-0.png",
+        "3.Here.I.Am.to.Worship-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Better.Is.One.Day.mp3"}
+        {"name": "MELODY", "src": "audio/Here.I.Am.To.Worship.melody.mp3"},
+        {"name": "PIANO", "src": "audio/Here.I.Am.To.Worship.piano.mp3"}
+
       ]
     },
     {
-      "title": "HOW GREAT IS OUR GOD",
+      "title": "MY JESUS",
       "useImages": true,
       "imageFiles": [
-        "5.How.Great.Is.Our.God-0.png",
-        "5.How.Great.Is.Our.God-1.png"
+        "4.My.Jesus-0.png",
+        "4.My.Jesus-1.png",
+        "4.My.Jesus-2.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/How.Great.Is.Our.God.mp3"}
+        {"name": "MELODY", "src": "audio/My.Jesus.melody.mp3"},
+        {"name": "PIANO", "src": "audio/My.Jesus.piano.new.mp3"}
       ]
     },
     {
-      "title": "HOLY SPIRIT RAIN DOWN",
+      "title": "WORTHY OF WORSHIP",
       "useImages": true,
       "imageFiles": [
-        "6.Holy.Spirit.Rain.Down-0.png",
-        "6.Holy.Spirit.Rain.Down-1.png"
+        "5.Worthy.of.Worship-0.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Holy.Spirit.Rain.Down.mp3"}
+        {"name": "MELODY", "src": "audio/Worthy.of.Worship.mp3"},
+        {"name": "PIANO", "src": "audio/Worthy.of.Worship.piano.mp3"}
       ]
     },
     {
-      "title": "OUR GOD REIGNS",
+      "title": "OF THEE I SING",
       "useImages": true,
       "imageFiles": [
-        "7.Our.God.Reigns-0.png",
-        "7.Our.God.Reigns-1.png"
+        "6.Of.Thee.I.Sing.Medley-0.png",
+        "6.Of.Thee.I.Sing.Medley-1.png",
+        "6.Of.Thee.I.Sing.Medley-2.png",
+        "6.Of.Thee.I.Sing.Medley-3.png",
+        "6.Of.Thee.I.Sing.Medley-4.png",
+        "6.Of.Thee.I.Sing.Medley-5.png",
+        "6.Of.Thee.I.Sing.Medley-6.png",
+        "6.Of.Thee.I.Sing.Medley-7.png",
+        "6.Of.Thee.I.Sing.Medley-8.png",
+        "6.Of.Thee.I.Sing.Medley-9.png",
+        "6.Of.Thee.I.Sing.Medley-10.png",
+        "6.Of.Thee.I.Sing.Medley-11.png",
+        "6.Of.Thee.I.Sing.Medley-12.png",
+        "6.Of.Thee.I.Sing.Medley-13.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Our.God.Reigns.all.mp3"},
-        {"name": "PIANO ONLY", "src": "audio/Our.God.Reigns.piano.mp3"},
-        {"name": "HARMONY", "src": "audio/Our.God.Reigns.harmony.mp3"}
+        {"name": "MELODY", "src": "audio/Patriotic.Choir.Special.melody.mp3"},
+        {"name": "PIANO", "src": "audio/Patriotic.Choir.Special.piano.mp3"}
       ]
     }
   ],
