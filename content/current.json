@@ -61,7 +61,7 @@
         "4.My.Jesus-2.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/My.Jesus.melody.mp3"},
+        {"name": "MELODY", "src": "audio/My.Jesus.new.mp3"},
         {"name": "PIANO", "src": "audio/My.Jesus.piano.new.mp3"}
       ]
     },
