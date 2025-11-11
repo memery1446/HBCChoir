@@ -26,6 +26,7 @@
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/House.of.the.Lord.mp3"}
+      ]
     },
     {
       "title": "HOLY HOLY HOLY",
@@ -110,7 +111,7 @@
         {"name": "SOPRANO", "src": "audio/He.Hideth.My.Soul.soprano.mp3"},
         {"name": "ALTO", "src": "audio/He.Hideth.My.Soul.alto.mp3"},
         {"name": "TENOR", "src": "audio/He.Hideth.My.Soul.tenor.mp3"},
-        {"name": "BASS", "src": "audio/He.Hideth.My.Soul.tenor.mp3"}
+        {"name": "BASS", "src": "audio/He.Hideth.My.Soul.bass.mp3"}
 
       ]
     }
