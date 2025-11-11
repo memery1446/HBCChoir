@@ -1,5 +1,5 @@
 {
-  "serviceDate": "2025-11-09",
+  "serviceDate": "2025-11-16",
   "headerNotes": [
     "Wednesday after church - Christmas Cantata Run-through",
     "Sunday 10:15AM - All, Check-In/Warm Up",
@@ -7,100 +7,110 @@
     "ALL ARE WELCOME TO JOIN IN ANY PART OF THE ABOVE SCHEDULE"
   ],
   "order": [
-    "10,000 Reasons -- Bless the Lord",
-    "Open the Eyes Of My Heart",
-    "Here I Am to Worship",
-    "My Jesus",
-    "OFFERTORY: Worthy of Worship",
-    "CHOIR SPECIAL: Of Thee I Sing"
+    "House of the Lord",
+    "Holy, Holy, Holy",
+    "Doxology",
+    "Praise the Father, Praise the Son",
+    "Forever",
+    "OFFERTORY: Think About His Love",
+    "CHOIR SPECIAL: He Hideth My Soul"
   ],
   "songs": [
     {
-      "title": "10,000 REASONS",
+      "title": "HOUSE OF THE LORD",
       "useImages": true,
       "imageFiles": [
-        "1.10,000.Reasons-0.png",
-        "1.10,000.Reasons-1.png"
+        "1.House.of.the.Lord-0.png",
+        "1.House.of.the.Lord-1.png",
+        "1.House.of.the.Lord-2.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/10k.Reasons.Bless.the.Lord.melody.mp3"},
-        {"name": "PIANO", "src": "audio/10k.Reasons.Bless.the.Lord.piano.mp3"}
+        {"name": "MELODY", "src": "audio/House.of.the.Lord.mp3"}
+    },
+    {
+      "title": "HOLY HOLY HOLY",
+      "useImages": true,
+      "imageFiles": [
+        "2.Holy.Holy.Holy-0.png"
+      ],
+      "tracks": [
+        {"name": "MELODY", "src": "audio/Holy.Holy.Holy.mp3"},
+        {"name": "ALTO", "src": "audio/Holy3.ALTO.mp3"},
+        {"name": "TENOR", "src": "audio/Holy3.TENOR.mp3"},
+        {"name": "BASS", "src": "audio/Holy3.BASS.mp3"}
       ]
     },
     {
-      "title": "OPEN THE EYES OF MY HEART",
+      "title": "DOXOLOGY",
       "useImages": true,
       "imageFiles": [
-        "2.Open.the.Eyes.of.My.Heart-0.png",
-        "2.Open.the.Eyes.of.My.Heart-1.png"
+        "3.Doxology-0.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Open.the.Eyes.Of.My.Heart.melody.mp3"},
-        {"name": "PIANO", "src": "audio/Open.the.Eyes.Of.My.Heart.piano.mp3"}
+        {"name": "MELODY", "src": "audio/Doxology.all.mp3"},
+        {"name": "PIANO", "src": "audio/Doxology.piano.mp3"}
       ]
     },
     {
-      "title": "HERE I AM TO WORSHIP",
+      "title": "PRAISE THE FATHER PRAISE THE SON",
       "useImages": true,
       "imageFiles": [
-        "3.Here.I.Am.to.Worship-0.png",
-        "3.Here.I.Am.to.Worship-1.png"
+        "4.Praise.the.Father.Praise.the.Son-0.png",
+        "4.Praise.the.Father.Praise.the.Son-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Here.I.Am.To.Worship.melody.mp3"},
-        {"name": "PIANO", "src": "audio/Here.I.Am.To.Worship.piano.mp3"}
+        {"name": "MELODY", "src": "audio/Praise.the.Father.Praise.the.Son.melody.mp3"},
+        {"name": "PIANO", "src": "audio/Praise.the.Father.Praise.the.Son.piano.mp3"}
 
       ]
     },
     {
-      "title": "MY JESUS",
+      "title": "FOREVER",
       "useImages": true,
       "imageFiles": [
-        "4.My.Jesus-0.png",
-        "4.My.Jesus-1.png",
-        "4.My.Jesus-2.png"
+        "5.Forever-0.png",
+        "5.Forever-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/My.Jesus.new.mp3"},
-        {"name": "PIANO", "src": "audio/My.Jesus.piano.new.mp3"}
+        {"name": "MELODY", "src": "audio/Forever.all.mp3"},
+        {"name": "PIANO", "src": "audio/Forever.piano.mp3"}
       ]
     },
     {
-      "title": "WORTHY OF WORSHIP",
+      "title": "THINK ABOUT HIS LOVE",
       "useImages": true,
       "imageFiles": [
-        "5.Worthy.of.Worship-0.png"
+        "6.Think.about.His.Love-0.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Worthy.of.Worship.mp3"},
-        {"name": "PIANO", "src": "audio/Worthy.of.Worship.piano.mp3"}
+        {"name": "PIANO", "src": "audio/Think.About.His.Love.mp3"}
       ]
     },
     {
-      "title": "OF THEE I SING",
+      "title": "HE HIDETH MY SOUL",
       "useImages": true,
       "imageFiles": [
-        "6.Of.Thee.I.Sing.Medley-0.png",
-        "6.Of.Thee.I.Sing.Medley-1.png",
-        "6.Of.Thee.I.Sing.Medley-2.png",
-        "6.Of.Thee.I.Sing.Medley-3.png",
-        "6.Of.Thee.I.Sing.Medley-4.png",
-        "6.Of.Thee.I.Sing.Medley-5.png",
-        "6.Of.Thee.I.Sing.Medley-6.png",
-        "6.Of.Thee.I.Sing.Medley-7.png",
-        "6.Of.Thee.I.Sing.Medley-8.png",
-        "6.Of.Thee.I.Sing.Medley-9.png",
-        "6.Of.Thee.I.Sing.Medley-10.png",
-        "6.Of.Thee.I.Sing.Medley-11.png",
-        "6.Of.Thee.I.Sing.Medley-12.png",
-        "6.Of.Thee.I.Sing.Medley-13.png"
+        "7.He.Hideth.My.Soul-0.png",
+        "7.He.Hideth.My.Soul-1.png",
+        "7.He.Hideth.My.Soul-2.png",
+        "7.He.Hideth.My.Soul-3.png",
+        "7.He.Hideth.My.Soul-4.png",
+        "7.He.Hideth.My.Soul-5.png",
+        "7.He.Hideth.My.Soul-6.png",
+        "7.He.Hideth.My.Soul-7.png",
+        "7.He.Hideth.My.Soul-8.png",
+        "7.He.Hideth.My.Soul-9.png",
+        "7.He.Hideth.My.Soul-10.png",
+        "7.He.Hideth.My.Soul-11.png",
+        "7.He.Hideth.My.Soul-12.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Of.Thee.I.Sing.all.mp3"},
-        {"name": "PIANO", "src": "audio/Of.Thee.I.Sing.piano.mp3"},
-        {"name": "ALTO", "src": "audio/Of.Thee.I.Sing.alto.mp3"},
-        {"name": "TENOR", "src": "audio/Of.Thee.I.Sing.tenor.mp3"},
-        {"name": "BASS", "src": "audio/Of.Thee.I.Sing.bass.mp3"}
+        {"name": "MELODY", "src": "audio/He.Hideth.My.Soul.all.mp3"},
+        {"name": "PIANO", "src": "audio/He.Hideth.My.Soul.pano.mp3"},
+        {"name": "SOPRANO", "src": "audio/He.Hideth.My.Soul.soprano.mp3"},
+        {"name": "ALTO", "src": "audio/He.Hideth.My.Soul.alto.mp3"},
+        {"name": "TENOR", "src": "audio/He.Hideth.My.Soul.tenor.mp3"},
+        {"name": "BASS", "src": "audio/He.Hideth.My.Soul.tenor.mp3"}
 
       ]
     }
