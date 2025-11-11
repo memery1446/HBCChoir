@@ -84,7 +84,7 @@
         "6.Think.about.His.Love-0.png"
       ],
       "tracks": [
-        {"name": "PIANO", "src": "audio/Think.About.His.Love.mp3"}
+        {"name": "PIANO", "src": "audio/Think.About.His.Love.piano.mp3"}
       ]
     },
     {
@@ -107,7 +107,7 @@
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/He.Hideth.My.Soul.all.mp3"},
-        {"name": "PIANO", "src": "audio/He.Hideth.My.Soul.pano.mp3"},
+        {"name": "PIANO", "src": "audio/He.Hideth.My.Soul.piano.mp3"},
         {"name": "SOPRANO", "src": "audio/He.Hideth.My.Soul.soprano.mp3"},
         {"name": "ALTO", "src": "audio/He.Hideth.My.Soul.alto.mp3"},
         {"name": "TENOR", "src": "audio/He.Hideth.My.Soul.tenor.mp3"},
