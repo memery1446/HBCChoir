@@ -1,5 +1,5 @@
 {
-  "serviceDate": "2025-11-16",
+  "serviceDate": "2025-11-23",
   "headerNotes": [
     "Wednesday after church - Christmas Cantata Run-through",
     "Sunday 10:15AM - All, Check-In/Warm Up",
@@ -7,111 +7,90 @@
     "ALL ARE WELCOME TO JOIN IN ANY PART OF THE ABOVE SCHEDULE"
   ],
   "order": [
-    "House of the Lord",
-    "Holy, Holy, Holy",
-    "Doxology",
-    "Praise the Father, Praise the Son",
-    "Forever",
-    "OFFERTORY: Think About His Love",
-    "CHOIR SPECIAL: He Hideth My Soul"
+    "We Gather Together",
+    "For the Beauty of the Earth",
+    "Goodness of God",
+    "Living Hope",
+    "OFFERTORY: Give Thanks",
+    "CHOIR SPECIAL: My Tribute / Thank You Lord"
   ],
   "songs": [
     {
-      "title": "HOUSE OF THE LORD",
+      "title": "WE GATHER TOGETHER",
       "useImages": true,
       "imageFiles": [
-        "1.House.of.the.Lord-0.png",
-        "1.House.of.the.Lord-1.png",
-        "1.House.of.the.Lord-2.png"
+        "1.We.Gather.Together-0.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/House.of.the.Lord.mp3"}
+        {"name": "MELODY", "src": "audio/We.Gather.Together.mp3"}
       ]
     },
     {
-      "title": "HOLY HOLY HOLY",
+      "title": "FOR THE BEAUTY OF THE EARTH",
       "useImages": true,
       "imageFiles": [
-        "2.Holy.Holy.Holy-0.png"
+        "2.For.the.Beauty.of.the.Earth-0.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Holy.Holy.Holy.mp3"},
-        {"name": "ALTO", "src": "audio/Holy3.ALTO.mp3"},
-        {"name": "TENOR", "src": "audio/Holy3.TENOR.mp3"},
-        {"name": "BASS", "src": "audio/Holy3.BASS.mp3"}
+        {"name": "MELODY", "src": "audio/For.The.Beauty.of.the.Earth.mp3"}
       ]
     },
     {
-      "title": "DOXOLOGY",
+      "title": "GOODNESS OF GOD",
       "useImages": true,
       "imageFiles": [
-        "3.Doxology-0.png"
+        "3.Goodness.of.God-0.png",
+        "3.Goodness.of.God-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Doxology.all.mp3"},
-        {"name": "PIANO", "src": "audio/Doxology.piano.mp3"}
+        {"name": "MELODY", "src": "audio/Goodness.of.God.mp3"}
       ]
     },
     {
-      "title": "PRAISE THE FATHER PRAISE THE SON",
+      "title": "LIVING HOPE",
       "useImages": true,
       "imageFiles": [
-        "4.Praise.the.Father.Praise.the.Son-0.png",
-        "4.Praise.the.Father.Praise.the.Son-1.png"
+        "4.Living.Hope-0.png",
+        "4.Living.Hope-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Praise.the.Father.Praise.the.Son.melody.mp3"},
-        {"name": "PIANO", "src": "audio/Praise.the.Father.Praise.the.Son.piano.mp3"}
+        {"name": "MELODY", "src": "audio/Living.Hope.all.mp3"},
+        {"name": "PIANO", "src": "audio/Living.Hope.alto.mp3"}
 
       ]
     },
     {
-      "title": "FOREVER",
+      "title": "GIVE THANKS",
       "useImages": true,
       "imageFiles": [
-        "5.Forever-0.png",
-        "5.Forever-1.png"
+        "5.Give.Thanks-0.png",
+        "5.Give.Thanks-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Forever.all.mp3"},
-        {"name": "PIANO", "src": "audio/Forever.piano.mp3"}
+        {"name": "MELODY", "src": "audio/Give.Thanks.all.mp3"},
+        {"name": "PIANO", "src": "audio/Give.Thanks.piano.mp3"}
       ]
     },
     {
-      "title": "THINK ABOUT HIS LOVE",
+      "title": "MY TRIBUTE/THANK YOU (GRATEFUL MELODY)",
       "useImages": true,
       "imageFiles": [
-        "6.Think.about.His.Love-0.png"
+        "6.Grateful.Medley-0.png",
+        "6.Grateful.Medley-1.png",
+        "6.Grateful.Medley-2.png",
+        "6.Grateful.Medley-3.png",
+        "6.Grateful.Medley-4.png",
+        "6.Grateful.Medley-5.png",
+        "6.Grateful.Medley-6.png",
+        "6.Grateful.Medley-7.png",
+        "6.Grateful.Medley-8.png",
+        "6.Grateful.Medley-9.png"
       ],
       "tracks": [
-        {"name": "PIANO", "src": "audio/Think.About.His.Love.piano.mp3"}
-      ]
-    },
-    {
-      "title": "HE HIDETH MY SOUL",
-      "useImages": true,
-      "imageFiles": [
-        "7.He.Hideth.My.Soul-0.png",
-        "7.He.Hideth.My.Soul-1.png",
-        "7.He.Hideth.My.Soul-2.png",
-        "7.He.Hideth.My.Soul-3.png",
-        "7.He.Hideth.My.Soul-4.png",
-        "7.He.Hideth.My.Soul-5.png",
-        "7.He.Hideth.My.Soul-6.png",
-        "7.He.Hideth.My.Soul-7.png",
-        "7.He.Hideth.My.Soul-8.png",
-        "7.He.Hideth.My.Soul-9.png",
-        "7.He.Hideth.My.Soul-10.png",
-        "7.He.Hideth.My.Soul-11.png",
-        "7.He.Hideth.My.Soul-12.png"
-      ],
-      "tracks": [
-        {"name": "MELODY", "src": "audio/He.Hideth.My.Soul.all.mp3"},
-        {"name": "PIANO", "src": "audio/He.Hideth.My.Soul.piano.mp3"},
-        {"name": "SOPRANO", "src": "audio/He.Hideth.My.Soul.soprano.mp3"},
-        {"name": "ALTO", "src": "audio/He.Hideth.My.Soul.alto.mp3"},
-        {"name": "TENOR", "src": "audio/He.Hideth.My.Soul.tenor.mp3"},
-        {"name": "BASS", "src": "audio/He.Hideth.My.Soul.bass.mp3"}
+        {"name": "MELODY", "src": "audio/My.Tribute.Thank.You.Lord.all.mp3"},
+        {"name": "PIANO", "src": "audio/My.Tribute.Thank.You.Lord.piano.mp3"},
+        {"name": "ALTO", "src": "audio/My.Tribute.Thank.You.Lord.alto.mp3"},
+        {"name": "BASS", "src": "audio/My.Tribute.Thank.You.Lord.bass.mp3"}
 
       ]
     }
