@@ -54,8 +54,8 @@
         "4.Living.Hope-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Living.Hope.all.mp3"},
-        {"name": "PIANO", "src": "audio/Living.Hope.alto.mp3"}
+        {"name": "MELODY", "src": "audio/My.Living.Hope.all.mp3"},
+        {"name": "ALTO", "src": "audio/Living.Hope.alto.mp3"}
 
       ]
     },
