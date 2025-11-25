@@ -7,6 +7,7 @@
     "ALL ARE WELCOME TO JOIN IN ANY PART OF THE ABOVE SCHEDULE"
   ],
   "order": [
+    "I Cannot Tell It All",
     "Come, Thou Long Expected Jesus",
     "O Come, O Come, Emmanuel",
     "Ready the Way",
@@ -16,7 +17,17 @@
   ],
   "songs": [
     {
-      "title": "COME THOU LONG EXPECTED JESUS (NOT INCLUDED SINCE FAMILIAR TO ALL)",
+      "title": "I CANNOT TELL IT ALL",
+      "useImages": true,
+      "imageFiles": [
+
+      ],
+      "tracks": [
+        {"name": "MELODY", "src": "audio/I.Cannot.Tell.It.All.mp3"}
+      ]
+    },
+    {
+      "title": "COME THOU LONG EXPECTED JESUS (NOT INCLUDED SINCE FAMILIAR)",
       "useImages": true,
       "imageFiles": [
 
@@ -33,7 +44,8 @@
         "1.O.Come.O.Come.Emmanuel-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/For.The.Beauty.of.the.Earth.mp3"}
+        {"name": "PIANO", "src": "audio/O.Come.O.Come.Emmanuel.piano.mp3"},
+        {"name": "MELODY", "src": "audio/O.Come.O.Come.Emmanuel.melody.mp3"}
       ]
     },
     {
@@ -44,20 +56,19 @@
         "2.Ready.the.Way-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Goodness.of.God.mp3"}
+        {"name": "MELODY", "src": "audio/Ready.the.Way.mp3"}
       ]
     },
     {
-      "title": "HE HAS COME (GOD REST YE MERRY GENTLEMEN)",
+      "title": "HE HAS COME FOR US (GOD REST YE MERRY GENTLEMEN)",
       "useImages": true,
       "imageFiles": [
         "3.He.Has.Come.for.Us-0.png",
         "3.He.Has.Come.for.Us-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/My.Living.Hope.all.mp3"},
-        {"name": "ALTO", "src": "audio/Living.Hope.alto.mp3"}
-
+        {"name": "MELODY", "src": "audio/God.Rest.Ye.He.Has.Come.For.Us.melody.mp3"},
+        {"name": "PIANO", "src": "audio/God.Rest.Ye.He.Has.Come.For.Us.piano.mp3"}
       ]
     },
     {
@@ -68,8 +79,8 @@
         "4.Christmas.Offering-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Give.Thanks.all.mp3"},
-        {"name": "PIANO", "src": "audio/Give.Thanks.piano.mp3"}
+        {"name": "MELODY", "src": "audio/Christmas.Offering.melody.mp3"},
+        {"name": "PIANO", "src": "audio/Christmas.Offering.piano.mp3"}
       ]
     },
     {
@@ -81,10 +92,7 @@
         "5.Emmanuel.Immanuel-2.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/My.Tribute.Thank.You.Lord.all.mp3"},
-        {"name": "PIANO", "src": "audio/My.Tribute.Thank.You.Lord.piano.mp3"},
-        {"name": "ALTO", "src": "audio/My.Tribute.Thank.You.Lord.alto.mp3"},
-        {"name": "BASS", "src": "audio/My.Tribute.Thank.You.Lord.bass.mp3"}
+        {"name": "MELODY", "src": "audio/Emmanuel.Immanuel.melody.mp3"}
 
       ]
     }
