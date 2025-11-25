@@ -20,7 +20,7 @@
       "title": "I CANNOT TELL IT ALL",
       "useImages": true,
       "imageFiles": [
-
+        "0.I.Cannot.Tell.It.All-0.png"
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/I.Cannot.Tell.It.All.mp3"}
@@ -89,7 +89,8 @@
       "imageFiles": [
         "5.Emmanuel.Immanuel-0.png",
         "5.Emmanuel.Immanuel-1.png",
-        "5.Emmanuel.Immanuel-2.png"
+        "5.Emmanuel.Immanuel-2.png",
+        "5.Emmanuel.Immanuel-3.png"
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/Emmanuel.Immanuel.melody.mp3"}
