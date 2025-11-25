@@ -1,5 +1,5 @@
 {
-  "serviceDate": "2025-11-23",
+  "serviceDate": "2025-11-30",
   "headerNotes": [
     "Wednesday after church - Christmas Cantata Run-through",
     "Sunday 10:15AM - All, Check-In/Warm Up",
@@ -7,51 +7,52 @@
     "ALL ARE WELCOME TO JOIN IN ANY PART OF THE ABOVE SCHEDULE"
   ],
   "order": [
-    "We Gather Together",
-    "For the Beauty of the Earth",
-    "Goodness of God",
-    "Living Hope",
-    "OFFERTORY: Give Thanks",
-    "CHOIR SPECIAL: My Tribute / Thank You Lord"
+    "Come, Thou Long Expected Jesus",
+    "O Come, O Come, Emmanuel",
+    "Ready the Way",
+    "He Has Come (God Rest Ye Merry Gentlemen)",
+    "OFFERTORY: Christmas Offering",
+    "CHOIR SPECIAL: Emmanuel/Immanuel"
   ],
   "songs": [
     {
-      "title": "WE GATHER TOGETHER",
+      "title": "COME THOU LONG EXPECTED JESUS (NOT INCLUDED SINCE FAMILIAR TO ALL)",
       "useImages": true,
       "imageFiles": [
-        "1.We.Gather.Together-0.png"
+
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/We.Gather.Together.mp3"}
+
       ]
     },
     {
-      "title": "FOR THE BEAUTY OF THE EARTH",
+      "title": "O COME O COME EMMANUEL",
       "useImages": true,
       "imageFiles": [
-        "2.For.the.Beauty.of.the.Earth-0.png"
+        "1.O.Come.O.Come.Emmanuel-0.png",
+        "1.O.Come.O.Come.Emmanuel-1.png"
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/For.The.Beauty.of.the.Earth.mp3"}
       ]
     },
     {
-      "title": "GOODNESS OF GOD",
+      "title": "READY THE WAY",
       "useImages": true,
       "imageFiles": [
-        "3.Goodness.of.God-0.png",
-        "3.Goodness.of.God-1.png"
+        "2.Ready.the.Way-0.png",
+        "2.Ready.the.Way-1.png"
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/Goodness.of.God.mp3"}
       ]
     },
     {
-      "title": "LIVING HOPE",
+      "title": "HE HAS COME (GOD REST YE MERRY GENTLEMEN)",
       "useImages": true,
       "imageFiles": [
-        "4.Living.Hope-0.png",
-        "4.Living.Hope-1.png"
+        "3.He.Has.Come.for.Us-0.png",
+        "3.He.Has.Come.for.Us-1.png"
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/My.Living.Hope.all.mp3"},
@@ -60,11 +61,11 @@
       ]
     },
     {
-      "title": "GIVE THANKS",
+      "title": "CHRISTMAS OFFERING",
       "useImages": true,
       "imageFiles": [
-        "5.Give.Thanks-0.png",
-        "5.Give.Thanks-1.png"
+        "4.Christmas.Offering-0.png",
+        "4.Christmas.Offering-1.png"
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/Give.Thanks.all.mp3"},
@@ -72,19 +73,12 @@
       ]
     },
     {
-      "title": "MY TRIBUTE/THANK YOU (GRATEFUL MELODY)",
+      "title": "EMMANUEL/IMMANUEL",
       "useImages": true,
       "imageFiles": [
-        "6.Grateful.Medley-0.png",
-        "6.Grateful.Medley-1.png",
-        "6.Grateful.Medley-2.png",
-        "6.Grateful.Medley-3.png",
-        "6.Grateful.Medley-4.png",
-        "6.Grateful.Medley-5.png",
-        "6.Grateful.Medley-6.png",
-        "6.Grateful.Medley-7.png",
-        "6.Grateful.Medley-8.png",
-        "6.Grateful.Medley-9.png"
+        "5.Emmanuel.Immanuel-0.png",
+        "5.Emmanuel.Immanuel-1.png",
+        "5.Emmanuel.Immanuel-2.png"
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/My.Tribute.Thank.You.Lord.all.mp3"},
