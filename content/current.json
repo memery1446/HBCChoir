@@ -28,13 +28,9 @@
     },
     {
       "title": "COME THOU LONG EXPECTED JESUS (NOT INCLUDED SINCE FAMILIAR)",
-      "useImages": true,
-      "imageFiles": [
-
-      ],
-      "tracks": [
-
-      ]
+      "useImages": false,
+      "imageFiles": [],
+      "tracks": []
     },
     {
       "title": "O COME O COME EMMANUEL",
