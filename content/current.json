@@ -44,8 +44,9 @@
         "1.O.Come.O.Come.Emmanuel-1.png"
       ],
       "tracks": [
-        {"name": "PIANO", "src": "audio/O.Come.O.Come.Emmanuel.piano.mp3"},
-        {"name": "MELODY", "src": "audio/O.Come.O.Come.Emmanuel.melody.mp3"}
+        {"name": "MELODY", "src": "audio/O.Come.O.Come.Emmanuel.melody.mp3"},
+        {"name": "PIANO", "src": "audio/O.Come.O.Come.Emmanuel.piano.mp3"}
+
       ]
     },
     {
