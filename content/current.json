@@ -68,9 +68,9 @@
         "3.Emmanuel.Medley-14.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/O.Come.O.Come.Emmanuel.melody.mp3"},
-        {"name": "PIANO", "src": "audio/O.Come.O.Come.Emmanuel.piano.mp3"}
-
+        {"name": "MELODY", "src": "audio/Emmanuel.Medley.all.mp3"},
+        {"name": "PIANO", "src": "audio/Emmanuel.Medley.piano.mp3"},
+        {"name": "LOWER HARMONY", "src": "audio/Emmanuel.Medley.lower.harmony.mp3"}
       ]
     },
 
