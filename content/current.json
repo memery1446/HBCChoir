@@ -1,5 +1,5 @@
 {
-  "serviceDate": "2025-11-30",
+  "serviceDate": "2025-12-07",
   "headerNotes": [
     "Wednesday after church - Christmas Cantata Run-through",
     "Sunday 10:15AM - All, Check-In/Warm Up",
@@ -7,42 +7,33 @@
     "ALL ARE WELCOME TO JOIN IN ANY PART OF THE ABOVE SCHEDULE"
   ],
   "order": [
-    "I Cannot Tell It All",
-    "Come, Thou Long Expected Jesus",
-    "O Come, O Come, Emmanuel",
+    "Soon and Very Soon",
     "Ready the Way",
-    "He Has Come (God Rest Ye Merry Gentlemen)",
+    "Emmanuel Medley",
+    "Angels We Have Heard On High",
     "OFFERTORY: Christmas Offering",
-    "CHOIR SPECIAL: Emmanuel/Immanuel"
+    "CHOIR SPECIAL: Michael Mitchell, solo -- Mary Did You Know"
   ],
   "songs": [
     {
-      "title": "I CANNOT TELL IT ALL",
+      "title": "SOON AND VERY SOON",
       "useImages": true,
       "imageFiles": [
-        "0.I.Cannot.Tell.It.All-0.png"
+        "1.Soon.and.Very.Soon-0.png",
+        "1.Soon.and.Very.Soon-1.png",
+        "1.Soon.and.Very.Soon-2.png",
+        "1.Soon.and.Very.Soon-3.png",
+        "1.Soon.and.Very.Soon-4.png",
+        "1.Soon.and.Very.Soon-5.png",
+        "1.Soon.and.Very.Soon-6.png",
+        "1.Soon.and.Very.Soon-7.png",
+        "1.Soon.and.Very.Soon-8.png",
+        "1.Soon.and.Very.Soon-9.png",
+        "1.Soon.and.Very.Soon-10.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/I.Cannot.Tell.It.All.mp3"}
-      ]
-    },
-    {
-      "title": "COME THOU LONG EXPECTED JESUS (NOT INCLUDED SINCE FAMILIAR)",
-      "useImages": false,
-      "imageFiles": [],
-      "tracks": []
-    },
-    {
-      "title": "O COME O COME EMMANUEL",
-      "useImages": true,
-      "imageFiles": [
-        "1.O.Come.O.Come.Emmanuel-0.png",
-        "1.O.Come.O.Come.Emmanuel-1.png"
-      ],
-      "tracks": [
-        {"name": "MELODY", "src": "audio/O.Come.O.Come.Emmanuel.melody.mp3"},
-        {"name": "PIANO", "src": "audio/O.Come.O.Come.Emmanuel.piano.mp3"}
-
+        {"name": "MELODY", "src": "audio/Soon.and.Very.Soon.mp3"},
+        {"name": "PIANO", "src": "audio/Soon.and.Very.Soon.piano.mp3"}
       ]
     },
     {
@@ -57,23 +48,52 @@
       ]
     },
     {
-      "title": "HE HAS COME FOR US (GOD REST YE MERRY GENTLEMEN)",
+      "title": "EMMANUEL MEDLEY",
       "useImages": true,
       "imageFiles": [
-        "3.He.Has.Come.for.Us-0.png",
-        "3.He.Has.Come.for.Us-1.png"
+        "3.Emmanuel.Medley-0.png",
+        "3.Emmanuel.Medley-1.png",
+        "3.Emmanuel.Medley-2.png",
+        "3.Emmanuel.Medley-3.png",
+        "3.Emmanuel.Medley-4.png",
+        "3.Emmanuel.Medley-5.png",
+        "3.Emmanuel.Medley-6.png",
+        "3.Emmanuel.Medley-7.png",
+        "3.Emmanuel.Medley-8.png",
+        "3.Emmanuel.Medley-9.png",
+        "3.Emmanuel.Medley-10.png",
+        "3.Emmanuel.Medley-11.png",
+        "3.Emmanuel.Medley-12.png",
+        "3.Emmanuel.Medley-13.png",
+        "3.Emmanuel.Medley-14.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/God.Rest.Ye.He.Has.Come.For.Us.melody.mp3"},
-        {"name": "PIANO", "src": "audio/God.Rest.Ye.He.Has.Come.For.Us.piano.mp3"}
+        {"name": "MELODY", "src": "audio/O.Come.O.Come.Emmanuel.melody.mp3"},
+        {"name": "PIANO", "src": "audio/O.Come.O.Come.Emmanuel.piano.mp3"}
+
+      ]
+    },
+
+    {
+      "title": "ANGELS WE HAVE HEARD ON HIGH",
+      "useImages": true,
+      "imageFiles": [
+        "4.Angels.We.Have.Heard.on.High-0.png"
+      ],
+      "tracks": [
+        {"name": "MELODY", "src": "audio/Angels.We.Have.Heard.On.High.all.mp3"},
+        {"name": "PIANO", "src": "audio/Angels.We.Have.Heard.On.High.piano.mp3"},
+        {"name": "ALTO", "src": "audio/Angels.We.Have.Heard.On.High.alto.mp3"},
+        {"name": "TENOR", "src": "audio/Angels.We.Have.Heard.On.High.tenor.mp3"},
+        {"name": "BASS", "src": "audio/Angels.We.Have.Heard.On.High.bass.mp3"}
       ]
     },
     {
       "title": "CHRISTMAS OFFERING",
       "useImages": true,
       "imageFiles": [
-        "4.Christmas.Offering-0.png",
-        "4.Christmas.Offering-1.png"
+        "5.Christmas.Offering-0.png",
+        "5.Christmas.Offering-1.png"
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/Christmas.Offering.melody.mp3"},
@@ -81,18 +101,10 @@
       ]
     },
     {
-      "title": "EMMANUEL/IMMANUEL",
-      "useImages": true,
-      "imageFiles": [
-        "5.Emmanuel.Immanuel-0.png",
-        "5.Emmanuel.Immanuel-1.png",
-        "5.Emmanuel.Immanuel-2.png",
-        "5.Emmanuel.Immanuel-3.png"
-      ],
-      "tracks": [
-        {"name": "MELODY", "src": "audio/Emmanuel.Immanuel.melody.mp3"}
-
-      ]
+      "title": "(NO CHOIR SPECIAL THIS WEEK) solo: MARY DID YOU KNOW, M. Mitchell",
+      "useImages": false,
+      "imageFiles": [],
+      "tracks": []
     }
   ],
   "allSongsPdf": null
