@@ -1,107 +1,48 @@
 {
-  "serviceDate": "2025-12-07",
+  "serviceDate": "Date",
   "headerNotes": [
-    "Wednesday after church - Christmas Cantata Run-through",
-    "Sunday 10:15AM - All, Check-In/Warm Up",
-    "Sunday 4:30-5:45PM - Choir Practice",
-    "ALL ARE WELCOME TO JOIN IN ANY PART OF THE ABOVE SCHEDULE"
+    "Our Choir site will be updated Wednesdays starting in January 2026.",
+    "Until then, you know all the music!",
+    "Beautiful job glorifying God with your Christmas Cantata!"
   ],
   "order": [
-    "Soon and Very Soon",
-    "Ready the Way",
-    "Emmanuel Medley",
-    "Angels We Have Heard On High",
-    "OFFERTORY: Christmas Offering",
-    "(NO CHOIR SPECIAL THIS WEEK): Michael Mitchell, solo -- Mary Did You Know"
+    "Song Order"
+
   ],
   "songs": [
     {
-      "title": "SOON AND VERY SOON",
-      "useImages": true,
-      "imageFiles": [
-        "1.Soon.and.Very.Soon-0.png",
-        "1.Soon.and.Very.Soon-1.png",
-        "1.Soon.and.Very.Soon-2.png",
-        "1.Soon.and.Very.Soon-3.png",
-        "1.Soon.and.Very.Soon-4.png",
-        "1.Soon.and.Very.Soon-5.png",
-        "1.Soon.and.Very.Soon-6.png",
-        "1.Soon.and.Very.Soon-7.png",
-        "1.Soon.and.Very.Soon-8.png",
-        "1.Soon.and.Very.Soon-9.png",
-        "1.Soon.and.Very.Soon-10.png"
-      ],
-      "tracks": [
-        {"name": "MELODY", "src": "audio/Soon.and.Very.Soon.mp3"},
-        {"name": "PIANO", "src": "audio/Soon.and.Very.Soon.piano.mp3"}
-      ]
+      "title": "Song 1",
+      "useImages": false,
+      "imageFiles": [],
+      "tracks": []
     },
     {
-      "title": "READY THE WAY",
-      "useImages": true,
-      "imageFiles": [
-        "2.Ready.the.Way-0.png",
-        "2.Ready.the.Way-1.png"
-      ],
-      "tracks": [
-        {"name": "MELODY", "src": "audio/Ready.the.Way.mp3"}
-      ]
+      "title": "Song 2",
+      "useImages": false,
+      "imageFiles": [],
+      "tracks": []
     },
     {
-      "title": "EMMANUEL MEDLEY",
-      "useImages": true,
-      "imageFiles": [
-        "3.Emmanuel.Medley-0.png",
-        "3.Emmanuel.Medley-1.png",
-        "3.Emmanuel.Medley-2.png",
-        "3.Emmanuel.Medley-3.png",
-        "3.Emmanuel.Medley-4.png",
-        "3.Emmanuel.Medley-5.png",
-        "3.Emmanuel.Medley-6.png",
-        "3.Emmanuel.Medley-7.png",
-        "3.Emmanuel.Medley-8.png",
-        "3.Emmanuel.Medley-9.png",
-        "3.Emmanuel.Medley-10.png",
-        "3.Emmanuel.Medley-11.png",
-        "3.Emmanuel.Medley-12.png",
-        "3.Emmanuel.Medley-13.png",
-        "3.Emmanuel.Medley-14.png"
-      ],
-      "tracks": [
-        {"name": "MELODY", "src": "audio/Emmanuel.Medley.all.mp3"},
-        {"name": "PIANO", "src": "audio/Emmanuel.Medley.piano.mp3"},
-        {"name": "LOWER HARMONY", "src": "audio/Emmanuel.Medley.lower.harmony.mp3"}
-      ]
+      "title": "Song 3",
+      "useImages": false,
+      "imageFiles": [],
+      "tracks": []
     },
 
     {
-      "title": "ANGELS WE HAVE HEARD ON HIGH",
-      "useImages": true,
-      "imageFiles": [
-        "4.Angels.We.Have.Heard.on.High-0.png"
-      ],
-      "tracks": [
-        {"name": "MELODY", "src": "audio/Angels.We.Have.Heard.On.High.all.mp3"},
-        {"name": "PIANO", "src": "audio/Angels.We.Have.Heard.On.High.piano.mp3"},
-        {"name": "ALTO", "src": "audio/Angels.We.Have.Heard.On.High.alto.mp3"},
-        {"name": "TENOR", "src": "audio/Angels.We.Have.Heard.On.High.tenor.mp3"},
-        {"name": "BASS", "src": "audio/Angels.We.Have.Heard.On.High.bass.mp3"}
-      ]
+      "title": "Song 4",
+      "useImages": false,
+      "imageFiles": [],
+      "tracks": []
     },
     {
-      "title": "CHRISTMAS OFFERING",
-      "useImages": true,
-      "imageFiles": [
-        "5.Christmas.Offering-0.png",
-        "5.Christmas.Offering-1.png"
-      ],
-      "tracks": [
-        {"name": "MELODY", "src": "audio/Christmas.Offering.melody.mp3"},
-        {"name": "PIANO", "src": "audio/Christmas.Offering.piano.mp3"}
-      ]
+      "title": "Song 5",
+      "useImages": false,
+      "imageFiles": [],
+      "tracks": []
     },
     {
-      "title": "(NO CHOIR SPECIAL THIS WEEK) solo: MARY DID YOU KNOW, M. Mitchell",
+      "title": "Song 6",
       "useImages": false,
       "imageFiles": [],
       "tracks": []
