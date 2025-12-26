@@ -1,52 +1,87 @@
 {
-  "serviceDate": "2026-1-4",
+  "serviceDate": "2025-12-28",
   "headerNotes": [
-    "Our Choir site will be updated Wednesdays starting in January 2026.",
-    "Until then, you know all the music!",
-    "Beautiful job glorifying God with your Christmas Cantata!"
+    "Our Choir music for Sunday is below.",
+    "We will meet for choir rehearsal THIS SUNDAY at 4:30pm."
   ],
   "order": [
-    "The choir site will be updated Wednesdays starting in January 2026!"
+    "The First Noel",
+    "Noel",
+    "We Three Kings",
+    "OFFERTORY: Christmas Offering",
+    "CHOIR SPECIAL: God is With Us"
+
 
   ],
   "songs": [
     {
-      "title": "Song 1",
-      "useImages": false,
-      "imageFiles": [],
-      "tracks": []
+      "title": "THE FIRST NOEL",
+      "useImages": true,
+      "imageFiles": [
+        "1.The.First.Noel-0.png",
+        "1.The.First.Noel-1.png",
+        "1.The.First.Noel-2.png"
+      ],
+      "tracks": [
+        "The.First.Noel.mp3"
+      ]
     },
     {
-      "title": "Song 2",
-      "useImages": false,
-      "imageFiles": [],
-      "tracks": []
+      "title": "NOEL",
+      "useImages": true,
+      "imageFiles": [
+        "2.Noel-0.png",
+        "2.Noel-1.png"
+      ],
+      "tracks": [
+        "Noel.mp3"
+      ]
     },
     {
-      "title": "Song 3",
-      "useImages": false,
-      "imageFiles": [],
-      "tracks": []
+      "title": "WE THREE KINGS",
+      "useImages": true,
+      "imageFiles": [
+        "3.We.Three.Kings-0.png",
+        "3.We.Three.Kings-1.png"
+      ],
+      "tracks": [
+        "We.Three.Kings.mp3"
+      ]
     },
 
     {
-      "title": "Song 4",
-      "useImages": false,
-      "imageFiles": [],
-      "tracks": []
+      "title": "CHRISTMAS OFFERING",
+      "useImages": true,
+      "imageFiles": [
+        "4.Christmas.Offering-0.png"
+        "4.Christmas.Offering-1.png"
+      ],
+      "tracks": [
+        "Christmas.Offering.melody.mp3",
+        "Christmas.Offering.piano.mp3"
+      ]
     },
     {
-      "title": "Song 5",
-      "useImages": false,
-      "imageFiles": [],
-      "tracks": []
+      "title": "GOD IS WITH US",
+      "useImages": true,
+      "imageFiles": [
+        "5.God.Is.with.Us-0",
+        "5.God.Is.with.Us-1",
+        "5.God.Is.with.Us-2",
+        "5.God.Is.with.Us-3",
+        "5.God.Is.with.Us-4",
+        "5.God.Is.with.Us-5",
+        "5.God.Is.with.Us-6",
+        "5.God.Is.with.Us-7",
+        "5.God.Is.with.Us-8",
+        "5.God.Is.with.Us-9"
+      ],
+      "tracks": [
+        "God.is.With.Us.all.mp3",
+        "God.is.With.Us.alto.mp3",
+        "God.is.With.Us.piano.mp3"
+      ]
     },
-    {
-      "title": "Song 6",
-      "useImages": false,
-      "imageFiles": [],
-      "tracks": []
-    }
   ],
   "allSongsPdf": null
 }
