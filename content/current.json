@@ -53,7 +53,7 @@
       "title": "CHRISTMAS OFFERING",
       "useImages": true,
       "imageFiles": [
-        "4.Christmas.Offering-0.png"
+        "4.Christmas.Offering-0.png",
         "4.Christmas.Offering-1.png"
       ],
       "tracks": [
@@ -65,16 +65,16 @@
       "title": "GOD IS WITH US",
       "useImages": true,
       "imageFiles": [
-        "5.God.Is.with.Us-0",
-        "5.God.Is.with.Us-1",
-        "5.God.Is.with.Us-2",
-        "5.God.Is.with.Us-3",
-        "5.God.Is.with.Us-4",
-        "5.God.Is.with.Us-5",
-        "5.God.Is.with.Us-6",
-        "5.God.Is.with.Us-7",
-        "5.God.Is.with.Us-8",
-        "5.God.Is.with.Us-9"
+        "5.God.Is.with.Us-0.png",
+        "5.God.Is.with.Us-1.png",
+        "5.God.Is.with.Us-2.png",
+        "5.God.Is.with.Us-3.png",
+        "5.God.Is.with.Us-4.png",
+        "5.God.Is.with.Us-5.png",
+        "5.God.Is.with.Us-6.png",
+        "5.God.Is.with.Us-7.png",
+        "5.God.Is.with.Us-8.png",
+        "5.God.Is.with.Us-9.png"
       ],
       "tracks": [
         "God.is.With.Us.all.mp3",
