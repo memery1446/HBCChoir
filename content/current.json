@@ -23,7 +23,7 @@
         "1.The.First.Noel-2.png"
       ],
       "tracks": [
-        "The.First.Noel.mp3"
+        {"name": "MELODY", "src": "audio/The.First.Noel.mp3"}
       ]
     },
     {
@@ -34,7 +34,7 @@
         "2.Noel-1.png"
       ],
       "tracks": [
-        "Noel.mp3"
+        {"name": "MELODY", "src": "audio/Noel.mp3"}
       ]
     },
     {
@@ -45,7 +45,7 @@
         "3.We.Three.Kings-1.png"
       ],
       "tracks": [
-        "We.Three.Kings.mp3"
+        {"name": "MELODY", "src": "audio/We.Three.Kings.mp3"}
       ]
     },
 
@@ -57,8 +57,8 @@
         "4.Christmas.Offering-1.png"
       ],
       "tracks": [
-        "Christmas.Offering.melody.mp3",
-        "Christmas.Offering.piano.mp3"
+        {"name": "MELODY", "src": "audio/Christmas.Offering.melody.mp3"},
+        {"name": "PIANO", "src": "audio/Christmas.Offering.piano.mp3"}
       ]
     },
     {
@@ -77,9 +77,9 @@
         "5.God.Is.with.Us-9.png"
       ],
       "tracks": [
-        "God.is.With.Us.all.mp3",
-        "God.is.With.Us.alto.mp3",
-        "God.is.With.Us.piano.mp3"
+        {"name": "MELODY", "src": "audio/God.is.With.Us.all.mp3"},
+        {"name": "ALTO", "src": "audio/God.is.With.Us.alto.mp3"},
+        {"name": "PIANO", "src": "audio/God.is.With.Us.piano.mp3"}
       ]
     }
   ],
