@@ -77,7 +77,7 @@
         "5.God.Is.with.Us-9.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/God.is.With.Us.all.mp3"},
+        {"name": "MELODY", "src": "audio/God.Is.With.Us.all.mp3"},
         {"name": "ALTO", "src": "audio/God.is.With.Us.alto.mp3"},
         {"name": "PIANO", "src": "audio/God.is.With.Us.piano.mp3"}
       ]
