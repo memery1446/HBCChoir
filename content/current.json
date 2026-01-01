@@ -1,85 +1,81 @@
 {
-  "serviceDate": "2025-12-28",
+  "serviceDate": "2026-01-04",
   "headerNotes": [
     "Our Choir music for Sunday is below.",
-    "We will meet for choir rehearsal THIS SUNDAY at 4:30pm."
+    "Choir meets Sundays at 4:30pm, and after church on Wednesdays."
   ],
   "order": [
-    "The First Noel",
-    "Noel",
-    "We Three Kings",
-    "OFFERTORY: Christmas Offering",
-    "CHOIR SPECIAL: God is With Us"
+    "I've Got Peace Like a River",
+    "Joyful, Joyful, We Adore Thee",
+    "House of the Lord",
+    "Joy to the World",
+    "OFFERTORY: Instrumental",
+    "CHOIR SPECIAL: Throwback Worship Medley"
 
 
   ],
   "songs": [
     {
-      "title": "THE FIRST NOEL",
+      "title": "I'VE GOT PEACE LIKE A RIVER -- familiar, so not included",
+      "useImages": false,
+      "imageFiles": [],
+      "tracks": []
+    },
+    {
+      "title": "JOYFUL, JOYFUL, WE ADORE THEE",
       "useImages": true,
       "imageFiles": [
-        "1.The.First.Noel-0.png",
-        "1.The.First.Noel-1.png",
-        "1.The.First.Noel-2.png"
+        "Joyful-Joyful-We-Adore-Thee-0.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/The.First.Noel.mp3"}
+        {"name": "MELODY", "src": "audio/Joyful.Joyful..mp3"},
+        {"name": "PIANO", "src": "audio/Joyful.Joyful.piano.mp3"}
       ]
     },
     {
-      "title": "NOEL",
+      "title": "HOUSE OF THE LORD",
       "useImages": true,
       "imageFiles": [
-        "2.Noel-0.png",
-        "2.Noel-1.png"
+        "House.of.the.Lord.edit-0.png",
+        "House.of.the.Lord.edit-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Noel.mp3"}
-      ]
-    },
-    {
-      "title": "WE THREE KINGS",
-      "useImages": true,
-      "imageFiles": [
-        "3.We.Three.Kings-0.png",
-        "3.We.Three.Kings-1.png"
-      ],
-      "tracks": [
-        {"name": "MELODY", "src": "audio/We.Three.Kings.mp3"}
+        {"name": "MELODY", "src": "audio/House.of.the.Lord.mp3"}
       ]
     },
 
     {
-      "title": "CHRISTMAS OFFERING",
-      "useImages": true,
-      "imageFiles": [
-        "4.Christmas.Offering-0.png",
-        "4.Christmas.Offering-1.png"
-      ],
-      "tracks": [
-        {"name": "MELODY", "src": "audio/Christmas.Offering.melody.mp3"},
-        {"name": "PIANO", "src": "audio/Christmas.Offering.piano.mp3"}
-      ]
+      "title": "JOY TO THE WORLD -- familiar so not included",
+      "useImages": false,
+      "imageFiles": [],
+      "tracks": []
     },
     {
-      "title": "GOD IS WITH US",
+      "title": "THROWBACK WORSHIP MEDLEY",
       "useImages": true,
       "imageFiles": [
-        "5.God.Is.with.Us-0.png",
-        "5.God.Is.with.Us-1.png",
-        "5.God.Is.with.Us-2.png",
-        "5.God.Is.with.Us-3.png",
-        "5.God.Is.with.Us-4.png",
-        "5.God.Is.with.Us-5.png",
-        "5.God.Is.with.Us-6.png",
-        "5.God.Is.with.Us-7.png",
-        "5.God.Is.with.Us-8.png",
-        "5.God.Is.with.Us-9.png"
+        "Throw.Back.Worhsip.Medley-0.png",
+        "Throw.Back.Worhsip.Medley-1.png",
+        "Throw.Back.Worhsip.Medley-2.png",
+        "Throw.Back.Worhsip.Medley-3.png",
+        "Throw.Back.Worhsip.Medley-4.png",
+        "Throw.Back.Worhsip.Medley-5.png",
+        "Throw.Back.Worhsip.Medley-6.png",
+        "Throw.Back.Worhsip.Medley-7.png",
+        "Throw.Back.Worhsip.Medley-0.png",
+        "Throw.Back.Worhsip.Medley-9.png",
+        "Throw.Back.Worhsip.Medley-10.png",
+        "Throw.Back.Worhsip.Medley-11.png",
+        "Throw.Back.Worhsip.Medley-12.png",
+        "Throw.Back.Worhsip.Medley-13.png",
+        "Throw.Back.Worhsip.Medley-14.png",
+        "Throw.Back.Worhsip.Medley-15.png",
+        "Throw.Back.Worhsip.Medley-16.png",
+        "Throw.Back.Worhsip.Medley-17.png",
+        "Throw.Back.Worhsip.Medley-18.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/God.Is.With.Us.all.mp3"},
-        {"name": "ALTO", "src": "audio/God.is.With.Us.alto.mp3"},
-        {"name": "PIANO", "src": "audio/God.is.With.Us.piano.mp3"}
+        {"name": "MELODY", "src": "audio/Throwback.Worship.Medley.all.mp3"}
       ]
     }
   ],
