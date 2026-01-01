@@ -28,7 +28,7 @@
         "Joyful-Joyful-We-Adore-Thee-0.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Joyful.Joyful..mp3"},
+        {"name": "MELODY", "src": "audio/Joyful.Joyful.mp3"},
         {"name": "PIANO", "src": "audio/Joyful.Joyful.piano.mp3"}
       ]
     },
@@ -54,25 +54,25 @@
       "title": "THROWBACK WORSHIP MEDLEY",
       "useImages": true,
       "imageFiles": [
-        "Throw.Back.Worhsip.Medley-0.png",
-        "Throw.Back.Worhsip.Medley-1.png",
-        "Throw.Back.Worhsip.Medley-2.png",
-        "Throw.Back.Worhsip.Medley-3.png",
-        "Throw.Back.Worhsip.Medley-4.png",
-        "Throw.Back.Worhsip.Medley-5.png",
-        "Throw.Back.Worhsip.Medley-6.png",
-        "Throw.Back.Worhsip.Medley-7.png",
-        "Throw.Back.Worhsip.Medley-0.png",
-        "Throw.Back.Worhsip.Medley-9.png",
-        "Throw.Back.Worhsip.Medley-10.png",
-        "Throw.Back.Worhsip.Medley-11.png",
-        "Throw.Back.Worhsip.Medley-12.png",
-        "Throw.Back.Worhsip.Medley-13.png",
-        "Throw.Back.Worhsip.Medley-14.png",
-        "Throw.Back.Worhsip.Medley-15.png",
-        "Throw.Back.Worhsip.Medley-16.png",
-        "Throw.Back.Worhsip.Medley-17.png",
-        "Throw.Back.Worhsip.Medley-18.png"
+        "Throw.Back.Worship.Medley-0.png",
+        "Throw.Back.Worship.Medley-1.png",
+        "Throw.Back.Worship.Medley-2.png",
+        "Throw.Back.Worship.Medley-3.png",
+        "Throw.Back.Worship.Medley-4.png",
+        "Throw.Back.Worship.Medley-5.png",
+        "Throw.Back.Worship.Medley-6.png",
+        "Throw.Back.Worship.Medley-7.png",
+        "Throw.Back.Worship.Medley-0.png",
+        "Throw.Back.Worship.Medley-9.png",
+        "Throw.Back.Worship.Medley-10.png",
+        "Throw.Back.Worship.Medley-11.png",
+        "Throw.Back.Worship.Medley-12.png",
+        "Throw.Back.Worship.Medley-13.png",
+        "Throw.Back.Worship.Medley-14.png",
+        "Throw.Back.Worship.Medley-15.png",
+        "Throw.Back.Worship.Medley-16.png",
+        "Throw.Back.Worship.Medley-17.png",
+        "Throw.Back.Worship.Medley-18.png"
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/Throwback.Worship.Medley.all.mp3"}
