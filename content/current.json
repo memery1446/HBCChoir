@@ -1,81 +1,103 @@
 {
-  "serviceDate": "2026-01-04",
+  "serviceDate": "2026-01-11",
   "headerNotes": [
     "Our Choir music for Sunday is below.",
-    "Choir meets Sundays at 4:30pm, and after church on Wednesdays."
+    "Choir meets Sundays at 4:30pm."
+    "We're working on CHILDCARE for Sunday rehearsals."
   ],
   "order": [
-    "I've Got Peace Like a River",
-    "Joyful, Joyful, We Adore Thee",
-    "House of the Lord",
-    "Joy to the World",
+    "There Is Power in the Blood",
+    "Here I Am to Worship",
+    "Open the Eyes of My Heart",
+    "Holy Forever",
     "OFFERTORY: Instrumental",
-    "CHOIR SPECIAL: Throwback Worship Medley"
+    "CHOIR SPECIAL: He Hideth My Soul"
 
 
   ],
   "songs": [
     {
-      "title": "I'VE GOT PEACE LIKE A RIVER -- familiar, so not included",
-      "useImages": false,
-      "imageFiles": [],
-      "tracks": []
-    },
-    {
-      "title": "JOYFUL, JOYFUL, WE ADORE THEE",
+      "title": "THERE IS POWER IN THE BLOOD",
       "useImages": true,
       "imageFiles": [
-        "Joyful-Joyful-We-Adore-Thee-0.png"
+        "1.There.Is.Power.in.the.Blood.EDIT-0.png",
+        "1.There.Is.Power.in.the.Blood.EDIT-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Joyful.Joyful.mp3"},
-        {"name": "PIANO", "src": "audio/Joyful.Joyful.piano.mp3"}
+        {"name": "MELODY", "src": "audio/Power.In.The.Blood.melody.mp3"},
+        {"name": "ALL", "src": "audio/Power.In.Blood.four.voice.mp3"},
+        {"name": "ALTO", "src": "audio/Power.In.Blood.alto.mp3"},
+        {"name": "TENOR", "src": "audio/Power.In.Blood.tenor.mp3"},
+        {"name": "BASS", "src": "audio/Power.In.Blood.bass.mp3"},
+        {"name": "PIANO", "src": "audio/Power.In.The.Blood.final.piano.mp3"}
       ]
     },
     {
-      "title": "HOUSE OF THE LORD",
+      "title": "HERE I AM TO WORSHIP",
       "useImages": true,
       "imageFiles": [
-        "House.of.the.Lord.edit-0.png",
-        "House.of.the.Lord.edit-1.png"
+        "2.Here.I.Am.to.Worship-0.png",
+        "2.Here.I.Am.to.Worship-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/House.of.the.Lord.mp3"}
+        {"name": "MELODY", "src": "audio/Here.I.Am.To.Worship.melody.mp3"},
+        {"name": "ALL", "src": "audio/Here-I-Am-To-Worship-Balanced.mp3"},
+        {"name": "HARMONY", "src": "audio/Here-I-Am-To-Worship-Harm-Heavy.mp3"},
+        {"name": "PIANO", "src": "audio/Here.I.Am.To.Worship.piano.mp3"}
+      ]
+    },
+    {
+      "title": "OPEN THE EYES OF MY HEART",
+      "useImages": true,
+      "imageFiles": [
+        "3.Open.the.Eyes.of.My.Heart.ALTERNATE-0.png",
+        "3.Open.the.Eyes.of.My.Heart.ALTERNATE-1.png"
+      ],
+      "tracks": [
+        {"name": "MELODY", "src": "audio/Open.the.Eyes.Of.My.Heart.melody.mp3"},
+        {"name": "PIANO", "src": "audio/Open.the.Eyes.Of.My.Heart.piano.mp3"}
       ]
     },
 
     {
-      "title": "JOY TO THE WORLD -- familiar so not included",
-      "useImages": false,
-      "imageFiles": [],
-      "tracks": []
-    },
-    {
-      "title": "THROWBACK WORSHIP MEDLEY",
+      "title": "HOLY FOREVER",
       "useImages": true,
       "imageFiles": [
-        "Throw.Back.Worship.Medley-0.png",
-        "Throw.Back.Worship.Medley-1.png",
-        "Throw.Back.Worship.Medley-2.png",
-        "Throw.Back.Worship.Medley-3.png",
-        "Throw.Back.Worship.Medley-4.png",
-        "Throw.Back.Worship.Medley-5.png",
-        "Throw.Back.Worship.Medley-6.png",
-        "Throw.Back.Worship.Medley-7.png",
-        "Throw.Back.Worship.Medley-0.png",
-        "Throw.Back.Worship.Medley-9.png",
-        "Throw.Back.Worship.Medley-10.png",
-        "Throw.Back.Worship.Medley-11.png",
-        "Throw.Back.Worship.Medley-12.png",
-        "Throw.Back.Worship.Medley-13.png",
-        "Throw.Back.Worship.Medley-14.png",
-        "Throw.Back.Worship.Medley-15.png",
-        "Throw.Back.Worship.Medley-16.png",
-        "Throw.Back.Worship.Medley-17.png",
-        "Throw.Back.Worship.Medley-18.png"
+        "4.Holy.Forever-0.png",
+        "4.Holy.Forever-1.png",
+        "4.Holy.Forever-2.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Throwback.Worship.Medley.all.mp3"}
+        {"name": "ALL", "src": "audio/Holy.Forever.mp3"},
+        {"name": "LOWER HARMONIES", "src": "audio/Holy.Forever.Lower.Harmonies.mp3"},
+        {"name": "PIANO", "src": "audio/Holy.Forever.piano.mp3"}
+      ]
+    },
+    {
+      "title": "HE HIDETH MY SOUL",
+      "useImages": true,
+      "imageFiles": [
+        "5.He.Hideth.My.Soul-0.png",
+        "5.He.Hideth.My.Soul-1.png",
+        "5.He.Hideth.My.Soul-2.png",
+        "5.He.Hideth.My.Soul-3.png",
+        "5.He.Hideth.My.Soul-4.png",
+        "5.He.Hideth.My.Soul-5.png",
+        "5.He.Hideth.My.Soul-6.png",
+        "5.He.Hideth.My.Soul-7.png",
+        "5.He.Hideth.My.Soul-8.png",
+        "5.He.Hideth.My.Soul-9.png",
+        "5.He.Hideth.My.Soul-10.png",
+        "5.He.Hideth.My.Soul-11.png",
+        "5.He.Hideth.My.Soul-12.png"
+      ],
+      "tracks": [
+        {"name": "ALL", "src": "audio/He.Hideth.My.Soul.all.mp3"},
+        {"name": "SOPRANO", "src": "audio/He.Hideth.My.Soul.soprano.mp3"},
+        {"name": "ALTO", "src": "audio/He.Hideth.My.Soul.alto.mp3"},
+        {"name": "TENOR", "src": "audio/He.Hideth.My.Soul.tenor.mp3"},
+        {"name": "BASS", "src": "audio/He.Hideth.My.Soul.bass.mp3"},
+        {"name": "PIANO", "src": "audio/He.Hideth.My.Soul.piano.mp3"}
       ]
     }
   ],
