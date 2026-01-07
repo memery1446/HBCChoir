@@ -24,8 +24,8 @@
         "1.There.Is.Power.in.the.Blood.EDIT-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Power.In.The.Blood.melody.mp3"},
         {"name": "ALL", "src": "audio/Power.In.Blood.four.voice.mp3"},
+        {"name": "MELODY", "src": "audio/Power.In.The.Blood.melody.mp3"},
         {"name": "ALTO", "src": "audio/Power.In.Blood.alto.mp3"},
         {"name": "TENOR", "src": "audio/Power.In.Blood.tenor.mp3"},
         {"name": "BASS", "src": "audio/Power.In.Blood.bass.mp3"},
