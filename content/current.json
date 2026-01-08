@@ -25,7 +25,7 @@
       ],
       "tracks": [
         {"name": "ALL", "src": "audio/Power.In.Blood.four.voice.mp3"},
-        {"name": "MELODY", "src": "audio/Power.In.The.Blood.melody.mp3"},
+        {"name": "MELODY", "src": "audio/Power.In.The.Blood.New.Melody.mp3"},
         {"name": "ALTO", "src": "audio/Power.In.Blood.alto.mp3"},
         {"name": "TENOR", "src": "audio/Power.In.Blood.tenor.mp3"},
         {"name": "BASS", "src": "audio/Power.In.Blood.bass.mp3"},
@@ -40,9 +40,9 @@
         "2.Here.I.Am.to.Worship-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Here.I.Am.To.Worship.melody.mp3"},
-        {"name": "ALL", "src": "audio/Here-I-Am-To-Worship-Balanced.mp3"},
-        {"name": "HARMONY", "src": "audio/Here-I-Am-To-Worship-Harm-Heavy.mp3"},
+        {"name": "ALL", "src": "audio/Here.I.Am.To.Worship.all.mp3"},
+        {"name": "HARMONY 1", "src": "audio/Here.I.Am.To.Worship.Harm.1.mp3"},
+        {"name": "HARMONY 2", "src": "audio/Here.I.Am.To.Worship.Harm.2.mp3"},
         {"name": "PIANO", "src": "audio/Here.I.Am.To.Worship.piano.mp3"}
       ]
     },
