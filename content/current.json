@@ -1,103 +1,106 @@
 {
-  "serviceDate": "2026-01-11",
+  "serviceDate": "2026-01-18",
   "headerNotes": [
     "Our Choir music for Sunday is below.",
     "Choir meets Sundays at 4:30pm.",
     "We're working on CHILDCARE for Sunday rehearsals."
   ],
   "order": [
-    "There Is Power in the Blood",
-    "Here I Am to Worship",
-    "Open the Eyes of My Heart",
-    "Holy Forever",
+    "10,000 Reasons / Bless the Lord",
+    "Come, Now is the Time to Worship",
+    "Come Thou Fount Come Thy King",
+    "Come, Jesus Come",
     "OFFERTORY: Instrumental",
-    "CHOIR SPECIAL: He Hideth My Soul"
+    "CHOIR SPECIAL: Great God Medley"
 
 
   ],
   "songs": [
     {
-      "title": "THERE IS POWER IN THE BLOOD",
+      "title": "10K REASONS/BLESS THE LORD",
       "useImages": true,
       "imageFiles": [
-        "1.There.Is.Power.in.the.Blood.EDIT-0.png",
-        "1.There.Is.Power.in.the.Blood.EDIT-1.png"
+        "1.10K.Reasons-0.png",
+        "1.10K.Reasons-1.png"
       ],
       "tracks": [
-        {"name": "ALL", "src": "audio/Power.In.Blood.four.voice.mp3"},
-        {"name": "MELODY", "src": "audio/Power.In.The.Blood.New.Melody.mp3"},
-        {"name": "ALTO", "src": "audio/Power.In.Blood.alto.mp3"},
-        {"name": "TENOR", "src": "audio/Power.In.Blood.tenor.mp3"},
-        {"name": "BASS", "src": "audio/Power.In.Blood.bass.mp3"},
-        {"name": "PIANO", "src": "audio/Power.In.The.Blood.final.piano.mp3"}
+        {"name": "ALL", "src": "audio/10000.Reasons.Bless.The.Lord.all.mp3"},
+        {"name": "HARMONY 1", "src": "audio/10000.Reasons.Bless.The.Lord.Harm.1.mp3"},
+        {"name": "HARMONY 2", "src": "audio/10000.Reasons.Bless.The.Lord.harm.2.mp3"},
+        {"name": "PIANO", "src": "audio/10000.Reasons.Bless.The.Lord.piano.mp3"}
       ]
     },
     {
-      "title": "HERE I AM TO WORSHIP",
+      "title": "COME NOW IS THE TIME TO WORSHIP",
       "useImages": true,
       "imageFiles": [
-        "2.Here.I.Am.to.Worship-0.png",
-        "2.Here.I.Am.to.Worship-1.png"
+        "2.Come.Now.Is.the.Time.to.Worship-0.png",
+        "2.Come.Now.Is.the.Time.to.Worship-1.png"
       ],
       "tracks": [
-        {"name": "ALL", "src": "audio/Here.I.Am.To.Worship.all.mp3"},
-        {"name": "HARMONY 1", "src": "audio/Here.I.Am.To.Worship.Harm.1.mp3"},
-        {"name": "HARMONY 2", "src": "audio/Here.I.Am.To.Worship.Harm.2.mp3"},
-        {"name": "PIANO", "src": "audio/Here.I.Am.To.Worship.piano.mp3"}
+        {"name": "ALL", "src": "audio/Come.Now.Is.The.Time.To.Worship.all.mp3"},
+        {"name": "HARMONY 1", "src": "audio/Come.Now.Is.The.Time.To.Worship.harm.1.mp3"},
+        {"name": "HARMONY 2", "src": "audio/Come.Now.Is.The.Time.To.Worship.harm.2.mp3"},
+        {"name": "PIANO", "src": "audio/Come.Now.Is.The.Time.To.Worship.piano.mp3"}
       ]
     },
     {
-      "title": "OPEN THE EYES OF MY HEART",
+      "title": "COME THOU FOUNT COME THY KING",
       "useImages": true,
       "imageFiles": [
-        "3.Open.the.Eyes.of.My.Heart.ALTERNATE-0.png",
-        "3.Open.the.Eyes.of.My.Heart.ALTERNATE-1.png"
+        "3.Come.Thou.Fount.Come.Thy.King-0.png",
+        "3.Come.Thou.Fount.Come.Thy.King-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Open.the.Eyes.Of.My.Heart.melody.mp3"},
-        {"name": "PIANO", "src": "audio/Open.the.Eyes.Of.My.Heart.piano.mp3"}
+        {"name": "ALL", "src": "audio/Come.Thou.Fount.all.mp3"},
+        {"name": "HARMONY 1", "src": "audio/Come.Thou.Fount.harm.1.mp3"},
+        {"name": "HARMONY 2", "src": "audio/Come.Thou.Fount.harm.2.mp3"},
+        {"name": "PIANO", "src": "audio/Come.Thou.Found.piano.mp3"}
       ]
     },
 
     {
-      "title": "HOLY FOREVER",
+      "title": "COME JESUS COME",
       "useImages": true,
       "imageFiles": [
-        "4.Holy.Forever-0.png",
-        "4.Holy.Forever-1.png",
-        "4.Holy.Forever-2.png"
+        "4.Come.Jesus.Come-0.png",
+        "4.Come.Jesus.Come-1.png",
+        "4.Come.Jesus.Come-2.png"
       ],
       "tracks": [
-        {"name": "ALL", "src": "audio/Holy.Forever.mp3"},
-        {"name": "LOWER HARMONIES", "src": "audio/Holy.Forever.Lower.Harmonies.mp3"},
-        {"name": "PIANO", "src": "audio/Holy.Forever.piano.mp3"}
+        {"name": "ALL", "src": "audio/Come.Jesus.Come.all.mp3"},
+        {"name": "ALTO", "src": "audio/Come.Jesus.Come.alto.mp3"},
+        {"name": "TENOR", "src": "audio/Come.Jesus.Come.tenor.mp3"},
+        {"name": "ALTO", "src": "audio/Come.Jesus.Come.bass.mp3"},
+        {"name": "PIANO", "src": "audio/Come.Jesus.Come.piano.mp3"}
       ]
     },
     {
-      "title": "HE HIDETH MY SOUL",
+      "title": "GREAT GOD MEDLEY",
       "useImages": true,
       "imageFiles": [
-        "5.He.Hideth.My.Soul-0.png",
-        "5.He.Hideth.My.Soul-1.png",
-        "5.He.Hideth.My.Soul-2.png",
-        "5.He.Hideth.My.Soul-3.png",
-        "5.He.Hideth.My.Soul-4.png",
-        "5.He.Hideth.My.Soul-5.png",
-        "5.He.Hideth.My.Soul-6.png",
-        "5.He.Hideth.My.Soul-7.png",
-        "5.He.Hideth.My.Soul-8.png",
-        "5.He.Hideth.My.Soul-9.png",
-        "5.He.Hideth.My.Soul-10.png",
-        "5.He.Hideth.My.Soul-11.png",
-        "5.He.Hideth.My.Soul-12.png"
+        "5.Great.God.Medley-0.png",
+        "5.Great.God.Medley-1.png",
+        "5.Great.God.Medley-2.png",
+        "5.Great.God.Medley-3.png",
+        "5.Great.God.Medley-4.png",
+        "5.Great.God.Medley-5.png",
+        "5.Great.God.Medley-6.png",
+        "5.Great.God.Medley-7.png",
+        "5.Great.God.Medley-8.png",
+        "5.Great.God.Medley-9.png",
+        "5.Great.God.Medley-10.png",
+        "5.Great.God.Medley-11.png",
+        "5.Great.God.Medley-12.png",
+        "5.Great.God.Medley-13.png",
+        "5.Great.God.Medley-14.png",
+        "5.Great.God.Medley-15.png",
+        "5.Great.God.Medley-16.png"
       ],
       "tracks": [
-        {"name": "ALL", "src": "audio/He.Hideth.My.Soul.all.mp3"},
-        {"name": "SOPRANO", "src": "audio/He.Hideth.My.Soul.soprano.mp3"},
-        {"name": "ALTO", "src": "audio/He.Hideth.My.Soul.alto.mp3"},
-        {"name": "TENOR", "src": "audio/He.Hideth.My.Soul.tenor.mp3"},
-        {"name": "BASS", "src": "audio/He.Hideth.My.Soul.bass.mp3"},
-        {"name": "PIANO", "src": "audio/He.Hideth.My.Soul.piano.mp3"}
+        {"name": "ALL", "src": "audio/Great.God.Medley.all.mp3"},
+        {"name": "HARMONY 1", "src": "audio/Great.God.Medley.harm.1.mp3"},
+        {"name": "HARMONY 2", "src": "audio/Great.God.Medley.harm.2.mp3"}
       ]
     }
   ],
