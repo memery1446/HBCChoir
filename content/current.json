@@ -99,8 +99,8 @@
       ],
       "tracks": [
         {"name": "ALL", "src": "audio/Great.God.Medley.all.mp3"},
-        {"name": "HARMONY 1", "src": "audio/Great.God.Medley.harm.1.mp3"},
-        {"name": "HARMONY 2", "src": "audio/Great.God.Medley.harm.2.mp3"}
+        {"name": "HARMONY 1", "src": "audio/Great.God.Medley.harm.2.mp3"},
+        {"name": "HARMONY 2", "src": "audio/Great.God.Medley.harm.1.mp3"}
       ]
     }
   ],
