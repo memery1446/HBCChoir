@@ -1,106 +1,75 @@
 {
-  "serviceDate": "2026-01-18",
+  "serviceDate": "2026-01-25",
   "headerNotes": [
     "Our Choir music for Sunday is below.",
     "Choir meets Sundays at 4:30pm.",
-    "CHILDCARE and FOOD for kiddos during Sunday rehearsals."
+    "CHILDCARE and FOOD for kiddos during Sunday and Wednesday rehearsals."
   ],
   "order": [
-    "10,000 Reasons / Bless the Lord",
-    "Come, Now is the Time to Worship",
-    "Come Thou Fount Come Thy King",
-    "Come, Jesus Come",
+    "To God Be the Glory",
+    "Amazing Grace/My Chains Are Gone",
+    "Gratitude",
+    "Raise a Hallelujah",
     "OFFERTORY: Instrumental",
-    "CHOIR SPECIAL: Great God Medley"
+    "CHOIR SPECIAL: Hallelujah (Your Love is Amazing)"
 
 
   ],
   "songs": [
     {
-      "title": "10K REASONS/BLESS THE LORD",
+      "title": "TO GOD BE THE GLORY",
       "useImages": true,
       "imageFiles": [
-        "1.10K.Reasons-0.png",
-        "1.10K.Reasons-1.png"
+        "1.To.God.Be.the.Glory-0.png",
+        "1.To.God.Be.the.Glory-1.png"
       ],
       "tracks": [
-        {"name": "ALL", "src": "audio/10000.Reasons.Bless.The.Lord.all.mp3"},
-        {"name": "HARMONY 1", "src": "audio/10000.Reasons.Bless.The.Lord.Harm.1.mp3"},
-        {"name": "HARMONY 2", "src": "audio/10000.Reasons.Bless.The.Lord.harm.2.mp3"},
-        {"name": "PIANO", "src": "audio/10000.Reasons.Bless.The.Lord.piano.mp3"}
+        {"name": "ALL", "src": "audio/To.God.Be.The.Glory.all.mp3"},
+        {"name": "ALTO", "src": "audio/To.God.Be.The.Glory.alto.mp3"},
+        {"name": "TENOR", "src": "audio/To.God.Be.The.Glory.tenor.mp3"},
+        {"name": "BASS", "src": "audio/To.God.Be.The.Glory.bass.mp3"},
+        {"name": "PIANO", "src": "audio/To.God.Be.The.Glory.piano.mp3"}
       ]
     },
     {
-      "title": "COME NOW IS THE TIME TO WORSHIP",
-      "useImages": true,
-      "imageFiles": [
-        "2.Come.Now.Is.the.Time.to.Worship-0.png",
-        "2.Come.Now.Is.the.Time.to.Worship-1.png"
-      ],
-      "tracks": [
-        {"name": "ALL", "src": "audio/Come.Now.Is.The.Time.To.Worship.all.mp3"},
-        {"name": "HARMONY 1", "src": "audio/Come.Now.Is.The.Time.To.Worship.harm.1.mp3"},
-        {"name": "HARMONY 2", "src": "audio/Come.Now.Is.The.Time.To.Worship.harm.2.mp3"},
-        {"name": "PIANO", "src": "audio/Come.Now.Is.The.Time.To.Worship.piano.mp3"}
-      ]
+      "title": "AMAZING GRACE MY CHAINS ARE GONE",
+      "useImages": false,
+      "imageFiles": [],
+      "tracks": []
     },
     {
-      "title": "COME THOU FOUNT COME THY KING",
-      "useImages": true,
-      "imageFiles": [
-        "3.Come.Thou.Fount.Come.Thy.King-0.png",
-        "3.Come.Thou.Fount.Come.Thy.King-1.png"
-      ],
-      "tracks": [
-        {"name": "ALL", "src": "audio/Come.Thou.Fount.all.mp3"},
-        {"name": "HARMONY 1", "src": "audio/Come.Thou.Fount.harm.1.mp3"},
-        {"name": "HARMONY 2", "src": "audio/Come.Thou.Fount.harm.2.mp3"},
-        {"name": "PIANO", "src": "audio/Come.Thou.Fount.piano.mp3"}
-      ]
-    },
-
-    {
-      "title": "COME JESUS COME",
-      "useImages": true,
-      "imageFiles": [
-        "4.Come.Jesus.Come-0.png",
-        "4.Come.Jesus.Come-1.png",
-        "4.Come.Jesus.Come-2.png"
-      ],
-      "tracks": [
-        {"name": "ALL", "src": "audio/Come.Jesus.Come.all.mp3"},
-        {"name": "ALTO", "src": "audio/Come.Jesus.Come.alto.mp3"},
-        {"name": "TENOR", "src": "audio/Come.Jesus.Come.tenor.mp3"},
-        {"name": "BASS", "src": "audio/Come.Jesus.Come.bass.mp3"},
-        {"name": "PIANO", "src": "audio/Come.Jesus.Come.piano.mp3"}
-      ]
+      "title": "GRATITUDE",
+      "useImages": false,
+      "imageFiles": [],
+      "tracks": []
     },
     {
-      "title": "GREAT GOD MEDLEY",
+      "title": "RAISE A HALLELUJAH",
+      "useImages": false,
+      "imageFiles": [],
+      "tracks": []
+    },
+    {
+      "title": "HALLELUJAH YOUR LOVE IS AMAZING",
       "useImages": true,
       "imageFiles": [
-        "5.Great.God.Medley-0.png",
-        "5.Great.God.Medley-1.png",
-        "5.Great.God.Medley-2.png",
-        "5.Great.God.Medley-3.png",
-        "5.Great.God.Medley-4.png",
-        "5.Great.God.Medley-5.png",
-        "5.Great.God.Medley-6.png",
-        "5.Great.God.Medley-7.png",
-        "5.Great.God.Medley-8.png",
-        "5.Great.God.Medley-9.png",
-        "5.Great.God.Medley-10.png",
-        "5.Great.God.Medley-11.png",
-        "5.Great.God.Medley-12.png",
-        "5.Great.God.Medley-13.png",
-        "5.Great.God.Medley-14.png",
-        "5.Great.God.Medley-15.png",
-        "5.Great.God.Medley-16.png"
+        "5.Hallelujah.Your.Love.Is.Amazing-0.png",
+        "5.Hallelujah.Your.Love.Is.Amazing-1.png",
+        "5.Hallelujah.Your.Love.Is.Amazing-2.png",
+        "5.Hallelujah.Your.Love.Is.Amazing-3.png",
+        "5.Hallelujah.Your.Love.Is.Amazing-4.png",
+        "5.Hallelujah.Your.Love.Is.Amazing-5.png",
+        "5.Hallelujah.Your.Love.Is.Amazing-6.png",
+        "5.Hallelujah.Your.Love.Is.Amazing-7.png",
+        "5.Hallelujah.Your.Love.Is.Amazing-8.png",
+        "5.Hallelujah.Your.Love.Is.Amazing-9.png"
       ],
       "tracks": [
-        {"name": "ALL", "src": "audio/Great.God.Medley.all.mp3"},
-        {"name": "HARMONY 1", "src": "audio/Great.God.Medley.harm.2.mp3"},
-        {"name": "HARMONY 2", "src": "audio/Great.God.Medley.harm.1.mp3"}
+        {"name": "ALL", "src": "audio/Hallelujah.Your.Love.Is.Amazing.all.mp3"},
+        {"name": "MELODY", "src": "audio/Hallelujah.melody.mp3"},
+        {"name": "ALTO", "src": "audio/Hallelujah.alto.mp3"},
+        {"name": "TENOR", "src": "audio/Hallelujah.tenor.mp3"},
+        {"name": "BASS", "src": "audio/Hallelujah.bass.mp3"}
       ]
     }
   ],
