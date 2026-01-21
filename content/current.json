@@ -45,9 +45,17 @@
     },
     {
       "title": "RAISE A HALLELUJAH",
-      "useImages": false,
-      "imageFiles": [],
-      "tracks": []
+      "useImages": true,
+      "imageFiles": [
+        "4.Raise.a.Hallelujah-0.png",
+        "4.Raise.a.Hallelujah-1.png",
+        "4.Raise.a.Hallelujah-2.png",
+        "4.Raise.a.Hallelujah-3.png"
+      ],
+      "tracks": [
+        {"name": "MELODY", "src": "audio/Raise.A.Hallelujah.mp3"},
+        {"name": "PIANO", "src": "audio/Raise.A.Hallelujah.piano.mp3"}
+      ]
     },
     {
       "title": "HALLELUJAH YOUR LOVE IS AMAZING",
