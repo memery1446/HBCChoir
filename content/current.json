@@ -33,15 +33,30 @@
     },
     {
       "title": "AMAZING GRACE MY CHAINS ARE GONE",
-      "useImages": false,
-      "imageFiles": [],
-      "tracks": []
+      "useImages": true,
+      "imageFiles": [
+        "2.Amazing.Grace.My.Chains.Are.Gone-0.png",
+        "2.Amazing.Grace.My.Chains.Are.Gone-1.png"
+      ],
+      "tracks": [
+        {"name": "ALL", "src": "audio/Amazing.Grace.Chains.all.mp3"},
+        {"name": "HIGHER HARMONY", "src": "audio/Amazing.Grace.Chains.higher.harmony.mp3"},
+        {"name": "LOWER HARMONY", "src": "audio/Amazing.Grace.Chains.lower.harmony.mp3"},
+        {"name": "PIANO", "src": "audio/Amazing.Grace.Chains.piano.mp3"}
+      ]
     },
     {
       "title": "GRATITUDE",
-      "useImages": false,
-      "imageFiles": [],
-      "tracks": []
+      "useImages": true,
+      "imageFiles": [
+        "3.Gratitude-0.png",
+        "3.Gratitude-1.png",
+        "3.Gratitude-2.png"
+      ],
+      "tracks": [
+        {"name": "MELODY", "src": "audio/Gratitude.mp3"},
+        {"name": "PIANO", "src": "audio/Gratitude.piano.mp3"}
+      ]
     },
     {
       "title": "RAISE A HALLELUJAH",
