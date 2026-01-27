@@ -1,98 +1,89 @@
 {
-  "serviceDate": "2026-01-25",
+  "serviceDate": "2026-02-01",
   "headerNotes": [
     "Our Choir music for Sunday is below.",
     "Choir meets Sundays at 4:30pm.",
     "CHILDCARE and FOOD for kiddos during Sunday and Wednesday rehearsals."
   ],
   "order": [
-    "To God Be the Glory",
-    "Amazing Grace/My Chains Are Gone",
-    "Gratitude",
-    "Raise a Hallelujah",
+    "Victory In Jesus",
+    "Shout to the North",
+    "Praise You In This Storm",
+    "My Jesus",
     "OFFERTORY: Instrumental",
-    "CHOIR SPECIAL: Hallelujah (Your Love is Amazing)"
+    "CHOIR SPECIAL: Love of Jesus Medley"
 
 
   ],
   "songs": [
     {
-      "title": "TO GOD BE THE GLORY",
+      "title": "VICTORY IN JESUS",
       "useImages": true,
       "imageFiles": [
-        "1.To.God.Be.the.Glory-0.png",
-        "1.To.God.Be.the.Glory-1.png"
+        "1-Victory-in-Jesus-0.png",
+        "1-Victory-in-Jesus-1.png"
       ],
       "tracks": [
-        {"name": "ALL", "src": "audio/To.God.Be.The.Glory.all.mp3"},
-        {"name": "ALTO", "src": "audio/To.God.Be.The.Glory.alto.mp3"},
-        {"name": "TENOR", "src": "audio/To.God.Be.The.Glory.tenor.mp3"},
-        {"name": "BASS", "src": "audio/To.God.Be.The.Glory.bass.mp3"},
-        {"name": "PIANO", "src": "audio/To.God.Be.The.Glory.piano.mp3"}
+        {"name": "PIANO", "src": "audio/Victory.In.Jesus.piano.mp3"}
       ]
     },
     {
-      "title": "AMAZING GRACE MY CHAINS ARE GONE",
+      "title": "SHOUT TO THE NORTH",
       "useImages": true,
       "imageFiles": [
-        "2.Amazing.Grace.My.Chains.Are.Gone-0.png",
-        "2.Amazing.Grace.My.Chains.Are.Gone-1.png"
+        "2-Shout-to-the-North-0.png",
+        "2-Shout-to-the-North-1.png"
       ],
       "tracks": [
-        {"name": "ALL", "src": "audio/Amazing.Grace.Chains.all.mp3"},
-        {"name": "HIGHER HARMONY", "src": "audio/Amazing.Grace.Chains.higher.harmony.mp3"},
-        {"name": "LOWER HARMONY", "src": "audio/Amazing.Grace.Chains.lower.harmony.mp3"},
-        {"name": "PIANO", "src": "audio/Amazing.Grace.Chains.piano.mp3"}
+        {"name": "ALL", "src": "audio/Shout.To.The.North.all.mp3"},
+        {"name": "HIGHER HARMONY", "src": "audio/Shout.To.The.North.high.harmony.mp3"},
+        {"name": "EASY LOW HARMONY", "src": "audio/Shout.To.The.North.easy.low.harmony.mp3"}
       ]
     },
     {
-      "title": "GRATITUDE",
+      "title": "PRAISE YOU IN THIS STORM",
       "useImages": true,
       "imageFiles": [
-        "3.Gratitude-0.png",
-        "3.Gratitude-1.png",
-        "3.Gratitude-2.png"
+        "3-Praise-You-in-This-Storm-0.png",
+        "3-Praise-You-in-This-Storm-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Gratitude.mp3"},
-        {"name": "PIANO", "src": "audio/Gratitude.piano.mp3"}
+        {"name": "MELODY", "src": "audio/Praise.You.In.This.Storm.all.mp3"}
       ]
     },
     {
-      "title": "RAISE A HALLELUJAH",
+      "title": "MY JESUS",
       "useImages": true,
       "imageFiles": [
-        "4.Raise.a.Hallelujah-0.png",
-        "4.Raise.a.Hallelujah-1.png",
-        "4.Raise.a.Hallelujah-2.png",
-        "4.Raise.a.Hallelujah-3.png"
+        "4-My-Jesus-0.png",
+        "4-My-Jesus-1.png"
+        "4-My-Jesus-2.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Raise.A.Hallelujah.mp3"},
-        {"name": "PIANO", "src": "audio/Raise.A.Hallelujah.piano.mp3"}
+        {"name": "MELODY", "src": "audio/My.Jesus.new.mp3"},
+        {"name": "PIANO", "src": "audio/My.Jesus.piano.new.mp3"}
       ]
     },
     {
-      "title": "HALLELUJAH YOUR LOVE IS AMAZING",
+      "title": "LOVE OF JESUS MEDLEY",
       "useImages": true,
       "imageFiles": [
-        "5.Hallelujah.Your.Love.Is.Amazing-0.png",
-        "5.Hallelujah.Your.Love.Is.Amazing-1.png",
-        "5.Hallelujah.Your.Love.Is.Amazing-2.png",
-        "5.Hallelujah.Your.Love.Is.Amazing-3.png",
-        "5.Hallelujah.Your.Love.Is.Amazing-4.png",
-        "5.Hallelujah.Your.Love.Is.Amazing-5.png",
-        "5.Hallelujah.Your.Love.Is.Amazing-6.png",
-        "5.Hallelujah.Your.Love.Is.Amazing-7.png",
-        "5.Hallelujah.Your.Love.Is.Amazing-8.png",
-        "5.Hallelujah.Your.Love.Is.Amazing-9.png"
+        "5-Love-of-Jesus-Medley-0.png",
+        "5-Love-of-Jesus-Medley-1.png",
+        "5-Love-of-Jesus-Medley-2.png",
+        "5-Love-of-Jesus-Medley-3.png",
+        "5-Love-of-Jesus-Medley-4.png",
+        "5-Love-of-Jesus-Medley-5.png",
+        "5-Love-of-Jesus-Medley-6.png",
+        "5-Love-of-Jesus-Medley-7.png",
+        "5-Love-of-Jesus-Medley-8.png",
+        "5-Love-of-Jesus-Medley-9.png"
       ],
       "tracks": [
-        {"name": "ALL", "src": "audio/Hallelujah.Your.Love.Is.Amazing.all.mp3"},
-        {"name": "MELODY", "src": "audio/Hallelujah.melody.mp3"},
-        {"name": "ALTO", "src": "audio/Hallelujah.alto.mp3"},
-        {"name": "TENOR", "src": "audio/Hallelujah.tenor.mp3"},
-        {"name": "BASS", "src": "audio/Hallelujah.bass.mp3"}
+        {"name": "ALL", "src": "audio/Love.of.Jesus.Medley.all.mp3"},
+        {"name": "ALTO", "src": "audio/Love.of.Jesus.Medley.alto.mp3"},
+        {"name": "TENOR", "src": "audio/Love.of.Jesus.Medley.tenor.mp3"},
+        {"name": "BASS", "src": "audio/Love.of.Jesus.Medley.bass.mp3"}
       ]
     }
   ],
