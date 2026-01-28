@@ -155,23 +155,17 @@
             box-shadow: 0 5px 15px rgba(39, 174, 96, 0.4);
         }
 
-        .view-toggle-container {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-            margin-bottom: 10px;
-        }
-
         .toggle-view-btn {
             background: #9b59b6;
             color: white;
             border: none;
-            padding: 10px 20px;
+            padding: 4px 10px;
             border-radius: 8px;
             cursor: pointer;
-            font-size: 0.95rem;
+            font-size: 0.75rem;
             transition: all 0.3s ease;
             font-weight: 500;
+            margin-right: 8px;
         }
 
         .toggle-view-btn:hover {
@@ -966,16 +960,13 @@
         <div class="audio-controls">
             <h3>🎵 Sing-Along</h3>
 
-            <div class="view-toggle-container" id="viewToggleContainer" style="display: none;">
-                <button class="toggle-view-btn" id="toggleViewBtn" onclick="toggleImageView()">
-                    Show Lyric Slides
-                </button>
-            </div>
-
             <div id="imageVoiceSelector"></div>
             <div id="imageModalAudioContainer"></div>
 
             <div class="page-controls-inline" id="imageControlsInline" style="display: none;">
+                <button class="toggle-view-btn" id="toggleViewBtn" onclick="toggleImageView()" style="display: none;">
+                    Show Lyric Slides
+                </button>
                 <button class="control-btn" id="prevImageBtnInline" onclick="prevImagePage()">◀ Prev</button>
                 <span class="page-info-compact">Page <span id="imagePageNumInline">1</span>/<span id="imagePageCountInline">1</span></span>
                 <button class="control-btn" id="nextImageBtnInline" onclick="nextImagePage()">Next ▶</button>
@@ -1340,18 +1331,18 @@
 
     function openImagePDF(imageFiles, title, tracks, lyricSlideFiles = null) {
         currentImages = imageFiles.map(filename => `sheet-music-images/${filename}`);
-        currentLyricSlides = lyricSlideFiles ? lyricSlideFiles.map(filename => `sheet-music-images/${filename}`) : [];
+        // Lyric slides already have full path in JSON, don't prepend directory
+        currentLyricSlides = lyricSlideFiles ? lyricSlideFiles : [];
         currentImageIndex = 0;
         showingLyrics = false;
 
         // Show/hide toggle button based on whether lyric slides are available
-        const toggleContainer = document.getElementById('viewToggleContainer');
         const toggleBtn = document.getElementById('toggleViewBtn');
         if (currentLyricSlides.length > 0) {
-            toggleContainer.style.display = 'flex';
+            toggleBtn.style.display = 'inline-block';
             toggleBtn.textContent = 'Show Lyric Slides';
         } else {
-            toggleContainer.style.display = 'none';
+            toggleBtn.style.display = 'none';
         }
 
         setupImageAudio(tracks);
