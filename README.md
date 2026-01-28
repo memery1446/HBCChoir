@@ -23,3 +23,9 @@ json{
 
 ### for pdfs to jpg:
 node convert-pdfs.js
+
+### for pptx to pdf: 
+node convert-pptx-to-pdf.js
+
+### for lyric slide pdf to jpg:
+node convert-lyric-pdfs.js
