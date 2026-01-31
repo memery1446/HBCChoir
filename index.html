@@ -469,34 +469,6 @@
             transform: translateY(-1px);
         }
 
-        .copy-email-btn {
-            background: #16a085;
-            color: white;
-            border: none;
-            padding: 12px 25px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 1rem;
-            font-weight: bold;
-            transition: all 0.3s ease;
-            margin-left: 10px;
-        }
-
-        .copy-email-btn:hover {
-            background: #138d75;
-            transform: translateY(-1px);
-        }
-
-        .email-address-display {
-            margin-top: 15px;
-            padding: 10px;
-            background: #ecf0f1;
-            border-radius: 5px;
-            font-family: monospace;
-            color: #2c3e50;
-            font-size: 0.95rem;
-        }
-
         .modal {
             display: none;
             position: fixed;
@@ -789,20 +761,7 @@
             .song-order ol { margin-left: 10px; padding: 15px; }
             .play-all-btn { width: 100%; padding: 15px; font-size: 1.1rem; }
             .suggestion-input { width: 95%; margin-bottom: 15px; }
-            .suggestion-btn, .copy-email-btn {
-                display: block;
-                width: 100%;
-                margin: 10px 0;
-            }
-            .email-link {
-                display: block;
-                margin: 10px 0;
-                text-align: center;
-            }
-            .email-address-display {
-                font-size: 0.85rem;
-                margin-top: 15px;
-            }
+            .email-link { display: block; margin-top: 10px; text-align: center; }
             .current-song { font-size: 1rem; }
 
             .custom-audio-player {
@@ -964,8 +923,6 @@
                 <br>
                 <button class="suggestion-btn" onclick="sendSuggestion()">Send Suggestion</button>
                 <a href="mailto:memery1446@gmail.com" class="email-link">📧 Email Mark</a>
-                <button class="copy-email-btn" onclick="copyEmailAddress()">📋 Copy Email</button>
-                <div class="email-address-display">Or email directly: <strong>memery1446@gmail.com</strong></div>
             </div>
         </div>
     </div>
@@ -1579,57 +1536,11 @@
             const subject = 'Song Suggestion';
             const body = `Hi Mark,\n\nI'd like to suggest this song for our choir:\n\n${suggestion}\n\nThanks!\n`;
             const mailtoLink = `mailto:memery1446@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-
-            // Try to open in new window (works better with pop-up blockers)
-            const mailWindow = window.open(mailtoLink, '_blank');
-
-            // If that didn't work, try the old method
-            if (!mailWindow || mailWindow.closed || typeof mailWindow.closed == 'undefined') {
-                window.location.href = mailtoLink;
-            }
-
-            // Clear the input and show confirmation
+            window.location.href = mailtoLink;
             document.getElementById('songSuggestion').value = '';
-
-            // Show a helpful message
-            setTimeout(() => {
-                alert('Opening your email client...\n\nIf nothing happened, please:\n1. Check if a new window was blocked\n2. Click the "📧 Email Mark" button below\n3. Or email directly to: memery1446@gmail.com');
-            }, 500);
         } else {
             alert('Please enter a song suggestion first.');
         }
-    }
-
-    function copyEmailAddress() {
-        const email = 'memery1446@gmail.com';
-
-        // Modern clipboard API
-        if (navigator.clipboard && navigator.clipboard.writeText) {
-            navigator.clipboard.writeText(email).then(() => {
-                alert('Email address copied to clipboard!\n\nmemery1446@gmail.com\n\nYou can now paste it into your email program.');
-            }).catch(err => {
-                fallbackCopy(email);
-            });
-        } else {
-            // Fallback for older browsers
-            fallbackCopy(email);
-        }
-    }
-
-    function fallbackCopy(text) {
-        const textArea = document.createElement('textarea');
-        textArea.value = text;
-        textArea.style.position = 'fixed';
-        textArea.style.left = '-9999px';
-        document.body.appendChild(textArea);
-        textArea.select();
-        try {
-            document.execCommand('copy');
-            alert('Email address copied to clipboard!\n\nmemery1446@gmail.com\n\nYou can now paste it into your email program.');
-        } catch (err) {
-            alert('Could not copy automatically.\n\nPlease manually copy: memery1446@gmail.com');
-        }
-        document.body.removeChild(textArea);
     }
 
     function openSinglePDF(pdfPath, audioPath, title) {
