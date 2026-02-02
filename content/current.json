@@ -1,89 +1,108 @@
 {
-  "serviceDate": "2026-02-01",
+  "serviceDate": "2026-02-08",
   "headerNotes": [
     "Our Choir music for Sunday is below.",
     "Choir meets Sundays at 4:30pm.",
     "CHILDCARE and FOOD for kiddos during Sunday and Wednesday rehearsals."
   ],
   "order": [
-    "Victory In Jesus",
-    "Shout to the North",
-    "Praise You In This Storm",
-    "My Jesus",
-    "OFFERTORY: Instrumental",
-    "CHOIR SPECIAL: Love of Jesus Medley"
-
+    "God I'm Just Grateful",
+    "How Firm a Foundation",
+    "I Know a Name",
+    "Blessed Assurance",
+    "Build My Life",
+    "OFFERTORY: Change My Heart O God",
+    "CHOIR SPECIAL: Mighty to Save"
 
   ],
   "songs": [
     {
-      "title": "VICTORY IN JESUS",
+      "title": "GOD I'M JUST GRATEFUL",
       "useImages": true,
       "imageFiles": [
-        "1-Victory-in-Jesus-0.png",
-        "1-Victory-in-Jesus-1.png"
+        "1.God.I'm.Just.Grateful-0.png",
+        "1.God.I'm.Just.Grateful-1.png",
+        "1.God.I'm.Just.Grateful-2.png"
       ],
       "lyricSlideImages": [
         "lyric-slide-images/1.Victory.in.Jesus-0.png",
         "lyric-slide-images/1.Victory.in.Jesus-1.png",
-        "lyric-slide-images/1.Victory.in.Jesus-2.png",
-        "lyric-slide-images/1.Victory.in.Jesus-3.png",
-        "lyric-slide-images/1.Victory.in.Jesus-4.png",
-        "lyric-slide-images/1.Victory.in.Jesus-5.png",
-        "lyric-slide-images/1.Victory.in.Jesus-6.png",
-        "lyric-slide-images/1.Victory.in.Jesus-7.png",
-        "lyric-slide-images/1.Victory.in.Jesus-8.png",
-        "lyric-slide-images/1.Victory.in.Jesus-9.png",
-        "lyric-slide-images/1.Victory.in.Jesus-10.png",
-        "lyric-slide-images/1.Victory.in.Jesus-11.png",
-        "lyric-slide-images/1.Victory.in.Jesus-12.png",
-        "lyric-slide-images/1.Victory.in.Jesus-13.png",
-        "lyric-slide-images/1.Victory.in.Jesus-14.png",
-        "lyric-slide-images/1.Victory.in.Jesus-15.png",
-        "lyric-slide-images/1.Victory.in.Jesus-16.png",
-        "lyric-slide-images/1.Victory.in.Jesus-17.png",
-        "lyric-slide-images/1.Victory.in.Jesus-18.png",
-        "lyric-slide-images/1.Victory.in.Jesus-19.png",
-        "lyric-slide-images/1.Victory.in.Jesus-20.png",
-        "lyric-slide-images/1.Victory.in.Jesus-21.png",
-        "lyric-slide-images/1.Victory.in.Jesus-22.png",
-        "lyric-slide-images/1.Victory.in.Jesus-23.png",
-        "lyric-slide-images/1.Victory.in.Jesus-24.png"
       ],
       "tracks": [
         {"name": "PIANO", "src": "audio/Victory.In.Jesus.piano.mp3"}
       ]
     },
     {
-      "title": "SHOUT TO THE NORTH",
+      "title": "HOW FIRM A FOUNDATION",
       "useImages": true,
       "imageFiles": [
-        "2-Shout-to-the-North-0.png",
-        "2-Shout-to-the-North-1.png"
+        "2.How.Firm.a.Foundation-0.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/1.Victory.in.Jesus-0.png",
+        "lyric-slide-images/1.Victory.in.Jesus-1.png",
+      ],
+      "tracks": [
+        {"name": "MELODY", "src": "audio/How-Firm-A-Foundation.mp3"}
+      ]
+    },
+    {
+      "title": "I KNOW A NAME",
+      "useImages": true,
+      "imageFiles": [
+        "3.I.Know.a.Name-0.png",
+        "3.I.Know.a.Name-1.png"
       ],
       "lyricSlideImages": [
         "lyric-slide-images/2.Shout.to.the.North-0.png",
         "lyric-slide-images/2.Shout.to.the.North-1.png",
-        "lyric-slide-images/2.Shout.to.the.North-2.png",
-        "lyric-slide-images/2.Shout.to.the.North-3.png",
-        "lyric-slide-images/2.Shout.to.the.North-4.png",
-        "lyric-slide-images/2.Shout.to.the.North-5.png",
-        "lyric-slide-images/2.Shout.to.the.North-6.png",
-        "lyric-slide-images/2.Shout.to.the.North-7.png",
-        "lyric-slide-images/2.Shout.to.the.North-8.png",
-        "lyric-slide-images/2.Shout.to.the.North-9.png",
-        "lyric-slide-images/2.Shout.to.the.North-10.png",
-        "lyric-slide-images/2.Shout.to.the.North-11.png",
-        "lyric-slide-images/2.Shout.to.the.North-12.png",
-        "lyric-slide-images/2.Shout.to.the.North-13.png",
-        "lyric-slide-images/2.Shout.to.the.North-14.png",
-        "lyric-slide-images/2.Shout.to.the.North-15.png",
-        "lyric-slide-images/2.Shout.to.the.North-16.png",
-        "lyric-slide-images/2.Shout.to.the.North-17.png",
-        "lyric-slide-images/2.Shout.to.the.North-18.png",
-        "lyric-slide-images/2.Shout.to.the.North-19.png",
-        "lyric-slide-images/2.Shout.to.the.North-20.png",
-        "lyric-slide-images/2.Shout.to.the.North-21.png"
+      ],
+      "tracks": [
+        {"name": "MELODY", "src": "audio/I.Know.a.Name.mp3"},
+
+      ]
+    },
+    {
+      "title": "BLESSED ASSURANCE",
+      "useImages": true,
+      "imageFiles": [
+        "4.Blessed.Assurance.CeCe-0.png",
+        "4.Blessed.Assurance.CeCe-1.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/3.Praise.You.in.This.Storm-0.png",
+        "lyric-slide-images/3.Praise.You.in.This.Storm-1.png",
+      ],
+      "tracks": [
+        {"name": "MELODY", "src": "audio/Praise.You.In.This.Storm.all.mp3"}
+      ]
+    },
+    {
+      "title": "BUILD MY LIFE",
+      "useImages": true,
+      "imageFiles": [
+        "5.Build.My.Life-0.png",
+        "5.Build.My.Life-1.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/4.My.Jesus-0.png",
+      ],
+      "tracks": [
+        {"name": "MELODY", "src": "audio/Build-My-Life.mp3"},
+        {"name": "BALANCED WITH HARMONY", "src": "audio/Build-My-Life-Balanced.mp3"},
+        {"name": "HARMONY PRACTICE", "src": "audio/Build-My-Life-Harm-Heavy.mp3"}
+      ]
+    },
+    {
+      "title": "CHANGE MY HEART, O GOD",
+      "useImages": true,
+      "imageFiles": [
+        "6.Change.My.Heart.O.God-0.png",
+        "6.Change.My.Heart.O.God-1.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/2.Shout.to.the.North-0.png",
+        "lyric-slide-images/2.Shout.to.the.North-1.png",
       ],
       "tracks": [
         {"name": "ALL", "src": "audio/Shout.To.The.North.all.mp3"},
@@ -92,129 +111,28 @@
       ]
     },
     {
-      "title": "PRAISE YOU IN THIS STORM",
+      "title": "MIGHTY TO SAVE",
       "useImages": true,
       "imageFiles": [
-        "3-Praise-You-in-This-Storm-0.png",
-        "3-Praise-You-in-This-Storm-1.png"
+        "7.Mighty.to.Save-0.png",
+        "7.Mighty.to.Save-1.png",
+        "7.Mighty.to.Save-2.png",
+        "7.Mighty.to.Save-3.png",
+        "7.Mighty.to.Save-4.png",
+        "7.Mighty.to.Save-5.png",
+        "7.Mighty.to.Save-6.png",
+        "7.Mighty.to.Save-7.png",
+        "7.Mighty.to.Save-8.png",
+        "7.Mighty.to.Save-9.png",
+        "7.Mighty.to.Save-10.png",
+        "7.Mighty.to.Save-11.png",
+        "7.Mighty.to.Save-12.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/3.Praise.You.in.This.Storm-0.png",
-        "lyric-slide-images/3.Praise.You.in.This.Storm-1.png",
-        "lyric-slide-images/3.Praise.You.in.This.Storm-2.png",
-        "lyric-slide-images/3.Praise.You.in.This.Storm-3.png",
-        "lyric-slide-images/3.Praise.You.in.This.Storm-4.png",
-        "lyric-slide-images/3.Praise.You.in.This.Storm-5.png",
-        "lyric-slide-images/3.Praise.You.in.This.Storm-6.png",
-        "lyric-slide-images/3.Praise.You.in.This.Storm-7.png",
-        "lyric-slide-images/3.Praise.You.in.This.Storm-8.png",
-        "lyric-slide-images/3.Praise.You.in.This.Storm-9.png",
-        "lyric-slide-images/3.Praise.You.in.This.Storm-10.png",
-        "lyric-slide-images/3.Praise.You.in.This.Storm-11.png",
-        "lyric-slide-images/3.Praise.You.in.This.Storm-12.png",
-        "lyric-slide-images/3.Praise.You.in.This.Storm-13.png",
-        "lyric-slide-images/3.Praise.You.in.This.Storm-14.png",
-        "lyric-slide-images/3.Praise.You.in.This.Storm-15.png",
-        "lyric-slide-images/3.Praise.You.in.This.Storm-16.png",
-        "lyric-slide-images/3.Praise.You.in.This.Storm-17.png",
-        "lyric-slide-images/3.Praise.You.in.This.Storm-18.png",
-        "lyric-slide-images/3.Praise.You.in.This.Storm-19.png",
-        "lyric-slide-images/3.Praise.You.in.This.Storm-20.png",
-        "lyric-slide-images/3.Praise.You.in.This.Storm-21.png",
-        "lyric-slide-images/3.Praise.You.in.This.Storm-22.png",
-        "lyric-slide-images/3.Praise.You.in.This.Storm-23.png",
-        "lyric-slide-images/3.Praise.You.in.This.Storm-24.png"
-      ],
-      "tracks": [
-        {"name": "MELODY", "src": "audio/Praise.You.In.This.Storm.all.mp3"}
-      ]
-    },
-    {
-      "title": "MY JESUS",
-      "useImages": true,
-      "imageFiles": [
-        "4-My-Jesus-0.png",
-        "4-My-Jesus-1.png",
-        "4-My-Jesus-2.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/4.My.Jesus-0.png",
-        "lyric-slide-images/4.My.Jesus-1.png",
-        "lyric-slide-images/4.My.Jesus-2.png",
-        "lyric-slide-images/4.My.Jesus-3.png",
-        "lyric-slide-images/4.My.Jesus-4.png",
-        "lyric-slide-images/4.My.Jesus-5.png",
-        "lyric-slide-images/4.My.Jesus-6.png",
-        "lyric-slide-images/4.My.Jesus-7.png",
-        "lyric-slide-images/4.My.Jesus-8.png",
-        "lyric-slide-images/4.My.Jesus-9.png",
-        "lyric-slide-images/4.My.Jesus-10.png",
-        "lyric-slide-images/4.My.Jesus-11.png",
-        "lyric-slide-images/4.My.Jesus-12.png",
-        "lyric-slide-images/4.My.Jesus-13.png",
-        "lyric-slide-images/4.My.Jesus-14.png",
-        "lyric-slide-images/4.My.Jesus-15.png",
-        "lyric-slide-images/4.My.Jesus-16.png",
-        "lyric-slide-images/4.My.Jesus-17.png",
-        "lyric-slide-images/4.My.Jesus-18.png",
-        "lyric-slide-images/4.My.Jesus-19.png",
-        "lyric-slide-images/4.My.Jesus-20.png",
-        "lyric-slide-images/4.My.Jesus-21.png",
-        "lyric-slide-images/4.My.Jesus-22.png",
-        "lyric-slide-images/4.My.Jesus-23.png",
-        "lyric-slide-images/4.My.Jesus-24.png",
-        "lyric-slide-images/4.My.Jesus-25.png",
-        "lyric-slide-images/4.My.Jesus-26.png",
-        "lyric-slide-images/4.My.Jesus-27.png",
-        "lyric-slide-images/4.My.Jesus-28.png",
-        "lyric-slide-images/4.My.Jesus-29.png"
-      ],
-      "tracks": [
-        {"name": "MELODY", "src": "audio/My.Jesus.new.mp3"},
-        {"name": "PIANO", "src": "audio/My.Jesus.piano.new.mp3"}
-      ]
-    },
-    {
-      "title": "LOVE OF JESUS MEDLEY",
-      "useImages": true,
-      "imageFiles": [
-        "5-Love-of-Jesus-Medley-0.png",
-        "5-Love-of-Jesus-Medley-1.png",
-        "5-Love-of-Jesus-Medley-2.png",
-        "5-Love-of-Jesus-Medley-3.png",
-        "5-Love-of-Jesus-Medley-4.png",
-        "5-Love-of-Jesus-Medley-5.png",
-        "5-Love-of-Jesus-Medley-6.png",
-        "5-Love-of-Jesus-Medley-7.png",
-        "5-Love-of-Jesus-Medley-8.png",
-        "5-Love-of-Jesus-Medley-9.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/5.Love.of.Jesus.Medley-0.png",
-        "lyric-slide-images/5.Love.of.Jesus.Medley-1.png",
-        "lyric-slide-images/5.Love.of.Jesus.Medley-2.png",
-        "lyric-slide-images/5.Love.of.Jesus.Medley-3.png",
-        "lyric-slide-images/5.Love.of.Jesus.Medley-4.png",
-        "lyric-slide-images/5.Love.of.Jesus.Medley-5.png",
-        "lyric-slide-images/5.Love.of.Jesus.Medley-6.png",
-        "lyric-slide-images/5.Love.of.Jesus.Medley-7.png",
-        "lyric-slide-images/5.Love.of.Jesus.Medley-8.png",
-        "lyric-slide-images/5.Love.of.Jesus.Medley-9.png",
-        "lyric-slide-images/5.Love.of.Jesus.Medley-10.png",
-        "lyric-slide-images/5.Love.of.Jesus.Medley-11.png",
-        "lyric-slide-images/5.Love.of.Jesus.Medley-12.png",
-        "lyric-slide-images/5.Love.of.Jesus.Medley-13.png",
-        "lyric-slide-images/5.Love.of.Jesus.Medley-14.png",
-        "lyric-slide-images/5.Love.of.Jesus.Medley-15.png",
-        "lyric-slide-images/5.Love.of.Jesus.Medley-16.png",
-        "lyric-slide-images/5.Love.of.Jesus.Medley-17.png",
-        "lyric-slide-images/5.Love.of.Jesus.Medley-18.png"
+        "lyric-slide-images/7.Mighty.to.Save-0.png",
       ],
       "tracks": [
         {"name": "ALL", "src": "audio/Love.of.Jesus.Medley.all.mp3"},
-        {"name": "ALTO", "src": "audio/Love.of.Jesus.Medley.alto.mp3"},
-        {"name": "TENOR", "src": "audio/Love.of.Jesus.Medley.tenor.mp3"},
-        {"name": "BASS", "src": "audio/Love.of.Jesus.Medley.bass.mp3"}
       ]
     }
   ],
