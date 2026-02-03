@@ -198,36 +198,38 @@
             position: relative;
             width: 280px;
             height: 210px;
-            overflow: hidden;
         }
 
         .youtube-close {
             position: absolute;
-            top: -30px;
+            top: -35px;
             right: 0;
             color: white;
-            font-size: 24px;
+            font-size: 28px;
             font-weight: bold;
             cursor: pointer;
-            background: rgba(255,0,0,0.8);
-            width: 30px;
-            height: 30px;
+            background: rgba(255,0,0,0.9);
+            width: 35px;
+            height: 35px;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             z-index: 10001;
             transition: background 0.2s;
+            border: 2px solid white;
         }
 
         .youtube-close:hover {
             background: rgba(255,0,0,1);
+            transform: scale(1.1);
         }
 
         .youtube-modal iframe {
             width: 100%;
             height: 100%;
             border: none;
+            border-radius: 8px;
         }
 
         /* No overlay needed - player floats above content */
@@ -1915,6 +1917,7 @@
         if (event.key === 'Escape') {
             closeModal();
             closeImageModal();
+            closeYoutubeModal();
         }
     });
 

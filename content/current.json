@@ -90,7 +90,7 @@
         "lyric-slide-images/2.How.Firm.a.Foundation-16.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/How-Firm-A-Foundation.mp3"}
+        {"name": "MELODY", "src": "audio/How.Firm.a.Foundation.HL.mp3"}
       ]
     },
     {
@@ -157,7 +157,7 @@
         "lyric-slide-images/4.Blessed.Assurance-9.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Blessed.Assurance.CeCe.melody.mp3"},
+        {"name": "MELODY", "src": "audio/Blessed.Assurance.CeCe.HL.mp3"},
         {"name": "PIANO", "src": "audio/Blessed.Assurance.CeCe.piano.mp3"}
       ]
     },
@@ -204,7 +204,7 @@
         "lyric-slide-images/5.Build.My.Life-32.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Build-My-Life.mp3"},
+        {"name": "MELODY", "src": "audio/Build.My.Life.melody.HL.mp3"},
         {"name": "BALANCED WITH HARMONY", "src": "audio/Build-My-Life-Balanced.mp3"},
         {"name": "HARMONY", "src": "audio/Build-My-Life-Harm-Heavy.mp3"}
       ]
@@ -225,7 +225,7 @@
         "lyric-slide-images/6.Change.My.Heart.O.God-5.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Change.My.Heart.O.God.mp3"}
+        {"name": "MELODY", "src": "audio/Change.My.Heart.O.God.HL.mp3"}
       ]
     },
     {
@@ -270,11 +270,11 @@
         "lyric-slide-images/7.Mighty.to.Save-20.png"
       ],
       "tracks": [
-        {"name": "ALL", "src": "audio/Mighty.To.Save.all.mp3"},
+        {"name": "ALL", "src": "audio/Mighty.to.Save.all.HL.mp3"},
         {"name": "SOPRANO", "src": "audio/Mighty.To.Save.melody.only.mp3"},
-        {"name": "ALTO", "src": "audio/Mighty.To.Save.alto.mp3"},
-        {"name": "TENOR", "src": "audio/Mighty.To.Save.tenor.mp3"},
-        {"name": "BASS", "src": "audio/Mighty.To.Save.bass.mp3"}
+        {"name": "ALTO", "src": "audio/Mighty.to.Save.alto.HL.mp3"},
+        {"name": "TENOR", "src": "audio/Mighty.to.Save.tenor.HL.mp3"},
+        {"name": "BASS", "src": "audio/Mighty.to.Save.bass.HL.mp3"}
       ]
     }
   ],
