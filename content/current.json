@@ -71,23 +71,23 @@
         "2.How.Firm.a.Foundation-0.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/2-How-Firm-a-Foundation-0.png",
-        "lyric-slide-images/2-How-Firm-a-Foundation-1.png",
-        "lyric-slide-images/2-How-Firm-a-Foundation-2.png",
-        "lyric-slide-images/2-How-Firm-a-Foundation-3.png",
-        "lyric-slide-images/2-How-Firm-a-Foundation-4.png",
-        "lyric-slide-images/2-How-Firm-a-Foundation-5.png",
-        "lyric-slide-images/2-How-Firm-a-Foundation-6.png",
-        "lyric-slide-images/2-How-Firm-a-Foundation-7.png",
-        "lyric-slide-images/2-How-Firm-a-Foundation-8.png",
-        "lyric-slide-images/2-How-Firm-a-Foundation-9.png",
-        "lyric-slide-images/2-How-Firm-a-Foundation-10.png",
-        "lyric-slide-images/2-How-Firm-a-Foundation-11.png",
-        "lyric-slide-images/2-How-Firm-a-Foundation-12.png",
-        "lyric-slide-images/2-How-Firm-a-Foundation-13.png",
-        "lyric-slide-images/2-How-Firm-a-Foundation-14.png",
-        "lyric-slide-images/2-How-Firm-a-Foundation-15.png",
-        "lyric-slide-images/2-How-Firm-a-Foundation-16.png"
+        "lyric-slide-images/2.How.Firm.a.Foundation-0.png",
+        "lyric-slide-images/2.How.Firm.a.Foundation-1.png",
+        "lyric-slide-images/2.How.Firm.a.Foundation-2.png",
+        "lyric-slide-images/2.How.Firm.a.Foundation-3.png",
+        "lyric-slide-images/2.How.Firm.a.Foundation-4.png",
+        "lyric-slide-images/2.How.Firm.a.Foundation-5.png",
+        "lyric-slide-images/2.How.Firm.a.Foundation-6.png",
+        "lyric-slide-images/2.How.Firm.a.Foundation-7.png",
+        "lyric-slide-images/2.How.Firm.a.Foundation-8.png",
+        "lyric-slide-images/2.How.Firm.a.Foundation-9.png",
+        "lyric-slide-images/2.How.Firm.a.Foundation-10.png",
+        "lyric-slide-images/2.How.Firm.a.Foundation-11.png",
+        "lyric-slide-images/2.How.Firm.a.Foundation-12.png",
+        "lyric-slide-images/2.How.Firm.a.Foundation-13.png",
+        "lyric-slide-images/2.How.Firm.a.Foundation-14.png",
+        "lyric-slide-images/2.How.Firm.a.Foundation-15.png",
+        "lyric-slide-images/2.How.Firm.a.Foundation-16.png"
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/How-Firm-A-Foundation.mp3"}
@@ -158,8 +158,8 @@
         "lyric-slide-images/4.Blessed.Assurance-9.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Blessed.Assurance.Cece.melody.mp3"},
-        {"name": "PIANO", "src": "audio/Blessed.Assurance.Cece.melody.mp3"}
+        {"name": "MELODY", "src": "audio/Blessed.Assurance.CeCe.melody.mp3"},
+        {"name": "PIANO", "src": "audio/Blessed.Assurance.CeCe.melody.mp3"}
       ]
     },
     {
