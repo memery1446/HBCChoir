@@ -159,19 +159,19 @@
             background: #9b59b6;
             color: white;
             border: none;
-            padding: 4px 10px;
-            border-radius: 8px;
+            padding: 4px 8px;
+            border-radius: 4px;
             cursor: pointer;
-            font-size: 0.75rem;
+            font-size: 0.7rem;
             transition: all 0.3s ease;
             font-weight: 500;
-            margin-right: 8px;
+            margin-right: 6px;
         }
 
         .toggle-view-btn:hover {
             background: #8e44ad;
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(155, 89, 182, 0.4);
+            transform: translateY(-1px);
+            box-shadow: 0 3px 10px rgba(155, 89, 182, 0.4);
         }
 
         .toggle-view-btn:disabled {
@@ -251,18 +251,28 @@
         /* Custom Audio Player Styles */
         .custom-audio-player {
             background: #f8f9fa;
-            border-radius: 8px;
-            padding: 15px;
+            border-radius: 6px;
+            padding: 8px;
             width: 100%;
             max-width: 500px;
             border: 1px solid #dee2e6;
         }
 
+        .audio-controls .custom-audio-player {
+            padding: 6px;
+            max-width: 100%;
+        }
+
         .audio-controls-row {
             display: flex;
             align-items: center;
-            gap: 10px;
-            margin-bottom: 10px;
+            gap: 6px;
+            margin-bottom: 6px;
+        }
+
+        .audio-controls .audio-controls-row {
+            gap: 4px;
+            margin-bottom: 4px;
         }
 
         .play-pause-btn {
@@ -279,6 +289,12 @@
             justify-content: center;
             flex-shrink: 0;
             transition: all 0.2s ease;
+        }
+
+        .audio-controls .play-pause-btn {
+            width: 32px;
+            height: 32px;
+            font-size: 14px;
         }
 
         .play-pause-btn:hover {
@@ -304,6 +320,12 @@
             justify-content: center;
             flex-shrink: 0;
             transition: all 0.2s ease;
+        }
+
+        .audio-controls .skip-btn {
+            width: 26px;
+            height: 26px;
+            font-size: 10px;
         }
 
         .skip-btn:hover {
@@ -574,11 +596,22 @@
 
         .close {
             color: #aaa;
-            float: right;
-            font-size: 28px;
+            position: absolute;
+            right: 8px;
+            top: 8px;
+            font-size: 24px;
             font-weight: bold;
             cursor: pointer;
             transition: color 0.3s;
+            z-index: 1000;
+            background: rgba(255,255,255,0.9);
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 1;
         }
 
         .close:hover {
@@ -631,23 +664,26 @@
 
         .audio-controls {
             background: #f8f9fa;
-            padding: 12px;
-            border-radius: 8px;
-            margin-bottom: 8px;
+            padding: 6px 8px;
+            border-radius: 6px;
+            margin-bottom: 0;
             text-align: center;
+            flex-shrink: 0;
+            border-bottom: 2px solid #dee2e6;
         }
 
         .audio-controls h3 {
             color: #2c3e50;
-            margin-bottom: 10px;
-            font-size: 1rem;
+            margin-bottom: 6px;
+            font-size: 0.85rem;
+            font-weight: 600;
         }
 
         .voice-selector {
             display: flex;
-            gap: 6px;
+            gap: 4px;
             justify-content: center;
-            margin-bottom: 10px;
+            margin-bottom: 6px;
             flex-wrap: wrap;
         }
 
@@ -655,10 +691,10 @@
             background: #95a5a6;
             color: white;
             border: none;
-            padding: 8px 14px;
-            border-radius: 6px;
+            padding: 6px 10px;
+            border-radius: 5px;
             cursor: pointer;
-            font-size: 0.9rem;
+            font-size: 0.8rem;
             transition: all 0.3s ease;
             font-weight: 500;
         }
@@ -699,8 +735,9 @@
         .image-modal-content {
             display: flex;
             flex-direction: column;
-            height: 95vh;
-            max-height: 95vh;
+            height: 98vh;
+            max-height: 98vh;
+            padding: 8px !important;
         }
 
         .image-viewer {
@@ -708,10 +745,10 @@
             overflow: auto;
             -webkit-overflow-scrolling: touch;
             background: #f8f9fa;
-            border-radius: 10px;
-            margin: 10px 0;
+            border-radius: 8px;
+            margin: 4px 0 0 0;
             position: relative;
-            height: calc(100% - 140px);
+            min-height: 0;
         }
 
         .image-container {
@@ -755,8 +792,8 @@
             display: none;
             justify-content: center;
             align-items: center;
-            margin-top: 6px;
-            gap: 6px;
+            margin-top: 4px;
+            gap: 4px;
             flex-wrap: wrap;
         }
 
@@ -764,10 +801,10 @@
             background: #3498db;
             color: white;
             border: none;
-            padding: 6px 10px;
-            border-radius: 5px;
+            padding: 4px 8px;
+            border-radius: 4px;
             cursor: pointer;
-            font-size: 0.85rem;
+            font-size: 0.75rem;
             transition: all 0.3s ease;
         }
 
@@ -781,7 +818,7 @@
         }
 
         .page-info-compact {
-            font-size: 0.85rem;
+            font-size: 0.75rem;
             font-weight: bold;
             color: #2c3e50;
         }
@@ -873,23 +910,22 @@
                 height: 100vh !important;
                 margin: 0 !important;
                 border-radius: 0 !important;
-                padding: 4px !important;
+                padding: 2px !important;
                 max-height: 100vh !important;
             }
 
             .image-viewer {
                 flex: 1 !important;
-                height: calc(100vh - 130px) !important;
-                max-height: calc(100vh - 130px) !important;
-                margin: 2px 0 !important;
-                overflow: hidden !important;
+                min-height: 0 !important;
+                margin: 2px 0 0 0 !important;
+                overflow: auto !important;
                 display: flex !important;
                 align-items: center !important;
                 justify-content: center !important;
             }
 
             .image-container {
-                padding: 4px !important;
+                padding: 2px !important;
                 height: 100% !important;
                 width: 100% !important;
                 display: flex !important;
@@ -902,32 +938,43 @@
                 top: 0;
                 z-index: 20;
                 background: white;
-                border-radius: 6px;
-                margin-bottom: 2px;
+                border-radius: 4px;
+                margin-bottom: 0;
                 box-shadow: 0 2px 8px rgba(0,0,0,0.1);
                 border: 1px solid #e9ecef;
                 flex-shrink: 0 !important;
-                padding: 6px 8px !important;
+                padding: 4px 6px !important;
             }
 
             .audio-controls h3 {
-                font-size: 0.75rem !important;
-                margin-bottom: 4px !important;
+                font-size: 0.7rem !important;
+                margin-bottom: 3px !important;
             }
 
             .page-controls-inline {
                 display: flex !important;
                 margin-top: 3px !important;
-                gap: 4px !important;
+                gap: 3px !important;
             }
 
             .control-btn {
-                padding: 4px 8px !important;
-                font-size: 0.75rem !important;
+                padding: 3px 6px !important;
+                font-size: 0.7rem !important;
             }
 
             .page-info-compact {
-                font-size: 0.75rem !important;
+                font-size: 0.7rem !important;
+            }
+
+            .voice-btn {
+                padding: 4px 6px !important;
+                font-size: 0.7rem !important;
+                margin: 1px !important;
+            }
+
+            .toggle-view-btn {
+                padding: 3px 6px !important;
+                font-size: 0.65rem !important;
             }
 
             #sheetMusicImage {
