@@ -135,7 +135,6 @@
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/I.Know.a.Name.mp3"}
-
       ]
     },
     {
@@ -159,7 +158,7 @@
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/Blessed.Assurance.CeCe.melody.mp3"},
-        {"name": "PIANO", "src": "audio/Blessed.Assurance.CeCe.melody.mp3"}
+        {"name": "PIANO", "src": "audio/Blessed.Assurance.CeCe.piano.mp3"}
       ]
     },
     {

@@ -165,7 +165,8 @@
             font-size: 0.7rem;
             transition: all 0.3s ease;
             font-weight: 500;
-            margin-right: 6px;
+            margin: 4px 0;
+            display: none;
         }
 
         .toggle-view-btn:hover {
@@ -975,6 +976,7 @@
             .toggle-view-btn {
                 padding: 3px 6px !important;
                 font-size: 0.65rem !important;
+                margin: 2px 0 !important;
             }
 
             #sheetMusicImage {
@@ -1077,10 +1079,11 @@
             <div id="imageVoiceSelector"></div>
             <div id="imageModalAudioContainer"></div>
 
+            <button class="toggle-view-btn" id="toggleViewBtn" onclick="toggleImageView()" style="display: none;">
+                Show Lyric Slides
+            </button>
+
             <div class="page-controls-inline" id="imageControlsInline" style="display: none;">
-                <button class="toggle-view-btn" id="toggleViewBtn" onclick="toggleImageView()" style="display: none;">
-                    Show Lyric Slides
-                </button>
                 <button class="control-btn" id="prevImageBtnInline" onclick="prevImagePage()">◀ Prev</button>
                 <span class="page-info-compact">Page <span id="imagePageNumInline">1</span>/<span id="imagePageCountInline">1</span></span>
                 <button class="control-btn" id="nextImageBtnInline" onclick="nextImagePage()">Next ▶</button>
