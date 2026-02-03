@@ -1,0 +1,96 @@
+# YouTube Video Integration - Quick Guide
+
+## What Changed?
+
+Your choir website now supports YouTube videos in addition to MP3 files! Videos open in a **small modal window** that floats on top of your site, keeping your members on the page.
+
+## How to Use
+
+Simply use a YouTube URL instead of an MP3 file path in your `current.json` file:
+
+### Example 1: Single YouTube Video
+```json
+{
+  "title": "BUILD MY LIFE",
+  "useImages": true,
+  "imageFiles": ["5.Build.My.Life-0.png"],
+  "tracks": [
+    {
+      "name": "MELODY",
+      "src": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    }
+  ]
+}
+```
+
+### Example 2: Multiple YouTube Videos (Different Parts)
+```json
+{
+  "title": "MIGHTY TO SAVE",
+  "useImages": true,
+  "imageFiles": ["7.Mighty.to.Save-0.png"],
+  "tracks": [
+    {
+      "name": "SOPRANO",
+      "src": "https://www.youtube.com/watch?v=VIDEO_ID_1"
+    },
+    {
+      "name": "ALTO",
+      "src": "https://www.youtube.com/watch?v=VIDEO_ID_2"
+    }
+  ]
+}
+```
+
+### Example 3: Listen-Only (No Sheet Music)
+```json
+{
+  "title": "CHANGE MY HEART, O GOD",
+  "tracks": [
+    {
+      "name": "Performance Video",
+      "src": "https://www.youtube.com/watch?v=VIDEO_ID"
+    }
+  ]
+}
+```
+
+## Supported YouTube URL Formats
+
+All of these work:
+- `https://www.youtube.com/watch?v=VIDEO_ID`
+- `https://youtu.be/VIDEO_ID`
+- `https://www.youtube.com/embed/VIDEO_ID`
+
+## How It Looks
+
+### On Desktop/Tablet:
+- Clicking a YouTube track opens a **320x240 pixel** video player
+- Player floats in center of screen with semi-transparent background
+- Site remains visible and accessible behind the video
+- Click the X or outside the video to close
+
+### On Mobile:
+- Optimized to **280x210 pixels** for smaller screens
+- Audio is prioritized (small video = better focus on sound)
+- Easy to close and return to sheet music
+
+## Features
+
+✅ **Keeps members on your site** - no navigation away
+✅ **Small window** - perfect for mobile, audio-focused
+✅ **Autoplay enabled** - videos start automatically
+✅ **Easy to close** - click X, outside video, or press ESC
+✅ **Works with sheet music** - videos appear as red YouTube buttons
+✅ **Mix and match** - combine YouTube videos and MP3s in same service
+
+## Notes
+
+- YouTube videos do NOT appear in the "Play All Songs in Order" playlist (by design - they need manual interaction)
+- MP3 files still work exactly as before
+- YouTube buttons appear in red to distinguish them from audio tracks
+- The video window is intentionally small since most members use phones and care more about the audio
+
+## Need Help?
+
+If you have questions or want to adjust the video player size, just let me know!

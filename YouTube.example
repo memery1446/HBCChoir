@@ -1,0 +1,74 @@
+{
+  "serviceDate": "2026-02-08",
+  "headerNotes": [
+    "Example showing how to use YouTube videos instead of MP3 files"
+  ],
+  "order": [
+    "Example Song with YouTube",
+    "Example Song with Multiple YouTube Videos"
+  ],
+  "songs": [
+    {
+      "title": "EXAMPLE SONG WITH SINGLE YOUTUBE VIDEO",
+      "useImages": true,
+      "imageFiles": [
+        "example-song-0.png",
+        "example-song-1.png"
+      ],
+      "tracks": [
+        {
+          "name": "MELODY",
+          "src": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        }
+      ]
+    },
+    {
+      "title": "EXAMPLE SONG WITH MULTIPLE YOUTUBE VIDEOS",
+      "useImages": true,
+      "imageFiles": [
+        "example-song-2.png"
+      ],
+      "tracks": [
+        {
+          "name": "SOPRANO",
+          "src": "https://www.youtube.com/watch?v=VIDEO_ID_1"
+        },
+        {
+          "name": "ALTO",
+          "src": "https://www.youtube.com/watch?v=VIDEO_ID_2"
+        },
+        {
+          "name": "TENOR",
+          "src": "https://youtu.be/VIDEO_ID_3"
+        }
+      ]
+    },
+    {
+      "title": "LISTEN-ONLY YOUTUBE VIDEOS (no sheet music)",
+      "tracks": [
+        {
+          "name": "Performance Video",
+          "src": "https://www.youtube.com/watch?v=VIDEO_ID_4"
+        },
+        {
+          "name": "Tutorial Video",
+          "src": "https://www.youtube.com/watch?v=VIDEO_ID_5"
+        }
+      ]
+    },
+    {
+      "title": "REGULAR MP3 SONG (still works the same)",
+      "useImages": true,
+      "imageFiles": [
+        "regular-song.png"
+      ],
+      "tracks": [
+        {
+          "name": "MELODY",
+          "src": "audio/regular-song.mp3"
+        }
+      ]
+    }
+  ],
+  "allSongsPdf": null
+}

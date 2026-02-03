@@ -181,6 +181,73 @@
             box-shadow: none;
         }
 
+        /* YouTube Modal Styles */
+        .youtube-modal {
+            display: none;
+            position: fixed;
+            z-index: 1001;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background: #000;
+            border-radius: 8px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+            overflow: hidden;
+        }
+
+        .youtube-modal-content {
+            position: relative;
+            width: 320px;
+            height: 240px;
+        }
+
+        .youtube-close {
+            position: absolute;
+            top: -35px;
+            right: 0;
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+            background: rgba(0,0,0,0.7);
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1002;
+        }
+
+        .youtube-close:hover {
+            background: rgba(255,0,0,0.8);
+        }
+
+        .youtube-modal iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .youtube-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.3);
+            z-index: 1000;
+        }
+
+        /* Mobile optimization */
+        @media (max-width: 600px) {
+            .youtube-modal-content {
+                width: 280px;
+                height: 210px;
+            }
+        }
+
         /* Custom Audio Player Styles */
         .custom-audio-player {
             background: #f8f9fa;
@@ -922,7 +989,7 @@
                 <input type="text" id="songSuggestion" class="suggestion-input" placeholder="What's your favorite hymn or song?" maxlength="100">
                 <br>
                 <button class="suggestion-btn" onclick="sendSuggestion()">Send Suggestion</button>
-                <a href="mailto:memery1446@gmail.com" class="email-link">📧 Email Mark</a>
+                <a href="/cdn-cgi/l/email-protection#9cf1f9f1f9eee5ada8a8aadcfbf1fdf5f0b2fff3f1" class="email-link">📧 Email Mark</a>
             </div>
         </div>
     </div>
@@ -982,7 +1049,21 @@
     </div>
 </div>
 
-<script>
+<!-- YouTube Video Modal -->
+<div id="youtubeOverlay" class="youtube-overlay" onclick="closeYoutubeModal()"></div>
+<div id="youtubeModal" class="youtube-modal">
+    <div class="youtube-modal-content">
+        <span class="youtube-close" onclick="closeYoutubeModal()">&times;</span>
+        <iframe id="youtubeFrame"
+                src=""
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+        </iframe>
+    </div>
+</div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
     pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
 
     const isIOSSafari = /iPad|iPhone|iPod/.test(navigator.userAgent) && /Safari/.test(navigator.userAgent) && !/CriOS|FxiOS/.test(navigator.userAgent);
@@ -1150,6 +1231,55 @@
     let imageModalAudioPlayer = null;
     let playlistAudioPlayer = null;
 
+    // YouTube helper functions
+    function isYoutubeUrl(url) {
+        if (!url) return false;
+        return url.includes('youtube.com') || url.includes('youtu.be');
+    }
+
+    function getYoutubeEmbedUrl(url) {
+        // Extract video ID from various YouTube URL formats
+        let videoId = null;
+
+        // Format: https://www.youtube.com/watch?v=VIDEO_ID
+        if (url.includes('youtube.com/watch')) {
+            const urlParams = new URLSearchParams(new URL(url).search);
+            videoId = urlParams.get('v');
+        }
+        // Format: https://youtu.be/VIDEO_ID
+        else if (url.includes('youtu.be/')) {
+            videoId = url.split('youtu.be/')[1].split('?')[0];
+        }
+        // Format: https://www.youtube.com/embed/VIDEO_ID
+        else if (url.includes('youtube.com/embed/')) {
+            videoId = url.split('embed/')[1].split('?')[0];
+        }
+
+        if (videoId) {
+            // Return embed URL with autoplay parameter
+            return `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+        }
+        return null;
+    }
+
+    function openYoutubeModal(youtubeUrl) {
+        const embedUrl = getYoutubeEmbedUrl(youtubeUrl);
+        if (embedUrl) {
+            document.getElementById('youtubeFrame').src = embedUrl;
+            document.getElementById('youtubeModal').style.display = 'block';
+            document.getElementById('youtubeOverlay').style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        }
+    }
+
+    function closeYoutubeModal() {
+        document.getElementById('youtubeModal').style.display = 'none';
+        document.getElementById('youtubeOverlay').style.display = 'none';
+        document.body.style.overflow = 'auto';
+        // Stop the video by clearing the iframe src
+        document.getElementById('youtubeFrame').src = '';
+    }
+
     async function loadContent() {
         try {
             const response = await fetch('content/current.json');
@@ -1238,16 +1368,33 @@
         const isListenOnly = !song.useImages && !song.pdf && song.tracks && song.tracks.length > 0;
 
         if (isListenOnly) {
-            const audioContainer = document.createElement('div');
-            audioContainer.style.width = '100%';
-            audioContainer.style.marginTop = '10px';
-            const playerId = 'inline-player-' + Math.random().toString(36).substr(2, 9);
-            audioContainer.innerHTML = `<div id="${playerId}"></div>`;
-            links.appendChild(audioContainer);
+            // Check if any track is a YouTube URL
+            const hasYoutube = song.tracks.some(track => isYoutubeUrl(track.src));
 
-            setTimeout(() => {
-                new CustomAudioPlayer(playerId, song.tracks[0].src);
-            }, 0);
+            if (hasYoutube) {
+                // Create buttons for YouTube videos
+                song.tracks.forEach(track => {
+                    const button = document.createElement('button');
+                    button.className = 'link-btn';
+                    button.textContent = `🎥 ${track.name}`;
+                    button.addEventListener('click', () => {
+                        openYoutubeModal(track.src);
+                    });
+                    links.appendChild(button);
+                });
+            } else {
+                // Create inline audio player for regular audio files
+                const audioContainer = document.createElement('div');
+                audioContainer.style.width = '100%';
+                audioContainer.style.marginTop = '10px';
+                const playerId = 'inline-player-' + Math.random().toString(36).substr(2, 9);
+                audioContainer.innerHTML = `<div id="${playerId}"></div>`;
+                links.appendChild(audioContainer);
+
+                setTimeout(() => {
+                    new CustomAudioPlayer(playerId, song.tracks[0].src);
+                }, 0);
+            }
         } else if (song.useImages && (song.imageFiles || song.imageBaseName)) {
             const button = document.createElement('button');
             button.className = 'link-btn sheet-music';
@@ -1308,7 +1455,8 @@
                 } else if (song.single && song.single.audio) {
                     audioSrc = song.single.audio;
                 }
-                if (audioSrc) {
+                // Only add non-YouTube audio sources to playlist
+                if (audioSrc && !isYoutubeUrl(audioSrc)) {
                     playlistSongs.push({
                         title: song.title,
                         src: audioSrc
@@ -1352,25 +1500,42 @@
     }
 
     function setupImageAudio(tracks) {
-        if (!imageModalAudioPlayer) {
-            imageModalAudioPlayer = new CustomAudioPlayer('imageModalAudioContainer');
+        if (!tracks || tracks.length === 0) {
+            document.getElementById('imageVoiceSelector').innerHTML = '';
+            return;
         }
 
-        if (tracks && tracks.length > 1) {
-            let voiceSelectorHTML = '<div class="voice-selector">';
+        // Check if any tracks are YouTube URLs
+        const hasYoutube = tracks.some(track => isYoutubeUrl(track.src));
+
+        if (hasYoutube) {
+            // Create YouTube buttons instead of audio player
+            let youtubeSelectorHTML = '<div class="voice-selector">';
             tracks.forEach((track, index) => {
-                const activeClass = index === 0 ? 'active' : '';
-                voiceSelectorHTML += `<button class="voice-btn ${activeClass}" onclick="switchImageVoice('${track.src}', ${index})">${track.name}</button>`;
+                youtubeSelectorHTML += `<button class="voice-btn" onclick="openYoutubeModal('${track.src}')" style="background: #FF0000;">🎥 ${track.name}</button>`;
             });
-            voiceSelectorHTML += '</div>';
-            document.getElementById('imageVoiceSelector').innerHTML = voiceSelectorHTML;
-            imageModalAudioPlayer.setSrc(tracks[0].src);
-        } else if (tracks && tracks.length === 1) {
-            document.getElementById('imageVoiceSelector').innerHTML = '';
-            imageModalAudioPlayer.setSrc(tracks[0].src);
+            youtubeSelectorHTML += '</div>';
+            document.getElementById('imageVoiceSelector').innerHTML = youtubeSelectorHTML;
+            document.getElementById('imageModalAudioContainer').innerHTML = '';
         } else {
-            document.getElementById('imageVoiceSelector').innerHTML = '';
-            imageModalAudioPlayer.setSrc('');
+            // Regular audio handling
+            if (!imageModalAudioPlayer) {
+                imageModalAudioPlayer = new CustomAudioPlayer('imageModalAudioContainer');
+            }
+
+            if (tracks.length > 1) {
+                let voiceSelectorHTML = '<div class="voice-selector">';
+                tracks.forEach((track, index) => {
+                    const activeClass = index === 0 ? 'active' : '';
+                    voiceSelectorHTML += `<button class="voice-btn ${activeClass}" onclick="switchImageVoice('${track.src}', ${index})">${track.name}</button>`;
+                });
+                voiceSelectorHTML += '</div>';
+                document.getElementById('imageVoiceSelector').innerHTML = voiceSelectorHTML;
+                imageModalAudioPlayer.setSrc(tracks[0].src);
+            } else {
+                document.getElementById('imageVoiceSelector').innerHTML = '';
+                imageModalAudioPlayer.setSrc(tracks[0].src);
+            }
         }
     }
 
