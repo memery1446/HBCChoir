@@ -182,46 +182,46 @@
             box-shadow: none;
         }
 
-        /* YouTube Modal Styles */
+        /* YouTube Floating Mini Player */
         .youtube-modal {
             display: none;
             position: fixed;
-            z-index: 1001;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
+            z-index: 10000;
+            right: 20px;
+            top: 80px;
             background: #000;
             border-radius: 8px;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.7);
             overflow: hidden;
         }
 
         .youtube-modal-content {
             position: relative;
-            width: 320px;
-            height: 240px;
+            width: 280px;
+            height: 210px;
         }
 
         .youtube-close {
             position: absolute;
-            top: -35px;
+            top: -30px;
             right: 0;
             color: white;
-            font-size: 28px;
+            font-size: 24px;
             font-weight: bold;
             cursor: pointer;
-            background: rgba(0,0,0,0.7);
-            width: 35px;
-            height: 35px;
+            background: rgba(255,0,0,0.8);
+            width: 30px;
+            height: 30px;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            z-index: 1002;
+            z-index: 10001;
+            transition: background 0.2s;
         }
 
         .youtube-close:hover {
-            background: rgba(255,0,0,0.8);
+            background: rgba(255,0,0,1);
         }
 
         .youtube-modal iframe {
@@ -230,15 +230,9 @@
             border: none;
         }
 
+        /* No overlay needed - player floats above content */
         .youtube-overlay {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.3);
-            z-index: 1000;
+            display: none !important;
         }
 
         /* Mobile optimization */
@@ -987,6 +981,23 @@
                 object-fit: contain !important;
                 touch-action: pinch-zoom !important;
             }
+
+            .youtube-modal {
+                right: 10px !important;
+                top: 60px !important;
+            }
+
+            .youtube-modal-content {
+                width: 200px !important;
+                height: 150px !important;
+            }
+
+            .youtube-close {
+                top: -25px !important;
+                width: 25px !important;
+                height: 25px !important;
+                font-size: 18px !important;
+            }
         }
     </style>
 </head>
@@ -1099,8 +1110,8 @@
     </div>
 </div>
 
-<!-- YouTube Video Modal -->
-<div id="youtubeOverlay" class="youtube-overlay" onclick="closeYoutubeModal()"></div>
+<!-- YouTube Floating Mini Player -->
+<div id="youtubeOverlay" class="youtube-overlay"></div>
 <div id="youtubeModal" class="youtube-modal">
     <div class="youtube-modal-content">
         <span class="youtube-close" onclick="closeYoutubeModal()">&times;</span>
@@ -1317,15 +1328,11 @@
         if (embedUrl) {
             document.getElementById('youtubeFrame').src = embedUrl;
             document.getElementById('youtubeModal').style.display = 'block';
-            document.getElementById('youtubeOverlay').style.display = 'block';
-            document.body.style.overflow = 'hidden';
         }
     }
 
     function closeYoutubeModal() {
         document.getElementById('youtubeModal').style.display = 'none';
-        document.getElementById('youtubeOverlay').style.display = 'none';
-        document.body.style.overflow = 'auto';
         // Stop the video by clearing the iframe src
         document.getElementById('youtubeFrame').src = '';
     }
