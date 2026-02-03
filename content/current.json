@@ -134,7 +134,7 @@
         "lyric-slide-images/3.I.Know.a.Name-30.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/I.Know.a.Name.mp3"},
+        {"name": "MELODY", "src": "audio/I.Know.a.Name.mp3"}
 
       ]
     },
