@@ -175,7 +175,7 @@
       ]
     },
     {
-      "title": "JESUS IS MY HEALER",
+      "title": "AMAZING GRACE / MY CHAINS ARE GONE",
       "useImages": true,
       "imageFiles": [
         "5.Jesus.Is.My.Healer-0.png",
@@ -184,39 +184,27 @@
         "5.Jesus.Is.My.Healer-3.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/5.Jesus.Is.My.Healer-0.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-1.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-2.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-3.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-4.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-5.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-6.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-7.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-8.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-9.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-10.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-11.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-12.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-13.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-14.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-15.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-16.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-17.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-18.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-19.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-20.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-21.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-22.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-23.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-24.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-25.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-26.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-27.png",
-        "lyric-slide-images/5.Jesus.Is.My.Healer-28.png"
+        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-0.png",
+        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-1.png",
+        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-2.png",
+        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-3.png",
+        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-4.png",
+        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-5.png",
+        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-6.png",
+        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-7.png",
+        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-8.png",
+        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-9.png",
+        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-10.png",
+        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-11.png",
+        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-12.png",
+        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-13.png",
+        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-14.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Jesus.Is.My.Healer.melody.HL.mp3"},
-        {"name": "PIANO", "src": "audio/Jesus.Is.My.Healer.piano.HL.mp3"}
+        {"name": "MELODY", "src": "audio/Amazing.Grace.Chains.all.mp3"},
+        {"name": "PIANO", "src": "audio/Amazing.Grace.Chains.piano.mp3"},
+        {"name": "HIGHER HARMONY", "src": "audio/Amazing.Grace.Chains.higher.harmony.mp3"},
+        {"name": "LOWER HARMONY", "src": "audio/Amazing.Grace.Chains.lower.harmony.mp3"}
       ]
     }
   ],
