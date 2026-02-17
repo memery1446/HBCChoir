@@ -31,7 +31,7 @@
         "lyric-slide-images/1.Rock.of.Ages-6.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "Rock.of.Ages.melody.mp3"},
+        {"name": "MELODY", "src": "audio/Rock.of.Ages.melody.mp3"},
         {"name": "ALTO", "src": "audio/Rock.of.Ages.alto.mp3"},
         {"name": "TENOR", "src": "audio/Rock.of.Ages.tenor.mp3"},
         {"name": "BASS", "src": "audio/Rock.of.Ages.bass.mp3"},
@@ -61,7 +61,7 @@
       "tracks": [
         {"name": "MELODY", "src": "audio/I.Could.Sing.of.Your.Love.Forever.melody.mp3"},
         {"name": "HARMONY", "src": "audio/I.Could.Sing.of.Your.Love.Forever.harmony.mp3"},
-        {"name": "MELODY", "src": "audio/I.Could.Sing.of.Your.Love.Forever.piano.mp3"}
+        {"name": "PIANO", "src": "audio/I.Could.Sing.of.Your.Love.Forever.piano.mp3"}
 
       ]
     },
@@ -138,6 +138,7 @@
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/In.Christ.Alone.with.Solid.Rock.mp3"}
+        ]
     },
     {
       "title": "PSALM 18: I LOVE YOU, LORD",
