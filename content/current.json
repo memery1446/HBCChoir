@@ -1,208 +1,165 @@
 {
-  "serviceDate": "2026-02-15",
+  "serviceDate": "2026-02-22",
   "headerNotes": [
     "Our Choir music for Sunday is below.",
     "Choir meets Sundays at 4:30pm.",
     "CHILDCARE and FOOD for kiddos during Sunday and Wednesday rehearsals."
   ],
   "order": [
-    "House of the Lord",
-    "Holy Ground Medley",
-    "Open the Eyes of My Heart",
-    "Holy Forever",
+    "Rock of Ages",
+    "I Could Sing of Your Love Forever",
+    "O Come to the Altar",
+    "In Christ Alone / (with The Solid Rock",
     "OFFERTORY: Instrumental",
-    "CHOIR SPECIAL: Amazing Grace (My Chains Are Gone)"
+    "CHOIR SPECIAL: Psalm 18: I Love You, Lord"
 
   ],
   "songs": [
     {
-      "title": "HOUSE OF THE LORD",
+      "title": "ROCK OF AGES",
       "useImages": true,
       "imageFiles": [
-        "1.House.of.the.Lord.edit-0.png",
-        "1.House.of.the.Lord.edit-1.png"
+        "1.Rock.of.Ages-0.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/1.House.of.the.Lord-0.png",
-        "lyric-slide-images/1.House.of.the.Lord-1.png",
-        "lyric-slide-images/1.House.of.the.Lord-2.png",
-        "lyric-slide-images/1.House.of.the.Lord-3.png",
-        "lyric-slide-images/1.House.of.the.Lord-4.png",
-        "lyric-slide-images/1.House.of.the.Lord-5.png",
-        "lyric-slide-images/1.House.of.the.Lord-6.png",
-        "lyric-slide-images/1.House.of.the.Lord-7.png",
-        "lyric-slide-images/1.House.of.the.Lord-8.png",
-        "lyric-slide-images/1.House.of.the.Lord-9.png",
-        "lyric-slide-images/1.House.of.the.Lord-10.png",
-        "lyric-slide-images/1.House.of.the.Lord-11.png",
-        "lyric-slide-images/1.House.of.the.Lord-12.png",
-        "lyric-slide-images/1.House.of.the.Lord-13.png",
-        "lyric-slide-images/1.House.of.the.Lord-14.png",
-        "lyric-slide-images/1.House.of.the.Lord-15.png",
-        "lyric-slide-images/1.House.of.the.Lord-16.png",
-        "lyric-slide-images/1.House.of.the.Lord-17.png",
-        "lyric-slide-images/1.House.of.the.Lord-18.png",
-        "lyric-slide-images/1.House.of.the.Lord-19.png",
-        "lyric-slide-images/1.House.of.the.Lord-20.png",
-        "lyric-slide-images/1.House.of.the.Lord-21.png",
-        "lyric-slide-images/1.House.of.the.Lord-22.png",
-        "lyric-slide-images/1.House.of.the.Lord-23.png",
-        "lyric-slide-images/1.House.of.the.Lord-24.png",
-        "lyric-slide-images/1.House.of.the.Lord-25.png",
-        "lyric-slide-images/1.House.of.the.Lord-26.png",
-        "lyric-slide-images/1.House.of.the.Lord-27.png",
-        "lyric-slide-images/1.House.of.the.Lord-28.png",
-        "lyric-slide-images/1.House.of.the.Lord-29.png",
-        "lyric-slide-images/1.House.of.the.Lord-30.png",
-        "lyric-slide-images/1.House.of.the.Lord-31.png",
-        "lyric-slide-images/1.House.of.the.Lord-32.png",
-        "lyric-slide-images/1.House.of.the.Lord-33.png"
+        "lyric-slide-images/1.Rock.of.Ages-0.png",
+        "lyric-slide-images/1.Rock.of.Ages-1.png",
+        "lyric-slide-images/1.Rock.of.Ages-2.png",
+        "lyric-slide-images/1.Rock.of.Ages-3.png",
+        "lyric-slide-images/1.Rock.of.Ages-4.png",
+        "lyric-slide-images/1.Rock.of.Ages-5.png",
+        "lyric-slide-images/1.Rock.of.Ages-6.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/House.of.the.Lord.melody.HL.mp3"},
-        {"name": "PIANO", "src": "audio/House.of.the.Lord.piano.HL.mp3"}
+        {"name": "MELODY", "src": "Rock.of.Ages.melody.mp3"},
+        {"name": "ALTO", "src": "audio/Rock.of.Ages.alto.mp3"},
+        {"name": "TENOR", "src": "audio/Rock.of.Ages.tenor.mp3"},
+        {"name": "BASS", "src": "audio/Rock.of.Ages.bass.mp3"},
+        {"name": "PIANO", "src": "audio/Rock.of.Ages.piano.mp3"}
       ]
     },
     {
-      "title": "HOLY GROUND MEDLEY",
+      "title": "I COULD SING OF YOUR LOVE FOREVER",
       "useImages": true,
       "imageFiles": [
-        "2.Holy.Ground.Medley-0.png",
-        "2.Holy.Ground.Medley-1.png"
+        "2.I.Could.Sing.of.Your.Love.Forever-0.png",
+        "2.I.Could.Sing.of.Your.Love.Forever-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/2.Holy.Ground.Medley-0.png",
-        "lyric-slide-images/2.Holy.Ground.Medley-1.png",
-        "lyric-slide-images/2.Holy.Ground.Medley-2.png",
-        "lyric-slide-images/2.Holy.Ground.Medley-3.png",
-        "lyric-slide-images/2.Holy.Ground.Medley-4.png",
-        "lyric-slide-images/2.Holy.Ground.Medley-5.png",
-        "lyric-slide-images/2.Holy.Ground.Medley-6.png",
-        "lyric-slide-images/2.Holy.Ground.Medley-7.png",
-        "lyric-slide-images/2.Holy.Ground.Medley-8.png",
-        "lyric-slide-images/2.Holy.Ground.Medley-9.png",
-        "lyric-slide-images/2.Holy.Ground.Medley-10.png",
-        "lyric-slide-images/2.Holy.Ground.Medley-11.png",
-        "lyric-slide-images/2.Holy.Ground.Medley-12.png",
-        "lyric-slide-images/2.Holy.Ground.Medley-13.png",
-        "lyric-slide-images/2.Holy.Ground.Medley-14.png",
-        "lyric-slide-images/2.Holy.Ground.Medley-15.png",
-        "lyric-slide-images/2.Holy.Ground.Medley-16.png",
-        "lyric-slide-images/2.Holy.Ground.Medley-17.png"
+        "lyric-slide-images/2.I.Could.Sing.of.Your.Love.Forever-0.png",
+        "lyric-slide-images/2.I.Could.Sing.of.Your.Love.Forever-1.png",
+        "lyric-slide-images/2.I.Could.Sing.of.Your.Love.Forever-2.png",
+        "lyric-slide-images/2.I.Could.Sing.of.Your.Love.Forever-3.png",
+        "lyric-slide-images/2.I.Could.Sing.of.Your.Love.Forever-4.png",
+        "lyric-slide-images/2.I.Could.Sing.of.Your.Love.Forever-5.png",
+        "lyric-slide-images/2.I.Could.Sing.of.Your.Love.Forever-6.png",
+        "lyric-slide-images/2.I.Could.Sing.of.Your.Love.Forever-7.png",
+        "lyric-slide-images/2.I.Could.Sing.of.Your.Love.Forever-8.png",
+        "lyric-slide-images/2.I.Could.Sing.of.Your.Love.Forever-9.png",
+        "lyric-slide-images/2.I.Could.Sing.of.Your.Love.Forever-10.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Holy.Ground.Medley.HL.mp3"}
+        {"name": "MELODY", "src": "audio/I.Could.Sing.of.Your.Love.Forever.melody.mp3"},
+        {"name": "HARMONY", "src": "audio/I.Could.Sing.of.Your.Love.Forever.harmony.mp3"},
+        {"name": "MELODY", "src": "audio/I.Could.Sing.of.Your.Love.Forever.piano.mp3"}
+
       ]
     },
     {
-      "title": "OPEN THE EYES OF MY HEART",
+      "title": "O COME TO THE ALTAR",
       "useImages": true,
       "imageFiles": [
-        "3.Open.the.Eyes.of.My.Heart.ALTERNATE-0.png",
-        "3.Open.the.Eyes.of.My.Heart.ALTERNATE-1.png"
+        "3.O.Come.to.the.Altar-0.png",
+        "3.O.Come.to.the.Altar-1.png",
+        "3.O.Come.to.the.Altar-2.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-0.png",
-        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-1.png",
-        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-2.png",
-        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-3.png",
-        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-4.png",
-        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-5.png",
-        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-6.png",
-        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-7.png",
-        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-8.png",
-        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-9.png",
-        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-10.png",
-        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-11.png",
-        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-12.png",
-        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-13.png",
-        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-14.png",
-        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-15.png",
-        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-16.png",
-        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-17.png",
-        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-18.png"
+        "lyric-slide-images/3.O.Come.to.the.Altar-0.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-1.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-2.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-3.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-4.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-5.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-6.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-7.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-8.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-9.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-10.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-11.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-12.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-13.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-14.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-15.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-16.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-17.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-18.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-19.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Open.the.Eyes.of.My.Heart.melody.HL.mp3"},
-        {"name": "PIANO", "src": "audio/Open.the.Eyes.of.My.Heart.piano.HL.mp3"}
+        {"name": "MELODY", "src": "audio/O.Come.to.the.Altar.melody.mp3"},
+        {"name": "PIANO", "src": "audio/O.Come.to.the.Altar.piano.mp3"}
       ]
     },
     {
-      "title": "HOLY FOREVER",
+      "title": "IN CHRIST ALONE (THE SOLID ROCK)",
       "useImages": true,
       "imageFiles": [
-        "4.Holy.Forever-0.png",
-        "4.Holy.Forever-1.png",
-        "4.Holy.Forever-2.png"
+        "4.In.Christ.Alone.with.The.Solid.Rock-0.png",
+        "4.In.Christ.Alone.with.The.Solid.Rock-1.png",
+        "4.In.Christ.Alone.with.The.Solid.Rock-2.png",
+        "4.In.Christ.Alone.with.The.Solid.Rock-3.png",
+        "4.In.Christ.Alone.with.The.Solid.Rock-4.png",
+        "4.In.Christ.Alone.with.The.Solid.Rock-5.png",
+        "4.In.Christ.Alone.with.The.Solid.Rock-6.png",
+        "4.In.Christ.Alone.with.The.Solid.Rock-7.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/4.Holy.Forever-0.png",
-        "lyric-slide-images/4.Holy.Forever-1.png",
-        "lyric-slide-images/4.Holy.Forever-2.png",
-        "lyric-slide-images/4.Holy.Forever-3.png",
-        "lyric-slide-images/4.Holy.Forever-4.png",
-        "lyric-slide-images/4.Holy.Forever-5.png",
-        "lyric-slide-images/4.Holy.Forever-6.png",
-        "lyric-slide-images/4.Holy.Forever-7.png",
-        "lyric-slide-images/4.Holy.Forever-8.png",
-        "lyric-slide-images/4.Holy.Forever-9.png",
-        "lyric-slide-images/4.Holy.Forever-10.png",
-        "lyric-slide-images/4.Holy.Forever-11.png",
-        "lyric-slide-images/4.Holy.Forever-12.png",
-        "lyric-slide-images/4.Holy.Forever-13.png",
-        "lyric-slide-images/4.Holy.Forever-14.png",
-        "lyric-slide-images/4.Holy.Forever-15.png",
-        "lyric-slide-images/4.Holy.Forever-16.png",
-        "lyric-slide-images/4.Holy.Forever-17.png",
-        "lyric-slide-images/4.Holy.Forever-18.png",
-        "lyric-slide-images/4.Holy.Forever-19.png",
-        "lyric-slide-images/4.Holy.Forever-20.png",
-        "lyric-slide-images/4.Holy.Forever-21.png",
-        "lyric-slide-images/4.Holy.Forever-22.png",
-        "lyric-slide-images/4.Holy.Forever-23.png",
-        "lyric-slide-images/4.Holy.Forever-24.png",
-        "lyric-slide-images/4.Holy.Forever-25.png",
-        "lyric-slide-images/4.Holy.Forever-26.png",
-        "lyric-slide-images/4.Holy.Forever-27.png",
-        "lyric-slide-images/4.Holy.Forever-28.png",
-        "lyric-slide-images/4.Holy.Forever-29.png",
-        "lyric-slide-images/4.Holy.Forever-30.png",
-        "lyric-slide-images/4.Holy.Forever-31.png"
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-0.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-1.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-2.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-3.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-4.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-5.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-6.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-7.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-8.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-9.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-10.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-11.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-12.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-13.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-14.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-15.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-16.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-17.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-18.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-19.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-20.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Holy.Forever.melody.HL.mp3"},
-        {"name": "PIANO", "src": "audio/Holy.Forever.piano.HL.mp3"}
-      ]
+        {"name": "MELODY", "src": "audio/In.Christ.Alone.with.Solid.Rock.mp3"}
     },
     {
-      "title": "AMAZING GRACE / MY CHAINS ARE GONE",
+      "title": "PSALM 18: I LOVE YOU, LORD",
       "useImages": true,
       "imageFiles": [
-        "5.Amazing.Grace.My.Chains.Are.Gone-0.png",
-        "5.Amazing.Grace.My.Chains.Are.Gone-1.png"
+        "5.I.Love.You.Lord-0.png",
+        "5.I.Love.You.Lord-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-0.png",
-        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-1.png",
-        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-2.png",
-        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-3.png",
-        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-4.png",
-        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-5.png",
-        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-6.png",
-        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-7.png",
-        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-8.png",
-        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-9.png",
-        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-10.png",
-        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-11.png",
-        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-12.png",
-        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-13.png",
-        "lyric-slide-images/5.Amazing Grace (My Chains Are Gone) 767-14.png"
+        "lyric-slide-images/5.I.Love.You.Lord-0.png",
+        "lyric-slide-images/5.I.Love.You.Lord-1.png",
+        "lyric-slide-images/5.I.Love.You.Lord-2.png",
+        "lyric-slide-images/5.I.Love.You.Lord-3.png",
+        "lyric-slide-images/5.I.Love.You.Lord-4.png",
+        "lyric-slide-images/5.I.Love.You.Lord-5.png",
+        "lyric-slide-images/5.I.Love.You.Lord-6.png",
+        "lyric-slide-images/5.I.Love.You.Lord-7.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Amazing.Grace.Chains.all.mp3"},
-        {"name": "PIANO", "src": "audio/Amazing.Grace.Chains.piano.mp3"},
-        {"name": "HIGHER HARMONY", "src": "audio/Amazing.Grace.Chains.higher.harmony.mp3"},
-        {"name": "LOWER HARMONY", "src": "audio/Amazing.Grace.Chains.lower.harmony.mp3"}
+        {"name": "MELODY", "src": "audio/I.Love.You.Lord.melody.mp3"},
+        {"name": "LOWER HARMONY", "src": "audio/I.Love.You.Lord.lower.harmony.mp3"},
+        {"name": "PIANO", "src": "audio/I.Love.You.Lord.piano.mp3"}
       ]
     }
   ],
