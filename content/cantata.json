@@ -18,7 +18,7 @@
   ],
   "songs": [
     {
-      "title": "0. WERE YOU THERE",
+      "title": "1. WERE YOU THERE",
       "useImages": false,
       "imageFiles": [
         "1.Rock.of.Ages-0.png"
@@ -29,7 +29,7 @@
       "tracks": []
     },
     {
-      "title": "1. IN CHRIST ALONE (THE SOLID ROCK)",
+      "title": "2. IN CHRIST ALONE (THE SOLID ROCK)",
       "useImages": true,
       "imageFiles": [
         "4.In.Christ.Alone.with.The.Solid.Rock-0.png",
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "title": "2. POWER OF THE CROSS",
+      "title": "3. POWER OF THE CROSS",
       "useImages": false,
       "imageFiles": [
         "3.O.Come.to.the.Altar.with.bridge-0.png"
@@ -80,7 +80,7 @@
       "tracks": []
     },
     {
-      "title": "3. HOW DEEP THE FATHER'S LOVE FOR US",
+      "title": "4. HOW DEEP THE FATHER'S LOVE FOR US",
       "useImages": false,
       "imageFiles": [
         "4.In.Christ.Alone.with.The.Solid.Rock-0.png"
@@ -91,7 +91,7 @@
       "tracks": []
     },
     {
-      "title": "4. AMAZING GRACE (HE LOOKED BEYOND MY FAULTS)",
+      "title": "5. AMAZING GRACE (HE LOOKED BEYOND MY FAULTS)",
       "useImages": false,
       "imageFiles": [
         "5.I.Love.You.Lord-0.png",
@@ -103,7 +103,7 @@
       "tracks": []
     },
     {
-      "title": "5. BECAUSE HE LIVES",
+      "title": "6. BECAUSE HE LIVES",
       "useImages": false,
       "imageFiles": [
         "5.I.Love.You.Lord-0.png"
@@ -114,7 +114,7 @@
       "tracks": []
     },
     {
-      "title": "6. MIGHTY TO SAVE",
+      "title": "7. MIGHTY TO SAVE",
       "useImages": true,
       "imageFiles": [
         "C.6-Mighty.to.Save-0.png",
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "title": "7. GREAT GOD MEDLEY (HOW GREAT THOU ART/HOW GREAT IS OUR GOD)",
+      "title": "8. GREAT GOD MEDLEY (HOW GREAT THOU ART/HOW GREAT IS OUR GOD)",
       "useImages": true,
       "imageFiles": [
         "C.7.Great.God.Medley-0.png",
@@ -222,7 +222,7 @@
       ]
     },
     {
-      "title": "8. O COME TO THE ALTAR",
+      "title": "9. O COME TO THE ALTAR",
       "useImages": true,
       "imageFiles": [
         "3.O.Come.to.the.Altar.with.bridge-0.png",
@@ -257,7 +257,7 @@
       ]
     },
     {
-      "title": "9. LOVE OF JESUS MEDLEY",
+      "title": "10. LOVE OF JESUS MEDLEY",
       "useImages": true,
       "imageFiles": [
         "C.9-Love-of-Jesus-Medley-0.png",
@@ -282,7 +282,7 @@
       ]
     },
     {
-      "title": "10. CHRIST IN ME ARISE",
+      "title": "11. CHRIST IN ME ARISE",
       "useImages": false,
       "imageFiles": [
         "5.I.Love.You.Lord-0.png"
