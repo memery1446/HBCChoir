@@ -1,0 +1,266 @@
+{
+  "serviceDate": "2026-03-29",
+  "headerNotes": [
+    "HBC Easter Cantata: CHRIST IS RISEN"
+  ],
+  "order": [
+    "0. Were You There",
+    "1. In Christ Alone (with The Solid Rock)",
+    "2. Power of the Cross",
+    "3. How Deep the Father's Love For Us",
+    "4. Amazing Grace (He Looked Beyond My Faults)",
+    "5. Because He Lives",
+    "6. Mighty to Save",
+    "7. Great God Medley (How Great Thou Art / How Great Is Our God)",
+    "8. O Come to the Altar",
+    "9. Love of Jesus Medley",
+    "10. Christ In Me Arise"
+  ],
+  "songs": [
+    {
+      "title": "0. WERE YOU THERE",
+      "useImages": false,
+      "imageFiles": [
+        "1.Rock.of.Ages-0.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/1.Rock.of.Ages-0.png",
+      ],
+      "tracks": [
+        {"name": "MELODY", "src": "audio/Rock.of.Ages.melody.mp3"},
+      ]
+    },
+    {
+      "title": "1. IN CHRIST ALONE (THE SOLID ROCK)",
+      "useImages": true,
+      "imageFiles": [
+        "4.In.Christ.Alone.with.The.Solid.Rock-0.png",
+        "4.In.Christ.Alone.with.The.Solid.Rock-1.png",
+        "4.In.Christ.Alone.with.The.Solid.Rock-2.png",
+        "4.In.Christ.Alone.with.The.Solid.Rock-3.png",
+        "4.In.Christ.Alone.with.The.Solid.Rock-4.png",
+        "4.In.Christ.Alone.with.The.Solid.Rock-5.png",
+        "4.In.Christ.Alone.with.The.Solid.Rock-6.png",
+        "4.In.Christ.Alone.with.The.Solid.Rock-7.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-0.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-1.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-2.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-3.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-4.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-5.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-6.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-7.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-8.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-9.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-10.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-11.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-12.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-13.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-14.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-15.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-16.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-17.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-18.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-19.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-20.png"
+      ],
+      "tracks": [
+        {"name": "MELODY", "src": "audio/In.Christ.Alone.with.Solid.Rock.mp3"}
+      ]
+    },
+    {
+      "title": "2. POWER OF THE CROSS",
+      "useImages": false,
+      "imageFiles": [
+        "3.O.Come.to.the.Altar.with.bridge-0.png",
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/3.O.Come.to.the.Altar-0.png",
+      ],
+      "tracks": [
+        {"name": "MELODY", "src": "audio/O.Come.to.the.Altar.melody.mp3"}
+      ]
+    },
+    {
+      "title": "3. HOW DEEP THE FATHER'S LOVE FOR US",
+      "useImages": false,
+      "imageFiles": [
+        "4.In.Christ.Alone.with.The.Solid.Rock-0.png",
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-0.png",
+      ],
+      "tracks": [
+        {"name": "MELODY", "src": "audio/In.Christ.Alone.with.Solid.Rock.mp3"}
+      ]
+    },
+    {
+      "title": "4. AMAZING GRACE (HE LOOKED BEYOND MY FAULTS)",
+      "useImages": false,
+      "imageFiles": [
+        "5.I.Love.You.Lord-0.png",
+        "5.I.Love.You.Lord-1.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/5.I.Love.You.Lord-0.png",
+      ],
+      "tracks": [
+        {"name": "MELODY", "src": "audio/I.Love.You.Lord.melody.mp3"}
+      ]
+    },
+    {
+      "title": "5. BECAUSE HE LIVES",
+      "useImages": false,
+      "imageFiles": [
+        "5.I.Love.You.Lord-0.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/5.I.Love.You.Lord-0.png",
+      ],
+      "tracks": [
+        {"name": "MELODY", "src": "audio/I.Love.You.Lord.melody.mp3"}
+      ]
+    },
+    {
+      "title": "6. MIGHTY TO SAVE",
+      "useImages": true,
+      "imageFiles": [
+        "C.6-Mighty.to.Save-0.png",
+        "C.6-Mighty.to.Save-1.png",
+        "C.6-Mighty.to.Save-2.png",
+        "C.6-Mighty.to.Save-3.png",
+        "C.6-Mighty.to.Save-4.png",
+        "C.6-Mighty.to.Save-5.png",
+        "C.6-Mighty.to.Save-6.png",
+        "C.6-Mighty.to.Save-7.png",
+        "C.6-Mighty.to.Save-8.png",
+        "C.6-Mighty.to.Save-9.png",
+        "C.6-Mighty.to.Save-10.png",
+        "C.6-Mighty.to.Save-11.png",
+        "C.6-Mighty.to.Save-12.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/C.6-Mighty.to.Save-0.png",
+        "lyric-slide-images/C.6-Mighty.to.Save-1.png",
+        "lyric-slide-images/C.6-Mighty.to.Save-2.png",
+        "lyric-slide-images/C.6-Mighty.to.Save-3.png",
+        "lyric-slide-images/C.6-Mighty.to.Save-4.png",
+        "lyric-slide-images/C.6-Mighty.to.Save-5.png",
+        "lyric-slide-images/C.6-Mighty.to.Save-6.png",
+        "lyric-slide-images/C.6-Mighty.to.Save-7.png",
+        "lyric-slide-images/C.6-Mighty.to.Save-8.png",
+        "lyric-slide-images/C.6-Mighty.to.Save-9.png",
+        "lyric-slide-images/C.6-Mighty.to.Save-10.png",
+        "lyric-slide-images/C.6-Mighty.to.Save-11.png",
+        "lyric-slide-images/C.6-Mighty.to.Save-12.png",
+        "lyric-slide-images/C.6-Mighty.to.Save-13.png",
+        "lyric-slide-images/C.6-Mighty.to.Save-14.png",
+        "lyric-slide-images/C.6-Mighty.to.Save-15.png",
+        "lyric-slide-images/C.6-Mighty.to.Save-16.png",
+        "lyric-slide-images/C.6-Mighty.to.Save-17.png",
+        "lyric-slide-images/C.6-Mighty.to.Save-18.png",
+        "lyric-slide-images/C.6-Mighty.to.Save-19.png",
+        "lyric-slide-images/C.6-Mighty.to.Save-20.png"
+
+      ],
+      "tracks": [
+        {"name": "MELODY", "src": "audio/Mighty.to.Save.all.HL.mp3"},
+        {"name": "ALTO", "src": "audio/Mighty.to.Save.alto.HL.mp3"},
+        {"name": "TENOR", "src": "audio/Mighty.to.Save.tenor.HL.mp3"},
+        {"name": "BASS", "src": "audio/Mighty.to.Save.bass.HL.mp3"}
+      ]
+    },
+    {
+      "title": "7. GREAT GOD MEDLEY (HOW GREAT THOU ART/HOW GREAT IS OUR GOD)",
+      "useImages": true,
+      "imageFiles": [
+        "5.I.Love.You.Lord-0.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/5.I.Love.You.Lord-0.png",
+      ],
+      "tracks": [
+        {"name": "MELODY", "src": "audio/Great.God.Medley.all.mp3"},
+        {"name": "HARMONY 1", "src": "audio/Great.God.Medley.harm.1.mp3"},
+        {"name": "HARMONY 2", "src": "audio/Great.God.Medley.harm.2.mp3"}
+      ]
+    },
+    {
+      "title": "8. O COME TO THE ALTAR",
+      "useImages": true,
+      "imageFiles": [
+        "3.O.Come.to.the.Altar.with.bridge-0.png",
+        "3.O.Come.to.the.Altar.with.bridge-1.png",
+        "3.O.Come.to.the.Altar.with.bridge-2.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/3.O.Come.to.the.Altar-0.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-1.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-2.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-3.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-4.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-5.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-6.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-7.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-8.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-9.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-10.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-11.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-12.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-13.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-14.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-15.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-16.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-17.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-18.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-19.png"
+      ],
+      "tracks": [
+        {"name": "MELODY", "src": "audio/O.Come.to.the.Altar.melody.mp3"},
+        {"name": "PIANO", "src": "audio/O.Come.to.the.Altar.piano.mp3"}
+      ]
+    },
+    {
+      "title": "9. LOVE OF JESUS MEDLEY",
+      "useImages": true,
+      "imageFiles": [
+        "C.9-Love-of-Jesus-Medley-0.png",
+        "C.9-Love-of-Jesus-Medley-1.png",
+        "C.9-Love-of-Jesus-Medley-2.png",
+        "C.9-Love-of-Jesus-Medley-3.png",
+        "C.9-Love-of-Jesus-Medley-4.png",
+        "C.9-Love-of-Jesus-Medley-5.png",
+        "C.9-Love-of-Jesus-Medley-6.png",
+        "C.9-Love-of-Jesus-Medley-7.png",
+        "C.9-Love-of-Jesus-Medley-8.png",
+        "C.9-Love-of-Jesus-Medley-9.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/5.I.Love.You.Lord-0.png",
+      ],
+      "tracks": [
+        {"name": "MELODY", "src": "audio/Love.of.Jesus.Medley.all.mp3"},
+        {"name": "ALTO", "src": "audio/Love.of.Jesus.Medley.alto.mp3"},
+        {"name": "TENOR", "src": "audio/Love.of.Jesus.Medley.tenor.mp3"},
+        {"name": "BASS", "src": "audio/Love.of.Jesus.Medley.bass.mp3"}
+      ]
+    },
+    {
+      "title": "10. CHRIST IN ME ARISE",
+      "useImages": true,
+      "imageFiles": [
+        "5.I.Love.You.Lord-0.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/5.I.Love.You.Lord-0.png",
+      ],
+      "tracks": [
+        {"name": "MELODY", "src": "audio/I.Love.You.Lord.melody.mp3"}
+      ]
+    }
+  ],
+  "allSongsPdf": null
+}
+
