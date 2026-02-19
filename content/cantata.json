@@ -215,7 +215,11 @@
         "lyric-slide-images/C.7.Great.God.Medley-28.png",
         "lyric-slide-images/C.7.Great.God.Medley-29.png"
       ],
-      "tracks": []
+      "tracks": [
+        {"name": "MELODY", "src": "audio/Great.God.Medley.all.mp3"},
+        {"name": "HARMONY 1", "src": "audio/Great.God.Medley.harm.1.mp3"},
+        {"name": "HARMONY 2", "src": "audio/Great.God.Medley.harm.2.mp3"}
+      ]
     },
     {
       "title": "8. O COME TO THE ALTAR",
