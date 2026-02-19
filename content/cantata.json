@@ -26,9 +26,7 @@
       "lyricSlideImages": [
         "lyric-slide-images/1.Rock.of.Ages-0.png"
       ],
-      "tracks": [
-        {"name": "MELODY", "src": "audio/Rock.of.Ages.melody.mp3"}
-      ]
+      "tracks": []
     },
     {
       "title": "1. IN CHRIST ALONE (THE SOLID ROCK)",
@@ -79,9 +77,7 @@
       "lyricSlideImages": [
         "lyric-slide-images/3.O.Come.to.the.Altar-0.png"
       ],
-      "tracks": [
-        {"name": "MELODY", "src": "audio/O.Come.to.the.Altar.melody.mp3"}
-      ]
+      "tracks": []
     },
     {
       "title": "3. HOW DEEP THE FATHER'S LOVE FOR US",
@@ -92,9 +88,7 @@
       "lyricSlideImages": [
         "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-0.png"
       ],
-      "tracks": [
-        {"name": "MELODY", "src": "audio/In.Christ.Alone.with.Solid.Rock.mp3"}
-      ]
+      "tracks": []
     },
     {
       "title": "4. AMAZING GRACE (HE LOOKED BEYOND MY FAULTS)",
@@ -106,9 +100,7 @@
       "lyricSlideImages": [
         "lyric-slide-images/5.I.Love.You.Lord-0.png"
       ],
-      "tracks": [
-        {"name": "MELODY", "src": "audio/I.Love.You.Lord.melody.mp3"}
-      ]
+      "tracks": []
     },
     {
       "title": "5. BECAUSE HE LIVES",
@@ -119,9 +111,7 @@
       "lyricSlideImages": [
         "lyric-slide-images/5.I.Love.You.Lord-0.png"
       ],
-      "tracks": [
-        {"name": "MELODY", "src": "audio/I.Love.You.Lord.melody.mp3"}
-      ]
+      "tracks": []
     },
     {
       "title": "6. MIGHTY TO SAVE",
@@ -180,11 +170,7 @@
       "lyricSlideImages": [
         "lyric-slide-images/5.I.Love.You.Lord-0.png"
       ],
-      "tracks": [
-        {"name": "MELODY", "src": "audio/Great.God.Medley.all.mp3"},
-        {"name": "HARMONY 1", "src": "audio/Great.God.Medley.harm.1.mp3"},
-        {"name": "HARMONY 2", "src": "audio/Great.God.Medley.harm.2.mp3"}
-      ]
+      "tracks": []
     },
     {
       "title": "8. O COME TO THE ALTAR",
@@ -255,9 +241,7 @@
       "lyricSlideImages": [
         "lyric-slide-images/5.I.Love.You.Lord-0.png"
       ],
-      "tracks": [
-        {"name": "MELODY", "src": "audio/I.Love.You.Lord.melody.mp3"}
-      ]
+      "tracks": []
     }
   ],
   "allSongsPdf": null
