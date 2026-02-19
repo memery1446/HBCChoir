@@ -24,10 +24,10 @@
         "1.Rock.of.Ages-0.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/1.Rock.of.Ages-0.png",
+        "lyric-slide-images/1.Rock.of.Ages-0.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Rock.of.Ages.melody.mp3"},
+        {"name": "MELODY", "src": "audio/Rock.of.Ages.melody.mp3"}
       ]
     },
     {
@@ -74,10 +74,10 @@
       "title": "2. POWER OF THE CROSS",
       "useImages": false,
       "imageFiles": [
-        "3.O.Come.to.the.Altar.with.bridge-0.png",
+        "3.O.Come.to.the.Altar.with.bridge-0.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/3.O.Come.to.the.Altar-0.png",
+        "lyric-slide-images/3.O.Come.to.the.Altar-0.png"
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/O.Come.to.the.Altar.melody.mp3"}
@@ -87,10 +87,10 @@
       "title": "3. HOW DEEP THE FATHER'S LOVE FOR US",
       "useImages": false,
       "imageFiles": [
-        "4.In.Christ.Alone.with.The.Solid.Rock-0.png",
+        "4.In.Christ.Alone.with.The.Solid.Rock-0.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-0.png",
+        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-0.png"
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/In.Christ.Alone.with.Solid.Rock.mp3"}
@@ -104,7 +104,7 @@
         "5.I.Love.You.Lord-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/5.I.Love.You.Lord-0.png",
+        "lyric-slide-images/5.I.Love.You.Lord-0.png"
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/I.Love.You.Lord.melody.mp3"}
@@ -117,7 +117,7 @@
         "5.I.Love.You.Lord-0.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/5.I.Love.You.Lord-0.png",
+        "lyric-slide-images/5.I.Love.You.Lord-0.png"
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/I.Love.You.Lord.melody.mp3"}
@@ -163,7 +163,6 @@
         "lyric-slide-images/C.6-Mighty.to.Save-18.png",
         "lyric-slide-images/C.6-Mighty.to.Save-19.png",
         "lyric-slide-images/C.6-Mighty.to.Save-20.png"
-
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/Mighty.to.Save.all.HL.mp3"},
@@ -179,7 +178,7 @@
         "5.I.Love.You.Lord-0.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/5.I.Love.You.Lord-0.png",
+        "lyric-slide-images/5.I.Love.You.Lord-0.png"
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/Great.God.Medley.all.mp3"},
@@ -238,7 +237,7 @@
         "C.9-Love-of-Jesus-Medley-9.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/5.I.Love.You.Lord-0.png",
+        "lyric-slide-images/5.I.Love.You.Lord-0.png"
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/Love.of.Jesus.Medley.all.mp3"},
@@ -254,7 +253,7 @@
         "5.I.Love.You.Lord-0.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/5.I.Love.You.Lord-0.png",
+        "lyric-slide-images/5.I.Love.You.Lord-0.png"
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/I.Love.You.Lord.melody.mp3"}
