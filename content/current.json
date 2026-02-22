@@ -96,8 +96,8 @@
         "lyric-slide-images/3.O.Come.to.the.Altar-19.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/O.Come.to.the.Altar.melody.mp3"},
-        {"name": "PIANO", "src": "audio/O.Come.to.the.Altar.piano.mp3"}
+        {"name": "MELODY", "src": "audio/O.Come.to.the.Altar.HL.mp3"},
+        {"name": "PIANO", "src": "audio/O.Come.to.the.Altar.piano.HL.mp3"}
       ]
     },
     {

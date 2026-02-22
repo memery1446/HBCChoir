@@ -65,51 +65,115 @@
         "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-20.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/In.Christ.Alone.with.Solid.Rock.mp3"}
+        {"name": "MELODY", "src": "audio/In.Christ.Alone.with.Solid.Rock.HL.mp3"}
       ]
     },
     {
       "title": "3. POWER OF THE CROSS",
-      "useImages": false,
+      "useImages": true,
       "imageFiles": [
-        "3.O.Come.to.the.Altar.with.bridge-0.png"
+        "C.3.The.Power.of.the.Cross-0.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/3.O.Come.to.the.Altar-0.png"
+        "lyric-slide-images/C.3.The.Power.of.the.Cross-0.png",
+        "lyric-slide-images/C.3.The.Power.of.the.Cross-1.png",
+        "lyric-slide-images/C.3.The.Power.of.the.Cross-2.png",
+        "lyric-slide-images/C.3.The.Power.of.the.Cross-3.png",
+        "lyric-slide-images/C.3.The.Power.of.the.Cross-4.png",
+        "lyric-slide-images/C.3.The.Power.of.the.Cross-5.png",
+        "lyric-slide-images/C.3.The.Power.of.the.Cross-6.png",
+        "lyric-slide-images/C.3.The.Power.of.the.Cross-7.png",
+        "lyric-slide-images/C.3.The.Power.of.the.Cross-8.png",
+        "lyric-slide-images/C.3.The.Power.of.the.Cross-9.png",
+        "lyric-slide-images/C.3.The.Power.of.the.Cross-10.png",
+        "lyric-slide-images/C.3.The.Power.of.the.Cross-11.png",
+        "lyric-slide-images/C.3.The.Power.of.the.Cross-12.png"
       ],
-      "tracks": []
+      "tracks": [
+        {"name": "MELODY", "src": "audio/Power.all.HL.mp3"},
+        {"name": "HIGH HARMONY", "src": "audio/Power.high.harm.HL.mp3"},
+        {"name": "LOW HARMONY", "src": "audio/Power.bass.HL.mp3"}
+      ]
     },
     {
       "title": "4. HOW DEEP THE FATHER'S LOVE FOR US",
       "useImages": false,
       "imageFiles": [
-        "4.In.Christ.Alone.with.The.Solid.Rock-0.png"
+        "C.4.How.Deep.the.Fathers.Love.for.Us-0.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-0.png"
+        "lyric-slide-images/C.4.How.Deep.the.Fathers.Love.for.Us-0.png",
+        "lyric-slide-images/C.4.How.Deep.the.Fathers.Love.for.Us-1.png",
+        "lyric-slide-images/C.4.How.Deep.the.Fathers.Love.for.Us-2.png",
+        "lyric-slide-images/C.4.How.Deep.the.Fathers.Love.for.Us-3.png",
+        "lyric-slide-images/C.4.How.Deep.the.Fathers.Love.for.Us-4.png",
+        "lyric-slide-images/C.4.How.Deep.the.Fathers.Love.for.Us-5.png",
+        "lyric-slide-images/C.4.How.Deep.the.Fathers.Love.for.Us-6.png",
+        "lyric-slide-images/C.4.How.Deep.the.Fathers.Love.for.Us-7.png",
+        "lyric-slide-images/C.4.How.Deep.the.Fathers.Love.for.Us-8.png",
+        "lyric-slide-images/C.4.How.Deep.the.Fathers.Love.for.Us-9.png",
+        "lyric-slide-images/C.4.How.Deep.the.Fathers.Love.for.Us-10.png",
+        "lyric-slide-images/C.4.How.Deep.the.Fathers.Love.for.Us-11.png",
+        "lyric-slide-images/C.4.How.Deep.the.Fathers.Love.for.Us-12.png"
       ],
-      "tracks": []
+      "tracks": [
+        {"name": "MELODY", "src": "audio/How.Deep.all.HL.mp3"},
+        {"name": "ALTO", "src": "audio/How.Deep.alto.HL.mp3"},
+        {"name": "TENOR", "src": "audio/How.Deep.tenor.HL.mp3"},
+        {"name": "BASS", "src": "audio/How.Deep.bass.HL.mp3"},
+        {"name": "PIANO", "src": "audio/How.Deep.piano.HL.mp3"}
+      ]
     },
     {
-      "title": "5. AMAZING GRACE (HE LOOKED BEYOND MY FAULTS)",
+      "title": "5. HE LOOKED BEYOND MY FAULT",
       "useImages": false,
       "imageFiles": [
-        "5.I.Love.You.Lord-0.png",
-        "5.I.Love.You.Lord-1.png"
+        "C.5.He.Looked.Beyond.My.Faults-0.png",
+        "C.5.He.Looked.Beyond.My.Faults-1.png",
+        "C.5.He.Looked.Beyond.My.Faults-2.png",
+        "C.5.He.Looked.Beyond.My.Faults-3.png",
+        "C.5.He.Looked.Beyond.My.Faults-4.png",
+        "C.5.He.Looked.Beyond.My.Faults-5.png",
+        "C.5.He.Looked.Beyond.My.Faults-6.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/5.I.Love.You.Lord-0.png"
+        "lyric-slide-images/C.5.He.Looked.Beyond.My.Fault-0.png",
+        "lyric-slide-images/C.5.He.Looked.Beyond.My.Fault-1.png",
+        "lyric-slide-images/C.5.He.Looked.Beyond.My.Fault-2.png",
+        "lyric-slide-images/C.5.He.Looked.Beyond.My.Fault-3.png",
+        "lyric-slide-images/C.5.He.Looked.Beyond.My.Fault-4.png",
+        "lyric-slide-images/C.5.He.Looked.Beyond.My.Fault-5.png",
+        "lyric-slide-images/C.5.He.Looked.Beyond.My.Fault-6.png",
+        "lyric-slide-images/C.5.He.Looked.Beyond.My.Fault-7.png"
       ],
-      "tracks": []
+      "tracks": [
+        {"name": "MELODY", "src": "audio/He.Looked.Beyond.My.Fault.all.HL.mp3"},
+        {"name": "ALTO", "src": "audio/He.Looked.Beyond.My.Fault.alto.HL.mp3"},
+        {"name": "TENOR", "src": "audio/He.Looked.Beyond.My.Fault.tenor.HL.mp3"},
+        {"name": "BASS", "src": "audio/He.Looked.Beyond.My.Fault.bass.HL.mp3"},
+        {"name": "PIANO", "src": "audio/He.Looked.Beyond.My.Fault.piano.HL.mp3"}
+      ]
     },
     {
       "title": "6. BECAUSE HE LIVES",
       "useImages": false,
       "imageFiles": [
-        "5.I.Love.You.Lord-0.png"
+        "C.6.Because.He.Lives-0.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/5.I.Love.You.Lord-0.png"
+        "lyric-slide-images/C.6.Because.He.Lives-0.png",
+        "lyric-slide-images/C.6.Because.He.Lives-1.png",
+        "lyric-slide-images/C.6.Because.He.Lives-2.png",
+        "lyric-slide-images/C.6.Because.He.Lives-3.png",
+        "lyric-slide-images/C.6.Because.He.Lives-4.png",
+        "lyric-slide-images/C.6.Because.He.Lives-5.png",
+        "lyric-slide-images/C.6.Because.He.Lives-6.png",
+        "lyric-slide-images/C.6.Because.He.Lives-7.png",
+        "lyric-slide-images/C.6.Because.He.Lives-8.png",
+        "lyric-slide-images/C.6.Because.He.Lives-9.png",
+        "lyric-slide-images/C.6.Because.He.Lives-10.png",
+        "lyric-slide-images/C.6.Because.He.Lives-11.png",
+        "lyric-slide-images/C.6.Because.He.Lives-12.png"
       ],
       "tracks": []
     },
@@ -117,42 +181,42 @@
       "title": "7. MIGHTY TO SAVE",
       "useImages": true,
       "imageFiles": [
-        "C.6-Mighty.to.Save-0.png",
-        "C.6-Mighty.to.Save-1.png",
-        "C.6-Mighty.to.Save-2.png",
-        "C.6-Mighty.to.Save-3.png",
-        "C.6-Mighty.to.Save-4.png",
-        "C.6-Mighty.to.Save-5.png",
-        "C.6-Mighty.to.Save-6.png",
-        "C.6-Mighty.to.Save-7.png",
-        "C.6-Mighty.to.Save-8.png",
-        "C.6-Mighty.to.Save-9.png",
-        "C.6-Mighty.to.Save-10.png",
-        "C.6-Mighty.to.Save-11.png",
-        "C.6-Mighty.to.Save-12.png"
+        "C.7-Mighty.to.Save-0.png",
+        "C.7-Mighty.to.Save-1.png",
+        "C.7-Mighty.to.Save-2.png",
+        "C.7-Mighty.to.Save-3.png",
+        "C.7-Mighty.to.Save-4.png",
+        "C.7-Mighty.to.Save-5.png",
+        "C.7-Mighty.to.Save-6.png",
+        "C.7-Mighty.to.Save-7.png",
+        "C.7-Mighty.to.Save-8.png",
+        "C.7-Mighty.to.Save-9.png",
+        "C.7-Mighty.to.Save-10.png",
+        "C.7-Mighty.to.Save-11.png",
+        "C.7-Mighty.to.Save-12.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/C.6-Mighty.to.Save-0.png",
-        "lyric-slide-images/C.6-Mighty.to.Save-1.png",
-        "lyric-slide-images/C.6-Mighty.to.Save-2.png",
-        "lyric-slide-images/C.6-Mighty.to.Save-3.png",
-        "lyric-slide-images/C.6-Mighty.to.Save-4.png",
-        "lyric-slide-images/C.6-Mighty.to.Save-5.png",
-        "lyric-slide-images/C.6-Mighty.to.Save-6.png",
-        "lyric-slide-images/C.6-Mighty.to.Save-7.png",
-        "lyric-slide-images/C.6-Mighty.to.Save-8.png",
-        "lyric-slide-images/C.6-Mighty.to.Save-9.png",
-        "lyric-slide-images/C.6-Mighty.to.Save-10.png",
-        "lyric-slide-images/C.6-Mighty.to.Save-11.png",
-        "lyric-slide-images/C.6-Mighty.to.Save-12.png",
-        "lyric-slide-images/C.6-Mighty.to.Save-13.png",
-        "lyric-slide-images/C.6-Mighty.to.Save-14.png",
-        "lyric-slide-images/C.6-Mighty.to.Save-15.png",
-        "lyric-slide-images/C.6-Mighty.to.Save-16.png",
-        "lyric-slide-images/C.6-Mighty.to.Save-17.png",
-        "lyric-slide-images/C.6-Mighty.to.Save-18.png",
-        "lyric-slide-images/C.6-Mighty.to.Save-19.png",
-        "lyric-slide-images/C.6-Mighty.to.Save-20.png"
+        "lyric-slide-images/C.7-Mighty.to.Save-0.png",
+        "lyric-slide-images/C.7-Mighty.to.Save-1.png",
+        "lyric-slide-images/C.7-Mighty.to.Save-2.png",
+        "lyric-slide-images/C.7-Mighty.to.Save-3.png",
+        "lyric-slide-images/C.7-Mighty.to.Save-4.png",
+        "lyric-slide-images/C.7-Mighty.to.Save-5.png",
+        "lyric-slide-images/C.7-Mighty.to.Save-6.png",
+        "lyric-slide-images/C.7-Mighty.to.Save-7.png",
+        "lyric-slide-images/C.7-Mighty.to.Save-8.png",
+        "lyric-slide-images/C.7-Mighty.to.Save-9.png",
+        "lyric-slide-images/C.7-Mighty.to.Save-10.png",
+        "lyric-slide-images/C.7-Mighty.to.Save-11.png",
+        "lyric-slide-images/C.7-Mighty.to.Save-12.png",
+        "lyric-slide-images/C.7-Mighty.to.Save-13.png",
+        "lyric-slide-images/C.7-Mighty.to.Save-14.png",
+        "lyric-slide-images/C.7-Mighty.to.Save-15.png",
+        "lyric-slide-images/C.7-Mighty.to.Save-16.png",
+        "lyric-slide-images/C.7-Mighty.to.Save-17.png",
+        "lyric-slide-images/C.7-Mighty.to.Save-18.png",
+        "lyric-slide-images/C.7-Mighty.to.Save-19.png",
+        "lyric-slide-images/C.7-Mighty.to.Save-20.png"
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/Mighty.to.Save.all.HL.mp3"},
@@ -165,60 +229,60 @@
       "title": "8. GREAT GOD MEDLEY (HOW GREAT THOU ART/HOW GREAT IS OUR GOD)",
       "useImages": true,
       "imageFiles": [
-        "C.7.Great.God.Medley-0.png",
-        "C.7.Great.God.Medley-1.png",
-        "C.7.Great.God.Medley-2.png",
-        "C.7.Great.God.Medley-3.png",
-        "C.7.Great.God.Medley-4.png",
-        "C.7.Great.God.Medley-5.png",
-        "C.7.Great.God.Medley-6.png",
-        "C.7.Great.God.Medley-7.png",
-        "C.7.Great.God.Medley-8.png",
-        "C.7.Great.God.Medley-9.png",
-        "C.7.Great.God.Medley-10.png",
-        "C.7.Great.God.Medley-11.png",
-        "C.7.Great.God.Medley-12.png",
-        "C.7.Great.God.Medley-13.png",
-        "C.7.Great.God.Medley-14.png",
-        "C.7.Great.God.Medley-15.png",
-        "C.7.Great.God.Medley-16.png"
+        "C.8.Great.God.Medley-0.png",
+        "C.8.Great.God.Medley-1.png",
+        "C.8.Great.God.Medley-2.png",
+        "C.8.Great.God.Medley-3.png",
+        "C.8.Great.God.Medley-4.png",
+        "C.8.Great.God.Medley-5.png",
+        "C.8.Great.God.Medley-6.png",
+        "C.8.Great.God.Medley-7.png",
+        "C.8.Great.God.Medley-8.png",
+        "C.8.Great.God.Medley-9.png",
+        "C.8.Great.God.Medley-10.png",
+        "C.8.Great.God.Medley-11.png",
+        "C.8.Great.God.Medley-12.png",
+        "C.8.Great.God.Medley-13.png",
+        "C.8.Great.God.Medley-14.png",
+        "C.8.Great.God.Medley-15.png",
+        "C.8.Great.God.Medley-16.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/C.7.Great.God.Medley-0.png",
-        "lyric-slide-images/C.7.Great.God.Medley-1.png",
-        "lyric-slide-images/C.7.Great.God.Medley-2.png",
-        "lyric-slide-images/C.7.Great.God.Medley-3.png",
-        "lyric-slide-images/C.7.Great.God.Medley-4.png",
-        "lyric-slide-images/C.7.Great.God.Medley-5.png",
-        "lyric-slide-images/C.7.Great.God.Medley-6.png",
-        "lyric-slide-images/C.7.Great.God.Medley-7.png",
-        "lyric-slide-images/C.7.Great.God.Medley-8.png",
-        "lyric-slide-images/C.7.Great.God.Medley-9.png",
-        "lyric-slide-images/C.7.Great.God.Medley-10.png",
-        "lyric-slide-images/C.7.Great.God.Medley-11.png",
-        "lyric-slide-images/C.7.Great.God.Medley-12.png",
-        "lyric-slide-images/C.7.Great.God.Medley-13.png",
-        "lyric-slide-images/C.7.Great.God.Medley-14.png",
-        "lyric-slide-images/C.7.Great.God.Medley-15.png",
-        "lyric-slide-images/C.7.Great.God.Medley-16.png",
-        "lyric-slide-images/C.7.Great.God.Medley-17.png",
-        "lyric-slide-images/C.7.Great.God.Medley-18.png",
-        "lyric-slide-images/C.7.Great.God.Medley-19.png",
-        "lyric-slide-images/C.7.Great.God.Medley-20.png",
-        "lyric-slide-images/C.7.Great.God.Medley-21.png",
-        "lyric-slide-images/C.7.Great.God.Medley-22.png",
-        "lyric-slide-images/C.7.Great.God.Medley-23.png",
-        "lyric-slide-images/C.7.Great.God.Medley-24.png",
-        "lyric-slide-images/C.7.Great.God.Medley-25.png",
-        "lyric-slide-images/C.7.Great.God.Medley-26.png",
-        "lyric-slide-images/C.7.Great.God.Medley-27.png",
-        "lyric-slide-images/C.7.Great.God.Medley-28.png",
-        "lyric-slide-images/C.7.Great.God.Medley-29.png"
+        "lyric-slide-images/C.8.Great.God.Medley-0.png",
+        "lyric-slide-images/C.8.Great.God.Medley-1.png",
+        "lyric-slide-images/C.8.Great.God.Medley-2.png",
+        "lyric-slide-images/C.8.Great.God.Medley-3.png",
+        "lyric-slide-images/C.8.Great.God.Medley-4.png",
+        "lyric-slide-images/C.8.Great.God.Medley-5.png",
+        "lyric-slide-images/C.8.Great.God.Medley-6.png",
+        "lyric-slide-images/C.8.Great.God.Medley-7.png",
+        "lyric-slide-images/C.8.Great.God.Medley-8.png",
+        "lyric-slide-images/C.8.Great.God.Medley-9.png",
+        "lyric-slide-images/C.8.Great.God.Medley-10.png",
+        "lyric-slide-images/C.8.Great.God.Medley-11.png",
+        "lyric-slide-images/C.8.Great.God.Medley-12.png",
+        "lyric-slide-images/C.8.Great.God.Medley-13.png",
+        "lyric-slide-images/C.8.Great.God.Medley-14.png",
+        "lyric-slide-images/C.8.Great.God.Medley-15.png",
+        "lyric-slide-images/C.8.Great.God.Medley-16.png",
+        "lyric-slide-images/C.8.Great.God.Medley-17.png",
+        "lyric-slide-images/C.8.Great.God.Medley-18.png",
+        "lyric-slide-images/C.8.Great.God.Medley-19.png",
+        "lyric-slide-images/C.8.Great.God.Medley-20.png",
+        "lyric-slide-images/C.8.Great.God.Medley-21.png",
+        "lyric-slide-images/C.8.Great.God.Medley-22.png",
+        "lyric-slide-images/C.8.Great.God.Medley-23.png",
+        "lyric-slide-images/C.8.Great.God.Medley-24.png",
+        "lyric-slide-images/C.8.Great.God.Medley-25.png",
+        "lyric-slide-images/C.8.Great.God.Medley-26.png",
+        "lyric-slide-images/C.8.Great.God.Medley-27.png",
+        "lyric-slide-images/C.8.Great.God.Medley-28.png",
+        "lyric-slide-images/C.8.Great.God.Medley-29.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Great.God.Medley.all.mp3"},
-        {"name": "HARMONY 1", "src": "audio/Great.God.Medley.harm.1.mp3"},
-        {"name": "HARMONY 2", "src": "audio/Great.God.Medley.harm.2.mp3"}
+        {"name": "MELODY", "src": "audio/C.8.Great.God.Medley.all.HL.mp3"},
+        {"name": "HARMONY 1", "src": "audio/C.8.Great.God.Medley.harm.1.HL.mp3"},
+        {"name": "HARMONY 2", "src": "audio/C.8.Great.God.Medley.harm.2.HL.mp3"}
       ]
     },
     {
@@ -252,45 +316,82 @@
         "lyric-slide-images/3.O.Come.to.the.Altar-19.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/O.Come.to.the.Altar.melody.mp3"},
-        {"name": "PIANO", "src": "audio/O.Come.to.the.Altar.piano.mp3"}
+        {"name": "MELODY", "src": "audio/O.Come.to.the.Altar.HL.mp3"},
+        {"name": "PIANO", "src": "audio/O.Come.to.the.Altar.piano.HL.mp3"}
       ]
     },
     {
       "title": "10. LOVE OF JESUS MEDLEY",
       "useImages": true,
       "imageFiles": [
-        "C.9-Love-of-Jesus-Medley-0.png",
-        "C.9-Love-of-Jesus-Medley-1.png",
-        "C.9-Love-of-Jesus-Medley-2.png",
-        "C.9-Love-of-Jesus-Medley-3.png",
-        "C.9-Love-of-Jesus-Medley-4.png",
-        "C.9-Love-of-Jesus-Medley-5.png",
-        "C.9-Love-of-Jesus-Medley-6.png",
-        "C.9-Love-of-Jesus-Medley-7.png",
-        "C.9-Love-of-Jesus-Medley-8.png",
-        "C.9-Love-of-Jesus-Medley-9.png"
+        "C.10-Love-of-Jesus-Medley-0.png",
+        "C.10-Love-of-Jesus-Medley-1.png",
+        "C.10-Love-of-Jesus-Medley-2.png",
+        "C.10-Love-of-Jesus-Medley-3.png",
+        "C.10-Love-of-Jesus-Medley-4.png",
+        "C.10-Love-of-Jesus-Medley-5.png",
+        "C.10-Love-of-Jesus-Medley-6.png",
+        "C.10-Love-of-Jesus-Medley-7.png",
+        "C.10-Love-of-Jesus-Medley-8.png",
+        "C.10-Love-of-Jesus-Medley-9.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/5.I.Love.You.Lord-0.png"
+        "lyric-slide-images/C.10-Love.of.Jesus.Medley-0.png",
+        "lyric-slide-images/C.10-Love.of.Jesus.Medley-1.png",
+        "lyric-slide-images/C.10-Love.of.Jesus.Medley-2.png",
+        "lyric-slide-images/C.10-Love.of.Jesus.Medley-3.png",
+        "lyric-slide-images/C.10-Love.of.Jesus.Medley-4.png",
+        "lyric-slide-images/C.10-Love.of.Jesus.Medley-5.png",
+        "lyric-slide-images/C.10-Love.of.Jesus.Medley-6.png",
+        "lyric-slide-images/C.10-Love.of.Jesus.Medley-7.png",
+        "lyric-slide-images/C.10-Love.of.Jesus.Medley-8.png",
+        "lyric-slide-images/C.10-Love.of.Jesus.Medley-9.png",
+        "lyric-slide-images/C.10-Love.of.Jesus.Medley-10.png",
+        "lyric-slide-images/C.10-Love.of.Jesus.Medley-11.png",
+        "lyric-slide-images/C.10-Love.of.Jesus.Medley-12.png",
+        "lyric-slide-images/C.10-Love.of.Jesus.Medley-13.png",
+        "lyric-slide-images/C.10-Love.of.Jesus.Medley-14.png",
+        "lyric-slide-images/C.10-Love.of.Jesus.Medley-15.png",
+        "lyric-slide-images/C.10-Love.of.Jesus.Medley-16.png",
+        "lyric-slide-images/C.10-Love.of.Jesus.Medley-17.png",
+        "lyric-slide-images/C.10-Love.of.Jesus.Medley-18.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Love.of.Jesus.Medley.all.mp3"},
-        {"name": "ALTO", "src": "audio/Love.of.Jesus.Medley.alto.mp3"},
-        {"name": "TENOR", "src": "audio/Love.of.Jesus.Medley.tenor.mp3"},
-        {"name": "BASS", "src": "audio/Love.of.Jesus.Medley.bass.mp3"}
+        {"name": "MELODY", "src": "audio/C.10.Love.of.Jesus.Medley.all.HL.mp3"},
+        {"name": "ALTO", "src": "audio/C.10.Love.of.Jesus.Medley.alto.HL.mp3"},
+        {"name": "TENOR", "src": "audio/C.10.Love.of.Jesus.Medley.tenor.HL.mp3"},
+        {"name": "BASS", "src": "audio/C.10.Love.of.Jesus.Medley.bass.HL.mp3"}
       ]
     },
     {
       "title": "11. CHRIST IN ME ARISE",
-      "useImages": false,
+      "useImages": true,
       "imageFiles": [
-        "5.I.Love.You.Lord-0.png"
+        "C.11.Christ.in.Me.Arise-0.png",
+        "C.11.Christ.in.Me.Arise-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/5.I.Love.You.Lord-0.png"
+        "lyric-slide-images/Christ.in.Me.Arise-0.png",
+        "lyric-slide-images/Christ.in.Me.Arise-1.png",
+        "lyric-slide-images/Christ.in.Me.Arise-2.png",
+        "lyric-slide-images/Christ.in.Me.Arise-3.png",
+        "lyric-slide-images/Christ.in.Me.Arise-4.png",
+        "lyric-slide-images/Christ.in.Me.Arise-5.png",
+        "lyric-slide-images/Christ.in.Me.Arise-6.png",
+        "lyric-slide-images/Christ.in.Me.Arise-7.png",
+        "lyric-slide-images/Christ.in.Me.Arise-8.png",
+        "lyric-slide-images/Christ.in.Me.Arise-9.png",
+        "lyric-slide-images/Christ.in.Me.Arise-10.png",
+        "lyric-slide-images/Christ.in.Me.Arise-11.png",
+        "lyric-slide-images/Christ.in.Me.Arise-12.png",
+        "lyric-slide-images/Christ.in.Me.Arise-13.png",
+        "lyric-slide-images/Christ.in.Me.Arise-14.png"
       ],
-      "tracks": []
+      "tracks": [
+        {"name": "MELODY", "src": "audio/C.11.Christ.In.Me.Arise.all.HL.mp3"},
+        {"name": "HARMONY", "src": "audio/C.11.Christ.In.Me.Arise.harm.HL.mp3"},
+        {"name": "PIANO", "src": "audio/C.11.Christ.In.Me.Arise.piano.HL.mp3"}
+      ]
     }
   ],
   "allSongsPdf": null
