@@ -97,7 +97,7 @@
     },
     {
       "title": "4. HOW DEEP THE FATHER'S LOVE FOR US",
-      "useImages": false,
+      "useImages": true,
       "imageFiles": [
         "C.4.How.Deep.the.Fathers.Love.for.Us-0.png"
       ],
@@ -126,7 +126,7 @@
     },
     {
       "title": "5. HE LOOKED BEYOND MY FAULT",
-      "useImages": false,
+      "useImages": true,
       "imageFiles": [
         "C.5.He.Looked.Beyond.My.Faults-0.png",
         "C.5.He.Looked.Beyond.My.Faults-1.png",
@@ -389,7 +389,6 @@
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/C.11.Christ.In.Me.Arise.all.HL.mp3"},
-        {"name": "HARMONY", "src": "audio/C.11.Christ.In.Me.Arise.harm.HL.mp3"},
         {"name": "PIANO", "src": "audio/C.11.Christ.In.Me.Arise.piano.HL.mp3"}
       ]
     }
