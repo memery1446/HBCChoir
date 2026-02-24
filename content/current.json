@@ -23,7 +23,32 @@
         "1.Here.I.Am.to.Worship-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/Here.I.Am.to.Worship-0.png"
+        "lyric-slide-images/Here.I.Am.to.Worship-0.png",
+        "lyric-slide-images/Here.I.Am.to.Worship-1.png",
+        "lyric-slide-images/Here.I.Am.to.Worship-2.png",
+        "lyric-slide-images/Here.I.Am.to.Worship-3.png",
+        "lyric-slide-images/Here.I.Am.to.Worship-4.png",
+        "lyric-slide-images/Here.I.Am.to.Worship-5.png",
+        "lyric-slide-images/Here.I.Am.to.Worship-6.png",
+        "lyric-slide-images/Here.I.Am.to.Worship-7.png",
+        "lyric-slide-images/Here.I.Am.to.Worship-8.png",
+        "lyric-slide-images/Here.I.Am.to.Worship-9.png",
+        "lyric-slide-images/Here.I.Am.to.Worship-10.png",
+        "lyric-slide-images/Here.I.Am.to.Worship-11.png",
+        "lyric-slide-images/Here.I.Am.to.Worship-12.png",
+        "lyric-slide-images/Here.I.Am.to.Worship-13.png",
+        "lyric-slide-images/Here.I.Am.to.Worship-14.png",
+        "lyric-slide-images/Here.I.Am.to.Worship-15.png",
+        "lyric-slide-images/Here.I.Am.to.Worship-16.png",
+        "lyric-slide-images/Here.I.Am.to.Worship-17.png",
+        "lyric-slide-images/Here.I.Am.to.Worship-18.png",
+        "lyric-slide-images/Here.I.Am.to.Worship-19.png",
+        "lyric-slide-images/Here.I.Am.to.Worship-20.png",
+        "lyric-slide-images/Here.I.Am.to.Worship-21.png",
+        "lyric-slide-images/Here.I.Am.to.Worship-22.png",
+        "lyric-slide-images/Here.I.Am.to.Worship-23.png",
+        "lyric-slide-images/Here.I.Am.to.Worship-24.png",
+        "lyric-slide-images/Here.I.Am.to.Worship-25.png"
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/Rock.of.Ages.melody.mp3"},
@@ -39,7 +64,24 @@
         "2.Savior.Like.A.Shepherd.Lead.Us-0.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/Savior.Like.A.Shepherd.Lead-0.png"
+        "lyric-slide-images/Savior.Like.A.Shepherd.Lead-0.png",
+        "lyric-slide-images/Savior.Like.A.Shepherd.Lead-1.png",
+        "lyric-slide-images/Savior.Like.A.Shepherd.Lead-2.png",
+        "lyric-slide-images/Savior.Like.A.Shepherd.Lead-3.png",
+        "lyric-slide-images/Savior.Like.A.Shepherd.Lead-4.png",
+        "lyric-slide-images/Savior.Like.A.Shepherd.Lead-5.png",
+        "lyric-slide-images/Savior.Like.A.Shepherd.Lead-6.png",
+        "lyric-slide-images/Savior.Like.A.Shepherd.Lead-7.png",
+        "lyric-slide-images/Savior.Like.A.Shepherd.Lead-8.png",
+        "lyric-slide-images/Savior.Like.A.Shepherd.Lead-9.png",
+        "lyric-slide-images/Savior.Like.A.Shepherd.Lead-10.png",
+        "lyric-slide-images/Savior.Like.A.Shepherd.Lead-11.png",
+        "lyric-slide-images/Savior.Like.A.Shepherd.Lead-12.png",
+        "lyric-slide-images/Savior.Like.A.Shepherd.Lead-13.png",
+        "lyric-slide-images/Savior.Like.A.Shepherd.Lead-14.png",
+        "lyric-slide-images/Savior.Like.A.Shepherd.Lead-15.png",
+        "lyric-slide-images/Savior.Like.A.Shepherd.Lead-16.png",
+        "lyric-slide-images/Savior.Like.A.Shepherd.Lead-17.png"
       ],
       "tracks": [
         {"name": "PIANO", "src": "audio/Savior.Like.A.Shepherd.Lead.Us.piano.mp3"}
@@ -54,8 +96,21 @@
         "3.Trust.in.God-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/Trust.in.God-0.png"
-
+        "lyric-slide-images/Trust.in.God-0.png",
+        "lyric-slide-images/Trust.in.God-1.png",
+        "lyric-slide-images/Trust.in.God-2.png",
+        "lyric-slide-images/Trust.in.God-3.png",
+        "lyric-slide-images/Trust.in.God-4.png",
+        "lyric-slide-images/Trust.in.God-5.png",
+        "lyric-slide-images/Trust.in.God-6.png",
+        "lyric-slide-images/Trust.in.God-7.png",
+        "lyric-slide-images/Trust.in.God-8.png",
+        "lyric-slide-images/Trust.in.God-9.png",
+        "lyric-slide-images/Trust.in.God-10.png",
+        "lyric-slide-images/Trust.in.God-11.png",
+        "lyric-slide-images/Trust.in.God-12.png",
+        "lyric-slide-images/Trust.in.God-13.png",
+        "lyric-slide-images/Trust.in.God-14.png"
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/Trust.in.God.melody.HL.mp3"},
@@ -96,10 +151,25 @@
       "title": "PSALM 23: THE LORD IS MY SHEPHERD",
       "useImages": true,
       "imageFiles": [
-        "5.The.Lord.Is.My.Shepherd-0.png"
+        "5.The.Lord.Is.My.Shepherd-0.png",
+        "5.The.Lord.Is.My.Shepherd-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-0.png"
+        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-0.png",
+        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-1.png",
+        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-2.png",
+        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-3.png",
+        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-4.png",
+        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-5.png",
+        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-6.png",
+        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-7.png",
+        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-8.png",
+        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-9.png",
+        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-10.png",
+        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-11.png",
+        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-12.png",
+        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-13.png",
+        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-14.png"
 
       ],
       "tracks": [
