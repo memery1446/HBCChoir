@@ -1,166 +1,111 @@
 {
-  "serviceDate": "2026-02-22",
+  "serviceDate": "2026-03-01",
   "headerNotes": [
     "Our Choir music for Sunday is below.",
     "Choir meets Sundays at 4:30pm.",
     "CHILDCARE and FOOD for kiddos during Sunday and Wednesday rehearsals."
   ],
   "order": [
-    "Rock of Ages",
-    "I Could Sing of Your Love Forever",
-    "O Come to the Altar",
-    "In Christ Alone / (with The Solid Rock",
+    "Here I Am to Worship",
+    "Savior, Like a Shepherd Lead Us",
+    "Trust in God",
+    "Christ in Me Arise",
     "OFFERTORY: Instrumental",
-    "CHOIR SPECIAL: Psalm 18: I Love You, Lord"
+    "CHOIR SPECIAL: Psalm 23: The Lord Is My Shepherd"
 
   ],
   "songs": [
     {
-      "title": "ROCK OF AGES",
+      "title": "HERE I AM TO WORSHIP",
       "useImages": true,
       "imageFiles": [
-        "1.Rock.of.Ages-0.png"
+        "1.Here.I.Am.to.Worship-0.png",
+        "1.Here.I.Am.to.Worship-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/1.Rock.of.Ages-0.png",
-        "lyric-slide-images/1.Rock.of.Ages-1.png",
-        "lyric-slide-images/1.Rock.of.Ages-2.png",
-        "lyric-slide-images/1.Rock.of.Ages-3.png",
-        "lyric-slide-images/1.Rock.of.Ages-4.png",
-        "lyric-slide-images/1.Rock.of.Ages-5.png",
-        "lyric-slide-images/1.Rock.of.Ages-6.png"
+        "lyric-slide-images/Here.I.Am.to.Worship-0.png"
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/Rock.of.Ages.melody.mp3"},
-        {"name": "ALTO", "src": "audio/Rock.of.Ages.alto.mp3"},
-        {"name": "TENOR", "src": "audio/Rock.of.Ages.tenor.mp3"},
-        {"name": "BASS", "src": "audio/Rock.of.Ages.bass.mp3"},
-        {"name": "PIANO", "src": "audio/Rock.of.Ages.piano.mp3"}
+        {"name": "HARMONY 1", "src": "audio/Here.I.Am.To.Worship.harm.1.HL.mp3"},
+        {"name": "HARMONY 2", "src": "audio/Here.I.Am.To.Worship.harm.2.HL.mp3"},
+        {"name": "PIANO", "src": "audio/2-Here.I.Am.To.Worship.piano.mp3"}
       ]
     },
     {
-      "title": "I COULD SING OF YOUR LOVE FOREVER",
+      "title": "SAVIOR LIKE A SHEPHERD LEAD US",
       "useImages": true,
       "imageFiles": [
-        "2.I.Could.Sing.of.Your.Love.Forever-0.png",
-        "2.I.Could.Sing.of.Your.Love.Forever-1.png"
+        "2.Savior.Like.A.Shepherd.Lead.Us-0.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/2.I.Could.Sing.of.Your.Love.Forever-0.png",
-        "lyric-slide-images/2.I.Could.Sing.of.Your.Love.Forever-1.png",
-        "lyric-slide-images/2.I.Could.Sing.of.Your.Love.Forever-2.png",
-        "lyric-slide-images/2.I.Could.Sing.of.Your.Love.Forever-3.png",
-        "lyric-slide-images/2.I.Could.Sing.of.Your.Love.Forever-4.png",
-        "lyric-slide-images/2.I.Could.Sing.of.Your.Love.Forever-5.png",
-        "lyric-slide-images/2.I.Could.Sing.of.Your.Love.Forever-6.png",
-        "lyric-slide-images/2.I.Could.Sing.of.Your.Love.Forever-7.png",
-        "lyric-slide-images/2.I.Could.Sing.of.Your.Love.Forever-8.png",
-        "lyric-slide-images/2.I.Could.Sing.of.Your.Love.Forever-9.png",
-        "lyric-slide-images/2.I.Could.Sing.of.Your.Love.Forever-10.png"
+        "lyric-slide-images/Savior.Like.A.Shepherd.Lead-0.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/I.Could.Sing.of.Your.Love.Forever.melody.mp3"},
-        {"name": "HARMONY", "src": "audio/I.Could.Sing.of.Your.Love.Forever.harmony.mp3"},
-        {"name": "PIANO", "src": "audio/I.Could.Sing.of.Your.Love.Forever.piano.mp3"}
+        {"name": "PIANO", "src": "audio/Savior.Like.A.Shepherd.Lead.Us.piano.mp3"}
 
       ]
     },
     {
-      "title": "O COME TO THE ALTAR",
+      "title": "TRUST IN GOD",
       "useImages": true,
       "imageFiles": [
-        "3.O.Come.to.the.Altar.with.bridge-0.png",
-        "3.O.Come.to.the.Altar.with.bridge-1.png",
-        "3.O.Come.to.the.Altar.with.bridge-2.png"
+        "3.Trust.in.God-0.png",
+        "3.Trust.in.God-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/3.O.Come.to.the.Altar-0.png",
-        "lyric-slide-images/3.O.Come.to.the.Altar-1.png",
-        "lyric-slide-images/3.O.Come.to.the.Altar-2.png",
-        "lyric-slide-images/3.O.Come.to.the.Altar-3.png",
-        "lyric-slide-images/3.O.Come.to.the.Altar-4.png",
-        "lyric-slide-images/3.O.Come.to.the.Altar-5.png",
-        "lyric-slide-images/3.O.Come.to.the.Altar-6.png",
-        "lyric-slide-images/3.O.Come.to.the.Altar-7.png",
-        "lyric-slide-images/3.O.Come.to.the.Altar-8.png",
-        "lyric-slide-images/3.O.Come.to.the.Altar-9.png",
-        "lyric-slide-images/3.O.Come.to.the.Altar-10.png",
-        "lyric-slide-images/3.O.Come.to.the.Altar-11.png",
-        "lyric-slide-images/3.O.Come.to.the.Altar-12.png",
-        "lyric-slide-images/3.O.Come.to.the.Altar-13.png",
-        "lyric-slide-images/3.O.Come.to.the.Altar-14.png",
-        "lyric-slide-images/3.O.Come.to.the.Altar-15.png",
-        "lyric-slide-images/3.O.Come.to.the.Altar-16.png",
-        "lyric-slide-images/3.O.Come.to.the.Altar-17.png",
-        "lyric-slide-images/3.O.Come.to.the.Altar-18.png",
-        "lyric-slide-images/3.O.Come.to.the.Altar-19.png"
+        "lyric-slide-images/Trust.in.God-0.png",
+
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/O.Come.to.the.Altar.HL.mp3"},
-        {"name": "PIANO", "src": "audio/O.Come.to.the.Altar.piano.HL.mp3"}
+        {"name": "MELODY", "src": "audio/Trust.in.God.melody.HL.mp3"},
+        {"name": "PIANO", "src": "audio/Trust.in.God.piano.HL.mp3"}
       ]
     },
     {
-      "title": "IN CHRIST ALONE (THE SOLID ROCK)",
+      "title": "CHRIST IN ME ARISE",
       "useImages": true,
       "imageFiles": [
-        "4.In.Christ.Alone.with.The.Solid.Rock-0.png",
-        "4.In.Christ.Alone.with.The.Solid.Rock-1.png",
-        "4.In.Christ.Alone.with.The.Solid.Rock-2.png",
-        "4.In.Christ.Alone.with.The.Solid.Rock-3.png",
-        "4.In.Christ.Alone.with.The.Solid.Rock-4.png",
-        "4.In.Christ.Alone.with.The.Solid.Rock-5.png",
-        "4.In.Christ.Alone.with.The.Solid.Rock-6.png",
-        "4.In.Christ.Alone.with.The.Solid.Rock-7.png"
+        "C.11.Christ.in.Me.Arise-0.png",
+        "C.11.Christ.in.Me.Arise-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-0.png",
-        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-1.png",
-        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-2.png",
-        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-3.png",
-        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-4.png",
-        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-5.png",
-        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-6.png",
-        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-7.png",
-        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-8.png",
-        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-9.png",
-        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-10.png",
-        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-11.png",
-        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-12.png",
-        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-13.png",
-        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-14.png",
-        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-15.png",
-        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-16.png",
-        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-17.png",
-        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-18.png",
-        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-19.png",
-        "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-20.png"
+        "lyric-slide-images/Christ.in.Me.Arise-0.png",
+        "lyric-slide-images/Christ.in.Me.Arise-1.png",
+        "lyric-slide-images/Christ.in.Me.Arise-2.png",
+        "lyric-slide-images/Christ.in.Me.Arise-3.png",
+        "lyric-slide-images/Christ.in.Me.Arise-4.png",
+        "lyric-slide-images/Christ.in.Me.Arise-5.png",
+        "lyric-slide-images/Christ.in.Me.Arise-6.png",
+        "lyric-slide-images/Christ.in.Me.Arise-7.png",
+        "lyric-slide-images/Christ.in.Me.Arise-8.png",
+        "lyric-slide-images/Christ.in.Me.Arise-9.png",
+        "lyric-slide-images/Christ.in.Me.Arise-10.png",
+        "lyric-slide-images/Christ.in.Me.Arise-11.png",
+        "lyric-slide-images/Christ.in.Me.Arise-12.png",
+        "lyric-slide-images/Christ.in.Me.Arise-13.png",
+        "lyric-slide-images/Christ.in.Me.Arise-14.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/In.Christ.Alone.with.Solid.Rock.HL.mp3"}
+        {"name": "MELODY", "src": "audio/C.11.Christ.In.Me.Arise.all.HL.mp3"},
+        {"name": "HARMONY", "src": "audio/C.11.Christ.In.Me.Arise.harm.HL.mp3"},
+        {"name": "PIANO", "src": "audio/C.11.Christ.In.Me.Arise.piano.HL.mp3"}
         ]
     },
     {
-      "title": "PSALM 18: I LOVE YOU, LORD",
+      "title": "PSALM 23: THE LORD IS MY SHEPHERD",
       "useImages": true,
       "imageFiles": [
-        "5.I.Love.You.Lord-0.png",
-        "5.I.Love.You.Lord-1.png"
+        "5.The.Lord.Is.My.Shepherd-0.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/5.I.Love.You.Lord-0.png",
-        "lyric-slide-images/5.I.Love.You.Lord-1.png",
-        "lyric-slide-images/5.I.Love.You.Lord-2.png",
-        "lyric-slide-images/5.I.Love.You.Lord-3.png",
-        "lyric-slide-images/5.I.Love.You.Lord-4.png",
-        "lyric-slide-images/5.I.Love.You.Lord-5.png",
-        "lyric-slide-images/5.I.Love.You.Lord-6.png",
-        "lyric-slide-images/5.I.Love.You.Lord-7.png"
+        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-0.png",
+
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/I.Love.You.Lord.melody.mp3"},
-        {"name": "LOWER HARMONY", "src": "audio/I.Love.You.Lord.lower.harmony.mp3"},
-        {"name": "PIANO", "src": "audio/I.Love.You.Lord.piano.mp3"}
+        {"name": "MELODY", "src": "audio/The.Lord.Is.My.Shepherd.all.HL.mp3"},
+        {"name": "HARMONY", "src": "audio/The.Lord.Is.My.Shepherd.harm.HL.mp3"},
+        {"name": "PIANO", "src": "audio/The.Lord.Is.My.Shepherd.piano.mp3"}
       ]
     }
   ],
