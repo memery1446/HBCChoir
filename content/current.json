@@ -142,7 +142,7 @@
         "lyric-slide-images/Christ.in.Me.Arise-14.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/C.11.Christ.In.Me.Arise.all.HL.mp3"}
+        {"name": "MELODY", "src": "audio/C.11.Christ.In.Me.Arise.all.HL.mp3"},
         {"name": "PIANO", "src": "audio/C.11.Christ.In.Me.Arise.piano.HL.mp3"}
         ]
     },
