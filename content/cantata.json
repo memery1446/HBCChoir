@@ -175,7 +175,12 @@
         "lyric-slide-images/C.6.Because.He.Lives-11.png",
         "lyric-slide-images/C.6.Because.He.Lives-12.png"
       ],
-      "tracks": []
+      "tracks": [
+        {"name": "MELODY", "src": "audio/Because.He.Lives.all.HL.mp3"},
+        {"name": "ALTO", "src": "audio/Because.He.Lives.alto.HL.mp3"},
+        {"name": "TENOR", "src": "audio/Because.He.Lives.tenor.HL.mp3"},
+        {"name": "BASS", "src": "audio/Because.He.Lives.bass.HL.mp3"}
+      ]
     },
     {
       "title": "7. MIGHTY TO SAVE",
