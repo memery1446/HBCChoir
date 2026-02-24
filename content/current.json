@@ -51,7 +51,7 @@
         "lyric-slide-images/Here.I.Am.to.Worship-25.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Here.I.Am.To.Worship.all.mp3"},
+        {"name": "MELODY", "src": "audio/Here.I.Am.To.Worship.all.HL.mp3"},
         {"name": "HARMONY 1", "src": "audio/Here.I.Am.To.Worship.harm.1.HL.mp3"},
         {"name": "HARMONY 2", "src": "audio/Here.I.Am.To.Worship.harm.2.HL.mp3"},
         {"name": "PIANO", "src": "audio/2-Here.I.Am.To.Worship.piano.mp3"}
@@ -96,25 +96,25 @@
         "3.Trust.in.God-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/Trust.in.God-0.png",
-        "lyric-slide-images/Trust.in.God-1.png",
-        "lyric-slide-images/Trust.in.God-2.png",
-        "lyric-slide-images/Trust.in.God-3.png",
-        "lyric-slide-images/Trust.in.God-4.png",
-        "lyric-slide-images/Trust.in.God-5.png",
-        "lyric-slide-images/Trust.in.God-6.png",
-        "lyric-slide-images/Trust.in.God-7.png",
-        "lyric-slide-images/Trust.in.God-8.png",
-        "lyric-slide-images/Trust.in.God-9.png",
-        "lyric-slide-images/Trust.in.God-10.png",
-        "lyric-slide-images/Trust.in.God-11.png",
-        "lyric-slide-images/Trust.in.God-12.png",
-        "lyric-slide-images/Trust.in.God-13.png",
-        "lyric-slide-images/Trust.in.God-14.png"
+        "lyric-slide-images/I.Trust.in.God-0.png",
+        "lyric-slide-images/I.Trust.in.God-1.png",
+        "lyric-slide-images/I.Trust.in.God-2.png",
+        "lyric-slide-images/I.Trust.in.God-3.png",
+        "lyric-slide-images/I.Trust.in.God-4.png",
+        "lyric-slide-images/I.Trust.in.God-5.png",
+        "lyric-slide-images/I.Trust.in.God-6.png",
+        "lyric-slide-images/I.Trust.in.God-7.png",
+        "lyric-slide-images/I.Trust.in.God-8.png",
+        "lyric-slide-images/I.Trust.in.God-9.png",
+        "lyric-slide-images/I.Trust.in.God-10.png",
+        "lyric-slide-images/I.Trust.in.God-11.png",
+        "lyric-slide-images/I.Trust.in.God-12.png",
+        "lyric-slide-images/I.Trust.in.God-13.png",
+        "lyric-slide-images/I.Trust.in.God-14.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/I.Trust.in.God.melody.HL.mp3"},
-        {"name": "PIANO", "src": "audio/I.Trust.in.God.piano.HL.mp3"}
+        {"name": "MELODY", "src": "audio/I.Trust.In.God.melody.HL.mp3"},
+        {"name": "PIANO", "src": "audio/I.Trust.In.God.piano.HL.mp3"}
       ]
     },
     {
@@ -142,8 +142,7 @@
         "lyric-slide-images/Christ.in.Me.Arise-14.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/C.11.Christ.In.Me.Arise.all.HL.mp3"},
-        {"name": "HARMONY", "src": "audio/C.11.Christ.In.Me.Arise.harm.HL.mp3"},
+        {"name": "MELODY", "src": "audio/C.11.Christ.In.Me.Arise.all.HL.mp3"}
         {"name": "PIANO", "src": "audio/C.11.Christ.In.Me.Arise.piano.HL.mp3"}
         ]
     },
