@@ -156,7 +156,7 @@
     },
     {
       "title": "6. BECAUSE HE LIVES",
-      "useImages": false,
+      "useImages": true,
       "imageFiles": [
         "C.6.Because.He.Lives-0.png"
       ],
