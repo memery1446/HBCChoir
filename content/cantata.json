@@ -21,10 +21,18 @@
       "title": "1. WERE YOU THERE",
       "useImages": true,
       "imageFiles": [
-        "1.Rock.of.Ages-0.png"
+        "Were.You.There-0.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/1.Rock.of.Ages-0.png"
+        "lyric-slide-images/Were.You.There-0.png",
+        "lyric-slide-images/Were.You.There-1.png",
+        "lyric-slide-images/Were.You.There-2.png",
+        "lyric-slide-images/Were.You.There-3.png",
+        "lyric-slide-images/Were.You.There-4.png",
+        "lyric-slide-images/Were.You.There-5.png",
+        "lyric-slide-images/Were.You.There-6.png",
+        "lyric-slide-images/Were.You.There-7.png",
+        "lyric-slide-images/Were.You.There-8.png"
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/Were.You.There.all.HL.mp3"},
