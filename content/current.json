@@ -12,62 +12,154 @@
     "Who He Is",
     "OFFERTORY: Instrumental",
     "CHOIR SPECIAL: Psalm 27: The Lord Is My Light"
-
   ],
   "songs": [
     {
       "title": "10,000 REASONS",
       "useImages": true,
       "imageFiles": [
-        "1.10K.Reasons-0.png"
+        "1.10K.Reasons-0.png",
+        "1.10K.Reasons-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-0.png"
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-0.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-1.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-2.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-3.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-4.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-5.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-6.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-7.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-8.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-9.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-10.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-11.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-12.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-13.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-14.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-15.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-16.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-17.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-18.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-19.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-20.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-21.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-22.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-23.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-24.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-25.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-26.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-27.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-28.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-29.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-30.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-31.png",
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-32.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Here.I.Am.To.Worship.all.HL.mp3"},
-        {"name": "HARMONY 1", "src": "audio/Here.I.Am.To.Worship.harm.1.HL.mp3"},
-        {"name": "HARMONY 2", "src": "audio/Here.I.Am.To.Worship.harm.2.HL.mp3"},
-        {"name": "PIANO", "src": "audio/2-Here.I.Am.To.Worship.piano.mp3"}
+        {"name": "MELODY", "src": "audio/10000.Reasons.Bless.The.Lord.all.mp3"},
+        {"name": "HARMONY 1", "src": "audio/10000.Reasons.Bless.The.Lord.Harm.1.mp3"},
+        {"name": "HARMONY 2", "src": "audio/10000.Reasons.Bless.The.Lord.Harm.2.mp3"},
+        {"name": "PIANO", "src": "audio/10000.Bless.The.Lord.piano.mp3"}
       ]
     },
     {
       "title": "GOODNESS OF GOD",
       "useImages": true,
       "imageFiles": [
-        "2.Goodness.of.God-0.png"
+        "2.Goodness.of.God-0.png",
+        "2.Goodness.of.God-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/2.Goodness.of.God-0.png"
-
+        "lyric-slide-images/2.Goodness.of.God-0.png",
+        "lyric-slide-images/2.Goodness.of.God-1.png",
+        "lyric-slide-images/2.Goodness.of.God-2.png",
+        "lyric-slide-images/2.Goodness.of.God-3.png",
+        "lyric-slide-images/2.Goodness.of.God-4.png",
+        "lyric-slide-images/2.Goodness.of.God-5.png",
+        "lyric-slide-images/2.Goodness.of.God-6.png",
+        "lyric-slide-images/2.Goodness.of.God-7.png",
+        "lyric-slide-images/2.Goodness.of.God-8.png",
+        "lyric-slide-images/2.Goodness.of.God-9.png",
+        "lyric-slide-images/2.Goodness.of.God-10.png",
+        "lyric-slide-images/2.Goodness.of.God-11.png",
+        "lyric-slide-images/2.Goodness.of.God-12.png",
+        "lyric-slide-images/2.Goodness.of.God-13.png",
+        "lyric-slide-images/2.Goodness.of.God-14.png"
       ],
       "tracks": [
-        {"name": "PIANO", "src": "audio/Savior.Like.A.Shepherd.Lead.Us.piano.mp3"}
-
+        {"name": "MELODY", "src": "audio/Goodness.of.God.mp3"}
       ]
     },
     {
       "title": "I KNOW A NAME",
       "useImages": true,
       "imageFiles": [
-        "3.I.Know.a.Name-0.png"
+        "3.I.Know.a.Name-0.png",
+        "3.I.Know.a.Name-1.png",
+        "3.I.Know.a.Name-2.png",
+        "3.I.Know.a.Name-3.png",
+        "3.I.Know.a.Name-4.png",
+        "3.I.Know.a.Name-5.png",
+        "3.I.Know.a.Name-6.png",
+        "3.I.Know.a.Name-7.png",
+        "3.I.Know.a.Name-8.png",
+        "3.I.Know.a.Name-9.png",
+        "3.I.Know.a.Name-10.png",
+        "3.I.Know.a.Name-11.png",
+        "3.I.Know.a.Name-12.png",
+        "3.I.Know.a.Name-13.png",
+        "3.I.Know.a.Name-14.png",
+        "3.I.Know.a.Name-15.png",
+        "3.I.Know.a.Name-16.png",
+        "3.I.Know.a.Name-17.png",
+        "3.I.Know.a.Name-18.png",
+        "3.I.Know.a.Name-19.png",
+        "3.I.Know.a.Name-20.png",
+        "3.I.Know.a.Name-21.png",
+        "3.I.Know.a.Name-22.png",
+        "3.I.Know.a.Name-23.png",
+        "3.I.Know.a.Name-24.png",
+        "3.I.Know.a.Name-25.png",
+        "3.I.Know.a.Name-26.png",
+        "3.I.Know.a.Name-27.png",
+        "3.I.Know.a.Name-28.png",
+        "3.I.Know.a.Name-29.png",
+        "3.I.Know.a.Name-30.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/3.I.Know.a.Name-0.png"
+        "lyric-slide-images/3.I.Know.a.Name-0.png",
+        "lyric-slide-images/3.I.Know.a.Name-1.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/I.Trust.In.God.melody.HL.mp3"},
-        {"name": "PIANO", "src": "audio/I.Trust.In.God.piano.HL.mp3"}
+        {"name": "MELODY", "src": "audio/I.Know.a.Name.mp3"}
       ]
     },
     {
       "title": "WHO HE IS",
       "useImages": true,
       "imageFiles": [
-        "4.Who.He.Is-0.png"
+        "4.Who.He.Is-0.png",
+        "4.Who.He.Is-1.png",
+        "4.Who.He.Is-2.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/4.Who.He.Is-0.png"
+        "lyric-slide-images/4.Who.He.Is-0.png",
+        "lyric-slide-images/4.Who.He.Is-1.png",
+        "lyric-slide-images/4.Who.He.Is-2.png",
+        "lyric-slide-images/4.Who.He.Is-3.png",
+        "lyric-slide-images/4.Who.He.Is-4.png",
+        "lyric-slide-images/4.Who.He.Is-5.png",
+        "lyric-slide-images/4.Who.He.Is-6.png",
+        "lyric-slide-images/4.Who.He.Is-7.png",
+        "lyric-slide-images/4.Who.He.Is-8.png",
+        "lyric-slide-images/4.Who.He.Is-9.png",
+        "lyric-slide-images/4.Who.He.Is-10.png",
+        "lyric-slide-images/4.Who.He.Is-11.png",
+        "lyric-slide-images/4.Who.He.Is-12.png",
+        "lyric-slide-images/4.Who.He.Is-13.png",
+        "lyric-slide-images/4.Who.He.Is-14.png",
+        "lyric-slide-images/4.Who.He.Is-15.png"
       ],
       "tracks": [
           {
@@ -80,16 +172,23 @@
       "title": "PSALM 27: THE LORD IS MY LIGHT",
       "useImages": true,
       "imageFiles": [
-        "5.The.Lord.Is.My.Light-0.png"
+        "5.The.Lord.Is.My.Light-0.png",
+        "5.The.Lord.Is.My.Light-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/5.The.Lord.Is.My.Light-0.png"
-
+        "lyric-slide-images/5.The.Lord.Is.My.Light-0.png",
+        "lyric-slide-images/5.The.Lord.Is.My.Light-1.png",
+        "lyric-slide-images/5.The.Lord.Is.My.Light-2.png",
+        "lyric-slide-images/5.The.Lord.Is.My.Light-3.png",
+        "lyric-slide-images/5.The.Lord.Is.My.Light-4.png",
+        "lyric-slide-images/5.The.Lord.Is.My.Light-5.png",
+        "lyric-slide-images/5.The.Lord.Is.My.Light-6.png",
+        "lyric-slide-images/5.The.Lord.Is.My.Light-7.png",
+        "lyric-slide-images/5.The.Lord.Is.My.Light-8.png",
+        "lyric-slide-images/5.The.Lord.Is.My.Light-9.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/The.Lord.Is.My.Shepherd.all.HL.mp3"},
-        {"name": "HARMONY", "src": "audio/The.Lord.Is.My.Shepherd.harm.HL.mp3"},
-        {"name": "PIANO", "src": "audio/The.Lord.Is.My.Shepherd.piano.HL.mp3"}
+        {"name": "PIANO", "src": "audio/The.Lord.Is.My.Light.piano.mp3"}
       ]
     }
   ],
