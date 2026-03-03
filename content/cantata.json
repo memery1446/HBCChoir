@@ -27,6 +27,10 @@
         "lyric-slide-images/1.Rock.of.Ages-0.png"
       ],
       "tracks": [
+        {"name": "MELODY", "src": "audio/Were.You.There.all.HL.mp3"},
+        {"name": "ALTO", "src": "audio/Were.You.There.alto.HL.mp3"},
+        {"name": "TENOR", "src": "audio/Were.You.There.tenor.HL.mp3"},
+        {"name": "BASS", "src": "audio/Were.You.There.bass.HL.mp3"},
         {"name": "PIANO", "src": "audio/Were.You.There.piano.mp3"}
       ]
     },

@@ -57,10 +57,10 @@
         "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-32.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/10000.Reasons.Bless.The.Lord.all.mp3"},
-        {"name": "HARMONY 1", "src": "audio/10000.Reasons.Bless.The.Lord.Harm.1.mp3"},
-        {"name": "HARMONY 2", "src": "audio/10000.Reasons.Bless.The.Lord.harm.2.mp3"},
-        {"name": "PIANO", "src": "audio/10000.Reasons.Bless.The.Lord.piano.mp3"}
+        {"name": "MELODY", "src": "audio/10K.Reasons.Bless.the.Lord.all.HL.mp3"},
+        {"name": "HIGH HARMONY", "src": "audio/10K.Reasons.Bless.the.Lord.Harm.1.HL.mp3"},
+        {"name": "LOWER HARMONY", "src": "audio/10K.Reasons.Bless.the.Lord.harm.2.HL.mp3"},
+        {"name": "PIANO", "src": "audio/10K.Reasons.Bless.the.Lord.piano.mp3"}
       ]
     },
     {
@@ -88,7 +88,7 @@
         "lyric-slide-images/2.Goodness.of.God-14.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Goodness.of.God.mp3"}
+        {"name": "MELODY", "src": "audio/Goodness.of.God.HL.mp3"}
       ]
     },
     {
@@ -132,7 +132,7 @@
         "lyric-slide-images/3.I.Know.a.Name-30.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/I.Know.a.Name.mp3"}
+        {"name": "MELODY", "src": "audio/I.Know.a.Name.HL.mp3"}
       ]
     },
     {
@@ -188,7 +188,7 @@
         "lyric-slide-images/5.The.Lord.Is.My.Light-9.png"
       ],
       "tracks": [
-        {"name": "PIANO", "src": "audio/The.Lord.Is.My.Light.piano.mp3"}
+        {"name": "MELODY", "src": "audio/Who.He.Is.mp3"}
       ]
     }
   ],
