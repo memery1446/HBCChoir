@@ -19,7 +19,7 @@
   "songs": [
     {
       "title": "1. WERE YOU THERE",
-      "useImages": false,
+      "useImages": true,
       "imageFiles": [
         "1.Rock.of.Ages-0.png"
       ],
