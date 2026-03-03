@@ -59,8 +59,8 @@
       "tracks": [
         {"name": "MELODY", "src": "audio/10000.Reasons.Bless.The.Lord.all.mp3"},
         {"name": "HARMONY 1", "src": "audio/10000.Reasons.Bless.The.Lord.Harm.1.mp3"},
-        {"name": "HARMONY 2", "src": "audio/10000.Reasons.Bless.The.Lord.Harm.2.mp3"},
-        {"name": "PIANO", "src": "audio/10000.Bless.The.Lord.piano.mp3"}
+        {"name": "HARMONY 2", "src": "audio/10000.Reasons.Bless.The.Lord.harm.2.mp3"},
+        {"name": "PIANO", "src": "audio/10000.Reasons.Bless.The.Lord.piano.mp3"}
       ]
     },
     {
