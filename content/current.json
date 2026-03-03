@@ -1,54 +1,28 @@
 {
-  "serviceDate": "2026-03-01",
+  "serviceDate": "2026-03-08",
   "headerNotes": [
     "Our Choir music for Sunday is below.",
     "Choir meets Sundays at 4:30pm.",
-    "CHILDCARE and FOOD for kiddos during Sunday and Wednesday rehearsals."
+    "CHILDCARE is coordinated during Sunday and Wednesday rehearsals."
   ],
   "order": [
-    "Here I Am to Worship",
-    "Savior, Like a Shepherd Lead Us",
-    "Trust in God",
-    "Christ in Me Arise",
+    "with KIDZ: 10,000 Reasons",
+    "with KIDZ: Goodness of God",
+    "I Know a Name",
+    "Who He Is",
     "OFFERTORY: Instrumental",
-    "CHOIR SPECIAL: Psalm 23: The Lord Is My Shepherd"
+    "CHOIR SPECIAL: Psalm 27: The Lord Is My Light"
 
   ],
   "songs": [
     {
-      "title": "HERE I AM TO WORSHIP",
+      "title": "10,000 REASONS",
       "useImages": true,
       "imageFiles": [
-        "1.Here.I.Am.to.Worship-0.png",
-        "1.Here.I.Am.to.Worship-1.png"
+        "1.10K.Reasons-0.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/Here.I.Am.to.Worship-0.png",
-        "lyric-slide-images/Here.I.Am.to.Worship-1.png",
-        "lyric-slide-images/Here.I.Am.to.Worship-2.png",
-        "lyric-slide-images/Here.I.Am.to.Worship-3.png",
-        "lyric-slide-images/Here.I.Am.to.Worship-4.png",
-        "lyric-slide-images/Here.I.Am.to.Worship-5.png",
-        "lyric-slide-images/Here.I.Am.to.Worship-6.png",
-        "lyric-slide-images/Here.I.Am.to.Worship-7.png",
-        "lyric-slide-images/Here.I.Am.to.Worship-8.png",
-        "lyric-slide-images/Here.I.Am.to.Worship-9.png",
-        "lyric-slide-images/Here.I.Am.to.Worship-10.png",
-        "lyric-slide-images/Here.I.Am.to.Worship-11.png",
-        "lyric-slide-images/Here.I.Am.to.Worship-12.png",
-        "lyric-slide-images/Here.I.Am.to.Worship-13.png",
-        "lyric-slide-images/Here.I.Am.to.Worship-14.png",
-        "lyric-slide-images/Here.I.Am.to.Worship-15.png",
-        "lyric-slide-images/Here.I.Am.to.Worship-16.png",
-        "lyric-slide-images/Here.I.Am.to.Worship-17.png",
-        "lyric-slide-images/Here.I.Am.to.Worship-18.png",
-        "lyric-slide-images/Here.I.Am.to.Worship-19.png",
-        "lyric-slide-images/Here.I.Am.to.Worship-20.png",
-        "lyric-slide-images/Here.I.Am.to.Worship-21.png",
-        "lyric-slide-images/Here.I.Am.to.Worship-22.png",
-        "lyric-slide-images/Here.I.Am.to.Worship-23.png",
-        "lyric-slide-images/Here.I.Am.to.Worship-24.png",
-        "lyric-slide-images/Here.I.Am.to.Worship-25.png"
+        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-0.png"
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/Here.I.Am.To.Worship.all.HL.mp3"},
@@ -58,30 +32,14 @@
       ]
     },
     {
-      "title": "SAVIOR LIKE A SHEPHERD LEAD US",
+      "title": "GOODNESS OF GOD",
       "useImages": true,
       "imageFiles": [
-        "2.Savior.Like.a.Shepherd.Lead.Us-0.png"
+        "2.Goodness.of.God-0.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/Savior.Like.a.Shepherd.Lead-0.png",
-        "lyric-slide-images/Savior.Like.a.Shepherd.Lead-1.png",
-        "lyric-slide-images/Savior.Like.a.Shepherd.Lead-2.png",
-        "lyric-slide-images/Savior.Like.a.Shepherd.Lead-3.png",
-        "lyric-slide-images/Savior.Like.a.Shepherd.Lead-4.png",
-        "lyric-slide-images/Savior.Like.a.Shepherd.Lead-5.png",
-        "lyric-slide-images/Savior.Like.a.Shepherd.Lead-6.png",
-        "lyric-slide-images/Savior.Like.a.Shepherd.Lead-7.png",
-        "lyric-slide-images/Savior.Like.a.Shepherd.Lead-8.png",
-        "lyric-slide-images/Savior.Like.a.Shepherd.Lead-9.png",
-        "lyric-slide-images/Savior.Like.a.Shepherd.Lead-10.png",
-        "lyric-slide-images/Savior.Like.a.Shepherd.Lead-11.png",
-        "lyric-slide-images/Savior.Like.a.Shepherd.Lead-12.png",
-        "lyric-slide-images/Savior.Like.a.Shepherd.Lead-13.png",
-        "lyric-slide-images/Savior.Like.a.Shepherd.Lead-14.png",
-        "lyric-slide-images/Savior.Like.a.Shepherd.Lead-15.png",
-        "lyric-slide-images/Savior.Like.a.Shepherd.Lead-16.png",
-        "lyric-slide-images/Savior.Like.a.Shepherd.Lead-17.png"
+        "lyric-slide-images/2.Goodness.of.God-0.png"
+
       ],
       "tracks": [
         {"name": "PIANO", "src": "audio/Savior.Like.A.Shepherd.Lead.Us.piano.mp3"}
@@ -89,28 +47,13 @@
       ]
     },
     {
-      "title": "TRUST IN GOD",
+      "title": "I KNOW A NAME",
       "useImages": true,
       "imageFiles": [
-        "3.Trust.in.God-0.png",
-        "3.Trust.in.God-1.png"
+        "3.I.Know.a.Name-0.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/I.Trust.in.God-0.png",
-        "lyric-slide-images/I.Trust.in.God-1.png",
-        "lyric-slide-images/I.Trust.in.God-2.png",
-        "lyric-slide-images/I.Trust.in.God-3.png",
-        "lyric-slide-images/I.Trust.in.God-4.png",
-        "lyric-slide-images/I.Trust.in.God-5.png",
-        "lyric-slide-images/I.Trust.in.God-6.png",
-        "lyric-slide-images/I.Trust.in.God-7.png",
-        "lyric-slide-images/I.Trust.in.God-8.png",
-        "lyric-slide-images/I.Trust.in.God-9.png",
-        "lyric-slide-images/I.Trust.in.God-10.png",
-        "lyric-slide-images/I.Trust.in.God-11.png",
-        "lyric-slide-images/I.Trust.in.God-12.png",
-        "lyric-slide-images/I.Trust.in.God-13.png",
-        "lyric-slide-images/I.Trust.in.God-14.png"
+        "lyric-slide-images/3.I.Know.a.Name-0.png"
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/I.Trust.In.God.melody.HL.mp3"},
@@ -118,57 +61,29 @@
       ]
     },
     {
-      "title": "CHRIST IN ME ARISE",
+      "title": "WHO HE IS",
       "useImages": true,
       "imageFiles": [
-        "C.11.Christ.in.Me.Arise-0.png",
-        "C.11.Christ.in.Me.Arise-1.png"
+        "4.Who.He.Is-0.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/Christ.in.Me.Arise-0.png",
-        "lyric-slide-images/Christ.in.Me.Arise-1.png",
-        "lyric-slide-images/Christ.in.Me.Arise-2.png",
-        "lyric-slide-images/Christ.in.Me.Arise-3.png",
-        "lyric-slide-images/Christ.in.Me.Arise-4.png",
-        "lyric-slide-images/Christ.in.Me.Arise-5.png",
-        "lyric-slide-images/Christ.in.Me.Arise-6.png",
-        "lyric-slide-images/Christ.in.Me.Arise-7.png",
-        "lyric-slide-images/Christ.in.Me.Arise-8.png",
-        "lyric-slide-images/Christ.in.Me.Arise-9.png",
-        "lyric-slide-images/Christ.in.Me.Arise-10.png",
-        "lyric-slide-images/Christ.in.Me.Arise-11.png",
-        "lyric-slide-images/Christ.in.Me.Arise-12.png",
-        "lyric-slide-images/Christ.in.Me.Arise-13.png",
-        "lyric-slide-images/Christ.in.Me.Arise-14.png"
+        "lyric-slide-images/4.Who.He.Is-0.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/C.11.Christ.In.Me.Arise.all.HL.mp3"},
-        {"name": "PIANO", "src": "audio/C.11.Christ.In.Me.Arise.piano.HL.mp3"}
+          {
+            "name": "MELODY",
+            "src": "https://youtu.be/S0nwZmmL_AQ?si=t433GgupfkrFuvdg"
+          }
         ]
     },
     {
-      "title": "PSALM 23: THE LORD IS MY SHEPHERD",
+      "title": "PSALM 27: THE LORD IS MY LIGHT",
       "useImages": true,
       "imageFiles": [
-        "5.The.Lord.Is.My.Shepherd-0.png",
-        "5.The.Lord.Is.My.Shepherd-1.png"
+        "5.The.Lord.Is.My.Light-0.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-0.png",
-        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-1.png",
-        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-2.png",
-        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-3.png",
-        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-4.png",
-        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-5.png",
-        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-6.png",
-        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-7.png",
-        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-8.png",
-        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-9.png",
-        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-10.png",
-        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-11.png",
-        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-12.png",
-        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-13.png",
-        "lyric-slide-images/5.The.Lord.Is.My.Shepherd-14.png"
+        "lyric-slide-images/5.The.Lord.Is.My.Light-0.png"
 
       ],
       "tracks": [
