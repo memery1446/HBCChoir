@@ -300,8 +300,8 @@
       ],
       "tracks": [
         {"name": "MELODY", "src": "audio/C.8.Great.God.Medley.all.HL.mp3"},
-        {"name": "HARMONY 1", "src": "audio/C.8.Great.God.Medley.harm.1.HL.mp3"},
-        {"name": "HARMONY 2", "src": "audio/C.8.Great.God.Medley.harm.2.HL.mp3"}
+        {"name": "HIHGER HARMONY", "src": "audio/C.8.Great.God.Medley.harm.2.HL.mp3"},
+        {"name": "LOWER HARMONY", "src": "audio/C.8.Great.God.Medley.harm.1.HL.mp3"}
       ]
     },
     {

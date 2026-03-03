@@ -59,7 +59,7 @@
       "tracks": [
         {"name": "MELODY", "src": "audio/10K.Reasons.Bless.the.Lord.all.HL.mp3"},
         {"name": "HIGH HARMONY", "src": "audio/10K.Reasons.Bless.the.Lord.Harm.1.HL.mp3"},
-        {"name": "LOWER HARMONY", "src": "audio/10K.Reasons.Bless.the.Lord.harm.2.HL.mp3"},
+        {"name": "LOWER HARMONY", "src": "audio/10K.Reasons.Bless.the.Lord.Harm.2.HL.mp3"},
         {"name": "PIANO", "src": "audio/10K.Reasons.Bless.the.Lord.piano.mp3"}
       ]
     },
@@ -162,10 +162,7 @@
         "lyric-slide-images/4.Who.He.Is-15.png"
       ],
       "tracks": [
-          {
-            "name": "MELODY",
-            "src": "https://youtu.be/S0nwZmmL_AQ?si=t433GgupfkrFuvdg"
-          }
+        {"name": "MELODY", "src": "audio/Who.He.Is.mp3"}
         ]
     },
     {
@@ -188,7 +185,8 @@
         "lyric-slide-images/5.The.Lord.Is.My.Light-9.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Who.He.Is.mp3"}
+        {"name": "MELODY", "src": "audio/The.Lord.Is.My.Light.all.HL.mp3"},
+        {"name": "PIANO", "src": "audio/The.Lord.Is.My.Light.piano.mp3"}
       ]
     }
   ],
