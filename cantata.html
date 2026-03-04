@@ -1068,6 +1068,39 @@
                 font-size: 18px !important;
             }
         }
+
+        /* Touch tap zones for lyric slide navigation */
+        .image-tap-zones {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            pointer-events: none; /* hidden by default, enabled on touch devices */
+            z-index: 5;
+        }
+
+        .tap-zone {
+            flex: 1;
+            height: 100%;
+            pointer-events: auto;
+            cursor: pointer;
+            -webkit-tap-highlight-color: transparent;
+            user-select: none;
+        }
+
+        /* Brief flash feedback on tap */
+        .tap-zone:active {
+            background: rgba(255, 255, 255, 0.12);
+        }
+
+        /* Only show on touch-capable devices */
+        @media (hover: hover) {
+            .image-tap-zones {
+                display: none;
+            }
+        }
     </style>
 </head>
 <body>
@@ -1644,6 +1677,7 @@
 
         setupImageAudio(tracks);
         showCurrentImage();
+        setupImageTapZones();
         document.getElementById('imageModal').style.display = 'block';
         document.body.style.overflow = 'hidden';
     }
@@ -1761,6 +1795,34 @@
         buttons.forEach((btn, index) => {
             btn.classList.toggle('active', index === buttonIndex);
         });
+    }
+
+
+    function setupImageTapZones() {
+        const viewer = document.querySelector('.image-viewer');
+        if (!viewer) return;
+
+        // Remove any existing tap zones
+        const existing = viewer.querySelector('.image-tap-zones');
+        if (existing) existing.remove();
+
+        const zones = document.createElement('div');
+        zones.className = 'image-tap-zones';
+
+        const leftZone  = document.createElement('div');
+        leftZone.className  = 'tap-zone';
+        leftZone.setAttribute('aria-label', 'Previous slide');
+
+        const rightZone = document.createElement('div');
+        rightZone.className = 'tap-zone';
+        rightZone.setAttribute('aria-label', 'Next slide');
+
+        leftZone.addEventListener('click',  () => prevImagePage());
+        rightZone.addEventListener('click', () => nextImagePage());
+
+        zones.appendChild(leftZone);
+        zones.appendChild(rightZone);
+        viewer.appendChild(zones);
     }
 
     function closeImageModal() {
