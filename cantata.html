@@ -1792,7 +1792,7 @@
 
         // Highlight the active button
         document.querySelectorAll('.play-all-btn').forEach(btn => btn.classList.remove('active-group'));
-        const activeBtn = document.querySelector(\`.play-all-btn.${group}\`);
+        const activeBtn = document.querySelector(`.play-all-btn.${group}`);
         if (activeBtn) activeBtn.classList.add('active-group');
 
         if (!playlistAudioPlayer) {
@@ -1858,12 +1858,12 @@
         if (suggestion) {
             const subject = 'Song Suggestion';
             const body = `Hi Mark,\n\nI'd like to suggest this song for our choir:\n\n${suggestion}\n\nThanks!\n`;
-        const mailtoLink = `mailto:memery1446@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-        window.location.href = mailtoLink;
-        document.getElementById('songSuggestion').value = '';
-    } else {
-        alert('Please enter a song suggestion first.');
-    }
+            const mailtoLink = `mailto:memery1446@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+            window.location.href = mailtoLink;
+            document.getElementById('songSuggestion').value = '';
+        } else {
+            alert('Please enter a song suggestion first.');
+        }
     }
 
     function openSinglePDF(pdfPath, audioPath, title) {
