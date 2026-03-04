@@ -58,22 +58,22 @@
       ],
       "tracks": [
         {
-          "name": "MELODY",
+          "name": "MELODY/SOPRANO",
           "src": "audio/10K.Reasons.Bless.the.Lord.all.HL.mp3",
           "group": "soprano"
         },
         {
-          "name": "HIGH HARMONY",
+          "name": "ALTO",
           "src": "audio/10K.Reasons.Bless.the.Lord.Harm.1.HL.mp3",
           "group": "alto"
         },
         {
-          "name": "HIGH HARMONY",
+          "name": "TENOR",
           "src": "audio/10K.Reasons.Bless.the.Lord.Harm.1.HL.mp3",
           "group": "tenor"
         },
         {
-          "name": "LOWER HARMONY",
+          "name": "BASS",
           "src": "audio/10K.Reasons.Bless.the.Lord.Harm.2.HL.mp3",
           "group": "bass"
         },

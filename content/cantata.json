@@ -36,7 +36,7 @@
       ],
       "tracks": [
         {
-          "name": "MELODY",
+          "name": "MELODY/SOPRANO",
           "src": "audio/Were.You.There.all.HL.mp3",
           "group": "soprano"
         },
@@ -128,22 +128,22 @@
       ],
       "tracks": [
         {
-          "name": "MELODY",
+          "name": "MELODY/SOPRANO",
           "src": "audio/Power.all.HL.mp3",
           "group": "soprano"
         },
         {
-          "name": "HIGH HARMONY",
-          "src": "audio/Power.high.harm.HL.mp3",
+          "name": "ALTO",
+          "src": "audio/Power.alto.HL.mp3",
           "group": "alto"
         },
         {
-          "name": "HIGH HARMONY",
-          "src": "audio/Power.high.harm.HL.mp3",
+          "name": "TENOR",
+          "src": "audio/Power.tenor.HL.mp3",
           "group": "tenor"
         },
         {
-          "name": "LOW HARMONY",
+          "name": "BASS",
           "src": "audio/Power.bass.HL.mp3",
           "group": "bass"
         }
@@ -172,7 +172,7 @@
       ],
       "tracks": [
         {
-          "name": "MELODY",
+          "name": "MELODY/SOPRANO",
           "src": "audio/How.Deep.all.HL.mp3",
           "group": "soprano"
         },
@@ -221,7 +221,7 @@
       ],
       "tracks": [
         {
-          "name": "MELODY",
+          "name": "MELODY/SOPRANO",
           "src": "audio/He.Looked.Beyond.My.Fault.all.HL.mp3",
           "group": "soprano"
         },
@@ -269,7 +269,7 @@
       ],
       "tracks": [
         {
-          "name": "MELODY",
+          "name": "MELODY/SOPRANO",
           "src": "audio/Because.He.Lives.all.HL.mp3",
           "group": "soprano"
         },
@@ -333,7 +333,7 @@
       ],
       "tracks": [
         {
-          "name": "MELODY",
+          "name": "MELODY/SOPRANO",
           "src": "audio/Mighty.to.Save.all.HL.mp3",
           "group": "soprano"
         },
@@ -410,22 +410,22 @@
       ],
       "tracks": [
         {
-          "name": "MELODY",
+          "name": "MELODY/SOPRANO",
           "src": "audio/C.8.Great.God.Medley.all.HL.mp3",
           "group": "soprano"
         },
         {
-          "name": "HIGHER HARMONY",
+          "name": "ALTO",
           "src": "audio/C.8.Great.God.Medley.harm.2.HL.mp3",
           "group": "alto"
         },
         {
-          "name": "HIGHER HARMONY",
+          "name": "TENOR",
           "src": "audio/C.8.Great.God.Medley.harm.2.HL.mp3",
           "group": "tenor"
         },
         {
-          "name": "LOWER HARMONY",
+          "name": "BASS",
           "src": "audio/C.8.Great.God.Medley.harm.1.HL.mp3",
           "group": "bass"
         }
@@ -511,7 +511,7 @@
       ],
       "tracks": [
         {
-          "name": "MELODY",
+          "name": "MELODY/SOPRANO",
           "src": "audio/C.10.Love.of.Jesus.Medley.all.HL.mp3",
           "group": "soprano"
         },
