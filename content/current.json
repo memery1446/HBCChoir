@@ -57,10 +57,30 @@
         "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-32.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/10K.Reasons.Bless.the.Lord.all.HL.mp3"},
-        {"name": "HIGH HARMONY", "src": "audio/10K.Reasons.Bless.the.Lord.Harm.1.HL.mp3"},
-        {"name": "LOWER HARMONY", "src": "audio/10K.Reasons.Bless.the.Lord.Harm.2.HL.mp3"},
-        {"name": "PIANO", "src": "audio/10K.Reasons.Bless.the.Lord.piano.mp3"}
+        {
+          "name": "MELODY",
+          "src": "audio/10K.Reasons.Bless.the.Lord.all.HL.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "HIGH HARMONY",
+          "src": "audio/10K.Reasons.Bless.the.Lord.Harm.1.HL.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "HIGH HARMONY",
+          "src": "audio/10K.Reasons.Bless.the.Lord.Harm.1.HL.mp3",
+          "group": "tenor"
+        },
+        {
+          "name": "LOWER HARMONY",
+          "src": "audio/10K.Reasons.Bless.the.Lord.Harm.2.HL.mp3",
+          "group": "bass"
+        },
+        {
+          "name": "PIANO",
+          "src": "audio/10K.Reasons.Bless.the.Lord.piano.mp3"
+        }
       ]
     },
     {
@@ -88,7 +108,11 @@
         "lyric-slide-images/2.Goodness.of.God-14.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Goodness.of.God.HL.mp3"}
+        {
+          "name": "MELODY",
+          "src": "audio/Goodness.of.God.HL.mp3",
+          "group": "soprano"
+        }
       ]
     },
     {
@@ -132,7 +156,11 @@
         "lyric-slide-images/3.I.Know.a.Name-30.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/I.Know.a.Name.HL.mp3"}
+        {
+          "name": "MELODY",
+          "src": "audio/I.Know.a.Name.HL.mp3",
+          "group": "soprano"
+        }
       ]
     },
     {
@@ -162,8 +190,12 @@
         "lyric-slide-images/4.Who.He.Is-15.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Who.He.Is.mp3"}
-        ]
+        {
+          "name": "MELODY",
+          "src": "audio/Who.He.Is.mp3",
+          "group": "soprano"
+        }
+      ]
     },
     {
       "title": "PSALM 27: THE LORD IS MY LIGHT",
@@ -185,10 +217,18 @@
         "lyric-slide-images/5.The.Lord.Is.My.Light-9.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/The.Lord.Is.My.Light.all.HL.mp3"},
-        {"name": "PIANO", "src": "audio/The.Lord.Is.My.Light.piano.mp3"}
+        {
+          "name": "MELODY",
+          "src": "audio/The.Lord.Is.My.Light.all.HL.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "PIANO",
+          "src": "audio/The.Lord.Is.My.Light.piano.mp3"
+        }
       ]
     }
   ],
-  "allSongsPdf": null
+  "allSongsPdf": null,
+  "interludeMp3": "audio/Matthew.4.19.Week.1.mp3"
 }

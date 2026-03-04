@@ -464,10 +464,38 @@
             margin-bottom: 15px;
         }
 
+        .play-all-buttons {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+
         .play-all-btn:hover {
-            background: #c0392b;
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(231, 76, 60, 0.4);
+        }
+
+        .play-all-btn.soprano { background: #e74c3c; }
+        .play-all-btn.soprano:hover { background: #c0392b; box-shadow: 0 5px 15px rgba(231,76,60,0.4); }
+
+        .play-all-btn.alto { background: #8e44ad; }
+        .play-all-btn.alto:hover { background: #7d3c98; box-shadow: 0 5px 15px rgba(142,68,173,0.4); }
+
+        .play-all-btn.tenor { background: #2980b9; }
+        .play-all-btn.tenor:hover { background: #2471a3; box-shadow: 0 5px 15px rgba(41,128,185,0.4); }
+
+        .play-all-btn.bass { background: #27ae60; }
+        .play-all-btn.bass:hover { background: #229954; box-shadow: 0 5px 15px rgba(39,174,96,0.4); }
+
+        .play-all-btn.active-group {
+            outline: 3px solid white;
+            outline-offset: 2px;
+        }
+
+        @media (max-width: 768px) {
+            .play-all-buttons { gap: 8px; }
+            .play-all-btn { font-size: 1rem !important; padding: 12px 16px !important; }
         }
 
         .instructions {
@@ -1064,8 +1092,13 @@
 
         <div class="playlist-section">
             <div class="play-all-section">
-                <button class="play-all-btn" onclick="playAllSongs()">🎵 Play All Songs In Order</button>
-                <p class="instructions">Push this button to play through all the songs in order.</p>
+                <div class="play-all-buttons">
+                    <button class="play-all-btn soprano" onclick="playAllSongs('soprano')">🎵 Melody / Soprano</button>
+                    <button class="play-all-btn alto" onclick="playAllSongs('alto')">🎵 Alto</button>
+                    <button class="play-all-btn tenor" onclick="playAllSongs('tenor')">🎵 Tenor</button>
+                    <button class="play-all-btn bass" onclick="playAllSongs('bass')">🎵 Bass</button>
+                </div>
+                <p class="instructions">Choose your part to play through all songs in order. Songs without your specific part will play the melody.</p>
                 <div class="playlist-controls" id="playlistControls" style="display: none;">
                     <div class="current-song">Now Playing: <span id="currentSongTitle">Loading...</span></div>
                     <div class="song-progress">Song <span id="playlistPosition">1</span> of <span id="playlistTotal">1</span></div>
@@ -1534,30 +1567,43 @@
         return songItem;
     }
 
+    // Pick the best track src for a given voice group, falling back to tracks[0]
+    function getTrackSrcForGroup(song, group) {
+        if (!song.tracks || song.tracks.length === 0) {
+            return song.single ? song.single.audio : null;
+        }
+        const match = song.tracks.find(t => t.group === group);
+        return (match || song.tracks[0]).src;
+    }
+
     function updatePlaylistSongs() {
-        playlistSongs = [];
+        // Default playlist (soprano/melody) used for legacy calls
+        buildPlaylistForGroup('soprano');
+    }
+
+    function buildPlaylistForGroup(group) {
+        const songEntries = [];
         if (currentContent.songs) {
             currentContent.songs.forEach(song => {
-                let audioSrc = null;
-                if (song.useImages) {
-                    if (song.tracks && song.tracks.length > 0) {
-                        audioSrc = song.tracks[0].src;
-                    } else if (song.single && song.single.audio) {
-                        audioSrc = song.single.audio;
-                    }
-                } else if (song.tracks && song.tracks.length > 0) {
-                    audioSrc = song.tracks[0].src;
-                } else if (song.single && song.single.audio) {
-                    audioSrc = song.single.audio;
-                }
-                // Only add non-YouTube audio sources to playlist
+                const audioSrc = getTrackSrcForGroup(song, group);
                 if (audioSrc && !isYoutubeUrl(audioSrc)) {
-                    playlistSongs.push({
-                        title: song.title,
-                        src: audioSrc
-                    });
+                    songEntries.push({ title: song.title, src: audioSrc });
                 }
             });
+        }
+
+        // Interleave Bible verse interlude between songs if configured
+        const interludeSrc = currentContent.interludeMp3;
+        if (interludeSrc && songEntries.length > 0) {
+            playlistSongs = [];
+            songEntries.forEach((song, index) => {
+                playlistSongs.push(song);
+                if (index < songEntries.length - 1) {
+                    playlistSongs.push({ title: '📖 Bible Verse', src: interludeSrc, isInterlude: true });
+                }
+            });
+        } else {
+            playlistSongs = songEntries;
         }
     }
 
@@ -1724,7 +1770,10 @@
         currentLyricSlides = [];
     }
 
-    function playAllSongs() {
+    function playAllSongs(group) {
+        group = group || 'soprano';
+        buildPlaylistForGroup(group);
+
         if (playlistSongs.length === 0) {
             alert('No songs available to play.');
             return;
@@ -1732,6 +1781,11 @@
         isPlaylistActive = true;
         currentPlaylistIndex = 0;
         document.getElementById('playlistControls').style.display = 'flex';
+
+        // Highlight the active button
+        document.querySelectorAll('.play-all-btn').forEach(btn => btn.classList.remove('active-group'));
+        const activeBtn = document.querySelector(`.play-all-btn.${group}`);
+        if (activeBtn) activeBtn.classList.add('active-group');
 
         if (!playlistAudioPlayer) {
             playlistAudioPlayer = new CustomAudioPlayer('playlistPlayerContainer');
@@ -1788,6 +1842,7 @@
             playlistAudioPlayer.pause();
         }
         document.getElementById('playlistControls').style.display = 'none';
+        document.querySelectorAll('.play-all-btn').forEach(btn => btn.classList.remove('active-group'));
     }
 
     function sendSuggestion() {
@@ -1987,4 +2042,3 @@
 </script>
 </body>
 </html>
-

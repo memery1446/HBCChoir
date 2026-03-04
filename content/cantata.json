@@ -35,11 +35,30 @@
         "lyric-slide-images/Were.You.There-8.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Were.You.There.all.HL.mp3"},
-        {"name": "ALTO", "src": "audio/Were.You.There.alto.HL.mp3"},
-        {"name": "TENOR", "src": "audio/Were.You.There.tenor.HL.mp3"},
-        {"name": "BASS", "src": "audio/Were.You.There.bass.HL.mp3"},
-        {"name": "PIANO", "src": "audio/Were.You.There.piano.mp3"}
+        {
+          "name": "MELODY",
+          "src": "audio/Were.You.There.all.HL.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "ALTO",
+          "src": "audio/Were.You.There.alto.HL.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "TENOR",
+          "src": "audio/Were.You.There.tenor.HL.mp3",
+          "group": "tenor"
+        },
+        {
+          "name": "BASS",
+          "src": "audio/Were.You.There.bass.HL.mp3",
+          "group": "bass"
+        },
+        {
+          "name": "PIANO",
+          "src": "audio/Were.You.There.piano.mp3"
+        }
       ]
     },
     {
@@ -79,7 +98,11 @@
         "lyric-slide-images/4.In.Christ.Alone.with.The.Solid.Rock-20.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/In.Christ.Alone.with.Solid.Rock.HL.mp3"}
+        {
+          "name": "MELODY",
+          "src": "audio/In.Christ.Alone.with.Solid.Rock.HL.mp3",
+          "group": "soprano"
+        }
       ]
     },
     {
@@ -104,9 +127,26 @@
         "lyric-slide-images/C.3.The.Power.of.the.Cross-12.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Power.all.HL.mp3"},
-        {"name": "HIGH HARMONY", "src": "audio/Power.high.harm.HL.mp3"},
-        {"name": "LOW HARMONY", "src": "audio/Power.bass.HL.mp3"}
+        {
+          "name": "MELODY",
+          "src": "audio/Power.all.HL.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "HIGH HARMONY",
+          "src": "audio/Power.high.harm.HL.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "HIGH HARMONY",
+          "src": "audio/Power.high.harm.HL.mp3",
+          "group": "tenor"
+        },
+        {
+          "name": "LOW HARMONY",
+          "src": "audio/Power.bass.HL.mp3",
+          "group": "bass"
+        }
       ]
     },
     {
@@ -131,11 +171,30 @@
         "lyric-slide-images/C.4.How.Deep.the.Fathers.Love.for.Us-12.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/How.Deep.all.HL.mp3"},
-        {"name": "ALTO", "src": "audio/How.Deep.alto.HL.mp3"},
-        {"name": "TENOR", "src": "audio/How.Deep.tenor.HL.mp3"},
-        {"name": "BASS", "src": "audio/How.Deep.bass.HL.mp3"},
-        {"name": "PIANO", "src": "audio/How.Deep.piano.HL.mp3"}
+        {
+          "name": "MELODY",
+          "src": "audio/How.Deep.all.HL.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "ALTO",
+          "src": "audio/How.Deep.alto.HL.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "TENOR",
+          "src": "audio/How.Deep.tenor.HL.mp3",
+          "group": "tenor"
+        },
+        {
+          "name": "BASS",
+          "src": "audio/How.Deep.bass.HL.mp3",
+          "group": "bass"
+        },
+        {
+          "name": "PIANO",
+          "src": "audio/How.Deep.piano.HL.mp3"
+        }
       ]
     },
     {
@@ -161,11 +220,30 @@
         "lyric-slide-images/C.5.He.Looked.Beyond.My.Fault-7.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/He.Looked.Beyond.My.Fault.all.HL.mp3"},
-        {"name": "ALTO", "src": "audio/He.Looked.Beyond.My.Fault.alto.HL.mp3"},
-        {"name": "TENOR", "src": "audio/He.Looked.Beyond.My.Fault.tenor.HL.mp3"},
-        {"name": "BASS", "src": "audio/He.Looked.Beyond.My.Fault.bass.HL.mp3"},
-        {"name": "PIANO", "src": "audio/He.Looked.Beyond.My.Fault.piano.HL.mp3"}
+        {
+          "name": "MELODY",
+          "src": "audio/He.Looked.Beyond.My.Fault.all.HL.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "ALTO",
+          "src": "audio/He.Looked.Beyond.My.Fault.alto.HL.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "TENOR",
+          "src": "audio/He.Looked.Beyond.My.Fault.tenor.HL.mp3",
+          "group": "tenor"
+        },
+        {
+          "name": "BASS",
+          "src": "audio/He.Looked.Beyond.My.Fault.bass.HL.mp3",
+          "group": "bass"
+        },
+        {
+          "name": "PIANO",
+          "src": "audio/He.Looked.Beyond.My.Fault.piano.HL.mp3"
+        }
       ]
     },
     {
@@ -190,10 +268,26 @@
         "lyric-slide-images/C.6.Because.He.Lives-12.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Because.He.Lives.all.HL.mp3"},
-        {"name": "ALTO", "src": "audio/Because.He.Lives.alto.HL.mp3"},
-        {"name": "TENOR", "src": "audio/Because.He.Lives.tenor.HL.mp3"},
-        {"name": "BASS", "src": "audio/Because.He.Lives.bass.HL.mp3"}
+        {
+          "name": "MELODY",
+          "src": "audio/Because.He.Lives.all.HL.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "ALTO",
+          "src": "audio/Because.He.Lives.alto.HL.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "TENOR",
+          "src": "audio/Because.He.Lives.tenor.HL.mp3",
+          "group": "tenor"
+        },
+        {
+          "name": "BASS",
+          "src": "audio/Because.He.Lives.bass.HL.mp3",
+          "group": "bass"
+        }
       ]
     },
     {
@@ -238,10 +332,26 @@
         "lyric-slide-images/C.7-Mighty.to.Save-20.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/Mighty.to.Save.all.HL.mp3"},
-        {"name": "ALTO", "src": "audio/Mighty.to.Save.alto.HL.mp3"},
-        {"name": "TENOR", "src": "audio/Mighty.to.Save.tenor.HL.mp3"},
-        {"name": "BASS", "src": "audio/Mighty.to.Save.bass.HL.mp3"}
+        {
+          "name": "MELODY",
+          "src": "audio/Mighty.to.Save.all.HL.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "ALTO",
+          "src": "audio/Mighty.to.Save.alto.HL.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "TENOR",
+          "src": "audio/Mighty.to.Save.tenor.HL.mp3",
+          "group": "tenor"
+        },
+        {
+          "name": "BASS",
+          "src": "audio/Mighty.to.Save.bass.HL.mp3",
+          "group": "bass"
+        }
       ]
     },
     {
@@ -299,9 +409,26 @@
         "lyric-slide-images/C.8.Great.God.Medley-29.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/C.8.Great.God.Medley.all.HL.mp3"},
-        {"name": "HIHGER HARMONY", "src": "audio/C.8.Great.God.Medley.harm.2.HL.mp3"},
-        {"name": "LOWER HARMONY", "src": "audio/C.8.Great.God.Medley.harm.1.HL.mp3"}
+        {
+          "name": "MELODY",
+          "src": "audio/C.8.Great.God.Medley.all.HL.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "HIGHER HARMONY",
+          "src": "audio/C.8.Great.God.Medley.harm.2.HL.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "HIGHER HARMONY",
+          "src": "audio/C.8.Great.God.Medley.harm.2.HL.mp3",
+          "group": "tenor"
+        },
+        {
+          "name": "LOWER HARMONY",
+          "src": "audio/C.8.Great.God.Medley.harm.1.HL.mp3",
+          "group": "bass"
+        }
       ]
     },
     {
@@ -335,8 +462,15 @@
         "lyric-slide-images/3.O.Come.to.the.Altar-19.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/O.Come.to.the.Altar.HL.mp3"},
-        {"name": "PIANO", "src": "audio/O.Come.to.the.Altar.piano.HL.mp3"}
+        {
+          "name": "MELODY",
+          "src": "audio/O.Come.to.the.Altar.HL.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "PIANO",
+          "src": "audio/O.Come.to.the.Altar.piano.HL.mp3"
+        }
       ]
     },
     {
@@ -376,10 +510,26 @@
         "lyric-slide-images/C.10-Love.of.Jesus.Medley-18.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/C.10.Love.of.Jesus.Medley.all.HL.mp3"},
-        {"name": "ALTO", "src": "audio/C.10.Love.of.Jesus.Medley.alto.HL.mp3"},
-        {"name": "TENOR", "src": "audio/C.10.Love.of.Jesus.Medley.tenor.HL.mp3"},
-        {"name": "BASS", "src": "audio/C.10.Love.of.Jesus.Medley.bass.HL.mp3"}
+        {
+          "name": "MELODY",
+          "src": "audio/C.10.Love.of.Jesus.Medley.all.HL.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "ALTO",
+          "src": "audio/C.10.Love.of.Jesus.Medley.alto.HL.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "TENOR",
+          "src": "audio/C.10.Love.of.Jesus.Medley.tenor.HL.mp3",
+          "group": "tenor"
+        },
+        {
+          "name": "BASS",
+          "src": "audio/C.10.Love.of.Jesus.Medley.bass.HL.mp3",
+          "group": "bass"
+        }
       ]
     },
     {
@@ -407,11 +557,18 @@
         "lyric-slide-images/Christ.in.Me.Arise-14.png"
       ],
       "tracks": [
-        {"name": "MELODY", "src": "audio/C.11.Christ.In.Me.Arise.all.HL.mp3"},
-        {"name": "PIANO", "src": "audio/C.11.Christ.In.Me.Arise.piano.HL.mp3"}
+        {
+          "name": "MELODY",
+          "src": "audio/C.11.Christ.In.Me.Arise.all.HL.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "PIANO",
+          "src": "audio/C.11.Christ.In.Me.Arise.piano.HL.mp3"
+        }
       ]
     }
   ],
-  "allSongsPdf": null
+  "allSongsPdf": null,
+  "interludeMp3": "audio/Matthew.4.19.Week.1.mp3"
 }
-
