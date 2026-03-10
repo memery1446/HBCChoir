@@ -37,13 +37,13 @@
         "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-5.png",
         "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-6.png",
         "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-7.png",
-        "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-8.png"
+        "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-8.png",,,,,
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
           "src": "audio/Hallelujah.Your.Love.Is.Amazing.all.mp3",
-          "group": "soprano",
+          "group": "soprano"
         },
         {
           "name": "ALTO",
