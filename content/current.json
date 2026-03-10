@@ -42,28 +42,9 @@
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/10K.Reasons.Bless.the.Lord.all.HL.mp3",
+          "src": "audio/Hallelujah.Your.Love.Is.Amazing.all.mp3",
           "group": "soprano"
         },
-        {
-          "name": "ALTO",
-          "src": "audio/10K.Reasons.Bless.the.Lord.Harm.1.HL.mp3",
-          "group": "alto"
-        },
-        {
-          "name": "TENOR",
-          "src": "audio/10K.Reasons.Bless.the.Lord.Harm.1.HL.mp3",
-          "group": "tenor"
-        },
-        {
-          "name": "BASS",
-          "src": "audio/10K.Reasons.Bless.the.Lord.Harm.2.HL.mp3",
-          "group": "bass"
-        },
-        {
-          "name": "PIANO",
-          "src": "audio/10K.Reasons.Bless.the.Lord.piano.mp3"
-        }
       ]
     },
     {
@@ -92,13 +73,7 @@
         "lyric-slide-images/2.Great.Is.Thy.Faithfulness-15.png",
         "lyric-slide-images/2.Great.Is.Thy.Faithfulness-16.png"
       ],
-      "tracks": [
-        {
-          "name": "THE LORD WILL PROVIDE",
-          "src": "audio/Goodness.of.God.HL.mp3",
-          "group": "soprano"
-        }
-      ]
+      "tracks": []
     },
     {
       "title": "THE LORD WILL PROVIDE",
@@ -128,13 +103,7 @@
         "lyric-slide-images/3.The.Lord.Will.Provide-16.png",
         "lyric-slide-images/3.The.Lord.Will.Provide-17.png"
       ],
-      "tracks": [
-        {
-          "name": "MELODY",
-          "src": "audio/I.Know.a.Name.HL.mp3",
-          "group": "soprano"
-        }
-      ]
+      "tracks": []
     },
     {
       "title": "CHRIST IN ME ARISE",
