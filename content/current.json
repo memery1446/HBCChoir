@@ -37,7 +37,7 @@
         "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-5.png",
         "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-6.png",
         "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-7.png",
-        "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-8.png",,,,,
+        "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-8.png"
       ],
       "tracks": [
         {
@@ -88,7 +88,12 @@
         "lyric-slide-images/2.Great.Is.Thy.Faithfulness-15.png",
         "lyric-slide-images/2.Great.Is.Thy.Faithfulness-16.png"
       ],
-      "tracks": []
+      "tracks": [
+        {
+          "name": "PIANO",
+          "src": "audio/Great.Is.Thy.Faithfulness.piano.HL.mp3"
+        }
+      ]
     },
     {
       "title": "THE LORD WILL PROVIDE",
@@ -118,7 +123,12 @@
         "lyric-slide-images/3.The.Lord.Will.Provide-16.png",
         "lyric-slide-images/3.The.Lord.Will.Provide-17.png"
       ],
-      "tracks": []
+      "tracks": [
+        {
+          "name": "PIANO",
+          "src": "audio/The.Lord.Will.Provide.piano.HL.mp3"
+        }
+      ]
     },
     {
       "title": "CHRIST IN ME ARISE",
@@ -175,7 +185,12 @@
         "lyric-slide-images/5.On.Eagles.Wings-8.png",
         "lyric-slide-images/5.On.Eagles.Wings-9.png"
       ],
-      "tracks": []
+      "tracks": [
+        {
+          "name": "PIANO",
+          "src": "audio/On.Eagles.Wings.piano.HL.mp3"
+        }
+      ]
     }
   ],
   "allSongsPdf": null,
