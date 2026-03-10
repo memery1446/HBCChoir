@@ -90,6 +90,26 @@
       ],
       "tracks": [
         {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/Great.Is.Thy.Faithfulness.all.HL.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "ALTO",
+          "src": "audio/Great.Is.Thy.Faithfulness.alto.HL.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "TENOR",
+          "src": "audio/Great.Is.Thy.Faithfulness.tenor.HL.mp3",
+          "group": "tenor"
+        },
+        {
+          "name": "BASS",
+          "src": "audio/Great.Is.Thy.Faithfulness.bass.HL.mp3",
+          "group": "bass"
+        },
+        {
           "name": "PIANO",
           "src": "audio/Great.Is.Thy.Faithfulness.piano.HL.mp3"
         }
