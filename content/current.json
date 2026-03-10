@@ -187,6 +187,11 @@
       ],
       "tracks": [
         {
+        "name": "MELODY/SOPRANO",
+        "src": "audio/On.Eagles.Wings.all.HL.mp3",
+        "group": "soprano"
+        },
+        {
           "name": "PIANO",
           "src": "audio/On.Eagles.Wings.piano.HL.mp3"
         }
