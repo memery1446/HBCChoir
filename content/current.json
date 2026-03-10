@@ -45,6 +45,21 @@
           "src": "audio/Hallelujah.Your.Love.Is.Amazing.all.mp3",
           "group": "soprano"
         },
+        {
+          "name": "ALTO",
+          "src": "audio/Hallelujah.Your.Love.Is.Amazing.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "TENOR",
+          "src": "audio/Hallelujah.Your.Love.Is.Amazing.tenor.mp3",
+          "group": "tenor"
+        },
+        {
+          "name": "BASS",
+          "src": "audio/Hallelujah.Your.Love.Is.Amazing.bass.mp3",
+          "group": "bass"
+        }
       ]
     },
     {
@@ -164,5 +179,5 @@
     }
   ],
   "allSongsPdf": null,
-  "interludeMp3": "audio/Matthew.4.19.Week.1.mp3"
+  "interludeMp3": "Matthew.4.19.Week.1.mp3"
 }
