@@ -145,6 +145,11 @@
       ],
       "tracks": [
         {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/The.Lord.Will.Provide.all.HL.mp3",
+          "group": "soprano"
+        },
+        {
           "name": "PIANO",
           "src": "audio/The.Lord.Will.Provide.piano.HL.mp3"
         }
