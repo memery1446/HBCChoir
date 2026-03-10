@@ -42,22 +42,22 @@
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/Hallelujah.Your.Love.Is.Amazing.all.mp3",
+          "src": "audio/Hallelujah.Your.Love.Is.Amazing.all.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Hallelujah.Your.Love.Is.Amazing.alto.mp3",
+          "src": "audio/Hallelujah.Your.Love.Is.Amazing.alto.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Hallelujah.Your.Love.Is.Amazing.tenor.mp3",
+          "src": "audio/Hallelujah.Your.Love.Is.Amazing.tenor.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Hallelujah.Your.Love.Is.Amazing.bass.mp3",
+          "src": "audio/Hallelujah.Your.Love.Is.Amazing.bass.HL.mp3",
           "group": "bass"
         }
       ]
