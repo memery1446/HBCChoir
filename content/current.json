@@ -1,60 +1,43 @@
 {
-  "serviceDate": "2026-03-08",
+  "serviceDate": "2026-03-15",
   "headerNotes": [
     "Our Choir music for Sunday is below.",
     "Choir meets Sundays at 4:30pm.",
     "CHILDCARE is coordinated during Sunday and Wednesday rehearsals."
   ],
   "order": [
-    "with KIDZ: 10,000 Reasons",
-    "with KIDZ: Goodness of God",
-    "I Know a Name",
-    "Who He Is",
+    "Hallelujah: Your Love Is Amazing",
+    "Great Is Thy Faithfulness",
+    "The Lord Will Provide",
+    "Christ in Me Arise",
     "OFFERTORY: Instrumental",
-    "CHOIR SPECIAL: Psalm 27: The Lord Is My Light"
+    "CHOIR SPECIAL: On Eagle's Wings"
   ],
   "songs": [
     {
-      "title": "10,000 REASONS",
+      "title": "HALLELUJAH: YOUR LOVE IS AMAZING",
       "useImages": true,
       "imageFiles": [
-        "1.10K.Reasons-0.png",
-        "1.10K.Reasons-1.png"
+        "1.Hallelujah.Your.Love.Is.Amazing-0.png",
+        "1.Hallelujah.Your.Love.Is.Amazing-1.png",
+        "1.Hallelujah.Your.Love.Is.Amazing-2.png",
+        "1.Hallelujah.Your.Love.Is.Amazing-3.png",
+        "1.Hallelujah.Your.Love.Is.Amazing-4.png",
+        "1.Hallelujah.Your.Love.Is.Amazing-5.png",
+        "1.Hallelujah.Your.Love.Is.Amazing-6.png",
+        "1.Hallelujah.Your.Love.Is.Amazing-7.png",
+        "1.Hallelujah.Your.Love.Is.Amazing-8.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-0.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-1.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-2.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-3.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-4.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-5.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-6.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-7.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-8.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-9.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-10.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-11.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-12.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-13.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-14.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-15.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-16.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-17.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-18.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-19.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-20.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-21.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-22.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-23.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-24.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-25.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-26.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-27.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-28.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-29.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-30.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-31.png",
-        "lyric-slide-images/1.10K.Reasons.Bless.the.Lord-32.png"
+        "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-0.png",
+        "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-1.png",
+        "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-2.png",
+        "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-3.png",
+        "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-4.png",
+        "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-5.png",
+        "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-6.png",
+        "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-7.png",
+        "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-8.png"
       ],
       "tracks": [
         {
@@ -84,76 +67,66 @@
       ]
     },
     {
-      "title": "GOODNESS OF GOD",
+      "title": "GREAT IS THY FAITHFULNESS",
       "useImages": true,
       "imageFiles": [
-        "2.Goodness.of.God-0.png",
-        "2.Goodness.of.God-1.png"
+        "2.Great.Is.Thy.Faithfulness-0.png",
+        "2.Great.Is.Thy.Faithfulness-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/2.Goodness.of.God-0.png",
-        "lyric-slide-images/2.Goodness.of.God-1.png",
-        "lyric-slide-images/2.Goodness.of.God-2.png",
-        "lyric-slide-images/2.Goodness.of.God-3.png",
-        "lyric-slide-images/2.Goodness.of.God-4.png",
-        "lyric-slide-images/2.Goodness.of.God-5.png",
-        "lyric-slide-images/2.Goodness.of.God-6.png",
-        "lyric-slide-images/2.Goodness.of.God-7.png",
-        "lyric-slide-images/2.Goodness.of.God-8.png",
-        "lyric-slide-images/2.Goodness.of.God-9.png",
-        "lyric-slide-images/2.Goodness.of.God-10.png",
-        "lyric-slide-images/2.Goodness.of.God-11.png",
-        "lyric-slide-images/2.Goodness.of.God-12.png",
-        "lyric-slide-images/2.Goodness.of.God-13.png",
-        "lyric-slide-images/2.Goodness.of.God-14.png"
+        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-0.png",
+        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-1.png",
+        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-2.png",
+        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-3.png",
+        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-4.png",
+        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-5.png",
+        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-6.png",
+        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-7.png",
+        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-8.png",
+        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-9.png",
+        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-10.png",
+        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-11.png",
+        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-12.png",
+        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-13.png",
+        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-14.png",
+        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-15.png",
+        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-16.png"
       ],
       "tracks": [
         {
-          "name": "MELODY",
+          "name": "THE LORD WILL PROVIDE",
           "src": "audio/Goodness.of.God.HL.mp3",
           "group": "soprano"
         }
       ]
     },
     {
-      "title": "I KNOW A NAME",
+      "title": "THE LORD WILL PROVIDE",
       "useImages": true,
       "imageFiles": [
-        "3.I.Know.a.Name-0.png",
-        "3.I.Know.a.Name-1.png"
+        "3.The.Lord.Will.Provide-0.png",
+        "3.The.Lord.Will.Provide-1.png",
+        "3.The.Lord.Will.Provide-2.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/3.I.Know.a.Name-0.png",
-        "lyric-slide-images/3.I.Know.a.Name-1.png",
-        "lyric-slide-images/3.I.Know.a.Name-2.png",
-        "lyric-slide-images/3.I.Know.a.Name-3.png",
-        "lyric-slide-images/3.I.Know.a.Name-4.png",
-        "lyric-slide-images/3.I.Know.a.Name-5.png",
-        "lyric-slide-images/3.I.Know.a.Name-6.png",
-        "lyric-slide-images/3.I.Know.a.Name-7.png",
-        "lyric-slide-images/3.I.Know.a.Name-8.png",
-        "lyric-slide-images/3.I.Know.a.Name-9.png",
-        "lyric-slide-images/3.I.Know.a.Name-10.png",
-        "lyric-slide-images/3.I.Know.a.Name-11.png",
-        "lyric-slide-images/3.I.Know.a.Name-12.png",
-        "lyric-slide-images/3.I.Know.a.Name-13.png",
-        "lyric-slide-images/3.I.Know.a.Name-14.png",
-        "lyric-slide-images/3.I.Know.a.Name-15.png",
-        "lyric-slide-images/3.I.Know.a.Name-16.png",
-        "lyric-slide-images/3.I.Know.a.Name-17.png",
-        "lyric-slide-images/3.I.Know.a.Name-18.png",
-        "lyric-slide-images/3.I.Know.a.Name-19.png",
-        "lyric-slide-images/3.I.Know.a.Name-20.png",
-        "lyric-slide-images/3.I.Know.a.Name-21.png",
-        "lyric-slide-images/3.I.Know.a.Name-22.png",
-        "lyric-slide-images/3.I.Know.a.Name-23.png",
-        "lyric-slide-images/3.I.Know.a.Name-24.png",
-        "lyric-slide-images/3.I.Know.a.Name-25.png",
-        "lyric-slide-images/3.I.Know.a.Name-26.png",
-        "lyric-slide-images/3.I.Know.a.Name-27.png",
-        "lyric-slide-images/3.I.Know.a.Name-28.png",
-        "lyric-slide-images/3.I.Know.a.Name-29.png",
-        "lyric-slide-images/3.I.Know.a.Name-30.png"
+        "lyric-slide-images/3.The.Lord.Will.Provide-0.png",
+        "lyric-slide-images/3.The.Lord.Will.Provide-1.png",
+        "lyric-slide-images/3.The.Lord.Will.Provide-2.png",
+        "lyric-slide-images/3.The.Lord.Will.Provide-3.png",
+        "lyric-slide-images/3.The.Lord.Will.Provide-4.png",
+        "lyric-slide-images/3.The.Lord.Will.Provide-5.png",
+        "lyric-slide-images/3.The.Lord.Will.Provide-6.png",
+        "lyric-slide-images/3.The.Lord.Will.Provide-7.png",
+        "lyric-slide-images/3.The.Lord.Will.Provide-8.png",
+        "lyric-slide-images/3.The.Lord.Will.Provide-9.png",
+        "lyric-slide-images/3.The.Lord.Will.Provide-10.png",
+        "lyric-slide-images/3.The.Lord.Will.Provide-11.png",
+        "lyric-slide-images/3.The.Lord.Will.Provide-12.png",
+        "lyric-slide-images/3.The.Lord.Will.Provide-13.png",
+        "lyric-slide-images/3.The.Lord.Will.Provide-14.png",
+        "lyric-slide-images/3.The.Lord.Will.Provide-15.png",
+        "lyric-slide-images/3.The.Lord.Will.Provide-16.png",
+        "lyric-slide-images/3.The.Lord.Will.Provide-17.png"
       ],
       "tracks": [
         {
@@ -164,69 +137,61 @@
       ]
     },
     {
-      "title": "WHO HE IS",
+      "title": "CHRIST IN ME ARISE",
       "useImages": true,
       "imageFiles": [
-        "4.Who.He.Is-0.png",
-        "4.Who.He.Is-1.png",
-        "4.Who.He.Is-2.png"
+        "C.11.Christ.in.Me.Arise-0.png",
+        "C.11.Christ.in.Me.Arise-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/4.Who.He.Is-0.png",
-        "lyric-slide-images/4.Who.He.Is-1.png",
-        "lyric-slide-images/4.Who.He.Is-2.png",
-        "lyric-slide-images/4.Who.He.Is-3.png",
-        "lyric-slide-images/4.Who.He.Is-4.png",
-        "lyric-slide-images/4.Who.He.Is-5.png",
-        "lyric-slide-images/4.Who.He.Is-6.png",
-        "lyric-slide-images/4.Who.He.Is-7.png",
-        "lyric-slide-images/4.Who.He.Is-8.png",
-        "lyric-slide-images/4.Who.He.Is-9.png",
-        "lyric-slide-images/4.Who.He.Is-10.png",
-        "lyric-slide-images/4.Who.He.Is-11.png",
-        "lyric-slide-images/4.Who.He.Is-12.png",
-        "lyric-slide-images/4.Who.He.Is-13.png",
-        "lyric-slide-images/4.Who.He.Is-14.png",
-        "lyric-slide-images/4.Who.He.Is-15.png"
+        "lyric-slide-images/Christ.in.Me.Arise-0.png",
+        "lyric-slide-images/Christ.in.Me.Arise-1.png",
+        "lyric-slide-images/Christ.in.Me.Arise-2.png",
+        "lyric-slide-images/Christ.in.Me.Arise-3.png",
+        "lyric-slide-images/Christ.in.Me.Arise-4.png",
+        "lyric-slide-images/Christ.in.Me.Arise-5.png",
+        "lyric-slide-images/Christ.in.Me.Arise-6.png",
+        "lyric-slide-images/Christ.in.Me.Arise-7.png",
+        "lyric-slide-images/Christ.in.Me.Arise-8.png",
+        "lyric-slide-images/Christ.in.Me.Arise-9.png",
+        "lyric-slide-images/Christ.in.Me.Arise-10.png",
+        "lyric-slide-images/Christ.in.Me.Arise-11.png",
+        "lyric-slide-images/Christ.in.Me.Arise-12.png",
+        "lyric-slide-images/Christ.in.Me.Arise-13.png",
+        "lyric-slide-images/Christ.in.Me.Arise-14.png"
       ],
       "tracks": [
         {
           "name": "MELODY",
-          "src": "audio/Who.He.Is.mp3",
-          "group": "soprano"
-        }
-      ]
-    },
-    {
-      "title": "PSALM 27: THE LORD IS MY LIGHT",
-      "useImages": true,
-      "imageFiles": [
-        "5.The.Lord.Is.My.Light-0.png",
-        "5.The.Lord.Is.My.Light-1.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/5.The.Lord.Is.My.Light-0.png",
-        "lyric-slide-images/5.The.Lord.Is.My.Light-1.png",
-        "lyric-slide-images/5.The.Lord.Is.My.Light-2.png",
-        "lyric-slide-images/5.The.Lord.Is.My.Light-3.png",
-        "lyric-slide-images/5.The.Lord.Is.My.Light-4.png",
-        "lyric-slide-images/5.The.Lord.Is.My.Light-5.png",
-        "lyric-slide-images/5.The.Lord.Is.My.Light-6.png",
-        "lyric-slide-images/5.The.Lord.Is.My.Light-7.png",
-        "lyric-slide-images/5.The.Lord.Is.My.Light-8.png",
-        "lyric-slide-images/5.The.Lord.Is.My.Light-9.png"
-      ],
-      "tracks": [
-        {
-          "name": "MELODY",
-          "src": "audio/The.Lord.Is.My.Light.all.HL.mp3",
+          "src": "audio/C.11.Christ.In.Me.Arise.all.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "PIANO",
-          "src": "audio/The.Lord.Is.My.Light.piano.mp3"
+          "src": "audio/C.11.Christ.In.Me.Arise.piano.HL.mp3"
         }
       ]
+    },
+    {
+      "title": "ON EAGLE'S WINGS",
+      "useImages": true,
+      "imageFiles": [
+        "5.On.Eagles.Wings-0.png",
+        "5.On.Eagles.Wings-1.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/5.On.Eagles.Wings-0.png",
+        "lyric-slide-images/5.On.Eagles.Wings-1.png",
+        "lyric-slide-images/5.On.Eagles.Wings-2.png",
+        "lyric-slide-images/5.On.Eagles.Wings-3.png",
+        "lyric-slide-images/5.On.Eagles.Wings-4.png",
+        "lyric-slide-images/5.On.Eagles.Wings-5.png",
+        "lyric-slide-images/5.On.Eagles.Wings-6.png",
+        "lyric-slide-images/5.On.Eagles.Wings-7.png",
+        "lyric-slide-images/5.On.Eagles.Wings-8.png",
+        "lyric-slide-images/5.On.Eagles.Wings-9.png"
+      ],
+      "tracks": []
     }
   ],
   "allSongsPdf": null,
