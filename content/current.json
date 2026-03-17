@@ -199,6 +199,21 @@
         "group": "soprano"
         },
         {
+          "name": "ALTO",
+          "src": "audio/Taste.and.See.alto.HL.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "TENOR",
+          "src": "audio/Taste.and.See.tenor.HL.mp3",
+          "group": "tenor"
+        },
+        {
+          "name": "BASS",
+          "src": "audio/Taste.and.See.bass.HL.mp3",
+          "group": "bass"
+        },
+        {
           "name": "PIANO",
           "src": "audio/Taste.and.See.piano.mp3"
         }
