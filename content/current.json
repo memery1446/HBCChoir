@@ -1,228 +1,210 @@
 {
-  "serviceDate": "2026-03-15",
+  "serviceDate": "2026-03-22",
   "headerNotes": [
     "Our Choir music for Sunday is below.",
     "Choir meets Sundays at 4:30pm.",
     "CHILDCARE is coordinated during Sunday and Wednesday rehearsals."
   ],
   "order": [
-    "Hallelujah: Your Love Is Amazing",
-    "Great Is Thy Faithfulness",
-    "The Lord Will Provide",
-    "Christ in Me Arise",
+    "We Have Come into His House",
+    "Worthy of Worship",
+    "Wonderful, Merciful Savior",
+    "Indescribable",
     "OFFERTORY: Instrumental",
-    "CHOIR SPECIAL: On Eagle's Wings"
+    "CHOIR SPECIAL: Taste and See"
   ],
   "songs": [
     {
-      "title": "HALLELUJAH: YOUR LOVE IS AMAZING",
+      "title": "WE HAVE COME INTO HIS HOUSE",
       "useImages": true,
       "imageFiles": [
-        "1.Hallelujah.Your.Love.Is.Amazing-0.png",
-        "1.Hallelujah.Your.Love.Is.Amazing-1.png",
-        "1.Hallelujah.Your.Love.Is.Amazing-2.png",
-        "1.Hallelujah.Your.Love.Is.Amazing-3.png",
-        "1.Hallelujah.Your.Love.Is.Amazing-4.png",
-        "1.Hallelujah.Your.Love.Is.Amazing-5.png",
-        "1.Hallelujah.Your.Love.Is.Amazing-6.png",
-        "1.Hallelujah.Your.Love.Is.Amazing-7.png",
-        "1.Hallelujah.Your.Love.Is.Amazing-8.png"
+        "1.We.Have.Come.into.His.House-0.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-0.png",
-        "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-1.png",
-        "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-2.png",
-        "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-3.png",
-        "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-4.png",
-        "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-5.png",
-        "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-6.png",
-        "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-7.png",
-        "lyric-slide-images/1.Hallelujah.Your.Love.Is.Amazing-8.png"
+        "lyric-slide-images/1.We.Have.Come.into.His.House-0.png",
+        "lyric-slide-images/1.We.Have.Come.into.His.House-1.png",
+        "lyric-slide-images/1.We.Have.Come.into.His.House-2.png",
+        "lyric-slide-images/1.We.Have.Come.into.His.House-3.png",
+        "lyric-slide-images/1.We.Have.Come.into.His.House-4.png",
+        "lyric-slide-images/1.We.Have.Come.into.His.House-5.png",
+        "lyric-slide-images/1.We.Have.Come.into.His.House-6.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/Hallelujah.Your.Love.Is.Amazing.all.HL.mp3",
+          "src": "audio/We.Have.Come.Into.His.House.all.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Hallelujah.Your.Love.Is.Amazing.alto.HL.mp3",
+          "src": "audio/We.Have.Come.Into.His.House.alto2.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Hallelujah.Your.Love.Is.Amazing.tenor.HL.mp3",
+          "src": "audio/We.Have.Come.Into.His.House.tenor.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Hallelujah.Your.Love.Is.Amazing.bass.HL.mp3",
+          "src": "audio/We.Have.Come.Into.His.House.bass.mp3",
           "group": "bass"
         }
       ]
     },
     {
-      "title": "GREAT IS THY FAITHFULNESS",
+      "title": "WORTHY OF WORSHIP",
       "useImages": true,
       "imageFiles": [
-        "2.Great.Is.Thy.Faithfulness-0.png",
-        "2.Great.Is.Thy.Faithfulness-1.png"
+        "2.Worthy.of.Worship-0.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-0.png",
-        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-1.png",
-        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-2.png",
-        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-3.png",
-        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-4.png",
-        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-5.png",
-        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-6.png",
-        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-7.png",
-        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-8.png",
-        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-9.png",
-        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-10.png",
-        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-11.png",
-        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-12.png",
-        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-13.png",
-        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-14.png",
-        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-15.png",
-        "lyric-slide-images/2.Great.Is.Thy.Faithfulness-16.png"
+        "lyric-slide-images/2.Worthy.of.Worship-0.png",
+        "lyric-slide-images/2.Worthy.of.Worship-1.png",
+        "lyric-slide-images/2.Worthy.of.Worship-2.png",
+        "lyric-slide-images/2.Worthy.of.Worship-3.png",
+        "lyric-slide-images/2.Worthy.of.Worship-4.png",
+        "lyric-slide-images/2.Worthy.of.Worship-5.png",
+        "lyric-slide-images/2.Worthy.of.Worship-6.png",
+        "lyric-slide-images/2.Worthy.of.Worship-7.png",
+        "lyric-slide-images/2.Worthy.of.Worship-8.png",
+        "lyric-slide-images/2.Worthy.of.Worship-9.png",
+        "lyric-slide-images/2.Worthy.of.Worship-10.png",
+        "lyric-slide-images/2.Worthy.of.Worship-11.png",
+        "lyric-slide-images/2.Worthy.of.Worship-12.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/Great.Is.Thy.Faithfulness.all.HL.mp3",
+          "src": "audio/Worthy.of.Worship.all.HL.mp3",
           "group": "soprano"
         },
         {
-          "name": "ALTO",
-          "src": "audio/Great.Is.Thy.Faithfulness.alto.HL.mp3",
-          "group": "alto"
-        },
-        {
-          "name": "TENOR",
-          "src": "audio/Great.Is.Thy.Faithfulness.tenor.HL.mp3",
-          "group": "tenor"
-        },
-        {
-          "name": "BASS",
-          "src": "audio/Great.Is.Thy.Faithfulness.bass.HL.mp3",
-          "group": "bass"
-        },
-        {
           "name": "PIANO",
-          "src": "audio/Great.Is.Thy.Faithfulness.piano.HL.mp3"
+          "src": "audio/Worthy.of.Worship.piano.mp3"
         }
       ]
     },
     {
-      "title": "THE LORD WILL PROVIDE",
+      "title": "WONDERFUL, MERCIFUL SAVIOR",
       "useImages": true,
       "imageFiles": [
-        "3.The.Lord.Will.Provide-0.png",
-        "3.The.Lord.Will.Provide-1.png",
-        "3.The.Lord.Will.Provide-2.png"
+        "3.Wonderful.Merciful.Savior-0.png",
+        "3.Wonderful.Merciful.Savior-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/3.The.Lord.Will.Provide-0.png",
-        "lyric-slide-images/3.The.Lord.Will.Provide-1.png",
-        "lyric-slide-images/3.The.Lord.Will.Provide-2.png",
-        "lyric-slide-images/3.The.Lord.Will.Provide-3.png",
-        "lyric-slide-images/3.The.Lord.Will.Provide-4.png",
-        "lyric-slide-images/3.The.Lord.Will.Provide-5.png",
-        "lyric-slide-images/3.The.Lord.Will.Provide-6.png",
-        "lyric-slide-images/3.The.Lord.Will.Provide-7.png",
-        "lyric-slide-images/3.The.Lord.Will.Provide-8.png",
-        "lyric-slide-images/3.The.Lord.Will.Provide-9.png",
-        "lyric-slide-images/3.The.Lord.Will.Provide-10.png",
-        "lyric-slide-images/3.The.Lord.Will.Provide-11.png",
-        "lyric-slide-images/3.The.Lord.Will.Provide-12.png",
-        "lyric-slide-images/3.The.Lord.Will.Provide-13.png",
-        "lyric-slide-images/3.The.Lord.Will.Provide-14.png",
-        "lyric-slide-images/3.The.Lord.Will.Provide-15.png",
-        "lyric-slide-images/3.The.Lord.Will.Provide-16.png",
-        "lyric-slide-images/3.The.Lord.Will.Provide-17.png"
+        "lyric-slide-images/3.Wonderful.Merciful.Savior-0.png",
+        "lyric-slide-images/3.Wonderful.Merciful.Savior-1.png",
+        "lyric-slide-images/3.Wonderful.Merciful.Savior-2.png",
+        "lyric-slide-images/3.Wonderful.Merciful.Savior-3.png",
+        "lyric-slide-images/3.Wonderful.Merciful.Savior-4.png",
+        "lyric-slide-images/3.Wonderful.Merciful.Savior-5.png",
+        "lyric-slide-images/3.Wonderful.Merciful.Savior-6.png",
+        "lyric-slide-images/3.Wonderful.Merciful.Savior-7.png",
+        "lyric-slide-images/3.Wonderful.Merciful.Savior-8.png",
+        "lyric-slide-images/3.Wonderful.Merciful.Savior-9.png",
+        "lyric-slide-images/3.Wonderful.Merciful.Savior-10.png",
+        "lyric-slide-images/3.Wonderful.Merciful.Savior-11.png",
+        "lyric-slide-images/3.Wonderful.Merciful.Savior-12.png",
+        "lyric-slide-images/3.Wonderful.Merciful.Savior-13.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/The.Lord.Will.Provide.all.HL.mp3",
+          "src": "audio/Wonderful.Merciful.Savior.mp3",
           "group": "soprano"
         },
         {
           "name": "PIANO",
-          "src": "audio/The.Lord.Will.Provide.piano.HL.mp3"
+          "src": "audio/Wonderful.Merciful.Savior.piano.mp3"
         }
       ]
     },
     {
-      "title": "CHRIST IN ME ARISE",
+      "title": "INDESCRIBABLE",
       "useImages": true,
       "imageFiles": [
-        "C.11.Christ.in.Me.Arise-0.png",
-        "C.11.Christ.in.Me.Arise-1.png"
+        "4.Indescribable-0.png",
+        "4.Indescribable-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/Christ.in.Me.Arise-0.png",
-        "lyric-slide-images/Christ.in.Me.Arise-1.png",
-        "lyric-slide-images/Christ.in.Me.Arise-2.png",
-        "lyric-slide-images/Christ.in.Me.Arise-3.png",
-        "lyric-slide-images/Christ.in.Me.Arise-4.png",
-        "lyric-slide-images/Christ.in.Me.Arise-5.png",
-        "lyric-slide-images/Christ.in.Me.Arise-6.png",
-        "lyric-slide-images/Christ.in.Me.Arise-7.png",
-        "lyric-slide-images/Christ.in.Me.Arise-8.png",
-        "lyric-slide-images/Christ.in.Me.Arise-9.png",
-        "lyric-slide-images/Christ.in.Me.Arise-10.png",
-        "lyric-slide-images/Christ.in.Me.Arise-11.png",
-        "lyric-slide-images/Christ.in.Me.Arise-12.png",
-        "lyric-slide-images/Christ.in.Me.Arise-13.png",
-        "lyric-slide-images/Christ.in.Me.Arise-14.png"
+        "lyric-slide-images/4.Indescribable-0.png",
+        "lyric-slide-images/4.Indescribable-1.png",
+        "lyric-slide-images/4.Indescribable-2.png",
+        "lyric-slide-images/4.Indescribable-3.png",
+        "lyric-slide-images/4.Indescribable-4.png",
+        "lyric-slide-images/4.Indescribable-5.png",
+        "lyric-slide-images/4.Indescribable-6.png",
+        "lyric-slide-images/4.Indescribable-7.png",
+        "lyric-slide-images/4.Indescribable-8.png",
+        "lyric-slide-images/4.Indescribable-9.png",
+        "lyric-slide-images/4.Indescribable-10.png",
+        "lyric-slide-images/4.Indescribable-11.png",
+        "lyric-slide-images/4.Indescribable-12.png",
+        "lyric-slide-images/4.Indescribable-13.png",
+        "lyric-slide-images/4.Indescribable-14.png",
+        "lyric-slide-images/4.Indescribable-15.png",
+        "lyric-slide-images/4.Indescribable-16.png",
+        "lyric-slide-images/4.Indescribable-17.png",
+        "lyric-slide-images/4.Indescribable-18.png",
+        "lyric-slide-images/4.Indescribable-19.png",
+        "lyric-slide-images/4.Indescribable-20.png",
+        "lyric-slide-images/4.Indescribable-21.png",
+        "lyric-slide-images/4.Indescribable-22.png",
+        "lyric-slide-images/4.Indescribable-23.png",
+        "lyric-slide-images/4.Indescribable-24.png",
+        "lyric-slide-images/4.Indescribable-25.png",
+        "lyric-slide-images/4.Indescribable-26.png",
+        "lyric-slide-images/4.Indescribable-27.png",
+        "lyric-slide-images/4.Indescribable-28.png"
       ],
       "tracks": [
         {
           "name": "MELODY",
-          "src": "audio/C.11.Christ.In.Me.Arise.all.HL.mp3",
+          "src": "audio/Indescribable.mp3",
           "group": "soprano"
         },
-        {
-          "name": "PIANO",
-          "src": "audio/C.11.Christ.In.Me.Arise.piano.HL.mp3"
-        }
       ]
     },
     {
-      "title": "ON EAGLE'S WINGS",
+      "title": "TASTE AND SEE",
       "useImages": true,
       "imageFiles": [
-        "5.On.Eagles.Wings-0.png",
-        "5.On.Eagles.Wings-1.png"
+        "5.Taste.and.See-0.png",
+        "5.Taste.and.See-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/5.On.Eagles.Wings-0.png",
-        "lyric-slide-images/5.On.Eagles.Wings-1.png",
-        "lyric-slide-images/5.On.Eagles.Wings-2.png",
-        "lyric-slide-images/5.On.Eagles.Wings-3.png",
-        "lyric-slide-images/5.On.Eagles.Wings-4.png",
-        "lyric-slide-images/5.On.Eagles.Wings-5.png",
-        "lyric-slide-images/5.On.Eagles.Wings-6.png",
-        "lyric-slide-images/5.On.Eagles.Wings-7.png",
-        "lyric-slide-images/5.On.Eagles.Wings-8.png",
-        "lyric-slide-images/5.On.Eagles.Wings-9.png"
+        "lyric-slide-images/5.Taste.and.See-0.png",
+        "lyric-slide-images/5.Taste.and.See-1.png",
+        "lyric-slide-images/5.Taste.and.See-2.png",
+        "lyric-slide-images/5.Taste.and.See-3.png",
+        "lyric-slide-images/5.Taste.and.See-4.png",
+        "lyric-slide-images/5.Taste.and.See-5.png",
+        "lyric-slide-images/5.Taste.and.See-6.png",
+        "lyric-slide-images/5.Taste.and.See-7.png",
+        "lyric-slide-images/5.Taste.and.See-8.png",
+        "lyric-slide-images/5.Taste.and.See-9.png",
+        "lyric-slide-images/5.Taste.and.See-10.png",
+        "lyric-slide-images/5.Taste.and.See-11.png",
+        "lyric-slide-images/5.Taste.and.See-12.png",
+        "lyric-slide-images/5.Taste.and.See-13.png",
+        "lyric-slide-images/5.Taste.and.See-14.png",
+        "lyric-slide-images/5.Taste.and.See-15.png",
+        "lyric-slide-images/5.Taste.and.See-16.png"
       ],
       "tracks": [
         {
         "name": "MELODY/SOPRANO",
-        "src": "audio/On.Eagles.Wings.all.HL.mp3",
+        "src": "audio/Taste.and.See.all.HL.mp3",
         "group": "soprano"
         },
         {
           "name": "PIANO",
-          "src": "audio/On.Eagles.Wings.piano.HL.mp3"
+          "src": "audio/Taste.and.See.piano.mp3"
         }
       ]
     }
   ],
   "allSongsPdf": null,
-  "interludeMp3": "audio/Matthew.7.7.Week.2.mp3"
+  "interludeMp3": null
 }
