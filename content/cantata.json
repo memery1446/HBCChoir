@@ -621,14 +621,14 @@
           "name": "PIANO",
           "src": "audio/C.11.Christ.In.Me.Arise.piano.HL.mp3"
         },
-        {
-          "type": "narration",
-          "label": "Narration 10",
-          "lines": [
-            "Matthew 28:18–20 — \"And Jesus came and spoke to them, saying,\n“All authority has been given to Me in heaven and on earth.\nGo therefore and make disciples of all the nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit,\nteaching them to observe all things that I have commanded you; and lo, I am with you always, even to the end of the age.”\nAmen.\n\"",
-            "ALL: Christ is risen.\nChrist is reigning.\nChrist is coming again!"
-          ]
-        }
+      ]
+    },
+    {
+      "type": "narration",
+      "label": "Narration 10",
+      "lines": [
+        "Matthew 28:18–20 — \"...\"",
+        "ALL: Christ is risen.\nChrist is reigning.\nChrist is coming again!"
       ]
     }
   ],
