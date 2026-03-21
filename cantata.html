@@ -1101,6 +1101,39 @@
                 display: none;
             }
         }
+
+        /* Narration Block */
+        .narration-block {
+            background: #fdf6e3;
+            border-left: 5px solid #c9a400;
+            border-radius: 8px;
+            padding: 18px 22px;
+            margin: 15px 0;
+        }
+
+        .narration-label {
+            font-size: 0.8rem;
+            font-weight: bold;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #c9a400;
+            margin-bottom: 10px;
+        }
+
+        .narration-line {
+            color: #3a2a00;
+            font-style: italic;
+            line-height: 1.7;
+            margin: 4px 0;
+            font-size: 1rem;
+        }
+
+        .narration-line:first-of-type {
+            font-style: normal;
+            font-weight: bold;
+            color: #5a3e00;
+            margin-bottom: 8px;
+        }
     </style>
 </head>
 <body>
@@ -1507,9 +1540,24 @@
         const songsContainer = document.getElementById('songsContainer');
         songsContainer.innerHTML = '';
         if (currentContent.songs && currentContent.songs.length > 0) {
-            currentContent.songs.forEach(song => {
-                const songItem = createSongItem(song);
-                songsContainer.appendChild(songItem);
+            currentContent.songs.forEach(item => {
+                if (item.type === 'narration') {
+                    const block = document.createElement('div');
+                    block.className = 'narration-block';
+                    const label = document.createElement('div');
+                    label.className = 'narration-label';
+                    label.textContent = item.label || 'Narration';
+                    block.appendChild(label);
+                    (item.lines || []).forEach(line => {
+                        const p = document.createElement('p');
+                        p.className = 'narration-line';
+                        p.textContent = line;
+                        block.appendChild(p);
+                    });
+                    songsContainer.appendChild(block);
+                } else {
+                    songsContainer.appendChild(createSongItem(item));
+                }
             });
         }
     }
@@ -1626,6 +1674,7 @@
         const songEntries = [];
         if (currentContent.songs) {
             currentContent.songs.forEach(song => {
+                if (song.type === 'narration') return;
                 const audioSrc = getTrackSrcForGroup(song, group);
                 if (audioSrc && !isYoutubeUrl(audioSrc)) {
                     songEntries.push({ title: song.title, src: audioSrc });

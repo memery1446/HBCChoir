@@ -18,6 +18,19 @@
   ],
   "songs": [
     {
+      "type": "narration",
+      "label": "Narration 1",
+      "lines": [
+        "Psalm 100:1–5 — \"Make a joyful shout to the Lord, all you lands!\nServe the Lord with gladness;\nCome before His presence with singing.\nKnow that the Lord, He is God;\nIt is He who has made us, and not we ourselves;\nWe are His people and the sheep of His pasture.\nEnter into His gates with thanksgiving,\nAnd into His courts with praise.\nBe thankful to Him, and bless His name.\nFor the Lord is good;\nHis mercy is everlasting,\nAnd His truth endures to all generations.\"",
+        "Narrator 1: Before there was a cross… before there was an empty tomb… before we knew the name of Jesus… God was worthy of praise.",
+        "Narrator 2: Through generations of promise and waiting, through wilderness wandering and whispered prophecy, the Lord remained faithful.",
+        "Narrator 3: In blessing and in loss… in abundance and in sorrow… He has never changed.",
+        "Narrator 1: We do not praise Him because life is easy.",
+        "Narrator 2: We praise Him because He is good.",
+        "ALL: The Lord is good. His steadfast love endures forever."
+      ]
+    },
+    {
       "title": "1. WERE YOU THERE",
       "useImages": true,
       "imageFiles": [
