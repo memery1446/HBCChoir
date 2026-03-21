@@ -19,7 +19,7 @@
   "songs": [
     {
       "type": "narration",
-      "label": "Narration 1",
+      "label": "Narration",
       "lines": [
         "Psalm 100:1–5 — \"Make a joyful shout to the Lord, all you lands!\nServe the Lord with gladness;\nCome before His presence with singing.\nKnow that the Lord, He is God;\nIt is He who has made us, and not we ourselves;\nWe are His people and the sheep of His pasture.\nEnter into His gates with thanksgiving,\nAnd into His courts with praise.\nBe thankful to Him, and bless His name.\nFor the Lord is good;\nHis mercy is everlasting,\nAnd His truth endures to all generations.\"",
         "Narrator 1: Before there was a cross… before there was an empty tomb… before we knew the name of Jesus… God was worthy of praise.",
@@ -120,7 +120,7 @@
     },
     {
       "type": "narration",
-      "label": "Narration 2",
+      "label": "Narration",
       "lines": [
         "Isaiah 53:4–6 — \"Surely He has borne our griefs\nAnd carried our sorrows;\nYet we esteemed Him stricken,\nSmitten by God, and afflicted.\nBut He was wounded for our transgressions,\nHe was bruised for our iniquities;\nThe chastisement for our peace was upon Him,\nAnd by His stripes we are healed.\nAll we like sheep have gone astray;\nWe have turned, every one, to his own way;\nAnd the Lord has laid on Him the iniquity of us all.\"",
         "Narrator 1: The prophets spoke of One who would come.",
@@ -177,7 +177,7 @@
     },
     {
       "type": "narration",
-      "label": "Narration 3",
+      "label": "Narration",
       "lines": [
         "1 Peter 2:24 — \"He himself bore our sins in his body on the cross, so that we might die to sins and live for righteousness; by his wounds you have been healed.\"",
         "Narrator 3: At Calvary, justice and mercy met.",
@@ -235,7 +235,7 @@
     },
     {
       "type": "narration",
-      "label": "Narration 4",
+      "label": "Narration",
       "lines": [
         "Luke 24:5–7 — \"Then, as they were afraid and bowed their faces to the earth, they said to them,\n“Why do you seek the living among the dead?\nHe is not here, but is risen!\nRemember how He spoke to you when He was still in Galilee, saying,\n‘The Son of Man must be delivered into the hands of sinful men, and be crucified, and the third day rise again.’ ”\n\"",
         "Narrator 1: They laid Him in a borrowed tomb.",
@@ -297,7 +297,7 @@
     },
     {
       "type": "narration",
-      "label": "Narration 5",
+      "label": "Narration",
       "lines": [
         "1 Corinthians 15:20–23 — \"But now Christ is risen from the dead, and has become the firstfruits of those who have fallen asleep.\nFor since by man came death, by Man also came the resurrection of the dead.\nFor as in Adam all die, even so in Christ all shall be made alive.\nBut each one in his own order: Christ the firstfruits, afterward those who are Christ’s at His coming.\n\"",
         "Narrator 1: Because Christ lives…",
@@ -371,7 +371,7 @@
     },
     {
       "type": "narration",
-      "label": "Narration 6",
+      "label": "Narration",
       "lines": [
         "Revelation 5:11–13 — \"Then I looked, and I heard the voice of many angels around the throne, the living creatures, and the elders; and the number of them was ten thousand times ten thousand, and thousands of thousands, saying with a loud voice:\n“Worthy is the Lamb who was slain\nTo receive power and riches and wisdom,\nAnd strength and honor and glory and blessing!”\nAnd every creature which is in heaven and on the earth and under the earth and such as are in the sea, and all that are in them, I heard saying:\n“Blessing and honor and glory and power\nBe to Him who sits on the throne,\nAnd to the Lamb, forever and ever!”\""
       ]
@@ -455,7 +455,7 @@
     },
     {
       "type": "narration",
-      "label": "Narration 7",
+      "label": "Narration",
       "lines": [
         "Revelation 3:20 — \"Behold, I stand at the door and knock. If anyone hears My voice and opens the door, I will come in to him and dine with him, and he with Me.\"",
         "Narrator 1: The risen Savior still calls to us today.",
@@ -507,7 +507,7 @@
     },
     {
       "type": "narration",
-      "label": "Narration 8",
+      "label": "Narration",
       "lines": [
         "Galatians 2:20 — \"I have been crucified with Christ; it is no longer I who live, but Christ lives in me; and the life which I now live in the flesh I live by faith in the Son of God, who loved me and gave Himself for me.\"",
         "Narrator 1: The Christian life is no longer our own.",
@@ -576,7 +576,7 @@
     },
     {
       "type": "narration",
-      "label": "Narration 9",
+      "label": "Narration",
       "lines": [
         "1 John 4:9–11 — \"In this the love of God was manifested toward us, that God has sent His only begotten Son into the world, that we might live through Him.\nIn this is love, not that we loved God, but that He loved us and sent His Son to be the propitiation for our sins.\nBeloved, if God so loved us, we also ought to love one another.\n\"",
         "Narrator 1: The story of Easter does not end at the empty tomb.",
@@ -625,9 +625,9 @@
     },
     {
       "type": "narration",
-      "label": "Narration 10",
+      "label": "Narration",
       "lines": [
-        "Matthew 28:18–20 — \"...\"",
+        "Matthew 28:18–20 — \"And Jesus came and spoke to them, saying,\n“All authority has been given to Me in heaven and on earth.\nGo therefore and make disciples of all the nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit,\nteaching them to observe all things that I have commanded you; and lo, I am with you always, even to the end of the age.”\nAmen.\n\"",
         "ALL: Christ is risen.\nChrist is reigning.\nChrist is coming again!"
       ]
     }
