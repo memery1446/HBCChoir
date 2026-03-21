@@ -119,6 +119,19 @@
       ]
     },
     {
+      "type": "narration",
+      "label": "Narration 2",
+      "lines": [
+        "Isaiah 53:4–6 — \"Surely He has borne our griefs\nAnd carried our sorrows;\nYet we esteemed Him stricken,\nSmitten by God, and afflicted.\nBut He was wounded for our transgressions,\nHe was bruised for our iniquities;\nThe chastisement for our peace was upon Him,\nAnd by His stripes we are healed.\nAll we like sheep have gone astray;\nWe have turned, every one, to his own way;\nAnd the Lord has laid on Him the iniquity of us all.\"",
+        "Narrator 1: The prophets spoke of One who would come.",
+        "Narrator 2: A servant who would suffer.",
+        "Narrator 3: A Lamb who would bear the sin of the world.",
+        "Narrator 1: Not by accident…",
+        "Narrator 2: But by the eternal plan of God.",
+        "ALL: He was pierced for our transgressions.\nHe was crushed for our iniquities."
+      ]
+    },
+    {
       "title": "3. POWER OF THE CROSS",
       "useImages": true,
       "imageFiles": [
@@ -160,6 +173,16 @@
           "src": "audio/Power.bass.HL.mp3",
           "group": "bass"
         }
+      ]
+    },
+    {
+      "type": "narration",
+      "label": "Narration 3",
+      "lines": [
+        "1 Peter 2:24 — \"He himself bore our sins in his body on the cross, so that we might die to sins and live for righteousness; by his wounds you have been healed.\"",
+        "Narrator 3: At Calvary, justice and mercy met.",
+        "Narrator 1: The Son of God bore our sins.",
+        "Narrator 2: So that we might live in righteousness."
       ]
     },
     {
