@@ -1142,6 +1142,22 @@
             box-shadow: 0 5px 14px rgba(200, 149, 74, 0.45);
         }
 
+        .essay-series-btn-secondary {
+            background: transparent;
+            color: #c8954a;
+            border: 2px solid #c8954a;
+            box-shadow: none;
+            text-align: center;
+            font-size: 0.88rem;
+        }
+
+        .essay-series-btn-secondary:hover {
+            background: #fdf0e0;
+            color: #b07d38;
+            border-color: #b07d38;
+            box-shadow: 0 3px 10px rgba(200, 149, 74, 0.2);
+        }
+
         @media (max-width: 600px) {
             .essay-series-banner {
                 flex-direction: column;
@@ -1220,7 +1236,10 @@
                 <div class="essay-series-title">What Is the Church?</div>
                 <div class="essay-series-desc">A short essay series exploring the nature, mission, and beauty of the local church — written for every member of the body.</div>
             </div>
-            <a href="essays/Church.series.part.1.pdf" class="essay-series-btn" target="_blank">Read Part 1 of the Series →</a>
+            <div style="display:flex; flex-direction:column; gap:10px; flex-shrink:0;">
+                <a href="essays/Church.series.part.2.pdf" class="essay-series-btn" target="_blank">Read Part 2 →</a>
+                <a href="essays.html" class="essay-series-btn essay-series-btn-secondary">Explore the Series</a>
+            </div>
         </div>
 
         <div id="songsContainer">
