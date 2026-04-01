@@ -24,7 +24,7 @@
       ]
     },
     {
-      "title": "CHRIST THE LORD IS RISEN TODAY (Vocals will be added Wed)",
+      "title": "CHRIST THE LORD IS RISEN TODAY",
       "useImages": true,
       "imageFiles": [
         "Christ.the.Lord.Is.Risen.Today-0.png",
@@ -42,6 +42,26 @@
         "lyric-slide-images/Christ.the.Lord.Is.Risen.Today-8.png"
       ],
       "tracks": [
+        {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/Christ.the.Lord.Is.Risen.Today.all.HL.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "ALTO",
+          "src": "audio/Christ.the.Lord.Is.Risen.Today.alto.HL.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "TENOR",
+          "src": "audio/Christ.the.Lord.Is.Risen.Today.tenor.HL.mp3",
+          "group": "tenor"
+        },
+        {
+          "name": "BASS",
+          "src": "audio/Christ.the.Lord.Is.Risen.Today.bass.HL.mp3",
+          "group": "bass"
+        },
         {
           "name": "PIANO",
           "src": "audio/Christ.the.Lord.Is.Risen.Today.piano.HL.mp3"
