@@ -182,7 +182,7 @@
       ]
     },
     {
-      "title": "ALLELUIA! ALLELUIA! (Vocals will be added Wed)",
+      "title": "ALLELUIA! ALLELUIA!",
       "useImages": true,
       "imageFiles": [
         "Alleluia.Alleluia-0.png"
@@ -197,6 +197,26 @@
         "lyric-slide-images/Alleluia!.Alleluia!-6.png"
       ],
       "tracks": [
+        {
+          "name": "SOPRANO/MELODY",
+          "src": "audio/Alleluia.Alleluia.all.HL.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "ALTO",
+          "src": "audio/Alleluia.Alleluia.alto.HL.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "TENOR",
+          "src": "audio/Alleluia.Alleluia.tenor.HL.mp3",
+          "group": "tenor"
+        },
+        {
+          "name": "BASS",
+          "src": "audio/Alleluia.Alleluia.bass.HL.mp3",
+          "group": "bass"
+        },
         {
           "name": "PIANO",
           "src": "audio/Alleluia.Alleluia.piano.HL.mp3"
