@@ -1,270 +1,228 @@
 {
-  "serviceDate": "2026-04-05",
+  "serviceDate": "2026-04-12",
   "headerNotes": [
     "Our Choir music for EASTER Sunday is below.",
     "Choir meets Sundays at 4:30pm.",
     "CHILDCARE is coordinated during Sunday and Wednesday rehearsals."
   ],
   "order": [
-    "Christ the Lord Is Risen Today",
-    "Our God Reigns",
-    "House of the Lord",
-    "Alleluia! Alleluia! (Hymn to Joy)",
+    "KIDZ CHOIR: Lord, I Lift Your Name on High",
+    "This Is Amazing Grace",
+    "Waymaker",
+    "Holy Forever",
     "OFFERTORY: Instrumental",
-    "CHOIR SPECIAL: Because He Lives"
+    "CHOIR SPECIAL: Special music by J & M"
   ],
   "songs": [
     {
-      "title": "YOUR EASTER CANTATA ON YOUTUBE - HE IS RISEN!",
-      "tracks": [
-        {
-          "name": "HE IS RISEN - HBC CHOIR",
-          "src": "https://youtu.be/iY_0TRKt2xU"
-        }
-      ]
-    },
-    {
-      "title": "CHRIST THE LORD IS RISEN TODAY",
+      "title": "THIS IS AMAZING GRACE",
       "useImages": true,
       "imageFiles": [
-        "Christ.the.Lord.Is.Risen.Today-0.png",
-        "Christ.the.Lord.Is.Risen.Today-1.png"
+        "2.This.Is.Amazing.Grace-0.png",
+        "2.This.Is.Amazing.Grace-1.png",
+        "2.This.Is.Amazing.Grace-2.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/Christ.the.Lord.Is.Risen.Today-0.png",
-        "lyric-slide-images/Christ.the.Lord.Is.Risen.Today-1.png",
-        "lyric-slide-images/Christ.the.Lord.Is.Risen.Today-2.png",
-        "lyric-slide-images/Christ.the.Lord.Is.Risen.Today-3.png",
-        "lyric-slide-images/Christ.the.Lord.Is.Risen.Today-4.png",
-        "lyric-slide-images/Christ.the.Lord.Is.Risen.Today-5.png",
-        "lyric-slide-images/Christ.the.Lord.Is.Risen.Today-6.png",
-        "lyric-slide-images/Christ.the.Lord.Is.Risen.Today-7.png",
-        "lyric-slide-images/Christ.the.Lord.Is.Risen.Today-8.png"
+        "lyric-slide-images/2.This.Is.Amazing.Grace-0.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-1.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-2.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-3.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-4.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-5.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-6.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-7.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-8.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-9.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-10.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-11.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-12.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-13.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-14.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-15.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-16.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-17.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-18.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-19.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-20.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-21.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-22.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-23.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-24.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-25.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-26.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-27.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-28.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-29.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-30.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-31.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-32.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-33.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-34.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-35.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-36.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-37.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-38.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-39.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-40.png",
+        "lyric-slide-images/2.This.Is.Amazing.Grace-41.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/Christ.the.Lord.Is.Risen.Today.all.HL.mp3",
+          "src": "audio/This.Is.Amazing.Grace.all.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Christ.the.Lord.Is.Risen.Today.alto.HL.mp3",
+          "src": "audio/This.Is.Amazing.Grace.all.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Christ.the.Lord.Is.Risen.Today.tenor.HL.mp3",
+          "src": "audio/This.Is.Amazing.Grace.all.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Christ.the.Lord.Is.Risen.Today.bass.HL.mp3",
+          "src": "audio/This.Is.Amazing.Grace.all.HL.mp3",
           "group": "bass"
         },
         {
           "name": "PIANO",
-          "src": "audio/Christ.the.Lord.Is.Risen.Today.piano.HL.mp3"
+          "src": "audio/This.Is.Amazing.Grace.piano.mp3"
         }
       ]
     },
     {
-      "title": "OUR GOD REIGNS",
+      "title": "WAYMAKER",
       "useImages": true,
       "imageFiles": [
-        "Our.God.Reigns-0.png",
-        "Our.God.Reigns-1.png"
+        "3.Way.Maker-0.png",
+        "3.Way.Maker-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/Our.God.Reigns-0.png",
-        "lyric-slide-images/Our.God.Reigns-1.png",
-        "lyric-slide-images/Our.God.Reigns-2.png",
-        "lyric-slide-images/Our.God.Reigns-3.png",
-        "lyric-slide-images/Our.God.Reigns-4.png",
-        "lyric-slide-images/Our.God.Reigns-5.png",
-        "lyric-slide-images/Our.God.Reigns-6.png",
-        "lyric-slide-images/Our.God.Reigns-7.png",
-        "lyric-slide-images/Our.God.Reigns-8.png",
-        "lyric-slide-images/Our.God.Reigns-9.png",
-        "lyric-slide-images/Our.God.Reigns-10.png",
-        "lyric-slide-images/Our.God.Reigns-11.png",
-        "lyric-slide-images/Our.God.Reigns-12.png",
-        "lyric-slide-images/Our.God.Reigns-13.png",
-        "lyric-slide-images/Our.God.Reigns-14.png",
-        "lyric-slide-images/Our.God.Reigns-15.png",
-        "lyric-slide-images/Our.God.Reigns-16.png",
-        "lyric-slide-images/Our.God.Reigns-17.png",
-        "lyric-slide-images/Our.God.Reigns-18.png",
-        "lyric-slide-images/Our.God.Reigns-19.png",
-        "lyric-slide-images/Our.God.Reigns-20.png",
-        "lyric-slide-images/Our.God.Reigns-21.png"
+        "lyric-slide-images/3.Way.Maker-0.png",
+        "lyric-slide-images/3.Way.Maker-1.png",
+        "lyric-slide-images/3.Way.Maker-2.png",
+        "lyric-slide-images/3.Way.Maker-3.png",
+        "lyric-slide-images/3.Way.Maker-4.png",
+        "lyric-slide-images/3.Way.Maker-5.png",
+        "lyric-slide-images/3.Way.Maker-6.png",
+        "lyric-slide-images/3.Way.Maker-7.png",
+        "lyric-slide-images/3.Way.Maker-8.png",
+        "lyric-slide-images/3.Way.Maker-9.png",
+        "lyric-slide-images/3.Way.Maker-10.png",
+        "lyric-slide-images/3.Way.Maker-11.png",
+        "lyric-slide-images/3.Way.Maker-12.png",
+        "lyric-slide-images/3.Way.Maker-13.png",
+        "lyric-slide-images/3.Way.Maker-14.png",
+        "lyric-slide-images/3.Way.Maker-15.png",
+        "lyric-slide-images/3.Way.Maker-16.png",
+        "lyric-slide-images/3.Way.Maker-17.png",
+        "lyric-slide-images/3.Way.Maker-18.png",
+        "lyric-slide-images/3.Way.Maker-19.png",
+        "lyric-slide-images/3.Way.Maker-20.png",
+        "lyric-slide-images/3.Way.Maker-21.png",
+        "lyric-slide-images/3.Way.Maker-22.png",
+        "lyric-slide-images/3.Way.Maker-23.png",
+        "lyric-slide-images/3.Way.Maker-24.png",
+        "lyric-slide-images/3.Way.Maker-25.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/Our.God.Reigns.all.HL.mp3",
+          "src": "audio/Waymaker.all.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Our.God.Reigns.harmony.HL.mp3",
+          "src": "audio/Waymaker.all.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Our.God.Reigns.harmony.HL.mp3",
+          "src": "audio/Waymaker.all.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Our.God.Reigns.harmony.HL.mp3",
+          "src": "audio/Waymaker.all.HL.mp3",
           "group": "bass"
         },
         {
           "name": "PIANO",
-          "src": "audio/Our.God.Reigns.piano.HL.mp3"
+          "src": "audio/Waymaker.piano.mp3"
         }
       ]
     },
     {
-      "title": "HOUSE OF THE LORD",
+      "title": "HOLY FOREVER",
       "useImages": true,
       "imageFiles": [
-        "House.of.the.Lord.edit-0.png",
-        "House.of.the.Lord.edit-1.png"
+        "4.Holy.Forever-0.png",
+        "4.Holy.Forever-1.png",
+        "4.Holy.Forever-2.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/House.of.the.Lord-0.png",
-        "lyric-slide-images/House.of.the.Lord-1.png",
-        "lyric-slide-images/House.of.the.Lord-2.png",
-        "lyric-slide-images/House.of.the.Lord-3.png",
-        "lyric-slide-images/House.of.the.Lord-4.png",
-        "lyric-slide-images/House.of.the.Lord-5.png",
-        "lyric-slide-images/House.of.the.Lord-6.png",
-        "lyric-slide-images/House.of.the.Lord-7.png",
-        "lyric-slide-images/House.of.the.Lord-8.png",
-        "lyric-slide-images/House.of.the.Lord-9.png",
-        "lyric-slide-images/House.of.the.Lord-10.png",
-        "lyric-slide-images/House.of.the.Lord-11.png",
-        "lyric-slide-images/House.of.the.Lord-12.png",
-        "lyric-slide-images/House.of.the.Lord-13.png",
-        "lyric-slide-images/House.of.the.Lord-14.png",
-        "lyric-slide-images/House.of.the.Lord-15.png",
-        "lyric-slide-images/House.of.the.Lord-16.png",
-        "lyric-slide-images/House.of.the.Lord-17.png",
-        "lyric-slide-images/House.of.the.Lord-18.png",
-        "lyric-slide-images/House.of.the.Lord-19.png",
-        "lyric-slide-images/House.of.the.Lord-20.png",
-        "lyric-slide-images/House.of.the.Lord-21.png",
-        "lyric-slide-images/House.of.the.Lord-22.png",
-        "lyric-slide-images/House.of.the.Lord-23.png",
-        "lyric-slide-images/House.of.the.Lord-24.png",
-        "lyric-slide-images/House.of.the.Lord-25.png",
-        "lyric-slide-images/House.of.the.Lord-26.png",
-        "lyric-slide-images/House.of.the.Lord-27.png",
-        "lyric-slide-images/House.of.the.Lord-28.png",
-        "lyric-slide-images/House.of.the.Lord-29.png",
-        "lyric-slide-images/House.of.the.Lord-30.png",
-        "lyric-slide-images/House.of.the.Lord-31.png",
-        "lyric-slide-images/House.of.the.Lord-32.png",
-        "lyric-slide-images/House.of.the.Lord-33.png"
-      ],
-      "tracks": [
-        {
-          "name": "MELODY/SOPRANO",
-          "src": "audio/House.of.the.Lord.melody.HL.mp3",
-          "group": "soprano"
-        },
-        {
-          "name": "PIANO",
-          "src": "audio/House.of.the.Lord.piano.HL.mp3"
-        }
-      ]
-    },
-    {
-      "title": "ALLELUIA! ALLELUIA!",
-      "useImages": true,
-      "imageFiles": [
-        "Alleluia.Alleluia-0.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/Alleluia!.Alleluia!-0.png",
-        "lyric-slide-images/Alleluia!.Alleluia!-1.png",
-        "lyric-slide-images/Alleluia!.Alleluia!-2.png",
-        "lyric-slide-images/Alleluia!.Alleluia!-3.png",
-        "lyric-slide-images/Alleluia!.Alleluia!-4.png",
-        "lyric-slide-images/Alleluia!.Alleluia!-5.png",
-        "lyric-slide-images/Alleluia!.Alleluia!-6.png"
+        "lyric-slide-images/4.Holy.Forever-0.png",
+        "lyric-slide-images/4.Holy.Forever-1.png",
+        "lyric-slide-images/4.Holy.Forever-2.png",
+        "lyric-slide-images/4.Holy.Forever-3.png",
+        "lyric-slide-images/4.Holy.Forever-4.png",
+        "lyric-slide-images/4.Holy.Forever-5.png",
+        "lyric-slide-images/4.Holy.Forever-6.png",
+        "lyric-slide-images/4.Holy.Forever-7.png",
+        "lyric-slide-images/4.Holy.Forever-8.png",
+        "lyric-slide-images/4.Holy.Forever-9.png",
+        "lyric-slide-images/4.Holy.Forever-10.png",
+        "lyric-slide-images/4.Holy.Forever-11.png",
+        "lyric-slide-images/4.Holy.Forever-12.png",
+        "lyric-slide-images/4.Holy.Forever-13.png",
+        "lyric-slide-images/4.Holy.Forever-14.png",
+        "lyric-slide-images/4.Holy.Forever-15.png",
+        "lyric-slide-images/4.Holy.Forever-16.png",
+        "lyric-slide-images/4.Holy.Forever-17.png",
+        "lyric-slide-images/4.Holy.Forever-18.png",
+        "lyric-slide-images/4.Holy.Forever-19.png",
+        "lyric-slide-images/4.Holy.Forever-20.png",
+        "lyric-slide-images/4.Holy.Forever-21.png",
+        "lyric-slide-images/4.Holy.Forever-22.png",
+        "lyric-slide-images/4.Holy.Forever-23.png",
+        "lyric-slide-images/4.Holy.Forever-24.png",
+        "lyric-slide-images/4.Holy.Forever-25.png",
+        "lyric-slide-images/4.Holy.Forever-26.png",
+        "lyric-slide-images/4.Holy.Forever-27.png",
+        "lyric-slide-images/4.Holy.Forever-28.png",
+        "lyric-slide-images/4.Holy.Forever-29.png",
+        "lyric-slide-images/4.Holy.Forever-30.png",
+        "lyric-slide-images/4.Holy.Forever-31.png"
+
+
       ],
       "tracks": [
         {
           "name": "SOPRANO/MELODY",
-          "src": "audio/Alleluia.Alleluia.all.HL.mp3",
+          "src": "audio/Holy.Forever.melody.HL.mp3",
           "group": "alto"
         },
         {
           "name": "ALTO",
-          "src": "audio/Alleluia.Alleluia.alto.HL.mp3",
+          "src": "audio/Holy.Forever.Harmonies.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Alleluia.Alleluia.tenor.HL.mp3",
+          "src": "audio/Holy.Forever.Harmonies.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Alleluia.Alleluia.bass.HL.mp3",
+          "src": "audio/Holy.Forever.Harmonies.HL.mp3",
           "group": "bass"
         },
         {
           "name": "PIANO",
-          "src": "audio/Alleluia.Alleluia.piano.HL.mp3"
-        }
-      ]
-    },
-    {
-      "title": "BECAUSE HE LIVES",
-      "useImages": true,
-      "imageFiles": [
-        "Because.He.Lives-0.png",
-        "Because.He.Lives-1.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/Because.He.Lives-0.png",
-        "lyric-slide-images/Because.He.Lives-1.png",
-        "lyric-slide-images/Because.He.Lives-2.png",
-        "lyric-slide-images/Because.He.Lives-3.png",
-        "lyric-slide-images/Because.He.Lives-4.png",
-        "lyric-slide-images/Because.He.Lives-5.png",
-        "lyric-slide-images/Because.He.Lives-6.png",
-        "lyric-slide-images/Because.He.Lives-7.png",
-        "lyric-slide-images/Because.He.Lives-8.png",
-        "lyric-slide-images/Because.He.Lives-9.png",
-        "lyric-slide-images/Because.He.Lives-10.png",
-        "lyric-slide-images/Because.He.Lives-11.png",
-        "lyric-slide-images/Because.He.Lives-12.png"
-      ],
-      "tracks": [
-        {
-        "name": "MELODY/SOPRANO",
-        "src": "audio/Because.He.Lives.all.HL.mp3",
-        "group": "soprano"
-        },
-        {
-          "name": "ALTO",
-          "src": "audio/Because.He.Lives.alto.HL.mp3",
-          "group": "alto"
-        },
-        {
-          "name": "TENOR",
-          "src": "audio/Because.He.Lives.tenor.HL.mp3",
-          "group": "tenor"
-        },
-        {
-          "name": "BASS",
-          "src": "audio/Because.He.Lives.bass.HL.mp3",
-          "group": "bass"
+          "src": "audio/Holy.Forever.piano.HL.mp3"
         }
       ]
     }
