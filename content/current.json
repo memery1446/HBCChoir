@@ -40,27 +40,27 @@
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/This.Is.Amazing.Grace.all.HL.mp3",
+          "src": "audio/Come.Now.Is.The.Time.To.Worship.all.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/This.Is.Amazing.Grace.all.HL.mp3",
+          "src": "audio/Come.Now.Is.The.Time.To.Worship.alto.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/This.Is.Amazing.Grace.all.HL.mp3",
+          "src": "audio/Come.Now.Is.The.Time.To.Worship.tenor.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/This.Is.Amazing.Grace.all.HL.mp3",
+          "src": "audio/Come.Now.Is.The.Time.To.Worship.bass.HL.mp3",
           "group": "bass"
         },
         {
           "name": "PIANO",
-          "src": "audio/This.Is.Amazing.Grace.piano.mp3"
+          "src": "audio/Come.Now.Is.The.Time.To.Worship.piano.mp3"
         }
       ]
     },
@@ -87,22 +87,22 @@
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/Waymaker.all.HL.mp3",
+          "src": "audio/Build.My.Life.all.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Waymaker.all.HL.mp3",
+          "src": "audio/Build.My.Life.alto.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Waymaker.all.HL.mp3",
+          "src": "audio/Build.My.Life.tenor.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Waymaker.all.HL.mp3",
+          "src": "audio/Build.My.Life.bass.HL.mp3",
           "group": "bass"
         },
         {
@@ -128,27 +128,27 @@
       "tracks": [
         {
           "name": "SOPRANO/MELODY",
-          "src": "audio/Holy.Forever.melody.HL.mp3",
+          "src": "audio/Made.For.More.all.mp3",
           "group": "alto"
         },
         {
           "name": "ALTO",
-          "src": "audio/Holy.Forever.Harmonies.HL.mp3",
+          "src": "audio/Made.For.More.alto.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Holy.Forever.Harmonies.HL.mp3",
+          "src": "audio/Made.For.More.tenor.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Holy.Forever.Harmonies.HL.mp3",
+          "src": "audio/Made.For.More.all.mp3",
           "group": "bass"
         },
         {
           "name": "PIANO",
-          "src": "audio/Holy.Forever.piano.HL.mp3"
+          "src": "audio/Made.For.More.piano.mp3"
         }
       ]
     },
@@ -167,27 +167,27 @@
           "tracks": [
             {
               "name": "SOPRANO/MELODY",
-              "src": "audio/Holy.Forever.melody.HL.mp3",
+              "src": "audio/All.to.Honour.Jesus.all.mp3",
               "group": "alto"
             },
             {
               "name": "ALTO",
-              "src": "audio/Holy.Forever.Harmonies.HL.mp3",
+              "src": "audio/All.to.Honour.Jesus.all.mp3",
               "group": "alto"
             },
             {
               "name": "TENOR",
-              "src": "audio/Holy.Forever.Harmonies.HL.mp3",
+              "src": "audio/All.to.Honour.Jesus.all.mp3",
               "group": "tenor"
             },
             {
               "name": "BASS",
-              "src": "audio/Holy.Forever.Harmonies.HL.mp3",
+              "src": "audio/All.to.Honour.Jesus.all.mp3",
               "group": "bass"
             },
             {
               "name": "PIANO",
-              "src": "audio/Holy.Forever.piano.HL.mp3"
+              "src": "audio/All.to.Honour.Jesus.piano.mp3"
             }
           ]
         },
@@ -243,27 +243,27 @@
           "tracks": [
             {
               "name": "SOPRANO/MELODY",
-              "src": "audio/Holy.Forever.melody.HL.mp3",
+              "src": "audio/By.and.By.Medley.all.mp3",
               "group": "alto"
             },
             {
               "name": "ALTO",
-              "src": "audio/Holy.Forever.Harmonies.HL.mp3",
+              "src": "audio/By.and.By.Medley.alto.mp3",
               "group": "alto"
             },
             {
               "name": "TENOR",
-              "src": "audio/Holy.Forever.Harmonies.HL.mp3",
+              "src": "audio/By.and.By.Medley.tenor.mp3",
               "group": "tenor"
             },
             {
               "name": "BASS",
-              "src": "audio/Holy.Forever.Harmonies.HL.mp3",
+              "src": "audio/By.and.By.Medley.bass.mp3",
               "group": "bass"
             },
             {
               "name": "PIANO",
-              "src": "audio/Holy.Forever.piano.HL.mp3"
+              "src": "audio/By.and.By.Medley.piano.mp3"
             }
           ]
         }
