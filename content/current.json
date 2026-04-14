@@ -1,70 +1,41 @@
 {
-  "serviceDate": "2026-04-12",
+  "serviceDate": "2026-04-19",
   "headerNotes": [
     "Our Choir music for Sunday is below.",
     "Choir meets Sundays at 4:30pm.",
     "CHILDCARE is coordinated during Sunday and Wednesday rehearsals."
   ],
   "order": [
-    "KIDZ CHOIR: Lord, I Lift Your Name on High",
-    "This Is Amazing Grace",
-    "Waymaker",
-    "Holy Forever",
+    "Come, Now Is the Time to Worship",
+    "Build My Life",
+    "Made for More",
+    "All to Honour Jesus",
     "OFFERTORY: Instrumental",
-    "CHOIR SPECIAL: Special music by J & M"
+    "CHOIR SPECIAL: By and By Medley"
   ],
   "songs": [
     {
-      "title": "THIS IS AMAZING GRACE",
+      "title": "COME NOW IS THE TIME TO WORSHIP",
       "useImages": true,
       "imageFiles": [
-        "2.This.Is.Amazing.Grace-0.png",
-        "2.This.Is.Amazing.Grace-1.png",
-        "2.This.Is.Amazing.Grace-2.png"
+        "1.Come.Now.Is.the.Time.to.Worship-0.png",
+        "1.Come.Now.Is.the.Time.to.Worship-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/2.This.Is.Amazing.Grace-0.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-1.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-2.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-3.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-4.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-5.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-6.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-7.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-8.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-9.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-10.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-11.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-12.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-13.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-14.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-15.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-16.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-17.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-18.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-19.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-20.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-21.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-22.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-23.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-24.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-25.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-26.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-27.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-28.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-29.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-30.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-31.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-32.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-33.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-34.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-35.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-36.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-37.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-38.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-39.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-40.png",
-        "lyric-slide-images/2.This.Is.Amazing.Grace-41.png"
+        "lyric-slide-images/1.Come.Now.Is.the.Time.to.Worship-0.png",
+        "lyric-slide-images/1.Come.Now.Is.the.Time.to.Worship-1.png",
+        "lyric-slide-images/1.Come.Now.Is.the.Time.to.Worship-2.png",
+        "lyric-slide-images/1.Come.Now.Is.the.Time.to.Worship-3.png",
+        "lyric-slide-images/1.Come.Now.Is.the.Time.to.Worship-4.png",
+        "lyric-slide-images/1.Come.Now.Is.the.Time.to.Worship-5.png",
+        "lyric-slide-images/1.Come.Now.Is.the.Time.to.Worship-6.png",
+        "lyric-slide-images/1.Come.Now.Is.the.Time.to.Worship-7.png",
+        "lyric-slide-images/1.Come.Now.Is.the.Time.to.Worship-8.png",
+        "lyric-slide-images/1.Come.Now.Is.the.Time.to.Worship-9.png",
+        "lyric-slide-images/1.Come.Now.Is.the.Time.to.Worship-10.png",
+        "lyric-slide-images/1.Come.Now.Is.the.Time.to.Worship-11.png",
+        "lyric-slide-images/1.Come.Now.Is.the.Time.to.Worship-12.png",
+        "lyric-slide-images/1.Come.Now.Is.the.Time.to.Worship-13.png"
       ],
       "tracks": [
         {
@@ -94,39 +65,24 @@
       ]
     },
     {
-      "title": "WAYMAKER",
+      "title": "BUILD MY LIFE",
       "useImages": true,
       "imageFiles": [
-        "3.Way.Maker-0.png",
-        "3.Way.Maker-1.png"
+        "2.Build.My.Life-0.png",
+        "2.Build.My.Life-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/3.Way.Maker-0.png",
-        "lyric-slide-images/3.Way.Maker-1.png",
-        "lyric-slide-images/3.Way.Maker-2.png",
-        "lyric-slide-images/3.Way.Maker-3.png",
-        "lyric-slide-images/3.Way.Maker-4.png",
-        "lyric-slide-images/3.Way.Maker-5.png",
-        "lyric-slide-images/3.Way.Maker-6.png",
-        "lyric-slide-images/3.Way.Maker-7.png",
-        "lyric-slide-images/3.Way.Maker-8.png",
-        "lyric-slide-images/3.Way.Maker-9.png",
-        "lyric-slide-images/3.Way.Maker-10.png",
-        "lyric-slide-images/3.Way.Maker-11.png",
-        "lyric-slide-images/3.Way.Maker-12.png",
-        "lyric-slide-images/3.Way.Maker-13.png",
-        "lyric-slide-images/3.Way.Maker-14.png",
-        "lyric-slide-images/3.Way.Maker-15.png",
-        "lyric-slide-images/3.Way.Maker-16.png",
-        "lyric-slide-images/3.Way.Maker-17.png",
-        "lyric-slide-images/3.Way.Maker-18.png",
-        "lyric-slide-images/3.Way.Maker-19.png",
-        "lyric-slide-images/3.Way.Maker-20.png",
-        "lyric-slide-images/3.Way.Maker-21.png",
-        "lyric-slide-images/3.Way.Maker-22.png",
-        "lyric-slide-images/3.Way.Maker-23.png",
-        "lyric-slide-images/3.Way.Maker-24.png",
-        "lyric-slide-images/3.Way.Maker-25.png"
+        "lyric-slide-images/2.Build.My.Life-0.png",
+        "lyric-slide-images/2.Build.My.Life-1.png",
+        "lyric-slide-images/2.Build.My.Life-2.png",
+        "lyric-slide-images/2.Build.My.Life-3.png",
+        "lyric-slide-images/2.Build.My.Life-4.png",
+        "lyric-slide-images/2.Build.My.Life-5.png",
+        "lyric-slide-images/2.Build.My.Life-6.png",
+        "lyric-slide-images/2.Build.My.Life-7.png",
+        "lyric-slide-images/2.Build.My.Life-8.png",
+        "lyric-slide-images/2.Build.My.Life-9.png",
+        "lyric-slide-images/2.Build.My.Life-10.png"
       ],
       "tracks": [
         {
@@ -156,46 +112,16 @@
       ]
     },
     {
-      "title": "HOLY FOREVER",
+      "title": "MADE FOR MORE",
       "useImages": true,
       "imageFiles": [
-        "4.Holy.Forever-0.png",
-        "4.Holy.Forever-1.png",
-        "4.Holy.Forever-2.png"
+        "3.Made.for.More-0.png",
+        "3.Made.for.More-1.png",
+        "3.Made.for.More-2.png",
+        "3.Made.for.More-3.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/4.Holy.Forever-0.png",
-        "lyric-slide-images/4.Holy.Forever-1.png",
-        "lyric-slide-images/4.Holy.Forever-2.png",
-        "lyric-slide-images/4.Holy.Forever-3.png",
-        "lyric-slide-images/4.Holy.Forever-4.png",
-        "lyric-slide-images/4.Holy.Forever-5.png",
-        "lyric-slide-images/4.Holy.Forever-6.png",
-        "lyric-slide-images/4.Holy.Forever-7.png",
-        "lyric-slide-images/4.Holy.Forever-8.png",
-        "lyric-slide-images/4.Holy.Forever-9.png",
-        "lyric-slide-images/4.Holy.Forever-10.png",
-        "lyric-slide-images/4.Holy.Forever-11.png",
-        "lyric-slide-images/4.Holy.Forever-12.png",
-        "lyric-slide-images/4.Holy.Forever-13.png",
-        "lyric-slide-images/4.Holy.Forever-14.png",
-        "lyric-slide-images/4.Holy.Forever-15.png",
-        "lyric-slide-images/4.Holy.Forever-16.png",
-        "lyric-slide-images/4.Holy.Forever-17.png",
-        "lyric-slide-images/4.Holy.Forever-18.png",
-        "lyric-slide-images/4.Holy.Forever-19.png",
-        "lyric-slide-images/4.Holy.Forever-20.png",
-        "lyric-slide-images/4.Holy.Forever-21.png",
-        "lyric-slide-images/4.Holy.Forever-22.png",
-        "lyric-slide-images/4.Holy.Forever-23.png",
-        "lyric-slide-images/4.Holy.Forever-24.png",
-        "lyric-slide-images/4.Holy.Forever-25.png",
-        "lyric-slide-images/4.Holy.Forever-26.png",
-        "lyric-slide-images/4.Holy.Forever-27.png",
-        "lyric-slide-images/4.Holy.Forever-28.png",
-        "lyric-slide-images/4.Holy.Forever-29.png",
-        "lyric-slide-images/4.Holy.Forever-30.png",
-        "lyric-slide-images/4.Holy.Forever-31.png"
+        "lyric-slide-images/4.Holy.Forever-0.png"
 
 
       ],
@@ -225,7 +151,122 @@
           "src": "audio/Holy.Forever.piano.HL.mp3"
         }
       ]
-    }
+    },
+        {
+          "title": "ALL TO HONOUR JESUS",
+          "useImages": true,
+          "imageFiles": [
+            "4.All.to.Honour.Jesus-0.png",
+            "4.All.to.Honour.Jesus-1.png"
+          ],
+          "lyricSlideImages": [
+            "lyric-slide-images/4.Holy.Forever-0.png"
+
+
+          ],
+          "tracks": [
+            {
+              "name": "SOPRANO/MELODY",
+              "src": "audio/Holy.Forever.melody.HL.mp3",
+              "group": "alto"
+            },
+            {
+              "name": "ALTO",
+              "src": "audio/Holy.Forever.Harmonies.HL.mp3",
+              "group": "alto"
+            },
+            {
+              "name": "TENOR",
+              "src": "audio/Holy.Forever.Harmonies.HL.mp3",
+              "group": "tenor"
+            },
+            {
+              "name": "BASS",
+              "src": "audio/Holy.Forever.Harmonies.HL.mp3",
+              "group": "bass"
+            },
+            {
+              "name": "PIANO",
+              "src": "audio/Holy.Forever.piano.HL.mp3"
+            }
+          ]
+        },
+        {
+          "title": "BY AND BY MEDLEY",
+          "useImages": true,
+          "imageFiles": [
+            "5.By.and.By.Medley-0.png",
+            "5.By.and.By.Medley-1.png",
+            "5.By.and.By.Medley-2.png",
+            "5.By.and.By.Medley-3.png",
+            "5.By.and.By.Medley-4.png",
+            "5.By.and.By.Medley-5.png",
+            "5.By.and.By.Medley-6.png",
+            "5.By.and.By.Medley-7.png",
+            "5.By.and.By.Medley-8.png",
+            "5.By.and.By.Medley-9.png",
+            "5.By.and.By.Medley-10.png",
+            "5.By.and.By.Medley-11.png"
+          ],
+          "lyricSlideImages": [
+            "lyric-slide-images/5.By.and.By.Medley-0.png",
+            "lyric-slide-images/5.By.and.By.Medley-1.png",
+            "lyric-slide-images/5.By.and.By.Medley-2.png",
+            "lyric-slide-images/5.By.and.By.Medley-3.png",
+            "lyric-slide-images/5.By.and.By.Medley-4.png",
+            "lyric-slide-images/5.By.and.By.Medley-5.png",
+            "lyric-slide-images/5.By.and.By.Medley-6.png",
+            "lyric-slide-images/5.By.and.By.Medley-7.png",
+            "lyric-slide-images/5.By.and.By.Medley-8.png",
+            "lyric-slide-images/5.By.and.By.Medley-9.png",
+            "lyric-slide-images/5.By.and.By.Medley-10.png",
+            "lyric-slide-images/5.By.and.By.Medley-11.png",
+            "lyric-slide-images/5.By.and.By.Medley-12.png",
+            "lyric-slide-images/5.By.and.By.Medley-13.png",
+            "lyric-slide-images/5.By.and.By.Medley-14.png",
+            "lyric-slide-images/5.By.and.By.Medley-15.png",
+            "lyric-slide-images/5.By.and.By.Medley-16.png",
+            "lyric-slide-images/5.By.and.By.Medley-17.png",
+            "lyric-slide-images/5.By.and.By.Medley-18.png",
+            "lyric-slide-images/5.By.and.By.Medley-19.png",
+            "lyric-slide-images/5.By.and.By.Medley-20.png",
+            "lyric-slide-images/5.By.and.By.Medley-21.png",
+            "lyric-slide-images/5.By.and.By.Medley-22.png",
+            "lyric-slide-images/5.By.and.By.Medley-23.png",
+            "lyric-slide-images/5.By.and.By.Medley-24.png",
+            "lyric-slide-images/5.By.and.By.Medley-25.png",
+            "lyric-slide-images/5.By.and.By.Medley-26.png",
+            "lyric-slide-images/5.By.and.By.Medley-27.png",
+            "lyric-slide-images/5.By.and.By.Medley-28.png",
+            "lyric-slide-images/5.By.and.By.Medley-29.png"
+          ],
+          "tracks": [
+            {
+              "name": "SOPRANO/MELODY",
+              "src": "audio/Holy.Forever.melody.HL.mp3",
+              "group": "alto"
+            },
+            {
+              "name": "ALTO",
+              "src": "audio/Holy.Forever.Harmonies.HL.mp3",
+              "group": "alto"
+            },
+            {
+              "name": "TENOR",
+              "src": "audio/Holy.Forever.Harmonies.HL.mp3",
+              "group": "tenor"
+            },
+            {
+              "name": "BASS",
+              "src": "audio/Holy.Forever.Harmonies.HL.mp3",
+              "group": "bass"
+            },
+            {
+              "name": "PIANO",
+              "src": "audio/Holy.Forever.piano.HL.mp3"
+            }
+          ]
+        }
   ],
   "allSongsPdf": null,
   "interludeMp3": null
