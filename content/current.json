@@ -1,338 +1,331 @@
 {
-  "serviceDate": "2026-04-26",
+  "serviceDate": "2026-05-03",
   "headerNotes": [
     "Our Choir music for Sunday is below.",
     "Choir meets Sundays at 4:30pm.",
     "CHILDCARE is coordinated during Sunday and Wednesday rehearsals."
   ],
   "order": [
-    "Victory in Jesus",
-    "I’ve Got Peace Like a River",
-    "Standing on the Promises",
-    "The Lord Will Provide",
-    "Gratitude",
+    "Open the Eyes of My Heart",
+    "The Lord Is My Shepherd (Psalm 23)",
+    "The Great I Am Can",
+    "Great Is Thy Faithfulness",
     "OFFERTORY: Instrumental",
-    "CHOIR SPECIAL: Jesus, My Friend Medley"
+    "CHOIR SPECIAL: Arms of God Medley"
   ],
   "songs": [
     {
-      "title": "VICTORY IN JESUS",
+      "title": "OPEN THE EYES OF MY HEART",
       "useImages": true,
       "imageFiles": [
-        "1.Victory.in.Jesus-0.png",
-        "1.Victory.in.Jesus-1.png"
+        "1.Open.the.Eyes.of.My.Heart-0.png",
+        "1.Open.the.Eyes.of.My.Heart-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/1.Victory.in.Jesus-0.png",
-        "lyric-slide-images/1.Victory.in.Jesus-1.png",
-        "lyric-slide-images/1.Victory.in.Jesus-2.png",
-        "lyric-slide-images/1.Victory.in.Jesus-3.png",
-        "lyric-slide-images/1.Victory.in.Jesus-4.png",
-        "lyric-slide-images/1.Victory.in.Jesus-5.png",
-        "lyric-slide-images/1.Victory.in.Jesus-6.png",
-        "lyric-slide-images/1.Victory.in.Jesus-7.png",
-        "lyric-slide-images/1.Victory.in.Jesus-8.png",
-        "lyric-slide-images/1.Victory.in.Jesus-9.png",
-        "lyric-slide-images/1.Victory.in.Jesus-10.png",
-        "lyric-slide-images/1.Victory.in.Jesus-11.png",
-        "lyric-slide-images/1.Victory.in.Jesus-12.png",
-        "lyric-slide-images/1.Victory.in.Jesus-13.png",
-        "lyric-slide-images/1.Victory.in.Jesus-14.png",
-        "lyric-slide-images/1.Victory.in.Jesus-15.png",
-        "lyric-slide-images/1.Victory.in.Jesus-16.png",
-        "lyric-slide-images/1.Victory.in.Jesus-17.png",
-        "lyric-slide-images/1.Victory.in.Jesus-18.png",
-        "lyric-slide-images/1.Victory.in.Jesus-19.png",
-        "lyric-slide-images/1.Victory.in.Jesus-20.png",
-        "lyric-slide-images/1.Victory.in.Jesus-21.png",
-        "lyric-slide-images/1.Victory.in.Jesus-22.png",
-        "lyric-slide-images/1.Victory.in.Jesus-23.png",
-        "lyric-slide-images/1.Victory.in.Jesus-24.png"
-
+        "lyric-slide-images/1.Open.the.Eyes.of.My.Heart-0.png",
+        "lyric-slide-images/1.Open.the.Eyes.of.My.Heart-1.png",
+        "lyric-slide-images/1.Open.the.Eyes.of.My.Heart-2.png",
+        "lyric-slide-images/1.Open.the.Eyes.of.My.Heart-3.png",
+        "lyric-slide-images/1.Open.the.Eyes.of.My.Heart-4.png",
+        "lyric-slide-images/1.Open.the.Eyes.of.My.Heart-5.png",
+        "lyric-slide-images/1.Open.the.Eyes.of.My.Heart-6.png",
+        "lyric-slide-images/1.Open.the.Eyes.of.My.Heart-7.png",
+        "lyric-slide-images/1.Open.the.Eyes.of.My.Heart-8.png",
+        "lyric-slide-images/1.Open.the.Eyes.of.My.Heart-9.png",
+        "lyric-slide-images/1.Open.the.Eyes.of.My.Heart-10.png",
+        "lyric-slide-images/1.Open.the.Eyes.of.My.Heart-11.png",
+        "lyric-slide-images/1.Open.the.Eyes.of.My.Heart-12.png",
+        "lyric-slide-images/1.Open.the.Eyes.of.My.Heart-13.png",
+        "lyric-slide-images/1.Open.the.Eyes.of.My.Heart-14.png",
+        "lyric-slide-images/1.Open.the.Eyes.of.My.Heart-15.png",
+        "lyric-slide-images/1.Open.the.Eyes.of.My.Heart-16.png",
+        "lyric-slide-images/1.Open.the.Eyes.of.My.Heart-17.png",
+        "lyric-slide-images/1.Open.the.Eyes.of.My.Heart-18.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/Victory.In.Jesus.all.HL.mp3",
+          "src": "audio/Open.the.Eyes.of.My.Heart.melody.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Victory.In.Jesus.alto.HL.mp3",
+          "src": "audio/Open.the.Eyes.of.My.Heart.melody.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Victory.In.Jesus.tenor.HL.mp3",
+          "src": "audio/Open.the.Eyes.of.My.Heart.melody.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Victory.In.Jesus.bass.HL.mp3",
-          "group": "bass"
-        }
-      ]
-    },
-    {
-      "title": "I'VE GOT PEACE LIKE A RIVER",
-      "useImages": true,
-      "imageFiles": [
-        "2.Ive.Got.Peace.Like.a.River-0.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/2.I've.Got.Peace.Like.a.River-0.png",
-        "lyric-slide-images/2.I've.Got.Peace.Like.a.River-1.png",
-        "lyric-slide-images/2.I've.Got.Peace.Like.a.River-2.png",
-        "lyric-slide-images/2.I've.Got.Peace.Like.a.River-3.png",
-        "lyric-slide-images/2.I've.Got.Peace.Like.a.River-4.png",
-        "lyric-slide-images/2.I've.Got.Peace.Like.a.River-5.png",
-        "lyric-slide-images/2.I've.Got.Peace.Like.a.River-6.png",
-        "lyric-slide-images/2.I've.Got.Peace.Like.a.River-7.png",
-        "lyric-slide-images/2.I've.Got.Peace.Like.a.River-8.png",
-        "lyric-slide-images/2.I've.Got.Peace.Like.a.River-9.png",
-        "lyric-slide-images/2.I've.Got.Peace.Like.a.River-10.png",
-        "lyric-slide-images/2.I've.Got.Peace.Like.a.River-11.png",
-        "lyric-slide-images/2.I've.Got.Peace.Like.a.River-12.png"
-      ],
-      "tracks": []
-    },
-    {
-      "title": "STANDING ON THE PROMISES",
-      "useImages": true,
-      "imageFiles": [
-        "3.Standing.on.the.Promises-0.png",
-        "3.Standing.on.the.Promises-1.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/3.Standing.on.the.Promises-0.png",
-        "lyric-slide-images/3.Standing.on.the.Promises-1.png",
-        "lyric-slide-images/3.Standing.on.the.Promises-2.png",
-        "lyric-slide-images/3.Standing.on.the.Promises-3.png",
-        "lyric-slide-images/3.Standing.on.the.Promises-4.png",
-        "lyric-slide-images/3.Standing.on.the.Promises-5.png",
-        "lyric-slide-images/3.Standing.on.the.Promises-6.png",
-        "lyric-slide-images/3.Standing.on.the.Promises-7.png",
-        "lyric-slide-images/3.Standing.on.the.Promises-8.png",
-        "lyric-slide-images/3.Standing.on.the.Promises-9.png",
-        "lyric-slide-images/3.Standing.on.the.Promises-10.png",
-        "lyric-slide-images/3.Standing.on.the.Promises-11.png",
-        "lyric-slide-images/3.Standing.on.the.Promises-12.png",
-        "lyric-slide-images/3.Standing.on.the.Promises-13.png",
-        "lyric-slide-images/3.Standing.on.the.Promises-14.png",
-        "lyric-slide-images/3.Standing.on.the.Promises-15.png",
-        "lyric-slide-images/3.Standing.on.the.Promises-16.png",
-        "lyric-slide-images/3.Standing.on.the.Promises-17.png",
-        "lyric-slide-images/3.Standing.on.the.Promises-18.png",
-        "lyric-slide-images/3.Standing.on.the.Promises-19.png",
-        "lyric-slide-images/3.Standing.on.the.Promises-20.png",
-        "lyric-slide-images/3.Standing.on.the.Promises-21.png",
-        "lyric-slide-images/3.Standing.on.the.Promises-22.png",
-        "lyric-slide-images/3.Standing.on.the.Promises-23.png",
-        "lyric-slide-images/3.Standing.on.the.Promises-24.png"
-      ],
-      "tracks": [
-        {
-          "name": "SOPRANO/MELODY",
-          "src": "audio/Standing.on.the.Promises.all.HL.mp3",
-          "group": "soprano"
-        },
-        {
-          "name": "ALTO",
-          "src": "audio/Standing.on.the.Promises.alto.HL.mp3",
-          "group": "alto"
-        },
-        {
-          "name": "TENOR",
-          "src": "audio/Standing.on.the.Promises.tenor.HL.mp3",
-          "group": "tenor"
-        },
-        {
-          "name": "BASS",
-          "src": "audio/Standing.on.the.Promises.bass.HL.mp3",
+          "src": "audio/Open.the.Eyes.of.My.Heart.melody.HL.mp3",
           "group": "bass"
         },
         {
           "name": "PIANO",
-          "src": "audio/Standing.on.the.Promises.piano.mp3"
+          "src": "audio/Open.the.Eyes.of.My.Heart.piano.HL.mp3"
+        }
+      ]
+    },
+    {
+      "title": "THE LORD IS MY SHEPHERD (PSALM 23)",
+      "useImages": true,
+      "imageFiles": [
+        "2.The.Lord.Is.My.Shepherd-0.png",
+        "2.The.Lord.Is.My.Shepherd-1.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/2.The.Lord.Is.My.Shepherd-0.png",
+        "lyric-slide-images/2.The.Lord.Is.My.Shepherd-1.png",
+        "lyric-slide-images/2.The.Lord.Is.My.Shepherd-2.png",
+        "lyric-slide-images/2.The.Lord.Is.My.Shepherd-3.png",
+        "lyric-slide-images/2.The.Lord.Is.My.Shepherd-4.png",
+        "lyric-slide-images/2.The.Lord.Is.My.Shepherd-5.png",
+        "lyric-slide-images/2.The.Lord.Is.My.Shepherd-6.png",
+        "lyric-slide-images/2.The.Lord.Is.My.Shepherd-7.png",
+        "lyric-slide-images/2.The.Lord.Is.My.Shepherd-8.png"
+      ],
+      "tracks": [
+        {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/The.Lord.Is.My.Shepherd.all.HL.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "ALTO",
+          "src": "audio/The.Lord.Is.My.Shepherd.harm.HL.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "TENOR",
+          "src": "audio/The.Lord.Is.My.Shepherd.harm.HL.mp3",
+          "group": "tenor"
+        },
+        {
+          "name": "BASS",
+          "src": "audio/The.Lord.Is.My.Shepherd.harm.HL.mp3",
+          "group": "bass"
+        },
+        {
+          "name": "PIANO",
+          "src": "audio/The.Lord.Is.My.Shepherd.piano.HL.mp3"
+        }
+      ]
+    },
+    {
+      "title": "THE GREAT I AM CAN",
+      "useImages": true,
+      "imageFiles": [
+        "3.The.Great.I.Am.Can-0.png",
+        "3.The.Great.I.Am.Can-1.png",
+        "3.The.Great.I.Am.Can-2.png",
+        "3.The.Great.I.Am.Can-3.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/3.The.Great.I.Am.Can-0.png",
+        "lyric-slide-images/3.The.Great.I.Am.Can-1.png",
+        "lyric-slide-images/3.The.Great.I.Am.Can-2.png",
+        "lyric-slide-images/3.The.Great.I.Am.Can-3.png",
+        "lyric-slide-images/3.The.Great.I.Am.Can-4.png",
+        "lyric-slide-images/3.The.Great.I.Am.Can-5.png",
+        "lyric-slide-images/3.The.Great.I.Am.Can-6.png",
+        "lyric-slide-images/3.The.Great.I.Am.Can-7.png",
+        "lyric-slide-images/3.The.Great.I.Am.Can-8.png",
+        "lyric-slide-images/3.The.Great.I.Am.Can-9.png",
+        "lyric-slide-images/3.The.Great.I.Am.Can-10.png",
+        "lyric-slide-images/3.The.Great.I.Am.Can-11.png",
+        "lyric-slide-images/3.The.Great.I.Am.Can-12.png"
+      ],
+      "tracks": [
+        {
+          "name": "SOPRANO/MELODY",
+          "src": "audio/Great.I.Am.Can.all.HL.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "ALTO",
+          "src": "audio/Great.I.Am.Can.all.HL.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "TENOR",
+          "src": "audio/Great.I.Am.Can.all.HL.mp3",
+          "group": "tenor"
+        },
+        {
+          "name": "BASS",
+          "src": "audio/Great.I.Am.Can.all.HL.mp3",
+          "group": "bass"
+        },
+        {
+          "name": "PIANO",
+          "src": "audio/Great.I.Am.Can.piano.HL.mp3"
         }
       ]
     },
         {
-          "title": "THE LORD WILL PROVIDE",
+          "title": "GREAT IS THY FAITHFULNESS",
           "useImages": true,
           "imageFiles": [
-            "4.The.Lord.Will.Provide-0.png",
-            "4.The.Lord.Will.Provide-1.png"
+            "4.Great.Is.Thy.Faithfulness-0.png",
+            "4.Great.Is.Thy.Faithfulness-1.png"
           ],
           "lyricSlideImages": [
-            "lyric-slide-images/4.The.Lord.Will.Provide-0.png",
-            "lyric-slide-images/4.The.Lord.Will.Provide-1.png",
-            "lyric-slide-images/4.The.Lord.Will.Provide-2.png",
-            "lyric-slide-images/4.The.Lord.Will.Provide-3.png",
-            "lyric-slide-images/4.The.Lord.Will.Provide-4.png",
-            "lyric-slide-images/4.The.Lord.Will.Provide-5.png",
-            "lyric-slide-images/4.The.Lord.Will.Provide-6.png",
-            "lyric-slide-images/4.The.Lord.Will.Provide-7.png",
-            "lyric-slide-images/4.The.Lord.Will.Provide-8.png",
-            "lyric-slide-images/4.The.Lord.Will.Provide-9.png",
-            "lyric-slide-images/4.The.Lord.Will.Provide-10.png",
-            "lyric-slide-images/4.The.Lord.Will.Provide-11.png",
-            "lyric-slide-images/4.The.Lord.Will.Provide-12.png",
-            "lyric-slide-images/4.The.Lord.Will.Provide-13.png",
-            "lyric-slide-images/4.The.Lord.Will.Provide-14.png",
-            "lyric-slide-images/4.The.Lord.Will.Provide-15.png",
-            "lyric-slide-images/4.The.Lord.Will.Provide-16.png",
-            "lyric-slide-images/4.The.Lord.Will.Provide-17.png",
-            "lyric-slide-images/4.The.Lord.Will.Provide-18.png",
-            "lyric-slide-images/4.The.Lord.Will.Provide-19.png",
-            "lyric-slide-images/4.The.Lord.Will.Provide-20.png",
-            "lyric-slide-images/4.The.Lord.Will.Provide-21.png",
-            "lyric-slide-images/4.The.Lord.Will.Provide-22.png",
-            "lyric-slide-images/4.The.Lord.Will.Provide-23.png",
-            "lyric-slide-images/4.The.Lord.Will.Provide-24.png",
-            "lyric-slide-images/4.The.Lord.Will.Provide-25.png",
-            "lyric-slide-images/4.The.Lord.Will.Provide-26.png",
-            "lyric-slide-images/4.The.Lord.Will.Provide-27.png"
+            "lyric-slide-images/4.Great.Is.Thy.Faithfulness-0.png",
+            "lyric-slide-images/4.Great.Is.Thy.Faithfulness-1.png",
+            "lyric-slide-images/4.Great.Is.Thy.Faithfulness-2.png",
+            "lyric-slide-images/4.Great.Is.Thy.Faithfulness-3.png",
+            "lyric-slide-images/4.Great.Is.Thy.Faithfulness-4.png",
+            "lyric-slide-images/4.Great.Is.Thy.Faithfulness-5.png",
+            "lyric-slide-images/4.Great.Is.Thy.Faithfulness-6.png",
+            "lyric-slide-images/4.Great.Is.Thy.Faithfulness-7.png",
+            "lyric-slide-images/4.Great.Is.Thy.Faithfulness-8.png",
+            "lyric-slide-images/4.Great.Is.Thy.Faithfulness-9.png",
+            "lyric-slide-images/4.Great.Is.Thy.Faithfulness-10.png",
+            "lyric-slide-images/4.Great.Is.Thy.Faithfulness-11.png",
+            "lyric-slide-images/4.Great.Is.Thy.Faithfulness-12.png",
+            "lyric-slide-images/4.Great.Is.Thy.Faithfulness-13.png"
           ],
           "tracks": [
             {
               "name": "SOPRANO/MELODY",
-              "src": "audio/The.Lord.Will.Provide.all.HL.mp3",
+              "src": "audio/Great.Is.Thy.Faithfulness.all.HL.mp3",
               "group": "soprano"
             },
             {
               "name": "ALTO",
-              "src": "audio/The.Lord.Will.Provide.all.HL.mp3",
+              "src": "audio/Great.Is.Thy.Faithfulness.alto.HL.mp3",
               "group": "alto"
             },
             {
               "name": "TENOR",
-              "src": "audio/The.Lord.Will.Provide.all.HL.mp3",
+              "src": "audio/Great.Is.Thy.Faithfulness.tenor.HL.mp3",
               "group": "tenor"
             },
             {
               "name": "BASS",
-              "src": "audio/The.Lord.Will.Provide.all.HL.mp3",
+              "src": "audio/Great.Is.Thy.Faithfulness.bass.HL.mp3",
               "group": "bass"
             },
             {
               "name": "PIANO",
-              "src": "audio/The.Lord.Will.Provide.piano.HL.mp3"
+              "src": "audio/Great.Is.Thy.Faithfulness.piano.HL.mp3"
             }
           ]
         },
     {
-      "title": "GRATITUDE",
+      "title": "ALL TO HONOUR JESUS",
       "useImages": true,
       "imageFiles": [
-        "5.Gratitude-0.png",
-        "5.Gratitude-1.png",
-        "5.Gratitude-2.png"
+        "5.All.to.Honour.Jesus-0.png",
+        "5.All.to.Honour.Jesus-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/5.Gratitude-0.png",
-        "lyric-slide-images/5.Gratitude-1.png",
-        "lyric-slide-images/5.Gratitude-2.png",
-        "lyric-slide-images/5.Gratitude-3.png",
-        "lyric-slide-images/5.Gratitude-4.png",
-        "lyric-slide-images/5.Gratitude-5.png",
-        "lyric-slide-images/5.Gratitude-6.png",
-        "lyric-slide-images/5.Gratitude-7.png",
-        "lyric-slide-images/5.Gratitude-8.png",
-        "lyric-slide-images/5.Gratitude-9.png",
-        "lyric-slide-images/5.Gratitude-10.png",
-        "lyric-slide-images/5.Gratitude-11.png",
-        "lyric-slide-images/5.Gratitude-12.png"
+        "lyric-slide-images/5.All.to.Honour.Jesus-0.png",
+        "lyric-slide-images/5.All.to.Honour.Jesus-1.png",
+        "lyric-slide-images/5.All.to.Honour.Jesus-2.png",
+        "lyric-slide-images/5.All.to.Honour.Jesus-3.png",
+        "lyric-slide-images/5.All.to.Honour.Jesus-4.png",
+        "lyric-slide-images/5.All.to.Honour.Jesus-5.png",
+        "lyric-slide-images/5.All.to.Honour.Jesus-6.png",
+        "lyric-slide-images/5.All.to.Honour.Jesus-7.png",
+        "lyric-slide-images/5.All.to.Honour.Jesus-8.png",
+        "lyric-slide-images/5.All.to.Honour.Jesus-9.png",
+        "lyric-slide-images/5.All.to.Honour.Jesus-10.png",
+        "lyric-slide-images/5.All.to.Honour.Jesus-11.png",
+        "lyric-slide-images/5.All.to.Honour.Jesus-12.png",
+        "lyric-slide-images/5.All.to.Honour.Jesus-13.png",
+        "lyric-slide-images/5.All.to.Honour.Jesus-14.png",
+        "lyric-slide-images/5.All.to.Honour.Jesus-15.png",
+        "lyric-slide-images/5.All.to.Honour.Jesus-16.png",
+        "lyric-slide-images/5.All.to.Honour.Jesus-17.png",
+        "lyric-slide-images/5.All.to.Honour.Jesus-18.png",
+        "lyric-slide-images/5.All.to.Honour.Jesus-19.png"
       ],
       "tracks": [
         {
           "name": "SOPRANO/MELODY",
-          "src": "audio/Gratitude.all.HL.mp3",
+          "src": "audio/All.to.Honour.Jesus.all.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Gratitude.all.HL.mp3",
+          "src": "audio/All.to.Honour.Jesus.all.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Gratitude.all.HL.mp3",
+          "src": "audio/All.to.Honour.Jesus.all.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Gratitude.all.HL.mp3",
+          "src": "audio/All.to.Honour.Jesus.all.HL.mp3",
           "group": "bass"
         },
         {
           "name": "PIANO",
-          "src": "audio/Gratitude.piano.mp3"
+          "src": "audio/All.to.Honour.Jesus.piano.HL.mp3"
         }
       ]
     },
         {
-          "title": "JESUS MY FRIEND MEDLEY",
+          "title": "ARMS OF GOD MEDLEY",
           "useImages": true,
           "imageFiles": [
-            "6.Jesus.My.Friend.Medley-0.png",
-            "6.Jesus.My.Friend.Medley-1.png",
-            "6.Jesus.My.Friend.Medley-2.png",
-            "6.Jesus.My.Friend.Medley-3.png",
-            "6.Jesus.My.Friend.Medley-4.png",
-            "6.Jesus.My.Friend.Medley-5.png",
-            "6.Jesus.My.Friend.Medley-6.png",
-            "6.Jesus.My.Friend.Medley-7.png",
-            "6.Jesus.My.Friend.Medley-8.png",
-            "6.Jesus.My.Friend.Medley-9.png",
-            "6.Jesus.My.Friend.Medley-10.png",
-            "6.Jesus.My.Friend.Medley-11.png",
-            "6.Jesus.My.Friend.Medley-12.png"
+            "6.Arms.of.God.Medley-0.png",
+            "6.Arms.of.God.Medley-1.png",
+            "6.Arms.of.God.Medley-2.png",
+            "6.Arms.of.God.Medley-3.png",
+            "6.Arms.of.God.Medley-4.png",
+            "6.Arms.of.God.Medley-5.png",
+            "6.Arms.of.God.Medley-6.png",
+            "6.Arms.of.God.Medley-7.png",
+            "6.Arms.of.God.Medley-8.png",
+            "6.Arms.of.God.Medley-9.png",
+            "6.Arms.of.God.Medley-10.png",
+            "6.Arms.of.God.Medley-11.png"
           ],
           "lyricSlideImages": [
-            "lyric-slide-images/6.Jesus.My.Friend.Medley-0.png",
-            "lyric-slide-images/6.Jesus.My.Friend.Medley-1.png",
-            "lyric-slide-images/6.Jesus.My.Friend.Medley-2.png",
-            "lyric-slide-images/6.Jesus.My.Friend.Medley-3.png",
-            "lyric-slide-images/6.Jesus.My.Friend.Medley-4.png",
-            "lyric-slide-images/6.Jesus.My.Friend.Medley-5.png",
-            "lyric-slide-images/6.Jesus.My.Friend.Medley-6.png",
-            "lyric-slide-images/6.Jesus.My.Friend.Medley-7.png",
-            "lyric-slide-images/6.Jesus.My.Friend.Medley-8.png",
-            "lyric-slide-images/6.Jesus.My.Friend.Medley-9.png",
-            "lyric-slide-images/6.Jesus.My.Friend.Medley-10.png",
-            "lyric-slide-images/6.Jesus.My.Friend.Medley-11.png",
-            "lyric-slide-images/6.Jesus.My.Friend.Medley-12.png",
-            "lyric-slide-images/6.Jesus.My.Friend.Medley-13.png",
-            "lyric-slide-images/6.Jesus.My.Friend.Medley-14.png",
-            "lyric-slide-images/6.Jesus.My.Friend.Medley-15.png",
-            "lyric-slide-images/6.Jesus.My.Friend.Medley-16.png",
-            "lyric-slide-images/6.Jesus.My.Friend.Medley-17.png"
+            "lyric-slide-images/6.Arms.of.God.Medley-0.png",
+            "lyric-slide-images/6.Arms.of.God.Medley-1.png",
+            "lyric-slide-images/6.Arms.of.God.Medley-2.png",
+            "lyric-slide-images/6.Arms.of.God.Medley-3.png",
+            "lyric-slide-images/6.Arms.of.God.Medley-4.png",
+            "lyric-slide-images/6.Arms.of.God.Medley-5.png",
+            "lyric-slide-images/6.Arms.of.God.Medley-6.png",
+            "lyric-slide-images/6.Arms.of.God.Medley-7.png",
+            "lyric-slide-images/6.Arms.of.God.Medley-8.png",
+            "lyric-slide-images/6.Arms.of.God.Medley-9.png",
+            "lyric-slide-images/6.Arms.of.God.Medley-10.png",
+            "lyric-slide-images/6.Arms.of.God.Medley-11.png"
           ],
           "tracks": [
             {
               "name": "SOPRANO/MELODY",
-              "src": "audio/Jesus.My.Friend.Medley.all.HL.mp3",
+              "src": "audio/Arms.of.God.Medley.all.HL.mp3",
               "group": "soprano"
             },
             {
               "name": "ALTO",
-              "src": "audio/Jesus.My.Friend.Medley.alto.HL.mp3",
+              "src": "audio/Arms.of.God.Medley.alto.HL.mp3",
               "group": "alto"
             },
             {
               "name": "TENOR",
-              "src": "audio/Jesus.My.Friend.Medley.tenor.HL.mp3",
+              "src": "audio/Arms.of.God.Medley.tenor.HL.mp3",
               "group": "tenor"
             },
             {
               "name": "BASS",
-              "src": "audio/Jesus.My.Friend.Medley.bass.HL.mp3",
+              "src": "audio/Arms.of.God.Medley.bass.HL.mp3",
               "group": "bass"
             },
             {
               "name": "PIANO",
-              "src": "audio/Sweet.Hour.of.Prayer.piano.mp3"
+              "src": "audio/Arms.of.God.Medley.piano.HL.mp3"
             }
           ]
         }
