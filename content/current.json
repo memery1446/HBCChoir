@@ -6,254 +6,237 @@
     "CHILDCARE is coordinated during Sunday and Wednesday rehearsals."
   ],
   "order": [
-    "10K Reasons / Bless the Lord",
-    "Raise a Hallelujah",
-    "Goodness of God",
-    "The Blessing",
-    "OFFERTORY: All to Honour Jesus",
-    "CHOIR SPECIAL: The Lighthouse"
+    "TO GOD BE THE GLORY",
+    "WORTHY OF WORSHIP",
+    "THROWBACK WORSHIP MEDLEY",
+    "OFFERTORY: ALL TO HONOUR JESUS",
+    "CHOIR SPECIAL: HE HIDETH MY SOUL"
   ],
   "songs": [
     {
-      "title": "10K REASONS / BLESS THE LORD",
+      "title": "TO GOD BE THE GLORY",
       "useImages": true,
       "imageFiles": [
-        "1.10K.Reasons-0.png",
-        "1.10K.Reasons-1.png"
+        "1.To.God.Be.the.Glory-0.png",
+        "1.To.God.Be.the.Glory-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/1.10K.Reasons-0.png",
-        "lyric-slide-images/1.10K.Reasons-1.png",
-        "lyric-slide-images/1.10K.Reasons-2.png",
-        "lyric-slide-images/1.10K.Reasons-3.png",
-        "lyric-slide-images/1.10K.Reasons-4.png",
-        "lyric-slide-images/1.10K.Reasons-5.png",
-        "lyric-slide-images/1.10K.Reasons-6.png",
-        "lyric-slide-images/1.10K.Reasons-7.png",
-        "lyric-slide-images/1.10K.Reasons-8.png",
-        "lyric-slide-images/1.10K.Reasons-9.png",
-        "lyric-slide-images/1.10K.Reasons-10.png",
-        "lyric-slide-images/1.10K.Reasons-11.png",
-        "lyric-slide-images/1.10K.Reasons-12.png",
-        "lyric-slide-images/1.10K.Reasons-13.png",
-        "lyric-slide-images/1.10K.Reasons-14.png",
-        "lyric-slide-images/1.10K.Reasons-15.png"
+        "lyric-slide-images/1.To.God.Be.the.Glory-0.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-1.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-2.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-3.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-4.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-5.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-6.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-7.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-8.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-9.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-10.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-11.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-12.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-13.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-14.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-15.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-16.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-17.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-18.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-19.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-20.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-21.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-22.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-23.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-24.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-25.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-26.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-27.png",
+        "lyric-slide-images/1.To.God.Be.the.Glory-28.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/10K.Reasons.Bless.the.Lord.all.HL.mp3",
+          "src": "audio/To.God.Be.the.Glory.all.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/10K.Reasons.Bless.the.Lord.Harm.1.HL.mp3",
+          "src": "audio/To.God.Be.the.Glory.alto.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/10K.Reasons.Bless.the.Lord.Harm.1.HL.mp3",
+          "src": "audio/To.God.Be.the.Glory.tenor.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/10K.Reasons.Bless.the.Lord.Harm.2.HL.mp3",
+          "src": "audio/To.God.Be.the.Glory.bass.HL.mp3",
           "group": "bass"
         },
         {
           "name": "PIANO",
-          "src": "audio/10K.Reasons.Bless.the.Lord.piano.mp3"
+          "src": "audio/To.God.Be.the.Glory.piano.mp3"
         }
       ]
     },
     {
-      "title": "RAISE A HALLELUJAH",
+      "title": "WORTHY OF WORSHIP",
       "useImages": true,
       "imageFiles": [
-        "2.Raise.a.Hallelujah-0.png",
-        "2.Raise.a.Hallelujah-1.png",
-        "2.Raise.a.Hallelujah-2.png",
-        "2.Raise.a.Hallelujah-3.png"
+        "2.Worthy.of.Worship-0.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/2.Raise.a.Hallelujah-0.png",
-        "lyric-slide-images/2.Raise.a.Hallelujah-1.png",
-        "lyric-slide-images/2.Raise.a.Hallelujah-2.png",
-        "lyric-slide-images/2.Raise.a.Hallelujah-3.png",
-        "lyric-slide-images/2.Raise.a.Hallelujah-4.png",
-        "lyric-slide-images/2.Raise.a.Hallelujah-5.png",
-        "lyric-slide-images/2.Raise.a.Hallelujah-6.png",
-        "lyric-slide-images/2.Raise.a.Hallelujah-7.png",
-        "lyric-slide-images/2.Raise.a.Hallelujah-8.png",
-        "lyric-slide-images/2.Raise.a.Hallelujah-9.png",
-        "lyric-slide-images/2.Raise.a.Hallelujah-10.png",
-        "lyric-slide-images/2.Raise.a.Hallelujah-11.png",
-        "lyric-slide-images/2.Raise.a.Hallelujah-12.png",
-        "lyric-slide-images/2.Raise.a.Hallelujah-13.png",
-        "lyric-slide-images/2.Raise.a.Hallelujah-14.png",
-        "lyric-slide-images/2.Raise.a.Hallelujah-15.png",
-        "lyric-slide-images/2.Raise.a.Hallelujah-16.png",
-        "lyric-slide-images/2.Raise.a.Hallelujah-17.png",
-        "lyric-slide-images/2.Raise.a.Hallelujah-18.png",
-        "lyric-slide-images/2.Raise.a.Hallelujah-19.png"
+        "lyric-slide-images/2.Worthy.of.Worship-0.png",
+        "lyric-slide-images/2.Worthy.of.Worship-1.png",
+        "lyric-slide-images/2.Worthy.of.Worship-2.png",
+        "lyric-slide-images/2.Worthy.of.Worship-3.png",
+        "lyric-slide-images/2.Worthy.of.Worship-4.png",
+        "lyric-slide-images/2.Worthy.of.Worship-5.png",
+        "lyric-slide-images/2.Worthy.of.Worship-6.png",
+        "lyric-slide-images/2.Worthy.of.Worship-7.png",
+        "lyric-slide-images/2.Worthy.of.Worship-8.png",
+        "lyric-slide-images/2.Worthy.of.Worship-9.png",
+        "lyric-slide-images/2.Worthy.of.Worship-10.png",
+        "lyric-slide-images/2.Worthy.of.Worship-11.png",
+        "lyric-slide-images/2.Worthy.of.Worship-12.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/Raise.a.Hallelujah.HL.mp3",
+          "src": "audio/Worthy.of.Worship.all.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Raise.a.Hallelujah.HL.mp3",
+          "src": "audio/Worthy.of.Worship.all.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Raise.a.Hallelujah.HL.mp3",
+          "src": "audio/Worthy.of.Worship.all.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Raise.a.Hallelujah.HL.mp3",
+          "src": "audio/Worthy.of.Worship.all.HL.mp3",
           "group": "bass"
         },
         {
           "name": "PIANO",
-          "src": "audio/Raise.A.Hallelujah.piano.mp3"
+          "src": "audio/Worthy.of.Worship.piano.mp3"
         }
       ]
     },
     {
-      "title": "GOODNESS OF GOD",
+      "title": "THROWBACK WORSHIP MEDLEY",
       "useImages": true,
       "imageFiles": [
-        "3.Goodness.of.God-0.png",
-        "3.Goodness.of.God-1.png"
+        "3.Throwback.Worship.Medley-0.png",
+        "3.Throwback.Worship.Medley-1.png",
+        "3.Throwback.Worship.Medley-2.png",
+        "3.Throwback.Worship.Medley-3.png",
+        "3.Throwback.Worship.Medley-4.png",
+        "3.Throwback.Worship.Medley-5.png",
+        "3.Throwback.Worship.Medley-6.png",
+        "3.Throwback.Worship.Medley-7.png",
+        "3.Throwback.Worship.Medley-8.png",
+        "3.Throwback.Worship.Medley-9.png",
+        "3.Throwback.Worship.Medley-10.png",
+        "3.Throwback.Worship.Medley-11.png",
+        "3.Throwback.Worship.Medley-12.png",
+        "3.Throwback.Worship.Medley-13.png",
+        "3.Throwback.Worship.Medley-14.png",
+        "3.Throwback.Worship.Medley-15.png",
+        "3.Throwback.Worship.Medley-16.png",
+        "3.Throwback.Worship.Medley-17.png",
+        "3.Throwback.Worship.Medley-18.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/3.Goodness.of.God-0.png",
-        "lyric-slide-images/3.Goodness.of.God-1.png",
-        "lyric-slide-images/3.Goodness.of.God-2.png",
-        "lyric-slide-images/3.Goodness.of.God-3.png",
-        "lyric-slide-images/3.Goodness.of.God-4.png",
-        "lyric-slide-images/3.Goodness.of.God-5.png",
-        "lyric-slide-images/3.Goodness.of.God-6.png",
-        "lyric-slide-images/3.Goodness.of.God-7.png",
-        "lyric-slide-images/3.Goodness.of.God-8.png",
-        "lyric-slide-images/3.Goodness.of.God-9.png",
-        "lyric-slide-images/3.Goodness.of.God-10.png",
-        "lyric-slide-images/3.Goodness.of.God-11.png",
-        "lyric-slide-images/3.Goodness.of.God-12.png",
-        "lyric-slide-images/3.Goodness.of.God-13.png",
-        "lyric-slide-images/3.Goodness.of.God-14.png",
-        "lyric-slide-images/3.Goodness.of.God-15.png",
-        "lyric-slide-images/3.Goodness.of.God-16.png",
-        "lyric-slide-images/3.Goodness.of.God-17.png",
-        "lyric-slide-images/3.Goodness.of.God-18.png",
-        "lyric-slide-images/3.Goodness.of.God-19.png",
-        "lyric-slide-images/3.Goodness.of.God-10.png",
-        "lyric-slide-images/3.Goodness.of.God-21.png",
-        "lyric-slide-images/3.Goodness.of.God-22.png",
-        "lyric-slide-images/3.Goodness.of.God-23.png",
-        "lyric-slide-images/3.Goodness.of.God-24.png",
-        "lyric-slide-images/3.Goodness.of.God-25.png",
-        "lyric-slide-images/3.Goodness.of.God-26.png"
+        "lyric-slide-images/3.Throwback.Worship.Medley-0.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-1.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-2.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-3.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-4.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-5.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-6.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-7.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-8.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-9.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-10.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-11.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-12.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-13.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-14.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-15.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-16.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-17.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-18.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-19.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-20.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-21.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-22.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-23.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-24.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-25.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-26.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-27.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-28.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-29.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-30.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-31.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-32.png",
+        "lyric-slide-images/3.Throwback.Worship.Medley-33.png"
       ],
       "tracks": [
         {
           "name": "SOPRANO/MELODY",
-          "src": "audio/Goodness.of.God.HL.mp3",
+          "src": "audio/Throwback.Worship.Medley.all.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Goodness.of.God.HL.mp3",
+          "src": "audio/Throwback.Worship.Medley.all.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Goodness.of.God.HL.mp3",
+          "src": "audio/Throwback.Worship.Medley.all.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Goodness.of.God.HL.mp3",
+          "src": "audio/Throwback.Worship.Medley.all.HL.mp3",
           "group": "bass"
         }
       ]
     },
-        {
-          "title": "THE BLESSING",
-          "useImages": true,
-          "imageFiles": [
-            "4.The.Blessing-0.png",
-            "4.The.Blessing-1.png"
-          ],
-          "lyricSlideImages": [
-            "lyric-slide-images/4.The.Blessing-0.png",
-            "lyric-slide-images/4.The.Blessing-1.png",
-            "lyric-slide-images/4.The.Blessing-2.png",
-            "lyric-slide-images/4.The.Blessing-3.png",
-            "lyric-slide-images/4.The.Blessing-4.png",
-            "lyric-slide-images/4.The.Blessing-5.png",
-            "lyric-slide-images/4.The.Blessing-6.png",
-            "lyric-slide-images/4.The.Blessing-7.png",
-            "lyric-slide-images/4.The.Blessing-8.png",
-            "lyric-slide-images/4.The.Blessing-9.png",
-            "lyric-slide-images/4.The.Blessing-10.png"
-          ],
-          "tracks": [
-            {
-              "name": "SOPRANO/MELODY",
-              "src": "audio/The.Blessing.YT.mp3",
-              "group": "soprano"
-            },
-            {
-              "name": "ALTO",
-              "src": "audio/The.Blessing.YT.mp3",
-              "group": "alto"
-            },
-            {
-              "name": "TENOR",
-              "src": "audio/The.Blessing.YT.mp3",
-              "group": "tenor"
-            },
-            {
-              "name": "BASS",
-              "src": "audio/The.Blessing.YT.mp3",
-              "group": "bass"
-            }
-          ]
-        },
     {
       "title": "ALL TO HONOUR JESUS",
       "useImages": true,
       "imageFiles": [
-        "5.All.to.Honour.Jesus-0.png",
-        "5.All.to.Honour.Jesus-1.png"
+        "4.All.to.Honour.Jesus-0.png",
+        "4.All.to.Honour.Jesus-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/5.All.to.Honour.Jesus-0.png",
-        "lyric-slide-images/5.All.to.Honour.Jesus-1.png",
-        "lyric-slide-images/5.All.to.Honour.Jesus-2.png",
-        "lyric-slide-images/5.All.to.Honour.Jesus-3.png",
-        "lyric-slide-images/5.All.to.Honour.Jesus-4.png",
-        "lyric-slide-images/5.All.to.Honour.Jesus-5.png",
-        "lyric-slide-images/5.All.to.Honour.Jesus-6.png",
-        "lyric-slide-images/5.All.to.Honour.Jesus-7.png",
-        "lyric-slide-images/5.All.to.Honour.Jesus-8.png",
-        "lyric-slide-images/5.All.to.Honour.Jesus-9.png",
-        "lyric-slide-images/5.All.to.Honour.Jesus-10.png",
-        "lyric-slide-images/5.All.to.Honour.Jesus-11.png",
-        "lyric-slide-images/5.All.to.Honour.Jesus-12.png",
-        "lyric-slide-images/5.All.to.Honour.Jesus-13.png",
-        "lyric-slide-images/5.All.to.Honour.Jesus-14.png",
-        "lyric-slide-images/5.All.to.Honour.Jesus-15.png",
-        "lyric-slide-images/5.All.to.Honour.Jesus-16.png",
-        "lyric-slide-images/5.All.to.Honour.Jesus-17.png",
-        "lyric-slide-images/5.All.to.Honour.Jesus-18.png",
-        "lyric-slide-images/5.All.to.Honour.Jesus-19.png"
+        "lyric-slide-images/4.All.to.Honour.Jesus-0.png",
+        "lyric-slide-images/4.All.to.Honour.Jesus-1.png",
+        "lyric-slide-images/4.All.to.Honour.Jesus-2.png",
+        "lyric-slide-images/4.All.to.Honour.Jesus-3.png",
+        "lyric-slide-images/4.All.to.Honour.Jesus-4.png",
+        "lyric-slide-images/4.All.to.Honour.Jesus-5.png",
+        "lyric-slide-images/4.All.to.Honour.Jesus-6.png",
+        "lyric-slide-images/4.All.to.Honour.Jesus-7.png",
+        "lyric-slide-images/4.All.to.Honour.Jesus-8.png",
+        "lyric-slide-images/4.All.to.Honour.Jesus-9.png",
+        "lyric-slide-images/4.All.to.Honour.Jesus-10.png",
+        "lyric-slide-images/4.All.to.Honour.Jesus-11.png",
+        "lyric-slide-images/4.All.to.Honour.Jesus-12.png",
+        "lyric-slide-images/4.All.to.Honour.Jesus-13.png",
+        "lyric-slide-images/4.All.to.Honour.Jesus-14.png",
+        "lyric-slide-images/4.All.to.Honour.Jesus-15.png",
+        "lyric-slide-images/4.All.to.Honour.Jesus-16.png",
+        "lyric-slide-images/4.All.to.Honour.Jesus-17.png",
+        "lyric-slide-images/4.All.to.Honour.Jesus-18.png",
+        "lyric-slide-images/4.All.to.Honour.Jesus-19.png"
       ],
       "tracks": [
         {
@@ -283,59 +266,70 @@
       ]
     },
         {
-          "title": "THE LIGHTHOUSE",
+          "title": "HE HIDETH MY SOUL",
           "useImages": true,
           "imageFiles": [
-            "6.The.Lighthouse-0.png",
-            "6.The.Lighthouse-1.png",
-            "6.The.Lighthouse-2.png",
-            "6.The.Lighthouse-3.png",
-            "6.The.Lighthouse-4.png",
-            "6.The.Lighthouse-5.png",
-            "6.The.Lighthouse-6.png",
-            "6.The.Lighthouse-7.png",
-            "6.The.Lighthouse-8.png",
-            "6.The.Lighthouse-9.png"
+            "5.He.Hideth.My.Soul-0.png",
+            "5.He.Hideth.My.Soul-1.png",
+            "5.He.Hideth.My.Soul-2.png",
+            "5.He.Hideth.My.Soul-3.png",
+            "5.He.Hideth.My.Soul-4.png",
+            "5.He.Hideth.My.Soul-5.png",
+            "5.He.Hideth.My.Soul-6.png",
+            "5.He.Hideth.My.Soul-7.png",
+            "5.He.Hideth.My.Soul-8.png",
+            "5.He.Hideth.My.Soul-9.png",
+            "5.He.Hideth.My.Soul-10.png",
+            "5.He.Hideth.My.Soul-11.png",
+            "5.He.Hideth.My.Soul-12.png"
+
           ],
           "lyricSlideImages": [
-            "lyric-slide-images/6.The.Lighthouse-0.png",
-            "lyric-slide-images/6.The.Lighthouse-1.png",
-            "lyric-slide-images/6.The.Lighthouse-2.png",
-            "lyric-slide-images/6.The.Lighthouse-3.png",
-            "lyric-slide-images/6.The.Lighthouse-4.png",
-            "lyric-slide-images/6.The.Lighthouse-5.png",
-            "lyric-slide-images/6.The.Lighthouse-6.png",
-            "lyric-slide-images/6.The.Lighthouse-7.png",
-            "lyric-slide-images/6.The.Lighthouse-8.png",
-            "lyric-slide-images/6.The.Lighthouse-9.png",
-            "lyric-slide-images/6.The.Lighthouse-10.png",
-            "lyric-slide-images/6.The.Lighthouse-11.png",
-            "lyric-slide-images/6.The.Lighthouse-12.png",
-            "lyric-slide-images/6.The.Lighthouse-13.png",
-            "lyric-slide-images/6.The.Lighthouse-14.png",
-            "lyric-slide-images/6.The.Lighthouse-15.png",
-            "lyric-slide-images/6.The.Lighthouse-16.png",
-            "lyric-slide-images/6.The.Lighthouse-17.png"
+            "lyric-slide-images/5.He.Hideth.My.Soul-0.png",
+            "lyric-slide-images/5.He.Hideth.My.Soul-1.png",
+            "lyric-slide-images/5.He.Hideth.My.Soul-2.png",
+            "lyric-slide-images/5.He.Hideth.My.Soul-3.png",
+            "lyric-slide-images/5.He.Hideth.My.Soul-4.png",
+            "lyric-slide-images/5.He.Hideth.My.Soul-5.png",
+            "lyric-slide-images/5.He.Hideth.My.Soul-6.png",
+            "lyric-slide-images/5.He.Hideth.My.Soul-7.png",
+            "lyric-slide-images/5.He.Hideth.My.Soul-8.png",
+            "lyric-slide-images/5.He.Hideth.My.Soul-9.png",
+            "lyric-slide-images/5.He.Hideth.My.Soul-10.png",
+            "lyric-slide-images/5.He.Hideth.My.Soul-11.png",
+            "lyric-slide-images/5.He.Hideth.My.Soul-12.png",
+            "lyric-slide-images/5.He.Hideth.My.Soul-13.png",
+            "lyric-slide-images/5.He.Hideth.My.Soul-14.png",
+            "lyric-slide-images/5.He.Hideth.My.Soul-15.png",
+            "lyric-slide-images/5.He.Hideth.My.Soul-16.png",
+            "lyric-slide-images/5.He.Hideth.My.Soul-17.png",
+            "lyric-slide-images/5.He.Hideth.My.Soul-18.png",
+            "lyric-slide-images/5.He.Hideth.My.Soul-19.png"
           ],
           "tracks": [
             {
               "name": "SOPRANO/MELODY",
-              "src": "audio/The.Lighthouse.melody.HL.mp3",
+              "src": "audio/He.Hideth.My.Soul.all.HL.mp3",
               "group": "soprano"
             },
             {
               "name": "ALTO",
-              "src": "audio/The.Lighthouse.alto.HL.mp3",
+              "src": "audio/He.Hideth.My.Soul.alto.HL.mp3",
               "group": "alto"
             },
             {
               "name": "TENOR",
-              "src": "audio/The.Lighthouse.alto.HL.mp3",
+              "src": "audio/He.Hideth.My.Soul.tenor.HL.mp3",
               "group": "tenor"
             },
             {
               "name": "BASS",
-              "src": "audio/The.Lighthouse.melody.HL.mp3",
+              "src": "audio/He.Hideth.My.Soul.bass.HL.mp3",
+              "group": "bass"
+            },
+            {
+              "name": "PIANO",
+              "src": "audio/He.Hideth.My.Soul.piano.mp3",
               "group": "bass"
             }
           ]
