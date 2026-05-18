@@ -343,27 +343,22 @@
           "tracks": [
             {
               "name": "SOPRANO/MELODY",
-              "src": "audio/He.Hideth.My.Soul.all.HL.mp3",
+              "src": "audio/His.Eye.Is.On.The.Sparrow.HL.mp3",
               "group": "soprano"
             },
             {
               "name": "ALTO",
-              "src": "audio/He.Hideth.My.Soul.alto.HL.mp3",
+              "src": "audio/His.Eye.Is.On.The.Sparrow.HL.mp3",
               "group": "alto"
             },
             {
               "name": "TENOR",
-              "src": "audio/He.Hideth.My.Soul.tenor.HL.mp3",
+              "src": "audio/His.Eye.Is.On.The.Sparrow.HL.mp3",
               "group": "tenor"
             },
             {
               "name": "BASS",
-              "src": "audio/He.Hideth.My.Soul.bass.HL.mp3",
-              "group": "bass"
-            },
-            {
-              "name": "PIANO",
-              "src": "audio/He.Hideth.My.Soul.piano.mp3",
+              "src": "audio/His.Eye.Is.On.The.Sparrow.HL.mp3",
               "group": "bass"
             }
           ]
