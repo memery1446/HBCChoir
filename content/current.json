@@ -1,364 +1,354 @@
 {
-  "serviceDate": "2026-05-24",
+  "serviceDate": "2026-05-31",
   "headerNotes": [
     "Our Choir music for Sunday is below.",
     "Choir meets Sundays at 4:30pm.",
     "CHILDCARE is coordinated during Sunday and Wednesday rehearsals."
   ],
   "order": [
-    "Blessed Be the Name",
-    "Lord, I Lift Your Name on High",
-    "I Know a Name",
-    "I Speak Jesus",
-    "What a Beautiful Name It Is",
-    "CHOIR SPECIAL: His Eye Is on the Sparrow"
+    "Come Thou Fount of Every Blessing",
+    "House of the Lord",
+    "In Christ Alone with The Solid Rock",
+    "Yet Not I but Through Christ in Me",
+    "Surely the Presence",
+    "CHOIR SPECIAL: The Church"
   ],
   "songs": [
     {
-      "title": "BLESSED BE THE NAME",
+      "title": "COME THOU FOUNT OF EVERY BLESSING",
       "useImages": true,
       "imageFiles": [
-        "1.Blessed.Be.the.Name-0.png"
+        "1.Come.Thou.Fount.of.Every.Blessing-0.png",
+        "1.Come.Thou.Fount.of.Every.Blessing-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/1.Blessed.Be.the.Name-0.png",
-        "lyric-slide-images/1.Blessed.Be.the.Name-1.png",
-        "lyric-slide-images/1.Blessed.Be.the.Name-2.png",
-        "lyric-slide-images/1.Blessed.Be.the.Name-3.png",
-        "lyric-slide-images/1.Blessed.Be.the.Name-4.png",
-        "lyric-slide-images/1.Blessed.Be.the.Name-5.png",
-        "lyric-slide-images/1.Blessed.Be.the.Name-6.png",
-        "lyric-slide-images/1.Blessed.Be.the.Name-7.png",
-        "lyric-slide-images/1.Blessed.Be.the.Name-8.png",
-        "lyric-slide-images/1.Blessed.Be.the.Name-9.png",
-        "lyric-slide-images/1.Blessed.Be.the.Name-10.png",
-        "lyric-slide-images/1.Blessed.Be.the.Name-11.png",
-        "lyric-slide-images/1.Blessed.Be.the.Name-12.png",
-        "lyric-slide-images/1.Blessed.Be.the.Name-13.png",
-        "lyric-slide-images/1.Blessed.Be.the.Name-14.png",
-        "lyric-slide-images/1.Blessed.Be.the.Name-15.png",
-        "lyric-slide-images/1.Blessed.Be.the.Name-16.png",
-        "lyric-slide-images/1.Blessed.Be.the.Name-17.png",
-        "lyric-slide-images/1.Blessed.Be.the.Name-18.png",
-        "lyric-slide-images/1.Blessed.Be.the.Name-19.png",
-        "lyric-slide-images/1.Blessed.Be.the.Name-20.png",
-        "lyric-slide-images/1.Blessed.Be.the.Name-21.png",
-        "lyric-slide-images/1.Blessed.Be.the.Name-22.png",
-        "lyric-slide-images/1.Blessed.Be.the.Name-23.png",
-        "lyric-slide-images/1.Blessed.Be.the.Name-24.png"
+        "lyric-slide-images/1.Come.Thou.Fount.of.Every.Blessing-0.png",
+        "lyric-slide-images/1.Come.Thou.Fount.of.Every.Blessing-1.png",
+        "lyric-slide-images/1.Come.Thou.Fount.of.Every.Blessing-2.png",
+        "lyric-slide-images/1.Come.Thou.Fount.of.Every.Blessing-3.png",
+        "lyric-slide-images/1.Come.Thou.Fount.of.Every.Blessing-4.png",
+        "lyric-slide-images/1.Come.Thou.Fount.of.Every.Blessing-5.png",
+        "lyric-slide-images/1.Come.Thou.Fount.of.Every.Blessing-6.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/Blessed.Be.the.Name.all.HL.mp3",
+          "src": "audio/Come.Thou.Fount.all.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Blessed.Be.the.Name.alto.HL.mp3",
+          "src": "audio/Come.Thou.Fount.harm.1.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Blessed.Be.the.Name.tenor.HL.mp3",
+          "src": "audio/Come.Thou.Fount.harm.1.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Blessed.Be.the.Name.bass.HL.mp3",
+          "src": "audio/Come.Thou.Fount.harm.2.mp3",
           "group": "bass"
         },
         {
           "name": "PIANO",
-          "src": "audio/Blessed.Be.the.Name.piano.mp3"
+          "src": "audio/Come.Thou.Fount.piano.mp3"
         }
       ]
     },
     {
-      "title": "LORD I LIFT YOUR NAME ON HIGH",
+      "title": "HOUSE OF THE LORD",
       "useImages": true,
       "imageFiles": [
-        "2.Lord.I.Lift.Your.Name.on.High-0.png",
-        "2.Lord.I.Lift.Your.Name.on.High-1.png"
-      ],
+        "2.House.of.the.Lord-0.png",
+        "2.House.of.the.Lord-1.png"
+        ],
       "lyricSlideImages": [
-        "lyric-slide-images/2.Lord.I.Lift.Your.Name.on.High-0.png",
-        "lyric-slide-images/2.Lord.I.Lift.Your.Name.on.High-1.png",
-        "lyric-slide-images/2.Lord.I.Lift.Your.Name.on.High-2.png",
-        "lyric-slide-images/2.Lord.I.Lift.Your.Name.on.High-3.png",
-        "lyric-slide-images/2.Lord.I.Lift.Your.Name.on.High-4.png",
-        "lyric-slide-images/2.Lord.I.Lift.Your.Name.on.High-5.png",
-        "lyric-slide-images/2.Lord.I.Lift.Your.Name.on.High-6.png",
-        "lyric-slide-images/2.Lord.I.Lift.Your.Name.on.High-7.png",
-        "lyric-slide-images/2.Lord.I.Lift.Your.Name.on.High-8.png",
-        "lyric-slide-images/2.Lord.I.Lift.Your.Name.on.High-9.png",
-        "lyric-slide-images/2.Lord.I.Lift.Your.Name.on.High-10.png",
-        "lyric-slide-images/2.Lord.I.Lift.Your.Name.on.High-11.png",
-        "lyric-slide-images/2.Lord.I.Lift.Your.Name.on.High-12.png",
-        "lyric-slide-images/2.Lord.I.Lift.Your.Name.on.High-13.png",
-        "lyric-slide-images/2.Lord.I.Lift.Your.Name.on.High-14.png",
-        "lyric-slide-images/2.Lord.I.Lift.Your.Name.on.High-15.png",
-        "lyric-slide-images/2.Lord.I.Lift.Your.Name.on.High-16.png",
-        "lyric-slide-images/2.Lord.I.Lift.Your.Name.on.High-17.png",
-        "lyric-slide-images/2.Lord.I.Lift.Your.Name.on.High-18.png"
-      ],
-      "tracks": [
-        {
-          "name": "MELODY/SOPRANO",
-          "src": "audio/Lord.I.Lift.Your.Name.On.High.all.HL.mp3",
-          "group": "soprano"
-        },
-        {
-          "name": "ALTO",
-          "src": "audio/Lord.I.Lift.Your.Name.On.High.harmony.HL.mp3",
-          "group": "alto"
-        },
-        {
-          "name": "TENOR",
-          "src": "audio/Lord.I.Lift.Your.Name.On.High.harmony.HL.mp3",
-          "group": "tenor"
-        },
-        {
-          "name": "BASS",
-          "src": "audio/Lord.I.Lift.Your.Name.On.High.all.HL.mp3",
-          "group": "bass"
-        },
-        {
-          "name": "PIANO",
-          "src": "audio/Lord.I.Lift.Your.Name.On.High.piano.mp3"
-        }
-      ]
-    },
-    {
-      "title": "I KNOW A NAME",
-      "useImages": true,
-      "imageFiles": [
-        "3.I.Know.a.Name-0.png",
-        "3.I.Know.a.Name-1.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/3.I.Know.a.Name-0.png",
-        "lyric-slide-images/3.I.Know.a.Name-1.png",
-        "lyric-slide-images/3.I.Know.a.Name-2.png",
-        "lyric-slide-images/3.I.Know.a.Name-3.png",
-        "lyric-slide-images/3.I.Know.a.Name-4.png",
-        "lyric-slide-images/3.I.Know.a.Name-5.png",
-        "lyric-slide-images/3.I.Know.a.Name-6.png",
-        "lyric-slide-images/3.I.Know.a.Name-7.png",
-        "lyric-slide-images/3.I.Know.a.Name-8.png",
-        "lyric-slide-images/3.I.Know.a.Name-9.png",
-        "lyric-slide-images/3.I.Know.a.Name-10.png",
-        "lyric-slide-images/3.I.Know.a.Name-11.png",
-        "lyric-slide-images/3.I.Know.a.Name-12.png",
-        "lyric-slide-images/3.I.Know.a.Name-13.png",
-        "lyric-slide-images/3.I.Know.a.Name-14.png",
-        "lyric-slide-images/3.I.Know.a.Name-15.png",
-        "lyric-slide-images/3.I.Know.a.Name-16.png",
-        "lyric-slide-images/3.I.Know.a.Name-17.png",
-        "lyric-slide-images/3.I.Know.a.Name-18.png",
-        "lyric-slide-images/3.I.Know.a.Name-19.png",
-        "lyric-slide-images/3.I.Know.a.Name-20.png",
-        "lyric-slide-images/3.I.Know.a.Name-21.png",
-        "lyric-slide-images/3.I.Know.a.Name-22.png",
-        "lyric-slide-images/3.I.Know.a.Name-23.png",
-        "lyric-slide-images/3.I.Know.a.Name-24.png",
-        "lyric-slide-images/3.I.Know.a.Name-25.png",
-        "lyric-slide-images/3.I.Know.a.Name-26.png",
-        "lyric-slide-images/3.I.Know.a.Name-27.png",
-        "lyric-slide-images/3.I.Know.a.Name-28.png",
-        "lyric-slide-images/3.I.Know.a.Name-29.png",
-        "lyric-slide-images/3.I.Know.a.Name-30.png"
-      ],
-      "tracks": [
-        {
-          "name": "SOPRANO/MELODY",
-          "src": "audio/I.Know.a.Name.HL.mp3",
-          "group": "soprano"
-        },
-        {
-          "name": "ALTO",
-          "src": "audio/I.Know.a.Name.HL.mp3",
-          "group": "alto"
-        },
-        {
-          "name": "TENOR",
-          "src": "audio/I.Know.a.Name.HL.mp3",
-          "group": "tenor"
-        },
-        {
-          "name": "BASS",
-          "src": "audio/I.Know.a.Name.HL.mp3",
-          "group": "bass"
-        }
-      ]
-    },
-    {
-      "title": "I SPEAK JESUS",
-      "useImages": true,
-      "imageFiles": [
-        "4.I.Speak.Jesus-0.png",
-        "4.I.Speak.Jesus-1.png",
-        "4.I.Speak.Jesus-2.png"
+        "lyric-slide-images/2.House.of.the.Lord-0.png",
+        "lyric-slide-images/2.House.of.the.Lord-1.png",
+        "lyric-slide-images/2.House.of.the.Lord-2.png",
+        "lyric-slide-images/2.House.of.the.Lord-3.png",
+        "lyric-slide-images/2.House.of.the.Lord-4.png",
+        "lyric-slide-images/2.House.of.the.Lord-5.png",
+        "lyric-slide-images/2.House.of.the.Lord-6.png",
+        "lyric-slide-images/2.House.of.the.Lord-7.png",
+        "lyric-slide-images/2.House.of.the.Lord-8.png",
+        "lyric-slide-images/2.House.of.the.Lord-9.png",
+        "lyric-slide-images/2.House.of.the.Lord-10.png",
+        "lyric-slide-images/2.House.of.the.Lord-11.png",
+        "lyric-slide-images/2.House.of.the.Lord-12.png",
+        "lyric-slide-images/2.House.of.the.Lord-13.png",
+        "lyric-slide-images/2.House.of.the.Lord-14.png",
+        "lyric-slide-images/2.House.of.the.Lord-15.png",
+        "lyric-slide-images/2.House.of.the.Lord-16.png",
+        "lyric-slide-images/2.House.of.the.Lord-17.png",
+        "lyric-slide-images/2.House.of.the.Lord-18.png",
+        "lyric-slide-images/2.House.of.the.Lord-19.png",
+        "lyric-slide-images/2.House.of.the.Lord-20.png",
+        "lyric-slide-images/2.House.of.the.Lord-21.png",
+        "lyric-slide-images/2.House.of.the.Lord-22.png",
+        "lyric-slide-images/2.House.of.the.Lord-23.png",
+        "lyric-slide-images/2.House.of.the.Lord-24.png",
+        "lyric-slide-images/2.House.of.the.Lord-25.png",
+        "lyric-slide-images/2.House.of.the.Lord-26.png",
+        "lyric-slide-images/2.House.of.the.Lord-27.png",
+        "lyric-slide-images/2.House.of.the.Lord-28.png",
+        "lyric-slide-images/2.House.of.the.Lord-29.png",
+        "lyric-slide-images/2.House.of.the.Lord-30.png",
+        "lyric-slide-images/2.House.of.the.Lord-31.png",
+        "lyric-slide-images/2.House.of.the.Lord-32.png",
+        "lyric-slide-images/2.House.of.the.Lord-33.png"
 
       ],
+      "tracks": [
+        {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/House.of.the.Lord.melody.HL.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "ALTO",
+          "src": "audio/House.of.the.Lord.melody.HL.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "TENOR",
+          "src": "audio/House.of.the.Lord.melody.HL.mp3",
+          "group": "tenor"
+        },
+        {
+          "name": "BASS",
+          "src": "audio/House.of.the.Lord.melody.HL.mp3",
+          "group": "bass"
+        },
+        {
+          "name": "PIANO",
+          "src": "audio/House.of.the.Lord.piano.HL.mp3"
+        }
+      ]
+    },
+    {
+      "title": "IN CHRIST ALONE / SOLID ROCK",
+      "useImages": true,
+      "imageFiles": [
+        "3.In.Christ.Alone.with.The.Solid.Rock-0.png",
+        "3.In.Christ.Alone.with.The.Solid.Rock-1.png",
+        "3.In.Christ.Alone.with.The.Solid.Rock-2.png"
+      ],
       "lyricSlideImages": [
-        "lyric-slide-images/4.I.Speak.Jesus-0.png",
-        "lyric-slide-images/4.I.Speak.Jesus-1.png",
-        "lyric-slide-images/4.I.Speak.Jesus-2.png",
-        "lyric-slide-images/4.I.Speak.Jesus-3.png",
-        "lyric-slide-images/4.I.Speak.Jesus-4.png",
-        "lyric-slide-images/4.I.Speak.Jesus-5.png",
-        "lyric-slide-images/4.I.Speak.Jesus-6.png",
-        "lyric-slide-images/4.I.Speak.Jesus-7.png",
-        "lyric-slide-images/4.I.Speak.Jesus-8.png",
-        "lyric-slide-images/4.I.Speak.Jesus-9.png",
-        "lyric-slide-images/4.I.Speak.Jesus-10.png",
-        "lyric-slide-images/4.I.Speak.Jesus-11.png",
-        "lyric-slide-images/4.I.Speak.Jesus-12.png",
-        "lyric-slide-images/4.I.Speak.Jesus-13.png",
-        "lyric-slide-images/4.I.Speak.Jesus-14.png",
-        "lyric-slide-images/4.I.Speak.Jesus-15.png",
-        "lyric-slide-images/4.I.Speak.Jesus-16.png",
-        "lyric-slide-images/4.I.Speak.Jesus-17.png",
-        "lyric-slide-images/4.I.Speak.Jesus-18.png",
-        "lyric-slide-images/4.I.Speak.Jesus-19.png",
-        "lyric-slide-images/4.I.Speak.Jesus-20.png",
-        "lyric-slide-images/4.I.Speak.Jesus-21.png",
-        "lyric-slide-images/4.I.Speak.Jesus-22.png"
+        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-0.png",
+        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-1.png",
+        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-2.png",
+        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-3.png",
+        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-4.png",
+        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-5.png",
+        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-6.png",
+        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-7.png",
+        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-8.png",
+        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-9.png",
+        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-10.png",
+        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-11.png",
+        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-12.png",
+        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-13.png",
+        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-14.png",
+        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-15.png",
+        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-16.png",
+        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-17.png",
+        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-18.png",
+        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-19.png",
+        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-20.png"
 
       ],
       "tracks": [
         {
           "name": "SOPRANO/MELODY",
-          "src": "audio/I.Speak.Jesus.all.HL.mp3",
+          "src": "audio/In.Christ.Alone.with.Solid.Rock.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/I.Speak.Jesus.all.HL.mp3",
+          "src": "audio/In.Christ.Alone.with.Solid.Rock.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/I.Speak.Jesus.all.HL.mp3",
+          "src": "audio/In.Christ.Alone.with.Solid.Rock.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/I.Speak.Jesus.all.HL.mp3",
+          "src": "audio/In.Christ.Alone.with.Solid.Rock.HL.mp3",
           "group": "bass"
-        },
-        {
-          "name": "PIANO",
-          "src": "audio/I.Speak.Jesus.piano.mp3"
         }
       ]
     },
     {
-      "title": "WHAT A BEAUTIFUL NAME IT IS",
+      "title": "YET NOT I BUT THROUGH CHRIST IN ME",
       "useImages": true,
       "imageFiles": [
-        "5.What.a.Beautiful.Name-0.png",
-        "5.What.a.Beautiful.Name-1.png",
-        "5.What.a.Beautiful.Name-2.png"
+        "4.Yet.Not.I.but.Through.Christ.in.Me-0.png",
+        "4.Yet.Not.I.but.Through.Christ.in.Me-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/5.What.a.Beautiful.Name-0.png",
-        "lyric-slide-images/5.What.a.Beautiful.Name-1.png",
-        "lyric-slide-images/5.What.a.Beautiful.Name-2.png",
-        "lyric-slide-images/5.What.a.Beautiful.Name-3.png",
-        "lyric-slide-images/5.What.a.Beautiful.Name-4.png",
-        "lyric-slide-images/5.What.a.Beautiful.Name-5.png",
-        "lyric-slide-images/5.What.a.Beautiful.Name-6.png",
-        "lyric-slide-images/5.What.a.Beautiful.Name-7.png",
-        "lyric-slide-images/5.What.a.Beautiful.Name-8.png",
-        "lyric-slide-images/5.What.a.Beautiful.Name-9.png",
-        "lyric-slide-images/5.What.a.Beautiful.Name-10.png",
-        "lyric-slide-images/5.What.a.Beautiful.Name-11.png",
-        "lyric-slide-images/5.What.a.Beautiful.Name-12.png",
-        "lyric-slide-images/5.What.a.Beautiful.Name-13.png",
-        "lyric-slide-images/5.What.a.Beautiful.Name-14.png",
-        "lyric-slide-images/5.What.a.Beautiful.Name-15.png",
-        "lyric-slide-images/5.What.a.Beautiful.Name-16.png",
-        "lyric-slide-images/5.What.a.Beautiful.Name-17.png",
-        "lyric-slide-images/5.What.a.Beautiful.Name-18.png",
-        "lyric-slide-images/5.What.a.Beautiful.Name-19.png",
-        "lyric-slide-images/5.What.a.Beautiful.Name-20.png"
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-0.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-1.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-2.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-3.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-4.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-5.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-6.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-7.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-8.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-9.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-10.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-11.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-12.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-13.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-14.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-15.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-16.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-17.png"
       ],
       "tracks": [
         {
           "name": "SOPRANO/MELODY",
-          "src": "audio/Beautiful.Name.final.HL.mp3",
+          "src": "audio/Yet.Not.I.But.Through.Christ.In.Me.all.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Beautiful.Name.final.HL.mp3",
+          "src": "audio/Yet.Not.I.But.Through.Christ.In.Me.all.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Beautiful.Name.final.HL.mp3",
+          "src": "audio/Yet.Not.I.But.Through.Christ.In.Me.all.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Beautiful.Name.final.HL.mp3",
+          "src": "audio/Yet.Not.I.But.Through.Christ.In.Me.all.mp3",
           "group": "bass"
         },
         {
           "name": "PIANO",
-          "src": "audio/Beautiful.Name.piano.mp3"
+          "src": "audio/Yet.Not.I.But.Through.Christ.In.Me.piano.mp3"
+        }
+      ]
+    },
+    {
+      "title": "SURELY THE PRESENCE",
+      "useImages": true,
+      "imageFiles": [
+        "5.Surely.the.Presence.of.the.Lord-0.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/5.Surely.the.Presence-0.png",
+        "lyric-slide-images/5.Surely.the.Presence-1.png",
+        "lyric-slide-images/5.Surely.the.Presence-2.png",
+        "lyric-slide-images/5.Surely.the.Presence-3.png",
+        "lyric-slide-images/5.Surely.the.Presence-4.png",
+        "lyric-slide-images/5.Surely.the.Presence-5.png",
+        "lyric-slide-images/5.Surely.the.Presence-6.png",
+        "lyric-slide-images/5.Surely.the.Presence-7.png",
+        "lyric-slide-images/5.Surely.the.Presence-8.png",
+        "lyric-slide-images/5.Surely.the.Presence-9.png",
+        "lyric-slide-images/5.Surely.the.Presence-10.png",
+        "lyric-slide-images/5.Surely.the.Presence-11.png",
+        "lyric-slide-images/5.Surely.the.Presence-12.png"
+      ],
+      "tracks": [
+        {
+          "name": "SOPRANO/MELODY",
+          "src": "audio/Surely.The.Presence.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "ALTO",
+          "src": "audio/Surely.The.Presence.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "TENOR",
+          "src": "audio/Surely.The.Presence.mp3",
+          "group": "tenor"
+        },
+        {
+          "name": "BASS",
+          "src": "audio/Surely.The.Presence.mp3",
+          "group": "bass"
         }
       ]
     },
         {
-          "title": "HIS EYE IS ON THE SPARROW",
+          "title": "THE CHURCH",
           "useImages": true,
           "imageFiles": [
-            "6.His.Eye.Is.on.the.Sparrow-0.png",
-            "6.His.Eye.Is.on.the.Sparrow-1.png"
-
+            "6.The.Church-0.png",
+            "6.The.Church-1.png",
+            "6.The.Church-2.png",
+            "6.The.Church-3.png"
           ],
           "lyricSlideImages": [
-            "lyric-slide-images/6.His.Eye.Is.on.the.Sparrow-0.png",
-            "lyric-slide-images/6.His.Eye.Is.on.the.Sparrow-1.png",
-            "lyric-slide-images/6.His.Eye.Is.on.the.Sparrow-2.png",
-            "lyric-slide-images/6.His.Eye.Is.on.the.Sparrow-3.png",
-            "lyric-slide-images/6.His.Eye.Is.on.the.Sparrow-4.png",
-            "lyric-slide-images/6.His.Eye.Is.on.the.Sparrow-5.png",
-            "lyric-slide-images/6.His.Eye.Is.on.the.Sparrow-6.png",
-            "lyric-slide-images/6.His.Eye.Is.on.the.Sparrow-7.png",
-            "lyric-slide-images/6.His.Eye.Is.on.the.Sparrow-8.png",
-            "lyric-slide-images/6.His.Eye.Is.on.the.Sparrow-9.png",
-            "lyric-slide-images/6.His.Eye.Is.on.the.Sparrow-10.png",
-            "lyric-slide-images/6.His.Eye.Is.on.the.Sparrow-11.png",
-            "lyric-slide-images/6.His.Eye.Is.on.the.Sparrow-12.png",
-            "lyric-slide-images/6.His.Eye.Is.on.the.Sparrow-13.png",
-            "lyric-slide-images/6.His.Eye.Is.on.the.Sparrow-14.png",
-            "lyric-slide-images/6.His.Eye.Is.on.the.Sparrow-15.png",
-            "lyric-slide-images/6.His.Eye.Is.on.the.Sparrow-16.png",
-            "lyric-slide-images/6.His.Eye.Is.on.the.Sparrow-17.png"
+            "lyric-slide-images/6.The.Church-0.png",
+            "lyric-slide-images/6.The.Church-1.png",
+            "lyric-slide-images/6.The.Church-2.png",
+            "lyric-slide-images/6.The.Church-3.png",
+            "lyric-slide-images/6.The.Church-4.png",
+            "lyric-slide-images/6.The.Church-5.png",
+            "lyric-slide-images/6.The.Church-6.png",
+            "lyric-slide-images/6.The.Church-7.png",
+            "lyric-slide-images/6.The.Church-8.png",
+            "lyric-slide-images/6.The.Church-9.png",
+            "lyric-slide-images/6.The.Church-10.png",
+            "lyric-slide-images/6.The.Church-11.png",
+            "lyric-slide-images/6.The.Church-12.png",
+            "lyric-slide-images/6.The.Church-13.png",
+            "lyric-slide-images/6.The.Church-14.png",
+            "lyric-slide-images/6.The.Church-15.png",
+            "lyric-slide-images/6.The.Church-16.png",
+            "lyric-slide-images/6.The.Church-17.png",
+            "lyric-slide-images/6.The.Church-18.png",
+            "lyric-slide-images/6.The.Church-19.png",
+            "lyric-slide-images/6.The.Church-20.png",
+            "lyric-slide-images/6.The.Church-21.png",
+            "lyric-slide-images/6.The.Church-22.png",
+            "lyric-slide-images/6.The.Church-23.png",
+            "lyric-slide-images/6.The.Church-24.png",
+            "lyric-slide-images/6.The.Church-25.png",
+            "lyric-slide-images/6.The.Church-26.png",
+            "lyric-slide-images/6.The.Church-27.png",
+            "lyric-slide-images/6.The.Church-28.png",
+            "lyric-slide-images/6.The.Church-29.png",
+            "lyric-slide-images/6.The.Church-30.png",
+            "lyric-slide-images/6.The.Church-31.png",
+            "lyric-slide-images/6.The.Church-32.png",
+            "lyric-slide-images/6.The.Church-33.png",
+            "lyric-slide-images/6.The.Church-34.png",
+            "lyric-slide-images/6.The.Church-35.png",
+            "lyric-slide-images/6.The.Church-36.png"
+
           ],
           "tracks": [
             {
               "name": "SOPRANO/MELODY",
-              "src": "audio/His.Eye.Is.On.The.Sparrow.HL.mp3",
+              "src": "audio/The.Church.all.mp3",
               "group": "soprano"
             },
             {
               "name": "ALTO",
-              "src": "audio/His.Eye.Is.On.The.Sparrow.HL.mp3",
+              "src": "audio/The.Church.all.mp3",
               "group": "alto"
             },
             {
               "name": "TENOR",
-              "src": "audio/His.Eye.Is.On.The.Sparrow.HL.mp3",
+              "src": "audio/The.Church.all.mp3",
               "group": "tenor"
             },
             {
               "name": "BASS",
-              "src": "audio/His.Eye.Is.On.The.Sparrow.HL.mp3",
+              "src": "audio/The.Church.all.mp3",
               "group": "bass"
             }
           ]
