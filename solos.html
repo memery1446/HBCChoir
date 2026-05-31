@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Music / Solos – HBC Choir</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            min-height: 100vh;
+            color: #333;
+            background:
+                    linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)),
+                    url('Harmony-Aireal.jpg') center top / cover no-repeat fixed;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            padding-top: var(--header-offset, 140px);
+        }
+
+        header {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%;
+            z-index: 100;
+            text-align: center;
+            padding: 24px 0;
+            background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35));
+            backdrop-filter: blur(2px);
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: white;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: white;
+            font-style: italic;
+        }
+
+        /* Nav bar */
+        .nav-bar {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 10px;
+            flex-wrap: wrap;
+        }
+
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            background: rgba(255,255,255,0.15);
+            padding: 6px 20px;
+            border-radius: 20px;
+            font-size: 0.95rem;
+            font-weight: bold;
+            transition: all 0.2s ease;
+            border: 1px solid rgba(255,255,255,0.4);
+            letter-spacing: 0.3px;
+        }
+
+        .nav-link:hover { background: rgba(255,255,255,0.32); transform: translateY(-1px); }
+        .nav-link.active { background: rgba(255,255,255,0.28); border-color: white; }
+
+        /* Page card */
+        .section {
+            background: white;
+            margin: 30px 0;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+
+        .section h2 {
+            color: #2c3e50;
+            margin-bottom: 8px;
+            font-size: 2rem;
+            text-align: center;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        .page-desc {
+            text-align: center;
+            color: #5d6d7e;
+            font-style: italic;
+            margin-bottom: 30px;
+            font-size: 0.97rem;
+        }
+
+        /* Date slot card */
+        .slot-card {
+            background: #f8f9fa;
+            border-left: 5px solid #3498db;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            overflow: hidden;
+            transition: box-shadow 0.2s ease;
+        }
+
+        .slot-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.1); }
+
+        .slot-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 20px;
+            cursor: default;
+        }
+
+        .slot-date {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .slot-status-badge {
+            font-size: 0.8rem;
+            font-weight: bold;
+            padding: 4px 12px;
+            border-radius: 20px;
+            letter-spacing: 0.5px;
+        }
+
+        .badge-open {
+            background: #d5f5e3;
+            color: #1e8449;
+            border: 1px solid #a9dfbf;
+        }
+
+        .badge-filled {
+            background: #fde8e8;
+            color: #c0392b;
+            border: 1px solid #f5b7b1;
+        }
+
+        /* Filled summary row */
+        .slot-filled-summary {
+            display: flex;
+            gap: 20px;
+            padding: 0 20px 16px 20px;
+            flex-wrap: wrap;
+        }
+
+        .filled-field {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .filled-label {
+            font-size: 0.72rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #95a5a6;
+        }
+
+        .filled-value {
+            font-size: 0.98rem;
+            color: #2c3e50;
+            font-weight: 500;
+        }
+
+        /* Sign-up form */
+        .slot-form {
+            padding: 0 20px 20px 20px;
+            border-top: 1px solid #e9ecef;
+            padding-top: 16px;
+        }
+
+        .slot-form.hidden { display: none; }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px;
+            margin-bottom: 16px;
+        }
+
+        @media (max-width: 600px) { .form-grid { grid-template-columns: 1fr; } }
+
+        .field-group {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .field-group label {
+            font-size: 0.78rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #5d6d7e;
+        }
+
+        .field-group input[type="text"] {
+            padding: 10px 12px;
+            border: 2px solid #dee2e6;
+            border-radius: 7px;
+            font-size: 1rem;
+            font-family: 'Georgia', serif;
+            color: #2c3e50;
+            transition: border-color 0.2s;
+            width: 100%;
+        }
+
+        .field-group input[type="text"]:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+
+        /* Accompaniment toggle */
+        .accompaniment-toggle {
+            display: flex;
+            gap: 0;
+            border-radius: 7px;
+            overflow: hidden;
+            border: 2px solid #dee2e6;
+        }
+
+        .toggle-option {
+            flex: 1;
+            text-align: center;
+            padding: 10px 8px;
+            font-size: 0.9rem;
+            font-family: 'Georgia', serif;
+            cursor: pointer;
+            background: white;
+            color: #5d6d7e;
+            transition: all 0.2s;
+            user-select: none;
+            border: none;
+            font-weight: 500;
+        }
+
+        .toggle-option:first-child { border-right: 1px solid #dee2e6; }
+
+        .toggle-option.selected {
+            background: #3498db;
+            color: white;
+            font-weight: bold;
+        }
+
+        .toggle-option:hover:not(.selected) { background: #e8f4fd; }
+
+        /* Submit button */
+        .submit-btn {
+            background: #27ae60;
+            color: white;
+            border: none;
+            padding: 11px 28px;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-family: 'Georgia', serif;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .submit-btn:hover {
+            background: #229954;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(39,174,96,0.35);
+        }
+
+        /* Intro note */
+        .intro-note {
+            background: #fdf6ee;
+            border: 2px solid #c8954a;
+            border-radius: 10px;
+            padding: 20px 24px;
+            margin-bottom: 28px;
+            font-size: 0.97rem;
+            color: #2c3e50;
+            line-height: 1.8;
+        }
+
+        .intro-note em { color: #b07d38; font-style: italic; font-weight: bold; }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 1.75rem; }
+            .subtitle { font-size: 0.95rem; }
+            .section { padding: 20px 15px; }
+            .slot-header { flex-direction: column; align-items: flex-start; gap: 8px; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>🎵 Harmony Baptist Church Choir</h1>
+        <p class="subtitle">Singing to the glory of God</p>
+        <nav class="nav-bar">
+            <a href="index.html" class="nav-link">🎵 Sunday Songs</a>
+            <a href="solos.html" class="nav-link active">🎤 Special Music / Solos</a>
+        </nav>
+    </header>
+
+    <div class="section">
+        <h2>🎤 Special Music / Solos</h2>
+        <p class="page-desc">Sign up to sing a solo or provide special music on an upcoming Sunday.</p>
+
+        <div class="intro-note">
+            <p>Special music at Harmony Baptist is an act of worship and, like all acts of worship, it begins in the heart of the one offering it. If the Spirit has prompted you to share a song, we'd love to hear it. Simply sign up for an open Sunday.</p>
+            <p style="margin-top: 12px;">We don't recruit for special music, not out of indifference, but out of conviction. Romans 12 reminds us that gifts are given to be used — actively, willingly, as good stewards before God. <em>The sign-up sheet is open. If God has placed something on your heart to sing, step forward.</em></p>
+        </div>
+
+        <div id="slotsContainer"></div>
+    </div>
+</div>
+
+<script>
+    // ─── Supabase config ───────────────────────────────────────────────────────
+    const SUPABASE_URL  = 'https://dcazwmsfahthsorfkyjl.supabase.co';
+    const SUPABASE_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRjYXp3bXNmYWh0aHNvcmZreWpsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODAyMzk2MjksImV4cCI6MjA5NTgxNTYyOX0.k7gOybsz_j4HPWF78eAW4S2Xm2q3DaWlxCusJuxtbYk';
+    const HEADERS = {
+        'Content-Type': 'application/json',
+        'apikey': SUPABASE_ANON,
+        'Authorization': 'Bearer ' + SUPABASE_ANON
+    };
+
+    // ─── Slot definitions (dates only — entries come from Supabase) ────────────
+    // To add more Sundays, append to this array. Format: YYYY-MM-DD.
+    const SLOT_DEFS = [
+        { date: '2026-06-21', label: 'Sunday, June 21, 2026'  },
+        { date: '2026-06-28', label: 'Sunday, June 28, 2026' },
+        { date: '2026-07-19', label: 'Sunday, July 19, 2026' },
+        { date: '2026-07-26', label: 'Sunday, July 26, 2026' },
+        { date: '2026-08-16', label: 'Sunday, August 16, 2026'  },
+        { date: '2026-06-07', label: 'Sunday, June 7, 2026' }
+    ];
+
+    // Merged working state: SLOT_DEFS + any rows already in Supabase
+    let slots = SLOT_DEFS.map(d => ({ ...d, entry: null }));
+
+    // ─── Supabase helpers ──────────────────────────────────────────────────────
+    async function fetchEntries() {
+        const res = await fetch(
+            `${SUPABASE_URL}/rest/v1/solos?select=slot_date,member_name,solo_title,accompaniment`,
+            { headers: HEADERS }
+        );
+        if (!res.ok) throw new Error('Failed to load sign-ups.');
+        return res.json();
+    }
+
+    async function insertEntry(date, member, solo, accompaniment) {
+        const res = await fetch(`${SUPABASE_URL}/rest/v1/solos`, {
+            method: 'POST',
+            headers: { ...HEADERS, 'Prefer': 'return=minimal' },
+            body: JSON.stringify({
+                slot_date:      date,
+                slot_label:     SLOT_DEFS.find(d => d.date === date)?.label ?? date,
+                member_name:    member,
+                solo_title:     solo,
+                accompaniment:  accompaniment
+            })
+        });
+        // 201 = created, 409 = unique violation (slot already taken)
+        return res.status;
+    }
+
+    // ─── Load & merge ──────────────────────────────────────────────────────────
+    async function loadSlots() {
+        const container = document.getElementById('slotsContainer');
+        container.innerHTML = '<p style="text-align:center;color:#888;padding:30px 0;">Loading…</p>';
+        try {
+            const rows = await fetchEntries();
+            slots = SLOT_DEFS.map(def => {
+                const row = rows.find(r => r.slot_date === def.date);
+                return {
+                    ...def,
+                    entry: row
+                        ? { member: row.member_name, solo: row.solo_title, accompaniment: row.accompaniment }
+                        : null
+                };
+            });
+        } catch (e) {
+            container.innerHTML = '<p style="text-align:center;color:#c0392b;padding:30px 0;">Could not load sign-ups. Please refresh.</p>';
+            return;
+        }
+        render();
+    }
+
+    // ─── Rendering ─────────────────────────────────────────────────────────────
+    function render() {
+        const container = document.getElementById('slotsContainer');
+        container.innerHTML = '';
+        slots.forEach(slot => container.appendChild(buildSlotCard(slot)));
+    }
+
+    function buildSlotCard(slot) {
+        const card = document.createElement('div');
+        card.className = 'slot-card';
+        card.id = 'card-' + slot.date;
+
+        if (slot.entry) {
+            card.innerHTML = `
+                <div class="slot-header">
+                    <span class="slot-date">${slot.label}</span>
+                    <span class="slot-status-badge badge-filled">Filled</span>
+                </div>
+                <div class="slot-filled-summary">
+                    <div class="filled-field">
+                        <span class="filled-label">Choir Member</span>
+                        <span class="filled-value">${escHtml(slot.entry.member)}</span>
+                    </div>
+                    <div class="filled-field">
+                        <span class="filled-label">Solo</span>
+                        <span class="filled-value">${escHtml(slot.entry.solo)}</span>
+                    </div>
+                    <div class="filled-field">
+                        <span class="filled-label">Accompaniment</span>
+                        <span class="filled-value">${escHtml(slot.entry.accompaniment)}</span>
+                    </div>
+                </div>`;
+        } else {
+            card.innerHTML = `
+                <div class="slot-header">
+                    <span class="slot-date">${slot.label}</span>
+                    <span class="slot-status-badge badge-open">Open</span>
+                </div>
+                <div class="slot-form" id="form-${slot.date}">
+                    <div class="form-grid">
+                        <div class="field-group">
+                            <label for="member-${slot.date}">Choir Member</label>
+                            <input type="text" id="member-${slot.date}" placeholder="Your name" maxlength="60" autocomplete="name">
+                        </div>
+                        <div class="field-group">
+                            <label for="solo-${slot.date}">Solo / Song Title</label>
+                            <input type="text" id="solo-${slot.date}" placeholder="Song title" maxlength="80">
+                        </div>
+                        <div class="field-group">
+                            <label>Accompaniment</label>
+                            <div class="accompaniment-toggle" id="toggle-${slot.date}" data-value="Jennifer – Piano">
+                                <button class="toggle-option selected"
+                                    onclick="selectToggle('${slot.date}', 'Jennifer – Piano', this)">
+                                    🎹 Jennifer – Piano
+                                </button>
+                                <button class="toggle-option"
+                                    onclick="selectToggle('${slot.date}', 'CD', this)">
+                                    💿 CD
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="submit-btn" id="submit-${slot.date}" onclick="submitSlot('${slot.date}')">Save My Slot →</button>
+                </div>`;
+        }
+        return card;
+    }
+
+    // ─── Interactions ──────────────────────────────────────────────────────────
+    function selectToggle(date, value, clickedBtn) {
+        const toggleEl = document.getElementById('toggle-' + date);
+        toggleEl.dataset.value = value;
+        toggleEl.querySelectorAll('.toggle-option').forEach(btn => {
+            btn.classList.toggle('selected', btn === clickedBtn);
+        });
+    }
+
+    async function submitSlot(date) {
+        const member        = document.getElementById('member-' + date).value.trim();
+        const solo          = document.getElementById('solo-'   + date).value.trim();
+        const accompaniment = document.getElementById('toggle-' + date).dataset.value;
+
+        if (!member) {
+            alert('Please enter your name.');
+            document.getElementById('member-' + date).focus();
+            return;
+        }
+        if (!solo) {
+            alert('Please enter the song title.');
+            document.getElementById('solo-' + date).focus();
+            return;
+        }
+
+        const btn = document.getElementById('submit-' + date);
+        btn.disabled = true;
+        btn.textContent = 'Saving…';
+
+        const status = await insertEntry(date, member, solo, accompaniment);
+
+        if (status === 201) {
+            // Success — update local state and re-render
+            const idx = slots.findIndex(s => s.date === date);
+            slots[idx].entry = { member, solo, accompaniment };
+            const card = document.getElementById('card-' + date);
+            card.style.transition = 'opacity 0.25s ease';
+            card.style.opacity = '0';
+            setTimeout(() => {
+                render();
+                const newCard = document.getElementById('card-' + date);
+                if (newCard) {
+                    newCard.style.opacity = '0';
+                    newCard.style.transition = 'opacity 0.35s ease';
+                    requestAnimationFrame(() => { newCard.style.opacity = '1'; });
+                }
+            }, 260);
+        } else if (status === 409) {
+            alert('This date was just claimed by someone else. Refreshing the page…');
+            loadSlots();
+        } else {
+            alert('Something went wrong. Please try again.');
+            btn.disabled = false;
+            btn.textContent = 'Save My Slot →';
+        }
+    }
+
+    // ─── Utilities ─────────────────────────────────────────────────────────────
+    function escHtml(str) {
+        const d = document.createElement('div');
+        d.appendChild(document.createTextNode(str));
+        return d.innerHTML;
+    }
+
+    function setHeaderOffset() {
+        const header = document.querySelector('header');
+        if (!header) return;
+        const h = header.getBoundingClientRect().height;
+        document.documentElement.style.setProperty('--header-offset', (h + 12) + 'px');
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        loadSlots();
+        setHeaderOffset();
+        window.addEventListener('load', setHeaderOffset);
+        window.addEventListener('resize', setHeaderOffset);
+        if ('ResizeObserver' in window) {
+            new ResizeObserver(setHeaderOffset).observe(document.querySelector('header'));
+        }
+    });
+</script>
+</body>
+</html>
