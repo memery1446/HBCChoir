@@ -1,354 +1,340 @@
 {
-  "serviceDate": "2026-05-31",
+  "serviceDate": "2026-06-21",
   "headerNotes": [
     "Our Choir music for Sunday is below.",
     "Choir meets Sundays at 4:30pm.",
     "CHILDCARE is coordinated during Sunday and Wednesday rehearsals."
   ],
   "order": [
-    "Come Thou Fount of Every Blessing",
-    "House of the Lord",
-    "In Christ Alone with The Solid Rock",
-    "Yet Not I but Through Christ in Me",
-    "Surely the Presence",
-    "CHOIR SPECIAL: The Church"
+    "Great Is the Lord",
+    "This Is My Father's World",
+    "How Deep the Father's Love for Us",
+    "Good, Good Father",
+    "OFFERTORY: Think About His Love",
+    "CHOIR SPECIAL: Love of Jesus Medley"
   ],
   "songs": [
     {
-      "title": "COME THOU FOUNT OF EVERY BLESSING",
+      "title": "GREAT IS THE LORD",
       "useImages": true,
       "imageFiles": [
-        "1.Come.Thou.Fount.of.Every.Blessing-0.png",
-        "1.Come.Thou.Fount.of.Every.Blessing-1.png"
+        "1-Great-Is-the-Lord-0.png",
+        "1-Great-Is-the-Lord-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/1.Come.Thou.Fount.of.Every.Blessing-0.png",
-        "lyric-slide-images/1.Come.Thou.Fount.of.Every.Blessing-1.png",
-        "lyric-slide-images/1.Come.Thou.Fount.of.Every.Blessing-2.png",
-        "lyric-slide-images/1.Come.Thou.Fount.of.Every.Blessing-3.png",
-        "lyric-slide-images/1.Come.Thou.Fount.of.Every.Blessing-4.png",
-        "lyric-slide-images/1.Come.Thou.Fount.of.Every.Blessing-5.png",
-        "lyric-slide-images/1.Come.Thou.Fount.of.Every.Blessing-6.png"
+        "lyric-slide-images/2.Great.Is.the.Lord-0.png",
+        "lyric-slide-images/2.Great.Is.the.Lord-1.png",
+        "lyric-slide-images/2.Great.Is.the.Lord-2.png",
+        "lyric-slide-images/2.Great.Is.the.Lord-3.png",
+        "lyric-slide-images/2.Great.Is.the.Lord-4.png",
+        "lyric-slide-images/2.Great.Is.the.Lord-5.png",
+        "lyric-slide-images/2.Great.Is.the.Lord-6.png",
+        "lyric-slide-images/2.Great.Is.the.Lord-7.png",
+        "lyric-slide-images/2.Great.Is.the.Lord-8.png",
+        "lyric-slide-images/2.Great.Is.the.Lord-9.png",
+        "lyric-slide-images/2.Great.Is.the.Lord-10.png",
+        "lyric-slide-images/2.Great.Is.the.Lord-11.png",
+        "lyric-slide-images/2.Great.Is.the.Lord-12.png",
+        "lyric-slide-images/2.Great.Is.the.Lord-13.png",
+        "lyric-slide-images/2.Great.Is.the.Lord-14.png",
+        "lyric-slide-images/2.Great.Is.the.Lord-15.png",
+        "lyric-slide-images/2.Great.Is.the.Lord-16.png",
+        "lyric-slide-images/2.Great.Is.the.Lord-17.png",
+        "lyric-slide-images/2.Great.Is.the.Lord-18.png",
+        "lyric-slide-images/2.Great.Is.the.Lord-19.png",
+        "lyric-slide-images/2.Great.Is.the.Lord-20.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/Come.Thou.Fount.all.mp3",
+          "src": "audio/Great.Is.The.Lord.all.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Come.Thou.Fount.harm.1.mp3",
+          "src": "audio/Great.Is.The.Lord.alto.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Come.Thou.Fount.harm.1.mp3",
+          "src": "audio/Great.Is.The.Lord.tenor.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Come.Thou.Fount.harm.2.mp3",
+          "src": "audio/Great.Is.The.Lord.bass.HL.mp3",
           "group": "bass"
         },
         {
           "name": "PIANO",
-          "src": "audio/Come.Thou.Fount.piano.mp3"
+          "src": "audio/Great.Is.The.Lord.piano.HL.mp3"
         }
       ]
     },
     {
-      "title": "HOUSE OF THE LORD",
+      "title": "THIS IS MY FATHERS WORLD",
       "useImages": true,
       "imageFiles": [
-        "2.House.of.the.Lord-0.png",
-        "2.House.of.the.Lord-1.png"
+        "2-This-Is-My-Fathers-World-0.png"
         ],
       "lyricSlideImages": [
-        "lyric-slide-images/2.House.of.the.Lord-0.png",
-        "lyric-slide-images/2.House.of.the.Lord-1.png",
-        "lyric-slide-images/2.House.of.the.Lord-2.png",
-        "lyric-slide-images/2.House.of.the.Lord-3.png",
-        "lyric-slide-images/2.House.of.the.Lord-4.png",
-        "lyric-slide-images/2.House.of.the.Lord-5.png",
-        "lyric-slide-images/2.House.of.the.Lord-6.png",
-        "lyric-slide-images/2.House.of.the.Lord-7.png",
-        "lyric-slide-images/2.House.of.the.Lord-8.png",
-        "lyric-slide-images/2.House.of.the.Lord-9.png",
-        "lyric-slide-images/2.House.of.the.Lord-10.png",
-        "lyric-slide-images/2.House.of.the.Lord-11.png",
-        "lyric-slide-images/2.House.of.the.Lord-12.png",
-        "lyric-slide-images/2.House.of.the.Lord-13.png",
-        "lyric-slide-images/2.House.of.the.Lord-14.png",
-        "lyric-slide-images/2.House.of.the.Lord-15.png",
-        "lyric-slide-images/2.House.of.the.Lord-16.png",
-        "lyric-slide-images/2.House.of.the.Lord-17.png",
-        "lyric-slide-images/2.House.of.the.Lord-18.png",
-        "lyric-slide-images/2.House.of.the.Lord-19.png",
-        "lyric-slide-images/2.House.of.the.Lord-20.png",
-        "lyric-slide-images/2.House.of.the.Lord-21.png",
-        "lyric-slide-images/2.House.of.the.Lord-22.png",
-        "lyric-slide-images/2.House.of.the.Lord-23.png",
-        "lyric-slide-images/2.House.of.the.Lord-24.png",
-        "lyric-slide-images/2.House.of.the.Lord-25.png",
-        "lyric-slide-images/2.House.of.the.Lord-26.png",
-        "lyric-slide-images/2.House.of.the.Lord-27.png",
-        "lyric-slide-images/2.House.of.the.Lord-28.png",
-        "lyric-slide-images/2.House.of.the.Lord-29.png",
-        "lyric-slide-images/2.House.of.the.Lord-30.png",
-        "lyric-slide-images/2.House.of.the.Lord-31.png",
-        "lyric-slide-images/2.House.of.the.Lord-32.png",
-        "lyric-slide-images/2.House.of.the.Lord-33.png"
-
+        "lyric-slide-images/3.This.Is.My.Fathers.World-0.png",
+        "lyric-slide-images/3.This.Is.My.Fathers.World-1.png",
+        "lyric-slide-images/3.This.Is.My.Fathers.World-2.png",
+        "lyric-slide-images/3.This.Is.My.Fathers.World-3.png",
+        "lyric-slide-images/3.This.Is.My.Fathers.World-4.png",
+        "lyric-slide-images/3.This.Is.My.Fathers.World-5.png",
+        "lyric-slide-images/3.This.Is.My.Fathers.World-6.png",
+        "lyric-slide-images/3.This.Is.My.Fathers.World-7.png",
+        "lyric-slide-images/3.This.Is.My.Fathers.World-8.png",
+        "lyric-slide-images/3.This.Is.My.Fathers.World-9.png",
+        "lyric-slide-images/3.This.Is.My.Fathers.World-10.png",
+        "lyric-slide-images/3.This.Is.My.Fathers.World-11.png",
+        "lyric-slide-images/3.This.Is.My.Fathers.World-12.png",
+        "lyric-slide-images/3.This.Is.My.Fathers.World-13.png",
+        "lyric-slide-images/3.This.Is.My.Fathers.World-14.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/House.of.the.Lord.melody.HL.mp3",
+          "src": "audio/This.Is.My.Fathers.World.all.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/House.of.the.Lord.melody.HL.mp3",
+          "src": "audio/This.Is.My.Fathers.World.alto.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/House.of.the.Lord.melody.HL.mp3",
+          "src": "audio/This.Is.My.Fathers.World.tenor.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/House.of.the.Lord.melody.HL.mp3",
+          "src": "audio/This.Is.My.Fathers.World.bass.HL.mp3",
           "group": "bass"
         },
         {
           "name": "PIANO",
-          "src": "audio/House.of.the.Lord.piano.HL.mp3"
+          "src": "audio/This.Is.My.Fathers.World.piano.HL.mp3"
         }
       ]
     },
     {
-      "title": "IN CHRIST ALONE / SOLID ROCK",
+      "title": "HOW DEEP THE FATHERS LOVE FOR US",
       "useImages": true,
       "imageFiles": [
-        "3.In.Christ.Alone.with.The.Solid.Rock-0.png",
-        "3.In.Christ.Alone.with.The.Solid.Rock-1.png",
-        "3.In.Christ.Alone.with.The.Solid.Rock-2.png"
+        "3-How-Deep-the-Fathers-Love-for-Us-0.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-0.png",
-        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-1.png",
-        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-2.png",
-        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-3.png",
-        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-4.png",
-        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-5.png",
-        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-6.png",
-        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-7.png",
-        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-8.png",
-        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-9.png",
-        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-10.png",
-        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-11.png",
-        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-12.png",
-        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-13.png",
-        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-14.png",
-        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-15.png",
-        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-16.png",
-        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-17.png",
-        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-18.png",
-        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-19.png",
-        "lyric-slide-images/3.In.Christ.Alone.with.The.Solid.Rock-20.png"
-
+        "lyric-slide-images/4.How.Deep.the.Fathers.Love-0.png",
+        "lyric-slide-images/4.How.Deep.the.Fathers.Love-1.png",
+        "lyric-slide-images/4.How.Deep.the.Fathers.Love-2.png",
+        "lyric-slide-images/4.How.Deep.the.Fathers.Love-3.png",
+        "lyric-slide-images/4.How.Deep.the.Fathers.Love-4.png",
+        "lyric-slide-images/4.How.Deep.the.Fathers.Love-5.png",
+        "lyric-slide-images/4.How.Deep.the.Fathers.Love-6.png",
+        "lyric-slide-images/4.How.Deep.the.Fathers.Love-7.png",
+        "lyric-slide-images/4.How.Deep.the.Fathers.Love-8.png",
+        "lyric-slide-images/4.How.Deep.the.Fathers.Love-9.png",
+        "lyric-slide-images/4.How.Deep.the.Fathers.Love-10.png",
+        "lyric-slide-images/4.How.Deep.the.Fathers.Love-11.png",
+        "lyric-slide-images/4.How.Deep.the.Fathers.Love-12.png"
       ],
       "tracks": [
         {
           "name": "SOPRANO/MELODY",
-          "src": "audio/In.Christ.Alone.with.Solid.Rock.HL.mp3",
+          "src": "audio/How.Deep.all.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/In.Christ.Alone.with.Solid.Rock.HL.mp3",
+          "src": "audio/How.Deep.alto.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/In.Christ.Alone.with.Solid.Rock.HL.mp3",
+          "src": "audio/How.Deep.tenor.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/In.Christ.Alone.with.Solid.Rock.HL.mp3",
-          "group": "bass"
-        }
-      ]
-    },
-    {
-      "title": "YET NOT I BUT THROUGH CHRIST IN ME",
-      "useImages": true,
-      "imageFiles": [
-        "4.Yet.Not.I.but.Through.Christ.in.Me-0.png",
-        "4.Yet.Not.I.but.Through.Christ.in.Me-1.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-0.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-1.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-2.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-3.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-4.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-5.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-6.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-7.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-8.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-9.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-10.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-11.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-12.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-13.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-14.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-15.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-16.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-17.png"
-      ],
-      "tracks": [
-        {
-          "name": "SOPRANO/MELODY",
-          "src": "audio/Yet.Not.I.But.Through.Christ.In.Me.all.mp3",
-          "group": "soprano"
-        },
-        {
-          "name": "ALTO",
-          "src": "audio/Yet.Not.I.But.Through.Christ.In.Me.all.mp3",
-          "group": "alto"
-        },
-        {
-          "name": "TENOR",
-          "src": "audio/Yet.Not.I.But.Through.Christ.In.Me.all.mp3",
-          "group": "tenor"
-        },
-        {
-          "name": "BASS",
-          "src": "audio/Yet.Not.I.But.Through.Christ.In.Me.all.mp3",
+          "src": "audio/How.Deep.bass.HL.mp3",
           "group": "bass"
         },
         {
           "name": "PIANO",
-          "src": "audio/Yet.Not.I.But.Through.Christ.In.Me.piano.mp3"
+          "src": "audio/How.Deep.piano.HL.mp3",
+          "group": "piano"
         }
       ]
     },
     {
-      "title": "SURELY THE PRESENCE",
+      "title": "GOOD GOOD FATHER",
       "useImages": true,
       "imageFiles": [
-        "5.Surely.the.Presence.of.the.Lord-0.png"
+        "4-Good-Good-Father-F-0.png",
+        "4-Good-Good-Father-F-1.png",
+        "4-Good-Good-Father-F-2.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/5.Surely.the.Presence-0.png",
-        "lyric-slide-images/5.Surely.the.Presence-1.png",
-        "lyric-slide-images/5.Surely.the.Presence-2.png",
-        "lyric-slide-images/5.Surely.the.Presence-3.png",
-        "lyric-slide-images/5.Surely.the.Presence-4.png",
-        "lyric-slide-images/5.Surely.the.Presence-5.png",
-        "lyric-slide-images/5.Surely.the.Presence-6.png",
-        "lyric-slide-images/5.Surely.the.Presence-7.png",
-        "lyric-slide-images/5.Surely.the.Presence-8.png",
-        "lyric-slide-images/5.Surely.the.Presence-9.png",
-        "lyric-slide-images/5.Surely.the.Presence-10.png",
-        "lyric-slide-images/5.Surely.the.Presence-11.png",
-        "lyric-slide-images/5.Surely.the.Presence-12.png"
+        "lyric-slide-images/5.Good.Good.Father-0.png",
+        "lyric-slide-images/5.Good.Good.Father-1.png",
+        "lyric-slide-images/5.Good.Good.Father-2.png",
+        "lyric-slide-images/5.Good.Good.Father-3.png",
+        "lyric-slide-images/5.Good.Good.Father-4.png",
+        "lyric-slide-images/5.Good.Good.Father-5.png",
+        "lyric-slide-images/5.Good.Good.Father-6.png",
+        "lyric-slide-images/5.Good.Good.Father-7.png",
+        "lyric-slide-images/5.Good.Good.Father-8.png",
+        "lyric-slide-images/5.Good.Good.Father-9.png",
+        "lyric-slide-images/5.Good.Good.Father-10.png",
+        "lyric-slide-images/5.Good.Good.Father-11.png",
+        "lyric-slide-images/5.Good.Good.Father-12.png",
+        "lyric-slide-images/5.Good.Good.Father-13.png",
+        "lyric-slide-images/5.Good.Good.Father-14.png",
+        "lyric-slide-images/5.Good.Good.Father-15.png",
+        "lyric-slide-images/5.Good.Good.Father-16.png",
+        "lyric-slide-images/5.Good.Good.Father-17.png",
+        "lyric-slide-images/5.Good.Good.Father-18.png",
+        "lyric-slide-images/5.Good.Good.Father-19.png",
+        "lyric-slide-images/5.Good.Good.Father-20.png",
+        "lyric-slide-images/5.Good.Good.Father-21.png",
+        "lyric-slide-images/5.Good.Good.Father-22.png",
+        "lyric-slide-images/5.Good.Good.Father-23.png",
+        "lyric-slide-images/5.Good.Good.Father-24.png"
       ],
       "tracks": [
         {
           "name": "SOPRANO/MELODY",
-          "src": "audio/Surely.The.Presence.mp3",
+          "src": "audio/Good.Good.Father.all.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Surely.The.Presence.mp3",
+          "src": "audio/Good.Good.Father.all.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Surely.The.Presence.mp3",
+          "src": "audio/Good.Good.Father.all.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Surely.The.Presence.mp3",
+          "src": "audio/Good.Good.Father.all.HL.mp3",
           "group": "bass"
+        },
+        {
+          "name": "PIANO",
+          "src": "audio/Good.Good.Father.piano.HL.mp3"
+        }
+      ]
+    },
+    {
+      "title": "THINK ABOUT HIS LOVE",
+      "useImages": true,
+      "imageFiles": [
+        "5-Think-About-His-Love-0.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/6.Think.About.His.Love-0.png",
+        "lyric-slide-images/6.Think.About.His.Love-1.png",
+        "lyric-slide-images/6.Think.About.His.Love-2.png",
+        "lyric-slide-images/6.Think.About.His.Love-3.png",
+        "lyric-slide-images/6.Think.About.His.Love-4.png",
+        "lyric-slide-images/6.Think.About.His.Love-5.png",
+        "lyric-slide-images/6.Think.About.His.Love-6.png",
+        "lyric-slide-images/6.Think.About.His.Love-7.png",
+        "lyric-slide-images/6.Think.About.His.Love-8.png",
+        "lyric-slide-images/6.Think.About.His.Love-9.png",
+        "lyric-slide-images/6.Think.About.His.Love-10.png"
+      ],
+      "tracks": [
+        {
+          "name": "SOPRANO/MELODY",
+          "src": "audio/Think.About.His.Love.all.HL.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "ALTO",
+          "src": "audio/Think.About.His.Love.all.HL.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "TENOR",
+          "src": "audio/Think.About.His.Love.all.HL.mp3",
+          "group": "tenor"
+        },
+        {
+          "name": "BASS",
+          "src": "audio/Think.About.His.Love.all.HL.mp3",
+          "group": "bass"
+        },
+        {
+          "name": "PIANO",
+          "src": "audio/Think.About.His.Love.piano.mp3",
+          "group": "piano"
         }
       ]
     },
         {
-          "title": "THE CHURCH",
+          "title": "LOVE OF JESUS MEDLEY",
           "useImages": true,
           "imageFiles": [
-            "6.The.Church-0.png",
-            "6.The.Church-1.png",
-            "6.The.Church-2.png",
-            "6.The.Church-3.png"
+            "6-Love-of-Jesus-Medley-0.png",
+            "6-Love-of-Jesus-Medley-1.png",
+            "6-Love-of-Jesus-Medley-2.png",
+            "6-Love-of-Jesus-Medley-3.png",
+            "6-Love-of-Jesus-Medley-4.png",
+            "6-Love-of-Jesus-Medley-5.png",
+            "6-Love-of-Jesus-Medley-6.png",
+            "6-Love-of-Jesus-Medley-7.png",
+            "6-Love-of-Jesus-Medley-8.png",
+            "6-Love-of-Jesus-Medley-9.png",
+            "6-Love-of-Jesus-Medley-10.png",
+            "6-Love-of-Jesus-Medley-11.png"
           ],
           "lyricSlideImages": [
-            "lyric-slide-images/6.The.Church-0.png",
-            "lyric-slide-images/6.The.Church-1.png",
-            "lyric-slide-images/6.The.Church-2.png",
-            "lyric-slide-images/6.The.Church-3.png",
-            "lyric-slide-images/6.The.Church-4.png",
-            "lyric-slide-images/6.The.Church-5.png",
-            "lyric-slide-images/6.The.Church-6.png",
-            "lyric-slide-images/6.The.Church-7.png",
-            "lyric-slide-images/6.The.Church-8.png",
-            "lyric-slide-images/6.The.Church-9.png",
-            "lyric-slide-images/6.The.Church-10.png",
-            "lyric-slide-images/6.The.Church-11.png",
-            "lyric-slide-images/6.The.Church-12.png",
-            "lyric-slide-images/6.The.Church-13.png",
-            "lyric-slide-images/6.The.Church-14.png",
-            "lyric-slide-images/6.The.Church-15.png",
-            "lyric-slide-images/6.The.Church-16.png",
-            "lyric-slide-images/6.The.Church-17.png",
-            "lyric-slide-images/6.The.Church-18.png",
-            "lyric-slide-images/6.The.Church-19.png",
-            "lyric-slide-images/6.The.Church-20.png",
-            "lyric-slide-images/6.The.Church-21.png",
-            "lyric-slide-images/6.The.Church-22.png",
-            "lyric-slide-images/6.The.Church-23.png",
-            "lyric-slide-images/6.The.Church-24.png",
-            "lyric-slide-images/6.The.Church-25.png",
-            "lyric-slide-images/6.The.Church-26.png",
-            "lyric-slide-images/6.The.Church-27.png",
-            "lyric-slide-images/6.The.Church-28.png",
-            "lyric-slide-images/6.The.Church-29.png",
-            "lyric-slide-images/6.The.Church-30.png",
-            "lyric-slide-images/6.The.Church-31.png",
-            "lyric-slide-images/6.The.Church-32.png",
-            "lyric-slide-images/6.The.Church-33.png",
-            "lyric-slide-images/6.The.Church-34.png",
-            "lyric-slide-images/6.The.Church-35.png",
-            "lyric-slide-images/6.The.Church-36.png"
-
+            "lyric-slide-images/7.Love.of.Jesus.Medley-0.png",
+            "lyric-slide-images/7.Love.of.Jesus.Medley-1.png",
+            "lyric-slide-images/7.Love.of.Jesus.Medley-2.png",
+            "lyric-slide-images/7.Love.of.Jesus.Medley-3.png",
+            "lyric-slide-images/7.Love.of.Jesus.Medley-4.png",
+            "lyric-slide-images/7.Love.of.Jesus.Medley-5.png",
+            "lyric-slide-images/7.Love.of.Jesus.Medley-6.png",
+            "lyric-slide-images/7.Love.of.Jesus.Medley-7.png",
+            "lyric-slide-images/7.Love.of.Jesus.Medley-8.png",
+            "lyric-slide-images/7.Love.of.Jesus.Medley-9.png",
+            "lyric-slide-images/7.Love.of.Jesus.Medley-10.png",
+            "lyric-slide-images/7.Love.of.Jesus.Medley-12.png",
+            "lyric-slide-images/7.Love.of.Jesus.Medley-13.png",
+            "lyric-slide-images/7.Love.of.Jesus.Medley-14.png",
+            "lyric-slide-images/7.Love.of.Jesus.Medley-15.png",
+            "lyric-slide-images/7.Love.of.Jesus.Medley-16.png",
+            "lyric-slide-images/7.Love.of.Jesus.Medley-17.png",
+            "lyric-slide-images/7.Love.of.Jesus.Medley-18.png"
           ],
           "tracks": [
             {
               "name": "SOPRANO/MELODY",
-              "src": "audio/The.Church.all.mp3",
+              "src": "audio/Love.of.Jesus.Medley.all.HL.mp3",
               "group": "soprano"
             },
             {
               "name": "ALTO",
-              "src": "audio/The.Church.all.mp3",
+              "src": "audio/Love.of.Jesus.Medley.alto.HL.mp3",
               "group": "alto"
             },
             {
               "name": "TENOR",
-              "src": "audio/The.Church.all.mp3",
+              "src": "audio/Love.of.Jesus.Medley.tenor.HL.mp3",
               "group": "tenor"
             },
             {
               "name": "BASS",
-              "src": "audio/The.Church.all.mp3",
+              "src": "audio/Love.of.Jesus.Medley.bass.HL.mp3",
               "group": "bass"
             }
           ]
