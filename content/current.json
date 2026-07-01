@@ -1,241 +1,326 @@
 {
-  "serviceDate": "2026-06-28",
+  "serviceDate": "2026-07-05",
   "headerNotes": [
     "Our Choir music for Sunday is below.",
     "Choir meets Sundays at 4:30pm.",
     "CHILDCARE is coordinated during Sunday and Wednesday rehearsals."
   ],
   "order": [
-    "My Country 'Tis of Thee",
-    "Blessed Assurance (CeCe arr.)",
-    "Amazing Grace / My Chains Are Gone",
-    "Raise a Hallelujah",
-    "CHOIR SPECIAL: Patriotic Medley"
+    "10,000 Reasons / Bless the Lord",
+    "Here I Am to Worship",
+    "Open the Eyes of My Heart",
+    "What a Beautiful Name",
+    "OFFERTORY: Surely the Presence",
+    "CHOIR SPECIAL: Sweet Beulah Land"
   ],
   "songs": [
     {
-      "title": "MY COUNTRY TIS OF THEE",
+      "title": "10000 REASONS / BLESS THE LORD",
       "useImages": true,
       "imageFiles": [
-        "1-My-Country-Tis-of-Thee-0.png"
+        "1.10K.Reasons.Bless.the.Lord-0.png",
+        "1.10K.Reasons.Bless.the.Lord-0.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/1.My.Country.Tis.of.Thee-0.png",
-        "lyric-slide-images/1.My.Country.Tis.of.Thee-1.png",
-        "lyric-slide-images/1.My.Country.Tis.of.Thee-2.png",
-        "lyric-slide-images/1.My.Country.Tis.of.Thee-3.png",
-        "lyric-slide-images/1.My.Country.Tis.of.Thee-4.png",
-        "lyric-slide-images/1.My.Country.Tis.of.Thee-5.png",
-        "lyric-slide-images/1.My.Country.Tis.of.Thee-6.png",
-        "lyric-slide-images/1.My.Country.Tis.of.Thee-7.png",
-        "lyric-slide-images/1.My.Country.Tis.of.Thee-8.png",
-        "lyric-slide-images/1.My.Country.Tis.of.Thee-9.png",
-        "lyric-slide-images/1.My.Country.Tis.of.Thee-10.png",
-        "lyric-slide-images/1.My.Country.Tis.of.Thee-11.png",
-        "lyric-slide-images/1.My.Country.Tis.of.Thee-12.png"
+        "lyric-slide-images/1.10K.Reasons-0.png",
+        "lyric-slide-images/1.10K.Reasons-1.png",
+        "lyric-slide-images/1.10K.Reasons-2.png",
+        "lyric-slide-images/1.10K.Reasons-3.png",
+        "lyric-slide-images/1.10K.Reasons-4.png",
+        "lyric-slide-images/1.10K.Reasons-5.png",
+        "lyric-slide-images/1.10K.Reasons-6.png",
+        "lyric-slide-images/1.10K.Reasons-7.png",
+        "lyric-slide-images/1.10K.Reasons-8.png",
+        "lyric-slide-images/1.10K.Reasons-9.png",
+        "lyric-slide-images/1.10K.Reasons-10.png",
+        "lyric-slide-images/1.10K.Reasons-11.png",
+        "lyric-slide-images/1.10K.Reasons-12.png",
+        "lyric-slide-images/1.10K.Reasons-13.png",
+        "lyric-slide-images/1.10K.Reasons-14.png",
+        "lyric-slide-images/1.10K.Reasons-15.png",
+        "lyric-slide-images/1.10K.Reasons-16.png",
+        "lyric-slide-images/1.10K.Reasons-17.png",
+        "lyric-slide-images/1.10K.Reasons-18.png",
+        "lyric-slide-images/1.10K.Reasons-19.png",
+        "lyric-slide-images/1.10K.Reasons-20.png",
+        "lyric-slide-images/1.10K.Reasons-21.png",
+        "lyric-slide-images/1.10K.Reasons-22.png",
+        "lyric-slide-images/1.10K.Reasons-23.png",
+        "lyric-slide-images/1.10K.Reasons-24.png",
+        "lyric-slide-images/1.10K.Reasons-25.png",
+        "lyric-slide-images/1.10K.Reasons-26.png",
+        "lyric-slide-images/1.10K.Reasons-27.png",
+        "lyric-slide-images/1.10K.Reasons-28.png",
+        "lyric-slide-images/1.10K.Reasons-29.png",
+        "lyric-slide-images/1.10K.Reasons-30.png",
+        "lyric-slide-images/1.10K.Reasons-31.png",
+        "lyric-slide-images/1.10K.Reasons-32.png"
       ]
     },
     {
-      "title": "BLESSED ASSURANCE-(CECE ARR.)",
+      "title": "HERE I AM TO WORSHIP",
       "useImages": true,
       "imageFiles": [
-        "2-Blessed-Assurance-CeCe-0.png",
-        "2-Blessed-Assurance-CeCe-1.png"
+        "2.Here.I.Am.to.Worship-0.png",
+        "2.Here.I.Am.to.Worship-1.png"
         ],
       "lyricSlideImages": [
-        "lyric-slide-images/2.Blessed.Assurance-0.png",
-        "lyric-slide-images/2.Blessed.Assurance-1.png",
-        "lyric-slide-images/2.Blessed.Assurance-2.png",
-        "lyric-slide-images/2.Blessed.Assurance-3.png",
-        "lyric-slide-images/2.Blessed.Assurance-4.png",
-        "lyric-slide-images/2.Blessed.Assurance-5.png",
-        "lyric-slide-images/2.Blessed.Assurance-6.png",
-        "lyric-slide-images/2.Blessed.Assurance-7.png",
-        "lyric-slide-images/2.Blessed.Assurance-8.png",
-        "lyric-slide-images/2.Blessed.Assurance-9.png"
+        "lyric-slide-images/2.Here.I.Am.to.Worship-0.png",
+        "lyric-slide-images/2.Here.I.Am.to.Worship-1.png",
+        "lyric-slide-images/2.Here.I.Am.to.Worship-2.png",
+        "lyric-slide-images/2.Here.I.Am.to.Worship-3.png",
+        "lyric-slide-images/2.Here.I.Am.to.Worship-4.png",
+        "lyric-slide-images/2.Here.I.Am.to.Worship-5.png",
+        "lyric-slide-images/2.Here.I.Am.to.Worship-6.png",
+        "lyric-slide-images/2.Here.I.Am.to.Worship-7.png",
+        "lyric-slide-images/2.Here.I.Am.to.Worship-8.png",
+        "lyric-slide-images/2.Here.I.Am.to.Worship-9.png",
+        "lyric-slide-images/2.Here.I.Am.to.Worship-10.png",
+        "lyric-slide-images/2.Here.I.Am.to.Worship-11.png",
+        "lyric-slide-images/2.Here.I.Am.to.Worship-12.png",
+        "lyric-slide-images/2.Here.I.Am.to.Worship-13.png",
+        "lyric-slide-images/2.Here.I.Am.to.Worship-14.png",
+        "lyric-slide-images/2.Here.I.Am.to.Worship-15.png",
+        "lyric-slide-images/2.Here.I.Am.to.Worship-16.png",
+        "lyric-slide-images/2.Here.I.Am.to.Worship-17.png",
+        "lyric-slide-images/2.Here.I.Am.to.Worship-18.png",
+        "lyric-slide-images/2.Here.I.Am.to.Worship-19.png",
+        "lyric-slide-images/2.Here.I.Am.to.Worship-20.png",
+        "lyric-slide-images/2.Here.I.Am.to.Worship-21.png",
+        "lyric-slide-images/2.Here.I.Am.to.Worship-22.png",
+        "lyric-slide-images/2.Here.I.Am.to.Worship-23.png",
+        "lyric-slide-images/2.Here.I.Am.to.Worship-24.png",
+        "lyric-slide-images/2.Here.I.Am.to.Worship-25.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/Blessed.Assurance.CeCe.melody.HL.mp3",
+          "src": "audio/10K.Reasons.Bless.the.Lord.all.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Blessed.Assurance.CeCe.melody.HL.mp3",
+          "src": "audio/10K.Reasons.Bless.the.Lord.harm.1.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Blessed.Assurance.CeCe.melody.HL.mp3",
+          "src": "audio/10K.Reasons.Bless.the.Lord.harm.2.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Blessed.Assurance.CeCe.melody.HL.mp3",
+          "src": "audio/10K.Reasons.Bless.the.Lord.all.HL.mp3",
           "group": "bass"
         }
       ]
     },
     {
-      "title": "AMAZING GRACE/MY CHAINS ARE GONE",
+      "title": "OPEN THE EYES OF MY HEART",
       "useImages": true,
       "imageFiles": [
-        "3-Amazing-Grace-My-Chains-Are-Gone-0.png",
-        "3-Amazing-Grace-My-Chains-Are-Gone-1.png"
+        "3.Open.the.Eyes.of.My.Heart-0.png",
+        "3.Open.the.Eyes.of.My.Heart-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/3.Amazing.Grace.My.Chains.Are.Gone-0.png",
-        "lyric-slide-images/3.Amazing.Grace.My.Chains.Are.Gone-1.png",
-        "lyric-slide-images/3.Amazing.Grace.My.Chains.Are.Gone-2.png",
-        "lyric-slide-images/3.Amazing.Grace.My.Chains.Are.Gone-3.png",
-        "lyric-slide-images/3.Amazing.Grace.My.Chains.Are.Gone-4.png",
-        "lyric-slide-images/3.Amazing.Grace.My.Chains.Are.Gone-5.png",
-        "lyric-slide-images/3.Amazing.Grace.My.Chains.Are.Gone-6.png",
-        "lyric-slide-images/3.Amazing.Grace.My.Chains.Are.Gone-7.png",
-        "lyric-slide-images/3.Amazing.Grace.My.Chains.Are.Gone-8.png",
-        "lyric-slide-images/3.Amazing.Grace.My.Chains.Are.Gone-9.png",
-        "lyric-slide-images/3.Amazing.Grace.My.Chains.Are.Gone-10.png",
-        "lyric-slide-images/3.Amazing.Grace.My.Chains.Are.Gone-11.png",
-        "lyric-slide-images/3.Amazing.Grace.My.Chains.Are.Gone-12.png",
-        "lyric-slide-images/3.Amazing.Grace.My.Chains.Are.Gone-13.png",
-        "lyric-slide-images/3.Amazing.Grace.My.Chains.Are.Gone-14.png"
-      ],
-      "tracks": [
-        {
-          "name": "SOPRANO/MELODY",
-          "src": "audio/Amazing.Grace.Chains.all.HL.mp3",
-          "group": "soprano"
-        },
-        {
-          "name": "ALTO",
-          "src": "audio/Amazing.Grace.Chains.Higher.Harm.HL.mp3",
-          "group": "alto"
-        },
-        {
-          "name": "TENOR",
-          "src": "audio/Amazing.Grace.Chains.Higher.Harm.HL.mp3",
-          "group": "tenor"
-        },
-        {
-          "name": "BASS",
-          "src": "audio/Amazing.Grace.Chains.Lower.Harmony.HL.mp3",
-          "group": "bass"
-        }
-      ]
-    },
-    {
-      "title": "RAISE A HALLELUJAH",
-      "useImages": true,
-      "imageFiles": [
-        "4-Raise-a-Hallelujah-0.png",
-        "4-Raise-a-Hallelujah-1.png",
-        "4-Raise-a-Hallelujah-2.png",
-        "4-Raise-a-Hallelujah-3.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/4.Raise.a.Hallelujah-0.png",
-        "lyric-slide-images/4.Raise.a.Hallelujah-1.png",
-        "lyric-slide-images/4.Raise.a.Hallelujah-2.png",
-        "lyric-slide-images/4.Raise.a.Hallelujah-3.png",
-        "lyric-slide-images/4.Raise.a.Hallelujah-4.png",
-        "lyric-slide-images/4.Raise.a.Hallelujah-5.png",
-        "lyric-slide-images/4.Raise.a.Hallelujah-6.png",
-        "lyric-slide-images/4.Raise.a.Hallelujah-7.png",
-        "lyric-slide-images/4.Raise.a.Hallelujah-8.png",
-        "lyric-slide-images/4.Raise.a.Hallelujah-9.png",
-        "lyric-slide-images/4.Raise.a.Hallelujah-10.png",
-        "lyric-slide-images/4.Raise.a.Hallelujah-11.png",
-        "lyric-slide-images/4.Raise.a.Hallelujah-12.png",
-        "lyric-slide-images/4.Raise.a.Hallelujah-13.png",
-        "lyric-slide-images/4.Raise.a.Hallelujah-14.png",
-        "lyric-slide-images/4.Raise.a.Hallelujah-15.png",
-        "lyric-slide-images/4.Raise.a.Hallelujah-16.png",
-        "lyric-slide-images/4.Raise.a.Hallelujah-17.png",
-        "lyric-slide-images/4.Raise.a.Hallelujah-18.png",
-        "lyric-slide-images/4.Raise.a.Hallelujah-19.png"
+        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-0.png",
+        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-1.png",
+        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-2.png",
+        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-3.png",
+        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-4.png",
+        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-5.png",
+        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-6.png",
+        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-7.png",
+        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-8.png",
+        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-9.png",
+        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-10.png",
+        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-11.png",
+        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-12.png",
+        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-13.png",
+        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-14.png",
+        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-15.png",
+        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-16.png",
+        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-17.png",
+        "lyric-slide-images/3.Open.the.Eyes.of.My.Heart-18.png"
 
       ],
       "tracks": [
         {
           "name": "SOPRANO/MELODY",
-          "src": "audio/Raise.a.Hallelujah.HL.mp3",
+          "src": "audio/Open.the.Eyes.of.My.Heart.melody.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Raise.a.Hallelujah.HL.mp3",
+          "src": "audio/Open.the.Eyes.of.My.Heart.melody.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Raise.a.Hallelujah.HL.mp3",
+          "src": "audio/Open.the.Eyes.of.My.Heart.melody.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Raise.a.Hallelujah.HL.mp3",
+          "src": "audio/Open.the.Eyes.of.My.Heart.melody.HL.mp3",
+          "group": "bass"
+        }
+      ]
+    },
+    {
+      "title": "WHAT A BEAUTIFUL NAME",
+      "useImages": true,
+      "imageFiles": [
+        "4.What.a.Beautiful.Name-0.png",
+        "4.What.a.Beautiful.Name-1.png",
+        "4.What.a.Beautiful.Name-2.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/4.What.a.Beautiful.Name-0.png",
+        "lyric-slide-images/4.What.a.Beautiful.Name-1.png",
+        "lyric-slide-images/4.What.a.Beautiful.Name-2.png",
+        "lyric-slide-images/4.What.a.Beautiful.Name-3.png",
+        "lyric-slide-images/4.What.a.Beautiful.Name-4.png",
+        "lyric-slide-images/4.What.a.Beautiful.Name-5.png",
+        "lyric-slide-images/4.What.a.Beautiful.Name-6.png",
+        "lyric-slide-images/4.What.a.Beautiful.Name-7.png",
+        "lyric-slide-images/4.What.a.Beautiful.Name-8.png",
+        "lyric-slide-images/4.What.a.Beautiful.Name-9.png",
+        "lyric-slide-images/4.What.a.Beautiful.Name-10.png",
+        "lyric-slide-images/4.What.a.Beautiful.Name-11.png",
+        "lyric-slide-images/4.What.a.Beautiful.Name-12.png",
+        "lyric-slide-images/4.What.a.Beautiful.Name-13.png",
+        "lyric-slide-images/4.What.a.Beautiful.Name-14.png",
+        "lyric-slide-images/4.What.a.Beautiful.Name-15.png",
+        "lyric-slide-images/4.What.a.Beautiful.Name-16.png",
+        "lyric-slide-images/4.What.a.Beautiful.Name-17.png",
+        "lyric-slide-images/4.What.a.Beautiful.Name-18.png",
+        "lyric-slide-images/4.What.a.Beautiful.Name-19.png",
+        "lyric-slide-images/4.What.a.Beautiful.Name-20.png"
+      ],
+      "tracks": [
+        {
+          "name": "SOPRANO/MELODY",
+          "src": "audio/Beautiful.Name.final.HL.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "ALTO",
+          "src": "audio/Beautiful.Name.final.HL.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "TENOR",
+          "src": "audio/Beautiful.Name.final.HL.mp3",
+          "group": "tenor"
+        },
+        {
+          "name": "BASS",
+          "src": "audio/Beautiful.Name.final.HL.mp3",
           "group": "bass"
         },
         {
           "name": "PIANO",
-          "src": "audio/Raise.A.Hallelujah.piano.mp3"
+          "src": "audio/Beautiful.Name.piano.mp3"
         }
       ]
     },
+    {
+      "title": "SURELY THE PRESENCE",
+      "useImages": true,
+      "imageFiles": [
+        "5.Surely.the.Presence-0.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/5.Surely.the.Presence-0.png",
+        "lyric-slide-images/5.Surely.the.Presence-1.png",
+        "lyric-slide-images/5.Surely.the.Presence-2.png",
+        "lyric-slide-images/5.Surely.the.Presence-3.png",
+        "lyric-slide-images/5.Surely.the.Presence-4.png",
+        "lyric-slide-images/5.Surely.the.Presence-5.png",
+        "lyric-slide-images/5.Surely.the.Presence-6.png",
+        "lyric-slide-images/5.Surely.the.Presence-7.png",
+        "lyric-slide-images/5.Surely.the.Presence-8.png",
+        "lyric-slide-images/5.Surely.the.Presence-9.png",
+        "lyric-slide-images/5.Surely.the.Presence-10.png",
+        "lyric-slide-images/5.Surely.the.Presence-11.png",
+        "lyric-slide-images/5.Surely.the.Presence-12.png"
+
+      ],
+      "tracks": [
         {
-          "title": "PATRIOTIC MEDLEY",
+          "name": "SOPRANO/MELODY",
+          "src": "audio/Surely.The.Presence.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "ALTO",
+          "src": "audio/Surely.The.Presence.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "TENOR",
+          "src": "audio/Surely.The.Presence.mp3",
+          "group": "tenor"
+        },
+        {
+          "name": "BASS",
+          "src": "audio/Surely.The.Presence.mp3",
+          "group": "bass"
+        }
+
+      ]
+    },
+        {
+          "title": "SWEET BEULAH LAND",
           "useImages": true,
           "imageFiles": [
-            "5-Patriotic-Medley-0.png",
-            "5-Patriotic-Medley-1.png",
-            "5-Patriotic-Medley-2.png",
-            "5-Patriotic-Medley-3.png",
-            "5-Patriotic-Medley-4.png",
-            "5-Patriotic-Medley-5.png",
-            "5-Patriotic-Medley-6.png",
-            "5-Patriotic-Medley-7.png",
-            "5-Patriotic-Medley-8.png"
+            "6.Sweet.Beulah.Land-0.png",
+            "6.Sweet.Beulah.Land-1.png",
+            "6.Sweet.Beulah.Land-2.png",
+            "6.Sweet.Beulah.Land-3.png",
+            "6.Sweet.Beulah.Land-4.png",
+            "6.Sweet.Beulah.Land-5.png",
+            "6.Sweet.Beulah.Land-6.png",
+            "6.Sweet.Beulah.Land-7.png",
+            "6.Sweet.Beulah.Land-8.png"
 
           ],
           "lyricSlideImages": [
-            "lyric-slide-images/5.Patriotic.Medley-0.png",
-            "lyric-slide-images/5.Patriotic.Medley-1.png",
-            "lyric-slide-images/5.Patriotic.Medley-2.png",
-            "lyric-slide-images/5.Patriotic.Medley-3.png",
-            "lyric-slide-images/5.Patriotic.Medley-4.png",
-            "lyric-slide-images/5.Patriotic.Medley-5.png",
-            "lyric-slide-images/5.Patriotic.Medley-6.png",
-            "lyric-slide-images/5.Patriotic.Medley-7.png",
-            "lyric-slide-images/5.Patriotic.Medley-8.png",
-            "lyric-slide-images/5.Patriotic.Medley-9.png",
-            "lyric-slide-images/5.Patriotic.Medley-10.png"
+            "lyric-slide-images/6.Sweet.Beulah.Land-0.png",
+            "lyric-slide-images/6.Sweet.Beulah.Land-1.png",
+            "lyric-slide-images/6.Sweet.Beulah.Land-2.png",
+            "lyric-slide-images/6.Sweet.Beulah.Land-3.png",
+            "lyric-slide-images/6.Sweet.Beulah.Land-4.png",
+            "lyric-slide-images/6.Sweet.Beulah.Land-5.png",
+            "lyric-slide-images/6.Sweet.Beulah.Land-6.png",
+            "lyric-slide-images/6.Sweet.Beulah.Land-7.png",
+            "lyric-slide-images/6.Sweet.Beulah.Land-8.png",
+            "lyric-slide-images/6.Sweet.Beulah.Land-9.png",
+            "lyric-slide-images/6.Sweet.Beulah.Land-10.png",
+            "lyric-slide-images/6.Sweet.Beulah.Land-11.png",
+            "lyric-slide-images/6.Sweet.Beulah.Land-12.png"
           ],
           "tracks": [
             {
               "name": "SOPRANO/MELODY",
-              "src": "audio/Patriotic.Medley.melody.HL.mp3",
+              "src": "audio/Beulah.Land.mp3",
               "group": "soprano"
             },
             {
               "name": "ALTO",
-              "src": "audio/Patriotic.Medley.melody.HL.mp3",
+              "src": "audio/Beulah.Land.mp3",
               "group": "alto"
             },
             {
               "name": "TENOR",
-              "src": "audio/Patriotic.Medley.melody.HL.mp3",
+              "src": "audio/Beulah.Land.mp3",
               "group": "tenor"
             },
             {
               "name": "BASS",
-              "src": "audio/Patriotic.Medley.melody.HL.mp3",
+              "src": "audio/Beulah.Land.mp3",
               "group": "bass"
-            },
-            {
-              "name": "PIANO",
-              "src": "audio/Patriotic.Medley.piano.HL.mp3",
-              "group": "piano"
             }
           ]
         }
