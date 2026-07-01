@@ -64,12 +64,12 @@
         },
         {
           "name": "ALTO",
-          "src": "audio/10K.Reasons.Bless.the.Lord.harm.1.HL.mp3",
+          "src": "audio/10K.Reasons.Bless.the.Lord.Harm.1.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/10K.Reasons.Bless.the.Lord.harm.2.HL.mp3",
+          "src": "audio/10K.Reasons.Bless.the.Lord.Harm.2.HL.mp3",
           "group": "tenor"
         },
         {
@@ -117,22 +117,22 @@
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/Here.I.Am.to.Worship.all.HL.mp3",
+          "src": "audio/Here.I.Am.To.Worship.all.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Here.I.Am.to.Worship.harm.1.HL.mp3",
+          "src": "audio/Here.I.Am.To.Worship.harm.1.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Here.I.Am.to.Worship.harm.2.HL.mp3",
+          "src": "audio/Here.I.Am.To.Worship.harm.2.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Here.I.Am.to.Worship.all.HL.mp3",
+          "src": "audio/Here.I.Am.To.Worship.all.HL.mp3",
           "group": "bass"
         }
       ]
