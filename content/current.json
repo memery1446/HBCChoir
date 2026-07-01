@@ -64,17 +64,17 @@
         },
         {
           "name": "ALTO",
-          "src": "audio/10K.Reasons.Bless.the.Lord.Harm.1.HL.mp3",
+          "src": "audio/10K.Reasons.Bless.the.Lord.Harm.2.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/10K.Reasons.Bless.the.Lord.Harm.2.HL.mp3",
+          "src": "audio/10K.Reasons.Bless.the.Lord.Harm.1.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/10K.Reasons.Bless.the.Lord.all.HL.mp3",
+          "src": "audio/10K.Reasons.Bless.the.Lord.Harm.2.HL.mp3",
           "group": "bass"
         }
       ]
@@ -127,12 +127,12 @@
         },
         {
           "name": "TENOR",
-          "src": "audio/Here.I.Am.To.Worship.harm.2.HL.mp3",
+          "src": "audio/Here.I.Am.To.Worship.harm.1.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Here.I.Am.To.Worship.all.HL.mp3",
+          "src": "audio/Here.I.Am.To.Worship.harm.2.HL.mp3",
           "group": "bass"
         }
       ]
