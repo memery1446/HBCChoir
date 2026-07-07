@@ -90,22 +90,22 @@
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/Here.I.Am.To.Worship.all.HL.mp3",
+          "src": "audio/Sometimes.by.Step.all.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Here.I.Am.To.Worship.harm.1.HL.mp3",
+          "src": "audio/Sometimes.by.Step.all.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Here.I.Am.To.Worship.harm.1.HL.mp3",
+          "src": "audio/Sometimes.by.Step.all.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Here.I.Am.To.Worship.harm.2.HL.mp3",
+          "src": "audio/Sometimes.by.Step.all.HL.mp3",
           "group": "bass"
         }
       ]
@@ -136,22 +136,22 @@
       "tracks": [
         {
           "name": "SOPRANO/MELODY",
-          "src": "audio/Open.the.Eyes.of.My.Heart.melody.HL.mp3",
+          "src": "audio/Lord.I.Need.You.all.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Open.the.Eyes.of.My.Heart.melody.HL.mp3",
+          "src": "audio/Lord.I.Need.You.all.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Open.the.Eyes.of.My.Heart.melody.HL.mp3",
+          "src": "audio/Lord.I.Need.You.all.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Open.the.Eyes.of.My.Heart.melody.HL.mp3",
+          "src": "audio/Lord.I.Need.You.all.HL.mp3",
           "group": "bass"
         }
       ]
@@ -240,22 +240,22 @@
       "tracks": [
         {
           "name": "SOPRANO/MELODY",
-          "src": "audio/Surely.The.Presence.mp3",
+          "src": "audio/People.Need.the.Lord.all.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Surely.The.Presence.mp3",
+          "src": "audio/People.Need.the.Lord.all.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Surely.The.Presence.mp3",
+          "src": "audio/People.Need.the.Lord.all.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Surely.The.Presence.mp3",
+          "src": "audio/People.Need.the.Lord.all.HL.mp3",
           "group": "bass"
         }
 
