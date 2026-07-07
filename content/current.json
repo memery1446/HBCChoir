@@ -190,17 +190,17 @@
         },
         {
           "name": "ALTO",
-          "src": "audio/Christ.In.Me.Arise.harm.HL.mp3",
+          "src": "audio/Christ.In.Me.Arise.alto.bass.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Christ.In.Me.Arise.harm.HL.mp3",
+          "src": "audio/Christ.In.Me.Arise.tenor.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Christ.In.Me.Arise.all.HL.mp3",
+          "src": "audio/Christ.In.Me.Arise.alto.bass.HL.mp3",
           "group": "bass"
         },
         {
