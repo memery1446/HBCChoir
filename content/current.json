@@ -14,6 +14,50 @@
   ],
   "songs": [
     {
+      "title": "JUST A CLOSER WALK WITH THEE",
+      "useImages": true,
+      "imageFiles": [
+        "1.Just.a.Closer.Walk.with.Thee-0.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/1-Just-a-Closer-Walk-with-Thee-0.png",
+        "lyric-slide-images/1-Just-a-Closer-Walk-with-Thee-1.png",
+        "lyric-slide-images/1-Just-a-Closer-Walk-with-Thee-2.png",
+        "lyric-slide-images/1-Just-a-Closer-Walk-with-Thee-3.png",
+        "lyric-slide-images/1-Just-a-Closer-Walk-with-Thee-4.png",
+        "lyric-slide-images/1-Just-a-Closer-Walk-with-Thee-5.png",
+        "lyric-slide-images/1-Just-a-Closer-Walk-with-Thee-6.png",
+        "lyric-slide-images/1-Just-a-Closer-Walk-with-Thee-7.png",
+        "lyric-slide-images/1-Just-a-Closer-Walk-with-Thee-8.png",
+        "lyric-slide-images/1-Just-a-Closer-Walk-with-Thee-9.png",
+        "lyric-slide-images/1-Just-a-Closer-Walk-with-Thee-10.png",
+        "lyric-slide-images/1-Just-a-Closer-Walk-with-Thee-11.png",
+        "lyric-slide-images/1-Just-a-Closer-Walk-with-Thee-12.png"
+      ],
+      "tracks": [
+        {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/Just.a.Closer.Walk.With.Thee.all.HL.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "ALTO",
+          "src": "audio/Just.a.Closer.Walk.With.Thee.all.HL.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "TENOR",
+          "src": "audio/Just.a.Closer.Walk.With.Thee.all.HL.mp3",
+          "group": "tenor"
+        },
+        {
+          "name": "BASS",
+          "src": "audio/Just.a.Closer.Walk.With.Thee.all.HL.mp3",
+          "group": "bass"
+        }
+      ]
+    },
+    {
       "title": "FOOTSTEPS OF JESUS",
       "useImages": true,
       "imageFiles": [
