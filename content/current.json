@@ -1,308 +1,308 @@
 {
-  "serviceDate": "2026-07-12",
+  "serviceDate": "2026-07-19",
   "headerNotes": [
     "Our Choir music for Sunday is below.",
     "Choir meets Sundays at 4:30pm.",
     "CHILDCARE is coordinated during Sunday and Wednesday rehearsals."
   ],
   "order": [
-    "Footsteps of Jesus",
-    "Sometimes by Step",
-    "Lord, I Need You",
-    "Christ in Me Arise",
-    "CHOIR SPECIAL: People Need the Lord"
+    "When We All Get to Heaven",
+    "Soon and Very Soon",
+    "By and By Medley",
+    "Yet Not I but Through Christ in Me",
+    "CHOIR SPECIAL: Shoutin' Time"
   ],
   "songs": [
     {
-      "title": "JUST A CLOSER WALK WITH THEE",
+      "title": "WHEN WE ALL GET TO HEAVEN",
       "useImages": true,
       "imageFiles": [
-        "1.Just.a.Closer.Walk.with.Thee-0.png"
+        "1.When.We.All.Get.to.Heaven-0.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/1-Just-a-Closer-Walk-with-Thee-0.png",
-        "lyric-slide-images/1-Just-a-Closer-Walk-with-Thee-1.png",
-        "lyric-slide-images/1-Just-a-Closer-Walk-with-Thee-2.png",
-        "lyric-slide-images/1-Just-a-Closer-Walk-with-Thee-3.png",
-        "lyric-slide-images/1-Just-a-Closer-Walk-with-Thee-4.png",
-        "lyric-slide-images/1-Just-a-Closer-Walk-with-Thee-5.png",
-        "lyric-slide-images/1-Just-a-Closer-Walk-with-Thee-6.png",
-        "lyric-slide-images/1-Just-a-Closer-Walk-with-Thee-7.png",
-        "lyric-slide-images/1-Just-a-Closer-Walk-with-Thee-8.png",
-        "lyric-slide-images/1-Just-a-Closer-Walk-with-Thee-9.png",
-        "lyric-slide-images/1-Just-a-Closer-Walk-with-Thee-10.png",
-        "lyric-slide-images/1-Just-a-Closer-Walk-with-Thee-11.png",
-        "lyric-slide-images/1-Just-a-Closer-Walk-with-Thee-12.png"
+        "lyric-slide-images/1.When.We.All.Get.to.Heaven-0.png",
+        "lyric-slide-images/1.When.We.All.Get.to.Heaven-1.png",
+        "lyric-slide-images/1.When.We.All.Get.to.Heaven-2.png",
+        "lyric-slide-images/1.When.We.All.Get.to.Heaven-3.png",
+        "lyric-slide-images/1.When.We.All.Get.to.Heaven-4.png",
+        "lyric-slide-images/1.When.We.All.Get.to.Heaven-5.png",
+        "lyric-slide-images/1.When.We.All.Get.to.Heaven-6.png",
+        "lyric-slide-images/1.When.We.All.Get.to.Heaven-7.png",
+        "lyric-slide-images/1.When.We.All.Get.to.Heaven-8.png",
+        "lyric-slide-images/1.When.We.All.Get.to.Heaven-9.png",
+        "lyric-slide-images/1.When.We.All.Get.to.Heaven-10.png",
+        "lyric-slide-images/1.When.We.All.Get.to.Heaven-11.png",
+        "lyric-slide-images/1.When.We.All.Get.to.Heaven-12.png",
+        "lyric-slide-images/1.When.We.All.Get.to.Heaven-13.png",
+        "lyric-slide-images/1.When.We.All.Get.to.Heaven-14.png",
+        "lyric-slide-images/1.When.We.All.Get.to.Heaven-15.png",
+        "lyric-slide-images/1.When.We.All.Get.to.Heaven-16.png",
+        "lyric-slide-images/1.When.We.All.Get.to.Heaven-17.png",
+        "lyric-slide-images/1.When.We.All.Get.to.Heaven-18.png",
+        "lyric-slide-images/1.When.We.All.Get.to.Heaven-19.png",
+        "lyric-slide-images/1.When.We.All.Get.to.Heaven-20.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/Just.a.Closer.Walk.With.Thee.all.HL.mp3",
+          "src": "audio/When.We.All.Get.to.Heaven.piano.web.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Just.a.Closer.Walk.With.Thee.all.HL.mp3",
+          "src": "audio/When.We.All.Get.to.Heaven.piano.web.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Just.a.Closer.Walk.With.Thee.all.HL.mp3",
+          "src": "audio/When.We.All.Get.to.Heaven.piano.web.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Just.a.Closer.Walk.With.Thee.all.HL.mp3",
+          "src": "audio/When.We.All.Get.to.Heaven.piano.web.mp3",
           "group": "bass"
         }
       ]
     },
     {
-      "title": "FOOTSTEPS OF JESUS",
+      "title": "SOON AND VERY SOON",
       "useImages": true,
       "imageFiles": [
-        "2.Footsteps.of.Jesus-0.png"
+        "2.Soon.and.Very.Soon-0.png",
+        "2.Soon.and.Very.Soon-1.png",
+        "2.Soon.and.Very.Soon-2.png",
+        "2.Soon.and.Very.Soon-3.png",
+        "2.Soon.and.Very.Soon-4.png",
+        "2.Soon.and.Very.Soon-5.png",
+        "2.Soon.and.Very.Soon-6.png",
+        "2.Soon.and.Very.Soon-7.png",
+        "2.Soon.and.Very.Soon-8.png",
+        "2.Soon.and.Very.Soon-9.png",
+        "2.Soon.and.Very.Soon-10.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/2.Footsteps.of.Jesus-0.png",
-        "lyric-slide-images/2.Footsteps.of.Jesus-1.png",
-        "lyric-slide-images/2.Footsteps.of.Jesus-2.png",
-        "lyric-slide-images/2.Footsteps.of.Jesus-3.png",
-        "lyric-slide-images/2.Footsteps.of.Jesus-4.png",
-        "lyric-slide-images/2.Footsteps.of.Jesus-5.png",
-        "lyric-slide-images/2.Footsteps.of.Jesus-6.png",
-        "lyric-slide-images/2.Footsteps.of.Jesus-7.png",
-        "lyric-slide-images/2.Footsteps.of.Jesus-8.png",
-        "lyric-slide-images/2.Footsteps.of.Jesus-9.png",
-        "lyric-slide-images/2.Footsteps.of.Jesus-10.png",
-        "lyric-slide-images/2.Footsteps.of.Jesus-11.png",
-        "lyric-slide-images/2.Footsteps.of.Jesus-12.png",
-        "lyric-slide-images/2.Footsteps.of.Jesus-13.png",
-        "lyric-slide-images/2.Footsteps.of.Jesus-14.png",
-        "lyric-slide-images/2.Footsteps.of.Jesus-15.png",
-        "lyric-slide-images/2.Footsteps.of.Jesus-16.png"
+        "lyric-slide-images/2.Soon.and.Very.Soon-0.png",
+        "lyric-slide-images/2.Soon.and.Very.Soon-1.png",
+        "lyric-slide-images/2.Soon.and.Very.Soon-2.png",
+        "lyric-slide-images/2.Soon.and.Very.Soon-3.png",
+        "lyric-slide-images/2.Soon.and.Very.Soon-4.png",
+        "lyric-slide-images/2.Soon.and.Very.Soon-5.png",
+        "lyric-slide-images/2.Soon.and.Very.Soon-6.png",
+        "lyric-slide-images/2.Soon.and.Very.Soon-7.png",
+        "lyric-slide-images/2.Soon.and.Very.Soon-8.png",
+        "lyric-slide-images/2.Soon.and.Very.Soon-9.png",
+        "lyric-slide-images/2.Soon.and.Very.Soon-10.png",
+        "lyric-slide-images/2.Soon.and.Very.Soon-11.png",
+        "lyric-slide-images/2.Soon.and.Very.Soon-12.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/Footsteps.Of.Jesus.HL.mp3",
+          "src": "audio/Soon.and.Very.Soon.all.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Footsteps.Of.Jesus.HL.mp3",
+          "src": "audio/Soon.and.Very.Soon.all.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Footsteps.Of.Jesus.HL.mp3",
+          "src": "audio/Soon.and.Very.Soon.all.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Footsteps.Of.Jesus.HL.mp3",
+          "src": "audio/Soon.and.Very.Soon.all.HL.mp3",
           "group": "bass"
         }
       ]
     },
     {
-      "title": "SOMETIMES BY STEP",
+      "title": "BY AND BY MEDLEY",
       "useImages": true,
       "imageFiles": [
-        "3.Sometimes.by.Step-0.png",
-        "3.Sometimes.by.Step-1.png"
+        "3.By.and.By.Medley-0.png",
+        "3.By.and.By.Medley-1.png",
+        "3.By.and.By.Medley-2.png",
+        "3.By.and.By.Medley-3.png",
+        "3.By.and.By.Medley-4.png",
+        "3.By.and.By.Medley-5.png",
+        "3.By.and.By.Medley-6.png",
+        "3.By.and.By.Medley-7.png",
+        "3.By.and.By.Medley-8.png",
+        "3.By.and.By.Medley-9.png",
+        "3.By.and.By.Medley-10.png",
+        "3.By.and.By.Medley-11.png"
         ],
       "lyricSlideImages": [
-        "lyric-slide-images/3.Sometimes.by.Step-0.png",
-        "lyric-slide-images/3.Sometimes.by.Step-1.png",
-        "lyric-slide-images/3.Sometimes.by.Step-2.png",
-        "lyric-slide-images/3.Sometimes.by.Step-3.png",
-        "lyric-slide-images/3.Sometimes.by.Step-4.png",
-        "lyric-slide-images/3.Sometimes.by.Step-5.png",
-        "lyric-slide-images/3.Sometimes.by.Step-6.png",
-        "lyric-slide-images/3.Sometimes.by.Step-7.png",
-        "lyric-slide-images/3.Sometimes.by.Step-8.png",
-        "lyric-slide-images/3.Sometimes.by.Step-9.png",
-        "lyric-slide-images/3.Sometimes.by.Step-10.png",
-        "lyric-slide-images/3.Sometimes.by.Step-11.png",
-        "lyric-slide-images/3.Sometimes.by.Step-12.png",
-        "lyric-slide-images/3.Sometimes.by.Step-13.png",
-        "lyric-slide-images/3.Sometimes.by.Step-14.png",
-        "lyric-slide-images/3.Sometimes.by.Step-15.png",
-        "lyric-slide-images/3.Sometimes.by.Step-16.png"
+        "lyric-slide-images/3.By.and.By.Medley-0.png",
+        "lyric-slide-images/3.By.and.By.Medley-1.png",
+        "lyric-slide-images/3.By.and.By.Medley-2.png",
+        "lyric-slide-images/3.By.and.By.Medley-3.png",
+        "lyric-slide-images/3.By.and.By.Medley-4.png",
+        "lyric-slide-images/3.By.and.By.Medley-5.png",
+        "lyric-slide-images/3.By.and.By.Medley-6.png",
+        "lyric-slide-images/3.By.and.By.Medley-7.png",
+        "lyric-slide-images/3.By.and.By.Medley-8.png",
+        "lyric-slide-images/3.By.and.By.Medley-9.png",
+        "lyric-slide-images/3.By.and.By.Medley-10.png",
+        "lyric-slide-images/3.By.and.By.Medley-11.png",
+        "lyric-slide-images/3.By.and.By.Medley-12.png",
+        "lyric-slide-images/3.By.and.By.Medley-13.png",
+        "lyric-slide-images/3.By.and.By.Medley-14.png",
+        "lyric-slide-images/3.By.and.By.Medley-15.png",
+        "lyric-slide-images/3.By.and.By.Medley-16.png",
+        "lyric-slide-images/3.By.and.By.Medley-17.png",
+        "lyric-slide-images/3.By.and.By.Medley-18.png",
+        "lyric-slide-images/3.By.and.By.Medley-19.png",
+        "lyric-slide-images/3.By.and.By.Medley-20.png",
+        "lyric-slide-images/3.By.and.By.Medley-21.png",
+        "lyric-slide-images/3.By.and.By.Medley-22.png",
+        "lyric-slide-images/3.By.and.By.Medley-23.png",
+        "lyric-slide-images/3.By.and.By.Medley-24.png",
+        "lyric-slide-images/3.By.and.By.Medley-25.png",
+        "lyric-slide-images/3.By.and.By.Medley-26.png",
+        "lyric-slide-images/3.By.and.By.Medley-27.png",
+        "lyric-slide-images/3.By.and.By.Medley-28.png",
+        "lyric-slide-images/3.By.and.By.Medley-29.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/Sometimes.by.Step.all.HL.mp3",
+          "src": "audio/By.and.By.Medley.all.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Sometimes.by.Step.all.HL.mp3",
+          "src": "audio/By.and.By.Medley.alto.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Sometimes.by.Step.all.HL.mp3",
+          "src": "audio/By.and.By.Medley.tenor.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Sometimes.by.Step.all.HL.mp3",
+          "src": "audio/By.and.By.Medley.bass.HL.mp3",
           "group": "bass"
         }
       ]
     },
     {
-      "title": "LORD I NEED YOU",
+      "title": "YET NOT I BUT THROUGH CHRIST IN ME",
       "useImages": true,
       "imageFiles": [
-        "4.Lord.I.Need.You-0.png",
-        "4.Lord.I.Need.You-1.png"
+        "4.Yet.Not.I.but.Through.Christ.in.Me-0.png",
+        "4.Yet.Not.I.but.Through.Christ.in.Me-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/4.Lord.I.Need.You-0.png",
-        "lyric-slide-images/4.Lord.I.Need.You-1.png",
-        "lyric-slide-images/4.Lord.I.Need.You-2.png",
-        "lyric-slide-images/4.Lord.I.Need.You-3.png",
-        "lyric-slide-images/4.Lord.I.Need.You-4.png",
-        "lyric-slide-images/4.Lord.I.Need.You-5.png",
-        "lyric-slide-images/4.Lord.I.Need.You-6.png",
-        "lyric-slide-images/4.Lord.I.Need.You-7.png",
-        "lyric-slide-images/4.Lord.I.Need.You-8.png",
-        "lyric-slide-images/4.Lord.I.Need.You-9.png",
-        "lyric-slide-images/4.Lord.I.Need.You-10.png",
-        "lyric-slide-images/4.Lord.I.Need.You-11.png",
-        "lyric-slide-images/4.Lord.I.Need.You-12.png"
-
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-0.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-1.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-2.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-3.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-4.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-5.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-6.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-7.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-8.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-9.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-10.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-11.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-12.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-13.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-14.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-15.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-16.png",
+        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-17.png"
       ],
       "tracks": [
         {
           "name": "SOPRANO/MELODY",
-          "src": "audio/Lord.I.Need.You.all.HL.mp3",
+          "src": "audio/Yet.Not.I.but.Through.Christ.in.Me.HL?.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Lord.I.Need.You.all.HL.mp3",
+          "src": "audio/Yet.Not.I.but.Through.Christ.in.Me.HL?.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Lord.I.Need.You.all.HL.mp3",
+          "src": "audio/Yet.Not.I.but.Through.Christ.in.Me.HL?.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Lord.I.Need.You.all.HL.mp3",
+          "src": "audio/Yet.Not.I.but.Through.Christ.in.Me.HL?.mp3",
           "group": "bass"
         }
       ]
     },
     {
-      "title": "CHRIST IN ME ARISE",
+      "title": "SHOUTIN' TIME",
       "useImages": true,
       "imageFiles": [
-        "5.Christ.in.Me.Arise-0.png",
-        "5.Christ.in.Me.Arise-1.png"
-      ],
+        "5.Shoutin.Time-0.png",
+        "5.Shoutin.Time-1.png",
+        "5.Shoutin.Time-2.png",
+        "5.Shoutin.Time-3.png",
+        "5.Shoutin.Time-4.png",
+        "5.Shoutin.Time-5.png",
+        "5.Shoutin.Time-6.png",
+        "5.Shoutin.Time-7.png",
+        "5.Shoutin.Time-8.png",
+        "5.Shoutin.Time-9.png",
+        "5.Shoutin.Time-10.png",
+        "5.Shoutin.Time-11.png",
+        "5.Shoutin.Time-12.png"
+        ],
       "lyricSlideImages": [
-        "lyric-slide-images/5.Christ.in.Me.Arise-0.png",
-        "lyric-slide-images/5.Christ.in.Me.Arise-1.png",
-        "lyric-slide-images/5.Christ.in.Me.Arise-2.png",
-        "lyric-slide-images/5.Christ.in.Me.Arise-3.png",
-        "lyric-slide-images/5.Christ.in.Me.Arise-4.png",
-        "lyric-slide-images/5.Christ.in.Me.Arise-5.png",
-        "lyric-slide-images/5.Christ.in.Me.Arise-6.png",
-        "lyric-slide-images/5.Christ.in.Me.Arise-7.png",
-        "lyric-slide-images/5.Christ.in.Me.Arise-8.png",
-        "lyric-slide-images/5.Christ.in.Me.Arise-9.png",
-        "lyric-slide-images/5.Christ.in.Me.Arise-10.png",
-        "lyric-slide-images/5.Christ.in.Me.Arise-11.png",
-        "lyric-slide-images/5.Christ.in.Me.Arise-12.png",
-        "lyric-slide-images/5.Christ.in.Me.Arise-13.png",
-        "lyric-slide-images/5.Christ.in.Me.Arise-14.png",
-        "lyric-slide-images/5.Christ.in.Me.Arise-15.png",
-        "lyric-slide-images/5.Christ.in.Me.Arise-16.png"
+        "lyric-slide-images/5.Shoutin.Time-0.png",
+        "lyric-slide-images/5.Shoutin.Time-1.png",
+        "lyric-slide-images/5.Shoutin.Time-2.png",
+        "lyric-slide-images/5.Shoutin.Time-3.png",
+        "lyric-slide-images/5.Shoutin.Time-4.png",
+        "lyric-slide-images/5.Shoutin.Time-5.png",
+        "lyric-slide-images/5.Shoutin.Time-6.png",
+        "lyric-slide-images/5.Shoutin.Time-7.png",
+        "lyric-slide-images/5.Shoutin.Time-8.png",
+        "lyric-slide-images/5.Shoutin.Time-9.png",
+        "lyric-slide-images/5.Shoutin.Time-10.png",
+        "lyric-slide-images/5.Shoutin.Time-11.png",
+        "lyric-slide-images/5.Shoutin.Time-12.png",
+        "lyric-slide-images/5.Shoutin.Time-13.png",
+        "lyric-slide-images/5.Shoutin.Time-14.png",
+        "lyric-slide-images/5.Shoutin.Time-15.png",
+        "lyric-slide-images/5.Shoutin.Time-16.png",
+        "lyric-slide-images/5.Shoutin.Time-17.png",
+        "lyric-slide-images/5.Shoutin.Time-18.png",
+        "lyric-slide-images/5.Shoutin.Time-19.png",
+        "lyric-slide-images/5.Shoutin.Time-20.png"
       ],
       "tracks": [
         {
           "name": "SOPRANO/MELODY",
-          "src": "audio/Christ.In.Me.Arise.all.HL.mp3",
+          "src": "audio/Shoutin.Time.all.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Christ.In.Me.Arise.alto.bass.HL.mp3",
+          "src": "audio/Shoutin.Time.alto.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Christ.In.Me.Arise.tenor.HL.mp3",
+          "src": "audio/Shoutin.Time.tenor.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Christ.In.Me.Arise.alto.bass.HL.mp3",
-          "group": "bass"
-        },
-        {
-          "name": "PIANO",
-          "src": "audio/Christ.In.Me.Arise.piano.HL.mp3"
-        }
-      ]
-    },
-    {
-      "title": "PEOPLE NEED THE LORD",
-      "useImages": true,
-      "imageFiles": [
-        "7.People.Need.the.Lord-0.png",
-        "7.People.Need.the.Lord-1.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/7.People.Need.the.Lord-0.png",
-        "lyric-slide-images/7.People.Need.the.Lord-1.png",
-        "lyric-slide-images/7.People.Need.the.Lord-2.png",
-        "lyric-slide-images/7.People.Need.the.Lord-3.png",
-        "lyric-slide-images/7.People.Need.the.Lord-4.png",
-        "lyric-slide-images/7.People.Need.the.Lord-5.png",
-        "lyric-slide-images/7.People.Need.the.Lord-6.png",
-        "lyric-slide-images/7.People.Need.the.Lord-7.png",
-        "lyric-slide-images/7.People.Need.the.Lord-8.png",
-        "lyric-slide-images/7.People.Need.the.Lord-9.png",
-        "lyric-slide-images/7.People.Need.the.Lord-10.png",
-        "lyric-slide-images/7.People.Need.the.Lord-11.png",
-        "lyric-slide-images/7.People.Need.the.Lord-12.png",
-        "lyric-slide-images/7.People.Need.the.Lord-13.png",
-        "lyric-slide-images/7.People.Need.the.Lord-14.png",
-        "lyric-slide-images/7.People.Need.the.Lord-15.png",
-        "lyric-slide-images/7.People.Need.the.Lord-16.png",
-        "lyric-slide-images/7.People.Need.the.Lord-17.png"
-
-      ],
-      "tracks": [
-        {
-          "name": "SOPRANO/MELODY",
-          "src": "audio/People.Need.the.Lord.all.HL.mp3",
-          "group": "soprano"
-        },
-        {
-          "name": "ALTO",
-          "src": "audio/People.Need.the.Lord.all.HL.mp3",
-          "group": "alto"
-        },
-        {
-          "name": "TENOR",
-          "src": "audio/People.Need.the.Lord.all.HL.mp3",
-          "group": "tenor"
-        },
-        {
-          "name": "BASS",
-          "src": "audio/People.Need.the.Lord.all.HL.mp3",
+          "src": "audio/Shoutin.Time.bass.HL.mp3",
           "group": "bass"
         }
-
       ]
     }
   ],
