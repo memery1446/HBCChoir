@@ -221,22 +221,22 @@
       "tracks": [
         {
           "name": "SOPRANO/MELODY",
-          "src": "audio/Yet.Not.I.but.Through.Christ.in.Me.HL?.mp3",
+          "src": "audio/Yet.Not.I.but.Through.Christ.in.Me.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Yet.Not.I.but.Through.Christ.in.Me.HL?.mp3",
+          "src": "audio/Yet.Not.I.but.Through.Christ.in.Me.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Yet.Not.I.but.Through.Christ.in.Me.HL?.mp3",
+          "src": "audio/Yet.Not.I.but.Through.Christ.in.Me.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Yet.Not.I.but.Through.Christ.in.Me.HL?.mp3",
+          "src": "audio/Yet.Not.I.but.Through.Christ.in.Me.HL.mp3",
           "group": "bass"
         }
       ]
