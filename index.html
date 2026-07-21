@@ -1179,7 +1179,7 @@
             width: 100%;
             height: 100%;
             display: flex;
-            pointer-events: none; /* hidden by default, enabled on touch devices */
+            pointer-events: none;
             z-index: 5;
         }
 
@@ -1215,6 +1215,7 @@
         <nav class="nav-bar">
             <a href="index.html" class="nav-link active">🎵 Sunday Songs</a>
             <a href="solos.html" class="nav-link">🎤 Special Music / Solos</a>
+            <a href="nehemiah-1.html" class="nav-link">📜 Nehemiah Series Part 1: Arise and Build</a>
         </nav>
     </header>
 
@@ -1513,25 +1514,20 @@
     }
 
     function getYoutubeEmbedUrl(url) {
-        // Extract video ID from various YouTube URL formats
         let videoId = null;
 
-        // Format: https://www.youtube.com/watch?v=VIDEO_ID
         if (url.includes('youtube.com/watch')) {
             const urlParams = new URLSearchParams(new URL(url).search);
             videoId = urlParams.get('v');
         }
-        // Format: https://youtu.be/VIDEO_ID
         else if (url.includes('youtu.be/')) {
             videoId = url.split('youtu.be/')[1].split('?')[0];
         }
-        // Format: https://www.youtube.com/embed/VIDEO_ID
         else if (url.includes('youtube.com/embed/')) {
             videoId = url.split('embed/')[1].split('?')[0];
         }
 
         if (videoId) {
-            // Return embed URL with autoplay parameter
             return `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
         }
         return null;
@@ -1547,7 +1543,6 @@
 
     function closeYoutubeModal() {
         document.getElementById('youtubeModal').style.display = 'none';
-        // Stop the video by clearing the iframe src
         document.getElementById('youtubeFrame').src = '';
     }
 
@@ -1639,11 +1634,9 @@
         const isListenOnly = !song.useImages && !song.pdf && song.tracks && song.tracks.length > 0;
 
         if (isListenOnly) {
-            // Check if any track is a YouTube URL
             const hasYoutube = song.tracks.some(track => isYoutubeUrl(track.src));
 
             if (hasYoutube) {
-                // Create buttons for YouTube videos
                 song.tracks.forEach(track => {
                     const button = document.createElement('button');
                     button.className = 'link-btn';
@@ -1654,7 +1647,6 @@
                     links.appendChild(button);
                 });
             } else {
-                // Create inline audio player for regular audio files
                 const audioContainer = document.createElement('div');
                 audioContainer.style.width = '100%';
                 audioContainer.style.marginTop = '10px';
@@ -1710,7 +1702,6 @@
         return songItem;
     }
 
-    // Pick the best track src for a given voice group, falling back to tracks[0]
     function getTrackSrcForGroup(song, group) {
         if (!song.tracks || song.tracks.length === 0) {
             return song.single ? song.single.audio : null;
@@ -1720,7 +1711,6 @@
     }
 
     function updatePlaylistSongs() {
-        // Default playlist (soprano/melody) used for legacy calls
         buildPlaylistForGroup('soprano');
     }
 
@@ -1735,7 +1725,6 @@
             });
         }
 
-        // Interleave Bible verse interlude between songs if configured
         const interludeSrc = currentContent.interludeMp3;
         if (interludeSrc && songEntries.length > 0) {
             playlistSongs = [];
@@ -1763,12 +1752,10 @@
 
     function openImagePDF(imageFiles, title, tracks, lyricSlideFiles = null) {
         currentImages = imageFiles.map(filename => `sheet-music-images/${filename}`);
-        // Lyric slides already have full path in JSON, don't prepend directory
         currentLyricSlides = lyricSlideFiles ? lyricSlideFiles : [];
         currentImageIndex = 0;
         showingLyrics = false;
 
-        // Show/hide toggle button based on whether lyric slides are available
         const toggleBtn = document.getElementById('toggleViewBtn');
         if (currentLyricSlides.length > 0) {
             toggleBtn.style.display = 'inline-block';
@@ -1790,11 +1777,9 @@
             return;
         }
 
-        // Check if any tracks are YouTube URLs
         const hasYoutube = tracks.some(track => isYoutubeUrl(track.src));
 
         if (hasYoutube) {
-            // Create YouTube buttons instead of audio player
             let youtubeSelectorHTML = '<div class="voice-selector">';
             tracks.forEach((track, index) => {
                 youtubeSelectorHTML += `<button class="voice-btn" onclick="openYoutubeModal('${track.src}')" style="background: #FF0000;">🎥 ${track.name}</button>`;
@@ -1803,7 +1788,6 @@
             document.getElementById('imageVoiceSelector').innerHTML = youtubeSelectorHTML;
             document.getElementById('imageModalAudioContainer').innerHTML = '';
         } else {
-            // Regular audio handling
             if (!imageModalAudioPlayer) {
                 imageModalAudioPlayer = new CustomAudioPlayer('imageModalAudioContainer');
             }
@@ -1826,7 +1810,7 @@
 
     function toggleImageView() {
         showingLyrics = !showingLyrics;
-        currentImageIndex = 0; // Reset to first page when switching
+        currentImageIndex = 0;
 
         const toggleBtn = document.getElementById('toggleViewBtn');
         toggleBtn.textContent = showingLyrics ? 'Show Sheet Music' : 'Show Lyric Slides';
@@ -1850,14 +1834,12 @@
             }
         };
 
-        // Choose the appropriate image array based on current view
         const imageArray = showingLyrics ? currentLyricSlides : currentImages;
         img.src = imageArray[currentImageIndex];
         updateImagePageControls();
     }
 
     function updateImagePageControls() {
-        // Use the appropriate image array based on current view
         const imageArray = showingLyrics ? currentLyricSlides : currentImages;
 
         const inlineControls = document.getElementById('imageControlsInline');
@@ -1899,12 +1881,10 @@
         });
     }
 
-
     function setupImageTapZones() {
         const viewer = document.querySelector('.image-viewer');
         if (!viewer) return;
 
-        // Remove any existing tap zones
         const existing = viewer.querySelector('.image-tap-zones');
         if (existing) existing.remove();
 
@@ -1937,7 +1917,6 @@
         img.src = '';
         img.classList.remove('loaded');
 
-        // Reset state variables
         showingLyrics = false;
         currentLyricSlides = [];
     }
@@ -1954,7 +1933,6 @@
         currentPlaylistIndex = 0;
         document.getElementById('playlistControls').style.display = 'flex';
 
-        // Highlight the active button
         document.querySelectorAll('.play-all-btn').forEach(btn => btn.classList.remove('active-group'));
         const activeBtn = document.querySelector(`.play-all-btn.${group}`);
         if (activeBtn) activeBtn.classList.add('active-group');

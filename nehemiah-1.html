@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arise and Build – Nehemiah 1–2</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: #f7f5f2;
+            color: #222;
+            padding: 2rem 1rem 4rem;
+        }
+
+        .page {
+            max-width: 720px;
+            margin: 0 auto;
+        }
+
+        /* ── Series banner ── */
+        .series-banner {
+            background: #3C3489;
+            border-radius: 14px;
+            padding: 2.5rem 2.25rem 2rem;
+            margin-bottom: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .series-banner::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 5px;
+            background: #EF9F27;
+        }
+
+        .series-label {
+            font-family: Arial, sans-serif;
+            font-size: 0.7rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: #AFA9EC;
+            margin-bottom: 0.5rem;
+        }
+
+        .series-banner h1 {
+            color: #EEEDFE;
+            font-size: 2.1rem;
+            font-weight: normal;
+            margin-bottom: 0.4rem;
+            line-height: 1.2;
+        }
+
+        .byline {
+            color: #AFA9EC;
+            font-size: 0.95rem;
+            font-style: italic;
+        }
+
+        /* ── Installment header ── */
+        .installment-header {
+            border-left: 5px solid #EF9F27;
+            padding-left: 1.25rem;
+            margin-bottom: 2.25rem;
+        }
+
+        .part-label {
+            font-family: Arial, sans-serif;
+            font-size: 0.7rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #7a6a2a;
+            margin-bottom: 0.35rem;
+        }
+
+        .installment-header h2 {
+            font-size: 1.65rem;
+            font-weight: normal;
+            color: #1a1a2e;
+            line-height: 1.3;
+        }
+
+        /* ── Body ── */
+        .article-body p {
+            font-size: 1.05rem;
+            line-height: 1.9;
+            color: #2d2d2d;
+            margin-bottom: 1.2rem;
+        }
+
+        .section-rule {
+            font-family: Arial, sans-serif;
+            font-size: 0.7rem;
+            font-weight: bold;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: #7a6a2a;
+            margin: 2.5rem 0 1.25rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #e0d5c0;
+        }
+
+        /* ── Pull quotes ── */
+        blockquote {
+            margin: 2rem 0;
+            padding: 1.2rem 1.5rem;
+            font-size: 1.05rem;
+            line-height: 1.8;
+            font-style: italic;
+        }
+
+        blockquote.amber {
+            border-left: 4px solid #BA7517;
+            background: #FAEEDA;
+            color: #412402;
+        }
+
+        blockquote.purple {
+            border-left: 4px solid #534AB7;
+            background: #EEEDFE;
+            color: #26215C;
+        }
+
+        /* ── Reflection questions ── */
+        .questions {
+            border-radius: 10px;
+            overflow: hidden;
+            border: 1px solid #ddd;
+            margin-top: 2.5rem;
+        }
+
+        .questions-header {
+            background: #3C3489;
+            padding: 0.9rem 1.25rem;
+        }
+
+        .questions-header p {
+            color: #EEEDFE;
+            font-family: Arial, sans-serif;
+            font-size: 0.7rem;
+            letter-spacing: 0.13em;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        .questions ol {
+            padding: 1.25rem 1.25rem 1.25rem 2.5rem;
+            background: white;
+        }
+
+        .questions ol li {
+            font-size: 1rem;
+            line-height: 1.85;
+            color: #333;
+            margin-bottom: 0.75rem;
+        }
+
+        .questions ol li:last-child { margin-bottom: 0; }
+
+        /* ── Citation ── */
+        .citation {
+            margin-top: 1.75rem;
+            padding-top: 1.25rem;
+            border-top: 1px solid #e0e0e0;
+            font-size: 0.875rem;
+            color: #888;
+            font-style: italic;
+        }
+
+        /* ── Next teaser ── */
+        .next-card {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: white;
+            border-radius: 10px;
+            border: 1px solid #e0e0e0;
+            border-left: 5px solid #EF9F27;
+            padding: 1.1rem 1.4rem;
+            margin-top: 1.75rem;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .next-card .next-title {
+            font-size: 1.05rem;
+            color: #1a1a2e;
+            margin-top: 0.2rem;
+        }
+
+        .next-card .arrow {
+            color: #c8954a;
+            font-size: 1.4rem;
+        }
+
+        @media (max-width: 600px) {
+            .series-banner h1 { font-size: 1.6rem; }
+            .installment-header h2 { font-size: 1.35rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+
+    <div class="series-banner">
+        <div class="series-label">A study through the book of Nehemiah</div>
+        <h1>Arise and Build</h1>
+        <div class="byline">by Mark Emery</div>
+    </div>
+
+    <div class="installment-header">
+        <div class="part-label">Installment One · Nehemiah 1–2</div>
+        <h2>A Burden That Will Not Be Silenced</h2>
+    </div>
+
+    <div class="article-body">
+
+        <p>The year is roughly 446 BC. The Persian Empire is at the height of its power. Nehemiah serves as cupbearer to King Artaxerxes — a position of remarkable proximity to the throne. He has a comfortable life. He has access. He has security.</p>
+
+        <p>And then the news arrives.</p>
+
+        <p>His brother Hanani comes from Jerusalem with a simple, devastating report: the walls are broken down. The gates have been burned. The people who survived the exile live in great distress and disgrace. Nehemiah could have filed this information away. He could have prayed a polite prayer and moved on. He could have told himself that someone else would surely handle it — that his role in Persia was important enough, that disturbing the peace wasn't worth the cost.</p>
+
+        <p>Instead, he sat down and wept.</p>
+
+        <div class="section-rule">What a burden looks like</div>
+
+        <p>Biblical scholars note that the two Hebrew words used to describe the condition of Jerusalem's people — <em>rāʿâ</em> (distress) and <em>ḥerpâ</em> (reproach) — together paint a picture of a community in genuine danger, living under a cloud of shame. This was not inconvenience. It was the fulfillment of prophetic judgment, a condition utterly incompatible with what God had promised his people would one day become.</p>
+
+        <p>The burden Nehemiah felt was not manufactured sentimentality. It was the reaction of a man who loved God's people and could not reconcile what they were enduring with what God had said they would be. That gap — between present reality and covenant promise — became the ground of his intercession.</p>
+
+        <blockquote class="amber">The willingness to see clearly — to refuse to smooth over what is genuinely wrong — is not a failure of faith. In many ways, it is faith's first fruit.</blockquote>
+
+        <p>Nehemiah did not spiritualize away what Hanani reported. He did not reframe the broken walls as a minor setback or dismiss the messenger's account as too negative. He looked at the truth and let it grieve him before God. The man who weeps over the ruins is not weak. He is paying attention.</p>
+
+        <div class="section-rule">The prayer that preceded the action</div>
+
+        <p>What follows the report is one of the most remarkable prayers in all of Scripture. For days — "day and night," the text says — Nehemiah fasted and prayed. The shape of that prayer is instructive.</p>
+
+        <p>He begins with God. Not with the problem, not with a proposed solution, not even with a lament. He begins by declaring who God is: great, awesome, covenant-keeping, faithfully merciful. The person of God is the foundation of all genuine intercession. We cannot pray as we ought until we have rightly seen the One to whom we pray.</p>
+
+        <p>From there, Nehemiah moves to confession — and here is where modern readers may find him surprising. He does not confess only the sins of others. He confesses his own sin and the sin of his father's house: <em>"I and my father's house have sinned."</em> There is no distance in his words, no separating himself from the community's failure. He prays as a member of the body, not as an outside observer critiquing the ruins from a comfortable distance.</p>
+
+        <p>This quality of communal identification is rare, and it is costly. It would be far easier — and far more comfortable — to lament only what others have done, to point at the broken gates and assign blame outward. Nehemiah does not do this. He kneels in the ruins alongside his people.</p>
+
+        <blockquote class="purple">He is not merely lamenting; he is pleading the covenant. He is holding God to what God has said.</blockquote>
+
+        <p>Yet even in the depths of confession, Nehemiah's prayer is anchored in hope. He appeals to God's own promises — the word given through Moses that even the scattered would be gathered when they returned to him. Four months would pass before anything changed. Four months of prayer. Four months of waiting. This is what Scripture means by "waiting on the Lord" — not passive resignation, but active, sustained, prayerful confidence in the face of circumstances that have not yet shifted.</p>
+
+        <div class="section-rule">The door that finally opens</div>
+
+        <p>When Nehemiah finally stands before the king, his countenance betrays him. The grief he has carried for months has settled into his face, and Artaxerxes sees it. What happens next is, humanly speaking, dangerous. Persian kings were not known for their patience with sorrowful servants. The text tells us plainly: "then I was very much afraid."</p>
+
+        <p>He prays. Right there, in a heartbeat between the king's question and his own answer, Nehemiah turns to God. And then he speaks the truth.</p>
+
+        <p>He does not deflect. He does not minimize. He says, in essence: <em>The city of my fathers lies in ruins. How could my face not be sad?</em> He names what is broken. He does not pretend the walls are intact to avoid a difficult conversation.</p>
+
+        <p>There is a kind of courage in Nehemiah's honesty that is easy to overlook because the narrative moves so quickly. In one breath he is afraid; in the next he is speaking plainly to the most powerful man in the world. The fear does not go away — but it does not win. Courage is not the absence of fear. It is faithful action in the presence of fear.</p>
+
+        <p>And notice what grounds that courage: not confidence in himself, but confidence in the God of heaven. The king before him is, in Nehemiah's own framing, simply "this man." The Persian Empire is immense — but it sits beneath the authority of the One to whom Nehemiah has been praying for four months. Artaxerxes grants every request.</p>
+
+        <div class="section-rule">What this means for us</div>
+
+        <p>The opening chapters of Nehemiah are not primarily about architecture. They are about what it looks like when a servant of God takes seriously the condition of the people of God — refuses to look away from real distress, carries it before the Lord in earnest prayer, waits on his timing, and then acts with courage when the door finally opens.</p>
+
+        <p>There is something else worth noting here. Nehemiah did not arrive in Jerusalem and immediately begin rallying people to build. He spent days in prayer and mourning first. The bold action that follows in this book is remarkable for its decisiveness — but its roots are deep in the soil of intercession. Men and women who act faithfully in difficult seasons are almost always people who have prayed long and honestly before they were ever heard from publicly.</p>
+
+        <p>Nehemiah wept when he should have wept. He prayed when he should have prayed. He waited when he had to wait. And he spoke when it was time to speak.</p>
+
+        <p>That is the heart of a servant.</p>
+
+        <div class="questions">
+            <div class="questions-header"><p>Questions for reflection</p></div>
+            <ol>
+                <li>How does Nehemiah's response to difficult news shape the way I think about bringing my own burdens before the Lord?</li>
+                <li>When I come to God in prayer, where do I tend to begin — with who he is, or with what I need?</li>
+                <li>What does it look like for me to truly identify with the body of Christ the way Nehemiah identified with Israel — owning its struggles as my own?</li>
+                <li>In seasons of waiting, how might I make my waiting an active, prayerful posture rather than a passive one?</li>
+                <li>Is there a place in my life where God may be calling me to speak or act with courage I haven't yet exercised?</li>
+            </ol>
+        </div>
+
+        <div class="citation">
+            Primary resource: T. J. Betts, <em>Nehemiah: A Pastoral and Exegetical Commentary</em> (Bellingham, WA: Lexham Press, 2020).
+        </div>
+
+        <div class="next-card">
+            <div>
+                <div class="part-label">Next installment · Nehemiah 3–4</div>
+                <div class="next-title">Builders and Adversaries</div>
+            </div>
+            <div class="arrow">→</div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
