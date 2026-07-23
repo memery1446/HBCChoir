@@ -45,22 +45,22 @@
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/When.We.All.Get.to.Heaven.piano.web.mp3",
+          "src": "audio/When.We.All.Get.to.Heaven.all.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/When.We.All.Get.to.Heaven.piano.web.mp3",
+          "src": "audio/When.We.All.Get.to.Heaven.alto.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/When.We.All.Get.to.Heaven.piano.web.mp3",
+          "src": "audio/When.We.All.Get.to.Heaven.tenor.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/When.We.All.Get.to.Heaven.piano.web.mp3",
+          "src": "audio/When.We.All.Get.to.Heaven.bass.HL.mp3",
           "group": "bass"
         }
       ]
