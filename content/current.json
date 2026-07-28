@@ -45,18 +45,23 @@
         },
         {
           "name": "ALTO",
-          "src": "audio/Come.Thou.Fount.all.mp3",
+          "src": "audio/Come.Thou.Fount.harm.2.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Come.Thou.Fount.all.mp3",
+          "src": "audio/Come.Thou.Fount.harm.1.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Come.Thou.Fount.all.mp3",
+          "src": "audio/Come.Thou.Fount.harm.2.mp3",
           "group": "bass"
+        },
+        {
+          "name": "PIANO",
+          "src": "audio/Come.Thou.Fount.piano.mp3",
+          "group": "piano"
         }
       ]
     },
@@ -117,6 +122,11 @@
           "name": "BASS",
           "src": "audio/The.Lord.Will.Provide.all.HL.mp3",
           "group": "bass"
+        },
+        {
+          "name": "PIANO",
+          "src": "audio/The.Lord.Will.Provide.piano.HL.mp3",
+          "group": "piano"
         }
       ]
     },
@@ -163,6 +173,11 @@
           "name": "BASS",
           "src": "audio/Gratitude.all.HL.mp3",
           "group": "bass"
+        },
+        {
+          "name": "PIANO",
+          "src": "audio/Gratitude.piano.mp3",
+          "group": "piano"
         }
       ]
     },
@@ -216,19 +231,63 @@
         },
         {
           "name": "ALTO",
-          "src": "audio/Build.My.Life.melody.HL.mp3",
+          "src": "audio/Build-My-Life-Harm-Heavy (1).mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Build.My.Life.melody.HL.mp3",
+          "src": "audio/Build-My-Life-Harm-Heavy (1).mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Build.My.Life.melody.HL.mp3",
+          "src": "audio/Build-My-Life-Harm-Heavy (1).mp3",
           "group": "bass"
         }
+      ]
+    },
+    {
+      "title": "SURELY THE PRESENCE",
+      "useImages": true,
+      "imageFiles": [
+        "5.Surely.the.Presence.of.the.Lord-0.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/5.Surely.the.Presence-0.png",
+        "lyric-slide-images/5.Surely.the.Presence-1.png",
+        "lyric-slide-images/5.Surely.the.Presence-2.png",
+        "lyric-slide-images/5.Surely.the.Presence-3.png",
+        "lyric-slide-images/5.Surely.the.Presence-4.png",
+        "lyric-slide-images/5.Surely.the.Presence-5.png",
+        "lyric-slide-images/5.Surely.the.Presence-6.png",
+        "lyric-slide-images/5.Surely.the.Presence-7.png",
+        "lyric-slide-images/5.Surely.the.Presence-8.png",
+        "lyric-slide-images/5.Surely.the.Presence-9.png",
+        "lyric-slide-images/5.Surely.the.Presence-10.png",
+        "lyric-slide-images/5.Surely.the.Presence-11.png",
+        "lyric-slide-images/5.Surely.the.Presence-12.png"
+      ],
+      "tracks": [
+        {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/Surely.the.Presence.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "ALTO",
+          "src": "audio/Surely.the.Presence.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "TENOR",
+          "src": "audio/Surely.the.Presence.mp3",
+          "group": "tenor"
+        },
+        {
+          "name": "BASS",
+          "src": "audio/Surely.the.Presence.mp3",
+          "group": "bass"
+        },
       ]
     }
   ],
