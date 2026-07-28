@@ -96,8 +96,6 @@
         "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-25.png",
         "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-26.png",
         "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-27.png"
-
-
       ],
       "tracks": [
         {
@@ -129,7 +127,7 @@
         "3.Gratitude-0.png",
         "3.Gratitude-1.png",
         "3.Gratitude-2.png"
-        ],
+      ],
       "lyricSlideImages": [
         "lyric-slide-images/Copy of 5.Gratitude-0.png",
         "lyric-slide-images/Copy of 5.Gratitude-1.png",
@@ -232,8 +230,7 @@
           "group": "bass"
         }
       ]
-
-    {
+    }
   ],
   "allSongsPdf": null,
   "interludeMp3": null
