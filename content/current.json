@@ -1,310 +1,239 @@
 {
-  "serviceDate": "2026-07-26",
+  "serviceDate": "2026-08-02",
   "headerNotes": [
     "Our Choir music for Sunday is below.",
     "Choir meets Sundays at 4:30pm.",
     "CHILDCARE is coordinated during Sunday and Wednesday rehearsals."
   ],
   "order": [
-    "When We All Get to Heaven",
-    "Soon and Very Soon",
-    "By and By Medley",
-    "Yet Not I but Through Christ in Me",
-    "CHOIR SPECIAL: Shoutin' Time"
+    "Come Thou Fount of Every Blessing",
+    "The Lord Will Provide",
+    "Gratitude",
+    "Build My Life",
+    "CHOIR SPECIAL DURING OFFERTORY: Surely the Presence"
   ],
   "songs": [
     {
-      "title": "WHEN WE ALL GET TO HEAVEN",
+      "title": "COME THOU FOUNT OF EVERY BLESSING",
       "useImages": true,
       "imageFiles": [
-        "1.When.We.All.Get.to.Heaven-0.png"
+        "1.Come.Thou.Fount.of.Every.Blessing-0.png",
+        "1.Come.Thou.Fount.of.Every.Blessing-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/1.When.We.All.Get.to.Heaven-0.png",
-        "lyric-slide-images/1.When.We.All.Get.to.Heaven-1.png",
-        "lyric-slide-images/1.When.We.All.Get.to.Heaven-2.png",
-        "lyric-slide-images/1.When.We.All.Get.to.Heaven-3.png",
-        "lyric-slide-images/1.When.We.All.Get.to.Heaven-4.png",
-        "lyric-slide-images/1.When.We.All.Get.to.Heaven-5.png",
-        "lyric-slide-images/1.When.We.All.Get.to.Heaven-6.png",
-        "lyric-slide-images/1.When.We.All.Get.to.Heaven-7.png",
-        "lyric-slide-images/1.When.We.All.Get.to.Heaven-8.png",
-        "lyric-slide-images/1.When.We.All.Get.to.Heaven-9.png",
-        "lyric-slide-images/1.When.We.All.Get.to.Heaven-10.png",
-        "lyric-slide-images/1.When.We.All.Get.to.Heaven-11.png",
-        "lyric-slide-images/1.When.We.All.Get.to.Heaven-12.png",
-        "lyric-slide-images/1.When.We.All.Get.to.Heaven-13.png",
-        "lyric-slide-images/1.When.We.All.Get.to.Heaven-14.png",
-        "lyric-slide-images/1.When.We.All.Get.to.Heaven-15.png",
-        "lyric-slide-images/1.When.We.All.Get.to.Heaven-16.png",
-        "lyric-slide-images/1.When.We.All.Get.to.Heaven-17.png",
-        "lyric-slide-images/1.When.We.All.Get.to.Heaven-18.png",
-        "lyric-slide-images/1.When.We.All.Get.to.Heaven-19.png",
-        "lyric-slide-images/1.When.We.All.Get.to.Heaven-20.png"
+        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-0.png",
+        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-1.png",
+        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-2.png",
+        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-3.png",
+        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-4.png",
+        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-5.png",
+        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-6.png",
+        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-7.png",
+        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-8.png",
+        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-9.png",
+        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-10.png",
+        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-11.png",
+        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-12.png",
+        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-13.png",
+        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-14.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/When.We.All.Get.to.Heaven.all.HL.mp3",
+          "src": "audio/Come.Thou.Fount.all.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/When.We.All.Get.to.Heaven.alto.HL.mp3",
+          "src": "audio/Come.Thou.Fount.all.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/When.We.All.Get.to.Heaven.tenor.HL.mp3",
+          "src": "audio/Come.Thou.Fount.all.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/When.We.All.Get.to.Heaven.bass.HL.mp3",
+          "src": "audio/Come.Thou.Fount.all.mp3",
           "group": "bass"
         }
       ]
     },
     {
-      "title": "SOON AND VERY SOON",
+      "title": "THE LORD WILL PROVIDE",
       "useImages": true,
       "imageFiles": [
-        "2.Soon.and.Very.Soon-0.png",
-        "2.Soon.and.Very.Soon-1.png",
-        "2.Soon.and.Very.Soon-2.png",
-        "2.Soon.and.Very.Soon-3.png",
-        "2.Soon.and.Very.Soon-4.png",
-        "2.Soon.and.Very.Soon-5.png",
-        "2.Soon.and.Very.Soon-6.png",
-        "2.Soon.and.Very.Soon-7.png",
-        "2.Soon.and.Very.Soon-8.png",
-        "2.Soon.and.Very.Soon-9.png",
-        "2.Soon.and.Very.Soon-10.png"
+        "2.The.Lord.Will.Provide-0.png",
+        "2.The.Lord.Will.Provide-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/2.Soon.and.Very.Soon-0.png",
-        "lyric-slide-images/2.Soon.and.Very.Soon-1.png",
-        "lyric-slide-images/2.Soon.and.Very.Soon-2.png",
-        "lyric-slide-images/2.Soon.and.Very.Soon-3.png",
-        "lyric-slide-images/2.Soon.and.Very.Soon-4.png",
-        "lyric-slide-images/2.Soon.and.Very.Soon-5.png",
-        "lyric-slide-images/2.Soon.and.Very.Soon-6.png",
-        "lyric-slide-images/2.Soon.and.Very.Soon-7.png",
-        "lyric-slide-images/2.Soon.and.Very.Soon-8.png",
-        "lyric-slide-images/2.Soon.and.Very.Soon-9.png",
-        "lyric-slide-images/2.Soon.and.Very.Soon-10.png",
-        "lyric-slide-images/2.Soon.and.Very.Soon-11.png",
-        "lyric-slide-images/2.Soon.and.Very.Soon-12.png"
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-0.png",
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-1.png",
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-2.png",
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-3.png",
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-4.png",
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-5.png",
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-6.png",
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-7.png",
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-8.png",
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-9.png",
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-10.png",
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-11.png",
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-12.png",
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-13.png",
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-14.png",
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-15.png",
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-16.png",
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-17.png",
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-18.png",
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-19.png",
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-20.png",
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-21.png",
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-22.png",
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-23.png",
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-24.png",
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-25.png",
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-26.png",
+        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-27.png"
+
+
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/Soon.and.Very.Soon.all.HL.mp3",
+          "src": "audio/The.Lord.Will.Provide.all.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Soon.and.Very.Soon.all.HL.mp3",
+          "src": "audio/The.Lord.Will.Provide.all.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Soon.and.Very.Soon.all.HL.mp3",
+          "src": "audio/The.Lord.Will.Provide.all.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Soon.and.Very.Soon.all.HL.mp3",
+          "src": "audio/The.Lord.Will.Provide.all.HL.mp3",
           "group": "bass"
         }
       ]
     },
     {
-      "title": "BY AND BY MEDLEY",
+      "title": "GRATITUDE",
       "useImages": true,
       "imageFiles": [
-        "3.By.and.By.Medley-0.png",
-        "3.By.and.By.Medley-1.png",
-        "3.By.and.By.Medley-2.png",
-        "3.By.and.By.Medley-3.png",
-        "3.By.and.By.Medley-4.png",
-        "3.By.and.By.Medley-5.png",
-        "3.By.and.By.Medley-6.png",
-        "3.By.and.By.Medley-7.png",
-        "3.By.and.By.Medley-8.png",
-        "3.By.and.By.Medley-9.png",
-        "3.By.and.By.Medley-10.png",
-        "3.By.and.By.Medley-11.png"
+        "3.Gratitude-0.png",
+        "3.Gratitude-1.png",
+        "3.Gratitude-2.png"
         ],
       "lyricSlideImages": [
-        "lyric-slide-images/3.By.and.By.Medley-0.png",
-        "lyric-slide-images/3.By.and.By.Medley-1.png",
-        "lyric-slide-images/3.By.and.By.Medley-2.png",
-        "lyric-slide-images/3.By.and.By.Medley-3.png",
-        "lyric-slide-images/3.By.and.By.Medley-4.png",
-        "lyric-slide-images/3.By.and.By.Medley-5.png",
-        "lyric-slide-images/3.By.and.By.Medley-6.png",
-        "lyric-slide-images/3.By.and.By.Medley-7.png",
-        "lyric-slide-images/3.By.and.By.Medley-8.png",
-        "lyric-slide-images/3.By.and.By.Medley-9.png",
-        "lyric-slide-images/3.By.and.By.Medley-10.png",
-        "lyric-slide-images/3.By.and.By.Medley-11.png",
-        "lyric-slide-images/3.By.and.By.Medley-12.png",
-        "lyric-slide-images/3.By.and.By.Medley-13.png",
-        "lyric-slide-images/3.By.and.By.Medley-14.png",
-        "lyric-slide-images/3.By.and.By.Medley-15.png",
-        "lyric-slide-images/3.By.and.By.Medley-16.png",
-        "lyric-slide-images/3.By.and.By.Medley-17.png",
-        "lyric-slide-images/3.By.and.By.Medley-18.png",
-        "lyric-slide-images/3.By.and.By.Medley-19.png",
-        "lyric-slide-images/3.By.and.By.Medley-20.png",
-        "lyric-slide-images/3.By.and.By.Medley-21.png",
-        "lyric-slide-images/3.By.and.By.Medley-22.png",
-        "lyric-slide-images/3.By.and.By.Medley-23.png",
-        "lyric-slide-images/3.By.and.By.Medley-24.png",
-        "lyric-slide-images/3.By.and.By.Medley-25.png",
-        "lyric-slide-images/3.By.and.By.Medley-26.png",
-        "lyric-slide-images/3.By.and.By.Medley-27.png",
-        "lyric-slide-images/3.By.and.By.Medley-28.png",
-        "lyric-slide-images/3.By.and.By.Medley-29.png"
+        "lyric-slide-images/Copy of 5.Gratitude-0.png",
+        "lyric-slide-images/Copy of 5.Gratitude-1.png",
+        "lyric-slide-images/Copy of 5.Gratitude-2.png",
+        "lyric-slide-images/Copy of 5.Gratitude-3.png",
+        "lyric-slide-images/Copy of 5.Gratitude-4.png",
+        "lyric-slide-images/Copy of 5.Gratitude-5.png",
+        "lyric-slide-images/Copy of 5.Gratitude-6.png",
+        "lyric-slide-images/Copy of 5.Gratitude-7.png",
+        "lyric-slide-images/Copy of 5.Gratitude-8.png",
+        "lyric-slide-images/Copy of 5.Gratitude-9.png",
+        "lyric-slide-images/Copy of 5.Gratitude-10.png",
+        "lyric-slide-images/Copy of 5.Gratitude-11.png",
+        "lyric-slide-images/Copy of 5.Gratitude-12.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/By.and.By.Medley.all.HL.mp3",
+          "src": "audio/Gratitude.all.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/By.and.By.Medley.alto.HL.mp3",
+          "src": "audio/Gratitude.all.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/By.and.By.Medley.tenor.HL.mp3",
+          "src": "audio/Gratitude.all.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/By.and.By.Medley.bass.HL.mp3",
+          "src": "audio/Gratitude.all.HL.mp3",
           "group": "bass"
         }
       ]
     },
     {
-      "title": "YET NOT I BUT THROUGH CHRIST IN ME",
+      "title": "BUILD MY LIFE",
       "useImages": true,
       "imageFiles": [
-        "4.Yet.Not.I.but.Through.Christ.in.Me-0.png",
-        "4.Yet.Not.I.but.Through.Christ.in.Me-1.png"
+        "4.Build.My.Life-0.png",
+        "4.Build.My.Life-1.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-0.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-1.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-2.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-3.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-4.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-5.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-6.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-7.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-8.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-9.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-10.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-11.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-12.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-13.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-14.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-15.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-16.png",
-        "lyric-slide-images/4.Yet.Not.I.but.Through.Christ.in.Me-17.png"
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-0.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-1.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-2.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-3.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-4.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-5.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-6.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-7.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-8.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-9.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-10.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-11.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-12.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-13.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-14.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-15.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-16.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-17.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-18.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-19.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-20.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-21.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-22.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-23.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-24.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-25.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-26.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-27.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-28.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-29.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-30.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-31.png",
+        "lyric-slide-images/4.Copy of 3.Build.My.Life-32.png"
       ],
       "tracks": [
         {
           "name": "SOPRANO/MELODY",
-          "src": "audio/Yet.Not.I.but.Through.Christ.in.Me.HL.mp3",
+          "src": "audio/Build.My.Life.melody.HL.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Yet.Not.I.but.Through.Christ.in.Me.HL.mp3",
+          "src": "audio/Build.My.Life.melody.HL.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Yet.Not.I.but.Through.Christ.in.Me.HL.mp3",
+          "src": "audio/Build.My.Life.melody.HL.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/Yet.Not.I.but.Through.Christ.in.Me.HL.mp3",
+          "src": "audio/Build.My.Life.melody.HL.mp3",
           "group": "bass"
         }
       ]
     },
     {
-      "title": "SHOUTIN' TIME",
-      "useImages": true,
-      "imageFiles": [
-        "5.Shoutin.Time-0.png",
-        "5.Shoutin.Time-1.png",
-        "5.Shoutin.Time-2.png",
-        "5.Shoutin.Time-3.png",
-        "5.Shoutin.Time-4.png",
-        "5.Shoutin.Time-5.png",
-        "5.Shoutin.Time-6.png",
-        "5.Shoutin.Time-7.png",
-        "5.Shoutin.Time-8.png",
-        "5.Shoutin.Time-9.png",
-        "5.Shoutin.Time-10.png",
-        "5.Shoutin.Time-11.png",
-        "5.Shoutin.Time-12.png"
-        ],
-      "lyricSlideImages": [
-        "lyric-slide-images/5.Shoutin.Time-0.png",
-        "lyric-slide-images/5.Shoutin.Time-1.png",
-        "lyric-slide-images/5.Shoutin.Time-2.png",
-        "lyric-slide-images/5.Shoutin.Time-3.png",
-        "lyric-slide-images/5.Shoutin.Time-4.png",
-        "lyric-slide-images/5.Shoutin.Time-5.png",
-        "lyric-slide-images/5.Shoutin.Time-6.png",
-        "lyric-slide-images/5.Shoutin.Time-7.png",
-        "lyric-slide-images/5.Shoutin.Time-8.png",
-        "lyric-slide-images/5.Shoutin.Time-9.png",
-        "lyric-slide-images/5.Shoutin.Time-10.png",
-        "lyric-slide-images/5.Shoutin.Time-11.png",
-        "lyric-slide-images/5.Shoutin.Time-12.png",
-        "lyric-slide-images/5.Shoutin.Time-13.png",
-        "lyric-slide-images/5.Shoutin.Time-14.png",
-        "lyric-slide-images/5.Shoutin.Time-15.png",
-        "lyric-slide-images/5.Shoutin.Time-16.png",
-        "lyric-slide-images/5.Shoutin.Time-17.png",
-        "lyric-slide-images/5.Shoutin.Time-18.png",
-        "lyric-slide-images/5.Shoutin.Time-19.png",
-        "lyric-slide-images/5.Shoutin.Time-20.png"
-      ],
-      "tracks": [
-        {
-          "name": "SOPRANO/MELODY",
-          "src": "audio/Shoutin.Time.all.HL.mp3",
-          "group": "soprano"
-        },
-        {
-          "name": "ALTO",
-          "src": "audio/Shoutin.Time.alto.HL.mp3",
-          "group": "alto"
-        },
-        {
-          "name": "TENOR",
-          "src": "audio/Shoutin.Time.tenor.HL.mp3",
-          "group": "tenor"
-        },
-        {
-          "name": "BASS",
-          "src": "audio/Shoutin.Time.bass.HL.mp3",
-          "group": "bass"
-        }
-      ]
-    }
   ],
   "allSongsPdf": null,
   "interludeMp3": null
