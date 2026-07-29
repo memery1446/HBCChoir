@@ -1,0 +1,16 @@
+{
+  "serviceDate": "2026-08-02",
+  "headerNotes": [
+    "Our Choir music for Sunday is below.",
+    "Choir meets Sundays at 4:30pm.",
+    "CHILDCARE is coordinated during Sunday and Wednesday rehearsals."
+  ],
+  "order": [
+    { "slug": "come-thou-fount",       "title": "Come Thou Fount of Every Blessing" },
+    { "slug": "the-lord-will-provide", "title": "The Lord Will Provide" },
+    { "slug": "gratitude",             "title": "Gratitude" },
+    { "slug": "build-my-life",         "title": "Build My Life" },
+    { "slug": "surely-the-presence",   "title": "Surely the Presence",
+      "prefix": "CHOIR SPECIAL DURING OFFERTORY: " }
+  ]
+}

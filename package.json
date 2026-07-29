@@ -1,10 +1,17 @@
 {
   "name": "Harmony_Baptist_Church_Choir",
   "version": "1.0.0",
-  "description": "",
+  "description": "Weekly music, part-by-part rehearsal tracks, and essays for Harmony Baptist Church.",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "images": "node scripts/convert-images.mjs both",
+    "images:sheet": "node scripts/convert-images.mjs sheet",
+    "images:lyric": "node scripts/convert-images.mjs lyric",
+    "week": "node scripts/build-week.mjs",
+    "check": "node scripts/build-week.mjs --check",
+    "rename:plan": "node scripts/plan-rename.mjs",
+    "rename:dry": "node scripts/apply-rename.mjs --dry",
+    "rename:apply": "node scripts/apply-rename.mjs"
   },
   "private": true,
   "dependencies": {

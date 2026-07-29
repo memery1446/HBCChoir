@@ -17,50 +17,45 @@
       "title": "COME THOU FOUNT OF EVERY BLESSING",
       "useImages": true,
       "imageFiles": [
-        "1.Come.Thou.Fount.of.Every.Blessing-0.png",
-        "1.Come.Thou.Fount.of.Every.Blessing-1.png"
+        "come-thou-fount.sheet.01.png",
+        "come-thou-fount.sheet.02.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-0.png",
-        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-1.png",
-        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-2.png",
-        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-3.png",
-        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-4.png",
-        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-5.png",
-        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-6.png",
-        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-7.png",
-        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-8.png",
-        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-9.png",
-        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-10.png",
-        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-11.png",
-        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-12.png",
-        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-13.png",
-        "lyric-slide-images/Copy of 1.Come.Thou.Fount.of.Every.Blessing-14.png"
+        "lyric-slide-images/come-thou-fount.lyric.01.png",
+        "lyric-slide-images/come-thou-fount.lyric.02.png",
+        "lyric-slide-images/come-thou-fount.lyric.03.png",
+        "lyric-slide-images/come-thou-fount.lyric.04.png",
+        "lyric-slide-images/come-thou-fount.lyric.05.png",
+        "lyric-slide-images/come-thou-fount.lyric.06.png",
+        "lyric-slide-images/come-thou-fount.lyric.07.png",
+        "lyric-slide-images/come-thou-fount.lyric.08.png",
+        "lyric-slide-images/come-thou-fount.lyric.09.png",
+        "lyric-slide-images/come-thou-fount.lyric.10.png",
+        "lyric-slide-images/come-thou-fount.lyric.11.png",
+        "lyric-slide-images/come-thou-fount.lyric.12.png",
+        "lyric-slide-images/come-thou-fount.lyric.13.png",
+        "lyric-slide-images/come-thou-fount.lyric.14.png",
+        "lyric-slide-images/come-thou-fount.lyric.15.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/Come.Thou.Fount.all.mp3",
+          "src": "audio/come-thou-fount.melody.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/Come.Thou.Fount.harm.2.mp3",
+          "src": "audio/come-thou-fount.alto.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/Come.Thou.Fount.harm.1.mp3",
+          "src": "audio/come-thou-fount.tenor.mp3",
           "group": "tenor"
         },
         {
-          "name": "BASS",
-          "src": "audio/Come.Thou.Fount.harm.2.mp3",
-          "group": "bass"
-        },
-        {
           "name": "PIANO",
-          "src": "audio/Come.Thou.Fount.piano.mp3",
+          "src": "audio/come-thou-fount.piano.mp3",
           "group": "piano"
         }
       ]
@@ -69,63 +64,48 @@
       "title": "THE LORD WILL PROVIDE",
       "useImages": true,
       "imageFiles": [
-        "2.The.Lord.Will.Provide-0.png",
-        "2.The.Lord.Will.Provide-1.png"
+        "the-lord-will-provide.sheet.01.png",
+        "the-lord-will-provide.sheet.02.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-0.png",
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-1.png",
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-2.png",
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-3.png",
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-4.png",
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-5.png",
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-6.png",
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-7.png",
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-8.png",
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-9.png",
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-10.png",
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-11.png",
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-12.png",
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-13.png",
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-14.png",
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-15.png",
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-16.png",
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-17.png",
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-18.png",
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-19.png",
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-20.png",
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-21.png",
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-22.png",
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-23.png",
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-24.png",
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-25.png",
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-26.png",
-        "lyric-slide-images/Copy of 3.The.Lord.Will.Provide-27.png"
+        "lyric-slide-images/the-lord-will-provide.lyric.01.png",
+        "lyric-slide-images/the-lord-will-provide.lyric.02.png",
+        "lyric-slide-images/the-lord-will-provide.lyric.03.png",
+        "lyric-slide-images/the-lord-will-provide.lyric.04.png",
+        "lyric-slide-images/the-lord-will-provide.lyric.05.png",
+        "lyric-slide-images/the-lord-will-provide.lyric.06.png",
+        "lyric-slide-images/the-lord-will-provide.lyric.07.png",
+        "lyric-slide-images/the-lord-will-provide.lyric.08.png",
+        "lyric-slide-images/the-lord-will-provide.lyric.09.png",
+        "lyric-slide-images/the-lord-will-provide.lyric.10.png",
+        "lyric-slide-images/the-lord-will-provide.lyric.11.png",
+        "lyric-slide-images/the-lord-will-provide.lyric.12.png",
+        "lyric-slide-images/the-lord-will-provide.lyric.13.png",
+        "lyric-slide-images/the-lord-will-provide.lyric.14.png",
+        "lyric-slide-images/the-lord-will-provide.lyric.15.png",
+        "lyric-slide-images/the-lord-will-provide.lyric.16.png",
+        "lyric-slide-images/the-lord-will-provide.lyric.17.png",
+        "lyric-slide-images/the-lord-will-provide.lyric.18.png",
+        "lyric-slide-images/the-lord-will-provide.lyric.19.png",
+        "lyric-slide-images/the-lord-will-provide.lyric.20.png",
+        "lyric-slide-images/the-lord-will-provide.lyric.21.png",
+        "lyric-slide-images/the-lord-will-provide.lyric.22.png",
+        "lyric-slide-images/the-lord-will-provide.lyric.23.png",
+        "lyric-slide-images/the-lord-will-provide.lyric.24.png",
+        "lyric-slide-images/the-lord-will-provide.lyric.25.png",
+        "lyric-slide-images/the-lord-will-provide.lyric.26.png",
+        "lyric-slide-images/the-lord-will-provide.lyric.27.png",
+        "lyric-slide-images/the-lord-will-provide.lyric.28.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/The.Lord.Will.Provide.all.HL.mp3",
+          "src": "audio/the-lord-will-provide.melody.mp3",
           "group": "soprano"
         },
         {
-          "name": "ALTO",
-          "src": "audio/The.Lord.Will.Provide.all.HL.mp3",
-          "group": "alto"
-        },
-        {
-          "name": "TENOR",
-          "src": "audio/The.Lord.Will.Provide.all.HL.mp3",
-          "group": "tenor"
-        },
-        {
-          "name": "BASS",
-          "src": "audio/The.Lord.Will.Provide.all.HL.mp3",
-          "group": "bass"
-        },
-        {
           "name": "PIANO",
-          "src": "audio/The.Lord.Will.Provide.piano.HL.mp3",
+          "src": "audio/the-lord-will-provide.piano.mp3",
           "group": "piano"
         }
       ]
@@ -134,49 +114,34 @@
       "title": "GRATITUDE",
       "useImages": true,
       "imageFiles": [
-        "3.Gratitude-0.png",
-        "3.Gratitude-1.png",
-        "3.Gratitude-2.png"
+        "gratitude.sheet.01.png",
+        "gratitude.sheet.02.png",
+        "gratitude.sheet.03.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/Copy of 5.Gratitude-0.png",
-        "lyric-slide-images/Copy of 5.Gratitude-1.png",
-        "lyric-slide-images/Copy of 5.Gratitude-2.png",
-        "lyric-slide-images/Copy of 5.Gratitude-3.png",
-        "lyric-slide-images/Copy of 5.Gratitude-4.png",
-        "lyric-slide-images/Copy of 5.Gratitude-5.png",
-        "lyric-slide-images/Copy of 5.Gratitude-6.png",
-        "lyric-slide-images/Copy of 5.Gratitude-7.png",
-        "lyric-slide-images/Copy of 5.Gratitude-8.png",
-        "lyric-slide-images/Copy of 5.Gratitude-9.png",
-        "lyric-slide-images/Copy of 5.Gratitude-10.png",
-        "lyric-slide-images/Copy of 5.Gratitude-11.png",
-        "lyric-slide-images/Copy of 5.Gratitude-12.png"
+        "lyric-slide-images/gratitude.lyric.01.png",
+        "lyric-slide-images/gratitude.lyric.02.png",
+        "lyric-slide-images/gratitude.lyric.03.png",
+        "lyric-slide-images/gratitude.lyric.04.png",
+        "lyric-slide-images/gratitude.lyric.05.png",
+        "lyric-slide-images/gratitude.lyric.06.png",
+        "lyric-slide-images/gratitude.lyric.07.png",
+        "lyric-slide-images/gratitude.lyric.08.png",
+        "lyric-slide-images/gratitude.lyric.09.png",
+        "lyric-slide-images/gratitude.lyric.10.png",
+        "lyric-slide-images/gratitude.lyric.11.png",
+        "lyric-slide-images/gratitude.lyric.12.png",
+        "lyric-slide-images/gratitude.lyric.13.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/Gratitude.all.HL.mp3",
+          "src": "audio/gratitude.melody.mp3",
           "group": "soprano"
         },
         {
-          "name": "ALTO",
-          "src": "audio/Gratitude.all.HL.mp3",
-          "group": "alto"
-        },
-        {
-          "name": "TENOR",
-          "src": "audio/Gratitude.all.HL.mp3",
-          "group": "tenor"
-        },
-        {
-          "name": "BASS",
-          "src": "audio/Gratitude.all.HL.mp3",
-          "group": "bass"
-        },
-        {
           "name": "PIANO",
-          "src": "audio/Gratitude.piano.mp3",
+          "src": "audio/gratitude.piano.mp3",
           "group": "piano"
         }
       ]
@@ -185,64 +150,54 @@
       "title": "BUILD MY LIFE",
       "useImages": true,
       "imageFiles": [
-        "4.Build.My.Life-0.png",
-        "4.Build.My.Life-1.png"
+        "build-my-life.sheet.01.png",
+        "build-my-life.sheet.02.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/Copy of 3.Build.My.Life-0.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-1.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-2.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-3.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-4.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-5.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-6.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-7.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-8.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-9.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-10.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-11.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-12.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-13.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-14.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-15.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-16.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-17.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-18.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-19.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-20.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-21.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-22.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-23.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-24.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-25.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-26.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-27.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-28.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-29.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-30.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-31.png",
-        "lyric-slide-images/Copy of 3.Build.My.Life-32.png"
+        "lyric-slide-images/build-my-life.lyric.01.png",
+        "lyric-slide-images/build-my-life.lyric.02.png",
+        "lyric-slide-images/build-my-life.lyric.03.png",
+        "lyric-slide-images/build-my-life.lyric.04.png",
+        "lyric-slide-images/build-my-life.lyric.05.png",
+        "lyric-slide-images/build-my-life.lyric.06.png",
+        "lyric-slide-images/build-my-life.lyric.07.png",
+        "lyric-slide-images/build-my-life.lyric.08.png",
+        "lyric-slide-images/build-my-life.lyric.09.png",
+        "lyric-slide-images/build-my-life.lyric.10.png",
+        "lyric-slide-images/build-my-life.lyric.11.png",
+        "lyric-slide-images/build-my-life.lyric.12.png",
+        "lyric-slide-images/build-my-life.lyric.13.png",
+        "lyric-slide-images/build-my-life.lyric.14.png",
+        "lyric-slide-images/build-my-life.lyric.15.png",
+        "lyric-slide-images/build-my-life.lyric.16.png",
+        "lyric-slide-images/build-my-life.lyric.17.png",
+        "lyric-slide-images/build-my-life.lyric.18.png",
+        "lyric-slide-images/build-my-life.lyric.19.png",
+        "lyric-slide-images/build-my-life.lyric.20.png",
+        "lyric-slide-images/build-my-life.lyric.21.png",
+        "lyric-slide-images/build-my-life.lyric.22.png",
+        "lyric-slide-images/build-my-life.lyric.23.png",
+        "lyric-slide-images/build-my-life.lyric.24.png",
+        "lyric-slide-images/build-my-life.lyric.25.png",
+        "lyric-slide-images/build-my-life.lyric.26.png",
+        "lyric-slide-images/build-my-life.lyric.27.png",
+        "lyric-slide-images/build-my-life.lyric.28.png",
+        "lyric-slide-images/build-my-life.lyric.29.png",
+        "lyric-slide-images/build-my-life.lyric.30.png",
+        "lyric-slide-images/build-my-life.lyric.31.png",
+        "lyric-slide-images/build-my-life.lyric.32.png",
+        "lyric-slide-images/build-my-life.lyric.33.png"
       ],
       "tracks": [
         {
-          "name": "SOPRANO/MELODY",
-          "src": "audio/Build.My.Life.melody.HL.mp3",
+          "name": "MELODY/SOPRANO",
+          "src": "audio/build-my-life.melody.mp3",
           "group": "soprano"
         },
         {
-          "name": "ALTO",
-          "src": "audio/Build-My-Life-Harm-Heavy (1).mp3",
-          "group": "alto"
-        },
-        {
-          "name": "TENOR",
-          "src": "audio/Build-My-Life-Harm-Heavy (1).mp3",
-          "group": "tenor"
-        },
-        {
-          "name": "BASS",
-          "src": "audio/Build.My.Life.melody.HL.mp3",
-          "group": "bass"
+          "name": "HARMONY",
+          "src": "audio/build-my-life.harmony.mp3",
+          "group": "harmony"
         }
       ]
     },
@@ -250,43 +205,28 @@
       "title": "SURELY THE PRESENCE",
       "useImages": true,
       "imageFiles": [
-        "5.Surely.the.Presence.of.the.Lord-0.png"
+        "surely-the-presence.sheet.01.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/5.Surely.the.Presence-0.png",
-        "lyric-slide-images/5.Surely.the.Presence-1.png",
-        "lyric-slide-images/5.Surely.the.Presence-2.png",
-        "lyric-slide-images/5.Surely.the.Presence-3.png",
-        "lyric-slide-images/5.Surely.the.Presence-4.png",
-        "lyric-slide-images/5.Surely.the.Presence-5.png",
-        "lyric-slide-images/5.Surely.the.Presence-6.png",
-        "lyric-slide-images/5.Surely.the.Presence-7.png",
-        "lyric-slide-images/5.Surely.the.Presence-8.png",
-        "lyric-slide-images/5.Surely.the.Presence-9.png",
-        "lyric-slide-images/5.Surely.the.Presence-10.png",
-        "lyric-slide-images/5.Surely.the.Presence-11.png",
-        "lyric-slide-images/5.Surely.the.Presence-12.png"
+        "lyric-slide-images/surely-the-presence.lyric.01.png",
+        "lyric-slide-images/surely-the-presence.lyric.02.png",
+        "lyric-slide-images/surely-the-presence.lyric.03.png",
+        "lyric-slide-images/surely-the-presence.lyric.04.png",
+        "lyric-slide-images/surely-the-presence.lyric.05.png",
+        "lyric-slide-images/surely-the-presence.lyric.06.png",
+        "lyric-slide-images/surely-the-presence.lyric.07.png",
+        "lyric-slide-images/surely-the-presence.lyric.08.png",
+        "lyric-slide-images/surely-the-presence.lyric.09.png",
+        "lyric-slide-images/surely-the-presence.lyric.10.png",
+        "lyric-slide-images/surely-the-presence.lyric.11.png",
+        "lyric-slide-images/surely-the-presence.lyric.12.png",
+        "lyric-slide-images/surely-the-presence.lyric.13.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/Surely.The.Presence.mp3",
+          "src": "audio/surely-the-presence.melody.mp3",
           "group": "soprano"
-        },
-        {
-          "name": "ALTO",
-          "src": "audio/Surely.The.Presence.mp3",
-          "group": "alto"
-        },
-        {
-          "name": "TENOR",
-          "src": "audio/Surely.The.Presence.mp3",
-          "group": "tenor"
-        },
-        {
-          "name": "BASS",
-          "src": "audio/Surely.The.Presence.mp3",
-          "group": "bass"
         }
       ]
     }
