@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About This Site | Harmony Baptist Church Choir</title>
+    <meta name="description" content="Weekly part-by-part rehearsal recordings for Harmony Baptist Church Choir. Piano/Vocals: Jennifer Emery,Vocals: Mark Emery.">
+
+    <!--
+    =========================================================================
+      BEFORE YOU SEND THIS LINK TO ANYONE, EDIT THESE:
+
+      1. DEMO_SONG below (in the <script>) - swap in your best four-part
+         example. Right now alto and bass share harm.2.mp3, so those two
+         buttons sound identical. Open the browser console; the page will
+         warn you if any two parts point at the same file.
+
+      2. Search this file for [[ and replace every placeholder:
+         [[SINCE]]  [[WEEKS]]  [[GROWTH_FROM]]  [[GROWTH_TO]]  [[HOURS]]
+
+      3. Add this line to the nav in index.html, solos.html, nehemiah-1.html:
+         <a href="about.html" class="nav-link">&#9432; About This Site</a>
+    =========================================================================
+    -->
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --soprano: #e74c3c;
+            --alto:    #8e44ad;
+            --tenor:   #2980b9;
+            --bass:    #27ae60;
+            --piano:   #b9770e;
+            --ink:     #2c3e50;
+            --muted:   #6b7a88;
+            --rule:    #e4e8ec;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.65;
+            color: var(--ink);
+            background:
+                    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+                    url('Harmony-Aireal.jpg') center top / cover no-repeat fixed;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .wrap { max-width: 820px; margin: 0 auto; padding: 0 20px 80px; }
+
+        /* ---------- nav ---------- */
+        .nav-bar {
+            display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;
+            padding: 18px 20px;
+        }
+        .nav-link {
+            color: #fff; text-decoration: none; font-size: 0.92rem;
+            padding: 7px 14px; border-radius: 20px;
+            background: rgba(255,255,255,0.14);
+            border: 1px solid rgba(255,255,255,0.22);
+            transition: background 0.2s;
+        }
+        .nav-link:hover { background: rgba(255,255,255,0.28); }
+        .nav-link.active { background: rgba(255,255,255,0.92); color: var(--ink); }
+
+        /* ---------- hero ---------- */
+        .hero { text-align: center; padding: 46px 20px 54px; color: #fff; }
+        .eyebrow {
+            font-size: 0.76rem; letter-spacing: 0.22em; text-transform: uppercase;
+            opacity: 0.85; margin-bottom: 18px;
+        }
+        .hero h1 {
+            font-size: clamp(2.1rem, 6vw, 3.3rem);
+            line-height: 1.12; font-weight: normal;
+            text-shadow: 0 2px 12px rgba(0,0,0,0.5);
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: clamp(1rem, 2.4vw, 1.16rem);
+            max-width: 34em; margin: 0 auto; opacity: 0.94;
+            text-shadow: 0 1px 6px rgba(0,0,0,0.5);
+        }
+
+        /* ---------- cards ---------- */
+        .card {
+            background: #fff; border-radius: 12px;
+            padding: 34px 32px; margin-bottom: 26px;
+            box-shadow: 0 8px 28px rgba(0,0,0,0.22);
+        }
+        .card h2 {
+            font-size: 1.5rem; font-weight: normal; margin-bottom: 8px;
+        }
+        .card h2 + .lede { color: var(--muted); margin-bottom: 26px; }
+        .card p { margin-bottom: 15px; }
+        .card p:last-child { margin-bottom: 0; }
+
+        .label {
+            font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase;
+            color: var(--muted); margin-bottom: 10px;
+        }
+
+        /* ---------- the demo ---------- */
+        .demo { padding-bottom: 30px; }
+        .demo-song {
+            font-size: 1.32rem; margin-bottom: 4px;
+        }
+        .demo-meta { color: var(--muted); font-size: 0.92rem; margin-bottom: 24px; }
+
+        .parts { display: flex; flex-wrap: wrap; gap: 9px; margin-bottom: 8px; }
+        .part {
+            flex: 1 1 130px;
+            font-family: inherit; font-size: 1rem; color: #fff;
+            border: none; border-radius: 8px; padding: 15px 10px;
+            cursor: pointer; opacity: 0.5;
+            transition: opacity 0.18s, transform 0.18s;
+        }
+        .part:hover { opacity: 0.78; }
+        .part.on { opacity: 1; transform: translateY(-2px); }
+        .part:focus-visible { outline: 3px solid #111; outline-offset: 3px; }
+        .part.soprano { background: var(--soprano); }
+        .part.alto    { background: var(--alto); }
+        .part.tenor   { background: var(--tenor); }
+        .part.bass    { background: var(--bass); }
+        .part.piano   { background: var(--piano); }
+
+        .hint {
+            font-size: 0.92rem; color: var(--muted);
+            margin: 16px 0 22px; font-style: italic;
+        }
+
+        .player {
+            display: flex; align-items: center; gap: 14px;
+            background: #f6f8f9; border: 1px solid var(--rule);
+            border-radius: 10px; padding: 14px 16px;
+        }
+        .play-btn {
+            flex: 0 0 auto; width: 50px; height: 50px; border-radius: 50%;
+            border: none; background: var(--ink); color: #fff;
+            font-size: 1.15rem; cursor: pointer; transition: transform 0.15s;
+        }
+        .play-btn:hover { transform: scale(1.06); }
+        .play-btn:focus-visible { outline: 3px solid var(--tenor); outline-offset: 3px; }
+        .track { flex: 1 1 auto; min-width: 0; }
+        .track-now {
+            font-size: 0.82rem; letter-spacing: 0.12em; text-transform: uppercase;
+            color: var(--muted); margin-bottom: 7px;
+        }
+        .track-now b { color: var(--ink); font-weight: normal; letter-spacing: 0.12em; }
+        .bar {
+            height: 7px; background: #dde3e7; border-radius: 4px;
+            cursor: pointer; position: relative;
+        }
+        .bar-fill {
+            height: 100%; width: 0; border-radius: 4px;
+            background: var(--ink); transition: background 0.2s;
+        }
+        .time {
+            flex: 0 0 auto; font-size: 0.85rem; color: var(--muted);
+            font-variant-numeric: tabular-nums;
+        }
+
+        /* ---------- lists ---------- */
+        .points { list-style: none; margin-top: 8px; }
+        .points li {
+            padding: 15px 0 15px 0; border-top: 1px solid var(--rule);
+        }
+        .points li:first-child { border-top: none; padding-top: 0; }
+        .points b { font-weight: normal; display: block; margin-bottom: 3px; }
+        .points span { color: var(--muted); font-size: 0.96rem; }
+
+        .stats { display: flex; flex-wrap: wrap; gap: 30px; margin-top: 6px; }
+        .stat { flex: 1 1 140px; }
+        .stat-n { font-size: 2.1rem; line-height: 1.1; }
+        .stat-l { font-size: 0.86rem; color: var(--muted); }
+
+        /* ---------- footer ---------- */
+        .cta { text-align: center; }
+        .cta a {
+            display: inline-block; margin: 6px 5px 0;
+            padding: 13px 26px; border-radius: 8px;
+            background: var(--ink); color: #fff; text-decoration: none;
+            font-size: 0.98rem;
+        }
+        .cta a.ghost { background: transparent; color: var(--ink); border: 1px solid var(--rule); }
+        .cta a:hover { opacity: 0.88; }
+
+        .foot {
+            text-align: center; color: rgba(255,255,255,0.82);
+            font-size: 0.88rem; padding-top: 8px;
+            text-shadow: 0 1px 5px rgba(0,0,0,0.5);
+        }
+        .foot a { color: #fff; }
+
+        @media (max-width: 600px) {
+            .card { padding: 26px 20px; }
+            .part { flex: 1 1 100%; }
+            .player { flex-wrap: wrap; }
+            .track { flex: 1 1 100%; order: 3; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            * { transition: none !important; }
+        }
+    </style>
+</head>
+<body>
+
+<nav class="nav-bar">
+    <a href="index.html" class="nav-link">&#127925; Sunday Songs</a>
+    <a href="solos.html" class="nav-link">&#127908; Special Music / Solos</a>
+    <a href="about.html" class="nav-link active">&#9432; About This Site</a>
+</nav>
+
+<div class="wrap">
+
+    <div class="hero">
+        <div class="eyebrow">Harmony Baptist Church &middot; Andalusia, Alabama</div>
+        <h1>Every part.<br>Every week.</h1>
+        <p>Each very singer can learn their own part before Sunday.</p>
+    </div>
+
+    <!-- ============ THE DEMO ============ -->
+    <div class="card demo">
+        <div class="label">Listen</div>
+        <div class="demo-song" id="demoTitle">&nbsp;</div>
+        <div class="demo-meta" id="demoMeta">&nbsp;</div>
+
+        <div class="parts" id="parts"></div>
+
+        <p class="hint">
+            Press play, then switch parts while it is playing. The recording keeps its place,
+            so you hear the same measure sung in a different voice.
+        </p>
+
+        <div class="player">
+            <button class="play-btn" id="play" aria-label="Play">&#9654;</button>
+            <div class="track">
+                <div class="track-now">Now singing: <b id="nowPart">Melody / Soprano</b></div>
+                <div class="bar" id="bar"><div class="bar-fill" id="fill"></div></div>
+            </div>
+            <div class="time"><span id="cur">0:00</span> / <span id="dur">0:00</span></div>
+        </div>
+    </div>
+
+    <!-- ============ WHAT IT IS ============ -->
+    <div class="card">
+        <h2>What you just heard</h2>
+        <p class="lede">Four things that a purchased rehearsal track cannot do.</p>
+        <ul class="points">
+            <li>
+                <b>It's homemade and authentic to our choir.</b>
+                <span>It's helpful to rehearse with the same voice the choir will blend with on Sunday morning.</span>
+            </li>
+            <li>
+                <b>The actual accompaniment we will have on Sunday.</b>
+                <span>My piano, our key, our tempo, our arrangement.</span>
+            </li>
+            <li>
+                <b>The piano-only track offer a chance to sing the part alone.</b>
+                <span>Or to just enjoy instrumental praise.</span>
+            </li>
+            <li>
+                <b>It is new every week.</b>
+                <span>Recorded, edited weekly, dialed in for whatever we are
+                      singing that Sunday.</span>
+            </li>
+        </ul>
+    </div>
+
+    <!-- ============ HOW IT GETS USED ============ -->
+    <div class="card">
+        <h2>How a working choir actually uses it</h2>
+        <p class="lede">Choir members are busy. They are often parents and hold full-time jobs. This is built to make practice as easy as pushing a button.</p>
+
+        <p><b>Don't read music?</b> No problem! Get real rehearsal with accompaniment instead of picking
+            out notes at a piano or trying to match the key of an artist video.</p>
+
+        <p><b>Either way,</b> there is a "play all" button for each section that runs every song
+            for that Sunday, in service order. Press it leaving work and you have rehearsed the whole
+            morning by the time you pull into the driveway.</p>
+
+        <p>Not every song is in four parts. Unison songs and melody-driven contemporary songs are
+            posted the way we sing them. The button gives each section what it actually sings.</p>
+    </div>
+
+    <!-- ============ THE RECORD ============ -->
+
+
+
+    <!-- ============ BIO ============ -->
+
+    <div class="card cta">
+        <div class="label">See it live</div>
+        <p style="margin-bottom:18px;">This week's music is posted and in use right now.</p>
+        <a href="index.html">This Sunday's music</a>
+        <a href="mailto:memery1446@gmail.com" class="ghost">Get in touch</a>
+    </div>
+
+    <div class="foot">
+        <a href="https://www.hbcchoir.com">hbcchoir.com</a> &middot; Harmony Baptist Church, Andalusia, Alabama
+    </div>
+
+</div>
+
+<script>
+    /* =====================================================================
+       DEMO_SONG - swap this for your best four-part example.
+       Paths are relative to the site root, same as content/current.json.
+       ===================================================================== */
+    const DEMO_SONG = {
+        title: "Come Thou Fount of Every Blessing",
+        meta:  "Traditional hymn, SATB",
+        parts: [
+            { key: "soprano", name: "Melody / Soprano", src: "audio/Come.Thou.Fount.all.mp3" },
+            { key: "alto",    name: "Alto",             src: "audio/Come.Thou.Fount.harm.2.mp3" },
+            { key: "tenor",   name: "Tenor",            src: "audio/Come.Thou.Fount.harm.1.mp3" },
+            { key: "bass",    name: "Bass",             src: "audio/Come.Thou.Fount.harm.2.mp3" },
+            { key: "piano",   name: "Piano only",       src: "audio/Come.Thou.Fount.piano.mp3" }
+        ]
+    };
+
+    /* --- warn in the console if two buttons would sound identical --- */
+    (function checkDistinct() {
+        const seen = {};
+        DEMO_SONG.parts.forEach(p => (seen[p.src] = seen[p.src] || []).push(p.name));
+        Object.entries(seen).forEach(([src, names]) => {
+            if (names.length > 1) {
+                console.warn(
+                    "about.html: these buttons play the SAME file and will sound identical to a visitor:\n  " +
+                    names.join(", ") + "\n  " + src
+                );
+            }
+        });
+    })();
+
+    const els = {
+        title: document.getElementById('demoTitle'),
+        meta:  document.getElementById('demoMeta'),
+        parts: document.getElementById('parts'),
+        play:  document.getElementById('play'),
+        now:   document.getElementById('nowPart'),
+        bar:   document.getElementById('bar'),
+        fill:  document.getElementById('fill'),
+        cur:   document.getElementById('cur'),
+        dur:   document.getElementById('dur')
+    };
+
+    els.title.textContent = DEMO_SONG.title;
+    els.meta.textContent  = DEMO_SONG.meta;
+
+    let active = 0;
+    let playing = false;
+
+    /* One <audio> per part, all preloaded, so switching is instant. */
+    const audios = DEMO_SONG.parts.map(p => {
+        const a = new Audio(p.src);
+        a.preload = 'auto';
+        return a;
+    });
+
+    /* Build the buttons */
+    DEMO_SONG.parts.forEach((p, i) => {
+        const b = document.createElement('button');
+        b.className = 'part ' + p.key + (i === 0 ? ' on' : '');
+        b.textContent = p.name;
+        b.setAttribute('aria-pressed', i === 0 ? 'true' : 'false');
+        b.addEventListener('click', () => switchTo(i));
+        els.parts.appendChild(b);
+    });
+
+    function fmt(s) {
+        if (!isFinite(s)) return '0:00';
+        return Math.floor(s / 60) + ':' + String(Math.floor(s % 60)).padStart(2, '0');
+    }
+
+    function paint() {
+        const key = DEMO_SONG.parts[active].key;
+        els.fill.style.background = getComputedStyle(document.documentElement)
+            .getPropertyValue('--' + key).trim();
+        els.now.textContent = DEMO_SONG.parts[active].name;
+        document.querySelectorAll('.part').forEach((b, i) => {
+            b.classList.toggle('on', i === active);
+            b.setAttribute('aria-pressed', i === active ? 'true' : 'false');
+        });
+    }
+
+    /* The whole point of the page: keep the playhead when the voice changes. */
+    function switchTo(i) {
+        if (i === active) return;
+        const from = audios[active];
+        const to   = audios[i];
+        const at   = from.currentTime;
+
+        from.pause();
+        active = i;
+        paint();
+
+        const resume = () => {
+            try { to.currentTime = at; } catch (e) { /* metadata not ready yet */ }
+            if (playing) to.play().catch(() => {});
+        };
+
+        if (to.readyState >= 1) resume();
+        else to.addEventListener('loadedmetadata', resume, { once: true });
+    }
+
+    els.play.addEventListener('click', () => {
+        const a = audios[active];
+        if (playing) { a.pause(); }
+        else { a.play().catch(() => {}); }
+    });
+
+    els.bar.addEventListener('click', e => {
+        const a = audios[active];
+        if (!isFinite(a.duration)) return;
+        const r = els.bar.getBoundingClientRect();
+        a.currentTime = ((e.clientX - r.left) / r.width) * a.duration;
+    });
+
+    audios.forEach((a, i) => {
+        a.addEventListener('timeupdate', () => {
+            if (i !== active || !isFinite(a.duration)) return;
+            els.fill.style.width = (a.currentTime / a.duration * 100) + '%';
+            els.cur.textContent = fmt(a.currentTime);
+        });
+        a.addEventListener('loadedmetadata', () => {
+            if (i === active) els.dur.textContent = fmt(a.duration);
+        });
+        a.addEventListener('play',  () => { playing = true;  els.play.innerHTML = '&#10074;&#10074;'; els.play.setAttribute('aria-label', 'Pause'); });
+        a.addEventListener('pause', () => { if (i === active) { playing = false; els.play.innerHTML = '&#9654;'; els.play.setAttribute('aria-label', 'Play'); } });
+        a.addEventListener('ended', () => {
+            if (i !== active) return;
+            playing = false;
+            els.play.innerHTML = '&#9654;';
+            els.fill.style.width = '0%';
+        });
+    });
+
+    paint();
+</script>
+</body>
+</html>
