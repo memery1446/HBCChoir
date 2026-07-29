@@ -43,7 +43,8 @@ const MAGICK_ARGS = [
 ];
 
 const argv = process.argv.slice(2);
-const DRY  = argv.includes('--dry');
+const DRY   = argv.includes('--dry');
+const FORCE = argv.includes('--force');
 const which = argv.find(a => !a.startsWith('--')) || 'both';
 const kinds = which === 'both' ? ['sheet', 'lyric'] : [which];
 
@@ -72,6 +73,54 @@ function requireTool(cmd, args, hint) {
 if (!DRY) {
     requireTool('magick', ['-version'], 'brew install imagemagick');
     requireTool('gs', ['--version'], 'brew install ghostscript');
+}
+
+/* Cross-check derived slugs against audio/. A typo in a PDF filename would
+   otherwise silently create a whole parallel set of images for a song that
+   does not exist. Override with --force when a song has no audio yet. */
+const audioSlugs = new Set(
+    existsSync('audio')
+        ? readdirSync('audio')
+            .filter(f => f.endsWith('.mp3'))
+            .map(f => f.replace(/\.[a-z0-9]+\.mp3$/i, ''))
+        : []
+);
+
+function closest(slug) {
+    let best = null, bestScore = Infinity;
+    for (const c of audioSlugs) {
+        const a = slug, b = c;
+        const d = [...Array(a.length + 1)].map((_, i) => [i, ...Array(b.length).fill(0)]);
+        for (let j = 0; j <= b.length; j++) d[0][j] = j;
+        for (let i = 1; i <= a.length; i++)
+            for (let j = 1; j <= b.length; j++)
+                d[i][j] = Math.min(d[i-1][j] + 1, d[i][j-1] + 1,
+                    d[i-1][j-1] + (a[i-1] === b[j-1] ? 0 : 1));
+        if (d[a.length][b.length] < bestScore) { bestScore = d[a.length][b.length]; best = c; }
+    }
+    return bestScore <= Math.max(4, slug.length * 0.4) ? best : null;
+}
+
+if (audioSlugs.size && !FORCE) {
+    const bad = [];
+    for (const kind of kinds) {
+        const { in: inDir } = JOBS[kind];
+        if (!existsSync(inDir)) continue;
+        for (const pdf of readdirSync(inDir).filter(f => f.toLowerCase().endsWith('.pdf'))) {
+            const slug = slugify(path.basename(pdf, path.extname(pdf)));
+            if (slug && !audioSlugs.has(slug)) bad.push({ inDir, pdf, slug, near: closest(slug) });
+        }
+    }
+    if (bad.length) {
+        console.log('\n  These PDFs do not match any song in audio/:\n');
+        bad.forEach(b => {
+            console.log(`    ${b.inDir}/${b.pdf}`);
+            console.log(`      would create: ${b.slug}`);
+            if (b.near) console.log(`      did you mean: ${b.near}`);
+        });
+        console.log('\n  Rename the PDF to match, or re-run with --force.\n');
+        process.exit(1);
+    }
 }
 
 let totalPages = 0, totalBytes = 0;
