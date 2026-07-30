@@ -1,6 +1,6 @@
 const SERIES = {
   title: "Arise and Build",
-  blurb: "A study through Nehemiah.",
+  blurb: "A study through Nehemiah by Mark A. Emery",
   parts: [
     {
       href: "/nehemiah-1.html",
