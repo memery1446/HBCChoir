@@ -111,6 +111,27 @@ if (audioSlugs.size && !FORCE) {
             if (slug && !audioSlugs.has(slug)) bad.push({ inDir, pdf, slug, near: closest(slug) });
         }
     }
+    /* Two PDFs in one folder deriving the same slug means one silently
+   overwrites the other. Stop instead. */
+    for (const kind of kinds) {
+        const { in: inDir } = JOBS[kind];
+        if (!existsSync(inDir)) continue;
+        const seen = {};
+        for (const pdf of readdirSync(inDir).filter(f => f.toLowerCase().endsWith('.pdf'))) {
+            const slug = slugify(path.basename(pdf, path.extname(pdf)));
+            (seen[slug] = seen[slug] || []).push(pdf);
+        }
+        const dupes = Object.entries(seen).filter(([, v]) => v.length > 1);
+        if (dupes.length) {
+            console.log(`\n  ${inDir}/ has PDFs that would overwrite each other:\n`);
+            dupes.forEach(([slug, files]) => {
+                console.log(`    -> ${slug}`);
+                files.forEach(f => console.log(`       ${f}`));
+            });
+            console.log('\n  Delete or rename the duplicates.\n');
+            process.exit(1);
+        }
+    }
     if (bad.length) {
         console.log('\n  These PDFs do not match any song in audio/:\n');
         bad.forEach(b => {

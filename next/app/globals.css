@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --soprano:  #e74c3c;
+  --harmony:  #16a085;
+  --harmony2: #d35400;
+  --alto:     #8e44ad;
+  --tenor:    #2980b9;
+  --bass:     #27ae60;
+  --piano:    #b9770e;
+
+  --ink:   #2c3e50;
+  --muted: #6b7a88;
+  --rule:  #e4e8ec;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  color: var(--ink);
+  line-height: 1.65;
+  background:
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url('/Harmony-Aireal.jpg') center top / cover no-repeat fixed;
+  -webkit-font-smoothing: antialiased;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 32px;
+  box-shadow: 0 8px 28px rgba(0,0,0,0.22);
+}
+
+.eyebrow {
+  font-size: 0.72rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.score {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-overflow-scrolling: touch;
+}

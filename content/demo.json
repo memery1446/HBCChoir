@@ -1,0 +1,25 @@
+{
+  "intro": "Each week, Jennifer and I record exactly what we'll do in Sunday worship.",
+  "songs": [
+    {
+      "slug": "great-is-thy-faithfulness",
+      "title": "Great Is Thy Faithfulness",
+      "note": "Traditional hymn, four parts with piano"
+    },
+    {
+      "slug": "this-is-my-fathers-world",
+      "title": "This Is My Father's World",
+      "note": "Traditional hymn, four parts with piano"
+    },
+    {
+      "slug": "mighty-to-save",
+      "title": "Mighty to Save",
+      "note": "Contemporary worship, four parts"
+    },
+    {
+      "slug": "by-and-by-medley",
+      "title": "By and By Medley",
+      "note": "Spiritual medley, four parts"
+    }
+  ]
+}

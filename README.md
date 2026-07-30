@@ -29,3 +29,19 @@ node convert-pptx-to-pdf.js
 
 ### for lyric slide pdf to jpg:
 node convert-lyric-pdfs.js
+
+====
+
+## Weekly update
+
+1. Drop PDFs in `sheet-music/` and `lyric-slides-pdfs/`,
+   named exactly `<slug>.pdf` matching the audio files.
+2. Drop audio in `audio/` as `<slug>.<part>.mp3`
+   part = melody | harmony | harmony2 | alto | tenor | bass | piano
+3. `npm run images`   convert PDFs to PNGs
+4. Edit `content/week.json`   date, notes, service order
+5. `npm run week`   generate current.json
+6. Read the report, then commit and push.
+
+`npm run check` validates without writing.
+Both scripts refuse to run on a mismatch rather than shipping something wrong.

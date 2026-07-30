@@ -1,21 +1,15 @@
 {
-  "name": "Harmony_Baptist_Church_Choir",
-  "version": "1.0.0",
-  "description": "Weekly music, part-by-part rehearsal tracks, and essays for Harmony Baptist Church.",
-  "main": "index.html",
-  "scripts": {
-    "images": "node scripts/convert-images.mjs both",
-    "images:sheet": "node scripts/convert-images.mjs sheet",
-    "images:lyric": "node scripts/convert-images.mjs lyric",
-    "week": "node scripts/build-week.mjs",
-    "check": "node scripts/build-week.mjs --check",
-    "rename:plan": "node scripts/plan-rename.mjs",
-    "rename:dry": "node scripts/apply-rename.mjs --dry",
-    "rename:apply": "node scripts/apply-rename.mjs"
-  },
-  "private": true,
-  "dependencies": {
-    "pdf2pic": "^3.2.0",
-    "sharp": "^0.34.4"
-  }
+"name": "Harmony_Baptist_Church_Choir",
+"version": "1.0.0",
+"description": "Weekly music, part-by-part rehearsal tracks, and essays for Harmony Baptist Church.",
+"private": true,
+"scripts": {
+"images": "node scripts/convert-images.mjs both",
+"images:sheet": "node scripts/convert-images.mjs sheet",
+"images:lyric": "node scripts/convert-images.mjs lyric",
+"week": "node scripts/build-week.mjs",
+"check": "node scripts/build-week.mjs --check",
+"rename:plan": "node scripts/plan-rename.mjs",
+"rename:apply": "node scripts/apply-rename.mjs"
+}
 }
