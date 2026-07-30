@@ -54,9 +54,8 @@ export default function Demo() {
             <div className="card">
                 <p className="eyebrow">Why it matters</p>
                 <p className="mt-3">
-                    Most of our singers are busy parents with full-time jobs. Some read music and some do not. Either
-                    way, each singer can rehearse Sunday morning on the drive home from
-                    work, at their computer with headphones, or however they choose.
+                    Some read music and some do not. Others cannot make every rehearsal. This site makes it easy to prepare for
+                    Sunday morning on the drive home from work, at the computer with headphones, or out and about on the phone.
                 </p>
                 <p className="mt-3">
                     Not every song is in four parts. Unison and melody-driven songs are
