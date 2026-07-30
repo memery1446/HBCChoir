@@ -32,7 +32,7 @@ export default function Demo() {
                     className="mt-3 text-3xl leading-tight sm:text-4xl"
                     style={{ textShadow: "0 2px 12px rgba(0,0,0,0.5)" }}
                 >
-                    Isolating harmony parts makes it easy for any interested person to become a vital part of our choir.
+                    Making it easy for any interested person to become a vital part of our choir.
                 </h1>
                 <p className="mx-auto mt-4 max-w-[34em] text-white/90">{demo.intro}</p>
             </header>
@@ -40,7 +40,7 @@ export default function Demo() {
             <div className="card mb-6">
                 <p className="eyebrow">How to listen</p>
                 <p className="mt-3">
-                    To understand how this site works, start a song then switch parts as it plays. The
+                    Start a song then switch parts as it plays. The
                     recording will keep its place, so you hear the different vocal harmony parts.
                 </p>
                 <p className="mt-3">
