@@ -27,7 +27,7 @@ const CARDS = [
   },
   {
     href: "/demo",
-    eyebrow: "Site Demo",
+    eyebrow: "About this site",
     title: "Site Demo",
     body: "How to use this site to prepare any part",
     primary: false,

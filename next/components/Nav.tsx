@@ -8,7 +8,7 @@ const LINKS = [
     { href: "/sunday", label: "This Sunday's Music" },
     { href: "/solos", label: "Solos / Special Music" },
     { href: "/series", label: "Nehemiah Series" },
-    { href: "/demo", label: "About This Site" },
+    { href: "/demo", label: "Site Demo" },
 ];
 
 export default function Nav() {
