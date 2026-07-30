@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Materialized at build time from the symlinks in public/
+/public/audio/
+/public/content/
+/public/sheet-music-images/
+/public/lyric-slide-images/
