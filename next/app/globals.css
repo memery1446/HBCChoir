@@ -7,7 +7,9 @@
   --alto:     #8e44ad;
   --tenor:    #2980b9;
   --bass:     #27ae60;
+  --all:      #34495e;
   --piano:    #b9770e;
+  --helper:   #7f8c8d;
 
   --ink:   #2c3e50;
   --muted: #6b7a88;
@@ -19,8 +21,8 @@ body {
   color: var(--ink);
   line-height: 1.65;
   background:
-    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-    url('/Harmony-Aireal.jpg') center top / cover no-repeat fixed;
+          linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+          url('/Harmony-Aireal.jpg') center top / cover no-repeat fixed;
   -webkit-font-smoothing: antialiased;
 }
 

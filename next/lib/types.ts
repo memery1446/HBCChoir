@@ -1,6 +1,13 @@
 export type Group =
-    | "soprano" | "harmony" | "harmony2"
-    | "alto" | "tenor" | "bass" | "piano";
+    | "soprano"
+    | "harmony"
+    | "harmony2"
+    | "alto"
+    | "tenor"
+    | "bass"
+    | "all"
+    | "piano"
+    | "helper";
 
 export interface Track {
     name: string;

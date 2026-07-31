@@ -10,6 +10,14 @@ const CARDS = [
     external: false,
   },
   {
+    href: "/homecoming",
+    eyebrow: "Homecoming Sunday",
+    title: "Homecoming Choir Special",
+    body: "Melody, parts, full mix, and a track with drone and metronome. Sheet music and lyric slides included.",
+    primary: true,
+    external: false,
+  },
+  {
     href: "/solos",
     eyebrow: "Special music",
     title: "Solos / Special Music",
