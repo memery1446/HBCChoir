@@ -4,7 +4,7 @@ import { buildSong } from "@/lib/songs";
 import SongList from "@/components/SongList";
 
 export const metadata = {
-    title: "Homecoming Sunday Choir Special | Music at Harmony",
+    title: "Homecoming Sunday | Music at Harmony",
 };
 
 interface File {
@@ -33,7 +33,7 @@ export default function Homecoming() {
                     className="mt-3 text-3xl leading-tight sm:text-4xl"
                     style={{ textShadow: "0 2px 12px rgba(0,0,0,0.5)" }}
                 >
-                    Choir Special
+                    Music for Homecoming
                 </h1>
                 <p className="mx-auto mt-4 max-w-[34em] text-white/90">{data.intro}</p>
             </header>
