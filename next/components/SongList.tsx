@@ -8,12 +8,23 @@ import MusicPanel, { type Kind } from "./MusicPanel";
 
 const SHEET_DIR = "/sheet-music-images/";
 
-/** The demo page adds a one-line note under the title. Sunday does not. */
+/** The demo and homecoming pages add a one-line note under the title. */
 type CardSong = Song & { note?: string };
 
-function SongCard({ song }: { song: CardSong }) {
+function SongCard({
+                      song,
+                      view,
+                      onOpen,
+                      onClose,
+                      onTouch,
+                  }: {
+    song: CardSong;
+    view: Kind | null;
+    onOpen: (k: Kind) => void;
+    onClose: () => void;
+    onTouch: () => void;
+}) {
     const player = useTrackPlayer(song.tracks);
-    const [view, setView] = useState<Kind | null>(null);
     const [page, setPage] = useState(0);
     const [full, setFull] = useState(false);
 
@@ -21,13 +32,13 @@ function SongCard({ song }: { song: CardSong }) {
     const lyric = song.lyricSlideImages;
     const images = view === "sheet" ? sheet : view === "lyric" ? lyric : [];
 
-    const open = (k: Kind) => {
+    const toggle = (k: Kind) => {
         if (view === k) {
-            setView(null);
             setFull(false);
+            onClose();
         } else {
-            setView(k);
             setPage(0);
+            onOpen(k);
         }
     };
 
@@ -35,11 +46,13 @@ function SongCard({ song }: { song: CardSong }) {
         "flex-1 basis-48 rounded-lg border px-4 py-3 text-left text-[0.95rem] transition " +
         "disabled:opacity-40 " +
         (active
-            ? "border-[var(--ink)] bg-[#f6f8f9]"
+            ? "border-[var(--ink)] bg-[var(--rule)]/40"
             : "border-[var(--rule)] bg-white hover:border-[var(--ink)] hover:bg-[#f6f8f9]");
 
     return (
-        <div className="card mb-5">
+        /* Touching this card at all closes whatever another card had open,
+           so a score never sits under a song you are no longer on. */
+        <div className="card mb-5" onPointerDown={onTouch}>
             <h2 className="text-xl">{song.title}</h2>
             {song.note ? (
                 <p className="mb-4 mt-1 text-[0.9rem] text-[var(--muted)]">{song.note}</p>
@@ -53,7 +66,7 @@ function SongCard({ song }: { song: CardSong }) {
                 <button
                     className={tab(view === "sheet")}
                     disabled={sheet.length === 0}
-                    onClick={() => open("sheet")}
+                    onClick={() => toggle("sheet")}
                 >
                     Sheet music{" "}
                     <span className="text-[var(--muted)]">
@@ -63,7 +76,7 @@ function SongCard({ song }: { song: CardSong }) {
                 <button
                     className={tab(view === "lyric")}
                     disabled={lyric.length === 0}
-                    onClick={() => open("lyric")}
+                    onClick={() => toggle("lyric")}
                 >
                     Lyric slides{" "}
                     <span className="text-[var(--muted)]">
@@ -81,7 +94,10 @@ function SongCard({ song }: { song: CardSong }) {
                     full={full}
                     setFull={setFull}
                     player={player}
-                    onClose={() => setView(null)}
+                    onClose={() => {
+                        setFull(false);
+                        onClose();
+                    }}
                 />
             )}
         </div>
@@ -89,10 +105,24 @@ function SongCard({ song }: { song: CardSong }) {
 }
 
 export default function SongList({ songs }: { songs: CardSong[] }) {
+    /* Which card has a panel open, and which kind. Held here so only one
+       panel exists on the page at a time. */
+    const [open, setOpen] = useState<{ song: string; kind: Kind } | null>(null);
+
     return (
         <>
             {songs.map((s) => (
-                <SongCard key={s.title} song={s} />
+                <SongCard
+                    key={s.title}
+                    song={s}
+                    view={open?.song === s.title ? open.kind : null}
+                    onOpen={(kind) => setOpen({ song: s.title, kind })}
+                    onClose={() => setOpen(null)}
+                    onTouch={() => {
+                        // Interacting with a different song closes the open panel.
+                        setOpen((o) => (o && o.song !== s.title ? null : o));
+                    }}
+                />
             ))}
         </>
     );

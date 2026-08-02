@@ -8,12 +8,12 @@ export type Kind = "sheet" | "lyric";
 
 const MIN_ZOOM = 0.25;
 const MAX_ZOOM = 5;
-const NUDGE = 1.25;      // one button press
+const NUDGE = 1.25;
 const SWIPE_MIN = 45;
 const SWIPE_RATIO = 1.4;
-const ZOOM_VIEW = "72vh"; // scroll window once zoomed past the default
-const WIDE = 900;         // px viewport width treated as desktop
-const FIT_HEIGHT = 0.78;  // share of viewport height a fitted page fills
+const ZOOM_VIEW = "72vh";
+const WIDE = 900;
+const FIT_HEIGHT = 0.78;
 
 export default function MusicPanel({
                                        title,
@@ -34,7 +34,7 @@ export default function MusicPanel({
     player: Player;
     onClose: () => void;
 }) {
-    const [base, setBase] = useState(1); // fit-to-screen scale, 1 on phones
+    const [base, setBase] = useState(1);
     const [zoom, setZoom] = useState(1);
     const [drag, setDrag] = useState(0);
     const [grabbing, setGrabbing] = useState(false);
@@ -43,18 +43,21 @@ export default function MusicPanel({
     const zoomRef = useRef(1);
     const baseRef = useRef(1);
     const prevZoom = useRef(1);
+    const fitted = useRef(false);
 
     zoomRef.current = zoom;
     baseRef.current = base;
 
     const clamp = (z: number) => Math.min(MAX_ZOOM, Math.max(MIN_ZOOM, z));
 
-    /* Fit the page to the viewport on wide screens. A portrait score at full
-       container width is roughly 2000px tall on a desktop monitor, which is
-       unusable, so the default scale comes from the image's real aspect. */
+    /* Fit to the viewport once, on the first image. Later pages keep whatever
+       zoom the reader chose. */
     const fitToScreen = useCallback((img: HTMLImageElement) => {
+        if (fitted.current) return;
         const el = scroller.current;
         if (!el || !img.naturalWidth || !img.naturalHeight) return;
+
+        fitted.current = true;
 
         if (window.innerWidth < WIDE) {
             setBase(1);
@@ -62,19 +65,22 @@ export default function MusicPanel({
             return;
         }
         const aspect = img.naturalWidth / img.naturalHeight;
-        const availW = el.clientWidth;
-        const availH = window.innerHeight * FIT_HEIGHT;
-        const fit = clamp(Math.min(1, (availH * aspect) / availW));
+        const fit = clamp(
+            Math.min(1, (window.innerHeight * FIT_HEIGHT * aspect) / el.clientWidth)
+        );
         setBase(fit);
         setZoom(fit);
         prevZoom.current = fit;
     }, []);
 
+    /* Changing pages keeps the zoom level. Reading a four-page score at 2x
+       should not mean re-zooming on every page. */
     const step = useCallback(
         (d: number) => {
             setPage((page + d + images.length) % images.length);
-            setZoom(baseRef.current);
             setDrag(0);
+            const el = scroller.current;
+            if (el) el.scrollTop = 0;
         },
         [page, images.length, setPage]
     );
@@ -86,7 +92,6 @@ export default function MusicPanel({
 
     const reset = useCallback(() => setZoom(baseRef.current), []);
 
-    /* Keep the middle of the view fixed across a zoom change. */
     useEffect(() => {
         const el = scroller.current;
         if (!el) return;
@@ -102,7 +107,6 @@ export default function MusicPanel({
         });
     }, [zoom]);
 
-    /* Native, non-passive listeners so preventDefault works. */
     useEffect(() => {
         const el = scroller.current;
         if (!el) return;
@@ -133,8 +137,7 @@ export default function MusicPanel({
         const onMove = (e: TouchEvent) => {
             if (pinch && e.touches.length === 2) {
                 e.preventDefault();
-                const r = spread(e.touches) / pinch.dist;
-                setZoom(clamp(pinch.zoom * r));
+                setZoom(clamp(pinch.zoom * (spread(e.touches) / pinch.dist)));
                 return;
             }
             if (pan && e.touches.length === 1) {
@@ -179,7 +182,6 @@ export default function MusicPanel({
         };
     }, [step]);
 
-    /* Desktop: grab to pan when zoomed past the default. */
     const onMouseDown = (e: React.MouseEvent) => {
         const el = scroller.current;
         if (!el || zoom <= base) return;
@@ -211,8 +213,7 @@ export default function MusicPanel({
             if (e.key === "-" || e.key === "_") nudge(-1);
             if (e.key === "0") reset();
             if (e.key === "Escape") {
-                if (zoomRef.current !== baseRef.current) reset();
-                else if (full) setFull(false);
+                if (full) setFull(false);
                 else onClose();
             }
         };
@@ -325,17 +326,26 @@ export default function MusicPanel({
             >
                 {full ? "Exit full screen" : "Full screen"}
             </button>
+
+            <button
+                onClick={onClose}
+                className="rounded border border-[var(--ink)] px-4 py-2 text-[0.85rem]"
+            >
+                ✕ Close
+            </button>
         </div>
     );
 
     if (!full) {
         return (
             <div className="mt-3">
+                {/* The nav sits in its own fixed-width wrapper so zooming the score
+            cannot shift the buttons out from under the cursor. */}
+                <div className="mb-2 rounded-xl border border-[var(--rule)] bg-white/95">
+                    {nav}
+                </div>
                 <div className="relative left-1/2 w-[96vw] max-w-[1600px] -translate-x-1/2">
                     {stage}
-                    <div className="mt-2 rounded-xl border border-[var(--rule)] bg-white/95">
-                        {nav}
-                    </div>
                 </div>
             </div>
         );
@@ -358,10 +368,10 @@ export default function MusicPanel({
             </div>
 
             <div className="flex min-h-0 flex-1 flex-col">
-                <div className="flex min-h-0 flex-1">{stage}</div>
                 <div className="shrink-0 [&_button]:border-white/30 [&_button]:text-white [&_span]:text-white/70">
                     {nav}
                 </div>
+                <div className="flex min-h-0 flex-1">{stage}</div>
             </div>
         </div>
     );
