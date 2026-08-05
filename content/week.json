@@ -1,16 +1,14 @@
 {
-  "serviceDate": "2026-08-02",
+  "serviceDate": "2026-08-09",
   "headerNotes": [
     "Our Choir music for Sunday is below.",
-    "Choir meets Sundays at 4:30pm.",
-    "CHILDCARE is coordinated during Sunday and Wednesday rehearsals."
+    "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
-    { "slug": "come-thou-fount",       "title": "Come Thou Fount of Every Blessing" },
-    { "slug": "the-lord-will-provide", "title": "The Lord Will Provide" },
-    { "slug": "gratitude",             "title": "Gratitude" },
-    { "slug": "build-my-life",         "title": "Build My Life" },
-    { "slug": "surely-the-presence",   "title": "Surely the Presence",
+    { "slug": "holy-ground",       "title": "Holy Ground Medley" },
+    { "slug": "better-is-one-day", "title": "Better Is One Day" },
+    { "slug": "holy-spirit-rain-down", "title": "Holy Spirit, Rain Down" },
+    { "slug": "all-creatures-let-everything", "title": "All Creatures / Let Everything That Has Breath Prise the Lord",
       "prefix": "CHOIR SPECIAL DURING OFFERTORY: " }
   ]
 }

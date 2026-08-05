@@ -34,13 +34,15 @@ const CHECK_ONLY = process.argv.includes('--check');
 /* The vocabulary. Order here is the button order on the page.
    Add a part by adding a line; nothing else needs to change. */
 const PARTS = [
-    { part: 'melody',   group: 'soprano',  name: 'MELODY/SOPRANO' },
-    { part: 'harmony',  group: 'harmony',  name: 'HARMONY'        },
-    { part: 'harmony2', group: 'harmony2', name: 'HARMONY 2'      },
-    { part: 'alto',     group: 'alto',     name: 'ALTO'           },
-    { part: 'tenor',    group: 'tenor',    name: 'TENOR'          },
-    { part: 'bass',     group: 'bass',     name: 'BASS'           },
-    { part: 'piano',    group: 'piano',    name: 'PIANO'          }
+    { part: 'all',      group: 'all',      name: 'FULL MIX'          },
+    { part: 'melody',   group: 'soprano',  name: 'MELODY/SOPRANO'    },
+    { part: 'harmony',  group: 'harmony',  name: 'HARMONY'           },
+    { part: 'harmony2', group: 'harmony2', name: 'HARMONY 2'         },
+    { part: 'alto',     group: 'alto',     name: 'ALTO'              },
+    { part: 'tenor',    group: 'tenor',    name: 'TENOR'             },
+    { part: 'bass',     group: 'bass',     name: 'BASS'              },
+    { part: 'piano',    group: 'piano',    name: 'PIANO'             },
+    { part: 'helper',   group: 'helper',   name: 'DRONE + METRONOME' }
 ];
 
 const problems = [], notes = [];

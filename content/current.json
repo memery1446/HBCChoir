@@ -1,232 +1,143 @@
 {
-  "serviceDate": "2026-08-02",
+  "serviceDate": "2026-08-09",
   "headerNotes": [
     "Our Choir music for Sunday is below.",
-    "Choir meets Sundays at 4:30pm.",
-    "CHILDCARE is coordinated during Sunday and Wednesday rehearsals."
+    "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
-    "Come Thou Fount of Every Blessing",
-    "The Lord Will Provide",
-    "Gratitude",
-    "Build My Life",
-    "CHOIR SPECIAL DURING OFFERTORY: Surely the Presence"
+    "Holy Ground Medley",
+    "Better Is One Day",
+    "Holy Spirit, Rain Down",
+    "CHOIR SPECIAL DURING OFFERTORY: All Creatures / Let Everything That Has Breath Prise the Lord"
   ],
   "songs": [
     {
-      "title": "COME THOU FOUNT OF EVERY BLESSING",
+      "title": "HOLY GROUND MEDLEY",
+      "useImages": false,
+      "imageFiles": [],
+      "lyricSlideImages": [
+        "lyric-slide-images/holy-ground.lyric.01.png",
+        "lyric-slide-images/holy-ground.lyric.02.png",
+        "lyric-slide-images/holy-ground.lyric.03.png",
+        "lyric-slide-images/holy-ground.lyric.04.png",
+        "lyric-slide-images/holy-ground.lyric.05.png",
+        "lyric-slide-images/holy-ground.lyric.06.png",
+        "lyric-slide-images/holy-ground.lyric.07.png",
+        "lyric-slide-images/holy-ground.lyric.08.png",
+        "lyric-slide-images/holy-ground.lyric.09.png",
+        "lyric-slide-images/holy-ground.lyric.10.png",
+        "lyric-slide-images/holy-ground.lyric.11.png",
+        "lyric-slide-images/holy-ground.lyric.12.png",
+        "lyric-slide-images/holy-ground.lyric.13.png",
+        "lyric-slide-images/holy-ground.lyric.14.png",
+        "lyric-slide-images/holy-ground.lyric.15.png"
+      ],
+      "tracks": [
+        {
+          "name": "FULL MIX",
+          "src": "audio/holy-ground.all.mp3",
+          "group": "all"
+        }
+      ]
+    },
+    {
+      "title": "BETTER IS ONE DAY",
+      "useImages": false,
+      "imageFiles": [],
+      "lyricSlideImages": [],
+      "tracks": [
+        {
+          "name": "FULL MIX",
+          "src": "audio/better-is-one-day.all.mp3",
+          "group": "all"
+        }
+      ]
+    },
+    {
+      "title": "HOLY SPIRIT, RAIN DOWN",
+      "useImages": false,
+      "imageFiles": [],
+      "lyricSlideImages": [],
+      "tracks": [
+        {
+          "name": "FULL MIX",
+          "src": "audio/holy-spirit-rain-down.all.mp3",
+          "group": "all"
+        }
+      ]
+    },
+    {
+      "title": "ALL CREATURES / LET EVERYTHING THAT HAS BREATH PRISE THE LORD",
       "useImages": true,
       "imageFiles": [
-        "come-thou-fount.sheet.01.png",
-        "come-thou-fount.sheet.02.png"
+        "all-creatures-let-everything.sheet.01.png",
+        "all-creatures-let-everything.sheet.02.png",
+        "all-creatures-let-everything.sheet.03.png",
+        "all-creatures-let-everything.sheet.04.png",
+        "all-creatures-let-everything.sheet.05.png",
+        "all-creatures-let-everything.sheet.06.png",
+        "all-creatures-let-everything.sheet.07.png",
+        "all-creatures-let-everything.sheet.08.png",
+        "all-creatures-let-everything.sheet.09.png",
+        "all-creatures-let-everything.sheet.10.png",
+        "all-creatures-let-everything.sheet.11.png",
+        "all-creatures-let-everything.sheet.12.png",
+        "all-creatures-let-everything.sheet.13.png",
+        "all-creatures-let-everything.sheet.14.png",
+        "all-creatures-let-everything.sheet.15.png",
+        "all-creatures-let-everything.sheet.16.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/come-thou-fount.lyric.01.png",
-        "lyric-slide-images/come-thou-fount.lyric.02.png",
-        "lyric-slide-images/come-thou-fount.lyric.03.png",
-        "lyric-slide-images/come-thou-fount.lyric.04.png",
-        "lyric-slide-images/come-thou-fount.lyric.05.png",
-        "lyric-slide-images/come-thou-fount.lyric.06.png",
-        "lyric-slide-images/come-thou-fount.lyric.07.png",
-        "lyric-slide-images/come-thou-fount.lyric.08.png",
-        "lyric-slide-images/come-thou-fount.lyric.09.png",
-        "lyric-slide-images/come-thou-fount.lyric.10.png",
-        "lyric-slide-images/come-thou-fount.lyric.11.png",
-        "lyric-slide-images/come-thou-fount.lyric.12.png",
-        "lyric-slide-images/come-thou-fount.lyric.13.png",
-        "lyric-slide-images/come-thou-fount.lyric.14.png",
-        "lyric-slide-images/come-thou-fount.lyric.15.png"
+        "lyric-slide-images/all-creatures-let-everything.lyric.01.png",
+        "lyric-slide-images/all-creatures-let-everything.lyric.02.png",
+        "lyric-slide-images/all-creatures-let-everything.lyric.03.png",
+        "lyric-slide-images/all-creatures-let-everything.lyric.04.png",
+        "lyric-slide-images/all-creatures-let-everything.lyric.05.png",
+        "lyric-slide-images/all-creatures-let-everything.lyric.06.png",
+        "lyric-slide-images/all-creatures-let-everything.lyric.07.png",
+        "lyric-slide-images/all-creatures-let-everything.lyric.08.png",
+        "lyric-slide-images/all-creatures-let-everything.lyric.09.png",
+        "lyric-slide-images/all-creatures-let-everything.lyric.10.png",
+        "lyric-slide-images/all-creatures-let-everything.lyric.11.png",
+        "lyric-slide-images/all-creatures-let-everything.lyric.12.png",
+        "lyric-slide-images/all-creatures-let-everything.lyric.13.png",
+        "lyric-slide-images/all-creatures-let-everything.lyric.14.png",
+        "lyric-slide-images/all-creatures-let-everything.lyric.15.png",
+        "lyric-slide-images/all-creatures-let-everything.lyric.16.png",
+        "lyric-slide-images/all-creatures-let-everything.lyric.17.png",
+        "lyric-slide-images/all-creatures-let-everything.lyric.18.png",
+        "lyric-slide-images/all-creatures-let-everything.lyric.19.png",
+        "lyric-slide-images/all-creatures-let-everything.lyric.20.png",
+        "lyric-slide-images/all-creatures-let-everything.lyric.21.png",
+        "lyric-slide-images/all-creatures-let-everything.lyric.22.png",
+        "lyric-slide-images/all-creatures-let-everything.lyric.23.png",
+        "lyric-slide-images/all-creatures-let-everything.lyric.24.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/come-thou-fount.melody.mp3",
+          "src": "audio/all-creatures-let-everything.melody.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/come-thou-fount.alto.mp3",
+          "src": "audio/all-creatures-let-everything.alto.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/come-thou-fount.tenor.mp3",
+          "src": "audio/all-creatures-let-everything.tenor.mp3",
           "group": "tenor"
         },
         {
-          "name": "PIANO",
-          "src": "audio/come-thou-fount.piano.mp3",
-          "group": "piano"
-        }
-      ]
-    },
-    {
-      "title": "THE LORD WILL PROVIDE",
-      "useImages": true,
-      "imageFiles": [
-        "the-lord-will-provide.sheet.01.png",
-        "the-lord-will-provide.sheet.02.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/the-lord-will-provide.lyric.01.png",
-        "lyric-slide-images/the-lord-will-provide.lyric.02.png",
-        "lyric-slide-images/the-lord-will-provide.lyric.03.png",
-        "lyric-slide-images/the-lord-will-provide.lyric.04.png",
-        "lyric-slide-images/the-lord-will-provide.lyric.05.png",
-        "lyric-slide-images/the-lord-will-provide.lyric.06.png",
-        "lyric-slide-images/the-lord-will-provide.lyric.07.png",
-        "lyric-slide-images/the-lord-will-provide.lyric.08.png",
-        "lyric-slide-images/the-lord-will-provide.lyric.09.png",
-        "lyric-slide-images/the-lord-will-provide.lyric.10.png",
-        "lyric-slide-images/the-lord-will-provide.lyric.11.png",
-        "lyric-slide-images/the-lord-will-provide.lyric.12.png",
-        "lyric-slide-images/the-lord-will-provide.lyric.13.png",
-        "lyric-slide-images/the-lord-will-provide.lyric.14.png",
-        "lyric-slide-images/the-lord-will-provide.lyric.15.png",
-        "lyric-slide-images/the-lord-will-provide.lyric.16.png",
-        "lyric-slide-images/the-lord-will-provide.lyric.17.png",
-        "lyric-slide-images/the-lord-will-provide.lyric.18.png",
-        "lyric-slide-images/the-lord-will-provide.lyric.19.png",
-        "lyric-slide-images/the-lord-will-provide.lyric.20.png",
-        "lyric-slide-images/the-lord-will-provide.lyric.21.png",
-        "lyric-slide-images/the-lord-will-provide.lyric.22.png",
-        "lyric-slide-images/the-lord-will-provide.lyric.23.png",
-        "lyric-slide-images/the-lord-will-provide.lyric.24.png",
-        "lyric-slide-images/the-lord-will-provide.lyric.25.png",
-        "lyric-slide-images/the-lord-will-provide.lyric.26.png",
-        "lyric-slide-images/the-lord-will-provide.lyric.27.png",
-        "lyric-slide-images/the-lord-will-provide.lyric.28.png"
-      ],
-      "tracks": [
-        {
-          "name": "MELODY/SOPRANO",
-          "src": "audio/the-lord-will-provide.melody.mp3",
-          "group": "soprano"
+          "name": "BASS",
+          "src": "audio/all-creatures-let-everything.bass.mp3",
+          "group": "bass"
         },
         {
           "name": "PIANO",
-          "src": "audio/the-lord-will-provide.piano.mp3",
+          "src": "audio/all-creatures-let-everything.piano.mp3",
           "group": "piano"
-        }
-      ]
-    },
-    {
-      "title": "GRATITUDE",
-      "useImages": true,
-      "imageFiles": [
-        "gratitude.sheet.01.png",
-        "gratitude.sheet.02.png",
-        "gratitude.sheet.03.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/gratitude.lyric.01.png",
-        "lyric-slide-images/gratitude.lyric.02.png",
-        "lyric-slide-images/gratitude.lyric.03.png",
-        "lyric-slide-images/gratitude.lyric.04.png",
-        "lyric-slide-images/gratitude.lyric.05.png",
-        "lyric-slide-images/gratitude.lyric.06.png",
-        "lyric-slide-images/gratitude.lyric.07.png",
-        "lyric-slide-images/gratitude.lyric.08.png",
-        "lyric-slide-images/gratitude.lyric.09.png",
-        "lyric-slide-images/gratitude.lyric.10.png",
-        "lyric-slide-images/gratitude.lyric.11.png",
-        "lyric-slide-images/gratitude.lyric.12.png",
-        "lyric-slide-images/gratitude.lyric.13.png"
-      ],
-      "tracks": [
-        {
-          "name": "MELODY/SOPRANO",
-          "src": "audio/gratitude.melody.mp3",
-          "group": "soprano"
-        },
-        {
-          "name": "PIANO",
-          "src": "audio/gratitude.piano.mp3",
-          "group": "piano"
-        }
-      ]
-    },
-    {
-      "title": "BUILD MY LIFE",
-      "useImages": true,
-      "imageFiles": [
-        "build-my-life.sheet.01.png",
-        "build-my-life.sheet.02.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/build-my-life.lyric.01.png",
-        "lyric-slide-images/build-my-life.lyric.02.png",
-        "lyric-slide-images/build-my-life.lyric.03.png",
-        "lyric-slide-images/build-my-life.lyric.04.png",
-        "lyric-slide-images/build-my-life.lyric.05.png",
-        "lyric-slide-images/build-my-life.lyric.06.png",
-        "lyric-slide-images/build-my-life.lyric.07.png",
-        "lyric-slide-images/build-my-life.lyric.08.png",
-        "lyric-slide-images/build-my-life.lyric.09.png",
-        "lyric-slide-images/build-my-life.lyric.10.png",
-        "lyric-slide-images/build-my-life.lyric.11.png",
-        "lyric-slide-images/build-my-life.lyric.12.png",
-        "lyric-slide-images/build-my-life.lyric.13.png",
-        "lyric-slide-images/build-my-life.lyric.14.png",
-        "lyric-slide-images/build-my-life.lyric.15.png",
-        "lyric-slide-images/build-my-life.lyric.16.png",
-        "lyric-slide-images/build-my-life.lyric.17.png",
-        "lyric-slide-images/build-my-life.lyric.18.png",
-        "lyric-slide-images/build-my-life.lyric.19.png",
-        "lyric-slide-images/build-my-life.lyric.20.png",
-        "lyric-slide-images/build-my-life.lyric.21.png",
-        "lyric-slide-images/build-my-life.lyric.22.png",
-        "lyric-slide-images/build-my-life.lyric.23.png",
-        "lyric-slide-images/build-my-life.lyric.24.png",
-        "lyric-slide-images/build-my-life.lyric.25.png",
-        "lyric-slide-images/build-my-life.lyric.26.png",
-        "lyric-slide-images/build-my-life.lyric.27.png",
-        "lyric-slide-images/build-my-life.lyric.28.png",
-        "lyric-slide-images/build-my-life.lyric.29.png",
-        "lyric-slide-images/build-my-life.lyric.30.png",
-        "lyric-slide-images/build-my-life.lyric.31.png",
-        "lyric-slide-images/build-my-life.lyric.32.png",
-        "lyric-slide-images/build-my-life.lyric.33.png"
-      ],
-      "tracks": [
-        {
-          "name": "MELODY/SOPRANO",
-          "src": "audio/build-my-life.melody.mp3",
-          "group": "soprano"
-        },
-        {
-          "name": "HARMONY",
-          "src": "audio/build-my-life.harmony.mp3",
-          "group": "harmony"
-        }
-      ]
-    },
-    {
-      "title": "SURELY THE PRESENCE",
-      "useImages": true,
-      "imageFiles": [
-        "surely-the-presence.sheet.01.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/surely-the-presence.lyric.01.png",
-        "lyric-slide-images/surely-the-presence.lyric.02.png",
-        "lyric-slide-images/surely-the-presence.lyric.03.png",
-        "lyric-slide-images/surely-the-presence.lyric.04.png",
-        "lyric-slide-images/surely-the-presence.lyric.05.png",
-        "lyric-slide-images/surely-the-presence.lyric.06.png",
-        "lyric-slide-images/surely-the-presence.lyric.07.png",
-        "lyric-slide-images/surely-the-presence.lyric.08.png",
-        "lyric-slide-images/surely-the-presence.lyric.09.png",
-        "lyric-slide-images/surely-the-presence.lyric.10.png",
-        "lyric-slide-images/surely-the-presence.lyric.11.png",
-        "lyric-slide-images/surely-the-presence.lyric.12.png",
-        "lyric-slide-images/surely-the-presence.lyric.13.png"
-      ],
-      "tracks": [
-        {
-          "name": "MELODY/SOPRANO",
-          "src": "audio/surely-the-presence.melody.mp3",
-          "group": "soprano"
         }
       ]
     }
