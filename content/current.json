@@ -49,7 +49,17 @@
         "better-is-one-day.sheet.01.png",
         "better-is-one-day.sheet.02.png"
       ],
-      "lyricSlideImages": [],
+      "lyricSlideImages": [
+        "lyric-slide-images/better-is-one-day.lyric.01.png",
+        "lyric-slide-images/better-is-one-day.lyric.02.png",
+        "lyric-slide-images/better-is-one-day.lyric.03.png",
+        "lyric-slide-images/better-is-one-day.lyric.04.png",
+        "lyric-slide-images/better-is-one-day.lyric.05.png",
+        "lyric-slide-images/better-is-one-day.lyric.06.png",
+        "lyric-slide-images/better-is-one-day.lyric.07.png",
+        "lyric-slide-images/better-is-one-day.lyric.08.png",
+        "lyric-slide-images/better-is-one-day.lyric.09.png"
+      ],
       "tracks": [
         {
           "name": "FULL MIX",
@@ -65,7 +75,29 @@
         "holy-spirit-rain-down.sheet.01.png",
         "holy-spirit-rain-down.sheet.02.png"
       ],
-      "lyricSlideImages": [],
+      "lyricSlideImages": [
+        "lyric-slide-images/holy-spirit-rain-down.lyric.01.png",
+        "lyric-slide-images/holy-spirit-rain-down.lyric.02.png",
+        "lyric-slide-images/holy-spirit-rain-down.lyric.03.png",
+        "lyric-slide-images/holy-spirit-rain-down.lyric.04.png",
+        "lyric-slide-images/holy-spirit-rain-down.lyric.05.png",
+        "lyric-slide-images/holy-spirit-rain-down.lyric.06.png",
+        "lyric-slide-images/holy-spirit-rain-down.lyric.07.png",
+        "lyric-slide-images/holy-spirit-rain-down.lyric.08.png",
+        "lyric-slide-images/holy-spirit-rain-down.lyric.09.png",
+        "lyric-slide-images/holy-spirit-rain-down.lyric.10.png",
+        "lyric-slide-images/holy-spirit-rain-down.lyric.11.png",
+        "lyric-slide-images/holy-spirit-rain-down.lyric.12.png",
+        "lyric-slide-images/holy-spirit-rain-down.lyric.13.png",
+        "lyric-slide-images/holy-spirit-rain-down.lyric.14.png",
+        "lyric-slide-images/holy-spirit-rain-down.lyric.15.png",
+        "lyric-slide-images/holy-spirit-rain-down.lyric.16.png",
+        "lyric-slide-images/holy-spirit-rain-down.lyric.17.png",
+        "lyric-slide-images/holy-spirit-rain-down.lyric.18.png",
+        "lyric-slide-images/holy-spirit-rain-down.lyric.19.png",
+        "lyric-slide-images/holy-spirit-rain-down.lyric.20.png",
+        "lyric-slide-images/holy-spirit-rain-down.lyric.21.png"
+      ],
       "tracks": [
         {
           "name": "FULL MIX",
