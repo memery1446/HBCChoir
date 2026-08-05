@@ -13,8 +13,10 @@
   "songs": [
     {
       "title": "HOLY GROUND MEDLEY",
-      "useImages": false,
-      "imageFiles": [],
+      "useImages": true,
+      "imageFiles": [
+        "holy-ground.sheet.01.png"
+      ],
       "lyricSlideImages": [
         "lyric-slide-images/holy-ground.lyric.01.png",
         "lyric-slide-images/holy-ground.lyric.02.png",
@@ -42,8 +44,11 @@
     },
     {
       "title": "BETTER IS ONE DAY",
-      "useImages": false,
-      "imageFiles": [],
+      "useImages": true,
+      "imageFiles": [
+        "better-is-one-day.sheet.01.png",
+        "better-is-one-day.sheet.02.png"
+      ],
       "lyricSlideImages": [],
       "tracks": [
         {
@@ -55,8 +60,11 @@
     },
     {
       "title": "HOLY SPIRIT, RAIN DOWN",
-      "useImages": false,
-      "imageFiles": [],
+      "useImages": true,
+      "imageFiles": [
+        "holy-spirit-rain-down.sheet.01.png",
+        "holy-spirit-rain-down.sheet.02.png"
+      ],
       "lyricSlideImages": [],
       "tracks": [
         {
