@@ -3,19 +3,19 @@ const SERIES = {
   blurb: "A study through Nehemiah by Mark A. Emery",
   parts: [
     {
-      href: "/nehemiah-1.html",
+      href: "/nehemiah-1",
       part: "Part 1",
       scripture: "Nehemiah 1–2:10",
       title: "A Burden That Will Not Be Silenced",
     },
     {
-      href: "/nehemiah-2.html",
+      href: "/nehemiah-2",
       part: "Part 2",
       scripture: "Nehemiah 2:11–3:32",
       title: "Before the First Stone Is Laid",
     },
     {
-      href: "/nehemiah-3.html",
+      href: "/nehemiah-3",
       part: "Part 3",
       scripture: "Nehemiah 4-5:19",
       title: "Trowel and Sword",
