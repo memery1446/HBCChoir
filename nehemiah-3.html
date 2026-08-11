@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arise and Build – Nehemiah 4–5</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: #f7f5f2;
+            color: #222;
+            padding: 2rem 1rem 4rem;
+        }
+
+        .page {
+            max-width: 720px;
+            margin: 0 auto;
+        }
+
+        .series-banner {
+            background: #3C3489;
+            border-radius: 14px;
+            padding: 2.5rem 2.25rem 2rem;
+            margin-bottom: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .series-banner::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 5px;
+            background: #EF9F27;
+        }
+
+        .series-label {
+            font-family: Arial, sans-serif;
+            font-size: 0.7rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: #AFA9EC;
+            margin-bottom: 0.5rem;
+        }
+
+        .series-banner h1 {
+            color: #EEEDFE;
+            font-size: 2.1rem;
+            font-weight: normal;
+            margin-bottom: 0.4rem;
+            line-height: 1.2;
+        }
+
+        .byline {
+            color: #AFA9EC;
+            font-size: 0.95rem;
+            font-style: italic;
+        }
+
+        .installment-header {
+            border-left: 5px solid #EF9F27;
+            padding-left: 1.25rem;
+            margin-bottom: 2.25rem;
+        }
+
+        .part-label {
+            font-family: Arial, sans-serif;
+            font-size: 0.7rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #7a6a2a;
+            margin-bottom: 0.35rem;
+        }
+
+        .installment-header h2 {
+            font-size: 1.65rem;
+            font-weight: normal;
+            color: #1a1a2e;
+            line-height: 1.3;
+        }
+
+        .article-body p {
+            font-size: 1.05rem;
+            line-height: 1.9;
+            color: #2d2d2d;
+            margin-bottom: 1.2rem;
+        }
+
+        .section-rule {
+            font-family: Arial, sans-serif;
+            font-size: 0.7rem;
+            font-weight: bold;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: #7a6a2a;
+            margin: 2.5rem 0 1.25rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #e0d5c0;
+        }
+
+        blockquote {
+            margin: 2rem 0;
+            padding: 1.2rem 1.5rem;
+            font-size: 1.05rem;
+            line-height: 1.8;
+            font-style: italic;
+        }
+
+        blockquote.amber {
+            border-left: 4px solid #BA7517;
+            background: #FAEEDA;
+            color: #412402;
+        }
+
+        blockquote.purple {
+            border-left: 4px solid #534AB7;
+            background: #EEEDFE;
+            color: #26215C;
+        }
+
+        .questions {
+            border-radius: 10px;
+            overflow: hidden;
+            border: 1px solid #ddd;
+            margin-top: 2.5rem;
+        }
+
+        .questions-header {
+            background: #3C3489;
+            padding: 0.9rem 1.25rem;
+        }
+
+        .questions-header p {
+            color: #EEEDFE;
+            font-family: Arial, sans-serif;
+            font-size: 0.7rem;
+            letter-spacing: 0.13em;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        .questions ol {
+            padding: 1.25rem 1.25rem 1.25rem 2.5rem;
+            background: white;
+        }
+
+        .questions ol li {
+            font-size: 1rem;
+            line-height: 1.85;
+            color: #333;
+            margin-bottom: 0.75rem;
+        }
+
+        .questions ol li:last-child { margin-bottom: 0; }
+
+        .citation {
+            margin-top: 1.75rem;
+            padding-top: 1.25rem;
+            border-top: 1px solid #e0e0e0;
+            font-size: 0.875rem;
+            color: #888;
+            font-style: italic;
+        }
+
+        .series-nav {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.75rem;
+            margin-top: 1.75rem;
+        }
+
+        .nav-card {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            background: white;
+            border-radius: 10px;
+            border: 1px solid #e0e0e0;
+            padding: 1rem 1.1rem;
+            text-decoration: none;
+            color: inherit;
+            transition: box-shadow 0.2s ease;
+        }
+
+        .nav-card:hover { box-shadow: 0 4px 14px rgba(0,0,0,0.1); }
+
+        .nav-card.prev { border-left: 5px solid #534AB7; }
+        .nav-card.next { border-left: 5px solid #EF9F27; justify-content: space-between; }
+
+        .nav-card.coming-soon {
+            border-left: 5px solid #ccc;
+            opacity: 0.5;
+            pointer-events: none;
+        }
+
+        .nav-card .nav-arrow {
+            font-size: 1.25rem;
+            flex-shrink: 0;
+            color: #888;
+        }
+
+        .nav-card.prev .nav-arrow { color: #534AB7; }
+        .nav-card.next .nav-arrow { color: #c8954a; }
+
+        .nav-card .nav-text .nav-dir {
+            font-family: Arial, sans-serif;
+            font-size: 0.68rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #888;
+            margin-bottom: 0.2rem;
+        }
+
+        .nav-card.prev .nav-text .nav-dir { color: #534AB7; }
+        .nav-card.next .nav-text .nav-dir { color: #c8954a; }
+
+        .nav-card .nav-text .nav-title {
+            font-size: 0.95rem;
+            color: #1a1a2e;
+            line-height: 1.3;
+        }
+
+        @media (max-width: 520px) {
+            .series-nav { grid-template-columns: 1fr; }
+            .series-banner h1 { font-size: 1.6rem; }
+            .installment-header h2 { font-size: 1.35rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+
+    <div class="series-banner">
+        <div class="series-label">A study through the book of Nehemiah</div>
+        <h1>Arise and Build</h1>
+        <div class="byline">by Mark Emery</div>
+    </div>
+
+    <div class="installment-header">
+        <div class="part-label">Installment Three · Nehemiah 4–5</div>
+        <h2>Trowel and Sword</h2>
+    </div>
+
+    <div class="article-body">
+
+        <p>The wall is halfway up. That detail, tucked quietly into chapter four, is easy to pass over — but it matters. The builders have come far enough that the work is real, visible, measurable. Far enough, too, that turning back would cost something. And it is precisely at this point — when the project is too far along to ignore and too unfinished to celebrate — that everything begins pressing in from every direction at once.</p>
+
+        <p>Chapters four and five of Nehemiah are about what happens in the long middle of faithful work. Not the inspiring beginning, not the triumphant finish — the grinding, difficult, sometimes discouraging stretch where opposition intensifies, fatigue accumulates, and threats arise from places you didn't expect. These chapters do not offer easy encouragement. But they offer something more durable: an honest account of how God's people persevere when the cost of continuing rises.</p>
+
+        <div class="section-rule">Three waves</div>
+
+        <p>The opposition in chapter four arrives in three distinct waves, each one more serious than the last. The first is ridicule. Sanballat, governor of Samaria and no friend to a strengthened Jerusalem, mocks the builders publicly and loudly. Five contemptuous questions — you're too weak, too slow, too resource-poor, too ambitious — are designed to do one thing: make the builders look at themselves instead of at the work. Tobiah adds his own jab, suggesting their construction is so flimsy a fox could knock it down.</p>
+
+        <p>The second wave escalates from words to conspiracy. Sanballat and Tobiah are now joined by the Arabs, the Ammonites, and the Ashdodites — enemies on every border — plotting a coordinated attack. What began as ridicule from one direction has become the threat of violence from all sides. And the third wave is the most insidious of all: the opposition has begun working its way inside the camp. The people are exhausted. The rubble feels insurmountable. Families living near the border are sending desperate reports — "they will come against us" — over and over, wearing down the resolve of the workers from within.</p>
+
+        <blockquote class="amber">When we take our eyes off the Lord and fix them on ourselves and the circumstances around us, we begin to sink — just as Peter did when he stepped out onto the water and looked down at the waves rather than up at Christ.</blockquote>
+
+        <p>Nehemiah's response to each wave follows the same pattern: prayer, then action. He prays — genuinely, urgently — and then he does the most practical, sensible thing available to him. He posts a guard. He repositions the workers with their families so each one is defending people they love. He divides his workforce so half are building and half are standing armed. He establishes a trumpet signal so that isolated workers can rally together when danger strikes. And through it all he keeps returning to the same word: "Do not be afraid of them. Remember the Lord, who is great and awesome."</p>
+
+        <p>Prayer and action are not alternatives for Nehemiah. They are partners. The legitimacy of his trust in God shows in his willingness to work. And the legitimacy of his work shows in his refusal to work without God. By the end of chapter four, every builder on that wall has a trowel in one hand and a sword on his hip. It is one of the most striking images in all of Scripture — the combination of patient, constructive labor and alert, vigilant readiness, held together in the same person, at the same time, day after day, from dawn until the stars came out.</p>
+
+        <div class="section-rule">The threat no one anticipated</div>
+
+        <p>Chapter five opens with a sound that is different from the taunts of Sanballat — not mockery from enemies outside the walls, but weeping from within. The workers' families are in crisis. Some have no food. Some have mortgaged their land to survive the famine. Some have been forced to sell their children into servitude to pay the Persian king's taxes, and they have nothing left with which to buy them back.</p>
+
+        <p>And the cause of much of this suffering is not the Persians or the Samaritans. It is fellow Judeans — wealthy landowners and creditors charging ruinous interest rates on loans to their own brothers and sisters, taking their fields, their vineyards, their children, growing richer while the poor grow more desperate. The divide-and-conquer strategy that failed from the outside is now threatening to succeed from within.</p>
+
+        <blockquote class="purple">External opposition, for all its noise, rarely destroys the people of God. What is more dangerous is the fracturing of the community from inside — the exploitation of the weak by the strong, the indifference of those with means to those without.</blockquote>
+
+        <p>Nehemiah is angry. The text says so plainly. But what he does with that anger is instructive. He does not react immediately. He takes time — the text says he "consulted with himself" — before confronting the nobles and rulers. When he does speak, it is in a formal public assembly, not a private outburst. His confrontation is measured, pointed, and aimed not at personal grievance but at the violation of God's law and the reproach it brings on God's people before the nations. He names it clearly. He demands restitution. He makes them swear a public oath before the priests. And he seals it with a dramatic gesture — shaking out the fold of his garment as a visible sign of what God would do to any man who broke his promise.</p>
+
+        <p>They agree. They restore what they took. The assembly responds with a corporate "Amen" — and then praise to God. It is one of the quieter turning points in the book, but a significant one: a community that was fracturing under internal pressure chooses instead to hold together.</p>
+
+        <div class="section-rule">The weight of integrity</div>
+
+        <p>What comes at the end of chapter five is both surprising and deeply moving. Nehemiah reveals that he has been governor of Judah for twelve years — and in all that time he never once claimed the food allowance that was his by right, never used his position to acquire land, never allowed his servants to lord their status over the people. Every day he fed a hundred and fifty people at his own table, entirely at his own expense, out of his own wealth.</p>
+
+        <p>He does this, he says, "because of the fear of God." And then he closes with one of the most quietly human prayers in the entire book: "Remember me, O my God, for good, according to all that I have done for this people."</p>
+
+        <p>There is no grandiosity in that prayer. No claim to greatness. Just a man who has spent himself faithfully asking the God he serves to see it and remember it. The same God who moves the hearts of Persian kings and frustrates the plans of enemies is the God who keeps an account of quiet, costly faithfulness. Nehemiah knew that, and it was enough for him.</p>
+
+        <div class="section-rule">What this means for us</div>
+
+        <p>These two chapters cover a lot of ground — ridicule, conspiracy, internal despair, economic exploitation, righteous confrontation, personal integrity — but they circle back to the same truth throughout: faithful work in God's name will be tested, and the testing will come from more than one direction at once.</p>
+
+        <p>What Nehemiah models is not a formula for easy success. It is a portrait of endurance: the willingness to keep building when the opposition intensifies, to address injustice when it surfaces inside the community rather than ignoring it for the sake of outward peace, and to keep a clean account before God even when no one else is looking.</p>
+
+        <p>The image that stays is the one from chapter four — a builder with a trowel in one hand and a sword at his side, working from dawn until the stars appear. Not reckless. Not paralyzed. Just steady, alert, and committed to finishing what God put in his heart to begin.</p>
+
+        <div class="questions">
+            <div class="questions-header"><p>Questions for reflection</p></div>
+            <ol>
+                <li>Is there faithful work God has placed before me where I've felt the pressure mounting — and what has sustained me in the long middle of it?</li>
+                <li>How does the pattern of "pray, then act" show up in my own life? Are prayer and practical action genuinely partners for me, or do I tend toward one at the expense of the other?</li>
+                <li>When discouragement comes — from outside or from within — where do I tend to turn first?</li>
+                <li>Nehemiah's anger in chapter five is described as righteous because it was slow, controlled, directed at injustice rather than personal affront, and aimed at restoration. How does that compare to the anger I tend to feel and express?</li>
+                <li>Nehemiah served faithfully and then simply asked God to remember it. What would it mean for me to release my need for recognition and simply do the work well before the Lord?</li>
+            </ol>
+        </div>
+
+        <div class="citation">
+            Primary resource: T. J. Betts, <em>Nehemiah: A Pastoral and Exegetical Commentary</em> (Bellingham, WA: Lexham Press, 2020).
+        </div>
+
+        <div class="series-nav">
+            <a href="nehemiah-2.html" class="nav-card prev">
+                <div class="nav-arrow">←</div>
+                <div class="nav-text">
+                    <div class="nav-dir">Previous · Nehemiah 2:11–3:32</div>
+                    <div class="nav-title">Before the First Stone Is Laid</div>
+                </div>
+            </a>
+            <div class="nav-card next coming-soon">
+                <div class="nav-text">
+                    <div class="nav-dir">Next · Nehemiah 6–7</div>
+                    <div class="nav-title">Coming soon</div>
+                </div>
+                <div class="nav-arrow">→</div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
