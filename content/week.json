@@ -1,14 +1,15 @@
 {
-  "serviceDate": "2026-08-09",
+  "serviceDate": "2026-08-16",
   "headerNotes": [
     "Our Choir music for Sunday is below.",
     "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
-    { "slug": "holy-ground",       "title": "Holy Ground Medley" },
-    { "slug": "better-is-one-day", "title": "Better Is One Day" },
-    { "slug": "holy-spirit-rain-down", "title": "Holy Spirit, Rain Down" },
-    { "slug": "all-creatures-let-everything", "title": "All Creatures / Let Everything That Has Breath Prise the Lord",
-      "prefix": "CHOIR SPECIAL DURING OFFERTORY: " }
+    { "slug": "10k-reasons", "title": "10,000 Reasons - Bless the Lord" },
+    { "slug": "just-a-little-talk-with-jesus", "title": "Just a Little Talk With Jesus" },
+    { "slug": "amazing-grace-chains", "title": "Amazing Grace - My Chains Are Gone" },
+    { "slug": "holy-forever", "title": "Holy Forever" },
+    { "slug": "homecoming-special", "title": "Gloryland Way",
+      "prefix": "CHOIR SPECIAL: " }
   ]
 }
