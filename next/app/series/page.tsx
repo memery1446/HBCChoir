@@ -14,6 +14,12 @@ const SERIES = {
       scripture: "Nehemiah 2:11–3:32",
       title: "Before the First Stone Is Laid",
     },
+    {
+      href: "/nehemiah-3.html",
+      part: "Part 3",
+      scripture: "Nehemiah 4-5:19",
+      title: "Trowel and Sword",
+    },
   ],
 };
 
