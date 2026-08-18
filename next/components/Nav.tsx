@@ -6,9 +6,9 @@ import { usePathname } from "next/navigation";
 const LINKS = [
     { href: "/", label: "Home" },
     { href: "/sunday", label: "This Sunday's Music" },
-    { href: "/solos", label: "Solos / Special Music" },
-    { href: "/series", label: "Nehemiah Series" },
     { href: "/demo", label: "Site Demo" },
+    { href: "/series", label: "Nehemiah Series" },
+    { href: "/solos", label: "Solos / Special Music" }
 ];
 
 export default function Nav() {
