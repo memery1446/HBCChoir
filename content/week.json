@@ -5,11 +5,11 @@
     "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
-    { "slug": "10k-reasons", "title": "10,000 Reasons - Bless the Lord" },
-    { "slug": "just-a-little-talk-with-jesus", "title": "Just a Little Talk With Jesus" },
-    { "slug": "amazing-grace-chains", "title": "Amazing Grace - My Chains Are Gone" },
-    { "slug": "holy-forever", "title": "Holy Forever" },
-    { "slug": "homecoming-special", "title": "Gloryland Way",
+    { "slug": "blessed-be-the-name", "title": "Blessed Be the Name" },
+    { "slug": "throwback-worship-medley", "title": "Throwback Worship Medley" },
+    { "slug": "o-come-to-the-altar", "title": "O Come to the Altar" },
+    { "slug": "the-heart-of-worship", "title": "The Heart of Worship" },
+    { "slug": "our-god-reigns", "title": "Our God Reigns",
       "prefix": "CHOIR SPECIAL: " }
   ]
 }

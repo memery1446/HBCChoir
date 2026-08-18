@@ -1,287 +1,256 @@
 {
-  "serviceDate": "2026-08-16",
+  "serviceDate": "2026-08-23",
   "headerNotes": [
     "Our Choir music for Sunday is below.",
     "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
-    "10,000 Reasons - Bless the Lord",
-    "Just a Little Talk With Jesus",
-    "Amazing Grace - My Chains Are Gone",
-    "Holy Forever",
-    "CHOIR SPECIAL: Gloryland Way"
+    "Blessed Be the Name",
+    "Throwback Worship Medley",
+    "O Come to the Altar",
+    "The Heart of Worship",
+    "CHOIR SPECIAL: Our God Reigns"
   ],
   "songs": [
     {
-      "title": "10,000 REASONS - BLESS THE LORD",
+      "title": "BLESSED BE THE NAME",
       "useImages": true,
       "imageFiles": [
-        "10k-reasons.sheet.01.png",
-        "10k-reasons.sheet.02.png"
+        "blessed-be-the-name.sheet.01.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/10k-reasons.lyric.01.png",
-        "lyric-slide-images/10k-reasons.lyric.02.png",
-        "lyric-slide-images/10k-reasons.lyric.03.png",
-        "lyric-slide-images/10k-reasons.lyric.04.png",
-        "lyric-slide-images/10k-reasons.lyric.05.png",
-        "lyric-slide-images/10k-reasons.lyric.06.png",
-        "lyric-slide-images/10k-reasons.lyric.07.png",
-        "lyric-slide-images/10k-reasons.lyric.08.png",
-        "lyric-slide-images/10k-reasons.lyric.09.png",
-        "lyric-slide-images/10k-reasons.lyric.10.png",
-        "lyric-slide-images/10k-reasons.lyric.11.png",
-        "lyric-slide-images/10k-reasons.lyric.12.png",
-        "lyric-slide-images/10k-reasons.lyric.13.png",
-        "lyric-slide-images/10k-reasons.lyric.14.png",
-        "lyric-slide-images/10k-reasons.lyric.15.png",
-        "lyric-slide-images/10k-reasons.lyric.16.png"
-      ],
-      "tracks": [
-        {
-          "name": "FULL MIX",
-          "src": "audio/10k-reasons.all.mp3",
-          "group": "all"
-        },
-        {
-          "name": "HARMONY",
-          "src": "audio/10k-reasons.harmony.mp3",
-          "group": "harmony"
-        },
-        {
-          "name": "HARMONY 2",
-          "src": "audio/10k-reasons.harmony2.mp3",
-          "group": "harmony2"
-        },
-        {
-          "name": "PIANO",
-          "src": "audio/10k-reasons.piano.mp3",
-          "group": "piano"
-        }
-      ]
-    },
-    {
-      "title": "JUST A LITTLE TALK WITH JESUS",
-      "useImages": true,
-      "imageFiles": [
-        "just-a-little-talk-with-jesus.sheet.01.png",
-        "just-a-little-talk-with-jesus.sheet.02.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/just-a-little-talk-with-jesus.lyric.01.png",
-        "lyric-slide-images/just-a-little-talk-with-jesus.lyric.02.png",
-        "lyric-slide-images/just-a-little-talk-with-jesus.lyric.03.png",
-        "lyric-slide-images/just-a-little-talk-with-jesus.lyric.04.png",
-        "lyric-slide-images/just-a-little-talk-with-jesus.lyric.05.png",
-        "lyric-slide-images/just-a-little-talk-with-jesus.lyric.06.png",
-        "lyric-slide-images/just-a-little-talk-with-jesus.lyric.07.png",
-        "lyric-slide-images/just-a-little-talk-with-jesus.lyric.08.png",
-        "lyric-slide-images/just-a-little-talk-with-jesus.lyric.09.png",
-        "lyric-slide-images/just-a-little-talk-with-jesus.lyric.10.png",
-        "lyric-slide-images/just-a-little-talk-with-jesus.lyric.11.png",
-        "lyric-slide-images/just-a-little-talk-with-jesus.lyric.12.png",
-        "lyric-slide-images/just-a-little-talk-with-jesus.lyric.13.png",
-        "lyric-slide-images/just-a-little-talk-with-jesus.lyric.14.png",
-        "lyric-slide-images/just-a-little-talk-with-jesus.lyric.15.png",
-        "lyric-slide-images/just-a-little-talk-with-jesus.lyric.16.png",
-        "lyric-slide-images/just-a-little-talk-with-jesus.lyric.17.png",
-        "lyric-slide-images/just-a-little-talk-with-jesus.lyric.18.png",
-        "lyric-slide-images/just-a-little-talk-with-jesus.lyric.19.png"
+        "lyric-slide-images/blessed-be-the-name.lyric.01.png",
+        "lyric-slide-images/blessed-be-the-name.lyric.02.png",
+        "lyric-slide-images/blessed-be-the-name.lyric.03.png",
+        "lyric-slide-images/blessed-be-the-name.lyric.04.png",
+        "lyric-slide-images/blessed-be-the-name.lyric.05.png",
+        "lyric-slide-images/blessed-be-the-name.lyric.06.png",
+        "lyric-slide-images/blessed-be-the-name.lyric.07.png",
+        "lyric-slide-images/blessed-be-the-name.lyric.08.png",
+        "lyric-slide-images/blessed-be-the-name.lyric.09.png",
+        "lyric-slide-images/blessed-be-the-name.lyric.10.png",
+        "lyric-slide-images/blessed-be-the-name.lyric.11.png",
+        "lyric-slide-images/blessed-be-the-name.lyric.12.png",
+        "lyric-slide-images/blessed-be-the-name.lyric.13.png",
+        "lyric-slide-images/blessed-be-the-name.lyric.14.png",
+        "lyric-slide-images/blessed-be-the-name.lyric.15.png",
+        "lyric-slide-images/blessed-be-the-name.lyric.16.png",
+        "lyric-slide-images/blessed-be-the-name.lyric.17.png",
+        "lyric-slide-images/blessed-be-the-name.lyric.18.png",
+        "lyric-slide-images/blessed-be-the-name.lyric.19.png",
+        "lyric-slide-images/blessed-be-the-name.lyric.20.png",
+        "lyric-slide-images/blessed-be-the-name.lyric.21.png",
+        "lyric-slide-images/blessed-be-the-name.lyric.22.png",
+        "lyric-slide-images/blessed-be-the-name.lyric.23.png",
+        "lyric-slide-images/blessed-be-the-name.lyric.24.png",
+        "lyric-slide-images/blessed-be-the-name.lyric.25.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/just-a-little-talk-with-jesus.melody.mp3",
-          "group": "soprano"
-        },
-        {
-          "name": "TENOR",
-          "src": "audio/just-a-little-talk-with-jesus.tenor.mp3",
-          "group": "tenor"
-        },
-        {
-          "name": "PIANO",
-          "src": "audio/just-a-little-talk-with-jesus.piano.mp3",
-          "group": "piano"
-        }
-      ]
-    },
-    {
-      "title": "AMAZING GRACE - MY CHAINS ARE GONE",
-      "useImages": true,
-      "imageFiles": [
-        "amazing-grace-chains.sheet.01.png",
-        "amazing-grace-chains.sheet.02.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/amazing-grace-chains.lyric.01.png",
-        "lyric-slide-images/amazing-grace-chains.lyric.02.png",
-        "lyric-slide-images/amazing-grace-chains.lyric.03.png",
-        "lyric-slide-images/amazing-grace-chains.lyric.04.png",
-        "lyric-slide-images/amazing-grace-chains.lyric.05.png",
-        "lyric-slide-images/amazing-grace-chains.lyric.06.png",
-        "lyric-slide-images/amazing-grace-chains.lyric.07.png",
-        "lyric-slide-images/amazing-grace-chains.lyric.08.png",
-        "lyric-slide-images/amazing-grace-chains.lyric.09.png",
-        "lyric-slide-images/amazing-grace-chains.lyric.10.png",
-        "lyric-slide-images/amazing-grace-chains.lyric.11.png",
-        "lyric-slide-images/amazing-grace-chains.lyric.12.png",
-        "lyric-slide-images/amazing-grace-chains.lyric.13.png",
-        "lyric-slide-images/amazing-grace-chains.lyric.14.png",
-        "lyric-slide-images/amazing-grace-chains.lyric.15.png"
-      ],
-      "tracks": [
-        {
-          "name": "FULL MIX",
-          "src": "audio/amazing-grace-chains.all.mp3",
-          "group": "all"
-        },
-        {
-          "name": "HARMONY",
-          "src": "audio/amazing-grace-chains.harmony.mp3",
-          "group": "harmony"
-        },
-        {
-          "name": "HARMONY 2",
-          "src": "audio/amazing-grace-chains.harmony2.mp3",
-          "group": "harmony2"
-        },
-        {
-          "name": "PIANO",
-          "src": "audio/amazing-grace-chains.piano.mp3",
-          "group": "piano"
-        }
-      ]
-    },
-    {
-      "title": "HOLY FOREVER",
-      "useImages": true,
-      "imageFiles": [
-        "holy-forever.sheet.01.png",
-        "holy-forever.sheet.02.png",
-        "holy-forever.sheet.03.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/holy-forever.lyric.01.png",
-        "lyric-slide-images/holy-forever.lyric.02.png",
-        "lyric-slide-images/holy-forever.lyric.03.png",
-        "lyric-slide-images/holy-forever.lyric.04.png",
-        "lyric-slide-images/holy-forever.lyric.05.png",
-        "lyric-slide-images/holy-forever.lyric.06.png",
-        "lyric-slide-images/holy-forever.lyric.07.png",
-        "lyric-slide-images/holy-forever.lyric.08.png",
-        "lyric-slide-images/holy-forever.lyric.09.png",
-        "lyric-slide-images/holy-forever.lyric.10.png",
-        "lyric-slide-images/holy-forever.lyric.11.png",
-        "lyric-slide-images/holy-forever.lyric.12.png",
-        "lyric-slide-images/holy-forever.lyric.13.png",
-        "lyric-slide-images/holy-forever.lyric.14.png",
-        "lyric-slide-images/holy-forever.lyric.15.png",
-        "lyric-slide-images/holy-forever.lyric.16.png",
-        "lyric-slide-images/holy-forever.lyric.17.png",
-        "lyric-slide-images/holy-forever.lyric.18.png",
-        "lyric-slide-images/holy-forever.lyric.19.png",
-        "lyric-slide-images/holy-forever.lyric.20.png",
-        "lyric-slide-images/holy-forever.lyric.21.png",
-        "lyric-slide-images/holy-forever.lyric.22.png",
-        "lyric-slide-images/holy-forever.lyric.23.png",
-        "lyric-slide-images/holy-forever.lyric.24.png",
-        "lyric-slide-images/holy-forever.lyric.25.png",
-        "lyric-slide-images/holy-forever.lyric.26.png",
-        "lyric-slide-images/holy-forever.lyric.27.png",
-        "lyric-slide-images/holy-forever.lyric.28.png",
-        "lyric-slide-images/holy-forever.lyric.29.png",
-        "lyric-slide-images/holy-forever.lyric.30.png",
-        "lyric-slide-images/holy-forever.lyric.31.png",
-        "lyric-slide-images/holy-forever.lyric.32.png"
-      ],
-      "tracks": [
-        {
-          "name": "FULL MIX",
-          "src": "audio/holy-forever.all.mp3",
-          "group": "all"
-        },
-        {
-          "name": "HARMONY",
-          "src": "audio/holy-forever.harmony.mp3",
-          "group": "harmony"
-        },
-        {
-          "name": "PIANO",
-          "src": "audio/holy-forever.piano.mp3",
-          "group": "piano"
-        }
-      ]
-    },
-    {
-      "title": "GLORYLAND WAY",
-      "useImages": true,
-      "imageFiles": [
-        "homecoming-special.sheet.01.png",
-        "homecoming-special.sheet.02.png",
-        "homecoming-special.sheet.03.png",
-        "homecoming-special.sheet.04.png",
-        "homecoming-special.sheet.05.png",
-        "homecoming-special.sheet.06.png",
-        "homecoming-special.sheet.07.png",
-        "homecoming-special.sheet.08.png",
-        "homecoming-special.sheet.09.png",
-        "homecoming-special.sheet.10.png",
-        "homecoming-special.sheet.11.png",
-        "homecoming-special.sheet.12.png",
-        "homecoming-special.sheet.13.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/homecoming-special.lyric.01.png",
-        "lyric-slide-images/homecoming-special.lyric.02.png",
-        "lyric-slide-images/homecoming-special.lyric.03.png",
-        "lyric-slide-images/homecoming-special.lyric.04.png",
-        "lyric-slide-images/homecoming-special.lyric.05.png",
-        "lyric-slide-images/homecoming-special.lyric.06.png",
-        "lyric-slide-images/homecoming-special.lyric.07.png",
-        "lyric-slide-images/homecoming-special.lyric.08.png",
-        "lyric-slide-images/homecoming-special.lyric.09.png",
-        "lyric-slide-images/homecoming-special.lyric.10.png",
-        "lyric-slide-images/homecoming-special.lyric.11.png",
-        "lyric-slide-images/homecoming-special.lyric.12.png",
-        "lyric-slide-images/homecoming-special.lyric.13.png",
-        "lyric-slide-images/homecoming-special.lyric.14.png",
-        "lyric-slide-images/homecoming-special.lyric.15.png",
-        "lyric-slide-images/homecoming-special.lyric.16.png",
-        "lyric-slide-images/homecoming-special.lyric.17.png",
-        "lyric-slide-images/homecoming-special.lyric.18.png",
-        "lyric-slide-images/homecoming-special.lyric.19.png"
-      ],
-      "tracks": [
-        {
-          "name": "FULL MIX",
-          "src": "audio/homecoming-special.all.mp3",
-          "group": "all"
-        },
-        {
-          "name": "MELODY/SOPRANO",
-          "src": "audio/homecoming-special.melody.mp3",
+          "src": "audio/blessed-be-the-name.melody.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/homecoming-special.alto.mp3",
+          "src": "audio/blessed-be-the-name.alto.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/homecoming-special.tenor.mp3",
+          "src": "audio/blessed-be-the-name.tenor.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/homecoming-special.bass.mp3",
+          "src": "audio/blessed-be-the-name.bass.mp3",
           "group": "bass"
         },
         {
-          "name": "DRONE + METRONOME",
-          "src": "audio/homecoming-special.helper.mp3",
-          "group": "helper"
+          "name": "PIANO",
+          "src": "audio/blessed-be-the-name.piano.mp3",
+          "group": "piano"
+        }
+      ]
+    },
+    {
+      "title": "THROWBACK WORSHIP MEDLEY",
+      "useImages": true,
+      "imageFiles": [
+        "throwback-worship-medley.sheet.01.png",
+        "throwback-worship-medley.sheet.02.png",
+        "throwback-worship-medley.sheet.03.png",
+        "throwback-worship-medley.sheet.04.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/throwback-worship-medley.lyric.01.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.02.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.03.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.04.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.05.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.06.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.07.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.08.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.09.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.10.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.11.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.12.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.13.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.14.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.15.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.16.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.17.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.18.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.19.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.20.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.21.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.22.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.23.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.24.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.25.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.26.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.27.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.28.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.29.png",
+        "lyric-slide-images/throwback-worship-medley.lyric.30.png"
+      ],
+      "tracks": [
+        {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/throwback-worship-medley.melody.mp3",
+          "group": "soprano"
+        }
+      ]
+    },
+    {
+      "title": "O COME TO THE ALTAR",
+      "useImages": true,
+      "imageFiles": [
+        "o-come-to-the-altar.sheet.01.png",
+        "o-come-to-the-altar.sheet.02.png",
+        "o-come-to-the-altar.sheet.03.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/o-come-to-the-altar.lyric.01.png",
+        "lyric-slide-images/o-come-to-the-altar.lyric.02.png",
+        "lyric-slide-images/o-come-to-the-altar.lyric.03.png",
+        "lyric-slide-images/o-come-to-the-altar.lyric.04.png",
+        "lyric-slide-images/o-come-to-the-altar.lyric.05.png",
+        "lyric-slide-images/o-come-to-the-altar.lyric.06.png",
+        "lyric-slide-images/o-come-to-the-altar.lyric.07.png",
+        "lyric-slide-images/o-come-to-the-altar.lyric.08.png",
+        "lyric-slide-images/o-come-to-the-altar.lyric.09.png",
+        "lyric-slide-images/o-come-to-the-altar.lyric.10.png",
+        "lyric-slide-images/o-come-to-the-altar.lyric.11.png",
+        "lyric-slide-images/o-come-to-the-altar.lyric.12.png",
+        "lyric-slide-images/o-come-to-the-altar.lyric.13.png",
+        "lyric-slide-images/o-come-to-the-altar.lyric.14.png",
+        "lyric-slide-images/o-come-to-the-altar.lyric.15.png",
+        "lyric-slide-images/o-come-to-the-altar.lyric.16.png",
+        "lyric-slide-images/o-come-to-the-altar.lyric.17.png",
+        "lyric-slide-images/o-come-to-the-altar.lyric.18.png",
+        "lyric-slide-images/o-come-to-the-altar.lyric.19.png",
+        "lyric-slide-images/o-come-to-the-altar.lyric.20.png"
+      ],
+      "tracks": [
+        {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/o-come-to-the-altar.melody.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "PIANO",
+          "src": "audio/o-come-to-the-altar.piano.mp3",
+          "group": "piano"
+        }
+      ]
+    },
+    {
+      "title": "THE HEART OF WORSHIP",
+      "useImages": true,
+      "imageFiles": [
+        "the-heart-of-worship.sheet.01.png",
+        "the-heart-of-worship.sheet.02.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/the-heart-of-worship.lyric.01.png",
+        "lyric-slide-images/the-heart-of-worship.lyric.02.png",
+        "lyric-slide-images/the-heart-of-worship.lyric.03.png",
+        "lyric-slide-images/the-heart-of-worship.lyric.04.png",
+        "lyric-slide-images/the-heart-of-worship.lyric.05.png",
+        "lyric-slide-images/the-heart-of-worship.lyric.06.png",
+        "lyric-slide-images/the-heart-of-worship.lyric.07.png",
+        "lyric-slide-images/the-heart-of-worship.lyric.08.png",
+        "lyric-slide-images/the-heart-of-worship.lyric.09.png",
+        "lyric-slide-images/the-heart-of-worship.lyric.10.png",
+        "lyric-slide-images/the-heart-of-worship.lyric.11.png",
+        "lyric-slide-images/the-heart-of-worship.lyric.12.png",
+        "lyric-slide-images/the-heart-of-worship.lyric.13.png"
+      ],
+      "tracks": [
+        {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/the-heart-of-worship.melody.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "HARMONY",
+          "src": "audio/the-heart-of-worship.harmony.mp3",
+          "group": "harmony"
+        }
+      ]
+    },
+    {
+      "title": "OUR GOD REIGNS",
+      "useImages": true,
+      "imageFiles": [
+        "our-god-reigns.sheet.01.png",
+        "our-god-reigns.sheet.02.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/our-god-reigns.lyric.01.png",
+        "lyric-slide-images/our-god-reigns.lyric.02.png",
+        "lyric-slide-images/our-god-reigns.lyric.03.png",
+        "lyric-slide-images/our-god-reigns.lyric.04.png",
+        "lyric-slide-images/our-god-reigns.lyric.05.png",
+        "lyric-slide-images/our-god-reigns.lyric.06.png",
+        "lyric-slide-images/our-god-reigns.lyric.07.png",
+        "lyric-slide-images/our-god-reigns.lyric.08.png",
+        "lyric-slide-images/our-god-reigns.lyric.09.png",
+        "lyric-slide-images/our-god-reigns.lyric.10.png",
+        "lyric-slide-images/our-god-reigns.lyric.11.png",
+        "lyric-slide-images/our-god-reigns.lyric.12.png",
+        "lyric-slide-images/our-god-reigns.lyric.13.png",
+        "lyric-slide-images/our-god-reigns.lyric.14.png",
+        "lyric-slide-images/our-god-reigns.lyric.15.png",
+        "lyric-slide-images/our-god-reigns.lyric.16.png",
+        "lyric-slide-images/our-god-reigns.lyric.17.png",
+        "lyric-slide-images/our-god-reigns.lyric.18.png",
+        "lyric-slide-images/our-god-reigns.lyric.19.png",
+        "lyric-slide-images/our-god-reigns.lyric.20.png",
+        "lyric-slide-images/our-god-reigns.lyric.21.png",
+        "lyric-slide-images/our-god-reigns.lyric.22.png",
+        "lyric-slide-images/our-god-reigns.lyric.23.png",
+        "lyric-slide-images/our-god-reigns.lyric.24.png",
+        "lyric-slide-images/our-god-reigns.lyric.25.png",
+        "lyric-slide-images/our-god-reigns.lyric.26.png",
+        "lyric-slide-images/our-god-reigns.lyric.27.png"
+      ],
+      "tracks": [
+        {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/our-god-reigns.melody.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "HARMONY",
+          "src": "audio/our-god-reigns.harmony.mp3",
+          "group": "harmony"
+        },
+        {
+          "name": "PIANO",
+          "src": "audio/our-god-reigns.piano.mp3",
+          "group": "piano"
         }
       ]
     }
