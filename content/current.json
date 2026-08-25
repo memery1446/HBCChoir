@@ -1,255 +1,222 @@
 {
-  "serviceDate": "2026-08-23",
+  "serviceDate": "2026-08-30",
   "headerNotes": [
     "Our Choir music for Sunday is below.",
     "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
-    "Blessed Be the Name",
-    "Throwback Worship Medley",
-    "O Come to the Altar",
-    "The Heart of Worship",
-    "CHOIR SPECIAL: Our God Reigns"
+    "To God Be the Glory",
+    "Shout to the North",
+    "Indescribable",
+    "What a Beautiful Name It Is"
   ],
   "songs": [
     {
-      "title": "BLESSED BE THE NAME",
+      "title": "TO GOD BE THE GLORY",
       "useImages": true,
       "imageFiles": [
-        "blessed-be-the-name.sheet.01.png"
+        "to-god-be-the-glory.sheet.01.png",
+        "to-god-be-the-glory.sheet.02.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/blessed-be-the-name.lyric.01.png",
-        "lyric-slide-images/blessed-be-the-name.lyric.02.png",
-        "lyric-slide-images/blessed-be-the-name.lyric.03.png",
-        "lyric-slide-images/blessed-be-the-name.lyric.04.png",
-        "lyric-slide-images/blessed-be-the-name.lyric.05.png",
-        "lyric-slide-images/blessed-be-the-name.lyric.06.png",
-        "lyric-slide-images/blessed-be-the-name.lyric.07.png",
-        "lyric-slide-images/blessed-be-the-name.lyric.08.png",
-        "lyric-slide-images/blessed-be-the-name.lyric.09.png",
-        "lyric-slide-images/blessed-be-the-name.lyric.10.png",
-        "lyric-slide-images/blessed-be-the-name.lyric.11.png",
-        "lyric-slide-images/blessed-be-the-name.lyric.12.png",
-        "lyric-slide-images/blessed-be-the-name.lyric.13.png",
-        "lyric-slide-images/blessed-be-the-name.lyric.14.png",
-        "lyric-slide-images/blessed-be-the-name.lyric.15.png",
-        "lyric-slide-images/blessed-be-the-name.lyric.16.png",
-        "lyric-slide-images/blessed-be-the-name.lyric.17.png",
-        "lyric-slide-images/blessed-be-the-name.lyric.18.png",
-        "lyric-slide-images/blessed-be-the-name.lyric.19.png",
-        "lyric-slide-images/blessed-be-the-name.lyric.20.png",
-        "lyric-slide-images/blessed-be-the-name.lyric.21.png",
-        "lyric-slide-images/blessed-be-the-name.lyric.22.png",
-        "lyric-slide-images/blessed-be-the-name.lyric.23.png",
-        "lyric-slide-images/blessed-be-the-name.lyric.24.png",
-        "lyric-slide-images/blessed-be-the-name.lyric.25.png"
+        "lyric-slide-images/to-god-be-the-glory.lyric.01.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.02.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.03.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.04.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.05.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.06.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.07.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.08.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.09.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.10.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.11.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.12.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.13.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.14.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.15.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.16.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.17.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.18.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.19.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.20.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.21.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.22.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.23.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.24.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.25.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.26.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.27.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.28.png",
+        "lyric-slide-images/to-god-be-the-glory.lyric.29.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/blessed-be-the-name.melody.mp3",
+          "src": "audio/to-god-be-the-glory.melody.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/blessed-be-the-name.alto.mp3",
+          "src": "audio/to-god-be-the-glory.alto.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/blessed-be-the-name.tenor.mp3",
+          "src": "audio/to-god-be-the-glory.tenor.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/blessed-be-the-name.bass.mp3",
+          "src": "audio/to-god-be-the-glory.bass.mp3",
           "group": "bass"
         },
         {
           "name": "PIANO",
-          "src": "audio/blessed-be-the-name.piano.mp3",
+          "src": "audio/to-god-be-the-glory.piano.mp3",
           "group": "piano"
         }
       ]
     },
     {
-      "title": "THROWBACK WORSHIP MEDLEY",
+      "title": "SHOUT TO THE NORTH",
       "useImages": true,
       "imageFiles": [
-        "throwback-worship-medley.sheet.01.png",
-        "throwback-worship-medley.sheet.02.png",
-        "throwback-worship-medley.sheet.03.png",
-        "throwback-worship-medley.sheet.04.png"
+        "shout-to-the-north.sheet.01.png",
+        "shout-to-the-north.sheet.02.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/throwback-worship-medley.lyric.01.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.02.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.03.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.04.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.05.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.06.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.07.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.08.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.09.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.10.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.11.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.12.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.13.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.14.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.15.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.16.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.17.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.18.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.19.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.20.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.21.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.22.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.23.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.24.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.25.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.26.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.27.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.28.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.29.png",
-        "lyric-slide-images/throwback-worship-medley.lyric.30.png"
+        "lyric-slide-images/shout-to-the-north.lyric.01.png",
+        "lyric-slide-images/shout-to-the-north.lyric.02.png",
+        "lyric-slide-images/shout-to-the-north.lyric.03.png",
+        "lyric-slide-images/shout-to-the-north.lyric.04.png",
+        "lyric-slide-images/shout-to-the-north.lyric.05.png",
+        "lyric-slide-images/shout-to-the-north.lyric.06.png",
+        "lyric-slide-images/shout-to-the-north.lyric.07.png",
+        "lyric-slide-images/shout-to-the-north.lyric.08.png",
+        "lyric-slide-images/shout-to-the-north.lyric.09.png",
+        "lyric-slide-images/shout-to-the-north.lyric.10.png",
+        "lyric-slide-images/shout-to-the-north.lyric.11.png",
+        "lyric-slide-images/shout-to-the-north.lyric.12.png",
+        "lyric-slide-images/shout-to-the-north.lyric.13.png",
+        "lyric-slide-images/shout-to-the-north.lyric.14.png",
+        "lyric-slide-images/shout-to-the-north.lyric.15.png",
+        "lyric-slide-images/shout-to-the-north.lyric.16.png",
+        "lyric-slide-images/shout-to-the-north.lyric.17.png",
+        "lyric-slide-images/shout-to-the-north.lyric.18.png",
+        "lyric-slide-images/shout-to-the-north.lyric.19.png",
+        "lyric-slide-images/shout-to-the-north.lyric.20.png",
+        "lyric-slide-images/shout-to-the-north.lyric.21.png",
+        "lyric-slide-images/shout-to-the-north.lyric.22.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/throwback-worship-medley.melody.mp3",
+          "src": "audio/shout-to-the-north.melody.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "ALTO",
+          "src": "audio/shout-to-the-north.alto.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "TENOR",
+          "src": "audio/shout-to-the-north.tenor.mp3",
+          "group": "tenor"
+        },
+        {
+          "name": "BASS",
+          "src": "audio/shout-to-the-north.bass.mp3",
+          "group": "bass"
+        }
+      ]
+    },
+    {
+      "title": "INDESCRIBABLE",
+      "useImages": true,
+      "imageFiles": [
+        "indescribable.sheet.01.png",
+        "indescribable.sheet.02.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/indescribable.lyric.01.png",
+        "lyric-slide-images/indescribable.lyric.02.png",
+        "lyric-slide-images/indescribable.lyric.03.png",
+        "lyric-slide-images/indescribable.lyric.04.png",
+        "lyric-slide-images/indescribable.lyric.05.png",
+        "lyric-slide-images/indescribable.lyric.06.png",
+        "lyric-slide-images/indescribable.lyric.07.png",
+        "lyric-slide-images/indescribable.lyric.08.png",
+        "lyric-slide-images/indescribable.lyric.09.png",
+        "lyric-slide-images/indescribable.lyric.10.png",
+        "lyric-slide-images/indescribable.lyric.11.png",
+        "lyric-slide-images/indescribable.lyric.12.png",
+        "lyric-slide-images/indescribable.lyric.13.png",
+        "lyric-slide-images/indescribable.lyric.14.png",
+        "lyric-slide-images/indescribable.lyric.15.png",
+        "lyric-slide-images/indescribable.lyric.16.png",
+        "lyric-slide-images/indescribable.lyric.17.png",
+        "lyric-slide-images/indescribable.lyric.18.png",
+        "lyric-slide-images/indescribable.lyric.19.png",
+        "lyric-slide-images/indescribable.lyric.20.png",
+        "lyric-slide-images/indescribable.lyric.21.png",
+        "lyric-slide-images/indescribable.lyric.22.png",
+        "lyric-slide-images/indescribable.lyric.23.png",
+        "lyric-slide-images/indescribable.lyric.24.png",
+        "lyric-slide-images/indescribable.lyric.25.png",
+        "lyric-slide-images/indescribable.lyric.26.png",
+        "lyric-slide-images/indescribable.lyric.27.png",
+        "lyric-slide-images/indescribable.lyric.28.png",
+        "lyric-slide-images/indescribable.lyric.29.png"
+      ],
+      "tracks": [
+        {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/indescribable.melody.mp3",
           "group": "soprano"
         }
       ]
     },
     {
-      "title": "O COME TO THE ALTAR",
+      "title": "WHAT A BEAUTIFUL NAME IT IS",
       "useImages": true,
       "imageFiles": [
-        "o-come-to-the-altar.sheet.01.png",
-        "o-come-to-the-altar.sheet.02.png",
-        "o-come-to-the-altar.sheet.03.png"
+        "beautiful-name.sheet.01.png",
+        "beautiful-name.sheet.02.png",
+        "beautiful-name.sheet.03.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/o-come-to-the-altar.lyric.01.png",
-        "lyric-slide-images/o-come-to-the-altar.lyric.02.png",
-        "lyric-slide-images/o-come-to-the-altar.lyric.03.png",
-        "lyric-slide-images/o-come-to-the-altar.lyric.04.png",
-        "lyric-slide-images/o-come-to-the-altar.lyric.05.png",
-        "lyric-slide-images/o-come-to-the-altar.lyric.06.png",
-        "lyric-slide-images/o-come-to-the-altar.lyric.07.png",
-        "lyric-slide-images/o-come-to-the-altar.lyric.08.png",
-        "lyric-slide-images/o-come-to-the-altar.lyric.09.png",
-        "lyric-slide-images/o-come-to-the-altar.lyric.10.png",
-        "lyric-slide-images/o-come-to-the-altar.lyric.11.png",
-        "lyric-slide-images/o-come-to-the-altar.lyric.12.png",
-        "lyric-slide-images/o-come-to-the-altar.lyric.13.png",
-        "lyric-slide-images/o-come-to-the-altar.lyric.14.png",
-        "lyric-slide-images/o-come-to-the-altar.lyric.15.png",
-        "lyric-slide-images/o-come-to-the-altar.lyric.16.png",
-        "lyric-slide-images/o-come-to-the-altar.lyric.17.png",
-        "lyric-slide-images/o-come-to-the-altar.lyric.18.png",
-        "lyric-slide-images/o-come-to-the-altar.lyric.19.png",
-        "lyric-slide-images/o-come-to-the-altar.lyric.20.png"
+        "lyric-slide-images/beautiful-name.lyric.01.png",
+        "lyric-slide-images/beautiful-name.lyric.02.png",
+        "lyric-slide-images/beautiful-name.lyric.03.png",
+        "lyric-slide-images/beautiful-name.lyric.04.png",
+        "lyric-slide-images/beautiful-name.lyric.05.png",
+        "lyric-slide-images/beautiful-name.lyric.06.png",
+        "lyric-slide-images/beautiful-name.lyric.07.png",
+        "lyric-slide-images/beautiful-name.lyric.08.png",
+        "lyric-slide-images/beautiful-name.lyric.09.png",
+        "lyric-slide-images/beautiful-name.lyric.10.png",
+        "lyric-slide-images/beautiful-name.lyric.11.png",
+        "lyric-slide-images/beautiful-name.lyric.12.png",
+        "lyric-slide-images/beautiful-name.lyric.13.png",
+        "lyric-slide-images/beautiful-name.lyric.14.png",
+        "lyric-slide-images/beautiful-name.lyric.15.png",
+        "lyric-slide-images/beautiful-name.lyric.16.png",
+        "lyric-slide-images/beautiful-name.lyric.17.png",
+        "lyric-slide-images/beautiful-name.lyric.18.png",
+        "lyric-slide-images/beautiful-name.lyric.19.png",
+        "lyric-slide-images/beautiful-name.lyric.20.png",
+        "lyric-slide-images/beautiful-name.lyric.21.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/o-come-to-the-altar.melody.mp3",
+          "src": "audio/beautiful-name.melody.mp3",
           "group": "soprano"
         },
         {
           "name": "PIANO",
-          "src": "audio/o-come-to-the-altar.piano.mp3",
-          "group": "piano"
-        }
-      ]
-    },
-    {
-      "title": "THE HEART OF WORSHIP",
-      "useImages": true,
-      "imageFiles": [
-        "the-heart-of-worship.sheet.01.png",
-        "the-heart-of-worship.sheet.02.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/the-heart-of-worship.lyric.01.png",
-        "lyric-slide-images/the-heart-of-worship.lyric.02.png",
-        "lyric-slide-images/the-heart-of-worship.lyric.03.png",
-        "lyric-slide-images/the-heart-of-worship.lyric.04.png",
-        "lyric-slide-images/the-heart-of-worship.lyric.05.png",
-        "lyric-slide-images/the-heart-of-worship.lyric.06.png",
-        "lyric-slide-images/the-heart-of-worship.lyric.07.png",
-        "lyric-slide-images/the-heart-of-worship.lyric.08.png",
-        "lyric-slide-images/the-heart-of-worship.lyric.09.png",
-        "lyric-slide-images/the-heart-of-worship.lyric.10.png",
-        "lyric-slide-images/the-heart-of-worship.lyric.11.png",
-        "lyric-slide-images/the-heart-of-worship.lyric.12.png",
-        "lyric-slide-images/the-heart-of-worship.lyric.13.png"
-      ],
-      "tracks": [
-        {
-          "name": "MELODY/SOPRANO",
-          "src": "audio/the-heart-of-worship.melody.mp3",
-          "group": "soprano"
-        },
-        {
-          "name": "HARMONY",
-          "src": "audio/the-heart-of-worship.harmony.mp3",
-          "group": "harmony"
-        }
-      ]
-    },
-    {
-      "title": "OUR GOD REIGNS",
-      "useImages": true,
-      "imageFiles": [
-        "our-god-reigns.sheet.01.png",
-        "our-god-reigns.sheet.02.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/our-god-reigns.lyric.01.png",
-        "lyric-slide-images/our-god-reigns.lyric.02.png",
-        "lyric-slide-images/our-god-reigns.lyric.03.png",
-        "lyric-slide-images/our-god-reigns.lyric.04.png",
-        "lyric-slide-images/our-god-reigns.lyric.05.png",
-        "lyric-slide-images/our-god-reigns.lyric.06.png",
-        "lyric-slide-images/our-god-reigns.lyric.07.png",
-        "lyric-slide-images/our-god-reigns.lyric.08.png",
-        "lyric-slide-images/our-god-reigns.lyric.09.png",
-        "lyric-slide-images/our-god-reigns.lyric.10.png",
-        "lyric-slide-images/our-god-reigns.lyric.11.png",
-        "lyric-slide-images/our-god-reigns.lyric.12.png",
-        "lyric-slide-images/our-god-reigns.lyric.13.png",
-        "lyric-slide-images/our-god-reigns.lyric.14.png",
-        "lyric-slide-images/our-god-reigns.lyric.15.png",
-        "lyric-slide-images/our-god-reigns.lyric.16.png",
-        "lyric-slide-images/our-god-reigns.lyric.17.png",
-        "lyric-slide-images/our-god-reigns.lyric.18.png",
-        "lyric-slide-images/our-god-reigns.lyric.19.png",
-        "lyric-slide-images/our-god-reigns.lyric.20.png",
-        "lyric-slide-images/our-god-reigns.lyric.21.png",
-        "lyric-slide-images/our-god-reigns.lyric.22.png",
-        "lyric-slide-images/our-god-reigns.lyric.23.png",
-        "lyric-slide-images/our-god-reigns.lyric.24.png",
-        "lyric-slide-images/our-god-reigns.lyric.25.png",
-        "lyric-slide-images/our-god-reigns.lyric.26.png",
-        "lyric-slide-images/our-god-reigns.lyric.27.png"
-      ],
-      "tracks": [
-        {
-          "name": "MELODY/SOPRANO",
-          "src": "audio/our-god-reigns.melody.mp3",
-          "group": "soprano"
-        },
-        {
-          "name": "HARMONY",
-          "src": "audio/our-god-reigns.harmony.mp3",
-          "group": "harmony"
-        },
-        {
-          "name": "PIANO",
-          "src": "audio/our-god-reigns.piano.mp3",
+          "src": "audio/beautiful-name.piano.mp3",
           "group": "piano"
         }
       ]

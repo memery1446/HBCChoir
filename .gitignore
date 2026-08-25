@@ -1,8 +1,0 @@
-node_modules/
-.next/
-.DS_Store
-.env
-.env.local
-.vercel
-rename-plan.tsv
-content/current.json.before

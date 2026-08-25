@@ -1,15 +1,13 @@
 {
-  "serviceDate": "2026-08-16",
+  "serviceDate": "2026-08-30",
   "headerNotes": [
     "Our Choir music for Sunday is below.",
     "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
-    { "slug": "blessed-be-the-name", "title": "Blessed Be the Name" },
-    { "slug": "throwback-worship-medley", "title": "Throwback Worship Medley" },
-    { "slug": "o-come-to-the-altar", "title": "O Come to the Altar" },
-    { "slug": "the-heart-of-worship", "title": "The Heart of Worship" },
-    { "slug": "our-god-reigns", "title": "Our God Reigns",
-      "prefix": "CHOIR SPECIAL: " }
+    { "slug": "to-god-be-the-glory", "title": "To God Be the Glory" },
+    { "slug": "shout-to-the-north", "title": "Shout to the North" },
+    { "slug": "indescribable", "title": "Indescribable" },
+    { "slug": "beautiful-name", "title": "What a Beautiful Name It Is" }
   ]
 }

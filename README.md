@@ -45,3 +45,7 @@ node convert-lyric-pdfs.js
 
 `npm run check` validates without writing.
 Both scripts refuse to run on a mismatch rather than shipping something wrong.
+
+,
+{ "slug": "god-alone", "title": "You Are God Alone",
+"prefix": "CHOIR SPECIAL: " }
