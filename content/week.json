@@ -8,6 +8,8 @@
     { "slug": "to-god-be-the-glory", "title": "To God Be the Glory" },
     { "slug": "shout-to-the-north", "title": "Shout to the North" },
     { "slug": "indescribable", "title": "Indescribable" },
-    { "slug": "beautiful-name", "title": "What a Beautiful Name It Is" }
+    { "slug": "beautiful-name", "title": "What a Beautiful Name It Is" },
+    { "slug": "you-are-god-alone", "title": "You Are God Alone",
+      "prefix": "CHOIR SPECIAL: " }
   ]
 }

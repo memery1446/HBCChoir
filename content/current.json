@@ -8,7 +8,8 @@
     "To God Be the Glory",
     "Shout to the North",
     "Indescribable",
-    "What a Beautiful Name It Is"
+    "What a Beautiful Name It Is",
+    "CHOIR SPECIAL: You Are God Alone"
   ],
   "songs": [
     {
@@ -217,6 +218,60 @@
         {
           "name": "PIANO",
           "src": "audio/beautiful-name.piano.mp3",
+          "group": "piano"
+        }
+      ]
+    },
+    {
+      "title": "YOU ARE GOD ALONE",
+      "useImages": true,
+      "imageFiles": [
+        "you-are-god-alone.sheet.01.png",
+        "you-are-god-alone.sheet.02.png",
+        "you-are-god-alone.sheet.03.png",
+        "you-are-god-alone.sheet.04.png",
+        "you-are-god-alone.sheet.05.png",
+        "you-are-god-alone.sheet.06.png",
+        "you-are-god-alone.sheet.07.png",
+        "you-are-god-alone.sheet.08.png",
+        "you-are-god-alone.sheet.09.png",
+        "you-are-god-alone.sheet.10.png",
+        "you-are-god-alone.sheet.11.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/you-are-god-alone.lyric.01.png",
+        "lyric-slide-images/you-are-god-alone.lyric.02.png",
+        "lyric-slide-images/you-are-god-alone.lyric.03.png",
+        "lyric-slide-images/you-are-god-alone.lyric.04.png",
+        "lyric-slide-images/you-are-god-alone.lyric.05.png",
+        "lyric-slide-images/you-are-god-alone.lyric.06.png",
+        "lyric-slide-images/you-are-god-alone.lyric.07.png",
+        "lyric-slide-images/you-are-god-alone.lyric.08.png",
+        "lyric-slide-images/you-are-god-alone.lyric.09.png",
+        "lyric-slide-images/you-are-god-alone.lyric.10.png",
+        "lyric-slide-images/you-are-god-alone.lyric.11.png",
+        "lyric-slide-images/you-are-god-alone.lyric.12.png",
+        "lyric-slide-images/you-are-god-alone.lyric.13.png",
+        "lyric-slide-images/you-are-god-alone.lyric.14.png",
+        "lyric-slide-images/you-are-god-alone.lyric.15.png",
+        "lyric-slide-images/you-are-god-alone.lyric.16.png",
+        "lyric-slide-images/you-are-god-alone.lyric.17.png",
+        "lyric-slide-images/you-are-god-alone.lyric.18.png"
+      ],
+      "tracks": [
+        {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/you-are-god-alone.melody.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "HARMONY",
+          "src": "audio/you-are-god-alone.harmony.mp3",
+          "group": "harmony"
+        },
+        {
+          "name": "PIANO",
+          "src": "audio/you-are-god-alone.piano.mp3",
           "group": "piano"
         }
       ]
