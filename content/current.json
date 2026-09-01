@@ -1,278 +1,322 @@
 {
-  "serviceDate": "2026-08-30",
+  "serviceDate": "2026-09-06",
   "headerNotes": [
     "Our Choir music for Sunday is below.",
     "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
-    "To God Be the Glory",
-    "Shout to the North",
-    "Indescribable",
-    "What a Beautiful Name It Is",
-    "CHOIR SPECIAL: You Are God Alone"
+    "10,000 Reasons, Bless the Lord",
+    "Come, Now Is the Time to Worship",
+    "Come, Jesus Come",
+    "Come Thou Fount, Come Thou King",
+    "CHOIR SPECIAL: Great God Medley (How Great Thou Art/How Great Is Our God)"
   ],
   "songs": [
     {
-      "title": "TO GOD BE THE GLORY",
+      "title": "10,000 REASONS, BLESS THE LORD",
       "useImages": true,
       "imageFiles": [
-        "to-god-be-the-glory.sheet.01.png",
-        "to-god-be-the-glory.sheet.02.png"
+        "ten-k-reasons.sheet.01.png",
+        "ten-k-reasons.sheet.02.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/to-god-be-the-glory.lyric.01.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.02.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.03.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.04.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.05.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.06.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.07.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.08.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.09.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.10.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.11.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.12.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.13.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.14.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.15.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.16.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.17.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.18.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.19.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.20.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.21.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.22.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.23.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.24.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.25.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.26.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.27.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.28.png",
-        "lyric-slide-images/to-god-be-the-glory.lyric.29.png"
+        "lyric-slide-images/ten-k-reasons.lyric.01.png",
+        "lyric-slide-images/ten-k-reasons.lyric.02.png",
+        "lyric-slide-images/ten-k-reasons.lyric.03.png",
+        "lyric-slide-images/ten-k-reasons.lyric.04.png",
+        "lyric-slide-images/ten-k-reasons.lyric.05.png",
+        "lyric-slide-images/ten-k-reasons.lyric.06.png",
+        "lyric-slide-images/ten-k-reasons.lyric.07.png",
+        "lyric-slide-images/ten-k-reasons.lyric.08.png",
+        "lyric-slide-images/ten-k-reasons.lyric.09.png",
+        "lyric-slide-images/ten-k-reasons.lyric.10.png",
+        "lyric-slide-images/ten-k-reasons.lyric.11.png",
+        "lyric-slide-images/ten-k-reasons.lyric.12.png",
+        "lyric-slide-images/ten-k-reasons.lyric.13.png",
+        "lyric-slide-images/ten-k-reasons.lyric.14.png",
+        "lyric-slide-images/ten-k-reasons.lyric.15.png",
+        "lyric-slide-images/ten-k-reasons.lyric.16.png",
+        "lyric-slide-images/ten-k-reasons.lyric.17.png",
+        "lyric-slide-images/ten-k-reasons.lyric.18.png",
+        "lyric-slide-images/ten-k-reasons.lyric.19.png",
+        "lyric-slide-images/ten-k-reasons.lyric.20.png",
+        "lyric-slide-images/ten-k-reasons.lyric.21.png",
+        "lyric-slide-images/ten-k-reasons.lyric.22.png",
+        "lyric-slide-images/ten-k-reasons.lyric.23.png",
+        "lyric-slide-images/ten-k-reasons.lyric.24.png",
+        "lyric-slide-images/ten-k-reasons.lyric.25.png",
+        "lyric-slide-images/ten-k-reasons.lyric.26.png",
+        "lyric-slide-images/ten-k-reasons.lyric.27.png",
+        "lyric-slide-images/ten-k-reasons.lyric.28.png",
+        "lyric-slide-images/ten-k-reasons.lyric.29.png",
+        "lyric-slide-images/ten-k-reasons.lyric.30.png",
+        "lyric-slide-images/ten-k-reasons.lyric.31.png",
+        "lyric-slide-images/ten-k-reasons.lyric.32.png",
+        "lyric-slide-images/ten-k-reasons.lyric.33.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/to-god-be-the-glory.melody.mp3",
+          "src": "audio/ten-k-reasons.melody.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/to-god-be-the-glory.alto.mp3",
+          "src": "audio/ten-k-reasons.alto.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/to-god-be-the-glory.tenor.mp3",
+          "src": "audio/ten-k-reasons.tenor.mp3",
           "group": "tenor"
         },
         {
-          "name": "BASS",
-          "src": "audio/to-god-be-the-glory.bass.mp3",
-          "group": "bass"
-        },
-        {
           "name": "PIANO",
-          "src": "audio/to-god-be-the-glory.piano.mp3",
+          "src": "audio/ten-k-reasons.piano.mp3",
           "group": "piano"
         }
       ]
     },
     {
-      "title": "SHOUT TO THE NORTH",
+      "title": "COME, NOW IS THE TIME TO WORSHIP",
       "useImages": true,
       "imageFiles": [
-        "shout-to-the-north.sheet.01.png",
-        "shout-to-the-north.sheet.02.png"
+        "come-now-is-the-time-to-worship.sheet.01.png",
+        "come-now-is-the-time-to-worship.sheet.02.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/shout-to-the-north.lyric.01.png",
-        "lyric-slide-images/shout-to-the-north.lyric.02.png",
-        "lyric-slide-images/shout-to-the-north.lyric.03.png",
-        "lyric-slide-images/shout-to-the-north.lyric.04.png",
-        "lyric-slide-images/shout-to-the-north.lyric.05.png",
-        "lyric-slide-images/shout-to-the-north.lyric.06.png",
-        "lyric-slide-images/shout-to-the-north.lyric.07.png",
-        "lyric-slide-images/shout-to-the-north.lyric.08.png",
-        "lyric-slide-images/shout-to-the-north.lyric.09.png",
-        "lyric-slide-images/shout-to-the-north.lyric.10.png",
-        "lyric-slide-images/shout-to-the-north.lyric.11.png",
-        "lyric-slide-images/shout-to-the-north.lyric.12.png",
-        "lyric-slide-images/shout-to-the-north.lyric.13.png",
-        "lyric-slide-images/shout-to-the-north.lyric.14.png",
-        "lyric-slide-images/shout-to-the-north.lyric.15.png",
-        "lyric-slide-images/shout-to-the-north.lyric.16.png",
-        "lyric-slide-images/shout-to-the-north.lyric.17.png",
-        "lyric-slide-images/shout-to-the-north.lyric.18.png",
-        "lyric-slide-images/shout-to-the-north.lyric.19.png",
-        "lyric-slide-images/shout-to-the-north.lyric.20.png",
-        "lyric-slide-images/shout-to-the-north.lyric.21.png",
-        "lyric-slide-images/shout-to-the-north.lyric.22.png"
+        "lyric-slide-images/come-now-is-the-time-to-worship.lyric.01.png",
+        "lyric-slide-images/come-now-is-the-time-to-worship.lyric.02.png",
+        "lyric-slide-images/come-now-is-the-time-to-worship.lyric.03.png",
+        "lyric-slide-images/come-now-is-the-time-to-worship.lyric.04.png",
+        "lyric-slide-images/come-now-is-the-time-to-worship.lyric.05.png",
+        "lyric-slide-images/come-now-is-the-time-to-worship.lyric.06.png",
+        "lyric-slide-images/come-now-is-the-time-to-worship.lyric.07.png",
+        "lyric-slide-images/come-now-is-the-time-to-worship.lyric.08.png",
+        "lyric-slide-images/come-now-is-the-time-to-worship.lyric.09.png",
+        "lyric-slide-images/come-now-is-the-time-to-worship.lyric.10.png",
+        "lyric-slide-images/come-now-is-the-time-to-worship.lyric.11.png",
+        "lyric-slide-images/come-now-is-the-time-to-worship.lyric.12.png",
+        "lyric-slide-images/come-now-is-the-time-to-worship.lyric.13.png",
+        "lyric-slide-images/come-now-is-the-time-to-worship.lyric.14.png",
+        "lyric-slide-images/come-now-is-the-time-to-worship.lyric.15.png",
+        "lyric-slide-images/come-now-is-the-time-to-worship.lyric.16.png",
+        "lyric-slide-images/come-now-is-the-time-to-worship.lyric.17.png",
+        "lyric-slide-images/come-now-is-the-time-to-worship.lyric.18.png",
+        "lyric-slide-images/come-now-is-the-time-to-worship.lyric.19.png",
+        "lyric-slide-images/come-now-is-the-time-to-worship.lyric.20.png",
+        "lyric-slide-images/come-now-is-the-time-to-worship.lyric.21.png",
+        "lyric-slide-images/come-now-is-the-time-to-worship.lyric.22.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/shout-to-the-north.melody.mp3",
+          "src": "audio/come-now-is-the-time-to-worship.melody.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/shout-to-the-north.alto.mp3",
+          "src": "audio/come-now-is-the-time-to-worship.alto.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "BASS",
+          "src": "audio/come-now-is-the-time-to-worship.bass.mp3",
+          "group": "bass"
+        },
+        {
+          "name": "PIANO",
+          "src": "audio/come-now-is-the-time-to-worship.piano.mp3",
+          "group": "piano"
+        }
+      ]
+    },
+    {
+      "title": "COME, JESUS COME",
+      "useImages": true,
+      "imageFiles": [
+        "come-jesus-come.sheet.01.png",
+        "come-jesus-come.sheet.02.png",
+        "come-jesus-come.sheet.03.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/come-jesus-come.lyric.01.png",
+        "lyric-slide-images/come-jesus-come.lyric.02.png",
+        "lyric-slide-images/come-jesus-come.lyric.03.png",
+        "lyric-slide-images/come-jesus-come.lyric.04.png",
+        "lyric-slide-images/come-jesus-come.lyric.05.png",
+        "lyric-slide-images/come-jesus-come.lyric.06.png",
+        "lyric-slide-images/come-jesus-come.lyric.07.png",
+        "lyric-slide-images/come-jesus-come.lyric.08.png",
+        "lyric-slide-images/come-jesus-come.lyric.09.png",
+        "lyric-slide-images/come-jesus-come.lyric.10.png",
+        "lyric-slide-images/come-jesus-come.lyric.11.png",
+        "lyric-slide-images/come-jesus-come.lyric.12.png",
+        "lyric-slide-images/come-jesus-come.lyric.13.png",
+        "lyric-slide-images/come-jesus-come.lyric.14.png",
+        "lyric-slide-images/come-jesus-come.lyric.15.png",
+        "lyric-slide-images/come-jesus-come.lyric.16.png",
+        "lyric-slide-images/come-jesus-come.lyric.17.png",
+        "lyric-slide-images/come-jesus-come.lyric.18.png",
+        "lyric-slide-images/come-jesus-come.lyric.19.png",
+        "lyric-slide-images/come-jesus-come.lyric.20.png",
+        "lyric-slide-images/come-jesus-come.lyric.21.png",
+        "lyric-slide-images/come-jesus-come.lyric.22.png",
+        "lyric-slide-images/come-jesus-come.lyric.23.png",
+        "lyric-slide-images/come-jesus-come.lyric.24.png",
+        "lyric-slide-images/come-jesus-come.lyric.25.png",
+        "lyric-slide-images/come-jesus-come.lyric.26.png"
+      ],
+      "tracks": [
+        {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/come-jesus-come.melody.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "ALTO",
+          "src": "audio/come-jesus-come.alto.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/shout-to-the-north.tenor.mp3",
+          "src": "audio/come-jesus-come.tenor.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/shout-to-the-north.bass.mp3",
+          "src": "audio/come-jesus-come.bass.mp3",
           "group": "bass"
-        }
-      ]
-    },
-    {
-      "title": "INDESCRIBABLE",
-      "useImages": true,
-      "imageFiles": [
-        "indescribable.sheet.01.png",
-        "indescribable.sheet.02.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/indescribable.lyric.01.png",
-        "lyric-slide-images/indescribable.lyric.02.png",
-        "lyric-slide-images/indescribable.lyric.03.png",
-        "lyric-slide-images/indescribable.lyric.04.png",
-        "lyric-slide-images/indescribable.lyric.05.png",
-        "lyric-slide-images/indescribable.lyric.06.png",
-        "lyric-slide-images/indescribable.lyric.07.png",
-        "lyric-slide-images/indescribable.lyric.08.png",
-        "lyric-slide-images/indescribable.lyric.09.png",
-        "lyric-slide-images/indescribable.lyric.10.png",
-        "lyric-slide-images/indescribable.lyric.11.png",
-        "lyric-slide-images/indescribable.lyric.12.png",
-        "lyric-slide-images/indescribable.lyric.13.png",
-        "lyric-slide-images/indescribable.lyric.14.png",
-        "lyric-slide-images/indescribable.lyric.15.png",
-        "lyric-slide-images/indescribable.lyric.16.png",
-        "lyric-slide-images/indescribable.lyric.17.png",
-        "lyric-slide-images/indescribable.lyric.18.png",
-        "lyric-slide-images/indescribable.lyric.19.png",
-        "lyric-slide-images/indescribable.lyric.20.png",
-        "lyric-slide-images/indescribable.lyric.21.png",
-        "lyric-slide-images/indescribable.lyric.22.png",
-        "lyric-slide-images/indescribable.lyric.23.png",
-        "lyric-slide-images/indescribable.lyric.24.png",
-        "lyric-slide-images/indescribable.lyric.25.png",
-        "lyric-slide-images/indescribable.lyric.26.png",
-        "lyric-slide-images/indescribable.lyric.27.png",
-        "lyric-slide-images/indescribable.lyric.28.png",
-        "lyric-slide-images/indescribable.lyric.29.png"
-      ],
-      "tracks": [
-        {
-          "name": "MELODY/SOPRANO",
-          "src": "audio/indescribable.melody.mp3",
-          "group": "soprano"
-        }
-      ]
-    },
-    {
-      "title": "WHAT A BEAUTIFUL NAME IT IS",
-      "useImages": true,
-      "imageFiles": [
-        "beautiful-name.sheet.01.png",
-        "beautiful-name.sheet.02.png",
-        "beautiful-name.sheet.03.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/beautiful-name.lyric.01.png",
-        "lyric-slide-images/beautiful-name.lyric.02.png",
-        "lyric-slide-images/beautiful-name.lyric.03.png",
-        "lyric-slide-images/beautiful-name.lyric.04.png",
-        "lyric-slide-images/beautiful-name.lyric.05.png",
-        "lyric-slide-images/beautiful-name.lyric.06.png",
-        "lyric-slide-images/beautiful-name.lyric.07.png",
-        "lyric-slide-images/beautiful-name.lyric.08.png",
-        "lyric-slide-images/beautiful-name.lyric.09.png",
-        "lyric-slide-images/beautiful-name.lyric.10.png",
-        "lyric-slide-images/beautiful-name.lyric.11.png",
-        "lyric-slide-images/beautiful-name.lyric.12.png",
-        "lyric-slide-images/beautiful-name.lyric.13.png",
-        "lyric-slide-images/beautiful-name.lyric.14.png",
-        "lyric-slide-images/beautiful-name.lyric.15.png",
-        "lyric-slide-images/beautiful-name.lyric.16.png",
-        "lyric-slide-images/beautiful-name.lyric.17.png",
-        "lyric-slide-images/beautiful-name.lyric.18.png",
-        "lyric-slide-images/beautiful-name.lyric.19.png",
-        "lyric-slide-images/beautiful-name.lyric.20.png",
-        "lyric-slide-images/beautiful-name.lyric.21.png"
-      ],
-      "tracks": [
-        {
-          "name": "MELODY/SOPRANO",
-          "src": "audio/beautiful-name.melody.mp3",
-          "group": "soprano"
         },
         {
           "name": "PIANO",
-          "src": "audio/beautiful-name.piano.mp3",
+          "src": "audio/come-jesus-come.piano.mp3",
           "group": "piano"
         }
       ]
     },
     {
-      "title": "YOU ARE GOD ALONE",
+      "title": "COME THOU FOUNT, COME THOU KING",
       "useImages": true,
       "imageFiles": [
-        "you-are-god-alone.sheet.01.png",
-        "you-are-god-alone.sheet.02.png",
-        "you-are-god-alone.sheet.03.png",
-        "you-are-god-alone.sheet.04.png",
-        "you-are-god-alone.sheet.05.png",
-        "you-are-god-alone.sheet.06.png",
-        "you-are-god-alone.sheet.07.png",
-        "you-are-god-alone.sheet.08.png",
-        "you-are-god-alone.sheet.09.png",
-        "you-are-god-alone.sheet.10.png",
-        "you-are-god-alone.sheet.11.png"
+        "come-thou-fount-come-thou-king.sheet.01.png",
+        "come-thou-fount-come-thou-king.sheet.02.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/you-are-god-alone.lyric.01.png",
-        "lyric-slide-images/you-are-god-alone.lyric.02.png",
-        "lyric-slide-images/you-are-god-alone.lyric.03.png",
-        "lyric-slide-images/you-are-god-alone.lyric.04.png",
-        "lyric-slide-images/you-are-god-alone.lyric.05.png",
-        "lyric-slide-images/you-are-god-alone.lyric.06.png",
-        "lyric-slide-images/you-are-god-alone.lyric.07.png",
-        "lyric-slide-images/you-are-god-alone.lyric.08.png",
-        "lyric-slide-images/you-are-god-alone.lyric.09.png",
-        "lyric-slide-images/you-are-god-alone.lyric.10.png",
-        "lyric-slide-images/you-are-god-alone.lyric.11.png",
-        "lyric-slide-images/you-are-god-alone.lyric.12.png",
-        "lyric-slide-images/you-are-god-alone.lyric.13.png",
-        "lyric-slide-images/you-are-god-alone.lyric.14.png",
-        "lyric-slide-images/you-are-god-alone.lyric.15.png",
-        "lyric-slide-images/you-are-god-alone.lyric.16.png",
-        "lyric-slide-images/you-are-god-alone.lyric.17.png",
-        "lyric-slide-images/you-are-god-alone.lyric.18.png"
+        "lyric-slide-images/come-thou-fount-come-thou-king.lyric.01.png",
+        "lyric-slide-images/come-thou-fount-come-thou-king.lyric.02.png",
+        "lyric-slide-images/come-thou-fount-come-thou-king.lyric.03.png",
+        "lyric-slide-images/come-thou-fount-come-thou-king.lyric.04.png",
+        "lyric-slide-images/come-thou-fount-come-thou-king.lyric.05.png",
+        "lyric-slide-images/come-thou-fount-come-thou-king.lyric.06.png",
+        "lyric-slide-images/come-thou-fount-come-thou-king.lyric.07.png",
+        "lyric-slide-images/come-thou-fount-come-thou-king.lyric.08.png",
+        "lyric-slide-images/come-thou-fount-come-thou-king.lyric.09.png",
+        "lyric-slide-images/come-thou-fount-come-thou-king.lyric.10.png",
+        "lyric-slide-images/come-thou-fount-come-thou-king.lyric.11.png",
+        "lyric-slide-images/come-thou-fount-come-thou-king.lyric.12.png",
+        "lyric-slide-images/come-thou-fount-come-thou-king.lyric.13.png",
+        "lyric-slide-images/come-thou-fount-come-thou-king.lyric.14.png",
+        "lyric-slide-images/come-thou-fount-come-thou-king.lyric.15.png",
+        "lyric-slide-images/come-thou-fount-come-thou-king.lyric.16.png",
+        "lyric-slide-images/come-thou-fount-come-thou-king.lyric.17.png",
+        "lyric-slide-images/come-thou-fount-come-thou-king.lyric.18.png",
+        "lyric-slide-images/come-thou-fount-come-thou-king.lyric.19.png",
+        "lyric-slide-images/come-thou-fount-come-thou-king.lyric.20.png",
+        "lyric-slide-images/come-thou-fount-come-thou-king.lyric.21.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/you-are-god-alone.melody.mp3",
+          "src": "audio/come-thou-fount-come-thou-king.melody.mp3",
           "group": "soprano"
         },
         {
-          "name": "HARMONY",
-          "src": "audio/you-are-god-alone.harmony.mp3",
-          "group": "harmony"
+          "name": "ALTO",
+          "src": "audio/come-thou-fount-come-thou-king.alto.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "TENOR",
+          "src": "audio/come-thou-fount-come-thou-king.tenor.mp3",
+          "group": "tenor"
         },
         {
           "name": "PIANO",
-          "src": "audio/you-are-god-alone.piano.mp3",
+          "src": "audio/come-thou-fount-come-thou-king.piano.mp3",
           "group": "piano"
+        }
+      ]
+    },
+    {
+      "title": "GREAT GOD MEDLEY (HOW GREAT THOU ART/HOW GREAT IS OUR GOD)",
+      "useImages": true,
+      "imageFiles": [
+        "great-god-medley.sheet.01.png",
+        "great-god-medley.sheet.02.png",
+        "great-god-medley.sheet.03.png",
+        "great-god-medley.sheet.04.png",
+        "great-god-medley.sheet.05.png",
+        "great-god-medley.sheet.06.png",
+        "great-god-medley.sheet.07.png",
+        "great-god-medley.sheet.08.png",
+        "great-god-medley.sheet.09.png",
+        "great-god-medley.sheet.10.png",
+        "great-god-medley.sheet.11.png",
+        "great-god-medley.sheet.12.png",
+        "great-god-medley.sheet.13.png",
+        "great-god-medley.sheet.14.png",
+        "great-god-medley.sheet.15.png",
+        "great-god-medley.sheet.16.png",
+        "great-god-medley.sheet.17.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/great-god-medley.lyric.01.png",
+        "lyric-slide-images/great-god-medley.lyric.02.png",
+        "lyric-slide-images/great-god-medley.lyric.03.png",
+        "lyric-slide-images/great-god-medley.lyric.04.png",
+        "lyric-slide-images/great-god-medley.lyric.05.png",
+        "lyric-slide-images/great-god-medley.lyric.06.png",
+        "lyric-slide-images/great-god-medley.lyric.07.png",
+        "lyric-slide-images/great-god-medley.lyric.08.png",
+        "lyric-slide-images/great-god-medley.lyric.09.png",
+        "lyric-slide-images/great-god-medley.lyric.10.png",
+        "lyric-slide-images/great-god-medley.lyric.11.png",
+        "lyric-slide-images/great-god-medley.lyric.12.png",
+        "lyric-slide-images/great-god-medley.lyric.13.png",
+        "lyric-slide-images/great-god-medley.lyric.14.png",
+        "lyric-slide-images/great-god-medley.lyric.15.png",
+        "lyric-slide-images/great-god-medley.lyric.16.png",
+        "lyric-slide-images/great-god-medley.lyric.17.png",
+        "lyric-slide-images/great-god-medley.lyric.18.png",
+        "lyric-slide-images/great-god-medley.lyric.19.png",
+        "lyric-slide-images/great-god-medley.lyric.20.png",
+        "lyric-slide-images/great-god-medley.lyric.21.png",
+        "lyric-slide-images/great-god-medley.lyric.22.png",
+        "lyric-slide-images/great-god-medley.lyric.23.png",
+        "lyric-slide-images/great-god-medley.lyric.24.png",
+        "lyric-slide-images/great-god-medley.lyric.25.png",
+        "lyric-slide-images/great-god-medley.lyric.26.png",
+        "lyric-slide-images/great-god-medley.lyric.27.png",
+        "lyric-slide-images/great-god-medley.lyric.28.png",
+        "lyric-slide-images/great-god-medley.lyric.29.png",
+        "lyric-slide-images/great-god-medley.lyric.30.png"
+      ],
+      "tracks": [
+        {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/great-god-medley.melody.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "ALTO",
+          "src": "audio/great-god-medley.alto.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "TENOR",
+          "src": "audio/great-god-medley.tenor.mp3",
+          "group": "tenor"
         }
       ]
     }

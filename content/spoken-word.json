@@ -2,10 +2,17 @@
   "intro": "Sermons and spoken messages.",
   "sermons": [
     {
-      "id": "REPLACE_WITH_VIDEO_ID",
-      "title": "Sermon Title",
-      "date": "August 16, 2026",
-      "scripture": "Nehemiah 4–5",
+      "id": "XwOQDFpGP_8",
+      "title": "Choose You This Day",
+      "date": "September 1, 2026",
+      "scripture": "Joshua 24:14-15",
+      "note": ""
+    },
+    {
+      "id": "fp-kTeLyjvM",
+      "title": "Jesus Calms the Storm",
+      "date": "September 1, 2026",
+      "scripture": "Mark 4:35-41",
       "note": ""
     }
   ]
