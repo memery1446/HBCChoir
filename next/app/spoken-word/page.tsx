@@ -23,7 +23,7 @@ export default function SpokenWord() {
     return (
         <>
             <header className="py-10 text-center text-white">
-                <p className="eyebrow !text-white/80">Sermons by Mark Emery</p>
+                <p className="eyebrow !text-white/80">Sermons recorded by Mark Emery</p>
                 <h1
                     className="mt-3 text-3xl leading-tight sm:text-4xl"
                     style={{ textShadow: "0 2px 12px rgba(0,0,0,0.5)" }}

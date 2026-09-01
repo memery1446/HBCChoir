@@ -29,7 +29,7 @@ const CARDS = [
     href: "/spoken-word",
     eyebrow: "Digging Deeper Into God's Word",
     title: "Spoken Word",
-    body: "NOTE: Not live Sunday sermons, these are recorded examples helping fulfill part of Mark's MDiv studies at SBTS",
+    body: "NOTE: Not live Sunday sermons. These are preaching examples by Mark Emery, MDiv student at Southern Baptist Theological Seminary",
     primary: false,
     external: false,
   },
