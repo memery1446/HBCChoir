@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arise and Build – Nehemiah 6–7</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: #f7f5f2;
+            color: #222;
+            padding: 2rem 1rem 4rem;
+        }
+
+        .page {
+            max-width: 720px;
+            margin: 0 auto;
+        }
+
+        .series-banner {
+            background: #3C3489;
+            border-radius: 14px;
+            padding: 2.5rem 2.25rem 2rem;
+            margin-bottom: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .series-banner::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 5px;
+            background: #EF9F27;
+        }
+
+        .series-label {
+            font-family: Arial, sans-serif;
+            font-size: 0.7rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: #AFA9EC;
+            margin-bottom: 0.5rem;
+        }
+
+        .series-banner h1 {
+            color: #EEEDFE;
+            font-size: 2.1rem;
+            font-weight: normal;
+            margin-bottom: 0.4rem;
+            line-height: 1.2;
+        }
+
+        .byline {
+            color: #AFA9EC;
+            font-size: 0.95rem;
+            font-style: italic;
+        }
+
+        .installment-header {
+            border-left: 5px solid #EF9F27;
+            padding-left: 1.25rem;
+            margin-bottom: 2.25rem;
+        }
+
+        .part-label {
+            font-family: Arial, sans-serif;
+            font-size: 0.7rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #7a6a2a;
+            margin-bottom: 0.35rem;
+        }
+
+        .installment-header h2 {
+            font-size: 1.65rem;
+            font-weight: normal;
+            color: #1a1a2e;
+            line-height: 1.3;
+        }
+
+        .article-body p {
+            font-size: 1.05rem;
+            line-height: 1.9;
+            color: #2d2d2d;
+            margin-bottom: 1.2rem;
+        }
+
+        .section-rule {
+            font-family: Arial, sans-serif;
+            font-size: 0.7rem;
+            font-weight: bold;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: #7a6a2a;
+            margin: 2.5rem 0 1.25rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #e0d5c0;
+        }
+
+        blockquote {
+            margin: 2rem 0;
+            padding: 1.2rem 1.5rem;
+            font-size: 1.05rem;
+            line-height: 1.8;
+            font-style: italic;
+        }
+
+        blockquote.amber {
+            border-left: 4px solid #BA7517;
+            background: #FAEEDA;
+            color: #412402;
+        }
+
+        blockquote.purple {
+            border-left: 4px solid #534AB7;
+            background: #EEEDFE;
+            color: #26215C;
+        }
+
+        .questions {
+            border-radius: 10px;
+            overflow: hidden;
+            border: 1px solid #ddd;
+            margin-top: 2.5rem;
+        }
+
+        .questions-header {
+            background: #3C3489;
+            padding: 0.9rem 1.25rem;
+        }
+
+        .questions-header p {
+            color: #EEEDFE;
+            font-family: Arial, sans-serif;
+            font-size: 0.7rem;
+            letter-spacing: 0.13em;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        .questions ol {
+            padding: 1.25rem 1.25rem 1.25rem 2.5rem;
+            background: white;
+        }
+
+        .questions ol li {
+            font-size: 1rem;
+            line-height: 1.85;
+            color: #333;
+            margin-bottom: 0.75rem;
+        }
+
+        .questions ol li:last-child { margin-bottom: 0; }
+
+        .citation {
+            margin-top: 1.75rem;
+            padding-top: 1.25rem;
+            border-top: 1px solid #e0e0e0;
+            font-size: 0.875rem;
+            color: #888;
+            font-style: italic;
+        }
+
+        .series-nav {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.75rem;
+            margin-top: 1.75rem;
+        }
+
+        .nav-card {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            background: white;
+            border-radius: 10px;
+            border: 1px solid #e0e0e0;
+            padding: 1rem 1.1rem;
+            text-decoration: none;
+            color: inherit;
+            transition: box-shadow 0.2s ease;
+        }
+
+        .nav-card:hover { box-shadow: 0 4px 14px rgba(0,0,0,0.1); }
+
+        .nav-card.prev { border-left: 5px solid #534AB7; }
+        .nav-card.next { border-left: 5px solid #EF9F27; justify-content: space-between; }
+
+        .nav-card.coming-soon {
+            border-left: 5px solid #ccc;
+            opacity: 0.5;
+            pointer-events: none;
+        }
+
+        .nav-card .nav-arrow {
+            font-size: 1.25rem;
+            flex-shrink: 0;
+            color: #888;
+        }
+
+        .nav-card.prev .nav-arrow { color: #534AB7; }
+        .nav-card.next .nav-arrow { color: #c8954a; }
+
+        .nav-card .nav-text .nav-dir {
+            font-family: Arial, sans-serif;
+            font-size: 0.68rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #888;
+            margin-bottom: 0.2rem;
+        }
+
+        .nav-card.prev .nav-text .nav-dir { color: #534AB7; }
+        .nav-card.next .nav-text .nav-dir { color: #c8954a; }
+
+        .nav-card .nav-text .nav-title {
+            font-size: 0.95rem;
+            color: #1a1a2e;
+            line-height: 1.3;
+        }
+
+        @media (max-width: 520px) {
+            .series-nav { grid-template-columns: 1fr; }
+            .series-banner h1 { font-size: 1.6rem; }
+            .installment-header h2 { font-size: 1.35rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+
+    <div class="series-banner">
+        <div class="series-label">A study through the book of Nehemiah</div>
+        <h1>Arise and Build</h1>
+        <div class="byline">by Mark Emery</div>
+    </div>
+
+    <div class="installment-header">
+        <div class="part-label">Installment Four · Nehemiah 6–7</div>
+        <h2>I Am Doing a Great Work</h2>
+    </div>
+
+    <div class="article-body">
+
+        <p>The wall is nearly finished. No gaps remain — only a handful of doors yet to be hung on the gates. After months of labor, ridicule, conspiracy, fatigue, and internal fracture, Nehemiah and the builders have accomplished what their enemies considered impossible. Which is precisely when the opposition changes its character entirely.</p>
+
+        <p>What comes in chapter six is not an army. It is an invitation. "Come, let us meet together in the plain of Ono." When force fails, the enemy turns to subtlety — and the final assault on Nehemiah's work is not a siege but a series of messages, each one carefully crafted to accomplish what the earlier attacks could not: get Nehemiah himself off the wall.</p>
+
+        <div class="section-rule">Three last moves</div>
+
+        <p>The invitation arrives four times. Four times Nehemiah sends the same reply: "I am doing a great work, so that I cannot come down. Why should the work cease while I leave it and go down to you?" There is no negotiation, no gradual softening, no sign that the repetition is wearing him down. He answers the fourth invitation with the same words as the first. Whatever combination of flattery, reasonableness, and collegial appeal the messages contained, Nehemiah sees through all of it — because he knows exactly what he is doing and why, and he will not be drawn away from it.</p>
+
+        <p>The second move is slander. Sanballat sends an open letter — deliberately unsealed, meant to be read by every hand it passes through — accusing Nehemiah of planning to make himself king, of appointing prophets to announce his rule, of building the wall as cover for insurrection. The accusation is designed to travel faster than any denial. Nehemiah's response is characteristically spare: "No such things as you say are being done, but you invent them in your own heart." Then, almost in the same breath, an arrow prayer: "Now therefore, O God, strengthen my hands."</p>
+
+        <blockquote class="amber">The great lies are always plausible. They take what is real — a wall going up, prophets active in the city, a man of evident ambition and influence — and arrange it into a story that serves the liar's purpose. Nehemiah does not try to untangle the slander publicly. He states the truth plainly and takes the rest to God.</blockquote>
+
+        <p>The third move is the most sophisticated. A man named Shemaiah, confined to his house, summons Nehemiah privately and warns him of an assassination plot — urging him to take refuge in the temple. The counsel sounds protective. It comes wrapped in prophetic authority. But Nehemiah perceives something is wrong: "Should such a man as I flee? And who is there such as I who would go into the temple to save his life? I will not go in." He recognizes later that Shemaiah was hired by Tobiah and Sanballat — that the prophecy was not from God but was designed to brand Nehemiah a coward, and worse, to lure him into violating the law by entering a space reserved for priests. The trap was elegant. Nehemiah was not caught in it.</p>
+
+        <p>What made him immune to it? Not a rule he was following, but a settled sense of who he was and what he had been called to do. "Should such a man as I flee?" is not a boast. It is a statement of identity rooted in vocation. A man in Nehemiah's position, doing God's work, does not hide from the threats of men. He stands, prays, and continues.</p>
+
+        <div class="section-rule">Fifty-two days</div>
+
+        <p>The wall is finished on the twenty-fifth day of Elul. Fifty-two days from start to completion. Not a round number, not a ceremonial one — just the actual count of days it took. And the text records something remarkable in the reaction of Judah's enemies: "they were very disheartened in their own eyes; for they perceived that this work was done by our God."</p>
+
+        <p>The people who had spent months insisting the builders were feeble, the stones too burned to be used, the project doomed to failure — these same people now recognized the hand of God in what stood before them. The wall itself was a theological statement. Bricks and mortar and gates proclaiming that the God who had scattered his people had not abandoned them.</p>
+
+        <blockquote class="purple">It is worth pausing over this. The enemies of God's work did not concede that Nehemiah was a gifted leader or that the Judeans were more capable than they had assumed. They concluded that God had done it. The finished wall was not a monument to human determination. It was a testimony.</blockquote>
+
+        <p>And yet — the chapter does not end in uncomplicated triumph. Tobiah still has his allies inside the community, nobles pledged to him by marriage, reporting Nehemiah's words to him and commending him to Nehemiah in return. The opposition does not vanish with the completion of the wall. It simply changes form. This is honest. Faithful work in God's name does not permanently silence those who oppose it. What it does is demonstrate, plainly and publicly, what God is capable of doing through his people.</p>
+
+        <div class="section-rule">What the wall was built to protect</div>
+
+        <p>Chapter seven opens immediately with a question Nehemiah had been asking all along: not just how to build the wall, but what the wall exists to make possible. The city is large and spacious — but sparsely populated, its houses still in ruin. Walls without a living community inside them are just architecture.</p>
+
+        <p>Nehemiah's first act after hanging the doors is to appoint leadership. The men he chooses — his brother Hanani, and Hananiah the commander of the citadel — are notable for how he describes them. Hananiah's primary credential is not administrative skill or military experience. It is that "he was a faithful man and feared God more than many." In an environment where it had proven difficult to know whom to trust, the fear of God was the credential that mattered most. The person who lives in reverential awe of God, who shapes their choices by what God values rather than by what benefits them — that is the person Nehemiah wants watching over Jerusalem.</p>
+
+        <p>Then God puts something new into Nehemiah's heart: take a census. He finds the genealogy book from the first return under Zerubbabel — nearly ninety years earlier — and works from it. What follows is a long list of names, clans, villages, temple personnel, servants, and animals. It is the kind of passage readers tend to skim. That would be a mistake.</p>
+
+        <p>These are the people who left established lives in Babylon to return to a ruined city on the strength of a promise. They are organized here not as an abstraction but as individuals and families, each one belonging somewhere, each one with a history. Some could not prove their lineage. Some could not even establish that they were descendants of Israel at all. A handful of priests were excluded from temple service because their genealogy could not be verified — though they remained part of the community. The grace of God and the holiness of God stand together in these verses without contradiction.</p>
+
+        <p>What the wall surrounds, in the end, is not real estate. It is this people — imperfect, diverse, some of uncertain origin, some of verified descent, all of them gathered in one place because God had drawn them back. The rebuilding of the wall was the first act. The revitalization of the community it enclosed was the larger and longer work ahead.</p>
+
+        <div class="section-rule">What this means for us</div>
+
+        <p>The phrase Nehemiah uses to decline every invitation to come down from the wall — "I am doing a great work" — is one of the most quietly powerful sentences in the book. It does not mean the work is impressive or that Nehemiah is indispensable. It means the work is God's, and leaving it to accommodate those who oppose it is not humility. It is abandonment.</p>
+
+        <p>Distractions rarely announce themselves as distractions. They present as reasonable requests, timely opportunities, invitations to dialogue, or well-intentioned counsel from people who appear to have our interests at heart. Nehemiah's discernment was not primarily a matter of suspicion — it was a matter of clarity about what God had called him to do. That clarity is what made the invitations legible for what they were.</p>
+
+        <p>Chapter seven quietly insists that the work of rebuilding a community of faith is longer and less dramatic than the work of building its walls. Appointments have to be made. Records have to be kept. Populations have to be assessed. Leadership has to be chosen — and chosen for character, not only competence. These are unglamorous necessities. They are also, in Nehemiah's hands, acts of faithfulness to God's purposes as genuine as any prayer or any night survey of broken walls.</p>
+
+        <p>The wall took fifty-two days. The work it was built to protect would take the rest of Nehemiah's life.</p>
+
+        <div class="questions">
+            <div class="questions-header"><p>Questions for reflection</p></div>
+            <ol>
+                <li>Nehemiah answered every invitation to "come down" with the same words, four times without variation. What helps me hold that kind of clarity and steadiness when a distraction presents itself as a reasonable request?</li>
+                <li>The slander against Nehemiah was built from real details arranged into a false story. How do I tend to respond when my motives are misread or misrepresented — and what does Nehemiah's response suggest about where to take that?</li>
+                <li>Shemaiah's counsel sounded spiritual and protective. What disciplines or relationships help me test advice that arrives with apparent authority?</li>
+                <li>The enemies of the work concluded that the finished wall was "done by our God." What would it look like for the work I am part of to bear that kind of witness — and what would have to be true about how it is done?</li>
+                <li>Hananiah's chief qualification was that he feared God more than many. What does that quality look like in a life lived out day to day, and how am I cultivating it in my own?</li>
+            </ol>
+        </div>
+
+        <div class="citation">
+            Primary resource: T. J. Betts, <em>Nehemiah: A Pastoral and Exegetical Commentary</em> (Bellingham, WA: Lexham Press, 2020).
+        </div>
+
+        <div class="series-nav">
+            <a href="nehemiah-3.html" class="nav-card prev">
+                <div class="nav-arrow">←</div>
+                <div class="nav-text">
+                    <div class="nav-dir">Previous · Nehemiah 4–5</div>
+                    <div class="nav-title">Trowel and Sword</div>
+                </div>
+            </a>
+            <div class="nav-card next coming-soon">
+                <div class="nav-text">
+                    <div class="nav-dir">Next · Nehemiah 8–9</div>
+                    <div class="nav-title">Coming soon</div>
+                </div>
+                <div class="nav-arrow">→</div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

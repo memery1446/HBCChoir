@@ -1,0 +1,13 @@
+{
+  "intro": "Sermons and spoken messages.",
+  "sermons": [
+    {
+      "id": "REPLACE_WITH_VIDEO_ID",
+      "title": "Sermon Title",
+      "date": "August 16, 2026",
+      "scripture": "Nehemiah 4–5",
+      "note": ""
+    }
+  ]
+}
+

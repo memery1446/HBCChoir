@@ -26,6 +26,14 @@ const CARDS = [
     external: false,
   },
   {
+    href: "/spoken-word",
+    eyebrow: "Digging Deeper Into God's Word",
+    title: "Spoken Word",
+    body: "Watch recent messages.",
+    primary: false,
+    external: false,
+  },
+  {
     href: "/solos",
     eyebrow: "Special music",
     title: "Solos / Special Music",

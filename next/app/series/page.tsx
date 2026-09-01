@@ -20,6 +20,12 @@ const SERIES = {
       scripture: "Nehemiah 4-5:19",
       title: "Trowel and Sword",
     },
+    {
+      href: "/nehemiah-4",
+      part: "Part 4",
+      scripture: "Nehemiah 6-7",
+      title: "I Am Doing a Great Work",
+    },
   ],
 };
 

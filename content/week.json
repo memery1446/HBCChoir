@@ -1,15 +1,15 @@
 {
-  "serviceDate": "2026-08-30",
+  "serviceDate": "2026-09-06",
   "headerNotes": [
     "Our Choir music for Sunday is below.",
     "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
-    { "slug": "to-god-be-the-glory", "title": "To God Be the Glory" },
-    { "slug": "shout-to-the-north", "title": "Shout to the North" },
-    { "slug": "indescribable", "title": "Indescribable" },
-    { "slug": "beautiful-name", "title": "What a Beautiful Name It Is" },
-    { "slug": "you-are-god-alone", "title": "You Are God Alone",
+    { "slug": "10-k-reasons", "title": "10,000 Reasons, Bless the Lord" },
+    { "slug": "come-now-is-the-time-to-worship", "title": "Come, Now Is the Time to Worship" },
+    { "slug": "come-jesus-come", "title": "Come, Jesus Come" },
+    { "slug": "come-thou-fount-come-thou-king", "title": "Come Thou Fount, Come Thou King" },
+    { "slug": "great-god-medley", "title": "Great God Medley (How Great Thou Art/How Great Is Our God)",
       "prefix": "CHOIR SPECIAL: " }
   ]
 }
