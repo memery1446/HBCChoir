@@ -4,7 +4,7 @@ import SermonList, { type Sermon } from "@/components/SermonList";
 
 export const metadata = {
     title: "Spoken Word | Music at Harmony",
-    description: "Sermons by Mark Emery, Harmony Baptist Church.",
+    description: "Sermons by Mark Emery, Music Director and Seminary Student, Harmony Baptist Church.",
 };
 
 interface File {
