@@ -29,7 +29,7 @@ const CARDS = [
     href: "/spoken-word",
     eyebrow: "Digging Deeper Into God's Word",
     title: "Spoken Word",
-    body: "Watch recent messages.",
+    body: "NOTE: Not live Sunday sermons, these are recorded examples helping fulfill part of Mark's MDiv studies at SBTS",
     primary: false,
     external: false,
   },
