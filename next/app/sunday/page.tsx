@@ -20,28 +20,30 @@ function loadWeek(): Week {
 
 export default function Sunday() {
     const week = loadWeek();
-    const [y, m, d] = week.serviceDate.split("-").map(Number);
-    const when = new Date(y, m - 1, d).toLocaleDateString("en-US", {
-        weekday: "long", year: "numeric", month: "long", day: "numeric",
-    });
 
     return (
         <>
             <header className="py-10 text-center text-white">
-                <p className="eyebrow !text-white/80">This Sunday</p>
-                <h1 className="mt-3 text-3xl sm:text-4xl"
-                    style={{ textShadow: "0 2px 12px rgba(0,0,0,0.5)" }}>
-                    {when}
+                <p className="eyebrow !text-white/80">Harmony Baptist Church</p>
+                <h1
+                    className="mt-3 text-3xl sm:text-4xl"
+                    style={{ textShadow: "0 2px 12px rgba(0,0,0,0.5)" }}
+                >
+                    This Sunday&rsquo;s Music
                 </h1>
                 {week.headerNotes.map((n) => (
-                    <p key={n} className="mt-2 text-[0.95rem] italic text-white/90">{n}</p>
+                    <p key={n} className="mt-2 text-[0.95rem] italic text-white/90">
+                        {n}
+                    </p>
                 ))}
             </header>
 
             <div className="card mb-6">
                 <p className="eyebrow">Service order</p>
                 <ol className="mt-3 list-decimal space-y-1 pl-6">
-                    {week.order.map((t) => <li key={t}>{t}</li>)}
+                    {week.order.map((t) => (
+                        <li key={t}>{t}</li>
+                    ))}
                 </ol>
             </div>
 

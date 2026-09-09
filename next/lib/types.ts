@@ -24,7 +24,6 @@ export interface Song {
 }
 
 export interface Week {
-    serviceDate: string;
     headerNotes: string[];
     order: string[];
     songs: Song[];
