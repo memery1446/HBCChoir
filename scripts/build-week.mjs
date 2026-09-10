@@ -65,9 +65,6 @@ function listDir(dir) {
 
 const week = JSON.parse(readFileSync(path.join(ROOT, IN), 'utf8'));
 
-if (!/^\d{4}-\d{2}-\d{2}$/.test(week.serviceDate || '')) {
-    fail(`serviceDate must be YYYY-MM-DD, got: ${week.serviceDate}`);
-}
 
 const audioFiles = listDir(AUDIO_DIR);
 const sheetFiles = listDir(SHEET_DIR);
@@ -131,7 +128,6 @@ if (strays.length) note(`audio not matching the convention: ${strays.join(', ')}
 /* ------------------------------------------------------------------ */
 
 const out = {
-    serviceDate: week.serviceDate,
     headerNotes: week.headerNotes || [],
     order,
     songs,
@@ -139,7 +135,7 @@ const out = {
     interludeMp3: week.interludeMp3 ?? null
 };
 
-console.log(`\n  ${week.serviceDate}   ${songs.length} songs\n`);
+console.log(`\n  ${songs.length} songs\n`);
 for (const s of songs) {
     const parts = s.tracks.map(t => t.name.replace('MELODY/SOPRANO', 'MELODY')).join(' ');
     console.log(`    ${String(s.imageFiles.length).padStart(2)}pg ${String(s.lyricSlideImages.length).padStart(3)}sl  ${s.title}`);

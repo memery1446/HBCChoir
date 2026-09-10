@@ -2,6 +2,16 @@
   "intro": "Each week, Jennifer and I record exactly what we'll do in Sunday worship.",
   "songs": [
     {
+      "slug": "ten-k-reasons",
+      "title": "10,000 Reasons / Bless the Lord",
+      "note": "Contemporary Worship, four parts with piano"
+    },
+    {
+      "slug": "come-jesus-come",
+      "title": "Come Jesus, Come",
+      "note": "Contemporary Worship, four parts with piano"
+    },
+    {
       "slug": "great-is-thy-faithfulness",
       "title": "Great Is Thy Faithfulness",
       "note": "Traditional hymn, four parts with piano"

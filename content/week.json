@@ -1,15 +1,15 @@
 {
-  "serviceDate": "2026-09-06",
   "headerNotes": [
     "Our Choir music for Sunday is below.",
     "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
-    { "slug": "ten-k-reasons", "title": "10,000 Reasons, Bless the Lord" },
-    { "slug": "come-now-is-the-time-to-worship", "title": "Come, Now Is the Time to Worship" },
-    { "slug": "come-jesus-come", "title": "Come, Jesus Come" },
-    { "slug": "come-thou-fount-come-thou-king", "title": "Come Thou Fount, Come Thou King" },
-    { "slug": "great-god-medley", "title": "Great God Medley (How Great Thou Art/How Great Is Our God)",
+    { "slug": "rock", "title": "Rock of Ages" },
+    { "slug": "foundation", "title": "How Firm a Foundation" },
+    { "slug": "cornerstone", "title": "Cornerstone" },
+    { "slug": "christ-alone-solid-rock", "title": "In Christ Alone with The Solid Rock" },
+    { "slug": "shout", "title": "Shout to the Lord (for part of special)" },
+    { "slug": "speak-jesus", "title": "I Speak Jesus/Shout to the Lord)",
       "prefix": "CHOIR SPECIAL: " }
   ]
 }
