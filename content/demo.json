@@ -2,6 +2,11 @@
   "intro": "Each week, Jennifer and I record exactly what we'll do in Sunday worship.",
   "songs": [
     {
+      "slug": "speak-jesus",
+      "title": "I Speak Jesus",
+      "note": "Contemporary Worship, melody with piano"
+    },
+    {
       "slug": "ten-k-reasons",
       "title": "10,000 Reasons / Bless the Lord",
       "note": "Contemporary Worship, four parts with piano"

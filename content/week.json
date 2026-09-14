@@ -4,12 +4,11 @@
     "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
-    { "slug": "rock", "title": "Rock of Ages" },
-    { "slug": "foundation", "title": "How Firm a Foundation" },
-    { "slug": "cornerstone", "title": "Cornerstone" },
-    { "slug": "christ-alone-solid-rock", "title": "In Christ Alone with The Solid Rock" },
-    { "slug": "shout", "title": "Shout to the Lord (for part of special)" },
-    { "slug": "speak-jesus", "title": "I Speak Jesus/Shout to the Lord)",
+    { "slug": "fountain", "title": "There Is a Fountain" },
+    { "slug": "provide", "title": "The Lord Will Provide" },
+    { "slug": "wonderful-savior", "title": "Wonderful, Merciful Savior" },
+    { "slug": "peace-river", "title": "I've Got Peace Like a River'" },
+    { "slug": "arms-of-god", "title": "Sheltered In the Arms of God Medley",
       "prefix": "CHOIR SPECIAL: " }
   ]
 }
