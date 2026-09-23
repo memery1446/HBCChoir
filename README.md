@@ -46,3 +46,6 @@ node convert-lyric-pdfs.js
 `npm run check` validates without writing.
 Both scripts refuse to run on a mismatch rather than shipping something wrong.
 
+npm run clean -- --apply
+node scripts/convert-images.mjs both --force
+

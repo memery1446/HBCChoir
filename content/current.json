@@ -4,208 +4,193 @@
     "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
-    "There Is a Fountain",
-    "The Lord Will Provide",
-    "Wonderful, Merciful Savior",
-    "I've Got Peace Like a River'",
-    "CHOIR SPECIAL: Sheltered In the Arms of God Medley"
+    "All Hail the Power of Jesus' Name",
+    "He Is Exalted",
+    "Mighty to Save",
+    "Trust In God",
+    "CHOIR SPECIAL: Power Medley"
   ],
   "songs": [
     {
-      "title": "THERE IS A FOUNTAIN",
+      "title": "ALL HAIL THE POWER OF JESUS' NAME",
       "useImages": true,
       "imageFiles": [
-        "fountain.sheet.01.png"
+        "all-hail.sheet.01.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/fountain.lyric.01.png",
-        "lyric-slide-images/fountain.lyric.02.png",
-        "lyric-slide-images/fountain.lyric.03.png",
-        "lyric-slide-images/fountain.lyric.04.png",
-        "lyric-slide-images/fountain.lyric.05.png",
-        "lyric-slide-images/fountain.lyric.06.png",
-        "lyric-slide-images/fountain.lyric.07.png",
-        "lyric-slide-images/fountain.lyric.08.png",
-        "lyric-slide-images/fountain.lyric.09.png",
-        "lyric-slide-images/fountain.lyric.10.png",
-        "lyric-slide-images/fountain.lyric.11.png",
-        "lyric-slide-images/fountain.lyric.12.png",
-        "lyric-slide-images/fountain.lyric.13.png"
+        "lyric-slide-images/all-hail.lyric.01.png",
+        "lyric-slide-images/all-hail.lyric.02.png",
+        "lyric-slide-images/all-hail.lyric.03.png",
+        "lyric-slide-images/all-hail.lyric.04.png",
+        "lyric-slide-images/all-hail.lyric.05.png",
+        "lyric-slide-images/all-hail.lyric.06.png",
+        "lyric-slide-images/all-hail.lyric.07.png",
+        "lyric-slide-images/all-hail.lyric.08.png",
+        "lyric-slide-images/all-hail.lyric.09.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/fountain.melody.mp3",
+          "src": "audio/all-hail.melody.mp3",
           "group": "soprano"
         }
       ]
     },
     {
-      "title": "THE LORD WILL PROVIDE",
+      "title": "HE IS EXALTED",
+      "video": "vUq4QDrtEjY",
       "useImages": true,
       "imageFiles": [
-        "provide.sheet.01.png",
-        "provide.sheet.02.png"
+        "exalted.sheet.01.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/provide.lyric.01.png",
-        "lyric-slide-images/provide.lyric.02.png",
-        "lyric-slide-images/provide.lyric.03.png",
-        "lyric-slide-images/provide.lyric.04.png",
-        "lyric-slide-images/provide.lyric.05.png",
-        "lyric-slide-images/provide.lyric.06.png",
-        "lyric-slide-images/provide.lyric.07.png",
-        "lyric-slide-images/provide.lyric.08.png",
-        "lyric-slide-images/provide.lyric.09.png",
-        "lyric-slide-images/provide.lyric.10.png",
-        "lyric-slide-images/provide.lyric.11.png",
-        "lyric-slide-images/provide.lyric.12.png",
-        "lyric-slide-images/provide.lyric.13.png",
-        "lyric-slide-images/provide.lyric.14.png",
-        "lyric-slide-images/provide.lyric.15.png",
-        "lyric-slide-images/provide.lyric.16.png",
-        "lyric-slide-images/provide.lyric.17.png",
-        "lyric-slide-images/provide.lyric.18.png",
-        "lyric-slide-images/provide.lyric.19.png",
-        "lyric-slide-images/provide.lyric.20.png",
-        "lyric-slide-images/provide.lyric.21.png",
-        "lyric-slide-images/provide.lyric.22.png",
-        "lyric-slide-images/provide.lyric.23.png",
-        "lyric-slide-images/provide.lyric.24.png"
+        "lyric-slide-images/exalted.lyric.01.png",
+        "lyric-slide-images/exalted.lyric.02.png",
+        "lyric-slide-images/exalted.lyric.03.png",
+        "lyric-slide-images/exalted.lyric.04.png",
+        "lyric-slide-images/exalted.lyric.05.png",
+        "lyric-slide-images/exalted.lyric.06.png",
+        "lyric-slide-images/exalted.lyric.07.png",
+        "lyric-slide-images/exalted.lyric.08.png",
+        "lyric-slide-images/exalted.lyric.09.png",
+        "lyric-slide-images/exalted.lyric.10.png",
+        "lyric-slide-images/exalted.lyric.11.png",
+        "lyric-slide-images/exalted.lyric.12.png",
+        "lyric-slide-images/exalted.lyric.13.png",
+        "lyric-slide-images/exalted.lyric.14.png"
       ],
-      "tracks": [
-        {
-          "name": "MELODY/SOPRANO",
-          "src": "audio/provide.melody.mp3",
-          "group": "soprano"
-        },
-        {
-          "name": "PIANO",
-          "src": "audio/provide.piano.mp3",
-          "group": "piano"
-        }
-      ]
+      "tracks": []
     },
     {
-      "title": "WONDERFUL, MERCIFUL SAVIOR",
+      "title": "MIGHTY TO SAVE",
       "useImages": true,
       "imageFiles": [
-        "wonderful-savior.sheet.01.png",
-        "wonderful-savior.sheet.02.png"
+        "mighty-to-save.sheet.01.png",
+        "mighty-to-save.sheet.02.png",
+        "mighty-to-save.sheet.03.png",
+        "mighty-to-save.sheet.04.png",
+        "mighty-to-save.sheet.05.png",
+        "mighty-to-save.sheet.06.png",
+        "mighty-to-save.sheet.07.png",
+        "mighty-to-save.sheet.08.png",
+        "mighty-to-save.sheet.09.png",
+        "mighty-to-save.sheet.10.png",
+        "mighty-to-save.sheet.11.png",
+        "mighty-to-save.sheet.12.png",
+        "mighty-to-save.sheet.13.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/wonderful-savior.lyric.01.png",
-        "lyric-slide-images/wonderful-savior.lyric.02.png",
-        "lyric-slide-images/wonderful-savior.lyric.03.png",
-        "lyric-slide-images/wonderful-savior.lyric.04.png",
-        "lyric-slide-images/wonderful-savior.lyric.05.png",
-        "lyric-slide-images/wonderful-savior.lyric.06.png",
-        "lyric-slide-images/wonderful-savior.lyric.07.png",
-        "lyric-slide-images/wonderful-savior.lyric.08.png",
-        "lyric-slide-images/wonderful-savior.lyric.09.png",
-        "lyric-slide-images/wonderful-savior.lyric.10.png",
-        "lyric-slide-images/wonderful-savior.lyric.11.png",
-        "lyric-slide-images/wonderful-savior.lyric.12.png",
-        "lyric-slide-images/wonderful-savior.lyric.13.png"
+        "lyric-slide-images/mighty-to-save.lyric.01.png",
+        "lyric-slide-images/mighty-to-save.lyric.02.png",
+        "lyric-slide-images/mighty-to-save.lyric.03.png",
+        "lyric-slide-images/mighty-to-save.lyric.04.png",
+        "lyric-slide-images/mighty-to-save.lyric.05.png",
+        "lyric-slide-images/mighty-to-save.lyric.06.png",
+        "lyric-slide-images/mighty-to-save.lyric.07.png",
+        "lyric-slide-images/mighty-to-save.lyric.08.png",
+        "lyric-slide-images/mighty-to-save.lyric.09.png",
+        "lyric-slide-images/mighty-to-save.lyric.10.png",
+        "lyric-slide-images/mighty-to-save.lyric.11.png",
+        "lyric-slide-images/mighty-to-save.lyric.12.png",
+        "lyric-slide-images/mighty-to-save.lyric.13.png",
+        "lyric-slide-images/mighty-to-save.lyric.14.png",
+        "lyric-slide-images/mighty-to-save.lyric.15.png",
+        "lyric-slide-images/mighty-to-save.lyric.16.png",
+        "lyric-slide-images/mighty-to-save.lyric.17.png",
+        "lyric-slide-images/mighty-to-save.lyric.18.png",
+        "lyric-slide-images/mighty-to-save.lyric.19.png",
+        "lyric-slide-images/mighty-to-save.lyric.20.png",
+        "lyric-slide-images/mighty-to-save.lyric.21.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/wonderful-savior.melody.mp3",
-          "group": "soprano"
-        },
-        {
-          "name": "PIANO",
-          "src": "audio/wonderful-savior.piano.mp3",
-          "group": "piano"
-        }
-      ]
-    },
-    {
-      "title": "I'VE GOT PEACE LIKE A RIVER'",
-      "useImages": true,
-      "imageFiles": [
-        "peace-river.sheet.01.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/peace-river.lyric.01.png",
-        "lyric-slide-images/peace-river.lyric.02.png",
-        "lyric-slide-images/peace-river.lyric.03.png",
-        "lyric-slide-images/peace-river.lyric.04.png",
-        "lyric-slide-images/peace-river.lyric.05.png",
-        "lyric-slide-images/peace-river.lyric.06.png"
-      ],
-      "tracks": [
-        {
-          "name": "MELODY/SOPRANO",
-          "src": "audio/peace-river.melody.mp3",
-          "group": "soprano"
-        }
-      ]
-    },
-    {
-      "title": "SHELTERED IN THE ARMS OF GOD MEDLEY",
-      "useImages": true,
-      "imageFiles": [
-        "arms-of-god.sheet.01.png",
-        "arms-of-god.sheet.02.png",
-        "arms-of-god.sheet.03.png",
-        "arms-of-god.sheet.04.png",
-        "arms-of-god.sheet.05.png",
-        "arms-of-god.sheet.06.png",
-        "arms-of-god.sheet.07.png",
-        "arms-of-god.sheet.08.png",
-        "arms-of-god.sheet.09.png",
-        "arms-of-god.sheet.10.png",
-        "arms-of-god.sheet.11.png",
-        "arms-of-god.sheet.12.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/arms-of-god.lyric.01.png",
-        "lyric-slide-images/arms-of-god.lyric.02.png",
-        "lyric-slide-images/arms-of-god.lyric.03.png",
-        "lyric-slide-images/arms-of-god.lyric.04.png",
-        "lyric-slide-images/arms-of-god.lyric.05.png",
-        "lyric-slide-images/arms-of-god.lyric.06.png",
-        "lyric-slide-images/arms-of-god.lyric.07.png",
-        "lyric-slide-images/arms-of-god.lyric.08.png",
-        "lyric-slide-images/arms-of-god.lyric.09.png",
-        "lyric-slide-images/arms-of-god.lyric.10.png",
-        "lyric-slide-images/arms-of-god.lyric.11.png",
-        "lyric-slide-images/arms-of-god.lyric.12.png",
-        "lyric-slide-images/arms-of-god.lyric.13.png",
-        "lyric-slide-images/arms-of-god.lyric.14.png",
-        "lyric-slide-images/arms-of-god.lyric.15.png",
-        "lyric-slide-images/arms-of-god.lyric.16.png",
-        "lyric-slide-images/arms-of-god.lyric.17.png"
-      ],
-      "tracks": [
-        {
-          "name": "MELODY/SOPRANO",
-          "src": "audio/arms-of-god.melody.mp3",
+          "src": "audio/mighty-to-save.melody.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/arms-of-god.alto.mp3",
+          "src": "audio/mighty-to-save.alto.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/arms-of-god.tenor.mp3",
+          "src": "audio/mighty-to-save.tenor.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/arms-of-god.bass.mp3",
+          "src": "audio/mighty-to-save.bass.mp3",
           "group": "bass"
+        }
+      ]
+    },
+    {
+      "title": "TRUST IN GOD",
+      "useImages": true,
+      "imageFiles": [
+        "trust.sheet.01.png",
+        "trust.sheet.02.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/trust.lyric.01.png",
+        "lyric-slide-images/trust.lyric.02.png",
+        "lyric-slide-images/trust.lyric.03.png",
+        "lyric-slide-images/trust.lyric.04.png",
+        "lyric-slide-images/trust.lyric.05.png",
+        "lyric-slide-images/trust.lyric.06.png",
+        "lyric-slide-images/trust.lyric.07.png",
+        "lyric-slide-images/trust.lyric.08.png",
+        "lyric-slide-images/trust.lyric.09.png",
+        "lyric-slide-images/trust.lyric.10.png",
+        "lyric-slide-images/trust.lyric.11.png",
+        "lyric-slide-images/trust.lyric.12.png"
+      ],
+      "tracks": [
+        {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/trust.melody.mp3",
+          "group": "soprano"
         },
         {
           "name": "PIANO",
-          "src": "audio/arms-of-god.piano.mp3",
+          "src": "audio/trust.piano.mp3",
           "group": "piano"
         }
       ]
+    },
+    {
+      "title": "POWER MEDLEY",
+      "video": "f-GIseuqwqA",
+      "useImages": true,
+      "imageFiles": [
+        "power.sheet.01.png",
+        "power.sheet.02.png",
+        "power.sheet.03.png",
+        "power.sheet.04.png",
+        "power.sheet.05.png",
+        "power.sheet.06.png",
+        "power.sheet.07.png",
+        "power.sheet.08.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/power.lyric.01.png",
+        "lyric-slide-images/power.lyric.02.png",
+        "lyric-slide-images/power.lyric.03.png",
+        "lyric-slide-images/power.lyric.04.png",
+        "lyric-slide-images/power.lyric.05.png",
+        "lyric-slide-images/power.lyric.06.png",
+        "lyric-slide-images/power.lyric.07.png",
+        "lyric-slide-images/power.lyric.08.png",
+        "lyric-slide-images/power.lyric.09.png",
+        "lyric-slide-images/power.lyric.10.png",
+        "lyric-slide-images/power.lyric.11.png",
+        "lyric-slide-images/power.lyric.12.png",
+        "lyric-slide-images/power.lyric.13.png",
+        "lyric-slide-images/power.lyric.14.png",
+        "lyric-slide-images/power.lyric.15.png"
+      ],
+      "tracks": []
     }
   ],
   "allSongsPdf": null,

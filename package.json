@@ -10,6 +10,7 @@
 "week": "node scripts/build-week.mjs",
 "check": "node scripts/build-week.mjs --check",
 "rename:plan": "node scripts/plan-rename.mjs",
-"rename:apply": "node scripts/apply-rename.mjs"
+"rename:apply": "node scripts/apply-rename.mjs",
+"clean": "node scripts/clean-week.mjs"
 }
 }

@@ -21,6 +21,7 @@ export interface Song {
     imageFiles: string[];
     lyricSlideImages: string[];
     tracks: Track[];
+    video?: string;
 }
 
 export interface Week {

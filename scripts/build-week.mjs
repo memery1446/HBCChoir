@@ -2,7 +2,7 @@
 /**
  * build-week.mjs
  *
- * Reads  content/week.json   (short, hand-written: date, notes, service order)
+ * Reads  content/week.json   (short, hand-written: notes, service order)
  * Scans  audio/ sheet-music-images/ lyric-slide-images/
  * Writes content/current.json (long, generated: every filename)
  *
@@ -16,6 +16,9 @@
  *
  * A song gets a button for each part file that actually exists, and no
  * others. Melody only -> one button. SATB + piano -> five.
+ *
+ * A song may instead carry a "video" (a YouTube id) in week.json. Those
+ * play in an embedded player and need no audio files.
  */
 
 import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs';
@@ -65,7 +68,6 @@ function listDir(dir) {
 
 const week = JSON.parse(readFileSync(path.join(ROOT, IN), 'utf8'));
 
-
 const audioFiles = listDir(AUDIO_DIR);
 const sheetFiles = listDir(SHEET_DIR);
 const lyricFiles = listDir(LYRIC_DIR);
@@ -90,8 +92,14 @@ for (const entry of week.order || []) {
         tracks.push({ name, src: `${AUDIO_DIR}/${f}`, group });
     }
 
-    if (!tracks.length) { fail(`${slug}: no audio files found for this slug`); continue; }
-    if (!present.includes('melody')) note(`${slug}: no melody track (parts: ${present.join(', ')})`);
+    /* A video song carries no audio of its own, and that is fine. */
+    if (!tracks.length && !entry.video) {
+        fail(`${slug}: no audio files and no video for this slug`);
+        continue;
+    }
+    if (tracks.length && !present.includes('melody')) {
+        note(`${slug}: no melody track (parts: ${present.join(', ')})`);
+    }
 
     /* Byte-identical check: two "different" parts that are the same recording. */
     const sums = {};
@@ -107,10 +115,11 @@ for (const entry of week.order || []) {
     const sheet = sheetFiles.filter(f => f.startsWith(`${slug}.sheet.`)).sort(natural);
     const lyric = lyricFiles.filter(f => f.startsWith(`${slug}.lyric.`)).sort(natural);
     if (!sheet.length) note(`${slug}: no sheet music pages`);
-    if (!lyric.length) note(`${slug}: no lyric slides`);
+    if (!lyric.length && !entry.video) note(`${slug}: no lyric slides`);
 
     songs.push({
         title: title.toUpperCase(),                            // songs[] uppercase
+        video: entry.video || undefined,
         useImages: sheet.length > 0,
         imageFiles: sheet,                                     // bare names
         lyricSlideImages: lyric.map(f => `${LYRIC_DIR}/${f}`), // full paths
@@ -139,7 +148,11 @@ console.log(`\n  ${songs.length} songs\n`);
 for (const s of songs) {
     const parts = s.tracks.map(t => t.name.replace('MELODY/SOPRANO', 'MELODY')).join(' ');
     console.log(`    ${String(s.imageFiles.length).padStart(2)}pg ${String(s.lyricSlideImages.length).padStart(3)}sl  ${s.title}`);
-    console.log(`         ${s.tracks.length} button${s.tracks.length === 1 ? '' : 's'}: ${parts}\n`);
+    if (s.video) console.log(`         video: ${s.video}`);
+    if (s.tracks.length) {
+        console.log(`         ${s.tracks.length} button${s.tracks.length === 1 ? '' : 's'}: ${parts}`);
+    }
+    console.log('');
 }
 
 if (notes.length)    { console.log('  Notes');    notes.forEach(n => console.log(`    - ${n}`)); }
@@ -152,4 +165,3 @@ if (problems.length) {
 
 if (CHECK_ONLY) console.log(`\n  Check passed. Nothing written.\n`);
 else { writeFileSync(path.join(ROOT, OUT), JSON.stringify(out, null, 2) + '\n'); console.log(`\n  Wrote ${OUT}\n`); }
-

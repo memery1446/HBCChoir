@@ -4,11 +4,11 @@
     "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
-    { "slug": "fountain", "title": "There Is a Fountain" },
-    { "slug": "provide", "title": "The Lord Will Provide" },
-    { "slug": "wonderful-savior", "title": "Wonderful, Merciful Savior" },
-    { "slug": "peace-river", "title": "I've Got Peace Like a River'" },
-    { "slug": "arms-of-god", "title": "Sheltered In the Arms of God Medley",
+    { "slug": "all-hail", "title": "All Hail the Power of Jesus' Name" },
+    { "slug": "exalted", "title": "He Is Exalted", "video": "vUq4QDrtEjY" },
+    { "slug": "mighty-to-save", "title": "Mighty to Save" },
+    { "slug": "trust", "title": "Trust In God" },
+    { "slug": "power", "title": "Power Medley", "video": "f-GIseuqwqA",
       "prefix": "CHOIR SPECIAL: " }
   ]
 }
