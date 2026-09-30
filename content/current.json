@@ -4,192 +4,143 @@
     "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
-    "All Hail the Power of Jesus' Name",
-    "He Is Exalted",
-    "Mighty to Save",
-    "Trust In God",
-    "CHOIR SPECIAL: Power Medley"
+    "Open the Eyes of My Heart",
+    "Seek Ye First",
+    "Build My Life",
+    "Be Thou My Vision",
+    "CHOIR SPECIAL: I Will Glory In the Cross"
   ],
   "songs": [
     {
-      "title": "ALL HAIL THE POWER OF JESUS' NAME",
+      "title": "OPEN THE EYES OF MY HEART",
       "useImages": true,
       "imageFiles": [
-        "all-hail.sheet.01.png"
+        "open.sheet.01.png",
+        "open.sheet.02.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/all-hail.lyric.01.png",
-        "lyric-slide-images/all-hail.lyric.02.png",
-        "lyric-slide-images/all-hail.lyric.03.png",
-        "lyric-slide-images/all-hail.lyric.04.png",
-        "lyric-slide-images/all-hail.lyric.05.png",
-        "lyric-slide-images/all-hail.lyric.06.png",
-        "lyric-slide-images/all-hail.lyric.07.png",
-        "lyric-slide-images/all-hail.lyric.08.png",
-        "lyric-slide-images/all-hail.lyric.09.png"
+        "lyric-slide-images/open.lyric.01.png",
+        "lyric-slide-images/open.lyric.02.png",
+        "lyric-slide-images/open.lyric.03.png",
+        "lyric-slide-images/open.lyric.04.png",
+        "lyric-slide-images/open.lyric.05.png",
+        "lyric-slide-images/open.lyric.06.png",
+        "lyric-slide-images/open.lyric.07.png",
+        "lyric-slide-images/open.lyric.08.png",
+        "lyric-slide-images/open.lyric.09.png",
+        "lyric-slide-images/open.lyric.10.png",
+        "lyric-slide-images/open.lyric.11.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/all-hail.melody.mp3",
-          "group": "soprano"
-        }
-      ]
-    },
-    {
-      "title": "HE IS EXALTED",
-      "video": "vUq4QDrtEjY",
-      "useImages": true,
-      "imageFiles": [
-        "exalted.sheet.01.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/exalted.lyric.01.png",
-        "lyric-slide-images/exalted.lyric.02.png",
-        "lyric-slide-images/exalted.lyric.03.png",
-        "lyric-slide-images/exalted.lyric.04.png",
-        "lyric-slide-images/exalted.lyric.05.png",
-        "lyric-slide-images/exalted.lyric.06.png",
-        "lyric-slide-images/exalted.lyric.07.png",
-        "lyric-slide-images/exalted.lyric.08.png",
-        "lyric-slide-images/exalted.lyric.09.png",
-        "lyric-slide-images/exalted.lyric.10.png",
-        "lyric-slide-images/exalted.lyric.11.png",
-        "lyric-slide-images/exalted.lyric.12.png",
-        "lyric-slide-images/exalted.lyric.13.png",
-        "lyric-slide-images/exalted.lyric.14.png"
-      ],
-      "tracks": []
-    },
-    {
-      "title": "MIGHTY TO SAVE",
-      "useImages": true,
-      "imageFiles": [
-        "mighty-to-save.sheet.01.png",
-        "mighty-to-save.sheet.02.png",
-        "mighty-to-save.sheet.03.png",
-        "mighty-to-save.sheet.04.png",
-        "mighty-to-save.sheet.05.png",
-        "mighty-to-save.sheet.06.png",
-        "mighty-to-save.sheet.07.png",
-        "mighty-to-save.sheet.08.png",
-        "mighty-to-save.sheet.09.png",
-        "mighty-to-save.sheet.10.png",
-        "mighty-to-save.sheet.11.png",
-        "mighty-to-save.sheet.12.png",
-        "mighty-to-save.sheet.13.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/mighty-to-save.lyric.01.png",
-        "lyric-slide-images/mighty-to-save.lyric.02.png",
-        "lyric-slide-images/mighty-to-save.lyric.03.png",
-        "lyric-slide-images/mighty-to-save.lyric.04.png",
-        "lyric-slide-images/mighty-to-save.lyric.05.png",
-        "lyric-slide-images/mighty-to-save.lyric.06.png",
-        "lyric-slide-images/mighty-to-save.lyric.07.png",
-        "lyric-slide-images/mighty-to-save.lyric.08.png",
-        "lyric-slide-images/mighty-to-save.lyric.09.png",
-        "lyric-slide-images/mighty-to-save.lyric.10.png",
-        "lyric-slide-images/mighty-to-save.lyric.11.png",
-        "lyric-slide-images/mighty-to-save.lyric.12.png",
-        "lyric-slide-images/mighty-to-save.lyric.13.png",
-        "lyric-slide-images/mighty-to-save.lyric.14.png",
-        "lyric-slide-images/mighty-to-save.lyric.15.png",
-        "lyric-slide-images/mighty-to-save.lyric.16.png",
-        "lyric-slide-images/mighty-to-save.lyric.17.png",
-        "lyric-slide-images/mighty-to-save.lyric.18.png",
-        "lyric-slide-images/mighty-to-save.lyric.19.png",
-        "lyric-slide-images/mighty-to-save.lyric.20.png",
-        "lyric-slide-images/mighty-to-save.lyric.21.png"
-      ],
-      "tracks": [
-        {
-          "name": "MELODY/SOPRANO",
-          "src": "audio/mighty-to-save.melody.mp3",
-          "group": "soprano"
-        },
-        {
-          "name": "ALTO",
-          "src": "audio/mighty-to-save.alto.mp3",
-          "group": "alto"
-        },
-        {
-          "name": "TENOR",
-          "src": "audio/mighty-to-save.tenor.mp3",
-          "group": "tenor"
-        },
-        {
-          "name": "BASS",
-          "src": "audio/mighty-to-save.bass.mp3",
-          "group": "bass"
-        }
-      ]
-    },
-    {
-      "title": "TRUST IN GOD",
-      "useImages": true,
-      "imageFiles": [
-        "trust.sheet.01.png",
-        "trust.sheet.02.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/trust.lyric.01.png",
-        "lyric-slide-images/trust.lyric.02.png",
-        "lyric-slide-images/trust.lyric.03.png",
-        "lyric-slide-images/trust.lyric.04.png",
-        "lyric-slide-images/trust.lyric.05.png",
-        "lyric-slide-images/trust.lyric.06.png",
-        "lyric-slide-images/trust.lyric.07.png",
-        "lyric-slide-images/trust.lyric.08.png",
-        "lyric-slide-images/trust.lyric.09.png",
-        "lyric-slide-images/trust.lyric.10.png",
-        "lyric-slide-images/trust.lyric.11.png",
-        "lyric-slide-images/trust.lyric.12.png"
-      ],
-      "tracks": [
-        {
-          "name": "MELODY/SOPRANO",
-          "src": "audio/trust.melody.mp3",
+          "src": "audio/open.melody.mp3",
           "group": "soprano"
         },
         {
           "name": "PIANO",
-          "src": "audio/trust.piano.mp3",
+          "src": "audio/open.piano.mp3",
           "group": "piano"
         }
       ]
     },
     {
-      "title": "POWER MEDLEY",
-      "video": "f-GIseuqwqA",
+      "title": "SEEK YE FIRST",
+      "video": "XI4u0V9c2MU",
       "useImages": true,
       "imageFiles": [
-        "power.sheet.01.png",
-        "power.sheet.02.png",
-        "power.sheet.03.png",
-        "power.sheet.04.png",
-        "power.sheet.05.png",
-        "power.sheet.06.png",
-        "power.sheet.07.png",
-        "power.sheet.08.png"
+        "seek.sheet.01.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/power.lyric.01.png",
-        "lyric-slide-images/power.lyric.02.png",
-        "lyric-slide-images/power.lyric.03.png",
-        "lyric-slide-images/power.lyric.04.png",
-        "lyric-slide-images/power.lyric.05.png",
-        "lyric-slide-images/power.lyric.06.png",
-        "lyric-slide-images/power.lyric.07.png",
-        "lyric-slide-images/power.lyric.08.png",
-        "lyric-slide-images/power.lyric.09.png",
-        "lyric-slide-images/power.lyric.10.png",
-        "lyric-slide-images/power.lyric.11.png",
-        "lyric-slide-images/power.lyric.12.png",
-        "lyric-slide-images/power.lyric.13.png",
-        "lyric-slide-images/power.lyric.14.png",
-        "lyric-slide-images/power.lyric.15.png"
+        "lyric-slide-images/seek.lyric.01.png",
+        "lyric-slide-images/seek.lyric.02.png",
+        "lyric-slide-images/seek.lyric.03.png",
+        "lyric-slide-images/seek.lyric.04.png",
+        "lyric-slide-images/seek.lyric.05.png",
+        "lyric-slide-images/seek.lyric.06.png",
+        "lyric-slide-images/seek.lyric.07.png",
+        "lyric-slide-images/seek.lyric.08.png"
       ],
+      "tracks": []
+    },
+    {
+      "title": "BUILD MY LIFE",
+      "useImages": true,
+      "imageFiles": [
+        "build.sheet.01.png",
+        "build.sheet.02.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/build.lyric.01.png",
+        "lyric-slide-images/build.lyric.02.png",
+        "lyric-slide-images/build.lyric.03.png",
+        "lyric-slide-images/build.lyric.04.png",
+        "lyric-slide-images/build.lyric.05.png",
+        "lyric-slide-images/build.lyric.06.png",
+        "lyric-slide-images/build.lyric.07.png",
+        "lyric-slide-images/build.lyric.08.png",
+        "lyric-slide-images/build.lyric.09.png",
+        "lyric-slide-images/build.lyric.10.png",
+        "lyric-slide-images/build.lyric.11.png",
+        "lyric-slide-images/build.lyric.12.png",
+        "lyric-slide-images/build.lyric.13.png",
+        "lyric-slide-images/build.lyric.14.png",
+        "lyric-slide-images/build.lyric.15.png",
+        "lyric-slide-images/build.lyric.16.png",
+        "lyric-slide-images/build.lyric.17.png",
+        "lyric-slide-images/build.lyric.18.png",
+        "lyric-slide-images/build.lyric.19.png"
+      ],
+      "tracks": [
+        {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/build.melody.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "HARMONY",
+          "src": "audio/build.harmony.mp3",
+          "group": "harmony"
+        }
+      ]
+    },
+    {
+      "title": "BE THOU MY VISION",
+      "video": "nG7hIny0QdU",
+      "useImages": true,
+      "imageFiles": [
+        "be.sheet.01.png",
+        "be.sheet.02.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/be.lyric.01.png",
+        "lyric-slide-images/be.lyric.02.png",
+        "lyric-slide-images/be.lyric.03.png",
+        "lyric-slide-images/be.lyric.04.png",
+        "lyric-slide-images/be.lyric.05.png",
+        "lyric-slide-images/be.lyric.06.png",
+        "lyric-slide-images/be.lyric.07.png",
+        "lyric-slide-images/be.lyric.08.png",
+        "lyric-slide-images/be.lyric.09.png",
+        "lyric-slide-images/be.lyric.10.png"
+      ],
+      "tracks": []
+    },
+    {
+      "title": "I WILL GLORY IN THE CROSS",
+      "video": "QVEISN9CGGM",
+      "useImages": true,
+      "imageFiles": [
+        "glory.sheet.01.png",
+        "glory.sheet.02.png",
+        "glory.sheet.03.png",
+        "glory.sheet.04.png",
+        "glory.sheet.05.png",
+        "glory.sheet.06.png",
+        "glory.sheet.07.png",
+        "glory.sheet.08.png"
+      ],
+      "lyricSlideImages": [],
       "tracks": []
     }
   ],

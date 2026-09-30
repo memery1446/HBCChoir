@@ -2,27 +2,25 @@
 /**
  * convert-images.mjs
  *
- * Replaces convert-pdfs.js and convert-lyric-pdfs.js, which were the same
- * script twice. Same ImageMagick settings you were already using.
+ *   npm run images              convert what has changed
+ *   npm run images -- --dry     show the plan, convert nothing
+ *   npm run images -- --all     rebuild everything, changed or not
  *
- *   node scripts/convert-images.mjs sheet         sheet-music/       -> sheet-music-images/
- *   node scripts/convert-images.mjs lyric         lyric-slides-pdfs/ -> lyric-slide-images/
- *   node scripts/convert-images.mjs both
- *   node scripts/convert-images.mjs both --dry    show the plan, convert nothing
+ * Skips a PDF whose images are already newer than it. Re-export a PDF and
+ * it converts again on the next run; leave it alone and it is never
+ * touched. Demo songs stop being rebuilt every week.
  *
- * Two changes from the originals:
- *
- *  1. Output is named for the convention: <slug>.<kind>.NN.png, one-based
- *     and zero-padded. No more "-0.png", no more service-position prefix,
- *     no more "Copy of ". Nothing to rename afterwards.
- *
- *  2. Existing images for a slug are deleted before writing. If a song had
- *     15 slides last week and 12 this week, slides 13 to 15 no longer
- *     linger and end up on the projector.
+ * A song is "current" if its slug appears in content/week.json or
+ * content/demo.json. A PDF for anything else is skipped with a warning
+ * rather than halting the run, since video songs have no audio and old
+ * songs linger until `npm run clean` removes them.
  */
 
 import { execFileSync } from 'node:child_process';
-import { readdirSync, existsSync, mkdirSync, mkdtempSync, rmSync, renameSync, statSync } from 'node:fs';
+import {
+    readdirSync, existsSync, mkdirSync, mkdtempSync, rmSync,
+    renameSync, statSync, readFileSync
+} from 'node:fs';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
 
@@ -31,9 +29,8 @@ const JOBS = {
     lyric: { in: 'lyric-slides-pdfs', out: 'lyric-slide-images' }
 };
 
-/* Your existing settings, unchanged. */
+/* Your settings, unchanged. */
 const MAGICK_ARGS = [
-    '-density', '400',
     '-colorspace', 'sRGB',
     '-background', 'white',
     '-alpha', 'remove',
@@ -42,21 +39,21 @@ const MAGICK_ARGS = [
     '-quality', '98'
 ];
 
-const argv = process.argv.slice(2);
+const argv  = process.argv.slice(2);
 const DRY   = argv.includes('--dry');
-const FORCE = argv.includes('--force');
+const ALL   = argv.includes('--all') || argv.includes('--force');
 const which = argv.find(a => !a.startsWith('--')) || 'both';
 const kinds = which === 'both' ? ['sheet', 'lyric'] : [which];
 
 if (kinds.some(k => !JOBS[k])) {
-    console.error('usage: convert-images.mjs [sheet|lyric|both] [--dry]');
+    console.error('usage: convert-images.mjs [sheet|lyric|both] [--dry] [--all]');
     process.exit(1);
 }
 
 function slugify(name) {
     return name
         .replace(/^Copy of /i, '')
-        .replace(/^\d+[.\-_ ]+/, '')     // strip the weekly service-position prefix
+        .replace(/^\d+[.\-_ ]+/, '')
         .replace(/['’]/g, '')
         .replace(/[.\s_]+/g, '-')
         .replace(/[^a-zA-Z0-9-]/g, '')
@@ -75,76 +72,17 @@ if (!DRY) {
     requireTool('gs', ['--version'], 'brew install ghostscript');
 }
 
-/* Cross-check derived slugs against audio/. A typo in a PDF filename would
-   otherwise silently create a whole parallel set of images for a song that
-   does not exist. Override with --force when a song has no audio yet. */
-const audioSlugs = new Set(
-    existsSync('audio')
-        ? readdirSync('audio')
-            .filter(f => f.endsWith('.mp3'))
-            .map(f => f.replace(/\.[a-z0-9]+\.mp3$/i, ''))
-        : []
-);
-
-function closest(slug) {
-    let best = null, bestScore = Infinity;
-    for (const c of audioSlugs) {
-        const a = slug, b = c;
-        const d = [...Array(a.length + 1)].map((_, i) => [i, ...Array(b.length).fill(0)]);
-        for (let j = 0; j <= b.length; j++) d[0][j] = j;
-        for (let i = 1; i <= a.length; i++)
-            for (let j = 1; j <= b.length; j++)
-                d[i][j] = Math.min(d[i-1][j] + 1, d[i][j-1] + 1,
-                    d[i-1][j-1] + (a[i-1] === b[j-1] ? 0 : 1));
-        if (d[a.length][b.length] < bestScore) { bestScore = d[a.length][b.length]; best = c; }
-    }
-    return bestScore <= Math.max(4, slug.length * 0.4) ? best : null;
+/* Current songs come from the JSON, not from the audio folder: a video
+   song has sheet music and no tracks at all. */
+function slugsFrom(file) {
+    const p = path.join('content', file);
+    if (!existsSync(p)) return [];
+    const data = JSON.parse(readFileSync(p, 'utf8'));
+    return (data.order || data.songs || []).map(r => r.slug).filter(Boolean);
 }
+const current = new Set([...slugsFrom('week.json'), ...slugsFrom('demo.json')]);
 
-if (audioSlugs.size && !FORCE) {
-    const bad = [];
-    for (const kind of kinds) {
-        const { in: inDir } = JOBS[kind];
-        if (!existsSync(inDir)) continue;
-        for (const pdf of readdirSync(inDir).filter(f => f.toLowerCase().endsWith('.pdf'))) {
-            const slug = slugify(path.basename(pdf, path.extname(pdf)));
-            if (slug && !audioSlugs.has(slug)) bad.push({ inDir, pdf, slug, near: closest(slug) });
-        }
-    }
-    /* Two PDFs in one folder deriving the same slug means one silently
-   overwrites the other. Stop instead. */
-    for (const kind of kinds) {
-        const { in: inDir } = JOBS[kind];
-        if (!existsSync(inDir)) continue;
-        const seen = {};
-        for (const pdf of readdirSync(inDir).filter(f => f.toLowerCase().endsWith('.pdf'))) {
-            const slug = slugify(path.basename(pdf, path.extname(pdf)));
-            (seen[slug] = seen[slug] || []).push(pdf);
-        }
-        const dupes = Object.entries(seen).filter(([, v]) => v.length > 1);
-        if (dupes.length) {
-            console.log(`\n  ${inDir}/ has PDFs that would overwrite each other:\n`);
-            dupes.forEach(([slug, files]) => {
-                console.log(`    -> ${slug}`);
-                files.forEach(f => console.log(`       ${f}`));
-            });
-            console.log('\n  Delete or rename the duplicates.\n');
-            process.exit(1);
-        }
-    }
-    if (bad.length) {
-        console.log('\n  These PDFs do not match any song in audio/:\n');
-        bad.forEach(b => {
-            console.log(`    ${b.inDir}/${b.pdf}`);
-            console.log(`      would create: ${b.slug}`);
-            if (b.near) console.log(`      did you mean: ${b.near}`);
-        });
-        console.log('\n  Rename the PDF to match, or re-run with --force.\n');
-        process.exit(1);
-    }
-}
-
-let totalPages = 0, totalBytes = 0;
+let built = 0, skipped = 0, stale = 0, totalPages = 0, totalBytes = 0;
 
 for (const kind of kinds) {
     const { in: inDir, out: outDir } = JOBS[kind];
@@ -157,25 +95,44 @@ for (const kind of kinds) {
 
     for (const pdf of pdfs) {
         const slug = slugify(path.basename(pdf, path.extname(pdf)));
-        if (!slug) { console.log(`  ! could not derive a slug from ${pdf}, skipping`); continue; }
+        if (!slug) { console.log(`  ! could not derive a slug from ${pdf}`); continue; }
 
-        /* Clear previous output for this slug so stale pages cannot survive. */
-        const stale = readdirSync(outDir).filter(f => f.startsWith(`${slug}.${kind}.`));
-
-        if (DRY) {
-            console.log(`  ${pdf}\n    -> ${slug}.${kind}.NN.png` +
-                (stale.length ? `   (would first remove ${stale.length} existing)` : ''));
+        if (current.size && !current.has(slug)) {
+            console.log(`  - ${pdf}  not in this week or the demo, leaving alone`);
+            stale++;
             continue;
         }
 
-        stale.forEach(f => rmSync(path.join(outDir, f)));
+        const existing = readdirSync(outDir).filter(f => f.startsWith(`${slug}.${kind}.`));
+
+        /* Already converted and the PDF has not changed since. */
+        if (!ALL && existing.length) {
+            const pdfTime = statSync(path.join(inDir, pdf)).mtimeMs;
+            const imgTime = Math.min(
+                ...existing.map(f => statSync(path.join(outDir, f)).mtimeMs)
+            );
+            if (imgTime > pdfTime) {
+                console.log(`  = ${pdf}  unchanged (${existing.length} pages)`);
+                skipped++;
+                continue;
+            }
+        }
+
+        if (DRY) {
+            console.log(`  + ${pdf}\n      -> ${slug}.${kind}.NN.png` +
+                (existing.length ? `   (replacing ${existing.length})` : ''));
+            built++;
+            continue;
+        }
+
+        existing.forEach(f => rmSync(path.join(outDir, f)));
 
         const tmp = mkdtempSync(path.join(tmpdir(), 'hbc-'));
         try {
             execFileSync('magick', [
                 '-density', '400',
                 path.join(inDir, pdf),
-                ...MAGICK_ARGS.slice(2),
+                ...MAGICK_ARGS,
                 path.join(tmp, 'page-%04d.png')
             ], { stdio: 'pipe' });
 
@@ -190,8 +147,8 @@ for (const kind of kinds) {
             });
 
             totalPages += pages.length;
-            console.log(`  ${pdf}\n    -> ${slug}.${kind}.01..${String(pages.length).padStart(2, '0')}.png` +
-                (stale.length ? `   (replaced ${stale.length})` : ''));
+            built++;
+            console.log(`  + ${pdf}\n      -> ${slug}.${kind}.01..${String(pages.length).padStart(2, '0')}.png`);
 
         } catch (err) {
             console.error(`  ! failed on ${pdf}: ${err.message.split('\n')[0]}`);
@@ -201,6 +158,10 @@ for (const kind of kinds) {
     }
 }
 
-if (DRY) console.log('\n  Dry run. Nothing converted.\n');
-else console.log(`\n  ${totalPages} pages, ${(totalBytes / 1048576).toFixed(1)}MB\n`);
-
+console.log('');
+if (DRY) {
+    console.log(`  ${built} would convert, ${skipped} unchanged, ${stale} not current. Nothing written.\n`);
+} else {
+    console.log(`  ${built} converted (${totalPages} pages, ${(totalBytes / 1048576).toFixed(1)}MB), ` +
+        `${skipped} unchanged, ${stale} not current.\n`);
+}

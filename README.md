@@ -47,5 +47,6 @@ node convert-lyric-pdfs.js
 Both scripts refuse to run on a mismatch rather than shipping something wrong.
 
 npm run clean -- --apply
-node scripts/convert-images.mjs both --force
+node scripts/convert-images.mjs both -- --force
 
+npm run images -- --dry

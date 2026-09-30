@@ -4,11 +4,11 @@
     "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
-    { "slug": "all-hail", "title": "All Hail the Power of Jesus' Name" },
-    { "slug": "exalted", "title": "He Is Exalted", "video": "vUq4QDrtEjY" },
-    { "slug": "mighty-to-save", "title": "Mighty to Save" },
-    { "slug": "trust", "title": "Trust In God" },
-    { "slug": "power", "title": "Power Medley", "video": "f-GIseuqwqA",
+    { "slug": "open", "title": "Open the Eyes of My Heart" },
+    { "slug": "seek", "title": "Seek Ye First", "video": "XI4u0V9c2MU" },
+    { "slug": "build", "title": "Build My Life" },
+    { "slug": "be", "title": "Be Thou My Vision", "video": "nG7hIny0QdU" },
+    { "slug": "glory", "title": "I Will Glory In the Cross", "video": "QVEISN9CGGM",
       "prefix": "CHOIR SPECIAL: " }
   ]
 }
