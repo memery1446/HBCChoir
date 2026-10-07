@@ -50,3 +50,7 @@ npm run clean -- --apply
 node scripts/convert-images.mjs both -- --force
 
 npm run images -- --dry
+
+Pulled from week.json for week of 10.11:
+{ "slug": "glory", "title": "I Will Glory In the Cross", "video": "QVEISN9CGGM",
+"prefix": "CHOIR SPECIAL: " }

@@ -4,11 +4,10 @@
     "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
-    { "slug": "open", "title": "Open the Eyes of My Heart" },
-    { "slug": "seek", "title": "Seek Ye First", "video": "XI4u0V9c2MU" },
-    { "slug": "build", "title": "Build My Life" },
-    { "slug": "be", "title": "Be Thou My Vision", "video": "nG7hIny0QdU" },
-    { "slug": "glory", "title": "I Will Glory In the Cross", "video": "QVEISN9CGGM",
-      "prefix": "CHOIR SPECIAL: " }
+    { "slug": "joyful", "title": "Joyful, Joyful" },
+    { "slug": "house", "title": "House of the Lord" },
+    { "slug": "holy-forever", "title": "Holy Forever" },
+    { "slug": "worthy", "title": "Worthy of Worship" }
+
   ]
 }

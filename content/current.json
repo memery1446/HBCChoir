@@ -4,144 +4,83 @@
     "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
-    "Open the Eyes of My Heart",
-    "Seek Ye First",
-    "Build My Life",
-    "Be Thou My Vision",
-    "CHOIR SPECIAL: I Will Glory In the Cross"
+    "Joyful, Joyful",
+    "House of the Lord",
+    "Holy Forever",
+    "Worthy of Worship"
   ],
   "songs": [
     {
-      "title": "OPEN THE EYES OF MY HEART",
-      "useImages": true,
-      "imageFiles": [
-        "open.sheet.01.png",
-        "open.sheet.02.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/open.lyric.01.png",
-        "lyric-slide-images/open.lyric.02.png",
-        "lyric-slide-images/open.lyric.03.png",
-        "lyric-slide-images/open.lyric.04.png",
-        "lyric-slide-images/open.lyric.05.png",
-        "lyric-slide-images/open.lyric.06.png",
-        "lyric-slide-images/open.lyric.07.png",
-        "lyric-slide-images/open.lyric.08.png",
-        "lyric-slide-images/open.lyric.09.png",
-        "lyric-slide-images/open.lyric.10.png",
-        "lyric-slide-images/open.lyric.11.png"
-      ],
+      "title": "JOYFUL, JOYFUL",
+      "useImages": false,
+      "imageFiles": [],
+      "lyricSlideImages": [],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/open.melody.mp3",
+          "src": "audio/joyful.melody.mp3",
           "group": "soprano"
         },
         {
           "name": "PIANO",
-          "src": "audio/open.piano.mp3",
+          "src": "audio/joyful.piano.mp3",
           "group": "piano"
         }
       ]
     },
     {
-      "title": "SEEK YE FIRST",
-      "video": "XI4u0V9c2MU",
-      "useImages": true,
-      "imageFiles": [
-        "seek.sheet.01.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/seek.lyric.01.png",
-        "lyric-slide-images/seek.lyric.02.png",
-        "lyric-slide-images/seek.lyric.03.png",
-        "lyric-slide-images/seek.lyric.04.png",
-        "lyric-slide-images/seek.lyric.05.png",
-        "lyric-slide-images/seek.lyric.06.png",
-        "lyric-slide-images/seek.lyric.07.png",
-        "lyric-slide-images/seek.lyric.08.png"
-      ],
-      "tracks": []
-    },
-    {
-      "title": "BUILD MY LIFE",
-      "useImages": true,
-      "imageFiles": [
-        "build.sheet.01.png",
-        "build.sheet.02.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/build.lyric.01.png",
-        "lyric-slide-images/build.lyric.02.png",
-        "lyric-slide-images/build.lyric.03.png",
-        "lyric-slide-images/build.lyric.04.png",
-        "lyric-slide-images/build.lyric.05.png",
-        "lyric-slide-images/build.lyric.06.png",
-        "lyric-slide-images/build.lyric.07.png",
-        "lyric-slide-images/build.lyric.08.png",
-        "lyric-slide-images/build.lyric.09.png",
-        "lyric-slide-images/build.lyric.10.png",
-        "lyric-slide-images/build.lyric.11.png",
-        "lyric-slide-images/build.lyric.12.png",
-        "lyric-slide-images/build.lyric.13.png",
-        "lyric-slide-images/build.lyric.14.png",
-        "lyric-slide-images/build.lyric.15.png",
-        "lyric-slide-images/build.lyric.16.png",
-        "lyric-slide-images/build.lyric.17.png",
-        "lyric-slide-images/build.lyric.18.png",
-        "lyric-slide-images/build.lyric.19.png"
-      ],
+      "title": "HOUSE OF THE LORD",
+      "useImages": false,
+      "imageFiles": [],
+      "lyricSlideImages": [],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/build.melody.mp3",
+          "src": "audio/house.melody.mp3",
           "group": "soprano"
         },
         {
-          "name": "HARMONY",
-          "src": "audio/build.harmony.mp3",
-          "group": "harmony"
+          "name": "PIANO",
+          "src": "audio/house.piano.mp3",
+          "group": "piano"
         }
       ]
     },
     {
-      "title": "BE THOU MY VISION",
-      "video": "nG7hIny0QdU",
-      "useImages": true,
-      "imageFiles": [
-        "be.sheet.01.png",
-        "be.sheet.02.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/be.lyric.01.png",
-        "lyric-slide-images/be.lyric.02.png",
-        "lyric-slide-images/be.lyric.03.png",
-        "lyric-slide-images/be.lyric.04.png",
-        "lyric-slide-images/be.lyric.05.png",
-        "lyric-slide-images/be.lyric.06.png",
-        "lyric-slide-images/be.lyric.07.png",
-        "lyric-slide-images/be.lyric.08.png",
-        "lyric-slide-images/be.lyric.09.png",
-        "lyric-slide-images/be.lyric.10.png"
-      ],
-      "tracks": []
+      "title": "HOLY FOREVER",
+      "useImages": false,
+      "imageFiles": [],
+      "lyricSlideImages": [],
+      "tracks": [
+        {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/holy-forever.melody.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "ALTO",
+          "src": "audio/holy-forever.alto.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "PIANO",
+          "src": "audio/holy-forever.piano.mp3",
+          "group": "piano"
+        }
+      ]
     },
     {
-      "title": "I WILL GLORY IN THE CROSS",
-      "video": "QVEISN9CGGM",
-      "useImages": true,
-      "imageFiles": [
-        "glory.sheet.01.png",
-        "glory.sheet.02.png",
-        "glory.sheet.03.png",
-        "glory.sheet.04.png",
-        "glory.sheet.05.png",
-        "glory.sheet.06.png",
-        "glory.sheet.07.png",
-        "glory.sheet.08.png"
-      ],
+      "title": "WORTHY OF WORSHIP",
+      "useImages": false,
+      "imageFiles": [],
       "lyricSlideImages": [],
-      "tracks": []
+      "tracks": [
+        {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/worthy.melody.mp3",
+          "group": "soprano"
+        }
+      ]
     }
   ],
   "allSongsPdf": null,
