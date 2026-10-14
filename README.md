@@ -51,6 +51,9 @@ node scripts/convert-images.mjs both -- --force
 
 npm run images -- --dry
 
-Pulled from week.json for week of 10.11:
-{ "slug": "glory", "title": "I Will Glory In the Cross", "video": "QVEISN9CGGM",
-"prefix": "CHOIR SPECIAL: " }
+REmoved on 10/14:
+{ "slug": "decided", "title": "I Have Decided to Follow Jesus", "video": "L7XHeCZB5KU" },
+{ "slug": "let.it.be", "title": "Take My Life and Let It Be", "video": "lQ93HVuYd5Y" },
+{ "slug": "take.my.life", "title": "Take My Life", "video": "zIMzewhJfpAD29j3" },
+{ "slug": "yet.not.I", "title": "Yet Not I, But Through Christ In Me" },
+{ "slug": "choose", "title": "I Will Choose Christ" },

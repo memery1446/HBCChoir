@@ -4,10 +4,8 @@
     "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
-    { "slug": "joyful", "title": "Joyful, Joyful" },
-    { "slug": "house", "title": "House of the Lord" },
-    { "slug": "holy-forever", "title": "Holy Forever" },
-    { "slug": "worthy", "title": "Worthy of Worship" }
-
+    { "slug": "enough", "title": "Christ Is Enough for Me", "video": "dEGT8lrNyvw",
+      "prefix": "CHOIR SPECIAL: " }
   ]
 }
+

@@ -4,83 +4,16 @@
     "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
-    "Joyful, Joyful",
-    "House of the Lord",
-    "Holy Forever",
-    "Worthy of Worship"
+    "CHOIR SPECIAL: Christ Is Enough for Me"
   ],
   "songs": [
     {
-      "title": "JOYFUL, JOYFUL",
+      "title": "CHRIST IS ENOUGH FOR ME",
+      "video": "dEGT8lrNyvw",
       "useImages": false,
       "imageFiles": [],
       "lyricSlideImages": [],
-      "tracks": [
-        {
-          "name": "MELODY/SOPRANO",
-          "src": "audio/joyful.melody.mp3",
-          "group": "soprano"
-        },
-        {
-          "name": "PIANO",
-          "src": "audio/joyful.piano.mp3",
-          "group": "piano"
-        }
-      ]
-    },
-    {
-      "title": "HOUSE OF THE LORD",
-      "useImages": false,
-      "imageFiles": [],
-      "lyricSlideImages": [],
-      "tracks": [
-        {
-          "name": "MELODY/SOPRANO",
-          "src": "audio/house.melody.mp3",
-          "group": "soprano"
-        },
-        {
-          "name": "PIANO",
-          "src": "audio/house.piano.mp3",
-          "group": "piano"
-        }
-      ]
-    },
-    {
-      "title": "HOLY FOREVER",
-      "useImages": false,
-      "imageFiles": [],
-      "lyricSlideImages": [],
-      "tracks": [
-        {
-          "name": "MELODY/SOPRANO",
-          "src": "audio/holy-forever.melody.mp3",
-          "group": "soprano"
-        },
-        {
-          "name": "ALTO",
-          "src": "audio/holy-forever.alto.mp3",
-          "group": "alto"
-        },
-        {
-          "name": "PIANO",
-          "src": "audio/holy-forever.piano.mp3",
-          "group": "piano"
-        }
-      ]
-    },
-    {
-      "title": "WORTHY OF WORSHIP",
-      "useImages": false,
-      "imageFiles": [],
-      "lyricSlideImages": [],
-      "tracks": [
-        {
-          "name": "MELODY/SOPRANO",
-          "src": "audio/worthy.melody.mp3",
-          "group": "soprano"
-        }
-      ]
+      "tracks": []
     }
   ],
   "allSongsPdf": null,
