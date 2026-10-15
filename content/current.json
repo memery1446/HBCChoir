@@ -15,36 +15,86 @@
     {
       "title": "I HAVE DECIDED TO FOLLOW JESUS",
       "video": "L7XHeCZB5KU",
-      "useImages": false,
-      "imageFiles": [],
-      "lyricSlideImages": [],
+      "useImages": true,
+      "imageFiles": [
+        "decided.sheet.01.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/decided.lyric.01.png",
+        "lyric-slide-images/decided.lyric.02.png",
+        "lyric-slide-images/decided.lyric.03.png",
+        "lyric-slide-images/decided.lyric.04.png",
+        "lyric-slide-images/decided.lyric.05.png"
+      ],
       "tracks": []
     },
     {
       "title": "TAKE MY LIFE AND LET IT BE",
       "video": "lQ93HVuYd5Y",
-      "useImages": false,
-      "imageFiles": [],
-      "lyricSlideImages": [],
+      "useImages": true,
+      "imageFiles": [
+        "let-it-be.sheet.01.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/let-it-be.lyric.01.png",
+        "lyric-slide-images/let-it-be.lyric.02.png",
+        "lyric-slide-images/let-it-be.lyric.03.png",
+        "lyric-slide-images/let-it-be.lyric.04.png",
+        "lyric-slide-images/let-it-be.lyric.05.png"
+      ],
       "tracks": []
     },
     {
       "title": "TAKE MY LIFE",
-      "video": "zIMzewhJfpAD29j3",
-      "useImages": false,
-      "imageFiles": [],
-      "lyricSlideImages": [],
+      "video": "ZWc69Hh0owY",
+      "useImages": true,
+      "imageFiles": [
+        "take-my-life.sheet.01.png",
+        "take-my-life.sheet.02.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/take-my-life.lyric.01.png",
+        "lyric-slide-images/take-my-life.lyric.02.png",
+        "lyric-slide-images/take-my-life.lyric.03.png",
+        "lyric-slide-images/take-my-life.lyric.04.png",
+        "lyric-slide-images/take-my-life.lyric.05.png",
+        "lyric-slide-images/take-my-life.lyric.06.png",
+        "lyric-slide-images/take-my-life.lyric.07.png",
+        "lyric-slide-images/take-my-life.lyric.08.png"
+      ],
       "tracks": []
     },
     {
       "title": "YET NOT I, BUT THROUGH CHRIST IN ME",
-      "useImages": false,
-      "imageFiles": [],
-      "lyricSlideImages": [],
+      "useImages": true,
+      "imageFiles": [
+        "yet-not-i.sheet.01.png",
+        "yet-not-i.sheet.02.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/yet-not-i.lyric.01.png",
+        "lyric-slide-images/yet-not-i.lyric.02.png",
+        "lyric-slide-images/yet-not-i.lyric.03.png",
+        "lyric-slide-images/yet-not-i.lyric.04.png",
+        "lyric-slide-images/yet-not-i.lyric.05.png",
+        "lyric-slide-images/yet-not-i.lyric.06.png",
+        "lyric-slide-images/yet-not-i.lyric.07.png",
+        "lyric-slide-images/yet-not-i.lyric.08.png",
+        "lyric-slide-images/yet-not-i.lyric.09.png",
+        "lyric-slide-images/yet-not-i.lyric.10.png",
+        "lyric-slide-images/yet-not-i.lyric.11.png",
+        "lyric-slide-images/yet-not-i.lyric.12.png",
+        "lyric-slide-images/yet-not-i.lyric.13.png",
+        "lyric-slide-images/yet-not-i.lyric.14.png",
+        "lyric-slide-images/yet-not-i.lyric.15.png",
+        "lyric-slide-images/yet-not-i.lyric.16.png",
+        "lyric-slide-images/yet-not-i.lyric.17.png",
+        "lyric-slide-images/yet-not-i.lyric.18.png"
+      ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/yet-not-I.melody.mp3",
+          "src": "audio/yet-not-i.melody.mp3",
           "group": "soprano"
         }
       ]
@@ -52,9 +102,30 @@
     {
       "title": "I WILL CHOOSE CHRIST",
       "video": "L793clHztwo",
-      "useImages": false,
-      "imageFiles": [],
-      "lyricSlideImages": [],
+      "useImages": true,
+      "imageFiles": [
+        "choose.sheet.01.png",
+        "choose.sheet.02.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/choose.lyric.01.png",
+        "lyric-slide-images/choose.lyric.02.png",
+        "lyric-slide-images/choose.lyric.03.png",
+        "lyric-slide-images/choose.lyric.04.png",
+        "lyric-slide-images/choose.lyric.05.png",
+        "lyric-slide-images/choose.lyric.06.png",
+        "lyric-slide-images/choose.lyric.07.png",
+        "lyric-slide-images/choose.lyric.08.png",
+        "lyric-slide-images/choose.lyric.09.png",
+        "lyric-slide-images/choose.lyric.10.png",
+        "lyric-slide-images/choose.lyric.11.png",
+        "lyric-slide-images/choose.lyric.12.png",
+        "lyric-slide-images/choose.lyric.13.png",
+        "lyric-slide-images/choose.lyric.14.png",
+        "lyric-slide-images/choose.lyric.15.png",
+        "lyric-slide-images/choose.lyric.16.png",
+        "lyric-slide-images/choose.lyric.17.png"
+      ],
       "tracks": []
     },
     {
