@@ -4,6 +4,11 @@
     "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
+    { "slug": "decided", "title": "I Have Decided to Follow Jesus", "video": "L7XHeCZB5KU" },
+    { "slug": "let-it-be", "title": "Take My Life and Let It Be", "video": "lQ93HVuYd5Y" },
+    { "slug": "take-my-life", "title": "Take My Life", "video": "zIMzewhJfpAD29j3" },
+    { "slug": "yet-not-I", "title": "Yet Not I, But Through Christ In Me" },
+    { "slug": "choose", "title": "I Will Choose Christ", "video": "L793clHztwo" },
     { "slug": "enough", "title": "Christ Is Enough for Me", "video": "dEGT8lrNyvw",
       "prefix": "CHOIR SPECIAL: " }
   ]

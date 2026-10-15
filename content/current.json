@@ -4,9 +4,59 @@
     "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
+    "I Have Decided to Follow Jesus",
+    "Take My Life and Let It Be",
+    "Take My Life",
+    "Yet Not I, But Through Christ In Me",
+    "I Will Choose Christ",
     "CHOIR SPECIAL: Christ Is Enough for Me"
   ],
   "songs": [
+    {
+      "title": "I HAVE DECIDED TO FOLLOW JESUS",
+      "video": "L7XHeCZB5KU",
+      "useImages": false,
+      "imageFiles": [],
+      "lyricSlideImages": [],
+      "tracks": []
+    },
+    {
+      "title": "TAKE MY LIFE AND LET IT BE",
+      "video": "lQ93HVuYd5Y",
+      "useImages": false,
+      "imageFiles": [],
+      "lyricSlideImages": [],
+      "tracks": []
+    },
+    {
+      "title": "TAKE MY LIFE",
+      "video": "zIMzewhJfpAD29j3",
+      "useImages": false,
+      "imageFiles": [],
+      "lyricSlideImages": [],
+      "tracks": []
+    },
+    {
+      "title": "YET NOT I, BUT THROUGH CHRIST IN ME",
+      "useImages": false,
+      "imageFiles": [],
+      "lyricSlideImages": [],
+      "tracks": [
+        {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/yet-not-I.melody.mp3",
+          "group": "soprano"
+        }
+      ]
+    },
+    {
+      "title": "I WILL CHOOSE CHRIST",
+      "video": "L793clHztwo",
+      "useImages": false,
+      "imageFiles": [],
+      "lyricSlideImages": [],
+      "tracks": []
+    },
     {
       "title": "CHRIST IS ENOUGH FOR ME",
       "video": "dEGT8lrNyvw",
