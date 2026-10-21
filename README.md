@@ -52,4 +52,41 @@ node scripts/convert-images.mjs both -- --force
 npm run images -- --dry
 
 
+WEEKLY
 
+## Weekly routine
+
+1. Drop files in: `audio/<slug>.<part>.mp3`, `sheet-music/<slug>.pdf`, `pptx-files/<slug>.pptx`. All lowercase.
+2. Edit `content/week.json`.
+
+```bash
+node scripts/clean-week.mjs
+```
+
+```bash
+node scripts/clean-week.mjs --apply
+```
+
+```bash
+node convert-pptx-to-pdf.js
+```
+
+```bash
+node scripts/convert-images.mjs both
+```
+
+```bash
+npm run week
+```
+
+```bash
+git add -A
+```
+
+```bash
+git commit -m "Music for October 19"
+```
+
+```bash
+git push
+```

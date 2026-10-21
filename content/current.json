@@ -4,170 +4,256 @@
     "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
-    "I Have Decided to Follow Jesus",
-    "Take My Life and Let It Be",
-    "Take My Life",
-    "Yet Not I, But Through Christ In Me",
-    "I Will Choose Christ",
-    "CHOIR SPECIAL: Christ Is Enough for Me"
+    "10,000 Reasons / Bless the Lord",
+    "Raise a Hallelujah",
+    "I Know a Name",
+    "Trust In God",
+    "Christ In Me Arise",
+    "CHOIR SPECIAL: His Eye Is On the Sparrow"
   ],
   "songs": [
     {
-      "title": "I HAVE DECIDED TO FOLLOW JESUS",
-      "video": "L7XHeCZB5KU",
+      "title": "10,000 REASONS / BLESS THE LORD",
       "useImages": true,
       "imageFiles": [
-        "decided.sheet.01.png"
+        "reasons.sheet.01.png",
+        "reasons.sheet.02.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/decided.lyric.01.png",
-        "lyric-slide-images/decided.lyric.02.png",
-        "lyric-slide-images/decided.lyric.03.png",
-        "lyric-slide-images/decided.lyric.04.png",
-        "lyric-slide-images/decided.lyric.05.png"
-      ],
-      "tracks": []
-    },
-    {
-      "title": "TAKE MY LIFE AND LET IT BE",
-      "video": "lQ93HVuYd5Y",
-      "useImages": true,
-      "imageFiles": [
-        "let-it-be.sheet.01.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/let-it-be.lyric.01.png",
-        "lyric-slide-images/let-it-be.lyric.02.png",
-        "lyric-slide-images/let-it-be.lyric.03.png",
-        "lyric-slide-images/let-it-be.lyric.04.png",
-        "lyric-slide-images/let-it-be.lyric.05.png"
-      ],
-      "tracks": []
-    },
-    {
-      "title": "TAKE MY LIFE",
-      "video": "ZWc69Hh0owY",
-      "useImages": true,
-      "imageFiles": [
-        "take-my-life.sheet.01.png",
-        "take-my-life.sheet.02.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/take-my-life.lyric.01.png",
-        "lyric-slide-images/take-my-life.lyric.02.png",
-        "lyric-slide-images/take-my-life.lyric.03.png",
-        "lyric-slide-images/take-my-life.lyric.04.png",
-        "lyric-slide-images/take-my-life.lyric.05.png",
-        "lyric-slide-images/take-my-life.lyric.06.png",
-        "lyric-slide-images/take-my-life.lyric.07.png",
-        "lyric-slide-images/take-my-life.lyric.08.png"
-      ],
-      "tracks": []
-    },
-    {
-      "title": "YET NOT I, BUT THROUGH CHRIST IN ME",
-      "useImages": true,
-      "imageFiles": [
-        "yet-not-i.sheet.01.png",
-        "yet-not-i.sheet.02.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/yet-not-i.lyric.01.png",
-        "lyric-slide-images/yet-not-i.lyric.02.png",
-        "lyric-slide-images/yet-not-i.lyric.03.png",
-        "lyric-slide-images/yet-not-i.lyric.04.png",
-        "lyric-slide-images/yet-not-i.lyric.05.png",
-        "lyric-slide-images/yet-not-i.lyric.06.png",
-        "lyric-slide-images/yet-not-i.lyric.07.png",
-        "lyric-slide-images/yet-not-i.lyric.08.png",
-        "lyric-slide-images/yet-not-i.lyric.09.png",
-        "lyric-slide-images/yet-not-i.lyric.10.png",
-        "lyric-slide-images/yet-not-i.lyric.11.png",
-        "lyric-slide-images/yet-not-i.lyric.12.png",
-        "lyric-slide-images/yet-not-i.lyric.13.png",
-        "lyric-slide-images/yet-not-i.lyric.14.png",
-        "lyric-slide-images/yet-not-i.lyric.15.png",
-        "lyric-slide-images/yet-not-i.lyric.16.png",
-        "lyric-slide-images/yet-not-i.lyric.17.png",
-        "lyric-slide-images/yet-not-i.lyric.18.png"
+        "lyric-slide-images/reasons.lyric.01.png",
+        "lyric-slide-images/reasons.lyric.02.png",
+        "lyric-slide-images/reasons.lyric.03.png",
+        "lyric-slide-images/reasons.lyric.04.png",
+        "lyric-slide-images/reasons.lyric.05.png",
+        "lyric-slide-images/reasons.lyric.06.png",
+        "lyric-slide-images/reasons.lyric.07.png",
+        "lyric-slide-images/reasons.lyric.08.png",
+        "lyric-slide-images/reasons.lyric.09.png",
+        "lyric-slide-images/reasons.lyric.10.png",
+        "lyric-slide-images/reasons.lyric.11.png",
+        "lyric-slide-images/reasons.lyric.12.png",
+        "lyric-slide-images/reasons.lyric.13.png",
+        "lyric-slide-images/reasons.lyric.14.png",
+        "lyric-slide-images/reasons.lyric.15.png",
+        "lyric-slide-images/reasons.lyric.16.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/yet-not-i.melody.mp3",
+          "src": "audio/reasons.melody.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "ALTO",
+          "src": "audio/reasons.alto.mp3",
+          "group": "alto"
+        },
+        {
+          "name": "TENOR",
+          "src": "audio/reasons.tenor.mp3",
+          "group": "tenor"
+        }
+      ]
+    },
+    {
+      "title": "RAISE A HALLELUJAH",
+      "useImages": true,
+      "imageFiles": [
+        "hallelujah.sheet.01.png",
+        "hallelujah.sheet.02.png",
+        "hallelujah.sheet.03.png",
+        "hallelujah.sheet.04.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/hallelujah.lyric.01.png",
+        "lyric-slide-images/hallelujah.lyric.02.png",
+        "lyric-slide-images/hallelujah.lyric.03.png",
+        "lyric-slide-images/hallelujah.lyric.04.png",
+        "lyric-slide-images/hallelujah.lyric.05.png",
+        "lyric-slide-images/hallelujah.lyric.06.png",
+        "lyric-slide-images/hallelujah.lyric.07.png",
+        "lyric-slide-images/hallelujah.lyric.08.png",
+        "lyric-slide-images/hallelujah.lyric.09.png",
+        "lyric-slide-images/hallelujah.lyric.10.png",
+        "lyric-slide-images/hallelujah.lyric.11.png",
+        "lyric-slide-images/hallelujah.lyric.12.png",
+        "lyric-slide-images/hallelujah.lyric.13.png",
+        "lyric-slide-images/hallelujah.lyric.14.png",
+        "lyric-slide-images/hallelujah.lyric.15.png",
+        "lyric-slide-images/hallelujah.lyric.16.png",
+        "lyric-slide-images/hallelujah.lyric.17.png",
+        "lyric-slide-images/hallelujah.lyric.18.png",
+        "lyric-slide-images/hallelujah.lyric.19.png",
+        "lyric-slide-images/hallelujah.lyric.20.png"
+      ],
+      "tracks": [
+        {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/hallelujah.melody.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "PIANO",
+          "src": "audio/hallelujah.piano.mp3",
+          "group": "piano"
+        }
+      ]
+    },
+    {
+      "title": "I KNOW A NAME",
+      "useImages": true,
+      "imageFiles": [
+        "name.sheet.01.png",
+        "name.sheet.02.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/name.lyric.01.png",
+        "lyric-slide-images/name.lyric.02.png",
+        "lyric-slide-images/name.lyric.03.png",
+        "lyric-slide-images/name.lyric.04.png",
+        "lyric-slide-images/name.lyric.05.png",
+        "lyric-slide-images/name.lyric.06.png",
+        "lyric-slide-images/name.lyric.07.png",
+        "lyric-slide-images/name.lyric.08.png",
+        "lyric-slide-images/name.lyric.09.png",
+        "lyric-slide-images/name.lyric.10.png",
+        "lyric-slide-images/name.lyric.11.png",
+        "lyric-slide-images/name.lyric.12.png",
+        "lyric-slide-images/name.lyric.13.png",
+        "lyric-slide-images/name.lyric.14.png",
+        "lyric-slide-images/name.lyric.15.png",
+        "lyric-slide-images/name.lyric.16.png",
+        "lyric-slide-images/name.lyric.17.png",
+        "lyric-slide-images/name.lyric.18.png",
+        "lyric-slide-images/name.lyric.19.png",
+        "lyric-slide-images/name.lyric.20.png",
+        "lyric-slide-images/name.lyric.21.png",
+        "lyric-slide-images/name.lyric.22.png",
+        "lyric-slide-images/name.lyric.23.png",
+        "lyric-slide-images/name.lyric.24.png",
+        "lyric-slide-images/name.lyric.25.png",
+        "lyric-slide-images/name.lyric.26.png",
+        "lyric-slide-images/name.lyric.27.png",
+        "lyric-slide-images/name.lyric.28.png",
+        "lyric-slide-images/name.lyric.29.png",
+        "lyric-slide-images/name.lyric.30.png",
+        "lyric-slide-images/name.lyric.31.png"
+      ],
+      "tracks": [
+        {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/name.melody.mp3",
           "group": "soprano"
         }
       ]
     },
     {
-      "title": "I WILL CHOOSE CHRIST",
-      "video": "L793clHztwo",
+      "title": "TRUST IN GOD",
       "useImages": true,
       "imageFiles": [
-        "choose.sheet.01.png",
-        "choose.sheet.02.png"
+        "trust.sheet.01.png",
+        "trust.sheet.02.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/choose.lyric.01.png",
-        "lyric-slide-images/choose.lyric.02.png",
-        "lyric-slide-images/choose.lyric.03.png",
-        "lyric-slide-images/choose.lyric.04.png",
-        "lyric-slide-images/choose.lyric.05.png",
-        "lyric-slide-images/choose.lyric.06.png",
-        "lyric-slide-images/choose.lyric.07.png",
-        "lyric-slide-images/choose.lyric.08.png",
-        "lyric-slide-images/choose.lyric.09.png",
-        "lyric-slide-images/choose.lyric.10.png",
-        "lyric-slide-images/choose.lyric.11.png",
-        "lyric-slide-images/choose.lyric.12.png",
-        "lyric-slide-images/choose.lyric.13.png",
-        "lyric-slide-images/choose.lyric.14.png",
-        "lyric-slide-images/choose.lyric.15.png",
-        "lyric-slide-images/choose.lyric.16.png",
-        "lyric-slide-images/choose.lyric.17.png"
+        "lyric-slide-images/trust.lyric.01.png",
+        "lyric-slide-images/trust.lyric.02.png",
+        "lyric-slide-images/trust.lyric.03.png",
+        "lyric-slide-images/trust.lyric.04.png",
+        "lyric-slide-images/trust.lyric.05.png",
+        "lyric-slide-images/trust.lyric.06.png",
+        "lyric-slide-images/trust.lyric.07.png",
+        "lyric-slide-images/trust.lyric.08.png",
+        "lyric-slide-images/trust.lyric.09.png"
       ],
-      "tracks": []
+      "tracks": [
+        {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/trust.melody.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "PIANO",
+          "src": "audio/trust.piano.mp3",
+          "group": "piano"
+        }
+      ]
     },
     {
-      "title": "CHRIST IS ENOUGH FOR ME",
-      "video": "dEGT8lrNyvw",
+      "title": "CHRIST IN ME ARISE",
       "useImages": true,
       "imageFiles": [
-        "enough.sheet.01.png",
-        "enough.sheet.02.png",
-        "enough.sheet.03.png",
-        "enough.sheet.04.png",
-        "enough.sheet.05.png",
-        "enough.sheet.06.png",
-        "enough.sheet.07.png",
-        "enough.sheet.08.png",
-        "enough.sheet.09.png",
-        "enough.sheet.10.png",
-        "enough.sheet.11.png",
-        "enough.sheet.12.png",
-        "enough.sheet.13.png",
-        "enough.sheet.14.png"
+        "christ-in-me.sheet.01.png",
+        "christ-in-me.sheet.02.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/enough.lyric.01.png",
-        "lyric-slide-images/enough.lyric.02.png",
-        "lyric-slide-images/enough.lyric.03.png",
-        "lyric-slide-images/enough.lyric.04.png",
-        "lyric-slide-images/enough.lyric.05.png",
-        "lyric-slide-images/enough.lyric.06.png",
-        "lyric-slide-images/enough.lyric.07.png",
-        "lyric-slide-images/enough.lyric.08.png",
-        "lyric-slide-images/enough.lyric.09.png",
-        "lyric-slide-images/enough.lyric.10.png",
-        "lyric-slide-images/enough.lyric.11.png",
-        "lyric-slide-images/enough.lyric.12.png",
-        "lyric-slide-images/enough.lyric.13.png",
-        "lyric-slide-images/enough.lyric.14.png",
-        "lyric-slide-images/enough.lyric.15.png",
-        "lyric-slide-images/enough.lyric.16.png",
-        "lyric-slide-images/enough.lyric.17.png"
+        "lyric-slide-images/christ-in-me.lyric.01.png",
+        "lyric-slide-images/christ-in-me.lyric.02.png",
+        "lyric-slide-images/christ-in-me.lyric.03.png",
+        "lyric-slide-images/christ-in-me.lyric.04.png",
+        "lyric-slide-images/christ-in-me.lyric.05.png",
+        "lyric-slide-images/christ-in-me.lyric.06.png",
+        "lyric-slide-images/christ-in-me.lyric.07.png",
+        "lyric-slide-images/christ-in-me.lyric.08.png",
+        "lyric-slide-images/christ-in-me.lyric.09.png",
+        "lyric-slide-images/christ-in-me.lyric.10.png",
+        "lyric-slide-images/christ-in-me.lyric.11.png",
+        "lyric-slide-images/christ-in-me.lyric.12.png",
+        "lyric-slide-images/christ-in-me.lyric.13.png",
+        "lyric-slide-images/christ-in-me.lyric.14.png",
+        "lyric-slide-images/christ-in-me.lyric.15.png"
       ],
-      "tracks": []
+      "tracks": [
+        {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/christ-in-me.melody.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "HARMONY",
+          "src": "audio/christ-in-me.harmony.mp3",
+          "group": "harmony"
+        }
+      ]
+    },
+    {
+      "title": "HIS EYE IS ON THE SPARROW",
+      "useImages": true,
+      "imageFiles": [
+        "sparrow.sheet.01.png",
+        "sparrow.sheet.02.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/sparrow.lyric.01.png",
+        "lyric-slide-images/sparrow.lyric.02.png",
+        "lyric-slide-images/sparrow.lyric.03.png",
+        "lyric-slide-images/sparrow.lyric.04.png",
+        "lyric-slide-images/sparrow.lyric.05.png",
+        "lyric-slide-images/sparrow.lyric.06.png",
+        "lyric-slide-images/sparrow.lyric.07.png",
+        "lyric-slide-images/sparrow.lyric.08.png",
+        "lyric-slide-images/sparrow.lyric.09.png",
+        "lyric-slide-images/sparrow.lyric.10.png",
+        "lyric-slide-images/sparrow.lyric.11.png",
+        "lyric-slide-images/sparrow.lyric.12.png",
+        "lyric-slide-images/sparrow.lyric.13.png",
+        "lyric-slide-images/sparrow.lyric.14.png",
+        "lyric-slide-images/sparrow.lyric.15.png",
+        "lyric-slide-images/sparrow.lyric.16.png",
+        "lyric-slide-images/sparrow.lyric.17.png",
+        "lyric-slide-images/sparrow.lyric.18.png"
+      ],
+      "tracks": [
+        {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/sparrow.melody.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "ALTO",
+          "src": "audio/sparrow.alto.mp3",
+          "group": "alto"
+        }
+      ]
     }
   ],
   "allSongsPdf": null,
