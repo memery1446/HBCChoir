@@ -4,254 +4,199 @@
     "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
-    "10,000 Reasons / Bless the Lord",
-    "Raise a Hallelujah",
-    "I Know a Name",
-    "Trust In God",
-    "Christ In Me Arise",
-    "CHOIR SPECIAL: His Eye Is On the Sparrow"
+    "Come, Thou Fount of Every Blessing",
+    "Grateful",
+    "Goodness of God",
+    "Throwback Worship Medley",
+    "CHOIR SPECIAL: Gratitude"
   ],
   "songs": [
     {
-      "title": "10,000 REASONS / BLESS THE LORD",
+      "title": "COME, THOU FOUNT OF EVERY BLESSING",
       "useImages": true,
       "imageFiles": [
-        "reasons.sheet.01.png",
-        "reasons.sheet.02.png"
+        "fount.sheet.01.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/reasons.lyric.01.png",
-        "lyric-slide-images/reasons.lyric.02.png",
-        "lyric-slide-images/reasons.lyric.03.png",
-        "lyric-slide-images/reasons.lyric.04.png",
-        "lyric-slide-images/reasons.lyric.05.png",
-        "lyric-slide-images/reasons.lyric.06.png",
-        "lyric-slide-images/reasons.lyric.07.png",
-        "lyric-slide-images/reasons.lyric.08.png",
-        "lyric-slide-images/reasons.lyric.09.png",
-        "lyric-slide-images/reasons.lyric.10.png",
-        "lyric-slide-images/reasons.lyric.11.png",
-        "lyric-slide-images/reasons.lyric.12.png",
-        "lyric-slide-images/reasons.lyric.13.png",
-        "lyric-slide-images/reasons.lyric.14.png",
-        "lyric-slide-images/reasons.lyric.15.png",
-        "lyric-slide-images/reasons.lyric.16.png"
+        "lyric-slide-images/fount.lyric.01.png",
+        "lyric-slide-images/fount.lyric.02.png",
+        "lyric-slide-images/fount.lyric.03.png",
+        "lyric-slide-images/fount.lyric.04.png",
+        "lyric-slide-images/fount.lyric.05.png",
+        "lyric-slide-images/fount.lyric.06.png",
+        "lyric-slide-images/fount.lyric.07.png",
+        "lyric-slide-images/fount.lyric.08.png",
+        "lyric-slide-images/fount.lyric.09.png",
+        "lyric-slide-images/fount.lyric.10.png",
+        "lyric-slide-images/fount.lyric.11.png",
+        "lyric-slide-images/fount.lyric.12.png",
+        "lyric-slide-images/fount.lyric.13.png",
+        "lyric-slide-images/fount.lyric.14.png",
+        "lyric-slide-images/fount.lyric.15.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/reasons.melody.mp3",
+          "src": "audio/fount.melody.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/reasons.alto.mp3",
+          "src": "audio/fount.alto.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/reasons.tenor.mp3",
+          "src": "audio/fount.tenor.mp3",
           "group": "tenor"
         }
       ]
     },
     {
-      "title": "RAISE A HALLELUJAH",
+      "title": "GRATEFUL",
+      "video": "RDYbGFYaA0SbY",
       "useImages": true,
       "imageFiles": [
-        "hallelujah.sheet.01.png",
-        "hallelujah.sheet.02.png",
-        "hallelujah.sheet.03.png",
-        "hallelujah.sheet.04.png"
+        "grateful.sheet.01.png",
+        "grateful.sheet.02.png",
+        "grateful.sheet.03.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/hallelujah.lyric.01.png",
-        "lyric-slide-images/hallelujah.lyric.02.png",
-        "lyric-slide-images/hallelujah.lyric.03.png",
-        "lyric-slide-images/hallelujah.lyric.04.png",
-        "lyric-slide-images/hallelujah.lyric.05.png",
-        "lyric-slide-images/hallelujah.lyric.06.png",
-        "lyric-slide-images/hallelujah.lyric.07.png",
-        "lyric-slide-images/hallelujah.lyric.08.png",
-        "lyric-slide-images/hallelujah.lyric.09.png",
-        "lyric-slide-images/hallelujah.lyric.10.png",
-        "lyric-slide-images/hallelujah.lyric.11.png",
-        "lyric-slide-images/hallelujah.lyric.12.png",
-        "lyric-slide-images/hallelujah.lyric.13.png",
-        "lyric-slide-images/hallelujah.lyric.14.png",
-        "lyric-slide-images/hallelujah.lyric.15.png",
-        "lyric-slide-images/hallelujah.lyric.16.png",
-        "lyric-slide-images/hallelujah.lyric.17.png",
-        "lyric-slide-images/hallelujah.lyric.18.png",
-        "lyric-slide-images/hallelujah.lyric.19.png",
-        "lyric-slide-images/hallelujah.lyric.20.png"
+        "lyric-slide-images/grateful.lyric.01.png",
+        "lyric-slide-images/grateful.lyric.02.png",
+        "lyric-slide-images/grateful.lyric.03.png",
+        "lyric-slide-images/grateful.lyric.04.png",
+        "lyric-slide-images/grateful.lyric.05.png",
+        "lyric-slide-images/grateful.lyric.06.png",
+        "lyric-slide-images/grateful.lyric.07.png",
+        "lyric-slide-images/grateful.lyric.08.png",
+        "lyric-slide-images/grateful.lyric.09.png",
+        "lyric-slide-images/grateful.lyric.10.png",
+        "lyric-slide-images/grateful.lyric.11.png",
+        "lyric-slide-images/grateful.lyric.12.png",
+        "lyric-slide-images/grateful.lyric.13.png",
+        "lyric-slide-images/grateful.lyric.14.png",
+        "lyric-slide-images/grateful.lyric.15.png",
+        "lyric-slide-images/grateful.lyric.16.png",
+        "lyric-slide-images/grateful.lyric.17.png",
+        "lyric-slide-images/grateful.lyric.18.png",
+        "lyric-slide-images/grateful.lyric.19.png",
+        "lyric-slide-images/grateful.lyric.20.png",
+        "lyric-slide-images/grateful.lyric.21.png",
+        "lyric-slide-images/grateful.lyric.22.png",
+        "lyric-slide-images/grateful.lyric.23.png"
       ],
-      "tracks": [
-        {
-          "name": "MELODY/SOPRANO",
-          "src": "audio/hallelujah.melody.mp3",
-          "group": "soprano"
-        },
-        {
-          "name": "PIANO",
-          "src": "audio/hallelujah.piano.mp3",
-          "group": "piano"
-        }
-      ]
+      "tracks": []
     },
     {
-      "title": "I KNOW A NAME",
+      "title": "GOODNESS OF GOD",
       "useImages": true,
       "imageFiles": [
-        "name.sheet.01.png",
-        "name.sheet.02.png"
+        "goodness.sheet.01.png",
+        "goodness.sheet.02.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/name.lyric.01.png",
-        "lyric-slide-images/name.lyric.02.png",
-        "lyric-slide-images/name.lyric.03.png",
-        "lyric-slide-images/name.lyric.04.png",
-        "lyric-slide-images/name.lyric.05.png",
-        "lyric-slide-images/name.lyric.06.png",
-        "lyric-slide-images/name.lyric.07.png",
-        "lyric-slide-images/name.lyric.08.png",
-        "lyric-slide-images/name.lyric.09.png",
-        "lyric-slide-images/name.lyric.10.png",
-        "lyric-slide-images/name.lyric.11.png",
-        "lyric-slide-images/name.lyric.12.png",
-        "lyric-slide-images/name.lyric.13.png",
-        "lyric-slide-images/name.lyric.14.png",
-        "lyric-slide-images/name.lyric.15.png",
-        "lyric-slide-images/name.lyric.16.png",
-        "lyric-slide-images/name.lyric.17.png",
-        "lyric-slide-images/name.lyric.18.png",
-        "lyric-slide-images/name.lyric.19.png",
-        "lyric-slide-images/name.lyric.20.png",
-        "lyric-slide-images/name.lyric.21.png",
-        "lyric-slide-images/name.lyric.22.png",
-        "lyric-slide-images/name.lyric.23.png",
-        "lyric-slide-images/name.lyric.24.png",
-        "lyric-slide-images/name.lyric.25.png",
-        "lyric-slide-images/name.lyric.26.png",
-        "lyric-slide-images/name.lyric.27.png",
-        "lyric-slide-images/name.lyric.28.png",
-        "lyric-slide-images/name.lyric.29.png",
-        "lyric-slide-images/name.lyric.30.png",
-        "lyric-slide-images/name.lyric.31.png"
+        "lyric-slide-images/goodness.lyric.01.png",
+        "lyric-slide-images/goodness.lyric.02.png",
+        "lyric-slide-images/goodness.lyric.03.png",
+        "lyric-slide-images/goodness.lyric.04.png",
+        "lyric-slide-images/goodness.lyric.05.png",
+        "lyric-slide-images/goodness.lyric.06.png",
+        "lyric-slide-images/goodness.lyric.07.png",
+        "lyric-slide-images/goodness.lyric.08.png",
+        "lyric-slide-images/goodness.lyric.09.png",
+        "lyric-slide-images/goodness.lyric.10.png",
+        "lyric-slide-images/goodness.lyric.11.png",
+        "lyric-slide-images/goodness.lyric.12.png",
+        "lyric-slide-images/goodness.lyric.13.png",
+        "lyric-slide-images/goodness.lyric.14.png",
+        "lyric-slide-images/goodness.lyric.15.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/name.melody.mp3",
+          "src": "audio/goodness.melody.mp3",
           "group": "soprano"
         }
       ]
     },
     {
-      "title": "TRUST IN GOD",
+      "title": "THROWBACK WORSHIP MEDLEY",
       "useImages": true,
       "imageFiles": [
-        "trust.sheet.01.png",
-        "trust.sheet.02.png"
+        "throwback.sheet.01.png",
+        "throwback.sheet.02.png",
+        "throwback.sheet.03.png",
+        "throwback.sheet.04.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/trust.lyric.01.png",
-        "lyric-slide-images/trust.lyric.02.png",
-        "lyric-slide-images/trust.lyric.03.png",
-        "lyric-slide-images/trust.lyric.04.png",
-        "lyric-slide-images/trust.lyric.05.png",
-        "lyric-slide-images/trust.lyric.06.png",
-        "lyric-slide-images/trust.lyric.07.png",
-        "lyric-slide-images/trust.lyric.08.png",
-        "lyric-slide-images/trust.lyric.09.png"
+        "lyric-slide-images/throwback.lyric.01.png",
+        "lyric-slide-images/throwback.lyric.02.png",
+        "lyric-slide-images/throwback.lyric.03.png",
+        "lyric-slide-images/throwback.lyric.04.png",
+        "lyric-slide-images/throwback.lyric.05.png",
+        "lyric-slide-images/throwback.lyric.06.png",
+        "lyric-slide-images/throwback.lyric.07.png",
+        "lyric-slide-images/throwback.lyric.08.png",
+        "lyric-slide-images/throwback.lyric.09.png",
+        "lyric-slide-images/throwback.lyric.10.png",
+        "lyric-slide-images/throwback.lyric.11.png",
+        "lyric-slide-images/throwback.lyric.12.png",
+        "lyric-slide-images/throwback.lyric.13.png",
+        "lyric-slide-images/throwback.lyric.14.png",
+        "lyric-slide-images/throwback.lyric.15.png",
+        "lyric-slide-images/throwback.lyric.16.png",
+        "lyric-slide-images/throwback.lyric.17.png",
+        "lyric-slide-images/throwback.lyric.18.png",
+        "lyric-slide-images/throwback.lyric.19.png",
+        "lyric-slide-images/throwback.lyric.20.png",
+        "lyric-slide-images/throwback.lyric.21.png",
+        "lyric-slide-images/throwback.lyric.22.png",
+        "lyric-slide-images/throwback.lyric.23.png",
+        "lyric-slide-images/throwback.lyric.24.png",
+        "lyric-slide-images/throwback.lyric.25.png",
+        "lyric-slide-images/throwback.lyric.26.png",
+        "lyric-slide-images/throwback.lyric.27.png",
+        "lyric-slide-images/throwback.lyric.28.png",
+        "lyric-slide-images/throwback.lyric.29.png",
+        "lyric-slide-images/throwback.lyric.30.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/trust.melody.mp3",
+          "src": "audio/throwback.melody.mp3",
           "group": "soprano"
-        },
-        {
-          "name": "PIANO",
-          "src": "audio/trust.piano.mp3",
-          "group": "piano"
         }
       ]
     },
     {
-      "title": "CHRIST IN ME ARISE",
+      "title": "GRATITUDE",
       "useImages": true,
       "imageFiles": [
-        "christ-in-me.sheet.01.png",
-        "christ-in-me.sheet.02.png"
+        "gratitude.sheet.01.png",
+        "gratitude.sheet.02.png",
+        "gratitude.sheet.03.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/christ-in-me.lyric.01.png",
-        "lyric-slide-images/christ-in-me.lyric.02.png",
-        "lyric-slide-images/christ-in-me.lyric.03.png",
-        "lyric-slide-images/christ-in-me.lyric.04.png",
-        "lyric-slide-images/christ-in-me.lyric.05.png",
-        "lyric-slide-images/christ-in-me.lyric.06.png",
-        "lyric-slide-images/christ-in-me.lyric.07.png",
-        "lyric-slide-images/christ-in-me.lyric.08.png",
-        "lyric-slide-images/christ-in-me.lyric.09.png",
-        "lyric-slide-images/christ-in-me.lyric.10.png",
-        "lyric-slide-images/christ-in-me.lyric.11.png",
-        "lyric-slide-images/christ-in-me.lyric.12.png",
-        "lyric-slide-images/christ-in-me.lyric.13.png",
-        "lyric-slide-images/christ-in-me.lyric.14.png",
-        "lyric-slide-images/christ-in-me.lyric.15.png"
+        "lyric-slide-images/gratitude.lyric.01.png",
+        "lyric-slide-images/gratitude.lyric.02.png",
+        "lyric-slide-images/gratitude.lyric.03.png",
+        "lyric-slide-images/gratitude.lyric.04.png",
+        "lyric-slide-images/gratitude.lyric.05.png",
+        "lyric-slide-images/gratitude.lyric.06.png",
+        "lyric-slide-images/gratitude.lyric.07.png",
+        "lyric-slide-images/gratitude.lyric.08.png",
+        "lyric-slide-images/gratitude.lyric.09.png",
+        "lyric-slide-images/gratitude.lyric.10.png",
+        "lyric-slide-images/gratitude.lyric.11.png",
+        "lyric-slide-images/gratitude.lyric.12.png",
+        "lyric-slide-images/gratitude.lyric.13.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/christ-in-me.melody.mp3",
+          "src": "audio/gratitude.melody.mp3",
           "group": "soprano"
-        },
-        {
-          "name": "HARMONY",
-          "src": "audio/christ-in-me.harmony.mp3",
-          "group": "harmony"
-        }
-      ]
-    },
-    {
-      "title": "HIS EYE IS ON THE SPARROW",
-      "useImages": true,
-      "imageFiles": [
-        "sparrow.sheet.01.png",
-        "sparrow.sheet.02.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/sparrow.lyric.01.png",
-        "lyric-slide-images/sparrow.lyric.02.png",
-        "lyric-slide-images/sparrow.lyric.03.png",
-        "lyric-slide-images/sparrow.lyric.04.png",
-        "lyric-slide-images/sparrow.lyric.05.png",
-        "lyric-slide-images/sparrow.lyric.06.png",
-        "lyric-slide-images/sparrow.lyric.07.png",
-        "lyric-slide-images/sparrow.lyric.08.png",
-        "lyric-slide-images/sparrow.lyric.09.png",
-        "lyric-slide-images/sparrow.lyric.10.png",
-        "lyric-slide-images/sparrow.lyric.11.png",
-        "lyric-slide-images/sparrow.lyric.12.png",
-        "lyric-slide-images/sparrow.lyric.13.png",
-        "lyric-slide-images/sparrow.lyric.14.png",
-        "lyric-slide-images/sparrow.lyric.15.png",
-        "lyric-slide-images/sparrow.lyric.16.png",
-        "lyric-slide-images/sparrow.lyric.17.png",
-        "lyric-slide-images/sparrow.lyric.18.png"
-      ],
-      "tracks": [
-        {
-          "name": "MELODY/SOPRANO",
-          "src": "audio/sparrow.melody.mp3",
-          "group": "soprano"
-        },
-        {
-          "name": "ALTO",
-          "src": "audio/sparrow.alto.mp3",
-          "group": "alto"
         }
       ]
     }

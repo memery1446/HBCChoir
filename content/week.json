@@ -4,11 +4,10 @@
     "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
-    { "slug": "reasons", "title": "10,000 Reasons / Bless the Lord" },
-    { "slug": "hallelujah", "title": "Raise a Hallelujah" },
-    { "slug": "name", "title": "I Know a Name" },
-    { "slug": "trust", "title": "Trust In God" },
-    { "slug": "christ-in-me", "title": "Christ In Me Arise" },
-    { "slug": "sparrow", "title": "His Eye Is On the Sparrow", "prefix": "CHOIR SPECIAL: " }
+    { "slug": "fount", "title": "Come, Thou Fount of Every Blessing" },
+    { "slug": "grateful", "title": "Grateful", "video": "RDYbGFYaA0SbY" },
+    { "slug": "goodness", "title": "Goodness of God" },
+    { "slug": "throwback", "title": "Throwback Worship Medley" },
+    { "slug": "gratitude", "title": "Gratitude", "prefix": "CHOIR SPECIAL: " }
   ]
 }
