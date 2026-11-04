@@ -10,6 +10,14 @@ const CARDS = [
     external: false,
   },
   {
+    href: "/cantata",
+    eyebrow: "Christmas Cantata",
+    title: "Candles and Carols",
+    body: "Our 2026 Christmas Cantata",
+    primary: false,
+    external: false,
+  },
+  {
     href: "/demo",
     eyebrow: "About this site",
     title: "Site Demo",
@@ -17,14 +25,7 @@ const CARDS = [
     primary: false,
     external: false,
   },
-  // {
-  //   href: "/series",
-  //   eyebrow: "Series",
-  //   title: "Arise and Build",
-  //   body: "A Study Through Nehemiah",
-  //   primary: false,
-  //   external: false,
-  // },
+
   // {
   //   href: "/spoken-word",
   //   eyebrow: "Digging Deeper Into God's Word",

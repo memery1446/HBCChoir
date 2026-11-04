@@ -7,7 +7,7 @@ const LINKS = [
     { href: "/", label: "Home" },
     { href: "/sunday", label: "This Sunday's Music" },
     { href: "/demo", label: "Site Demo" },
-    // { href: "/series", label: "Nehemiah Series" },
+    { href: "/cantata", label: "Christmas Cantata" },
     // { href: "/spoken-word", label: "Spoken Word" },
     { href: "/solos", label: "Solos / Special Music" }
 ];
