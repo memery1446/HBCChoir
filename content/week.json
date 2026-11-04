@@ -4,10 +4,10 @@
     "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
-    { "slug": "fount", "title": "Come, Thou Fount of Every Blessing" },
-    { "slug": "grateful", "title": "Grateful", "video": "YbGFYaA0SbY" },
-    { "slug": "goodness", "title": "Goodness of God" },
-    { "slug": "throwback", "title": "Throwback Worship Medley" },
-    { "slug": "gratitude", "title": "Gratitude", "prefix": "CHOIR SPECIAL: " }
+    { "slug": "worship", "title": "Come, Now Is the Time to Worship" },
+    { "slug": "open", "title": "Open the Eyes of My Heart" },
+    { "slug": "honour", "title": "All to Honour Jesus" },
+    { "slug": "soon", "title": "Soon and Very Soon" },
+    { "slug": "hallelujah", "title": "Hallelujah! Your Love Is Amazing", "prefix": "CHOIR SPECIAL: " }
   ]
 }
