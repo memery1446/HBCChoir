@@ -4,226 +4,215 @@
     "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
-    "Come, Now Is the Time to Worship",
-    "Open the Eyes of My Heart",
-    "All to Honour Jesus",
-    "Soon and Very Soon",
-    "CHOIR SPECIAL: Hallelujah! Your Love Is Amazing"
+    "House of the Lord",
+    "Evidence",
+    "Great Is Thy Faithfulness",
+    "The Heart of Worship",
+    "CHOIR SPECIAL: The Blessing"
   ],
   "songs": [
     {
-      "title": "COME, NOW IS THE TIME TO WORSHIP",
+      "title": "HOUSE OF THE LORD",
       "useImages": true,
       "imageFiles": [
-        "worship.sheet.01.png",
-        "worship.sheet.02.png"
+        "house.sheet.01.png",
+        "house.sheet.02.png"
       ],
       "lyricSlideImages": [
-        "lyric-slide-images/worship.lyric.01.png",
-        "lyric-slide-images/worship.lyric.02.png",
-        "lyric-slide-images/worship.lyric.03.png",
-        "lyric-slide-images/worship.lyric.04.png",
-        "lyric-slide-images/worship.lyric.05.png",
-        "lyric-slide-images/worship.lyric.06.png",
-        "lyric-slide-images/worship.lyric.07.png",
-        "lyric-slide-images/worship.lyric.08.png",
-        "lyric-slide-images/worship.lyric.09.png",
-        "lyric-slide-images/worship.lyric.10.png",
-        "lyric-slide-images/worship.lyric.11.png",
-        "lyric-slide-images/worship.lyric.12.png",
-        "lyric-slide-images/worship.lyric.13.png",
-        "lyric-slide-images/worship.lyric.14.png",
-        "lyric-slide-images/worship.lyric.15.png",
-        "lyric-slide-images/worship.lyric.16.png",
-        "lyric-slide-images/worship.lyric.17.png",
-        "lyric-slide-images/worship.lyric.18.png",
-        "lyric-slide-images/worship.lyric.19.png",
-        "lyric-slide-images/worship.lyric.20.png",
-        "lyric-slide-images/worship.lyric.21.png",
-        "lyric-slide-images/worship.lyric.22.png"
+        "lyric-slide-images/house.lyric.01.png",
+        "lyric-slide-images/house.lyric.02.png",
+        "lyric-slide-images/house.lyric.03.png",
+        "lyric-slide-images/house.lyric.04.png",
+        "lyric-slide-images/house.lyric.05.png",
+        "lyric-slide-images/house.lyric.06.png",
+        "lyric-slide-images/house.lyric.07.png",
+        "lyric-slide-images/house.lyric.08.png",
+        "lyric-slide-images/house.lyric.09.png",
+        "lyric-slide-images/house.lyric.10.png",
+        "lyric-slide-images/house.lyric.11.png",
+        "lyric-slide-images/house.lyric.12.png",
+        "lyric-slide-images/house.lyric.13.png",
+        "lyric-slide-images/house.lyric.14.png",
+        "lyric-slide-images/house.lyric.15.png",
+        "lyric-slide-images/house.lyric.16.png",
+        "lyric-slide-images/house.lyric.17.png",
+        "lyric-slide-images/house.lyric.18.png",
+        "lyric-slide-images/house.lyric.19.png",
+        "lyric-slide-images/house.lyric.20.png",
+        "lyric-slide-images/house.lyric.21.png",
+        "lyric-slide-images/house.lyric.22.png",
+        "lyric-slide-images/house.lyric.23.png",
+        "lyric-slide-images/house.lyric.24.png",
+        "lyric-slide-images/house.lyric.25.png",
+        "lyric-slide-images/house.lyric.26.png",
+        "lyric-slide-images/house.lyric.27.png",
+        "lyric-slide-images/house.lyric.28.png",
+        "lyric-slide-images/house.lyric.29.png",
+        "lyric-slide-images/house.lyric.30.png",
+        "lyric-slide-images/house.lyric.31.png",
+        "lyric-slide-images/house.lyric.32.png",
+        "lyric-slide-images/house.lyric.33.png",
+        "lyric-slide-images/house.lyric.34.png"
       ],
       "tracks": [
         {
           "name": "MELODY/SOPRANO",
-          "src": "audio/worship.melody.mp3",
+          "src": "audio/house.melody.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "PIANO",
+          "src": "audio/house.piano.mp3",
+          "group": "piano"
+        }
+      ]
+    },
+    {
+      "title": "EVIDENCE",
+      "video": "aoyr8nINYYE",
+      "useImages": true,
+      "imageFiles": [
+        "evidence.sheet.01.png",
+        "evidence.sheet.02.png",
+        "evidence.sheet.03.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/evidence.lyric.01.png",
+        "lyric-slide-images/evidence.lyric.02.png",
+        "lyric-slide-images/evidence.lyric.03.png",
+        "lyric-slide-images/evidence.lyric.04.png",
+        "lyric-slide-images/evidence.lyric.05.png",
+        "lyric-slide-images/evidence.lyric.06.png",
+        "lyric-slide-images/evidence.lyric.07.png",
+        "lyric-slide-images/evidence.lyric.08.png",
+        "lyric-slide-images/evidence.lyric.09.png",
+        "lyric-slide-images/evidence.lyric.10.png",
+        "lyric-slide-images/evidence.lyric.11.png",
+        "lyric-slide-images/evidence.lyric.12.png",
+        "lyric-slide-images/evidence.lyric.13.png",
+        "lyric-slide-images/evidence.lyric.14.png",
+        "lyric-slide-images/evidence.lyric.15.png",
+        "lyric-slide-images/evidence.lyric.16.png",
+        "lyric-slide-images/evidence.lyric.17.png",
+        "lyric-slide-images/evidence.lyric.18.png"
+      ],
+      "tracks": []
+    },
+    {
+      "title": "GREAT IS THY FAITHFULNESS",
+      "useImages": true,
+      "imageFiles": [
+        "faithfulness.sheet.01.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/faithfulness.lyric.01.png",
+        "lyric-slide-images/faithfulness.lyric.02.png",
+        "lyric-slide-images/faithfulness.lyric.03.png",
+        "lyric-slide-images/faithfulness.lyric.04.png",
+        "lyric-slide-images/faithfulness.lyric.05.png",
+        "lyric-slide-images/faithfulness.lyric.06.png",
+        "lyric-slide-images/faithfulness.lyric.07.png",
+        "lyric-slide-images/faithfulness.lyric.08.png",
+        "lyric-slide-images/faithfulness.lyric.09.png",
+        "lyric-slide-images/faithfulness.lyric.10.png",
+        "lyric-slide-images/faithfulness.lyric.11.png",
+        "lyric-slide-images/faithfulness.lyric.12.png",
+        "lyric-slide-images/faithfulness.lyric.13.png",
+        "lyric-slide-images/faithfulness.lyric.14.png",
+        "lyric-slide-images/faithfulness.lyric.15.png",
+        "lyric-slide-images/faithfulness.lyric.16.png",
+        "lyric-slide-images/faithfulness.lyric.17.png"
+      ],
+      "tracks": [
+        {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/faithfulness.melody.mp3",
           "group": "soprano"
         },
         {
           "name": "ALTO",
-          "src": "audio/worship.alto.mp3",
-          "group": "alto"
-        },
-        {
-          "name": "BASS",
-          "src": "audio/worship.bass.mp3",
-          "group": "bass"
-        }
-      ]
-    },
-    {
-      "title": "OPEN THE EYES OF MY HEART",
-      "useImages": true,
-      "imageFiles": [
-        "open.sheet.01.png",
-        "open.sheet.02.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/open.lyric.01.png",
-        "lyric-slide-images/open.lyric.02.png",
-        "lyric-slide-images/open.lyric.03.png",
-        "lyric-slide-images/open.lyric.04.png",
-        "lyric-slide-images/open.lyric.05.png",
-        "lyric-slide-images/open.lyric.06.png",
-        "lyric-slide-images/open.lyric.07.png",
-        "lyric-slide-images/open.lyric.08.png",
-        "lyric-slide-images/open.lyric.09.png",
-        "lyric-slide-images/open.lyric.10.png",
-        "lyric-slide-images/open.lyric.11.png"
-      ],
-      "tracks": [
-        {
-          "name": "MELODY/SOPRANO",
-          "src": "audio/open.melody.mp3",
-          "group": "soprano"
-        },
-        {
-          "name": "PIANO",
-          "src": "audio/open.piano.mp3",
-          "group": "piano"
-        }
-      ]
-    },
-    {
-      "title": "ALL TO HONOUR JESUS",
-      "useImages": true,
-      "imageFiles": [
-        "honour.sheet.01.png",
-        "honour.sheet.02.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/honour.lyric.01.png",
-        "lyric-slide-images/honour.lyric.02.png",
-        "lyric-slide-images/honour.lyric.03.png",
-        "lyric-slide-images/honour.lyric.04.png",
-        "lyric-slide-images/honour.lyric.05.png",
-        "lyric-slide-images/honour.lyric.06.png",
-        "lyric-slide-images/honour.lyric.07.png",
-        "lyric-slide-images/honour.lyric.08.png",
-        "lyric-slide-images/honour.lyric.09.png",
-        "lyric-slide-images/honour.lyric.10.png",
-        "lyric-slide-images/honour.lyric.11.png",
-        "lyric-slide-images/honour.lyric.12.png",
-        "lyric-slide-images/honour.lyric.13.png",
-        "lyric-slide-images/honour.lyric.14.png",
-        "lyric-slide-images/honour.lyric.15.png",
-        "lyric-slide-images/honour.lyric.16.png",
-        "lyric-slide-images/honour.lyric.17.png",
-        "lyric-slide-images/honour.lyric.18.png",
-        "lyric-slide-images/honour.lyric.19.png",
-        "lyric-slide-images/honour.lyric.20.png"
-      ],
-      "tracks": [
-        {
-          "name": "MELODY/SOPRANO",
-          "src": "audio/honour.melody.mp3",
-          "group": "soprano"
-        },
-        {
-          "name": "PIANO",
-          "src": "audio/honour.piano.mp3",
-          "group": "piano"
-        }
-      ]
-    },
-    {
-      "title": "SOON AND VERY SOON",
-      "useImages": true,
-      "imageFiles": [
-        "soon.sheet.01.png",
-        "soon.sheet.02.png",
-        "soon.sheet.03.png",
-        "soon.sheet.04.png",
-        "soon.sheet.05.png",
-        "soon.sheet.06.png",
-        "soon.sheet.07.png",
-        "soon.sheet.08.png",
-        "soon.sheet.09.png",
-        "soon.sheet.10.png",
-        "soon.sheet.11.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/soon.lyric.01.png",
-        "lyric-slide-images/soon.lyric.02.png",
-        "lyric-slide-images/soon.lyric.03.png",
-        "lyric-slide-images/soon.lyric.04.png",
-        "lyric-slide-images/soon.lyric.05.png",
-        "lyric-slide-images/soon.lyric.06.png",
-        "lyric-slide-images/soon.lyric.07.png",
-        "lyric-slide-images/soon.lyric.08.png",
-        "lyric-slide-images/soon.lyric.09.png",
-        "lyric-slide-images/soon.lyric.10.png",
-        "lyric-slide-images/soon.lyric.11.png",
-        "lyric-slide-images/soon.lyric.12.png",
-        "lyric-slide-images/soon.lyric.13.png"
-      ],
-      "tracks": [
-        {
-          "name": "MELODY/SOPRANO",
-          "src": "audio/soon.melody.mp3",
-          "group": "soprano"
-        },
-        {
-          "name": "PIANO",
-          "src": "audio/soon.piano.mp3",
-          "group": "piano"
-        }
-      ]
-    },
-    {
-      "title": "HALLELUJAH! YOUR LOVE IS AMAZING",
-      "useImages": true,
-      "imageFiles": [
-        "hallelujah.sheet.01.png",
-        "hallelujah.sheet.02.png",
-        "hallelujah.sheet.03.png",
-        "hallelujah.sheet.04.png",
-        "hallelujah.sheet.05.png",
-        "hallelujah.sheet.06.png",
-        "hallelujah.sheet.07.png",
-        "hallelujah.sheet.08.png",
-        "hallelujah.sheet.09.png"
-      ],
-      "lyricSlideImages": [
-        "lyric-slide-images/hallelujah.lyric.01.png",
-        "lyric-slide-images/hallelujah.lyric.02.png",
-        "lyric-slide-images/hallelujah.lyric.03.png",
-        "lyric-slide-images/hallelujah.lyric.04.png",
-        "lyric-slide-images/hallelujah.lyric.05.png",
-        "lyric-slide-images/hallelujah.lyric.06.png",
-        "lyric-slide-images/hallelujah.lyric.07.png",
-        "lyric-slide-images/hallelujah.lyric.08.png",
-        "lyric-slide-images/hallelujah.lyric.09.png"
-      ],
-      "tracks": [
-        {
-          "name": "MELODY/SOPRANO",
-          "src": "audio/hallelujah.melody.mp3",
-          "group": "soprano"
-        },
-        {
-          "name": "ALTO",
-          "src": "audio/hallelujah.alto.mp3",
+          "src": "audio/faithfulness.alto.mp3",
           "group": "alto"
         },
         {
           "name": "TENOR",
-          "src": "audio/hallelujah.tenor.mp3",
+          "src": "audio/faithfulness.tenor.mp3",
           "group": "tenor"
         },
         {
           "name": "BASS",
-          "src": "audio/hallelujah.bass.mp3",
+          "src": "audio/faithfulness.bass.mp3",
           "group": "bass"
+        },
+        {
+          "name": "PIANO",
+          "src": "audio/faithfulness.piano.mp3",
+          "group": "piano"
+        }
+      ]
+    },
+    {
+      "title": "THE HEART OF WORSHIP",
+      "useImages": true,
+      "imageFiles": [
+        "heart-worship.sheet.01.png",
+        "heart-worship.sheet.02.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/heart-worship.lyric.01.png",
+        "lyric-slide-images/heart-worship.lyric.02.png",
+        "lyric-slide-images/heart-worship.lyric.03.png",
+        "lyric-slide-images/heart-worship.lyric.04.png",
+        "lyric-slide-images/heart-worship.lyric.05.png",
+        "lyric-slide-images/heart-worship.lyric.06.png",
+        "lyric-slide-images/heart-worship.lyric.07.png",
+        "lyric-slide-images/heart-worship.lyric.08.png",
+        "lyric-slide-images/heart-worship.lyric.09.png",
+        "lyric-slide-images/heart-worship.lyric.10.png",
+        "lyric-slide-images/heart-worship.lyric.11.png",
+        "lyric-slide-images/heart-worship.lyric.12.png",
+        "lyric-slide-images/heart-worship.lyric.13.png"
+      ],
+      "tracks": [
+        {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/heart-worship.melody.mp3",
+          "group": "soprano"
+        },
+        {
+          "name": "ALTO",
+          "src": "audio/heart-worship.alto.mp3",
+          "group": "alto"
+        }
+      ]
+    },
+    {
+      "title": "THE BLESSING",
+      "useImages": true,
+      "imageFiles": [
+        "blessing.sheet.01.png"
+      ],
+      "lyricSlideImages": [
+        "lyric-slide-images/blessing.lyric.01.png",
+        "lyric-slide-images/blessing.lyric.02.png",
+        "lyric-slide-images/blessing.lyric.03.png",
+        "lyric-slide-images/blessing.lyric.04.png",
+        "lyric-slide-images/blessing.lyric.05.png",
+        "lyric-slide-images/blessing.lyric.06.png",
+        "lyric-slide-images/blessing.lyric.07.png",
+        "lyric-slide-images/blessing.lyric.08.png",
+        "lyric-slide-images/blessing.lyric.09.png",
+        "lyric-slide-images/blessing.lyric.10.png",
+        "lyric-slide-images/blessing.lyric.11.png",
+        "lyric-slide-images/blessing.lyric.12.png",
+        "lyric-slide-images/blessing.lyric.13.png",
+        "lyric-slide-images/blessing.lyric.14.png"
+      ],
+      "tracks": [
+        {
+          "name": "MELODY/SOPRANO",
+          "src": "audio/blessing.melody.mp3",
+          "group": "soprano"
         }
       ]
     }
