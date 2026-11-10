@@ -14,7 +14,7 @@ export default function Cantata() {
             </header>
 
             <div className="card">
-                <p>Our 2026 Christmas Cantata, presented by the Harmony Baptist Church choir.</p>
+                <p>2026 Christmas Cantata Study Video - Our Presentation: Sunday morning, December 20, 2026</p>
 
                 <div className="relative mt-6 aspect-video overflow-hidden rounded-lg bg-black">
                     <iframe
