@@ -4,10 +4,11 @@
     "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
-    { "slug": "house", "title": "House of the Lord" },
+    { "slug": "beauty", "title": "For the Beauty of the Earth" },
+    { "slug": "forever", "title": "Forever" },
     { "slug": "evidence", "title": "Evidence", "video": "pfH4MnBS_GA" },
-    { "slug": "faithfulness", "title": "Great Is Thy Faithfulness" },
-    { "slug": "heart-worship", "title": "The Heart of Worship" },
-    { "slug": "blessing", "title": "The Blessing", "prefix": "CHOIR SPECIAL: " }
+    { "slug": "gratitude", "title": "Gratitude" },
+    { "slug": "thanks", "title": "Give Thanks" },
+    { "slug": "tribute", "title": "My Tribute", "prefix": "CHOIR SPECIAL: " }
   ]
 }
