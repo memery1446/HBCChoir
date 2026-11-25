@@ -4,11 +4,11 @@
     "Choir meets Sundays at 4:30pm, and Wednesdays after Bible study as scheduled."
   ],
   "order": [
-    { "slug": "beauty", "title": "For the Beauty of the Earth" },
-    { "slug": "forever", "title": "Forever" },
-    { "slug": "evidence", "title": "Evidence", "video": "pfH4MnBS_GA" },
-    { "slug": "gratitude", "title": "Gratitude" },
-    { "slug": "thanks", "title": "Give Thanks" },
-    { "slug": "tribute", "title": "My Tribute", "prefix": "CHOIR SPECIAL: " }
+    { "slug": "ready-way", "title": "Ready the Way" },
+    { "slug": "come-thou-fount", "title": "Come Thou Fount of Every Blessing" },
+    { "slug": "take-life", "title": "Take My Life", "video": "ZWc69Hh0owY" },
+    { "slug": "build-life", "title": "Build My Life" },
+    { "slug": "christmas-offering", "title": "Christmas Offering" },
+    { "slug": "emmanuel-medley", "title": "Emmanuel Medley" }
   ]
 }
